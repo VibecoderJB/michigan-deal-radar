@@ -5,3 +5,4 @@ __pycache__/
 _site/
 *.tmp
 .DS_Store
+*.zip
