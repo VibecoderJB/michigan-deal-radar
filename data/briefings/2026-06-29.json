@@ -1,0 +1,177 @@
+{
+ "week_start": "2026-06-29",
+ "week_end": "2026-07-05",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "7 Michigan deals, $1.2M raised — led by Park Place Capital LLC",
+ "stats": {
+  "deal_count": 7,
+  "by_type": {
+   "Fundraise": 3,
+   "M&A": 0,
+   "Material Agreement": 3,
+   "Stake": 1
+  },
+  "capital_raised": 1200000,
+  "capital_targeted": 12850000,
+  "fund_count": 0
+ },
+ "trailing_4wk": {
+  "deal_count": 9.8,
+  "capital_raised": 102888402.8
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": -28.2,
+  "capital_raised_pct": -98.8
+ },
+ "top_deals": [
+  {
+   "id": "D-2140953-021-589329",
+   "company": "Park Place Capital LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Traverse City",
+   "sector": "Travel & Hospitality",
+   "amount": 10200000.0,
+   "amount_sold": 1100000.0,
+   "amount_is_estimate": false,
+   "summary": "Park Place Capital LLC, a Traverse City-based lodging and conventions company, filed a $10.2M equity offering under Rule 506(b); $1.1M sold to 2 investors.",
+   "filed": "2026-07-01"
+  },
+  {
+   "id": "D-2141118-021-589332",
+   "company": "Park Place Capital GP, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Traverse City",
+   "sector": "Travel & Hospitality",
+   "amount": 1900000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Park Place Capital GP, LLC, a Traverse City-based lodging and conventions company, filed a $1.9M equity offering under Rule 506(b); $0 sold.",
+   "filed": "2026-07-01"
+  },
+  {
+   "id": "D-1854526-021-589511",
+   "company": "Dynamic Aerospace Systems Corp",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Ann Arbor",
+   "sector": "Manufacturing & Automotive",
+   "amount": 750000.0,
+   "amount_sold": 100000.0,
+   "amount_is_estimate": false,
+   "summary": "Dynamic Aerospace Systems Corp, an Ann Arbor-based manufacturing company, filed a $750K equity and security to be acquired offering under Rule 506(b); $100K sold to 1 investor.",
+   "filed": "2026-07-02"
+  }
+ ],
+ "new_funds": [],
+ "notable_ma": [
+  {
+   "id": "13D-0001213900-26-073318",
+   "company": "ENDRA Life Sciences Inc.",
+   "ticker": "NDRA",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Ann Arbor",
+   "sector": "Health Care & Life Sciences",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Anthony DiGiandomenico reported a 9.9% stake in ENDRA Life Sciences Inc. (NDRA) (Schedule 13D/A amendment 1).",
+   "filed": "2026-06-29"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001193125-26-293500",
+   "company": "Gentherm Inc",
+   "ticker": "THRM",
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "city": "Novi",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Gentherm Inc (THRM) entered into a material definitive agreement (credit facility).",
+   "filed": "2026-07-02"
+  },
+  {
+   "id": "8K-0001104659-26-079925",
+   "company": "Jackson Financial Inc.",
+   "ticker": "JXN",
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "city": "Lansing",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Jackson Financial Inc. (JXN) entered into a material definitive agreement (credit facility).",
+   "filed": "2026-07-01"
+  },
+  {
+   "id": "8K-0001699350-26-000044",
+   "company": "Shoulder Innovations, Inc.",
+   "ticker": "SI",
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "city": "Grand Rapids",
+   "sector": "Health Care & Life Sciences",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Shoulder Innovations, Inc. (SI) entered into a material definitive agreement (credit facility).",
+   "filed": "2026-06-29"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Travel & Hospitality",
+   "count": 2,
+   "amount": 1100000.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 2,
+   "amount": 100000.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 2,
+   "amount": 0.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $1.2M sold across 3 Form D filings this week, down 99% vs. the prior 4-week average. The largest was Park Place Capital LLC (Traverse City, Lodging and Conventions) targeting $10.2M. Good question to ask: are founders in travel & hospitality favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2140953-021-589329"
+   ]
+  },
+  {
+   "topic": "Ownership moves",
+   "text": "Anthony DiGiandomenico reported a 9.9% stake in ENDRA Life Sciences Inc. (NDRA) (Schedule 13D/A amendment 1). Schedule 13D filers can push for strategic change, so it's worth asking whether shareholders see a sale or restructuring on the table.",
+   "deal_ids": [
+    "13D-0001213900-26-073318"
+   ]
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Manufacturing & Automotive was the most active sector with 2 of 7 filings (29%). Ask contacts what's driving the activity, and whether it's showing up in their pipeline.",
+   "deal_ids": [
+    "D-1854526-021-589511",
+    "8K-0001193125-26-293500"
+   ]
+  }
+ ]
+}

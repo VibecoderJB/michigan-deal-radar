@@ -1,0 +1,221 @@
+{
+ "week_start": "2025-12-01",
+ "week_end": "2025-12-07",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "6 Michigan deals, $25.5M raised — led by TXC Great Lakes Fund, LP",
+ "stats": {
+  "deal_count": 6,
+  "by_type": {
+   "Fundraise": 2,
+   "M&A": 3,
+   "Material Agreement": 1,
+   "Stake": 0
+  },
+  "capital_raised": 25500000,
+  "capital_targeted": 40875000,
+  "fund_count": 0
+ },
+ "trailing_4wk": {
+  "deal_count": 6.0,
+  "capital_raised": 41317477.2
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 0.0,
+  "capital_raised_pct": -38.3
+ },
+ "top_deals": [
+  {
+   "id": "D-2085755-021-557919",
+   "company": "TXC Great Lakes Fund, LP",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Holland",
+   "sector": "Real Estate",
+   "amount": 43620707.0,
+   "amount_sold": 43620707.0,
+   "amount_is_estimate": false,
+   "summary": "TXC Great Lakes Fund, LP, a Holland-based company, filed a Form D tied to a business combination (acquisition or merger); $43.6M of equity issued to 70 investors. (Amended filing.)",
+   "filed": "2025-12-04"
+  },
+  {
+   "id": "D-2098380-021-565350",
+   "company": "University Bancorp, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Ann Arbor",
+   "sector": "Financial Services",
+   "amount": 25000000.0,
+   "amount_sold": 25000000.0,
+   "amount_is_estimate": false,
+   "summary": "University Bancorp, Inc., an Ann Arbor-based commercial banking company, filed a $25M equity offering under Rule 506(b); $25M sold to 1 investor.",
+   "filed": "2025-12-01"
+  },
+  {
+   "id": "D-2046578-021-540141",
+   "company": "CCP Energy Fund I, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Bloomfield Hills",
+   "sector": "Other",
+   "amount": 15875000.0,
+   "amount_sold": 500000.0,
+   "amount_is_estimate": false,
+   "summary": "CCP Energy Fund I, LLC, a Bloomfield Hills-based company, filed a $15.9M equity offering under Rule 506(b); $500K sold to 7 investors. (Amended filing.)",
+   "filed": "2025-12-05"
+  },
+  {
+   "id": "D-2099398-021-565749",
+   "company": "Wolverine Insurance Co",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Dowagiac",
+   "sector": "Financial Services",
+   "amount": 7000000.0,
+   "amount_sold": 7000000.0,
+   "amount_is_estimate": false,
+   "summary": "Wolverine Insurance Co, a Dowagiac-based company, filed a Form D tied to a business combination (acquisition or merger); $7M of equity issued to 5 investors.",
+   "filed": "2025-12-04"
+  },
+  {
+   "id": "D-2029922-021-565745",
+   "company": "TPCN Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 706200.0,
+   "amount_sold": 706200.0,
+   "amount_is_estimate": false,
+   "summary": "TPCN Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $706.2K of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2025-12-04"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2029922-021-565745",
+   "company": "TPCN Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 706200.0,
+   "amount_sold": 706200.0,
+   "amount_is_estimate": false,
+   "summary": "TPCN Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $706.2K of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2025-12-04"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "D-2099398-021-565749",
+   "company": "Wolverine Insurance Co",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Dowagiac",
+   "sector": "Financial Services",
+   "amount": 7000000.0,
+   "amount_sold": 7000000.0,
+   "amount_is_estimate": false,
+   "summary": "Wolverine Insurance Co, a Dowagiac-based company, filed a Form D tied to a business combination (acquisition or merger); $7M of equity issued to 5 investors.",
+   "filed": "2025-12-04"
+  },
+  {
+   "id": "D-2085755-021-557919",
+   "company": "TXC Great Lakes Fund, LP",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Holland",
+   "sector": "Real Estate",
+   "amount": 43620707.0,
+   "amount_sold": 43620707.0,
+   "amount_is_estimate": false,
+   "summary": "TXC Great Lakes Fund, LP, a Holland-based company, filed a Form D tied to a business combination (acquisition or merger); $43.6M of equity issued to 70 investors. (Amended filing.)",
+   "filed": "2025-12-04"
+  },
+  {
+   "id": "D-2029922-021-565745",
+   "company": "TPCN Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 706200.0,
+   "amount_sold": 706200.0,
+   "amount_is_estimate": false,
+   "summary": "TPCN Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $706.2K of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2025-12-04"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001868159-25-000119",
+   "company": "Lineage, Inc.",
+   "ticker": "LINE",
+   "type": "Material Agreement",
+   "subtype": "Debt Offering",
+   "city": "Novi",
+   "sector": "Real Estate",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Lineage, Inc. (LINE) entered into a material definitive agreement (debt offering).",
+   "filed": "2025-12-02"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Real Estate",
+   "count": 2,
+   "amount": 43620707.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 2,
+   "amount": 32000000.0
+  },
+  {
+   "sector": "Private Funds",
+   "count": 1,
+   "amount": 706200.0
+  },
+  {
+   "sector": "Other",
+   "count": 1,
+   "amount": 500000.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $25.5M sold across 2 Form D filings this week, down 38% vs. the prior 4-week average. The largest was University Bancorp, Inc. (Ann Arbor, Commercial Banking) targeting $25M. Good question to ask: are founders in financial services favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2098380-021-565350"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "TXC Great Lakes Fund, LP disclosed a deal. It was one of 3 M&A filings this week. Use it to ask how buyers are valuing Michigan real estate assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "D-2099398-021-565749",
+    "D-2085755-021-557919",
+    "D-2029922-021-565745"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "1 Michigan-based pooled fund filed Form Ds, reporting $706.2K raised so far — led by TPCN Holdings, LLC (Business Combination (Form D)). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2029922-021-565745"
+   ]
+  }
+ ]
+}

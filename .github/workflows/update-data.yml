@@ -1,0 +1,68 @@
+name: Update data
+
+on:
+  schedule:
+    - cron: "17 11 * * *" # daily ~6-7am ET, after EDGAR's overnight indexing
+  workflow_dispatch:
+    inputs:
+      backfill_days:
+        description: "Optional: re-fetch this many days of history (e.g. 365)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      # Override in Settings -> Secrets and variables -> Actions -> Variables if you like.
+      SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT || 'MichiganDealRadar/1.0 (student research project; jacksonrbond@gmail.com)' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Unit tests
+        run: pytest -q
+
+      - name: Run pipeline
+        run: |
+          if [ -n "${{ inputs.backfill_days }}" ]; then
+            python -m pipeline.run --backfill "${{ inputs.backfill_days }}"
+          else
+            python -m pipeline.run
+          fi
+
+      - name: Commit updated data
+        run: |
+          git config user.name "deal-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "data: refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+  deploy:
+    needs: update
+    # Commits made with GITHUB_TOKEN don't trigger other workflows, so deploy explicitly.
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

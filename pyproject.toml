@@ -1,0 +1,12 @@
+[project]
+name = "michigan-deal-radar"
+version = "1.0.0"
+description = "Tracks Michigan M&A, private equity and private fundraising from SEC EDGAR filings."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 120

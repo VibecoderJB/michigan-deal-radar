@@ -1,0 +1,284 @@
+{
+ "week_start": "2025-12-15",
+ "week_end": "2025-12-21",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "11 Michigan deals, $42.6M raised — led by Orbion Space Technology, Inc.",
+ "stats": {
+  "deal_count": 11,
+  "by_type": {
+   "Fundraise": 5,
+   "M&A": 4,
+   "Material Agreement": 1,
+   "Stake": 1
+  },
+  "capital_raised": 42601183,
+  "capital_targeted": 52601175,
+  "fund_count": 2
+ },
+ "trailing_4wk": {
+  "deal_count": 9.5,
+  "capital_raised": 212186292.5
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 15.8,
+  "capital_raised_pct": -79.9
+ },
+ "top_deals": [
+  {
+   "id": "D-1711132-021-567504",
+   "company": "Orbion Space Technology, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Houghton",
+   "sector": "Technology",
+   "amount": 37072180.0,
+   "amount_sold": 27072188.0,
+   "amount_is_estimate": false,
+   "summary": "Orbion Space Technology, Inc., a Houghton-based technology company, filed a $37.1M equity offering under Rule 506(b); $27.1M sold to 25 investors.",
+   "filed": "2025-12-19"
+  },
+  {
+   "id": "8K-0001783398-25-000065",
+   "company": "UWM Holdings Corp",
+   "ticker": "UWMC",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Pontiac",
+   "sector": "Financial Services",
+   "amount": 25350000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "UWM Holdings Corp (UWMC) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$25.4M.",
+   "filed": "2025-12-19"
+  },
+  {
+   "id": "D-1680304-021-270312",
+   "company": "Kimball Capital Partners, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Canton",
+   "sector": "Private Funds",
+   "amount": 15000000.0,
+   "amount_sold": 15000000.0,
+   "amount_is_estimate": false,
+   "summary": "Kimball Capital Partners, LP, a Canton-based hedge fund, disclosed an open-ended (indefinite) raise; $15M sold to 16 investors. (Amended filing.)",
+   "filed": "2025-12-17"
+  },
+  {
+   "id": "D-2066264-021-552327",
+   "company": "Quantum Ridge Capital Partners, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Fenton",
+   "sector": "Private Funds",
+   "amount": 399195.0,
+   "amount_sold": 399195.0,
+   "amount_is_estimate": false,
+   "summary": "Quantum Ridge Capital Partners, L.P., a Fenton-based hedge fund, disclosed an open-ended (indefinite) raise; $399.2K sold to 1 investor. (Amended filing.)",
+   "filed": "2025-12-17"
+  },
+  {
+   "id": "D-2101613-021-567144",
+   "company": "Onpark South Pond LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Birmingham",
+   "sector": "Real Estate",
+   "amount": 127500.0,
+   "amount_sold": 127500.0,
+   "amount_is_estimate": false,
+   "summary": "Onpark South Pond LLC, a Birmingham-based residential real estate company, filed a $127.5K equity and pooled fund interests offering under Rule 506(b); $127.5K sold to 5 investors.",
+   "filed": "2025-12-17"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-1680304-021-270312",
+   "company": "Kimball Capital Partners, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Canton",
+   "sector": "Private Funds",
+   "amount": 15000000.0,
+   "amount_sold": 15000000.0,
+   "amount_is_estimate": false,
+   "summary": "Kimball Capital Partners, LP, a Canton-based hedge fund, disclosed an open-ended (indefinite) raise; $15M sold to 16 investors. (Amended filing.)",
+   "filed": "2025-12-17"
+  },
+  {
+   "id": "D-2066264-021-552327",
+   "company": "Quantum Ridge Capital Partners, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Fenton",
+   "sector": "Private Funds",
+   "amount": 399195.0,
+   "amount_sold": 399195.0,
+   "amount_is_estimate": false,
+   "summary": "Quantum Ridge Capital Partners, L.P., a Fenton-based hedge fund, disclosed an open-ended (indefinite) raise; $399.2K sold to 1 investor. (Amended filing.)",
+   "filed": "2025-12-17"
+  },
+  {
+   "id": "D-2101295-021-566948",
+   "company": "Precision Pool & Spa, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 1000.0,
+   "amount_sold": 1000.0,
+   "amount_is_estimate": false,
+   "summary": "Precision Pool & Spa, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $1K of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2025-12-16"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "8K-0001783398-25-000065",
+   "company": "UWM Holdings Corp",
+   "ticker": "UWMC",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Pontiac",
+   "sector": "Financial Services",
+   "amount": 25350000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "UWM Holdings Corp (UWMC) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$25.4M.",
+   "filed": "2025-12-19"
+  },
+  {
+   "id": "8K-0001437749-25-038454",
+   "company": "Mercantile Bank Corp",
+   "ticker": "MBWM",
+   "type": "M&A",
+   "subtype": "Deal Announcement",
+   "city": "Grand Rapids",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Mercantile Bank Corp (MBWM) disclosed merger/acquisition activity.",
+   "filed": "2025-12-19"
+  },
+  {
+   "id": "8K-0001437749-25-038066",
+   "company": "Mercantile Bank Corp",
+   "ticker": "MBWM",
+   "type": "M&A",
+   "subtype": "Deal Announcement",
+   "city": "Grand Rapids",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Mercantile Bank Corp (MBWM) disclosed merger/acquisition activity.",
+   "filed": "2025-12-17"
+  },
+  {
+   "id": "D-2101295-021-566948",
+   "company": "Precision Pool & Spa, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 1000.0,
+   "amount_sold": 1000.0,
+   "amount_is_estimate": false,
+   "summary": "Precision Pool & Spa, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $1K of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2025-12-16"
+  },
+  {
+   "id": "13D-0001174947-25-001437",
+   "company": "Kelly Services Inc",
+   "ticker": "KELYA",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "TROY",
+   "sector": "Business Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Terence E. Adderley Revocable Trust K and others reported a 93.5% stake in Kelly Services Inc (KELYA) (Schedule 13D/A amendment 2).",
+   "filed": "2025-12-16"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001213900-25-122347",
+   "company": "Bluerock Acquisition Corp.",
+   "ticker": "BLRK",
+   "type": "Material Agreement",
+   "subtype": "Debt Offering",
+   "city": "Southfield",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Bluerock Acquisition Corp. (BLRK) entered into a material definitive agreement (debt offering).",
+   "filed": "2025-12-16"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Financial Services",
+   "count": 4,
+   "amount": 0.0
+  },
+  {
+   "sector": "Private Funds",
+   "count": 3,
+   "amount": 15400195.0
+  },
+  {
+   "sector": "Technology",
+   "count": 2,
+   "amount": 27074488.0
+  },
+  {
+   "sector": "Real Estate",
+   "count": 1,
+   "amount": 127500.0
+  },
+  {
+   "sector": "Business Services",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $42.6M sold across 5 Form D filings this week, down 80% vs. the prior 4-week average. The largest was Orbion Space Technology, Inc. (Houghton, Other Technology) targeting $37.1M. Good question to ask: are founders in technology favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-1711132-021-567504"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "UWM Holdings Corp (UWMC) disclosed a deal. It was one of 4 M&A filings this week. Use it to ask how buyers are valuing Michigan financial services assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "8K-0001783398-25-000065",
+    "8K-0001437749-25-038454",
+    "8K-0001437749-25-038066"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "3 Michigan-based pooled funds filed Form Ds, reporting $15.4M raised so far — led by Kimball Capital Partners, LP (Hedge Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-1680304-021-270312",
+    "D-2066264-021-552327",
+    "D-2101295-021-566948"
+   ]
+  }
+ ]
+}

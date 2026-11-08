@@ -1,0 +1,109 @@
+{
+ "week_start": "2026-08-31",
+ "week_end": "2026-09-06",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "2 Michigan deals, $2.6M raised — led by Sprint Growth Fund, LP",
+ "stats": {
+  "deal_count": 2,
+  "by_type": {
+   "Fundraise": 2,
+   "M&A": 0,
+   "Material Agreement": 0,
+   "Stake": 0
+  },
+  "capital_raised": 2605000,
+  "capital_targeted": 2605000,
+  "fund_count": 1
+ },
+ "trailing_4wk": {
+  "deal_count": 13.2,
+  "capital_raised": 414951528.8
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": -84.9,
+  "capital_raised_pct": -99.4
+ },
+ "top_deals": [
+  {
+   "id": "D-2131125-021-596286",
+   "company": "Sprint Growth Fund, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Okemos",
+   "sector": "Private Funds",
+   "amount": 1550000.0,
+   "amount_sold": 1550000.0,
+   "amount_is_estimate": false,
+   "summary": "Sprint Growth Fund, LP, an Okemos-based venture capital fund, disclosed an open-ended (indefinite) raise; $1.6M sold to 10 investors.",
+   "filed": "2026-09-03"
+  },
+  {
+   "id": "D-2152960-021-596532",
+   "company": "MI Roof & Solar, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Ferndale",
+   "sector": "Other",
+   "amount": 1055000.0,
+   "amount_sold": 1055000.0,
+   "amount_is_estimate": false,
+   "summary": "MI Roof & Solar, LLC, a Ferndale-based company, filed a $1.1M pooled fund interests offering under Rule 506(b); $1.1M sold to 11 investors.",
+   "filed": "2026-09-04"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2131125-021-596286",
+   "company": "Sprint Growth Fund, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Okemos",
+   "sector": "Private Funds",
+   "amount": 1550000.0,
+   "amount_sold": 1550000.0,
+   "amount_is_estimate": false,
+   "summary": "Sprint Growth Fund, LP, an Okemos-based venture capital fund, disclosed an open-ended (indefinite) raise; $1.6M sold to 10 investors.",
+   "filed": "2026-09-03"
+  }
+ ],
+ "notable_ma": [],
+ "material_agreements": [],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 1,
+   "amount": 1550000.0
+  },
+  {
+   "sector": "Other",
+   "count": 1,
+   "amount": 1055000.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $2.6M sold across 2 Form D filings this week, down 99% vs. the prior 4-week average. The largest was MI Roof & Solar, LLC (Ferndale, Other) targeting $1.1M. Good question to ask: are founders in other favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2152960-021-596532"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "1 Michigan-based pooled fund filed Form Ds, reporting $1.6M raised so far — led by Sprint Growth Fund, LP (Venture Capital Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2131125-021-596286"
+   ]
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Private Funds was the most active sector with 1 of 2 filings (50%). Ask contacts what's driving the activity, and whether it's showing up in their pipeline.",
+   "deal_ids": [
+    "D-2131125-021-596286"
+   ]
+  }
+ ]
+}

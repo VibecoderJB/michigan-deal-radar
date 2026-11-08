@@ -1,0 +1,211 @@
+{
+ "week_start": "2026-06-22",
+ "week_end": "2026-06-28",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "9 Michigan deals, $13.3M raised — led by ENDRA Life Sciences Inc.",
+ "stats": {
+  "deal_count": 9,
+  "by_type": {
+   "Fundraise": 6,
+   "M&A": 2,
+   "Material Agreement": 1,
+   "Stake": 0
+  },
+  "capital_raised": 13331955,
+  "capital_targeted": 174173455,
+  "fund_count": 1
+ },
+ "trailing_4wk": {
+  "deal_count": 8.8,
+  "capital_raised": 99654414.0
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 2.9,
+  "capital_raised_pct": -86.6
+ },
+ "top_deals": [
+  {
+   "id": "8K-0001213900-26-072268",
+   "company": "ENDRA Life Sciences Inc.",
+   "ticker": "NDRA",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Ann Arbor",
+   "sector": "Health Care & Life Sciences",
+   "amount": 200000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "ENDRA Life Sciences Inc. (NDRA) disclosed a definitive merger/acquisition agreement with ASP Isotopes Inc.; filing cites a figure of ~$200M.",
+   "filed": "2026-06-26"
+  },
+  {
+   "id": "D-2142040-021-588618",
+   "company": "Enspire Fund, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 150000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Enspire Fund, LP, a Birmingham-based private equity fund, disclosed a $150M raise; $0 sold.",
+   "filed": "2026-06-25"
+  },
+  {
+   "id": "8K-0001193125-26-285573",
+   "company": "Universal Logistics Holdings, Inc.",
+   "ticker": "ULH",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Warren",
+   "sector": "Business Services",
+   "amount": 38000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Universal Logistics Holdings, Inc. (ULH) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$38M.",
+   "filed": "2026-06-26"
+  },
+  {
+   "id": "D-2077504-021-552620",
+   "company": "Sterile State, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Grand Rapids",
+   "sector": "Health Care & Life Sciences",
+   "amount": 13023455.0,
+   "amount_sold": 10781955.0,
+   "amount_is_estimate": false,
+   "summary": "Sterile State, Inc., a Grand Rapids-based health care company, filed a $13M equity offering under Rule 506(b); $10.8M sold to 69 investors. (Amended filing.)",
+   "filed": "2026-06-22"
+  },
+  {
+   "id": "D-2141786-021-588214",
+   "company": "Stagecoach Capital Wyndham Lakes LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Rochester",
+   "sector": "Other",
+   "amount": 8000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Stagecoach Capital Wyndham Lakes LLC, a Rochester-based company, filed a $8M equity offering under Rule 506(b); $0 sold.",
+   "filed": "2026-06-23"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2142040-021-588618",
+   "company": "Enspire Fund, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 150000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Enspire Fund, LP, a Birmingham-based private equity fund, disclosed a $150M raise; $0 sold.",
+   "filed": "2026-06-25"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "8K-0001213900-26-072268",
+   "company": "ENDRA Life Sciences Inc.",
+   "ticker": "NDRA",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Ann Arbor",
+   "sector": "Health Care & Life Sciences",
+   "amount": 200000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "ENDRA Life Sciences Inc. (NDRA) disclosed a definitive merger/acquisition agreement with ASP Isotopes Inc.; filing cites a figure of ~$200M.",
+   "filed": "2026-06-26"
+  },
+  {
+   "id": "8K-0001193125-26-285573",
+   "company": "Universal Logistics Holdings, Inc.",
+   "ticker": "ULH",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Warren",
+   "sector": "Business Services",
+   "amount": 38000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Universal Logistics Holdings, Inc. (ULH) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$38M.",
+   "filed": "2026-06-26"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001477932-26-004009",
+   "company": "Dynamic Aerospace Systems Corp",
+   "ticker": "BRQL",
+   "type": "Material Agreement",
+   "subtype": "Material Agreement",
+   "city": "Ann Arbor",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Dynamic Aerospace Systems Corp (BRQL) entered into a material definitive agreement.",
+   "filed": "2026-06-25"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Other",
+   "count": 3,
+   "amount": 2150000.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 2,
+   "amount": 10781955.0
+  },
+  {
+   "sector": "Technology",
+   "count": 1,
+   "amount": 400000.0
+  },
+  {
+   "sector": "Business Services",
+   "count": 1,
+   "amount": 0.0
+  },
+  {
+   "sector": "Private Funds",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $13.3M sold across 6 Form D filings this week, down 87% vs. the prior 4-week average. The largest was Sterile State, Inc. (Grand Rapids, Other Health Care) targeting $13M. Good question to ask: are founders in health care & life sciences favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2077504-021-552620"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "ENDRA Life Sciences Inc. (NDRA) disclosed a deal with ASP Isotopes Inc.. It was one of 2 M&A filings this week. Use it to ask how buyers are valuing Michigan health care & life sciences assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "8K-0001213900-26-072268",
+    "8K-0001193125-26-285573"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "1 Michigan-based pooled fund filed Form Ds, reporting $0 raised so far — led by Enspire Fund, LP (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2142040-021-588618"
+   ]
+  }
+ ]
+}

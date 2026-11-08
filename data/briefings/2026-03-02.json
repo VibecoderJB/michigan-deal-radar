@@ -1,0 +1,210 @@
+{
+ "week_start": "2026-03-02",
+ "week_end": "2026-03-08",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "7 Michigan deals, $257.5M raised — led by Sturbridge Diversified Private Equity Fund IV, L.P.",
+ "stats": {
+  "deal_count": 7,
+  "by_type": {
+   "Fundraise": 2,
+   "M&A": 1,
+   "Material Agreement": 1,
+   "Stake": 3
+  },
+  "capital_raised": 257488610,
+  "capital_targeted": 265300000,
+  "fund_count": 1
+ },
+ "trailing_4wk": {
+  "deal_count": 9.8,
+  "capital_raised": 157684463.0
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": -28.2,
+  "capital_raised_pct": 63.3
+ },
+ "top_deals": [
+  {
+   "id": "D-2114214-021-575369",
+   "company": "Sturbridge Diversified Private Equity Fund IV, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 255550000.0,
+   "amount_sold": 255550000.0,
+   "amount_is_estimate": false,
+   "summary": "Sturbridge Diversified Private Equity Fund IV, L.P., a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $255.6M sold to 112 investors.",
+   "filed": "2026-03-04"
+  },
+  {
+   "id": "8K-0001628280-26-013552",
+   "company": "Esperion Therapeutics, Inc.",
+   "ticker": "ESPR",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Ann Arbor",
+   "sector": "Health Care & Life Sciences",
+   "amount": 180000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Esperion Therapeutics, Inc. (ESPR) disclosed a definitive merger/acquisition agreement with Corstasis Therapeutics Inc.; filing cites a figure of ~$180M.",
+   "filed": "2026-03-03"
+  },
+  {
+   "id": "D-1615041-021-575210",
+   "company": "CloudLaw, Public Benefit Corp",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Traverse City",
+   "sector": "Technology",
+   "amount": 9750000.0,
+   "amount_sold": 1938610.0,
+   "amount_is_estimate": false,
+   "summary": "CloudLaw, Public Benefit Corp, a Traverse City-based technology company, filed a $9.8M equity offering under Rule 506(b); $1.9M sold to 4 investors.",
+   "filed": "2026-03-03"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2114214-021-575369",
+   "company": "Sturbridge Diversified Private Equity Fund IV, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 255550000.0,
+   "amount_sold": 255550000.0,
+   "amount_is_estimate": false,
+   "summary": "Sturbridge Diversified Private Equity Fund IV, L.P., a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $255.6M sold to 112 investors.",
+   "filed": "2026-03-04"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "13D-0001842002-26-000008",
+   "company": "UWM Holdings Corporation",
+   "ticker": "UWMC",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Pontiac",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Mat Ishbia and others reported a 81.7% stake in UWM Holdings Corporation (UWMC) (Schedule 13D/A amendment 13).",
+   "filed": "2026-03-05"
+  },
+  {
+   "id": "8K-0001628280-26-013552",
+   "company": "Esperion Therapeutics, Inc.",
+   "ticker": "ESPR",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Ann Arbor",
+   "sector": "Health Care & Life Sciences",
+   "amount": 180000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Esperion Therapeutics, Inc. (ESPR) disclosed a definitive merger/acquisition agreement with Corstasis Therapeutics Inc.; filing cites a figure of ~$180M.",
+   "filed": "2026-03-03"
+  },
+  {
+   "id": "13D-0001493152-26-008749",
+   "company": "Whirlpool Corp",
+   "ticker": "WHR",
+   "type": "Stake",
+   "subtype": "New 13D Position",
+   "city": "Benton Harbor",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Appaloosa LP and others reported a 4.9% stake in Whirlpool Corp (WHR).",
+   "filed": "2026-03-03"
+  },
+  {
+   "id": "13D-0001104659-26-022995",
+   "company": "Presurance Holdings, Inc.",
+   "ticker": "PRHI",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Troy",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Clarkston Ventures, LLC and others reported a 69.7% stake in Presurance Holdings, Inc. (PRHI) (Schedule 13D/A amendment 6).",
+   "filed": "2026-03-03"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001320461-26-000057",
+   "company": "Cooper-Standard Holdings Inc.",
+   "ticker": "CPS",
+   "type": "Material Agreement",
+   "subtype": "Debt Offering",
+   "city": "Northville",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Cooper-Standard Holdings Inc. (CPS) entered into a material definitive agreement (debt offering).",
+   "filed": "2026-03-04"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Financial Services",
+   "count": 2,
+   "amount": 0.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 2,
+   "amount": 0.0
+  },
+  {
+   "sector": "Private Funds",
+   "count": 1,
+   "amount": 255550000.0
+  },
+  {
+   "sector": "Technology",
+   "count": 1,
+   "amount": 1938610.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $257.5M sold across 2 Form D filings this week, up 63% vs. the prior 4-week average. The largest was CloudLaw, Public Benefit Corp (Traverse City, Other Technology) targeting $9.8M. Good question to ask: are founders in technology favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-1615041-021-575210"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "Esperion Therapeutics, Inc. (ESPR) disclosed a deal with Corstasis Therapeutics Inc.. Use it to ask how buyers are valuing Michigan health care & life sciences assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "8K-0001628280-26-013552"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "1 Michigan-based pooled fund filed Form Ds, reporting $255.6M raised so far — led by Sturbridge Diversified Private Equity Fund IV, L.P. (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2114214-021-575369"
+   ]
+  }
+ ]
+}

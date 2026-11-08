@@ -1,0 +1,211 @@
+{
+ "week_start": "2026-04-20",
+ "week_end": "2026-04-26",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "8 Michigan deals, $27.9M raised — led by Mudita Venture Fund Qp LLC",
+ "stats": {
+  "deal_count": 8,
+  "by_type": {
+   "Fundraise": 6,
+   "M&A": 0,
+   "Material Agreement": 1,
+   "Stake": 1
+  },
+  "capital_raised": 27850860,
+  "capital_targeted": 42800860,
+  "fund_count": 2
+ },
+ "trailing_4wk": {
+  "deal_count": 8.5,
+  "capital_raised": 52309460.5
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": -5.9,
+  "capital_raised_pct": -46.8
+ },
+ "top_deals": [
+  {
+   "id": "D-2126737-021-581425",
+   "company": "Mudita Venture Fund Qp LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Bingham Farms",
+   "sector": "Private Funds",
+   "amount": 15734860.0,
+   "amount_sold": 15734860.0,
+   "amount_is_estimate": false,
+   "summary": "Mudita Venture Fund Qp LLC, a Bingham Farms-based venture capital fund, disclosed a $15.7M raise; $15.7M sold to 38 investors.",
+   "filed": "2026-04-22"
+  },
+  {
+   "id": "D-1847166-021-541646",
+   "company": "Sharrow Engineering, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Harper Woods",
+   "sector": "Manufacturing & Automotive",
+   "amount": 15000000.0,
+   "amount_sold": 11550000.0,
+   "amount_is_estimate": false,
+   "summary": "Sharrow Engineering, Inc., a Harper Woods-based manufacturing company, filed a $15M debt and options/warrants offering under Rule 506(b); $11.6M sold to 14 investors. (Amended filing.)",
+   "filed": "2026-04-22"
+  },
+  {
+   "id": "D-2128606-021-581469",
+   "company": "Twin Capital Partners Fund I, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Livonia",
+   "sector": "Real Estate",
+   "amount": 10000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Twin Capital Partners Fund I, LLC, a Livonia-based real estate company, filed a $10M equity and pooled fund interests offering under Rule 506(c); $0 sold.",
+   "filed": "2026-04-22"
+  },
+  {
+   "id": "D-2131106-021-581643",
+   "company": "Dataisource Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Washington Township",
+   "sector": "Technology",
+   "amount": 2000000.0,
+   "amount_sold": 500000.0,
+   "amount_is_estimate": false,
+   "summary": "Dataisource Inc., a Washington Township-based technology company, filed a $2M equity offering under Rule 506(b); $500K sold to 1 investor.",
+   "filed": "2026-04-23"
+  },
+  {
+   "id": "D-2129756-021-581114",
+   "company": "Equipmate, Inc",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Okemos",
+   "sector": "Technology",
+   "amount": 66000.0,
+   "amount_sold": 66000.0,
+   "amount_is_estimate": false,
+   "summary": "Equipmate, Inc, an Okemos-based computers company, filed an indefinite-size options/warrants and security to be acquired offering under Rule 506(b); $66K sold to 5 investors.",
+   "filed": "2026-04-20"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2126737-021-581425",
+   "company": "Mudita Venture Fund Qp LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Bingham Farms",
+   "sector": "Private Funds",
+   "amount": 15734860.0,
+   "amount_sold": 15734860.0,
+   "amount_is_estimate": false,
+   "summary": "Mudita Venture Fund Qp LLC, a Bingham Farms-based venture capital fund, disclosed a $15.7M raise; $15.7M sold to 38 investors.",
+   "filed": "2026-04-22"
+  },
+  {
+   "id": "D-2130048-021-581682",
+   "company": "Bloomfield Capital Income Fund V, LLC - Series E",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Bloomfield Capital Income Fund V, LLC - Series E, a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
+   "filed": "2026-04-23"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "13D-0001842002-26-000019",
+   "company": "UWM Holdings Corporation",
+   "ticker": "UWMC",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Pontiac",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Mat Ishbia and others reported a 79.7% stake in UWM Holdings Corporation (UWMC) (Schedule 13D/A amendment 15).",
+   "filed": "2026-04-23"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001193125-26-173969",
+   "company": "Gentherm Inc",
+   "ticker": "THRM",
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "city": "Novi",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Gentherm Inc (THRM) entered into a material definitive agreement (credit facility).",
+   "filed": "2026-04-23"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 2,
+   "amount": 15734860.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 2,
+   "amount": 11550000.0
+  },
+  {
+   "sector": "Technology",
+   "count": 2,
+   "amount": 566000.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 1,
+   "amount": 0.0
+  },
+  {
+   "sector": "Real Estate",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $27.9M sold across 6 Form D filings this week, down 47% vs. the prior 4-week average. The largest was Sharrow Engineering, Inc. (Harper Woods, Manufacturing) targeting $15M. Good question to ask: are founders in manufacturing & automotive favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-1847166-021-541646"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "2 Michigan-based pooled funds filed Form Ds, reporting $15.7M raised so far — led by Mudita Venture Fund Qp LLC (Venture Capital Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2126737-021-581425",
+    "D-2130048-021-581682"
+   ]
+  },
+  {
+   "topic": "Ownership moves",
+   "text": "Mat Ishbia and others reported a 79.7% stake in UWM Holdings Corporation (UWMC) (Schedule 13D/A amendment 15). Schedule 13D filers can push for strategic change, so it's worth asking whether shareholders see a sale or restructuring on the table.",
+   "deal_ids": [
+    "13D-0001842002-26-000019"
+   ]
+  }
+ ]
+}

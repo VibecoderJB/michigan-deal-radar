@@ -1,0 +1,282 @@
+{
+ "week_start": "2026-03-09",
+ "week_end": "2026-03-15",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "11 Michigan deals, $92.5M raised — led by TCC MHP Holdings LLC",
+ "stats": {
+  "deal_count": 11,
+  "by_type": {
+   "Fundraise": 7,
+   "M&A": 1,
+   "Material Agreement": 3,
+   "Stake": 0
+  },
+  "capital_raised": 92493574,
+  "capital_targeted": 121376062,
+  "fund_count": 4
+ },
+ "trailing_4wk": {
+  "deal_count": 8.0,
+  "capital_raised": 148619778.0
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 37.5,
+  "capital_raised_pct": -37.8
+ },
+ "top_deals": [
+  {
+   "id": "D-1767624-021-333112",
+   "company": "TCC MHP Holdings LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Lapeer",
+   "sector": "Private Funds",
+   "amount": 53043021.0,
+   "amount_sold": 53043021.0,
+   "amount_is_estimate": false,
+   "summary": "TCC MHP Holdings LLC, a Lapeer-based investment fund, disclosed an open-ended (indefinite) raise; $53M sold to 112 investors. (Amended filing.)",
+   "filed": "2026-03-10"
+  },
+  {
+   "id": "D-2083186-021-576112",
+   "company": "Second Act Partners Fund II, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Ada",
+   "sector": "Private Funds",
+   "amount": 30000000.0,
+   "amount_sold": 9050000.0,
+   "amount_is_estimate": false,
+   "summary": "Second Act Partners Fund II, L.P., an Ada-based investment fund, disclosed a $30M raise; $9.1M sold to 17 investors.",
+   "filed": "2026-03-11"
+  },
+  {
+   "id": "D-2053072-021-576463",
+   "company": "Lemont Partners LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Birmingham",
+   "sector": "Other",
+   "amount": 20425000.0,
+   "amount_sold": 20425000.0,
+   "amount_is_estimate": false,
+   "summary": "Lemont Partners LLC, a Birmingham-based company, filed a $20.4M equity offering under Rule 506(b); $20.4M sold to 14 investors.",
+   "filed": "2026-03-13"
+  },
+  {
+   "id": "D-1974053-021-576177",
+   "company": "O2 Auto Service Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 8800000.0,
+   "amount_sold": 8800000.0,
+   "amount_is_estimate": false,
+   "summary": "O2 Auto Service Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $8.8M of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2026-03-11"
+  },
+  {
+   "id": "D-1689341-021-575857",
+   "company": "CubeWorks, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Ann Arbor",
+   "sector": "Technology",
+   "amount": 7028041.0,
+   "amount_sold": 4095553.0,
+   "amount_is_estimate": false,
+   "summary": "CubeWorks, Inc., an Ann Arbor-based technology company, filed a $7M equity offering under Rule 506(b); $4.1M sold to 20 investors.",
+   "filed": "2026-03-09"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-1767624-021-333112",
+   "company": "TCC MHP Holdings LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Lapeer",
+   "sector": "Private Funds",
+   "amount": 53043021.0,
+   "amount_sold": 53043021.0,
+   "amount_is_estimate": false,
+   "summary": "TCC MHP Holdings LLC, a Lapeer-based investment fund, disclosed an open-ended (indefinite) raise; $53M sold to 112 investors. (Amended filing.)",
+   "filed": "2026-03-10"
+  },
+  {
+   "id": "D-2083186-021-576112",
+   "company": "Second Act Partners Fund II, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Ada",
+   "sector": "Private Funds",
+   "amount": 30000000.0,
+   "amount_sold": 9050000.0,
+   "amount_is_estimate": false,
+   "summary": "Second Act Partners Fund II, L.P., an Ada-based investment fund, disclosed a $30M raise; $9.1M sold to 17 investors.",
+   "filed": "2026-03-11"
+  },
+  {
+   "id": "D-1974053-021-576177",
+   "company": "O2 Auto Service Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 8800000.0,
+   "amount_sold": 8800000.0,
+   "amount_is_estimate": false,
+   "summary": "O2 Auto Service Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $8.8M of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2026-03-11"
+  },
+  {
+   "id": "D-2057811-021-539462",
+   "company": "Chapel Oak Capital, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 5880000.0,
+   "amount_sold": 5880000.0,
+   "amount_is_estimate": false,
+   "summary": "Chapel Oak Capital, L.P., a Bloomfield Hills-based venture capital fund, disclosed an open-ended (indefinite) raise; $5.9M sold to 48 investors. (Amended filing.)",
+   "filed": "2026-03-10"
+  },
+  {
+   "id": "D-2106355-021-575924",
+   "company": "Fontinalis Special Opportunity Fund VF, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Detroit",
+   "sector": "Private Funds",
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Fontinalis Special Opportunity Fund VF, L.P., a Detroit-based venture capital fund, disclosed an open-ended (indefinite) raise; $0 sold.",
+   "filed": "2026-03-09"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "D-1974053-021-576177",
+   "company": "O2 Auto Service Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 8800000.0,
+   "amount_sold": 8800000.0,
+   "amount_is_estimate": false,
+   "summary": "O2 Auto Service Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $8.8M of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2026-03-11"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001336706-26-000017",
+   "company": "Northpointe Bancshares Inc",
+   "ticker": "NPB",
+   "type": "Material Agreement",
+   "subtype": "Debt Offering",
+   "city": "Grand Rapids",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Northpointe Bancshares Inc (NPB) entered into a material definitive agreement (debt offering).",
+   "filed": "2026-03-13"
+  },
+  {
+   "id": "8K-0001104659-26-027035",
+   "company": "ITC Holdings Corp.",
+   "ticker": null,
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "city": "Novi",
+   "sector": "Energy & Utilities",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "ITC Holdings Corp. entered into a material definitive agreement (credit facility).",
+   "filed": "2026-03-12"
+  },
+  {
+   "id": "8K-0001043337-26-000016",
+   "company": "Stoneridge Inc",
+   "ticker": "SRI",
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "city": "Novi",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Stoneridge Inc (SRI) entered into a material definitive agreement (credit facility).",
+   "filed": "2026-03-11"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 5,
+   "amount": 76773021.0
+  },
+  {
+   "sector": "Other",
+   "count": 1,
+   "amount": 20425000.0
+  },
+  {
+   "sector": "Technology",
+   "count": 1,
+   "amount": 4095553.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 1,
+   "amount": 0.0
+  },
+  {
+   "sector": "Real Estate",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $92.5M sold across 7 Form D filings this week, down 38% vs. the prior 4-week average. The largest was Lemont Partners LLC (Birmingham, Other) targeting $20.4M. Good question to ask: are founders in other favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2053072-021-576463"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "O2 Auto Service Holdings, LLC disclosed a deal. Use it to ask how buyers are valuing Michigan private funds assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "D-1974053-021-576177"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "5 Michigan-based pooled funds filed Form Ds, reporting $76.8M raised so far — led by TCC MHP Holdings LLC (Other Investment Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-1767624-021-333112",
+    "D-2083186-021-576112",
+    "D-1974053-021-576177"
+   ]
+  }
+ ]
+}

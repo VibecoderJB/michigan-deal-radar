@@ -1,0 +1,283 @@
+{
+ "week_start": "2025-12-08",
+ "week_end": "2025-12-14",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "12 Michigan deals, $674.3M raised — led by RHP Partners IV, LP",
+ "stats": {
+  "deal_count": 12,
+  "by_type": {
+   "Fundraise": 6,
+   "M&A": 2,
+   "Material Agreement": 1,
+   "Stake": 3
+  },
+  "capital_raised": 674343390,
+  "capital_targeted": 738293390,
+  "fund_count": 4
+ },
+ "trailing_4wk": {
+  "deal_count": 7.5,
+  "capital_raised": 47692477.2
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 60.0,
+  "capital_raised_pct": 1313.9
+ },
+ "top_deals": [
+  {
+   "id": "D-2005454-021-500403",
+   "company": "RHP Partners IV, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Farmington Hills",
+   "sector": "Private Funds",
+   "amount": 642820000.0,
+   "amount_sold": 642820000.0,
+   "amount_is_estimate": false,
+   "summary": "RHP Partners IV, LP, a Farmington Hills-based private equity fund, disclosed an open-ended (indefinite) raise; $642.8M sold to 14 investors. (Amended filing.)",
+   "filed": "2025-12-09"
+  },
+  {
+   "id": "D-2093711-021-566375",
+   "company": "Freedom Partners No. 3, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "West Bloomfield",
+   "sector": "Private Funds",
+   "amount": 50000000.0,
+   "amount_sold": 9175000.0,
+   "amount_is_estimate": false,
+   "summary": "Freedom Partners No. 3, LLC, a West Bloomfield-based private equity fund, disclosed a $50M raise; $9.2M sold to 9 investors.",
+   "filed": "2025-12-10"
+  },
+  {
+   "id": "D-2098247-021-566430",
+   "company": "Noblestone Credit Select II LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Southfield",
+   "sector": "Real Estate",
+   "amount": 25000000.0,
+   "amount_sold": 1875000.0,
+   "amount_is_estimate": false,
+   "summary": "Noblestone Credit Select II LLC, a Southfield-based real estate company, filed a $25M equity offering under Rule 506(b); $1.9M sold to 10 investors.",
+   "filed": "2025-12-11"
+  },
+  {
+   "id": "D-2006359-021-566474",
+   "company": "Inngest Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Royal Oak",
+   "sector": "Technology",
+   "amount": 20473390.0,
+   "amount_sold": 20473390.0,
+   "amount_is_estimate": false,
+   "summary": "Inngest Inc., a Royal Oak-based technology company, filed a $20.5M equity offering under Rule 506(b); $20.5M sold to 7 investors.",
+   "filed": "2025-12-11"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2005454-021-500403",
+   "company": "RHP Partners IV, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Farmington Hills",
+   "sector": "Private Funds",
+   "amount": 642820000.0,
+   "amount_sold": 642820000.0,
+   "amount_is_estimate": false,
+   "summary": "RHP Partners IV, LP, a Farmington Hills-based private equity fund, disclosed an open-ended (indefinite) raise; $642.8M sold to 14 investors. (Amended filing.)",
+   "filed": "2025-12-09"
+  },
+  {
+   "id": "D-2093711-021-566375",
+   "company": "Freedom Partners No. 3, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "West Bloomfield",
+   "sector": "Private Funds",
+   "amount": 50000000.0,
+   "amount_sold": 9175000.0,
+   "amount_is_estimate": false,
+   "summary": "Freedom Partners No. 3, LLC, a West Bloomfield-based private equity fund, disclosed a $50M raise; $9.2M sold to 9 investors.",
+   "filed": "2025-12-10"
+  },
+  {
+   "id": "D-2090108-021-566534",
+   "company": "O2 Investment Partners Fund V-B, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "O2 Investment Partners Fund V-B, L.P., a Bloomfield Hills-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
+   "filed": "2025-12-11"
+  },
+  {
+   "id": "D-2090105-021-566533",
+   "company": "O2 Investment Partners Fund V-A, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "O2 Investment Partners Fund V-A, L.P., a Bloomfield Hills-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
+   "filed": "2025-12-11"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "8K-0001193125-25-315864",
+   "company": "Steelcase Inc",
+   "ticker": "SCS",
+   "type": "M&A",
+   "subtype": "Acquisition/Disposition Completed",
+   "city": "Grand Rapids",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Steelcase Inc (SCS) reported completing an acquisition or disposition of assets.",
+   "filed": "2025-12-11"
+  },
+  {
+   "id": "13D-0000950103-25-016022",
+   "company": "Steelcase Inc.",
+   "ticker": "SCS",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Grand Rapids",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "HNI Corporation reported a 100% stake in Steelcase Inc. (SCS) (Schedule 13D/A amendment 1).",
+   "filed": "2025-12-11"
+  },
+  {
+   "id": "13D-0001842002-25-000032",
+   "company": "UWM Holdings Corporation",
+   "ticker": "UWMC",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Pontiac",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Mat Ishbia and others reported a 83.7% stake in UWM Holdings Corporation (UWMC) (Schedule 13D/A amendment 11).",
+   "filed": "2025-12-10"
+  },
+  {
+   "id": "13D-0001140361-25-045164",
+   "company": "Superior Industries International Inc",
+   "ticker": "SSUP",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Southfield",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "SUP Parent Holdings, LLC and others reported a 5%+ stake in Superior Industries International Inc (SSUP) (Schedule 13D/A amendment 1).",
+   "filed": "2025-12-10"
+  },
+  {
+   "id": "8K-0001140361-25-044874",
+   "company": "Superior Industries International Inc",
+   "ticker": "SSUP",
+   "type": "M&A",
+   "subtype": "Acquisition/Disposition Completed",
+   "city": "Southfield",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Superior Industries International Inc (SSUP) reported completing an acquisition or disposition of assets.",
+   "filed": "2025-12-08"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001336706-25-000012",
+   "company": "Northpointe Bancshares Inc",
+   "ticker": "NPB",
+   "type": "Material Agreement",
+   "subtype": "Debt Offering",
+   "city": "Grand Rapids",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Northpointe Bancshares Inc (NPB) entered into a material definitive agreement (debt offering).",
+   "filed": "2025-12-09"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 4,
+   "amount": 651995000.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 4,
+   "amount": 0.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 2,
+   "amount": 0.0
+  },
+  {
+   "sector": "Technology",
+   "count": 1,
+   "amount": 20473390.0
+  },
+  {
+   "sector": "Real Estate",
+   "count": 1,
+   "amount": 1875000.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $674.3M sold across 6 Form D filings this week, up 1314% vs. the prior 4-week average. The largest was Noblestone Credit Select II LLC (Southfield, Other Real Estate) targeting $25M. Good question to ask: are founders in real estate favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2098247-021-566430"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "Steelcase Inc (SCS) closed a transaction. It was one of 2 M&A filings this week. Use it to ask how buyers are valuing Michigan manufacturing & automotive assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "8K-0001193125-25-315864",
+    "8K-0001140361-25-044874"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "4 Michigan-based pooled funds filed Form Ds, reporting $652M raised so far — led by RHP Partners IV, LP (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2005454-021-500403",
+    "D-2093711-021-566375",
+    "D-2090108-021-566534"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,240 @@
+{
+ "week_start": "2026-02-09",
+ "week_end": "2026-02-15",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "9 Michigan deals, $279.8M raised — led by Nantucket Fund L P",
+ "stats": {
+  "deal_count": 9,
+  "by_type": {
+   "Fundraise": 7,
+   "M&A": 1,
+   "Material Agreement": 1,
+   "Stake": 0
+  },
+  "capital_raised": 279843873,
+  "capital_targeted": 5178169000,
+  "fund_count": 3
+ },
+ "trailing_4wk": {
+  "deal_count": 12.0,
+  "capital_raised": 172665796.5
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": -25.0,
+  "capital_raised_pct": 62.1
+ },
+ "top_deals": [
+  {
+   "id": "D-1006455-021-72111",
+   "company": "Nantucket Fund L P",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 5000000000.0,
+   "amount_sold": 244437652.0,
+   "amount_is_estimate": false,
+   "summary": "Nantucket Fund L P, a Bloomfield Hills-based investment fund, disclosed a $5B raise; $244.4M sold to 71 investors. (Amended filing.)",
+   "filed": "2026-02-12"
+  },
+  {
+   "id": "D-1318160-021-390225",
+   "company": "Nantucket Levered LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Bloomfield",
+   "sector": "Private Funds",
+   "amount": 100000000.0,
+   "amount_sold": 13911221.0,
+   "amount_is_estimate": false,
+   "summary": "Nantucket Levered LLC, a Bloomfield-based investment fund, disclosed a $100M raise; $13.9M sold to 7 investors. (Amended filing.)",
+   "filed": "2026-02-11"
+  },
+  {
+   "id": "D-2099310-021-572884",
+   "company": "Assembly Ventures Select Fund I, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Detroit",
+   "sector": "Private Funds",
+   "amount": 40000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Assembly Ventures Select Fund I, L.P., a Detroit-based venture capital fund, disclosed a $40M raise; $0 sold.",
+   "filed": "2026-02-09"
+  },
+  {
+   "id": "D-2028285-021-517479",
+   "company": "CU WealthNext, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Frankenmuth",
+   "sector": "Financial Services",
+   "amount": 35000000.0,
+   "amount_sold": 18500000.0,
+   "amount_is_estimate": false,
+   "summary": "CU WealthNext, LLC, a Frankenmuth-based financial services company, filed a $35M equity offering under Rule 506(b); $18.5M sold to 5 investors. (Amended filing.)",
+   "filed": "2026-02-09"
+  },
+  {
+   "id": "D-1974053-021-573381",
+   "company": "O2 Auto Service Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 4200000.0,
+   "amount_sold": 4200000.0,
+   "amount_is_estimate": false,
+   "summary": "O2 Auto Service Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $4.2M of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2026-02-12"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-1006455-021-72111",
+   "company": "Nantucket Fund L P",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 5000000000.0,
+   "amount_sold": 244437652.0,
+   "amount_is_estimate": false,
+   "summary": "Nantucket Fund L P, a Bloomfield Hills-based investment fund, disclosed a $5B raise; $244.4M sold to 71 investors. (Amended filing.)",
+   "filed": "2026-02-12"
+  },
+  {
+   "id": "D-1318160-021-390225",
+   "company": "Nantucket Levered LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Bloomfield",
+   "sector": "Private Funds",
+   "amount": 100000000.0,
+   "amount_sold": 13911221.0,
+   "amount_is_estimate": false,
+   "summary": "Nantucket Levered LLC, a Bloomfield-based investment fund, disclosed a $100M raise; $13.9M sold to 7 investors. (Amended filing.)",
+   "filed": "2026-02-11"
+  },
+  {
+   "id": "D-2099310-021-572884",
+   "company": "Assembly Ventures Select Fund I, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Detroit",
+   "sector": "Private Funds",
+   "amount": 40000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Assembly Ventures Select Fund I, L.P., a Detroit-based venture capital fund, disclosed a $40M raise; $0 sold.",
+   "filed": "2026-02-09"
+  },
+  {
+   "id": "D-1974053-021-573381",
+   "company": "O2 Auto Service Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 4200000.0,
+   "amount_sold": 4200000.0,
+   "amount_is_estimate": false,
+   "summary": "O2 Auto Service Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $4.2M of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2026-02-12"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "D-1974053-021-573381",
+   "company": "O2 Auto Service Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 4200000.0,
+   "amount_sold": 4200000.0,
+   "amount_is_estimate": false,
+   "summary": "O2 Auto Service Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $4.2M of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2026-02-12"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0000066382-26-000031",
+   "company": "Millerknoll, Inc.",
+   "ticker": "MLKN",
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "city": "Zeeland",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Millerknoll, Inc. (MLKN) entered into a material definitive agreement (credit facility).",
+   "filed": "2026-02-11"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 4,
+   "amount": 262548873.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 1,
+   "amount": 18500000.0
+  },
+  {
+   "sector": "Other",
+   "count": 1,
+   "amount": 1500000.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 1,
+   "amount": 1395000.0
+  },
+  {
+   "sector": "Business Services",
+   "count": 1,
+   "amount": 100000.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $279.8M sold across 7 Form D filings this week, up 62% vs. the prior 4-week average. The largest was CU WealthNext, LLC (Frankenmuth, Other Banking and Financial Services) targeting $35M. Good question to ask: are founders in financial services favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2028285-021-517479"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "O2 Auto Service Holdings, LLC disclosed a deal. Use it to ask how buyers are valuing Michigan private funds assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "D-1974053-021-573381"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "4 Michigan-based pooled funds filed Form Ds, reporting $262.5M raised so far — led by Nantucket Fund L P (Other Investment Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-1006455-021-72111",
+    "D-1318160-021-390225",
+    "D-2099310-021-572884"
+   ]
+  }
+ ]
+}

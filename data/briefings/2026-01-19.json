@@ -1,0 +1,210 @@
+{
+ "week_start": "2026-01-19",
+ "week_end": "2026-01-25",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "10 Michigan deals, $10M raised — led by New Community Transformation Fund II, L.P.",
+ "stats": {
+  "deal_count": 10,
+  "by_type": {
+   "Fundraise": 7,
+   "M&A": 0,
+   "Material Agreement": 2,
+   "Stake": 1
+  },
+  "capital_raised": 10005000,
+  "capital_targeted": 40450000,
+  "fund_count": 1
+ },
+ "trailing_4wk": {
+  "deal_count": 8.0,
+  "capital_raised": 128899677.5
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 25.0,
+  "capital_raised_pct": -92.2
+ },
+ "top_deals": [
+  {
+   "id": "D-2102028-021-571011",
+   "company": "New Community Transformation Fund II, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 20000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "New Community Transformation Fund II, L.P., a Grand Rapids-based venture capital fund, disclosed a $20M raise; $0 sold.",
+   "filed": "2026-01-23"
+  },
+  {
+   "id": "D-2101609-021-570634",
+   "company": "NP Indiana Investors LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Bloomfield Hills",
+   "sector": "Other",
+   "amount": 7000000.0,
+   "amount_sold": 6855000.0,
+   "amount_is_estimate": false,
+   "summary": "NP Indiana Investors LLC, a Bloomfield Hills-based company, filed a $7M equity offering under Rule 506(b); $6.9M sold to 29 investors.",
+   "filed": "2026-01-21"
+  },
+  {
+   "id": "D-2106843-021-570795",
+   "company": "CGC Income House 01 LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Grand Rapids",
+   "sector": "Real Estate",
+   "amount": 5000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "CGC Income House 01 LLC, a Grand Rapids-based commercial real estate company, filed a $5M equity offering under Rule 506(c); $0 sold.",
+   "filed": "2026-01-22"
+  },
+  {
+   "id": "D-2031492-021-570551",
+   "company": "NextFolio Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Traverse City",
+   "sector": "Financial Services",
+   "amount": 5000000.0,
+   "amount_sold": 100000.0,
+   "amount_is_estimate": false,
+   "summary": "NextFolio Inc., a Traverse City-based investment company, filed a $5M equity offering under Rule 506(c); $100K sold to 1 investor.",
+   "filed": "2026-01-21"
+  },
+  {
+   "id": "D-2105966-021-570484",
+   "company": "Swc Ci Wf LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Ann Arbor",
+   "sector": "Real Estate",
+   "amount": 2000000.0,
+   "amount_sold": 2000000.0,
+   "amount_is_estimate": false,
+   "summary": "Swc Ci Wf LLC, an Ann Arbor-based real estate company, filed an indefinite-size equity offering under Rule 506(b); $2M sold to 13 investors.",
+   "filed": "2026-01-20"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2102028-021-571011",
+   "company": "New Community Transformation Fund II, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 20000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "New Community Transformation Fund II, L.P., a Grand Rapids-based venture capital fund, disclosed a $20M raise; $0 sold.",
+   "filed": "2026-01-23"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "13D-0001193125-26-019685",
+   "company": "Alta Equipment Group Inc.",
+   "ticker": "ALTG",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Livonia",
+   "sector": "Consumer & Retail",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Mill Road Capital III, L.P. and others reported a 13.3% stake in Alta Equipment Group Inc. (ALTG) (Schedule 13D/A amendment 10).",
+   "filed": "2026-01-22"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001193125-26-019511",
+   "company": "Alta Equipment Group Inc.",
+   "ticker": "ALTG",
+   "type": "Material Agreement",
+   "subtype": "Material Agreement",
+   "city": "Livonia",
+   "sector": "Consumer & Retail",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Alta Equipment Group Inc. (ALTG) entered into a material definitive agreement.",
+   "filed": "2026-01-22"
+  },
+  {
+   "id": "8K-0000885550-26-000004",
+   "company": "Credit Acceptance Corp",
+   "ticker": "CACC",
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "city": "Southfield",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Credit Acceptance Corp (CACC) entered into a material definitive agreement (credit facility).",
+   "filed": "2026-01-20"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Real Estate",
+   "count": 3,
+   "amount": 2800000.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 2,
+   "amount": 100000.0
+  },
+  {
+   "sector": "Consumer & Retail",
+   "count": 2,
+   "amount": 0.0
+  },
+  {
+   "sector": "Other",
+   "count": 1,
+   "amount": 6855000.0
+  },
+  {
+   "sector": "Business Services",
+   "count": 1,
+   "amount": 250000.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $10M sold across 7 Form D filings this week, down 92% vs. the prior 4-week average. The largest was NP Indiana Investors LLC (Bloomfield Hills, Other) targeting $7M. Good question to ask: are founders in other favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2101609-021-570634"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "1 Michigan-based pooled fund filed Form Ds, reporting $0 raised so far — led by New Community Transformation Fund II, L.P. (Venture Capital Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2102028-021-571011"
+   ]
+  },
+  {
+   "topic": "Ownership moves",
+   "text": "Mill Road Capital III, L.P. and others reported a 13.3% stake in Alta Equipment Group Inc. (ALTG) (Schedule 13D/A amendment 10). Schedule 13D filers can push for strategic change, so it's worth asking whether shareholders see a sale or restructuring on the table.",
+   "deal_ids": [
+    "13D-0001193125-26-019685"
+   ]
+  }
+ ]
+}

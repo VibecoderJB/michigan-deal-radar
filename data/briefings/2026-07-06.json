@@ -1,0 +1,254 @@
+{
+ "week_start": "2026-07-06",
+ "week_end": "2026-07-12",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "9 Michigan deals, $29M raised — led by RPM Ventures Space, L.P.",
+ "stats": {
+  "deal_count": 9,
+  "by_type": {
+   "Fundraise": 6,
+   "M&A": 2,
+   "Material Agreement": 0,
+   "Stake": 1
+  },
+  "capital_raised": 29030557,
+  "capital_targeted": 233427230,
+  "fund_count": 2
+ },
+ "trailing_4wk": {
+  "deal_count": 9.8,
+  "capital_raised": 10908238.8
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": -7.7,
+  "capital_raised_pct": 166.1
+ },
+ "top_deals": [
+  {
+   "id": "D-2142989-021-590405",
+   "company": "RPM Ventures Space, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Ann Arbor",
+   "sector": "Private Funds",
+   "amount": 165000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "RPM Ventures Space, L.P., an Ann Arbor-based venture capital fund, disclosed a $165M raise; $0 sold.",
+   "filed": "2026-07-10"
+  },
+  {
+   "id": "D-2142990-021-590408",
+   "company": "RPM Ventures Space A, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Ann Arbor",
+   "sector": "Private Funds",
+   "amount": 35000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "RPM Ventures Space A, L.P., an Ann Arbor-based venture capital fund, disclosed a $35M raise; $0 sold.",
+   "filed": "2026-07-10"
+  },
+  {
+   "id": "D-2079211-021-590060",
+   "company": "Hachem Properties LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Inkster",
+   "sector": "Real Estate",
+   "amount": 25000000.0,
+   "amount_sold": 25000000.0,
+   "amount_is_estimate": false,
+   "summary": "Hachem Properties LLC, an Inkster-based commercial real estate company, filed a $25M equity offering under Rule 506(b); $25M sold to 1 investor.",
+   "filed": "2026-07-09"
+  },
+  {
+   "id": "D-2029922-021-590003",
+   "company": "TPCN Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 6134800.0,
+   "amount_sold": 6134800.0,
+   "amount_is_estimate": false,
+   "summary": "TPCN Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $6.1M of equity and pooled fund interests issued to 8 investors.",
+   "filed": "2026-07-08"
+  },
+  {
+   "id": "D-1622872-021-590234",
+   "company": "Akadeum Life Sciences, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Ann Arbor",
+   "sector": "Health Care & Life Sciences",
+   "amount": 3427230.0,
+   "amount_sold": 2130557.0,
+   "amount_is_estimate": false,
+   "summary": "Akadeum Life Sciences, Inc., an Ann Arbor-based biotechnology company, filed a $3.4M equity offering under Rule 506(b); $2.1M sold to 9 investors.",
+   "filed": "2026-07-09"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2142989-021-590405",
+   "company": "RPM Ventures Space, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Ann Arbor",
+   "sector": "Private Funds",
+   "amount": 165000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "RPM Ventures Space, L.P., an Ann Arbor-based venture capital fund, disclosed a $165M raise; $0 sold.",
+   "filed": "2026-07-10"
+  },
+  {
+   "id": "D-2142990-021-590408",
+   "company": "RPM Ventures Space A, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Ann Arbor",
+   "sector": "Private Funds",
+   "amount": 35000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "RPM Ventures Space A, L.P., an Ann Arbor-based venture capital fund, disclosed a $35M raise; $0 sold.",
+   "filed": "2026-07-10"
+  },
+  {
+   "id": "D-2029922-021-590003",
+   "company": "TPCN Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 6134800.0,
+   "amount_sold": 6134800.0,
+   "amount_is_estimate": false,
+   "summary": "TPCN Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $6.1M of equity and pooled fund interests issued to 8 investors.",
+   "filed": "2026-07-08"
+  },
+  {
+   "id": "D-2144218-021-590007",
+   "company": "Subcomm Pools, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 1000.0,
+   "amount_sold": 1000.0,
+   "amount_is_estimate": false,
+   "summary": "Subcomm Pools, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $1K of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2026-07-08"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "D-2144218-021-590007",
+   "company": "Subcomm Pools, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 1000.0,
+   "amount_sold": 1000.0,
+   "amount_is_estimate": false,
+   "summary": "Subcomm Pools, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $1K of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2026-07-08"
+  },
+  {
+   "id": "D-2029922-021-590003",
+   "company": "TPCN Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 6134800.0,
+   "amount_sold": 6134800.0,
+   "amount_is_estimate": false,
+   "summary": "TPCN Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $6.1M of equity and pooled fund interests issued to 8 investors.",
+   "filed": "2026-07-08"
+  },
+  {
+   "id": "13D-0001104659-26-081270",
+   "company": "Credit Acceptance Corporation",
+   "ticker": "CACC",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Southfield",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Prescott General Partners LLC and others reported a 13.6% stake in Credit Acceptance Corporation (CACC) (Schedule 13D/A amendment 14).",
+   "filed": "2026-07-07"
+  }
+ ],
+ "material_agreements": [],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 4,
+   "amount": 6135800.0
+  },
+  {
+   "sector": "Real Estate",
+   "count": 2,
+   "amount": 25000000.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 1,
+   "amount": 2130557.0
+  },
+  {
+   "sector": "Consumer & Retail",
+   "count": 1,
+   "amount": 1900000.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $29M sold across 6 Form D filings this week, up 166% vs. the prior 4-week average. The largest was Hachem Properties LLC (Inkster, Commercial) targeting $25M. Good question to ask: are founders in real estate favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2079211-021-590060"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "TPCN Holdings, LLC disclosed a deal. It was one of 2 M&A filings this week. Use it to ask how buyers are valuing Michigan private funds assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "D-2144218-021-590007",
+    "D-2029922-021-590003"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "4 Michigan-based pooled funds filed Form Ds, reporting $6.1M raised so far — led by RPM Ventures Space, L.P. (Venture Capital Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2142989-021-590405",
+    "D-2142990-021-590408",
+    "D-2029922-021-590003"
+   ]
+  }
+ ]
+}

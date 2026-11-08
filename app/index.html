@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Michigan Deal Radar</title>
+  <meta name="description" content="Free tracker of M&A, private equity and private fundraising activity involving Michigan companies, built from SEC EDGAR filings.">
+  <meta name="theme-color" content="#07111f">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Deal Radar">
+  <!-- iOS splash screens (portrait) -->
+  <link rel="apple-touch-startup-image" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3)" href="icons/splash/splash-1290x2796.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3)" href="icons/splash/splash-1179x2556.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3)" href="icons/splash/splash-1284x2778.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3)" href="icons/splash/splash-1170x2532.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="icons/splash/splash-1125x2436.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" href="icons/splash/splash-828x1792.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="icons/splash/splash-750x1334.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="vendor/chart.umd.js" defer></script>
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <div id="splash" class="splash" aria-hidden="true">
+    <img src="icons/icon-192.png" alt="" width="88" height="88">
+    <div class="splash-title">Michigan Deal Radar</div>
+    <div class="splash-sub">Loading SEC filings…</div>
+  </div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <a class="brand" href="#/dashboard" aria-label="Michigan Deal Radar home">
+      <img src="icons/favicon.svg" alt="" width="28" height="28">
+      <span class="brand-text">Michigan <strong>Deal Radar</strong></span>
+    </a>
+    <div class="topbar-meta">
+      <span id="freshness" class="freshness mono" title="When the data was last refreshed"></span>
+      <button id="install-btn" class="btn btn-accent btn-sm" hidden>Install app</button>
+    </div>
+  </header>
+
+  <div id="offline-banner" class="banner" role="status" hidden></div>
+
+  <div class="layout">
+    <nav class="sidenav" aria-label="Primary">
+      <a href="#/dashboard" data-nav="dashboard"><svg viewBox="0 0 24 24"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg><span>Dashboard</span></a>
+      <a href="#/deals" data-nav="deals"><svg viewBox="0 0 24 24"><path d="M3 5h18v2H3V5zm0 6h18v2H3v-2zm0 6h18v2H3v-2z"/></svg><span>Deals</span></a>
+      <a href="#/briefing" data-nav="briefing"><svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H6V2zm8 1.5V8h4.5L14 3.5zM8 12h8v1.5H8V12zm0 3.5h8V17H8v-1.5zm0-7h4V10H8V8.5z"/></svg><span>Briefing</span></a>
+      <a href="#/watchlist" data-nav="watchlist"><svg viewBox="0 0 24 24"><path d="M12 17.3l-6.2 3.7 1.7-7L2 9.2l7.2-.6L12 2l2.8 6.6 7.2.6-5.5 4.8 1.7 7z"/></svg><span>Watchlist</span></a>
+      <a href="#/about" data-nav="about"><svg viewBox="0 0 24 24"><path d="M11 7h2v2h-2V7zm0 4h2v6h-2v-6zm1-9a10 10 0 100 20 10 10 0 000-20zm0 18a8 8 0 110-16 8 8 0 010 16z"/></svg><span>About</span></a>
+    </nav>
+    <main id="main" class="main" tabindex="-1"></main>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">Michigan Deal Radar needs JavaScript enabled.</p></noscript>
+</body>
+</html>

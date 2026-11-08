@@ -1,0 +1,28 @@
+{
+  "name": "Michigan Deal Radar",
+  "short_name": "Deal Radar",
+  "description": "M&A, private equity and private fundraising activity involving Michigan companies, built from SEC EDGAR filings.",
+  "id": "./",
+  "start_url": "./#/dashboard",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "categories": ["finance", "business", "news"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "Weekly Briefing", "short_name": "Briefing", "url": "./#/briefing", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Deal Table", "short_name": "Deals", "url": "./#/deals", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Watchlist", "url": "./#/watchlist", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ],
+  "screenshots": [
+    { "src": "icons/screenshot-mobile.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "Dashboard" },
+    { "src": "icons/screenshot-desktop.png", "sizes": "2560x1600", "type": "image/png", "form_factor": "wide", "label": "Deal table" }
+  ]
+}

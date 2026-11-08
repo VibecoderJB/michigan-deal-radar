@@ -1,0 +1,231 @@
+{
+ "week_start": "2026-06-15",
+ "week_end": "2026-06-21",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "10 Michigan deals, $2K raised — led by Isabella Bank Corp",
+ "stats": {
+  "deal_count": 10,
+  "by_type": {
+   "Fundraise": 1,
+   "M&A": 3,
+   "Material Agreement": 6,
+   "Stake": 0
+  },
+  "capital_raised": 2000,
+  "capital_targeted": 2000,
+  "fund_count": 0
+ },
+ "trailing_4wk": {
+  "deal_count": 9.0,
+  "capital_raised": 142079070.5
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 11.1,
+  "capital_raised_pct": -100.0
+ },
+ "top_deals": [
+  {
+   "id": "8K-0000842517-26-000158",
+   "company": "Isabella Bank Corp",
+   "ticker": "ISBA",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Mt Pleasant",
+   "sector": "Financial Services",
+   "amount": 45700000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Isabella Bank Corp (ISBA) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$45.7M.",
+   "filed": "2026-06-15"
+  },
+  {
+   "id": "D-2085246-021-587568",
+   "company": "Ceramic Orthopedics Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Bloomfield Hills",
+   "sector": "Health Care & Life Sciences",
+   "amount": 2000.0,
+   "amount_sold": 2000.0,
+   "amount_is_estimate": false,
+   "summary": "Ceramic Orthopedics Inc., a Bloomfield Hills-based health care company, filed a $2K equity offering under Rule 506(b); $2K sold to 19 investors.",
+   "filed": "2026-06-16"
+  }
+ ],
+ "new_funds": [],
+ "notable_ma": [
+  {
+   "id": "8K-0000039311-26-000053",
+   "company": "Independent Bank Corp",
+   "ticker": "IBCP",
+   "type": "M&A",
+   "subtype": "Deal Announcement",
+   "city": "Grand Rapids",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Independent Bank Corp (IBCP) disclosed merger/acquisition activity.",
+   "filed": "2026-06-18"
+  },
+  {
+   "id": "8K-0001104659-26-074558",
+   "company": "Esperion Therapeutics, Inc.",
+   "ticker": "ESPR",
+   "type": "M&A",
+   "subtype": "Deal Announcement",
+   "city": "Ann Arbor",
+   "sector": "Health Care & Life Sciences",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Esperion Therapeutics, Inc. (ESPR) disclosed merger/acquisition activity with Essence Parent Inc.",
+   "filed": "2026-06-16"
+  },
+  {
+   "id": "8K-0000842517-26-000158",
+   "company": "Isabella Bank Corp",
+   "ticker": "ISBA",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Mt Pleasant",
+   "sector": "Financial Services",
+   "amount": 45700000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Isabella Bank Corp (ISBA) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$45.7M.",
+   "filed": "2026-06-15"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001193125-26-275891",
+   "company": "Whirlpool Corp",
+   "ticker": "WHR",
+   "type": "Material Agreement",
+   "subtype": "Debt Offering",
+   "city": "Benton Harbor",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Whirlpool Corp (WHR) entered into a material definitive agreement (debt offering).",
+   "filed": "2026-06-18"
+  },
+  {
+   "id": "8K-0001628280-26-043868",
+   "company": "Workhorse Group Inc.",
+   "ticker": "WKHS",
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "city": "Wixom",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Workhorse Group Inc. (WKHS) entered into a material definitive agreement (credit facility).",
+   "filed": "2026-06-17"
+  },
+  {
+   "id": "8K-0001193125-26-272923",
+   "company": "Whirlpool Corp",
+   "ticker": "WHR",
+   "type": "Material Agreement",
+   "subtype": "Debt Offering",
+   "city": "Benton Harbor",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Whirlpool Corp (WHR) entered into a material definitive agreement (debt offering).",
+   "filed": "2026-06-16"
+  },
+  {
+   "id": "8K-0000950142-26-001804",
+   "company": "Rocket Companies, Inc.",
+   "ticker": "RKT",
+   "type": "Material Agreement",
+   "subtype": "Debt Offering",
+   "city": "Detroit",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Rocket Companies, Inc. (RKT) entered into a material definitive agreement (debt offering).",
+   "filed": "2026-06-16"
+  },
+  {
+   "id": "8K-0000842517-26-000163",
+   "company": "Isabella Bank Corp",
+   "ticker": "ISBA",
+   "type": "Material Agreement",
+   "subtype": "Equity Financing",
+   "city": "Mt Pleasant",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Isabella Bank Corp (ISBA) entered into a material definitive agreement (equity financing).",
+   "filed": "2026-06-16"
+  },
+  {
+   "id": "8K-0000885550-26-000147",
+   "company": "Credit Acceptance Corp",
+   "ticker": "CACC",
+   "type": "Material Agreement",
+   "subtype": "Material Agreement",
+   "city": "Southfield",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Credit Acceptance Corp (CACC) entered into a material definitive agreement.",
+   "filed": "2026-06-15"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Financial Services",
+   "count": 5,
+   "amount": 0.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 3,
+   "amount": 0.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 2,
+   "amount": 2000.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $2K sold across 1 Form D filings this week, down 100% vs. the prior 4-week average. The largest was Ceramic Orthopedics Inc. (Bloomfield Hills, Other Health Care) targeting $2K. Good question to ask: are founders in health care & life sciences favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2085246-021-587568"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "Isabella Bank Corp (ISBA) disclosed a deal. It was one of 3 M&A filings this week. Use it to ask how buyers are valuing Michigan financial services assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "8K-0000039311-26-000053",
+    "8K-0001104659-26-074558",
+    "8K-0000842517-26-000158"
+   ]
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Financial Services was the most active sector with 5 of 10 filings (50%). Ask contacts what's driving the activity, and whether it's showing up in their pipeline.",
+   "deal_ids": [
+    "8K-0000039311-26-000053",
+    "8K-0000950142-26-001804",
+    "8K-0000842517-26-000163"
+   ]
+  }
+ ]
+}

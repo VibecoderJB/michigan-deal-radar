@@ -1,0 +1,325 @@
+{
+ "week_start": "2026-06-08",
+ "week_end": "2026-06-14",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "13 Michigan deals, $29.1M raised — led by Rocket Companies, Inc.",
+ "stats": {
+  "deal_count": 13,
+  "by_type": {
+   "Fundraise": 7,
+   "M&A": 5,
+   "Material Agreement": 0,
+   "Stake": 1
+  },
+  "capital_raised": 29099000,
+  "capital_targeted": 40499000,
+  "fund_count": 4
+ },
+ "trailing_4wk": {
+  "deal_count": 6.5,
+  "capital_raised": 135989833.0
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 100.0,
+  "capital_raised_pct": -78.6
+ },
+ "top_deals": [
+  {
+   "id": "8K-0001104659-26-071607",
+   "company": "Rocket Companies, Inc.",
+   "ticker": "RKT",
+   "type": "M&A",
+   "subtype": "Deal Announcement",
+   "city": "Detroit",
+   "sector": "Financial Services",
+   "amount": 600000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Rocket Companies, Inc. (RKT) disclosed merger/acquisition activity with Mr. Cooper Group Inc.; filing cites a figure of ~$600M.",
+   "filed": "2026-06-09"
+  },
+  {
+   "id": "D-2134486-021-587259",
+   "company": "Ajc Auburn Hills Investments LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Bloomfield Hills",
+   "sector": "Real Estate",
+   "amount": 22200000.0,
+   "amount_sold": 22200000.0,
+   "amount_is_estimate": false,
+   "summary": "Ajc Auburn Hills Investments LLC, a Bloomfield Hills-based real estate company, filed a $22.2M equity offering under Rule 506(b); $22.2M sold to 32 investors.",
+   "filed": "2026-06-12"
+  },
+  {
+   "id": "D-2139615-021-586890",
+   "company": "Swan Echo Investments, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Portage",
+   "sector": "Real Estate",
+   "amount": 9900000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Swan Echo Investments, LLC, a Portage-based residential real estate company, filed a $9.9M debt offering under Rule 504; $0 sold.",
+   "filed": "2026-06-10"
+  },
+  {
+   "id": "D-1957912-021-467398",
+   "company": "Baselake Partners, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Troy",
+   "sector": "Private Funds",
+   "amount": 6899000.0,
+   "amount_sold": 6899000.0,
+   "amount_is_estimate": false,
+   "summary": "Baselake Partners, LP, a Troy-based hedge fund, disclosed an open-ended (indefinite) raise; $6.9M sold to 11 investors. (Amended filing.)",
+   "filed": "2026-06-12"
+  },
+  {
+   "id": "D-2029922-021-586848",
+   "company": "TPCN Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 6572000.0,
+   "amount_sold": 6572000.0,
+   "amount_is_estimate": false,
+   "summary": "TPCN Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $6.6M of equity and pooled fund interests issued to 13 investors.",
+   "filed": "2026-06-10"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-1957912-021-467398",
+   "company": "Baselake Partners, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Troy",
+   "sector": "Private Funds",
+   "amount": 6899000.0,
+   "amount_sold": 6899000.0,
+   "amount_is_estimate": false,
+   "summary": "Baselake Partners, LP, a Troy-based hedge fund, disclosed an open-ended (indefinite) raise; $6.9M sold to 11 investors. (Amended filing.)",
+   "filed": "2026-06-12"
+  },
+  {
+   "id": "D-2029922-021-586848",
+   "company": "TPCN Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 6572000.0,
+   "amount_sold": 6572000.0,
+   "amount_is_estimate": false,
+   "summary": "TPCN Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $6.6M of equity and pooled fund interests issued to 13 investors.",
+   "filed": "2026-06-10"
+  },
+  {
+   "id": "D-2139822-021-586850",
+   "company": "Pooltek, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 1000.0,
+   "amount_sold": 1000.0,
+   "amount_is_estimate": false,
+   "summary": "Pooltek, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $1K of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2026-06-10"
+  },
+  {
+   "id": "D-2136328-021-586699",
+   "company": "Huron Silver COV 2, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Detroit",
+   "sector": "Private Funds",
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Huron Silver COV 2, L.P., a Detroit-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
+   "filed": "2026-06-09"
+  },
+  {
+   "id": "D-2127858-021-586701",
+   "company": "Huron Silver COV, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Detroit",
+   "sector": "Private Funds",
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Huron Silver COV, L.P., a Detroit-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
+   "filed": "2026-06-09"
+  },
+  {
+   "id": "D-2127857-021-586698",
+   "company": "Huron Silver Fund, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Detroit",
+   "sector": "Private Funds",
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Huron Silver Fund, L.P., a Detroit-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
+   "filed": "2026-06-09"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "8K-0000039311-26-000051",
+   "company": "Independent Bank Corp",
+   "ticker": "IBCP",
+   "type": "M&A",
+   "subtype": "Deal Announcement",
+   "city": "Grand Rapids",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Independent Bank Corp (IBCP) disclosed merger/acquisition activity.",
+   "filed": "2026-06-12"
+  },
+  {
+   "id": "D-2139822-021-586850",
+   "company": "Pooltek, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 1000.0,
+   "amount_sold": 1000.0,
+   "amount_is_estimate": false,
+   "summary": "Pooltek, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $1K of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2026-06-10"
+  },
+  {
+   "id": "D-2029922-021-586848",
+   "company": "TPCN Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 6572000.0,
+   "amount_sold": 6572000.0,
+   "amount_is_estimate": false,
+   "summary": "TPCN Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $6.6M of equity and pooled fund interests issued to 13 investors.",
+   "filed": "2026-06-10"
+  },
+  {
+   "id": "8K-0001104659-26-071814",
+   "company": "Esperion Therapeutics, Inc.",
+   "ticker": "ESPR",
+   "type": "M&A",
+   "subtype": "Deal Announcement",
+   "city": "Ann Arbor",
+   "sector": "Health Care & Life Sciences",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Esperion Therapeutics, Inc. (ESPR) disclosed merger/acquisition activity with Essence Parent Inc.",
+   "filed": "2026-06-09"
+  },
+  {
+   "id": "8K-0001104659-26-071607",
+   "company": "Rocket Companies, Inc.",
+   "ticker": "RKT",
+   "type": "M&A",
+   "subtype": "Deal Announcement",
+   "city": "Detroit",
+   "sector": "Financial Services",
+   "amount": 600000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Rocket Companies, Inc. (RKT) disclosed merger/acquisition activity with Mr. Cooper Group Inc.; filing cites a figure of ~$600M.",
+   "filed": "2026-06-09"
+  },
+  {
+   "id": "13D-0000902664-26-002722",
+   "company": "Trimas Corp",
+   "ticker": "TRS",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "BLOOMFIELD HILLS",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Trend International Holding AG and others reported a 16.9% stake in Trimas Corp (TRS) (Schedule 13D/A amendment 4).",
+   "filed": "2026-06-08"
+  }
+ ],
+ "material_agreements": [],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 6,
+   "amount": 13472000.0
+  },
+  {
+   "sector": "Real Estate",
+   "count": 2,
+   "amount": 22200000.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 2,
+   "amount": 0.0
+  },
+  {
+   "sector": "Technology",
+   "count": 1,
+   "amount": 0.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $29.1M sold across 7 Form D filings this week, down 79% vs. the prior 4-week average. The largest was Ajc Auburn Hills Investments LLC (Bloomfield Hills, Other Real Estate) targeting $22.2M. Good question to ask: are founders in real estate favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2134486-021-587259"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "Rocket Companies, Inc. (RKT) disclosed a deal with Mr. Cooper Group Inc.. It was one of 5 M&A filings this week. Use it to ask how buyers are valuing Michigan financial services assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "8K-0000039311-26-000051",
+    "D-2139822-021-586850",
+    "D-2029922-021-586848"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "6 Michigan-based pooled funds filed Form Ds, reporting $13.5M raised so far — led by Baselake Partners, LP (Hedge Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-1957912-021-467398",
+    "D-2029922-021-586848",
+    "D-2139822-021-586850"
+   ]
+  }
+ ]
+}

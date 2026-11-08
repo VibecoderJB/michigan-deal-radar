@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+  <schemaVersion>X0708</schemaVersion>
+  <submissionType>D/A</submissionType>
+  <primaryIssuer>
+    <cik>0009999999</cik>
+    <entityName>GREAT LAKES GROWTH PARTNERS FUND II, L.P.</entityName>
+    <issuerAddress><street1>100 Main St</street1><city>ANN ARBOR</city><stateOrCountry>MI</stateOrCountry><zipCode>48104</zipCode></issuerAddress>
+    <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+    <entityType>Limited Partnership</entityType>
+  </primaryIssuer>
+  <relatedPersonsList>
+    <relatedPersonInfo>
+      <relatedPersonName><firstName>Jane</firstName><middleName>Q</middleName><lastName>Investor</lastName></relatedPersonName>
+      <relatedPersonRelationshipList><relationship>Executive Officer</relationship></relatedPersonRelationshipList>
+      <relationshipClarification>Managing Member of the General Partner</relationshipClarification>
+    </relatedPersonInfo>
+  </relatedPersonsList>
+  <offeringData>
+    <industryGroup>
+      <industryGroupType>Pooled Investment Fund</industryGroupType>
+      <investmentFundInfo><investmentFundType>Venture Capital Fund</investmentFundType><is40Act>false</is40Act></investmentFundInfo>
+    </industryGroup>
+    <federalExemptionsExclusions><item>06b</item><item>3C</item><item>3C.1</item></federalExemptionsExclusions>
+    <typeOfFiling>
+      <newOrAmendment><isAmendment>true</isAmendment><previousAccessionNumber>0009999999-25-000001</previousAccessionNumber></newOrAmendment>
+      <dateOfFirstSale><yetToOccur>true</yetToOccur></dateOfFirstSale>
+    </typeOfFiling>
+    <typesOfSecuritiesOffered><isPooledInvestmentFundType>true</isPooledInvestmentFundType></typesOfSecuritiesOffered>
+    <businessCombinationTransaction><isBusinessCombinationTransaction>false</isBusinessCombinationTransaction></businessCombinationTransaction>
+    <minimumInvestmentAccepted>250000</minimumInvestmentAccepted>
+    <offeringSalesAmounts>
+      <totalOfferingAmount>Indefinite</totalOfferingAmount>
+      <totalAmountSold>42,500,000</totalAmountSold>
+      <totalRemaining>Indefinite</totalRemaining>
+    </offeringSalesAmounts>
+    <investors><hasNonAccreditedInvestors>false</hasNonAccreditedInvestors><totalNumberAlreadyInvested>57</totalNumberAlreadyInvested></investors>
+  </offeringData>
+</edgarSubmission>

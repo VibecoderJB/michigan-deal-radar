@@ -1,0 +1,239 @@
+{
+ "week_start": "2025-11-17",
+ "week_end": "2025-11-23",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "11 Michigan deals, $146.5M raised — led by Penske Automotive Group, Inc.",
+ "stats": {
+  "deal_count": 11,
+  "by_type": {
+   "Fundraise": 7,
+   "M&A": 1,
+   "Material Agreement": 3,
+   "Stake": 0
+  },
+  "capital_raised": 146451780,
+  "capital_targeted": 158308480,
+  "fund_count": 2
+ },
+ "trailing_4wk": {
+  "deal_count": 1.0,
+  "capital_raised": 4092032.2
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 1000.0,
+  "capital_raised_pct": 3478.9
+ },
+ "top_deals": [
+  {
+   "id": "8K-0001628280-25-053042",
+   "company": "Penske Automotive Group, Inc.",
+   "ticker": "PAG",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Bloomfield Hills",
+   "sector": "Consumer & Retail",
+   "amount": 519423000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Penske Automotive Group, Inc. (PAG) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$519.4M.",
+   "filed": "2025-11-19"
+  },
+  {
+   "id": "D-2035861-021-529761",
+   "company": "Bloomfield Capital Income Fund V, LLC - Series D",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 136018480.0,
+   "amount_sold": 136018480.0,
+   "amount_is_estimate": false,
+   "summary": "Bloomfield Capital Income Fund V, LLC - Series D, a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $136M sold to 61 investors. (Amended filing.)",
+   "filed": "2025-11-18"
+  },
+  {
+   "id": "D-1579495-021-529710",
+   "company": "Bfkw, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Grand Rapids",
+   "sector": "Health Care & Life Sciences",
+   "amount": 12000000.0,
+   "amount_sold": 1833300.0,
+   "amount_is_estimate": false,
+   "summary": "Bfkw, LLC, a Grand Rapids-based health care company, filed a $12M equity offering under Rule 506(b); $1.8M sold to 7 investors. (Amended filing.)",
+   "filed": "2025-11-21"
+  },
+  {
+   "id": "D-2097362-021-564544",
+   "company": "K2 Capital LSV V Fund, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Dowagiac",
+   "sector": "Private Funds",
+   "amount": 5250000.0,
+   "amount_sold": 5250000.0,
+   "amount_is_estimate": false,
+   "summary": "K2 Capital LSV V Fund, LLC, a Dowagiac-based private equity fund, disclosed an open-ended (indefinite) raise; $5.2M sold to 8 investors.",
+   "filed": "2025-11-20"
+  },
+  {
+   "id": "D-2081976-021-564787",
+   "company": "SR AA Hub Church II, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Grand Beach",
+   "sector": "Real Estate",
+   "amount": 3165000.0,
+   "amount_sold": 3165000.0,
+   "amount_is_estimate": false,
+   "summary": "SR AA Hub Church II, LLC, a Grand Beach-based real estate company, filed an indefinite-size equity offering under Rule 506(b); $3.2M sold to 15 investors.",
+   "filed": "2025-11-21"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2035861-021-529761",
+   "company": "Bloomfield Capital Income Fund V, LLC - Series D",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 136018480.0,
+   "amount_sold": 136018480.0,
+   "amount_is_estimate": false,
+   "summary": "Bloomfield Capital Income Fund V, LLC - Series D, a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $136M sold to 61 investors. (Amended filing.)",
+   "filed": "2025-11-18"
+  },
+  {
+   "id": "D-2097362-021-564544",
+   "company": "K2 Capital LSV V Fund, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Dowagiac",
+   "sector": "Private Funds",
+   "amount": 5250000.0,
+   "amount_sold": 5250000.0,
+   "amount_is_estimate": false,
+   "summary": "K2 Capital LSV V Fund, LLC, a Dowagiac-based private equity fund, disclosed an open-ended (indefinite) raise; $5.2M sold to 8 investors.",
+   "filed": "2025-11-20"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "8K-0001628280-25-053042",
+   "company": "Penske Automotive Group, Inc.",
+   "ticker": "PAG",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Bloomfield Hills",
+   "sector": "Consumer & Retail",
+   "amount": 519423000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Penske Automotive Group, Inc. (PAG) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$519.4M.",
+   "filed": "2025-11-19"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001104659-25-114875",
+   "company": "CMS Energy Corp",
+   "ticker": "CMS",
+   "type": "Material Agreement",
+   "subtype": "Material Agreement",
+   "city": "Jackson",
+   "sector": "Energy & Utilities",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "CMS Energy Corp (CMS) entered into a material definitive agreement.",
+   "filed": "2025-11-21"
+  },
+  {
+   "id": "8K-0000885550-25-000131",
+   "company": "Credit Acceptance Corp",
+   "ticker": "CACC",
+   "type": "Material Agreement",
+   "subtype": "Material Agreement",
+   "city": "Southfield",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Credit Acceptance Corp (CACC) entered into a material definitive agreement.",
+   "filed": "2025-11-19"
+  },
+  {
+   "id": "8K-0001104659-25-113644",
+   "company": "Agree Realty Corp",
+   "ticker": "ADC",
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "city": "Royal Oak",
+   "sector": "Real Estate",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Agree Realty Corp (ADC) entered into a material definitive agreement (credit facility).",
+   "filed": "2025-11-18"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 2,
+   "amount": 141268480.0
+  },
+  {
+   "sector": "Real Estate",
+   "count": 2,
+   "amount": 3165000.0
+  },
+  {
+   "sector": "Other",
+   "count": 2,
+   "amount": 60000.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 1,
+   "amount": 1833300.0
+  },
+  {
+   "sector": "Technology",
+   "count": 1,
+   "amount": 125000.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $146.5M sold across 7 Form D filings this week, up 3479% vs. the prior 4-week average. The largest was Bfkw, LLC (Grand Rapids, Other Health Care) targeting $12M. Good question to ask: are founders in health care & life sciences favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-1579495-021-529710"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "Penske Automotive Group, Inc. (PAG) disclosed a deal. Use it to ask how buyers are valuing Michigan consumer & retail assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "8K-0001628280-25-053042"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "2 Michigan-based pooled funds filed Form Ds, reporting $141.3M raised so far — led by Bloomfield Capital Income Fund V, LLC - Series D (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2035861-021-529761",
+    "D-2097362-021-564544"
+   ]
+  }
+ ]
+}
