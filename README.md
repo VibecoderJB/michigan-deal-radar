@@ -2,7 +2,7 @@
 
 **A free, installable web app that tracks M&A, private equity, and private fundraising activity involving Michigan companies, rebuilt every day from SEC EDGAR filings, with a rule-based weekly deal briefing.**
 
-[**Live app →**](https://jacksonrbond.github.io/michigan-deal-radar/) · [Methodology](https://jacksonrbond.github.io/michigan-deal-radar/#/about) · ![Update data](https://github.com/jacksonrbond/michigan-deal-radar/actions/workflows/update-data.yml/badge.svg) ![CI](https://github.com/jacksonrbond/michigan-deal-radar/actions/workflows/ci.yml/badge.svg)
+[**Live app →**](https://vibecoderjb.github.io/michigan-deal-radar/) · [Methodology](https://vibecoderjb.github.io/michigan-deal-radar/#/about) · ![Update data](https://github.com/VibecoderJB/michigan-deal-radar/actions/workflows/update-data.yml/badge.svg) ![CI](https://github.com/VibecoderJB/michigan-deal-radar/actions/workflows/ci.yml/badge.svg)
 
 <p align="center">
   <img src="docs/screenshots/mobile-dashboard.png" width="230" alt="Dashboard on a phone">
@@ -115,7 +115,7 @@ Noise filters: asset-backed securitization trusts (SIC 6189) are excluded, and e
 ## Running it locally
 
 ```bash
-git clone https://github.com/jacksonrbond/michigan-deal-radar.git
+git clone https://github.com/VibecoderJB/michigan-deal-radar.git
 cd michigan-deal-radar
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt

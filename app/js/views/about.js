@@ -66,7 +66,7 @@ export async function renderAbout(root) {
         </section>
         <section class="card prose">
           <div class="card-head"><h2>Built by</h2></div>
-          <p style="margin:0">A portfolio project by a finance student focused on investment banking and private equity. Open source on <a href="https://github.com/jacksonrbond/michigan-deal-radar" target="_blank" rel="noopener">GitHub</a>. Data refreshes daily via GitHub Actions.</p>
+          <p style="margin:0">A portfolio project by a finance student focused on investment banking and private equity. Open source on <a href="https://github.com/VibecoderJB/michigan-deal-radar" target="_blank" rel="noopener">GitHub</a>. Data refreshes daily via GitHub Actions.</p>
         </section>
       </div>
     </div>`;
