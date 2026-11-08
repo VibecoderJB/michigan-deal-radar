@@ -1,0 +1,76 @@
+name: Desktop app
+
+# Builds Windows (.exe), macOS (.dmg) and Linux (.AppImage) installers and
+# publishes them as a GitHub Release. Run it from the Actions tab, or push a tag like v1.0.1.
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: desktop
+    env:
+      CSC_IDENTITY_AUTO_DISCOVERY: "false" # no paid code-signing certificate
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: desktop/package-lock.json
+      - run: npm ci
+      - run: npm run dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: installers-${{ matrix.os }}
+          path: |
+            desktop/dist/*.exe
+            desktop/dist/*.dmg
+            desktop/dist/*.AppImage
+          if-no-files-found: error
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: installers
+          merge-multiple: true
+      - id: version
+        run: |
+          if [[ "$GITHUB_REF" == refs/tags/* ]]; then echo "tag=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT";
+          else echo "tag=v$(node -p "require('./desktop/package.json').version")" >> "$GITHUB_OUTPUT"; fi
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: Michigan Deal Radar ${{ steps.version.outputs.tag }}
+          make_latest: true
+          files: installers/*
+          body: |
+            ## Download
+            | Platform | File |
+            |---|---|
+            | **Windows** | `Michigan-Deal-Radar-*-win-x64.exe` |
+            | **Mac (Apple Silicon, M1–M4)** | `Michigan-Deal-Radar-*-mac-arm64.dmg` |
+            | **Mac (Intel)** | `Michigan-Deal-Radar-*-mac-x64.dmg` |
+            | **Linux** | `Michigan-Deal-Radar-*-linux-x86_64.AppImage` |
+
+            The app loads the latest daily data when online and falls back to the bundled copy offline.
+
+            **First launch (the app isn't code-signed, because signing certificates cost money):**
+            - **Windows:** if SmartScreen appears, click *More info* → *Run anyway*.
+            - **Mac:** open the .dmg and drag the app to Applications. Right-click the app → *Open* → *Open*. On macOS 15+, if it's still blocked: System Settings → Privacy & Security → *Open Anyway*.
+            - **Linux:** `chmod +x` the AppImage, then run it.

@@ -61,7 +61,7 @@ export async function renderAbout(root) {
           <div class="card-head"><h2>Install the app</h2></div>
           <p><strong>iPhone / iPad (Safari):</strong> tap Share → <em>Add to Home Screen</em>.</p>
           <p><strong>Android (Chrome):</strong> tap ⋮ → <em>Install app</em> (or use the Install button at the top).</p>
-          <p><strong>Desktop (Chrome / Edge):</strong> click the install icon in the address bar, or the Install button at the top.</p>
+          <p><strong>Desktop app (Windows / Mac / Linux):</strong> <a href="https://github.com/VibecoderJB/michigan-deal-radar/releases/latest" target="_blank" rel="noopener">download the installer</a>. Or in Chrome/Edge, click the install icon in the address bar.</p>
           <p class="small muted" style="margin:0">Once installed, the last loaded data stays available offline.</p>
         </section>
         <section class="card prose">

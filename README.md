@@ -2,7 +2,7 @@
 
 **A free, installable web app that tracks M&A, private equity, and private fundraising activity involving Michigan companies, rebuilt every day from SEC EDGAR filings, with a rule-based weekly deal briefing.**
 
-[**Live app →**](https://vibecoderjb.github.io/michigan-deal-radar/) · [Methodology](https://vibecoderjb.github.io/michigan-deal-radar/#/about) · ![Update data](https://github.com/VibecoderJB/michigan-deal-radar/actions/workflows/update-data.yml/badge.svg) ![CI](https://github.com/VibecoderJB/michigan-deal-radar/actions/workflows/ci.yml/badge.svg)
+[**Live app →**](https://vibecoderjb.github.io/michigan-deal-radar/) · [**Download desktop app**](https://github.com/VibecoderJB/michigan-deal-radar/releases/latest) · [Methodology](https://vibecoderjb.github.io/michigan-deal-radar/#/about) · ![Update data](https://github.com/VibecoderJB/michigan-deal-radar/actions/workflows/update-data.yml/badge.svg) ![CI](https://github.com/VibecoderJB/michigan-deal-radar/actions/workflows/ci.yml/badge.svg)
 
 <p align="center">
   <img src="docs/screenshots/mobile-dashboard.png" width="230" alt="Dashboard on a phone">
@@ -135,6 +135,7 @@ Set `SEC_USER_AGENT="YourApp/1.0 (you@example.com)"` to use your own contact ema
 | `update-data.yml` | Daily cron (11:17 UTC) + manual | Tests → pipeline → commit `data/` → deploy |
 | `deploy.yml` | Push to `main` (app/data) + called by the above | Assembles `_site/` (app + data, cache-busted service worker) → GitHub Pages |
 | `ci.yml` | Push / PR touching the pipeline | `pytest` |
+| `desktop.yml` | Manual or `v*` tag | Builds Windows `.exe`, macOS `.dmg` and Linux `.AppImage` and publishes a GitHub Release |
 
 Briefings: the daily job writes a briefing for every completed Mon–Sun week that doesn't have one yet, so Monday's run publishes the prior week's briefing.
 
@@ -142,7 +143,8 @@ Briefings: the daily job writes a briefing for every completed Mon–Sun week th
 
 - **iPhone / iPad:** open the live URL in **Safari** → Share → **Add to Home Screen**.
 - **Android:** open in **Chrome** → ⋮ menu → **Install app** (or tap **Install app** in the header).
-- **Desktop (Chrome / Edge):** click the install icon in the address bar, or **Install app** in the header.
+- **Desktop app (Windows / Mac / Linux):** [**download the installer**](https://github.com/VibecoderJB/michigan-deal-radar/releases/latest): `.exe` for Windows, `.dmg` for Mac (Apple Silicon or Intel), `.AppImage` for Linux. Or, in Chrome/Edge, click the install icon in the address bar.
+  - The installers aren't code-signed (certificates cost money). Windows: *More info → Run anyway*. Mac: right-click the app → *Open* (macOS 15+: System Settings → Privacy & Security → *Open Anyway*).
 
 After the first load, the app shell and last-loaded data work offline (a banner shows how old the saved data is).
 
@@ -153,6 +155,7 @@ pipeline/            Python data pipeline (no third-party deps beyond requests)
 tests/               pytest suite + real SEC filing fixtures
 data/                deals.json, meta.json, briefings/ (committed by the bot)
 app/                 static PWA: index.html, css/, js/ (ES modules), sw.js, manifest, icons/
+desktop/             Electron wrapper: live data online, bundled copy offline; installers built by Actions
 scripts/             serve.py (local dev), build_site.sh (Pages bundle)
 .github/workflows/   update-data, deploy, ci
 ```

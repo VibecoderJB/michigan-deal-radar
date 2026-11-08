@@ -1,0 +1,83 @@
+{
+  "name": "michigan-deal-radar",
+  "productName": "Michigan Deal Radar",
+  "version": "1.0.0",
+  "description": "Michigan M&A, private equity and private fundraising tracker built from SEC EDGAR filings.",
+  "main": "main.js",
+  "author": "VibecoderJB",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VibecoderJB/michigan-deal-radar.git"
+  },
+  "homepage": "https://github.com/VibecoderJB/michigan-deal-radar",
+  "private": true,
+  "scripts": {
+    "bundle": "node scripts/bundle-web.js",
+    "start": "npm run bundle && electron .",
+    "dist": "npm run bundle && electron-builder --publish never"
+  },
+  "devDependencies": {
+    "electron": "33.4.11",
+    "electron-builder": "25.1.8"
+  },
+  "build": {
+    "appId": "io.github.vibecoderjb.michigandealradar",
+    "productName": "Michigan Deal Radar",
+    "artifactName": "Michigan-Deal-Radar-${version}-${os}-${arch}.${ext}",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "main.js",
+      "package.json",
+      "web/**/*",
+      "build/icon.png"
+    ],
+    "mac": {
+      "category": "public.app-category.finance",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "arm64",
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.png"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "Michigan Deal Radar"
+    },
+    "linux": {
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "category": "Office",
+      "icon": "build/icon.png"
+    },
+    "publish": null,
+    "afterPack": "scripts/adhoc-sign.js"
+  }
+}
