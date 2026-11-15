@@ -62,7 +62,8 @@ jobs:
           fi
 
       - name: Data-quality summary
-        run: python -c "import json; q=json.load(open('data/quality/latest.json')); print(json.dumps({k: q[k] for k in ('new_deal_count','duplicates_merged','flagged_for_review_count','source_error_count','confidence')}, indent=1))" >> "$GITHUB_STEP_SUMMARY"
+        run: |
+          python -m pipeline.analytics.summary >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit updated data
         run: |
