@@ -10,9 +10,11 @@ and that filing is skipped. One bad filing never stops the pipeline.
 
 from __future__ import annotations
 
+import gzip
+import json
 import logging
 import re
-from dataclasses import dataclass, field as dc_field
+from dataclasses import asdict, dataclass, field as dc_field
 from datetime import date
 
 from .. import config
@@ -200,6 +202,34 @@ def _facility_amount(text: str, url: str) -> dict:
     return field(None)
 
 
+# ----------------------------------------------------------------------------- stored text (offline re-extraction)
+
+def _text_path(accession: str):
+    return config.EVIDENCE_TEXT_DIR / f"{accession}.json.gz"
+
+
+def save_filing_text(hit: FilingHit, main_text: str, main_url: str, pr_text: str, pr_url: str | None) -> None:
+    """Keep the filing text we extracted from, so rules can be re-run without re-querying SEC."""
+    path = _text_path(hit.accession)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {"hit": asdict(hit), "main_url": main_url, "main_text": main_text[:MAX_TEXT_CHARS], "pr_url": pr_url, "pr_text": pr_text[:200_000]}
+    with gzip.open(path, "wt", encoding="utf-8", compresslevel=9) as fh:
+        json.dump(payload, fh)
+
+
+def reextract(event: dict) -> dict | None:
+    """Re-run current extraction rules on stored filing text. Returns the new event, or None if no text."""
+    path = _text_path(event["event_id"])
+    if not path.exists():
+        return None
+    with gzip.open(path, "rt", encoding="utf-8") as fh:
+        payload = json.load(fh)
+    new = analyze_ma_filing(FilingHit(**payload["hit"]), payload["main_text"], payload["main_url"], payload["pr_text"], payload["pr_url"])
+    if new is not None and event.get("llm"):
+        new["llm"] = event["llm"]
+    return new
+
+
 def collect_ma(client: SecClient, start: date, end: date, known: set[str]) -> SourceResult:
     """8-K (Items 1.01/1.02/2.01 + merger language), S-4, DEFM14A, SC TO-T, SC 14D9."""
     result = SourceResult()
@@ -238,6 +268,7 @@ def collect_ma(client: SecClient, start: date, end: date, known: set[str]) -> So
             if event is None:
                 result.skipped += 1
                 continue
+            save_filing_text(hit, html_to_text(raw) if is_8k else text, main_url, pr_text, pr_url)
             if event.get("category") == "M&A" and not (event.get("role") or {}).get("value") and llm.enabled():
                 filled = llm.fill_roles(text + "\n" + pr_text, display_name(event["filer"]["name"]) or "", main_url)
                 if filled:

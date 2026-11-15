@@ -3,11 +3,11 @@ name: CI
 on:
   pull_request:
   push:
-    branches: [main]
-    paths: ["pipeline/**", "tests/**", "requirements*.txt", ".github/workflows/ci.yml"]
+    branches: [main, v2-upgrade]
+    paths: ["pipeline/**", "tests/**", "app/**", "requirements*.txt", ".github/workflows/ci.yml"]
 
 jobs:
-  test:
+  unit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -17,3 +17,30 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: pytest -q
+
+  browser:
+    runs-on: ubuntu-latest
+    needs: unit
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Build a v2 dataset offline (v1 archive -> migration -> rebuild; no SEC requests)
+        run: |
+          mkdir -p _ci_data && cp -R data/backup _ci_data/
+          MDR_DATA_DIR=_ci_data python -m pipeline.storage.migrate_v1
+          MDR_DATA_DIR=_ci_data python -m pipeline.run --rebuild
+      - run: MDR_DATA_DIR=_ci_data ./scripts/build_site.sh && MDR_DATA_DIR=_ci_data python -m pipeline.reporting.build --out _site/reports --no-pdf
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - working-directory: tests/e2e
+        run: npm install --no-audit --no-fund && npx playwright install --with-deps chromium
+      - name: Smoke test
+        run: |
+          (cd _site && python -m http.server 8000 >/dev/null 2>&1 &)
+          sleep 2
+          cd tests/e2e && BASE_URL=http://localhost:8000/ node smoke.mjs

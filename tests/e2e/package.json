@@ -1,0 +1,8 @@
+{
+  "name": "mdr-e2e",
+  "private": true,
+  "type": "module",
+  "description": "Browser smoke tests for the Michigan Deal Radar app (run against a built _site).",
+  "scripts": { "test": "node smoke.mjs" },
+  "devDependencies": { "playwright": "1.64.1" }
+}

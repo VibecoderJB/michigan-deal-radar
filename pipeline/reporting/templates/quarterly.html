@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Michigan M&amp;A Review: {{ q.label }}</title><style>{{ css | safe }}</style></head>
+<body>
+<div class="cover">
+  <div class="brand">Michigan Deal Radar</div>
+  <h1>Michigan M&amp;A<br>Quarterly Review</h1>
+  <div class="period">{{ q.label }} · {{ q.start | date }} – {{ q.end | date }}</div>
+  <div class="headline">{{ q.headline }}</div>
+  <div class="stats">
+    <div class="stat"><div class="k">M&amp;A deals</div><div class="v">{{ q.cur.ma_deals }}</div><div class="d">QoQ {{ q.qoq.ma_deals | pct }} · YoY {{ q.yoy.ma_deals | pct }}</div></div>
+    <div class="stat"><div class="k">Disclosed M&amp;A value</div><div class="v">{{ q.cur.ma_disclosed_value | mm }}</div><div class="d">$M across {{ q.cur.ma_with_disclosed_value }} deals</div></div>
+    <div class="stat"><div class="k">Private financings</div><div class="v">{{ q.cur.financings }}</div><div class="d">{{ q.cur.financing_raised | mm }} $M raised</div></div>
+    <div class="stat"><div class="k">Venture rounds</div><div class="v">{{ q.cur.venture_rounds }}</div><div class="d">Form D, issuers &lt; 5 yrs old</div></div>
+    <div class="stat"><div class="k">Fund raises</div><div class="v">{{ q.cur.fund_raises }}</div><div class="d">{{ q.cur.fund_capital_raised | mm }} $M reported</div></div>
+    <div class="stat"><div class="k">13D stakes</div><div class="v">{{ q.cur.stakes_13d }}</div><div class="d">5%+ ownership filings</div></div>
+  </div>
+  <div class="foot"><span>Data as of {{ as_of | date }} · Sources: SEC EDGAR filings and public press releases</span><span>For informational purposes only. Not investment advice.</span></div>
+</div>
+
+<div class="running">Michigan M&amp;A Quarterly Review · {{ q.label }} · Data as of {{ as_of | date }} · Michigan Deal Radar · Sources: SEC EDGAR and public press releases</div>
+
+<h2>Executive summary</h2>
+<ul>{% for line in q.commentary %}<li>{{ line }}</li>{% endfor %}</ul>
+<table>
+  <tr><th>Metric</th><th class="r">{{ q.label }}</th><th class="r">{{ q.prev_label }}</th><th class="r">QoQ</th><th class="r">{{ q.yoy_label }}</th><th class="r">YoY</th></tr>
+  {% for key, label, money in [("ma_deals","M&A deals",False),("ma_disclosed_value","Disclosed M&A value ($M)",True),("financings","Private financings",False),("financing_raised","Financing raised ($M)",True),("fund_raises","Fund raises",False),("stakes_13d","13D stakes",False)] %}
+  <tr><td>{{ label }}</td>
+    <td class="r num">{{ q.cur[key] | mm if money else q.cur[key] }}</td><td class="r num">{{ q.prev[key] | mm if money else q.prev[key] }}</td><td class="r num">{{ q.qoq[key] | pct }}</td>
+    <td class="r num">{{ q.ya[key] | mm if money else q.ya[key] }}</td><td class="r num">{{ q.yoy[key] | pct }}</td></tr>
+  {% endfor %}
+</table>
+
+<h2>Deal flow trends <span class="sub">last eight quarters</span></h2>
+<div class="chart">{{ charts.count | safe }}</div>
+<div class="grid2"><div class="chart">{{ charts.value | safe }}</div><div class="chart">{{ charts.raised | safe }}</div></div>
+
+<section class="page-break">
+<h2>Sector trends <span class="sub">deal count by Michigan focus sector</span></h2>
+<div class="chart">{{ charts.sectors | safe }}</div>
+<table>
+  <tr><th>Sector</th><th class="r">{{ q.label }}</th><th class="r">Prior qtr</th><th class="r">QoQ</th><th class="r">Year-ago qtr</th><th class="r">YoY</th></tr>
+  {% for r in q.sectors %}<tr><td>{{ r.sector }}</td><td class="r num">{{ r.deals }}</td><td class="r num">{{ r.prior_quarter }}</td><td class="r num">{{ r.qoq_pct | pct }}</td><td class="r num">{{ r.year_ago_quarter }}</td><td class="r num">{{ r.yoy_pct | pct }}</td></tr>{% endfor %}
+</table>
+</section>
+
+<section>
+<h2>Notable transactions</h2>
+<table>
+  <tr><th>Date</th><th>Deal</th><th>Type</th><th>Status</th><th class="r">Value ($M)</th><th class="r">EV/EBITDA</th></tr>
+  {% for d in q.top_deals %}<tr><td class="num">{{ d.date | date }}</td><td><b>{{ d.title }}</b></td><td>{{ d.deal_type }}</td><td><span class="tag {{ d.status|lower }}">{{ d.status }}</span></td><td class="r num">{{ d.value | mm_nd }}</td><td class="r num">{{ d.ev_ebitda | x }}</td></tr>
+  {% else %}<tr><td colspan="6" class="nd">No M&amp;A deals this quarter.</td></tr>{% endfor %}
+</table>
+<h3>Precedent multiples <span class="muted small">(all Michigan deals with a disclosed or derived multiple, full history)</span></h3>
+<table>
+  <tr><th>Multiple</th><th class="r">N</th><th class="r">Median</th><th class="r">Mean</th><th class="r">Low</th><th class="r">High</th></tr>
+  {% for key, label in [("ev_ebitda","EV / EBITDA"),("ev_revenue","EV / Revenue")] %}{% set st = q.precedents[key] %}
+  <tr><td>{{ label }}</td><td class="r num">{{ st.n }}</td><td class="r num">{{ st.median | x }}</td><td class="r num">{{ st.mean | x }}</td><td class="r num">{{ st.low | x }}</td><td class="r num">{{ st.high | x }}</td></tr>{% endfor %}
+</table>
+</section>
+
+<section>
+<h2>League tables <span class="sub">Michigan M&amp;A, trailing 12 months</span></h2>
+<div class="grid2">
+  {% for key, label in [("acquirers", "Most active acquirers"), ("sponsors", "Most active PE sponsors"), ("financial_advisors", "Financial advisors"), ("legal_advisors", "Legal advisors")] %}
+  <div><h3>{{ label }}</h3><table><tr><th>#</th><th>Firm</th><th class="r">Deals</th></tr>
+  {% for r in q.league[key] %}<tr><td class="num">{{ loop.index }}</td><td>{{ r.name }}</td><td class="r num">{{ r.deals }}</td></tr>{% else %}<tr><td colspan="3" class="nd">Not disclosed in sources yet</td></tr>{% endfor %}
+  </table></div>
+  {% endfor %}
+</div>
+<h3>Sponsor activity</h3>
+<p>Platform (PE buyout) deals: <b class="num">{{ q.sponsor.platform }}</b> · Add-on acquisitions: <b class="num">{{ q.sponsor.add_on }}</b> (full history).</p>
+</section>
+
+<h2 class="page-break">Sources appendix</h2>
+<ol class="appendix">{% for src in q.sources %}<li>{{ src.title }} ({{ src.kind }}, {{ src.date | date }}): <a href="{{ src.url }}">{{ src.url }}</a></li>{% else %}<li class="muted">No sources this quarter.</li>{% endfor %}</ol>
+<p class="note">Disclosed value sums only values stated by a source (enterprise value, else transaction value, else equity value). Multiples derived from a transaction value are labeled estimates in the dataset. Commentary is template-generated from the data; no AI is used.</p>
+</body></html>

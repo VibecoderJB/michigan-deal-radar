@@ -1,172 +1,161 @@
 # Michigan Deal Radar
 
-**A free, installable web app that tracks M&A, private equity, and private fundraising activity involving Michigan companies, rebuilt every day from SEC EDGAR filings, with a rule-based weekly deal briefing.**
+**M&A and private-capital intelligence for the Michigan middle market.** Every deal is built from SEC EDGAR filings and public press releases, every field carries its source URL and the exact source text, and the whole platform runs for $0 on GitHub Actions and GitHub Pages.
 
-[**Live app →**](https://vibecoderjb.github.io/michigan-deal-radar/) · [**Download desktop app**](https://github.com/VibecoderJB/michigan-deal-radar/releases/latest) · [Methodology](https://vibecoderjb.github.io/michigan-deal-radar/#/about) · ![Update data](https://github.com/VibecoderJB/michigan-deal-radar/actions/workflows/update-data.yml/badge.svg) ![CI](https://github.com/VibecoderJB/michigan-deal-radar/actions/workflows/ci.yml/badge.svg)
+[**Live app →**](https://vibecoderjb.github.io/michigan-deal-radar/) · [Methodology](https://vibecoderjb.github.io/michigan-deal-radar/#/about) · [Data quality](https://vibecoderjb.github.io/michigan-deal-radar/#/quality) · [Weekly brief (PDF)](https://vibecoderjb.github.io/michigan-deal-radar/#/briefing)
 
-<p align="center">
-  <img src="docs/screenshots/mobile-dashboard.png" width="230" alt="Dashboard on a phone">
-  <img src="docs/screenshots/mobile-briefing.png" width="230" alt="Weekly briefing on a phone">
-  <img src="docs/screenshots/mobile-detail.png" width="230" alt="Deal detail on a phone">
-</p>
+![Update data](https://github.com/VibecoderJB/michigan-deal-radar/actions/workflows/update-data.yml/badge.svg) ![CI](https://github.com/VibecoderJB/michigan-deal-radar/actions/workflows/ci.yml/badge.svg)
 
-<p align="center"><img src="docs/screenshots/desktop-deals.png" width="760" alt="Deal table on desktop"></p>
+<p align="center"><img src="docs/screenshots/dashboard.png" width="860" alt="Deal flow dashboard"></p>
 
 ## What it does
 
-| | |
+| Area | Capability |
 |---|---|
-| **Dashboard** | This week's deals, KPIs (capital raised, fund raises, M&A), capital raised by month, deals by type and sector |
-| **Deal table** | Search plus filters for type, sector, city, date range and amount. Sortable columns, shareable filter URLs, **CSV export** |
-| **Deal detail** | Offering terms, investors, related persons, amendment history, filing excerpt, and links to the original SEC filing |
-| **Weekly briefing** | Generated every Monday: top deals by size, new fund raises, notable M&A, and **3 talking points for networking calls**, with a full archive |
-| **Watchlist** | Star companies to follow them. Stored privately on-device (localStorage), with "new since last visit" highlighting |
-| **Installable PWA** | Home-screen icon, splash screen, standalone window, and offline access to the last loaded data |
+| **Deal flow dashboard** | Deal count and disclosed value by month / quarter / year; filters for sector, region, deal type, buyer type and date. |
+| **Deal tear sheets** | Parties (with county, region, GICS), terms, financials, advisors, rationale, timeline, and a **`src`** footnote on every value showing the verbatim source text. |
+| **County map** | Michigan choropleth of deal activity, by county and region (Census boundaries). |
+| **League tables** | Most active acquirers, PE sponsors, financial advisors, legal advisors and lenders. |
+| **Precedent transactions** | Disclosed values and multiples with median / mean / range; exportable to a banking-format Excel workbook. |
+| **Sector trends** | Quarter-over-quarter and year-over-year counts across automotive & mobility, advanced manufacturing, healthcare, software, consumer and business services (and more). |
+| **Sponsor activity** | PE platform buyouts vs. add-ons by quarter. |
+| **Who's Active in Michigan** | Banks, PE firms and law firms that appear most often on Michigan deals, with recent deals and publicly named deal teams. |
+| **Reports** | Weekly *Michigan Deal Flow* PDF brief, quarterly *Michigan M&A Review* PDF, and an Excel workbook (cover tab, frozen headers, $M with one decimal, 8.5x multiples, source links). |
+| **Private capital** | Michigan fund vehicles raising capital (Form D) and 13D stakes, kept out of M&A counts. |
+| **Data quality** | After every run: new deals, duplicate filings merged, missing fields, low-confidence records flagged for review. |
+| **Installable app** | PWA (phone, desktop, offline) plus Electron desktop builds. |
 
-**Hard constraints:** $0 to run forever, entirely in the cloud (GitHub Actions + GitHub Pages), and **no AI/LLM calls at runtime**. Every classification, summary and talking point comes from deterministic Python rules and templates.
+<p align="center">
+  <img src="docs/screenshots/tear-sheet.png" width="420" alt="Deal tear sheet with source footnotes">
+  <img src="docs/screenshots/map.png" width="420" alt="County map">
+</p>
+
+## Key findings
+
+<!-- KEY-FINDINGS:START -->
+_Generated from the dataset after each pipeline run._
+<!-- KEY-FINDINGS:END -->
 
 ## Architecture
 
 ```mermaid
 flowchart LR
-    subgraph SEC["SEC EDGAR (free APIs)"]
-        FTS["Full-text search<br/>efts.sec.gov"]
-        ARC["Filing archives<br/>Form D XML · 8-K HTML · 13D XML"]
+    subgraph Sources["Public sources (official APIs / RSS only)"]
+        SEC["SEC EDGAR<br/>full-text search + archives<br/>8-K · S-4 · DEFM14A · SC TO-T · SC 14D9 · Form D · 13D"]
+        WIRE["Press-release wires (RSS)<br/>PR Newswire · Business Wire · GlobeNewswire"]
+        NEWS["Michigan business news (RSS)<br/>headlines + links only"]
+        CFG["config/firms.yml<br/>firm watchlist"]
     end
 
-    subgraph GHA["GitHub Actions: daily cron"]
-        direction TB
-        T["pytest<br/>(parsers, rules, briefing)"] --> P
-        P["pipeline.run<br/>discover → fetch → parse →<br/>classify → dedupe → merge"]
-        P --> B["briefing.py<br/>weekly JSON (Mondays)"]
+    subgraph Pipeline["GitHub Actions · daily (Python)"]
+        ING["ingestion/<br/>throttled SEC client · robots.txt-aware web client"]
+        EXT["extraction/<br/>rule-based terms · parties · advisors<br/>(+ optional quote-verified LLM gap-fill)"]
+        EVD[("data/evidence.json<br/>audit trail: every extracted value + quote")]
+        LNK["storage/linking.py<br/>dedupe · announce→pending→close timeline<br/>geo (Census) · GICS · confidence"]
+        ANA["analytics/<br/>league tables · precedents · trends · quality report"]
+        REP["reporting/<br/>weekly brief · quarterly review · Excel"]
     end
 
-    subgraph REPO["Git repo = database"]
-        D["data/deals.json<br/>data/meta.json<br/>data/briefings/*.json"]
+    subgraph Published["GitHub Pages"]
+        DATA[("deals.json · capital_formation.json<br/>ownership.json · analytics.json")]
+        APP["Static PWA dashboard<br/>Chart.js · SVG county map"]
+        PDF["PDF + XLSX reports"]
     end
 
-    subgraph PAGES["GitHub Pages"]
-        APP["Static PWA<br/>HTML · CSS · ES modules · Chart.js"]
-        SW["Service worker<br/>offline cache"]
-    end
-
-    FTS -- "Michigan filers<br/>(≤ 6 req/s, contact UA)" --> P
-    ARC --> P
-    B --> D
-    P --> D
-    D -- "commit + deploy" --> APP
-    APP <--> SW
-    APP --> U["📱 Phone / 💻 Desktop<br/>installed app"]
+    SEC --> ING
+    WIRE --> ING
+    NEWS --> ING
+    CFG --> EXT
+    ING --> EXT --> EVD --> LNK --> DATA
+    LNK --> ANA --> DATA
+    ANA --> REP --> PDF
+    DATA --> APP
 ```
 
-### Pipeline (Python, `pipeline/`)
+**Design choices worth noting**
 
-| Module | Responsibility |
+- **Evidence first, deals derived.** Each filing becomes an *evidence event* (what was fetched, what was extracted, and the exact sentence each value came from). Deals are rebuilt from evidence on every run, so a rule fix re-derives the full history consistently. Filing text is archived (gzipped) so rules can be re-run offline: `python -m pipeline.run --reextract`.
+- **Field-level provenance.** Every field is `{value, source_url, source_text, method}`, where `method` is `filing_metadata`, `rule`, `derived` or `llm_verified`. Missing values are `null` and render as *Not disclosed*; computed values carry `estimate: true` and render as **EST.**
+- **Git as the database.** At this scale, versioned JSON is free, diffable and auditable. Every data change is a commit.
+
+## Methodology
+
+**Sources and collection rules.** Official APIs and public RSS only. SEC fair access: declared User-Agent with a name and email (stored as a GitHub secret), throttled to 6 requests/second. robots.txt is checked before every non-SEC request; paywalled outlets contribute headlines and links only. Google News RSS is deliberately excluded because its robots.txt disallows automated access.
+
+**Extraction.** Rule-based first: values are only taken from sentences that say what they are ("enterprise value of", "per share in cash", "EBITDA of"); parties are resolved from the filing's defined terms (e.g. `Merger Sub` merges into `"Noble"`, which resolves to *Noble Africa LLC*). An optional LLM (GitHub Models, free in Actions) fills only unresolved buyer/target roles, and its answer is **discarded unless its quote appears verbatim in the source** and contains the extracted name.
+
+**Deduplication.** SEC filings about one transaction (signing 8-K, merger proxy, tender filings, closing 8-K) are clustered by the merger agreement's signing date, then by counterparty, then by closing-follows-announcement. Filings by both parties (two Michigan public companies) merge into one deal; news items join an SEC deal when a party matches within 120 days.
+
+**Confidence.** High = SEC filing or official press release · Medium = reputable news · Low = single unconfirmed report. A deal takes its best source's level.
+
+**Classification.** Deal types: Acquisition, Merger, PE Buyout, Add-on, Growth Equity, Venture Round, Recapitalization, Divestiture / Carve-out, IPO, Debt Raise. Status: Rumored, Announced, Pending, Closed, Terminated. Sector: SEC SIC / Form D industry group → approximate GICS sector and sub-industry → Michigan focus sector. Geography: city or ZIP → county (point-in-polygon on Census boundaries) → region.
+
+**Known limitations.** Most private middle-market deals never touch EDGAR and many releases omit terms, so value and multiple coverage is sparse by nature. RSS only carries recent items, so the 24-month history is SEC-based and news coverage grows from launch. Location is the EDGAR business address. Rule-based role detection can miss unusual structures; those deals are flagged for review instead of guessed.
+
+## Tech stack
+
+| Layer | Tools |
 |---|---|
-| `sec_client.py` | Polite HTTP client: contact User-Agent, global throttle (6 req/s, under SEC's 10/s limit), retry with backoff on 429/5xx |
-| `edgar.py` | Full-text search paging (`locationCodes=MI`), month windows, accession de-duplication, filing-index lookup |
-| `formd.py` | Form D XML parser: issuer, city, industry group, offering/sold/remaining, first-sale date, pooled-fund type, exemptions, related persons |
-| `eightk.py` | 8-K section splitter (Items 1.01 / 2.01 / 8.01), M&A vs. financing rules, deal-value and counterparty extraction, excerpt |
-| `schedule13d.py` | Structured Schedule 13D/13D-A parser: subject company, reporting persons, % of class |
-| `deals.py` / `sectors.py` | Normalize everything into one deal schema, map Form D industries and SIC codes to one sector taxonomy, templated summaries |
-| `store.py` | Upsert/merge (Form D amendments collapse into one offering with history), atomic JSON writes |
-| `briefing.py` | Weekly briefing: stats vs. trailing 4-week average, top deals, funds, M&A, sector mix, 3 prioritized talking points |
-| `collectors.py` / `run.py` | Orchestration and CLI. **Each filing is processed in its own try/except**, so one bad filing is logged to `meta.json` and skipped, never crashing the run |
+| Pipeline | Python 3.12 · `requests` · `PyYAML` · standard-library XML/RSS parsing |
+| Reports | Jinja2 HTML templates → headless Chrome PDF · `openpyxl` (Excel) · dependency-free SVG charts |
+| App | Vanilla ES modules (no build step) · Chart.js 4 · SVG county map · service worker (offline) |
+| Reference data | U.S. Census county boundaries (`us-atlas`) · GeoNames places · ZIP centroids, built by `scripts/geo/build_geo.mjs` |
+| Quality | pytest with real SEC filings as fixtures · Playwright browser smoke tests · per-run data-quality report |
+| Infra ($0) | GitHub Actions (daily pipeline, CI, deploy) · GitHub Pages · GitHub Models (optional) · Electron (desktop builds) |
 
-### Classification rules (no AI)
+## Project structure
 
-| Type | Rule |
-|---|---|
-| **Fundraise** | Form D with a Michigan principal place of business. Subtype = *Private Placement* or the fund type (PE / VC / hedge / other) |
-| **M&A** | 8-K Item 2.01; Item 1.01 whose opening describes a merger/purchase agreement; 8.01/7.01 with strong merger language; or Form D flagged as a business combination |
-| **Material Agreement** | Other 8-K Item 1.01, sub-typed by keyword (credit facility, debt offering, equity financing, employment, lease, commercial) |
-| **Stake** | Schedule 13D / 13D-A where the **subject company** is headquartered in Michigan |
-
-Noise filters: asset-backed securitization trusts (SIC 6189) are excluded, and earnings 8-Ks that only mention a merger in an exhibit are skipped. A credit agreement whose text references the merger it finances is classed as a *Material Agreement*, not M&A.
-
-### Data schema (`data/deals.json`)
-
-```jsonc
-{
-  "id": "D-2163797-021-603899",        // Form D: CIK + SEC file number (amendments merge); 8-K/13D: accession
-  "type": "Fundraise",                  // Fundraise | M&A | Material Agreement | Stake
-  "subtype": "Private Placement",
-  "form": "D", "accession": "0002163797-26-000001",
-  "company": "Krabby Co Inc.", "cik": "2163797", "ticker": null,
-  "city": "Berkley", "state": "MI",
-  "industry": "Other Technology", "sector": "Technology",
-  "filed": "2026-11-06", "event_date": "2026-10-26",
-  "amount": 1500000, "amount_sold": 166500, "amount_is_estimate": false,
-  "summary": "Krabby Co Inc., a Berkley-based technology company, filed a $1.5M SAFE offering under Rule 506(b); $166.5K sold to 1 investor.",
-  "excerpt": null, "counterparty": null, "items": [],
-  "related_persons": [{ "name": "Fletcher Liverance", "roles": ["Executive Officer", "Director"] }],
-  "details": { "investor_count": 1, "exemptions": ["Rule 506(b)"], "is_pooled_fund": false, "...": "..." },
-  "url": "https://www.sec.gov/Archives/edgar/data/2163797/000216379726000001/0002163797-26-000001-index.htm",
-  "filings": [{ "accession": "…", "filed": "2026-11-06", "form": "D", "amount_sold": 166500 }]
-}
+```
+pipeline/
+  ingestion/     sec_client.py (throttle/retry), edgar.py (full-text search), web.py (robots.txt-aware RSS client)
+  extraction/    terms.py (deal terms, parties, advisors), eightk.py, formd.py, schedule13d.py, entities.py, llm.py
+  sources/       sec.py (filings -> evidence events), news.py (wire/news RSS -> evidence)
+  storage/       store.py, linking.py (dedupe -> deals), news_linking.py, migrate_v1.py
+  reference/     geo.py + mi_geo.json (counties/regions), gics.py (SIC/Form D -> GICS)
+  analytics/     metrics.py (league tables, precedents, trends), quality.py
+  reporting/     briefing.py, pdf.py + templates/, excel.py, build.py, readme.py
+  run.py         CLI orchestrator
+app/             static PWA (index.html, css/, js/, js/views/, sw.js, assets/mi-counties.json)
+config/          firms.yml (watchlist), sources.yml (RSS feeds)
+data/            deals.json, capital_formation.json, ownership.json, analytics.json, evidence.json,
+                 briefings/, quality/, evidence_text/ (gzipped filing text), backup/ (v1 archive)
+tests/           pytest suite + fixtures (real 8-K, Form D, 13D filings); e2e/ browser smoke test
+desktop/         Electron wrapper + installer workflow
 ```
 
-## Data sources
-
-- **SEC EDGAR full-text search** (`efts.sec.gov/LATEST/search-index`), filtered to filers whose business address is in Michigan, for forms `D`, `8-K`, and `SCHEDULE 13D`.
-- **EDGAR filing archives** (`sec.gov/Archives/edgar/data/...`): the primary document of each filing (Form D `primary_doc.xml`, 8-K HTML, 13D XML).
-- All requests follow the [SEC fair-access policy](https://www.sec.gov/os/accessing-edgar-data): a descriptive User-Agent with a contact email, and a hard throttle of 6 requests/second.
-
-## Running it locally
+## Setup
 
 ```bash
 git clone https://github.com/VibecoderJB/michigan-deal-radar.git
 cd michigan-deal-radar
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-
-pytest -q                                  # unit tests for parsers, rules, briefings
-python -m pipeline.run                     # incremental update (last 10 days)
-python -m pipeline.run --backfill 365      # rebuild 12 months of history (~2-3 min)
-python scripts/serve.py                    # open http://localhost:8000
+export SEC_USER_AGENT="MichiganDealRadar/2.0 (Your Name; you@example.com)"   # required by SEC fair-access rules
 ```
 
-Set `SEC_USER_AGENT="YourApp/1.0 (you@example.com)"` to use your own contact email. Shortcuts live in the `Makefile` (`make test`, `make backfill`, `make serve`).
+```bash
+pytest -q                                      # unit tests
+python -m pipeline.run                         # incremental update (last 10 days)
+python -m pipeline.run --backfill 730          # rebuild 24 months of history
+python -m pipeline.run --reextract             # re-run extraction rules on archived filing text (offline)
+python -m pipeline.reporting.build --out _site/reports   # PDFs + Excel
+python scripts/serve.py                        # app at http://localhost:8000
+```
 
-## Deployment (free)
+**GitHub (free):** add the repository secret `SEC_USER_AGENT` (Settings → Secrets and variables → Actions), set Pages → Source to *GitHub Actions*, and allow *Read and write* workflow permissions. The `Update data` workflow then runs daily; run it once manually with `backfill_days = 730` to load 24 months.
 
 | Workflow | Trigger | What it does |
 |---|---|---|
-| `update-data.yml` | Daily cron (11:17 UTC) + manual | Tests → pipeline → commit `data/` → deploy |
-| `deploy.yml` | Push to `main` (app/data) + called by the above | Assembles `_site/` (app + data, cache-busted service worker) → GitHub Pages |
-| `ci.yml` | Push / PR touching the pipeline | `pytest` |
-| `desktop.yml` | Manual or `v*` tag | Builds Windows `.exe`, macOS `.dmg` and Linux `.AppImage` and publishes a GitHub Release |
-
-Briefings: the daily job writes a briefing for every completed Mon–Sun week that doesn't have one yet, so Monday's run publishes the prior week's briefing.
+| `update-data.yml` | Daily cron + manual | Tests → pipeline (SEC + RSS) → quality report → commit data → deploy |
+| `deploy.yml` | Push to `main` / called by the above | Assembles the site, renders PDF + Excel reports, publishes to Pages |
+| `ci.yml` | Push / PR | pytest; builds a v2 dataset offline and runs the browser smoke test |
+| `desktop.yml` | Manual / `v*` tag | Windows / macOS / Linux desktop installers |
 
 ## Install the app
 
-- **iPhone / iPad:** open the live URL in **Safari** → Share → **Add to Home Screen**.
-- **Android:** open in **Chrome** → ⋮ menu → **Install app** (or tap **Install app** in the header).
-- **Desktop app (Windows / Mac / Linux):** [**download the installer**](https://github.com/VibecoderJB/michigan-deal-radar/releases/latest): `.exe` for Windows, `.dmg` for Mac (Apple Silicon or Intel), `.AppImage` for Linux. Or, in Chrome/Edge, click the install icon in the address bar.
-  - The installers aren't code-signed (certificates cost money). Windows: *More info → Run anyway*. Mac: right-click the app → *Open* (macOS 15+: System Settings → Privacy & Security → *Open Anyway*).
-
-After the first load, the app shell and last-loaded data work offline (a banner shows how old the saved data is).
-
-## Project structure
-
-```
-pipeline/            Python data pipeline (no third-party deps beyond requests)
-tests/               pytest suite + real SEC filing fixtures
-data/                deals.json, meta.json, briefings/ (committed by the bot)
-app/                 static PWA: index.html, css/, js/ (ES modules), sw.js, manifest, icons/
-desktop/             Electron wrapper: live data online, bundled copy offline; installers built by Actions
-scripts/             serve.py (local dev), build_site.sh (Pages bundle)
-.github/workflows/   update-data, deploy, ci
-```
-
-## Limitations
-
-- Form D amounts are self-reported and filed within 15 days of first sale; many private deals never file one.
-- The 8-K "value cited" is the largest dollar figure in the deal section, a parsed estimate shown with `~`.
-- Location is the filer's EDGAR business address, so Michigan operating companies headquartered elsewhere are missed.
-- Not investment advice; always confirm against the linked filing.
+- **Windows / Mac:** open the live site in Edge or Chrome and use the install icon in the address bar (Edge: ⋯ → Apps → *Install this site as an app*). This route isn't blocked by Windows Smart App Control.
+- **iPhone:** Safari → Share → *Add to Home Screen*. **Android:** Chrome → ⋮ → *Install app*.
 
 ## License
 
-MIT. Data is public SEC EDGAR information.
+MIT. Data is public SEC EDGAR information and publicly published press releases; not investment advice.

@@ -1,5 +1,5 @@
 // Service worker: offline-first app shell, network-first data with cached fallback.
-const VERSION = "mdr-v1.0.0";
+const VERSION = "mdr-v2.0.0";
 const SHELL_CACHE = `${VERSION}-shell`;
 const DATA_CACHE = "mdr-data"; // survives app updates so offline data is never lost
 
@@ -13,13 +13,25 @@ const SHELL = [
   "js/ui.js",
   "js/csv.js",
   "js/watchlist.js",
+  "js/analytics.js",
+  "js/filters.js",
   "js/views/dashboard.js",
   "js/views/deals.js",
   "js/views/detail.js",
   "js/views/briefing.js",
   "js/views/watchlist.js",
   "js/views/about.js",
+  "js/views/map.js",
+  "js/views/league.js",
+  "js/views/precedents.js",
+  "js/views/sectors.js",
+  "js/views/sponsors.js",
+  "js/views/active.js",
+  "js/views/capital.js",
+  "js/views/quality.js",
+  "js/views/hub.js",
   "vendor/chart.umd.js",
+  "assets/mi-counties.json",
   "manifest.webmanifest",
   "icons/favicon.svg",
   "icons/icon-192.png",
@@ -76,7 +88,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
-  if (url.pathname.includes("/data/")) {
+  if (url.pathname.includes("/data/") || url.pathname.endsWith("/reports/index.json")) {
     event.respondWith(networkFirstData(request));
   } else if (request.mode === "navigate") {
     event.respondWith(fetch(request).catch(() => caches.match("index.html")));

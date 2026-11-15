@@ -1,4 +1,4 @@
-"""Local dev server: serves app/ and maps /data/* to the repo's data/ folder.
+"""Local dev server: serves app/, maps /data/* to data/ and /reports/* to _site/reports/ (built by pipeline.reporting.build).
 
     python scripts/serve.py            # http://localhost:8000
 """
@@ -8,16 +8,21 @@ from __future__ import annotations
 import argparse
 import functools
 import http.server
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+DATA = Path(os.environ.get("MDR_DATA_DIR", ROOT / "data"))
+REPORTS = Path(os.environ.get("MDR_REPORTS_DIR", ROOT / "_site" / "reports"))
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):
     def translate_path(self, path: str) -> str:
         clean = path.split("?", 1)[0].split("#", 1)[0]
         if clean.startswith("/data/"):
-            return str(ROOT / "data" / clean[len("/data/"):])
+            return str(DATA / clean[len("/data/"):])
+        if clean.startswith("/reports/"):
+            return str(REPORTS / clean[len("/reports/"):])
         return super().translate_path(path)
 
     def end_headers(self) -> None:

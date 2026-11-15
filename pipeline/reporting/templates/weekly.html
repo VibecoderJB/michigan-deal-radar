@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Michigan Deal Flow: Week of {{ b.week_start | date }}</title><style>{{ css | safe }}</style></head>
+<body>
+<div class="cover">
+  <div class="brand">Michigan Deal Radar</div>
+  <h1>Michigan Deal Flow</h1>
+  <div class="period">Weekly Brief · {{ b.week_start | date }} – {{ b.week_end | date }}</div>
+  <div class="headline">{{ b.headline }}</div>
+  <div class="stats">
+    <div class="stat"><div class="k">M&amp;A deals</div><div class="v">{{ s.ma_deals }}</div><div class="d">{{ s.ma_with_value }} with disclosed value</div></div>
+    <div class="stat"><div class="k">Disclosed M&amp;A value</div><div class="v">{{ s.ma_disclosed_value | mm }}</div><div class="d">$M, disclosed deals only</div></div>
+    <div class="stat"><div class="k">Private financings</div><div class="v">{{ s.financings }}</div><div class="d">{{ s.financing_raised | mm }} $M raised</div></div>
+    <div class="stat"><div class="k">Fund raises</div><div class="v">{{ s.fund_raises }}</div><div class="d">{{ s.fund_capital_raised | mm }} $M reported</div></div>
+    <div class="stat"><div class="k">13D stakes</div><div class="v">{{ s.stakes }}</div><div class="d">5%+ ownership filings</div></div>
+    <div class="stat"><div class="k">vs. 4-week avg</div><div class="v">{{ ch.ma_deals | pct }}</div><div class="d">change in M&amp;A deal count</div></div>
+  </div>
+  <div class="foot"><span>Data as of {{ as_of | date }} · Sources: SEC EDGAR filings and public press releases</span><span>For informational purposes only. Not investment advice.</span></div>
+</div>
+
+<div class="running">Michigan Deal Flow · Week of {{ b.week_start | date }} · Data as of {{ as_of | date }} · Michigan Deal Radar · Sources: SEC EDGAR and public press releases</div>
+
+<h2>Key statistics <span class="sub">this week vs. trailing 4-week average</span></h2>
+<table>
+  <tr><th>Metric</th><th class="r">This week</th><th class="r">4-wk avg</th><th class="r">Change</th></tr>
+  <tr><td>M&amp;A deals announced/closed</td><td class="r num">{{ s.ma_deals }}</td><td class="r num">{{ "%.1f"|format(t.ma_deals) }}</td><td class="r num">{{ ch.ma_deals | pct }}</td></tr>
+  <tr><td>Private financings</td><td class="r num">{{ s.financings }}</td><td class="r num">{{ "%.1f"|format(t.financings) }}</td><td class="r num">{{ ch.financings | pct }}</td></tr>
+  <tr><td>Capital raised in financings ($M)</td><td class="r num">{{ s.financing_raised | mm }}</td><td class="r num">{{ t.financing_raised | mm }}</td><td class="r num">{{ ch.financing_raised | pct }}</td></tr>
+  <tr><td>Fund vehicles raising (count)</td><td class="r num">{{ s.fund_raises }}</td><td class="r num">{{ "%.1f"|format(t.fund_raises) }}</td><td class="r num">n.m.</td></tr>
+</table>
+
+<h2>Notable M&amp;A <span class="sub">ranked by disclosed value</span></h2>
+{% if b.notable_ma %}
+<table>
+  <tr><th>Deal</th><th>Type</th><th>Status</th><th>Sector</th><th class="r">Value ($M)</th></tr>
+  {% for d in b.notable_ma %}
+  <tr><td><b>{{ d.title }}</b><div class="conf">{{ d.region or "Michigan" }} · {{ d.confidence }} confidence</div></td><td>{{ d.deal_type }}</td>
+      <td><span class="tag {{ (d.status or '')|lower }}">{{ d.status }}</span></td><td>{{ d.sector or "n.d." }}</td><td class="r num">{{ d.value | mm_nd }}</td></tr>
+  {% endfor %}
+</table>
+{% else %}<p class="muted">No Michigan M&amp;A filings this week.</p>{% endif %}
+
+<h2>Private capital <span class="sub">financings and fund raises</span></h2>
+<div class="grid2">
+  <div>
+    <h3>Largest financings</h3>
+    <table><tr><th>Company</th><th>Type</th><th class="r">Raised ($M)</th></tr>
+    {% for d in b.top_financings %}<tr><td>{{ d.target }}</td><td>{{ d.deal_type }}</td><td class="r num">{{ d.value | mm_nd }}</td></tr>{% else %}<tr><td colspan="3" class="nd">None this week</td></tr>{% endfor %}
+    </table>
+  </div>
+  <div>
+    <h3>Fund raises (Form D)</h3>
+    <table><tr><th>Fund</th><th>Category</th><th class="r">Raised ($M)</th></tr>
+    {% for f in b.fund_raises %}<tr><td>{{ f.name }}</td><td>{{ f.category }}</td><td class="r num">{{ f.amount_raised | mm_nd }}</td></tr>{% else %}<tr><td colspan="3" class="nd">None this week</td></tr>{% endfor %}
+    </table>
+  </div>
+</div>
+
+<section>
+<h2>League table snapshot <span class="sub">Michigan M&amp;A, trailing 12 months to {{ b.week_end | date }}</span></h2>
+<div class="grid2">
+  {% for key, label in [("acquirers", "Most active acquirers"), ("sponsors", "Most active PE sponsors"), ("financial_advisors", "Financial advisors"), ("legal_advisors", "Legal advisors")] %}
+  <div><h3>{{ label }}</h3><table><tr><th>#</th><th>Firm</th><th class="r">Deals</th></tr>
+  {% for r in b.league_snapshot[key] %}<tr><td class="num">{{ loop.index }}</td><td>{{ r.name }}</td><td class="r num">{{ r.deals }}</td></tr>{% else %}<tr><td colspan="3" class="nd">Not disclosed in sources yet</td></tr>{% endfor %}
+  </table></div>
+  {% endfor %}
+</div>
+</section>
+
+<section>
+<h2>Sector commentary</h2>
+{% for c in b.sector_commentary %}<p><b>{{ c.sector }}.</b> {{ c.text }}</p>{% else %}<p class="muted">No sector activity this week.</p>{% endfor %}
+<h2>Talking points for networking calls</h2>
+<ol class="points">{% for p in b.talking_points %}<li><b>{{ p.topic }}</b>{{ p.text }}</li>{% endfor %}</ol>
+<p class="note">Talking points are generated from templates and the week's sourced data; no AI is used. Values marked n.d. were not disclosed by any source.</p>
+</section>
+
+<h2 class="page-break">Sources appendix</h2>
+<ol class="appendix">{% for src in b.sources %}<li>{{ src.title }} ({{ src.kind }}, {{ src.date | date }}): <a href="{{ src.url }}">{{ src.url }}</a></li>{% else %}<li class="muted">No sources this week.</li>{% endfor %}</ol>
+<p class="note">Methodology: deals are built from SEC EDGAR filings (8-K Items 1.01/2.01, S-4, DEFM14A, SC TO-T, SC 14D9, Form D, Schedule 13D) and public press releases. Every value is stored with its source URL and verbatim source text. Confidence: High = SEC filing or official press release; Medium = reputable news; Low = single unconfirmed report.</p>
+</body></html>

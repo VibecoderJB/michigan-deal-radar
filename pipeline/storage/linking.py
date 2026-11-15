@@ -243,7 +243,7 @@ def build_ma_deal(events: list[dict]) -> dict:
     seller = None
     role_evidence: FieldValue | None = None
     for role, e in roles:
-        if role == "target" and target is None:
+        if role == "target" and (target is None or target.get("cik") is None):
             target = filer_party(e)
             role_evidence = e["role"]
             if is_disclosed(e.get("counterparty")) and acquirer is None:
@@ -259,6 +259,7 @@ def build_ma_deal(events: list[dict]) -> dict:
             if is_disclosed(e.get("counterparty")) and acquirer is None:
                 acquirer = named_party(e["counterparty"])
     primary = by_priority[0]
+    michigan_party = filer_party(primary)
     if target is None and acquirer is None and seller is None:
         flags.append("roles_unresolved")
     if seller is not None and target is None:
@@ -376,7 +377,9 @@ def build_ma_deal(events: list[dict]) -> dict:
     mi_target = val(target["state"]) == "MI"
     mi_acquirer = val(acquirer["state"]) == "MI" or val(seller["state"]) == "MI" if seller else val(acquirer["state"]) == "MI"
     michigan_link = "Both" if mi_target and mi_acquirer else "Target" if mi_target else "Acquirer" if mi_acquirer else "Party"
-    focus = val(target.get("focus_sector")) or val(acquirer.get("focus_sector"))
+    focus = val(target.get("focus_sector")) or val(acquirer.get("focus_sector")) or val(michigan_party.get("focus_sector"))
+    if "roles_unresolved" in flags:
+        michigan_link = "Party"
     for name in ("enterprise_value", "transaction_value", "equity_value"):
         if is_disclosed(financials[name]):
             break
@@ -394,6 +397,8 @@ def build_ma_deal(events: list[dict]) -> dict:
         "target": target,
         "acquirer": acquirer,
         "seller": seller,
+        "michigan_party": michigan_party,
+        "counterparty": next((e["counterparty"] for e in by_priority if is_disclosed(e.get("counterparty"))), undisclosed()),
         "advisors": sorted(advisors.values(), key=lambda a: (a["role"], a["firm"])),
         "financials": financials,
         "rationale": rationale,
@@ -418,9 +423,9 @@ def deal_title(d: dict) -> str:
     t, a, s = _name(d["target"], "undisclosed target"), _name(d["acquirer"], "undisclosed buyer"), d.get("seller")
     status = val(d["status"])
     if "roles_unresolved" in d["flags"]:
-        parties = [p for p in {val(d["target"]["name"]), val(d["acquirer"]["name"])} if p]
-        names = [display_name(src["title"].split(" SEC")[0]) for src in d["sources"][:1]]
-        return f"{names[0] if names else 'Michigan company'}: M&A transaction" + (f" with {parties[0]}" if parties else "")
+        mp = _name(d.get("michigan_party"), "Michigan company")
+        cp = val(d.get("counterparty"))
+        return f"{mp}: M&A transaction" + (f" with {cp}" if cp else "") + " (buyer/target roles under review)"
     if s:
         verb = {"Closed": "sold", "Terminated": "terminated sale of"}.get(status, "to sell")
         return f"{_name(s)} {verb} {t if val(d['target']['name']) else 'business'} to {a}"

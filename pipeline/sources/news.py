@@ -34,17 +34,18 @@ DEAL_LANGUAGE = re.compile(
     r"portfolio company|add-on|platform (?:acquisition|investment)|takes? private|go(?:es|ing)? public|IPO)\b",
     re.I,
 )
+VALUE_LANGUAGE = re.compile(r"\b(valued at|transaction value|purchase price|consideration|deal (?:is )?worth|for \$)", re.I)
 RUMOR = re.compile(r"\b(in talks|exploring (?:a )?sale|considering (?:a )?sale|weighs? sale|reportedly|people familiar|rumou?red|may sell|eyes)\b", re.I)
 _TAG_RE = re.compile(r"<[^>]+>")
 
 _PARTY = r"(?P<{g}>[A-Z0-9][\w&.,'’\- ]{{1,80}}?)"
 HEADLINE_PATTERNS = [
-    ("Closed", "M&A", re.compile(_PARTY.format(g="acq") + r",? (?:has )?(?:acquires|acquired|completes (?:the )?acquisition of|closes (?:the )?acquisition of|buys|bought|has purchased|purchases) " + _PARTY.format(g="tgt") + r"(?=$|[,;:]| for | in | from | to | as | expanding| strengthening| adding)")),
-    ("Announced", "M&A", re.compile(_PARTY.format(g="acq") + r",? (?:to acquire|agrees to acquire|will acquire|announces (?:agreement to acquire|acquisition of|definitive agreement to acquire)|signs (?:definitive )?agreement to acquire|to buy) " + _PARTY.format(g="tgt") + r"(?=$|[,;:]| for | in | from | to | as )")),
-    ("Closed", "M&A", re.compile(_PARTY.format(g="tgt") + r",? (?:acquired by|sold to|joins|has been acquired by) " + _PARTY.format(g="acq") + r"(?=$|[,;:]| for | in | as )")),
-    ("Announced", "M&A", re.compile(_PARTY.format(g="tgt") + r",? (?:to be acquired by|agrees to be acquired by|to sell to|enters agreement to be acquired by) " + _PARTY.format(g="acq") + r"(?=$|[,;:]| for | in | as )")),
-    ("Closed", "Financing", re.compile(_PARTY.format(g="tgt") + r",? (?:raises|secures|closes|lands|announces) (?:a )?(?P<amt>\$[\d.,]+\s?(?:million|billion|M|B)\b)?[^.]{0,40}?(?P<round>Series [A-E]\d?|seed|pre-seed|growth|funding|financing|investment)")),
-    ("Closed", "Financing", re.compile(_PARTY.format(g="acq") + r",? (?:invests in|makes (?:a |an )?(?:strategic |growth |minority )?investment in|leads (?:\$[\d.,]+\s?(?:million|billion|M|B) )?investment in) " + _PARTY.format(g="tgt") + r"(?=$|[,;:]| to | as | for )")),
+    ("Closed", "M&A", re.compile(_PARTY.format(g="acq") + r",? (?i:(?:has )?(?:acquires|acquired|completes (?:the )?acquisition of|closes (?:the )?acquisition of|buys|bought|has purchased|purchases)) " + _PARTY.format(g="tgt") + r"(?=$|[,;:]| for | in | from | to | as | expanding| strengthening| adding)")),
+    ("Announced", "M&A", re.compile(_PARTY.format(g="acq") + r",? (?i:to acquire|agrees to acquire|will acquire|announces (?:agreement to acquire|acquisition of|definitive agreement to acquire)|signs (?:definitive )?agreement to acquire|to buy) " + _PARTY.format(g="tgt") + r"(?=$|[,;:]| for | in | from | to | as )")),
+    ("Closed", "M&A", re.compile(_PARTY.format(g="tgt") + r",? (?i:acquired by|sold to|joins|has been acquired by) " + _PARTY.format(g="acq") + r"(?=$|[,;:]| for | in | as )")),
+    ("Announced", "M&A", re.compile(_PARTY.format(g="tgt") + r",? (?i:to be acquired by|agrees to be acquired by|to sell to|enters agreement to be acquired by) " + _PARTY.format(g="acq") + r"(?=$|[,;:]| for | in | as )")),
+    ("Closed", "Financing", re.compile(_PARTY.format(g="tgt") + r",? (?i:raises|secures|closes|lands|announces) (?:a )?(?P<amt>\$[\d.,]+\s?(?:million|billion|M|B)\b)?[^.]{0,40}?(?P<round>(?i:Series [A-E]\d?|seed|pre-seed|growth|funding|financing|investment))")),
+    ("Closed", "Financing", re.compile(_PARTY.format(g="acq") + r",? (?i:invests in|makes (?:a |an )?(?:strategic |growth |minority )?investment in|leads (?:\$[\d.,]+\s?(?:million|billion|M|B) )?investment in) " + _PARTY.format(g="tgt") + r"(?=$|[,;:]| to | as | for )")),
 ]
 
 
@@ -141,7 +142,7 @@ def extract_deal(title: str, summary: str, url: str) -> dict | None:
         for text in (title, summary):
             for mm in MONEY_RE.finditer(text):
                 v = money_value(mm)
-                if v and v >= 100_000 and DEAL_LANGUAGE.search(text):
+                if v and v >= 100_000 and (DEAL_LANGUAGE.search(text) or VALUE_LANGUAGE.search(text)):
                     out["value"] = field(v, url, text)
                     break
             if out["value"]["value"]:

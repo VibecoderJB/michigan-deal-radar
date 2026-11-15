@@ -25,7 +25,7 @@ def quality_report(
     evidence_count: int,
     run_errors: list[dict],
     sources: dict,
-    v1_accessions: set[str] | None = None,
+    v1_records: list[set[str]] | None = None,
     evidence_ids: set[str] | None = None,
 ) -> dict:
     ma = [d for d in deals if d.get("category") == "M&A"]
@@ -64,11 +64,11 @@ def quality_report(
         "source_error_count": len(run_errors),
         "sources": sources,
     }
-    if v1_accessions is not None and evidence_ids is not None:
-        missing_v1 = sorted(v1_accessions - evidence_ids)
+    if v1_records is not None and evidence_ids is not None:
+        missing_v1 = [sorted(r) for r in v1_records if not (r & evidence_ids)]
         report["v1_migration"] = {
-            "v1_accessions": len(v1_accessions),
-            "covered_in_v2_evidence": len(v1_accessions) - len(missing_v1),
+            "v1_records": len(v1_records),
+            "covered_in_v2_evidence": len(v1_records) - len(missing_v1),
             "not_covered": missing_v1[:100],
         }
     return report

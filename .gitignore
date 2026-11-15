@@ -10,3 +10,5 @@ desktop/node_modules/
 desktop/dist/
 desktop/web/
 scripts/geo/node_modules/
+tests/e2e/node_modules/
+_ci_data/

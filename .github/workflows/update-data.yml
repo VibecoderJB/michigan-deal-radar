@@ -6,25 +6,38 @@ on:
   workflow_dispatch:
     inputs:
       backfill_days:
-        description: "Optional: re-fetch this many days of history (e.g. 365)"
+        description: "Optional: re-fetch this many days of history (730 = 24 months)"
         required: false
         default: ""
+      reextract:
+        description: "Re-run extraction rules on stored filing text (no SEC requests)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
+  models: read # free GitHub Models for the optional, quote-verified LLM gap-fill
 
 concurrency:
-  group: update-data
+  group: update-data-${{ github.ref_name }}
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     env:
-      # Override in Settings -> Secrets and variables -> Actions -> Variables if you like.
-      SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT || 'MichiganDealRadar/1.0 (student research project; jacksonrbond@gmail.com)' }}
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+      MDR_LLM: "1"
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
+      - name: Check SEC User-Agent secret
+        run: |
+          if [ -z "$SEC_USER_AGENT" ]; then
+            echo "::error::Add a repository secret named SEC_USER_AGENT (Settings > Secrets and variables > Actions), e.g. 'MichiganDealRadar/2.0 (Your Name; you@example.com)'. SEC fair-access rules require it."
+            exit 1
+          fi
+
       - uses: actions/checkout@v7
 
       - uses: actions/setup-python@v7
@@ -40,26 +53,32 @@ jobs:
 
       - name: Run pipeline
         run: |
-          if [ -n "${{ inputs.backfill_days }}" ]; then
-            python -m pipeline.run --backfill "${{ inputs.backfill_days }}"
+          if [ "${{ inputs.reextract }}" = "true" ]; then
+            python -m pipeline.run --reextract
+          elif [ -n "${{ inputs.backfill_days }}" ]; then
+            python -m pipeline.run --backfill "${{ inputs.backfill_days }}" --rebuild-briefings
           else
             python -m pipeline.run
           fi
+
+      - name: Data-quality summary
+        run: python -c "import json; q=json.load(open('data/quality/latest.json')); print(json.dumps({k: q[k] for k in ('new_deal_count','duplicates_merged','flagged_for_review_count','source_error_count','confidence')}, indent=1))" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit updated data
         run: |
           git config user.name "deal-radar-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
+          git add data README.md
           if git diff --cached --quiet; then
             echo "No data changes."
           else
             git commit -m "data: refresh $(date -u +%Y-%m-%d)"
-            git push
+            git push origin HEAD:${{ github.ref_name }}
           fi
 
   deploy:
     needs: update
+    if: github.ref == 'refs/heads/main'
     # Commits made with GITHUB_TOKEN don't trigger other workflows, so deploy explicitly.
     uses: ./.github/workflows/deploy.yml
     permissions:

@@ -1,4 +1,4 @@
-from pipeline.eightk import analyze_8k, classify_agreement, extract_sections, find_counterparty, parse_amount
+from pipeline.extraction.eightk import analyze_8k, classify_agreement, extract_sections, find_counterparty, parse_amount
 
 
 def test_completed_merger(fixture_text):

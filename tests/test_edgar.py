@@ -1,6 +1,6 @@
 from datetime import date
 
-from pipeline.edgar import _merge_hit, month_windows, parse_display_name, parse_index_documents
+from pipeline.ingestion.edgar import _merge_hit, month_windows, parse_display_name, parse_index_documents
 
 
 def test_parse_display_name_with_tickers():

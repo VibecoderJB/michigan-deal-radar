@@ -1,0 +1,58 @@
+@page { size: Letter; margin: 0.55in 0.6in 0.85in; }
+@page cover { margin: 0; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { margin: 0; font-family: Inter, "Segoe UI", Helvetica, Arial, "Liberation Sans", "DejaVu Sans", sans-serif; color: #0B1F3A; font-size: 9.5pt; line-height: 1.42; }
+.mono, td.num, .num { font-family: "JetBrains Mono", "SF Mono", Menlo, Consolas, "Liberation Mono", "DejaVu Sans Mono", monospace; font-variant-numeric: tabular-nums; }
+h1, h2, h3 { margin: 0; letter-spacing: -0.01em; }
+h2 { font-size: 13pt; border-bottom: 2px solid #0B1F3A; padding-bottom: 4px; margin: 18px 0 10px; }
+h2 .sub { font-size: 8.5pt; font-weight: 500; color: #5B6B82; margin-left: 6px; }
+h3 { font-size: 10pt; margin: 12px 0 6px; }
+p { margin: 0 0 8px; }
+a { color: #1D4E89; text-decoration: none; }
+.muted { color: #5B6B82; }
+.small { font-size: 8pt; }
+
+/* Cover */
+.cover { page: cover; height: 11in; width: 8.5in; background: #0B1F3A; color: #fff; padding: 0.9in 0.8in; position: relative; break-after: page; }
+.cover .brand { font-size: 10pt; letter-spacing: 0.22em; text-transform: uppercase; color: #C8962E; font-weight: 700; }
+.cover h1 { font-size: 34pt; margin: 1.1in 0 6px; line-height: 1.05; }
+.cover .period { font-size: 13pt; color: #C9D3E3; }
+.cover .headline { font-size: 14pt; margin-top: 0.45in; max-width: 6.3in; line-height: 1.35; border-left: 4px solid #C8962E; padding-left: 14px; }
+.cover .stats { position: absolute; left: 0.8in; right: 0.8in; bottom: 1.25in; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: #24395C; border: 1px solid #24395C; }
+.cover .stat { background: #0F2747; padding: 14px 16px; }
+.cover .stat .k { font-size: 7.5pt; letter-spacing: 0.12em; text-transform: uppercase; color: #9FB0C9; }
+.cover .stat .v { font-family: "JetBrains Mono", Menlo, "Liberation Mono", "DejaVu Sans Mono", monospace; font-size: 19pt; font-weight: 600; margin-top: 4px; }
+.cover .stat .d { font-size: 7.5pt; color: #9FB0C9; margin-top: 2px; }
+.cover .foot { position: absolute; left: 0.8in; right: 0.8in; bottom: 0.5in; font-size: 7.5pt; color: #9FB0C9; display: flex; justify-content: space-between; }
+
+/* Running footer on content pages */
+.running { position: fixed; bottom: -0.5in; left: 0; font-size: 7pt; color: #8A97AA; }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; margin: 4px 0 10px; }
+th { background: #0B1F3A; color: #fff; font-size: 7.5pt; text-transform: uppercase; letter-spacing: 0.06em; text-align: left; padding: 5px 6px; font-weight: 600; }
+td { padding: 5px 6px; border-bottom: 1px solid #E3E7EE; vertical-align: top; font-size: 8.5pt; }
+tr:nth-child(even) td { background: #F6F8FB; }
+th.r, td.r { text-align: right; }
+tr.summary td { font-weight: 700; background: #EEF2F8; border-top: 1.5px solid #0B1F3A; }
+.nd { color: #8A97AA; font-style: italic; }
+.tag { display: inline-block; font-size: 7pt; padding: 1px 6px; border-radius: 3px; background: #EEF2F8; color: #0B1F3A; font-weight: 600; }
+.tag.closed { background: #0B1F3A; color: #fff; }
+.tag.pending { background: #C8962E; color: #fff; }
+.conf { font-size: 7pt; color: #5B6B82; }
+
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 6px 0 12px; }
+.kpi { border: 1px solid #D9DEE6; border-top: 3px solid #0B1F3A; padding: 8px 10px; }
+.kpi .k { font-size: 7pt; text-transform: uppercase; letter-spacing: 0.08em; color: #5B6B82; }
+.kpi .v { font-family: "JetBrains Mono", Menlo, "Liberation Mono", "DejaVu Sans Mono", monospace; font-size: 15pt; font-weight: 600; }
+.kpi .d { font-size: 7.5pt; color: #5B6B82; }
+.up { color: #1E7B4F; } .down { color: #B33A3A; }
+.points li { margin-bottom: 7px; }
+.points b { color: #C8962E; text-transform: uppercase; font-size: 7.5pt; letter-spacing: 0.08em; margin-right: 4px; }
+.chart { margin: 6px 0 14px; break-inside: avoid; }
+.appendix li { font-size: 7.5pt; margin-bottom: 3px; word-break: break-all; }
+.note { font-size: 7.5pt; color: #5B6B82; border-left: 3px solid #D9DEE6; padding-left: 8px; margin: 8px 0; }
+section { break-inside: avoid-page; }
+.page-break { break-before: page; }

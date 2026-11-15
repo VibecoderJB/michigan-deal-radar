@@ -1,7 +1,7 @@
 import pytest
 
-from pipeline.schedule13d import parse_schedule_13d
-from pipeline.xmlutil import ParseError
+from pipeline.extraction.schedule13d import parse_schedule_13d
+from pipeline.extraction.xmlutil import ParseError
 
 
 def test_structured_13d_amendment(fixture_text):

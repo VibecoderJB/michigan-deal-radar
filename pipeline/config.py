@@ -27,6 +27,7 @@ DEALS_FILE = DATA_DIR / "deals.json"                      # M&A + financings (v2
 CAPITAL_FORMATION_FILE = DATA_DIR / "capital_formation.json"  # pooled-fund & real-estate Form Ds
 OWNERSHIP_FILE = DATA_DIR / "ownership.json"              # Schedule 13D stakes
 EVIDENCE_FILE = DATA_DIR / "evidence.json"                # extracted SEC/news events (the audit trail)
+EVIDENCE_TEXT_DIR = DATA_DIR / "evidence_text"            # gzipped filing text for offline re-extraction
 META_FILE = DATA_DIR / "meta.json"
 
 USER_AGENT_FILE = Path(

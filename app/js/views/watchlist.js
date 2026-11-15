@@ -1,51 +1,30 @@
-// Watchlist: starred companies (stored on this device) and their filings.
+// Watchlist: starred companies and their deals (saved on this device only).
 import { loadDeals } from "../data.js";
-import { date, esc, isoDay, money } from "../format.js";
-import { dealItem, emptyState } from "../ui.js";
-import { starButton, watchlist } from "../watchlist.js";
+import { isoDay } from "../format.js";
+import { dealItem, emptyState, pageHead } from "../ui.js";
+import { companyKey, starButton, watchlist } from "../watchlist.js";
 
 export async function renderWatchlist(root) {
   const { deals } = await loadDeals();
-  const starred = watchlist.all();
-  const ciks = Object.keys(starred);
+  const items = watchlist.all();
   const lastSeen = watchlist.lastSeen();
+  const matched = deals.filter((d) => watchlist.matches(d));
 
-  if (!ciks.length) {
-    root.innerHTML = `
-      <div class="page-head"><div><h1>Watchlist</h1><p>Star companies to follow their filings. Saved privately on this device.</p></div></div>
-      <section class="card">${emptyState(
-        `No companies yet. Tap the <strong>☆ star</strong> on any deal to watch that company.<br><br><a class="btn btn-accent" href="#/deals">Browse deals</a>`,
-        "M12 17.3l-6.2 3.7 1.7-7L2 9.2l7.2-.6L12 2l2.8 6.6 7.2.6-5.5 4.8 1.7 7z",
-      )}</section>`;
+  if (!Object.keys(items).length) {
+    root.innerHTML = `${pageHead("Watchlist", "Star companies to follow their deals. Saved privately on this device.")}
+      <section class="card">${emptyState('No companies yet. Tap the ☆ star on any deal to watch that company.<br><br><a class="btn btn-primary" href="#/deals">Browse deals</a>')}</section>`;
     return;
   }
-
-  const groups = ciks
-    .map((cik) => {
-      const list = deals.filter((d) => d.cik === cik);
-      return { cik, name: list[0]?.company || starred[cik].name, list, latest: list[0]?.filed || "" };
-    })
-    .sort((a, b) => b.latest.localeCompare(a.latest));
-  const fresh = lastSeen ? deals.filter((d) => starred[d.cik] && d.filed > lastSeen) : [];
-
+  const groups = new Map();
+  for (const d of matched) {
+    const { key, name } = companyKey(d);
+    if (!groups.has(key)) groups.set(key, { name, list: [], sample: d });
+    groups.get(key).list.push(d);
+  }
+  const fresh = lastSeen ? matched.filter((d) => d._date > lastSeen) : [];
   root.innerHTML = `
-    <div class="page-head">
-      <div><h1>Watchlist</h1><p>${ciks.length} compan${ciks.length === 1 ? "y" : "ies"} · saved on this device only.</p></div>
-    </div>
-    ${fresh.length ? `<section class="card" style="border-color:var(--accent)"><div class="card-head"><h2>New since your last visit</h2><span class="mono small">${fresh.length}</span></div><div class="deal-list">${fresh.map((d) => dealItem(d)).join("")}</div></section><div class="section-gap"></div>` : ""}
-    <div class="stack">
-      ${groups
-        .map(
-          (g) => `<section class="card">
-            <div class="card-head">
-              <div style="min-width:0"><h2>${esc(g.name)}</h2><div class="muted small mono">${g.list.length} filing${g.list.length === 1 ? "" : "s"} · last ${date(g.latest)} · ${money(g.list.reduce((s, d) => s + (d.amount_sold || 0), 0), { empty: "$0" })} sold</div></div>
-              ${starButton(g.cik, g.name)}
-            </div>
-            <div class="deal-list">${g.list.length ? g.list.slice(0, 4).map((d) => dealItem(d)).join("") : emptyState("No filings in the current dataset.")}</div>
-          </section>`,
-        )
-        .join("")}
-    </div>`;
-
+    ${pageHead("Watchlist", `${Object.keys(items).length} compan${Object.keys(items).length === 1 ? "y" : "ies"} · saved on this device only.`)}
+    ${fresh.length ? `<section class="card" style="border-color:var(--accent)"><div class="card-head"><h2>New since your last visit</h2><span class="sub">${fresh.length}</span></div>${fresh.map(dealItem).join("")}</section><div class="section-gap"></div>` : ""}
+    <div class="stack">${[...groups.values()].map((g) => `<section class="card"><div class="card-head"><h2>${g.name}</h2>${starButton(g.sample)}</div>${g.list.slice(0, 5).map(dealItem).join("")}</section>`).join("") || emptyState("Your starred companies have no deals in the current dataset.")}</div>`;
   watchlist.markSeen(isoDay(new Date()));
 }

@@ -81,7 +81,9 @@ def league_tables(deals: list[dict], top: int = 10) -> dict[str, list[dict]]:
         if not is_ma(d):
             continue
         a = _party_name(d, "acquirer")
-        if a:
+        # Form D "business combination" notices name the issuer but not the target, and one
+        # offering can fund several acquisitions; they count in deal flow, not in league tables.
+        if a and not any(s.get("kind") == "SEC Form D" for s in d.get("sources") or []):
             acquirers[a] += 1
             acquirer_value[a] += disclosed_value(d) or 0
             recent[a].append(d["deal_id"])
@@ -189,7 +191,7 @@ def sponsor_activity(deals: list[dict]) -> dict:
 def county_counts(deals: list[dict]) -> dict[str, int]:
     out: Counter = Counter()
     for d in deals:
-        for role in ("target", "acquirer"):
+        for role in ("target", "acquirer", "michigan_party"):
             p = d.get(role) or {}
             county = val(p.get("county")) if p else None
             if county:

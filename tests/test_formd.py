@@ -1,7 +1,7 @@
 import pytest
 
-from pipeline.formd import parse_form_d
-from pipeline.xmlutil import ParseError
+from pipeline.extraction.formd import parse_form_d
+from pipeline.extraction.xmlutil import ParseError
 
 
 def test_operating_company(fixture_text):

@@ -2,7 +2,7 @@ from pathlib import Path
 
 import pytest
 
-from pipeline.edgar import FilingHit
+from pipeline.ingestion.edgar import FilingHit
 
 FIXTURES = Path(__file__).parent / "fixtures"
 

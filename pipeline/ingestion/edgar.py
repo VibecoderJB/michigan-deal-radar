@@ -112,7 +112,7 @@ def _merge_hit(store: dict[str, FilingHit], hit: dict) -> None:
             entities.append(entity)
         existing = FilingHit(
             accession=accession,
-            form=src.get("file_type") or src.get("form") or "",
+            form=src.get("form") or src.get("file_type") or "",  # root form, never an exhibit type
             file_date=src.get("file_date") or "",
             ciks=list(src.get("ciks") or []),
             entities=entities,

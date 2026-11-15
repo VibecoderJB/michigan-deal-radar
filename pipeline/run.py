@@ -22,6 +22,7 @@ from . import __version__, config
 from .analytics.metrics import snapshot
 from .analytics.quality import quality_report, summary_line
 from .reporting.briefing import generate_briefings
+from .reporting.readme import update_readme
 from .sources import news as news_source
 from .sources import sec
 from .storage.linking import build_datasets
@@ -48,14 +49,15 @@ def parse_args(argv=None) -> argparse.Namespace:
     p.add_argument("--refresh", action="store_true", help="re-extract filings already in the evidence ledger")
     p.add_argument("--skip", nargs="*", default=[], choices=["ma", "formd", "13d", "news"], help="sources to skip")
     p.add_argument("--rebuild", action="store_true", help="no network: rebuild datasets/briefings from stored evidence")
+    p.add_argument("--reextract", action="store_true", help="no network: re-run extraction rules on stored filing text, then rebuild")
     p.add_argument("--rebuild-briefings", action="store_true", help="regenerate every weekly briefing")
     return p.parse_args(argv)
 
 
-def backup_v1_data() -> set[str] | None:
+def backup_v1_data() -> list[set[str]] | None:
     """If deals.json is still schema v1, copy it (with meta and briefings) to data/backup/ first.
 
-    Returns the set of v1 accession numbers so the quality report can prove nothing was lost.
+    Returns one set of accession numbers per v1 record so the quality report can prove nothing was lost.
     """
     current = read_json(config.DEALS_FILE, {}) or {}
     backups = sorted(config.BACKUP_DIR.glob("v1-*"))
@@ -73,12 +75,12 @@ def backup_v1_data() -> set[str] | None:
     if not backups:
         return None
     v1 = read_json(backups[-1] / "deals.json", {}) or {}
-    accessions: set[str] = set()
+    records = []
     for d in v1.get("deals", []):
-        accessions.add(d.get("accession"))
-        accessions.update(f.get("accession") for f in d.get("filings") or [])
-    accessions.discard(None)
-    return accessions
+        acc = {d.get("accession")} | {f.get("accession") for f in d.get("filings") or []}
+        acc.discard(None)
+        records.append(acc)
+    return records
 
 
 def main(argv=None) -> int:
@@ -94,6 +96,18 @@ def main(argv=None) -> int:
     evidence = load_evidence()
     meta = read_json(config.META_FILE, {}) or {}
     run: dict = {"started_at": utc_now(), "window": [start.isoformat(), today.isoformat()], "sources": {}, "errors": []}
+
+    if args.reextract:
+        args.rebuild = True
+        updated = 0
+        for i, e in enumerate(evidence):
+            if e["kind"] == "sec_ma":
+                new = sec.reextract(e)
+                if new is not None:
+                    evidence[i] = new
+                    updated += 1
+        save_evidence(evidence)
+        log.info("Re-extracted %d filings from stored text", updated)
 
     if not args.rebuild:
         known = set() if args.refresh else known_event_ids(evidence)
@@ -147,9 +161,9 @@ def main(argv=None) -> int:
     save_dataset(config.CAPITAL_FORMATION_FILE, datasets["capital_formation"], "records")
     save_dataset(config.OWNERSHIP_FILE, datasets["ownership"], "records")
 
-    coverage_start = date.fromisoformat(min([meta.get("coverage_start") or start.isoformat(), start.isoformat()]))
-    if args.backfill:
-        coverage_start = min(coverage_start, start)
+    earliest = min((e["filed"] for e in sec_events), default=start.isoformat())
+    candidates = [earliest] + ([meta["coverage_start"]] if meta.get("coverage_start") else []) + ([start.isoformat()] if args.backfill else [])
+    coverage_start = date.fromisoformat(min(candidates))
     snap = snapshot(datasets["deals"], datasets["capital_formation"], datasets["ownership"], today)
     write_json(config.DATA_DIR / "analytics.json", snap)
     written = generate_briefings(datasets["deals"], datasets["capital_formation"], datasets["ownership"], today, coverage_start,
@@ -170,6 +184,8 @@ def main(argv=None) -> int:
 
     meta["coverage_start"] = coverage_start.isoformat()
     _write_meta(meta, run, evidence, started, datasets)
+    if config.DATA_DIR.resolve() == (config.ROOT_DIR / "data").resolve():
+        update_readme()  # keep README "Key Findings" in sync with the published data
     log.info("Done: %s", summary_line(report))
     return 0
 

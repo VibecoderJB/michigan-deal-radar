@@ -19,9 +19,11 @@ from .htmltext import flatten
 
 # ----------------------------------------------------------------------------- basics
 
+_ABBREVIATIONS = ("Inc", "Corp", "Co", "Ltd", "No", "Mr", "Ms", "Dr", "Jr", "Sr", "St", "U.S", "L.P", "N.A", "Nos", "Mich", "Del")
+# A sentence ends at "." or ";" + whitespace + capital/quote, unless the period closes an abbreviation
+# or a single initial ("Robert W. Baird"). Each guard looks behind the period itself.
 _SENTENCE_SPLIT = re.compile(
-    r"(?<!\bInc)(?<!\bCorp)(?<!\bCo)(?<!\bLtd)(?<!\bNo)(?<!\bMr)(?<!\bMs)(?<!\bDr)(?<!\bU\.S)(?<!\bL\.P)(?<!\bN\.A)(?<!\bSt)"
-    r"(?<!\bJr)(?<!\bSr)(?<=[.;])\s+(?=[A-Z(\"“])"
+    "".join(rf"(?<!\b{re.escape(a)}\.)" for a in _ABBREVIATIONS) + r"(?<!\b[A-Z]\.)(?<=[.;])\s+(?=[A-Z(\"“])"
 )
 MONTHS = {m: i for i, m in enumerate(
     ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"], 1)}
@@ -404,10 +406,10 @@ _FIRM_HINT = re.compile(
     r"Butzel|Kirkland|Wachtell|Skadden|Sullivan|Jones Day|Latham|Sidley|Foley|Squire|Davis Polk|Cravath|Paul, Weiss|Ropes|Lewis)\b"
 )
 _ADVISOR_RE = re.compile(
-    r"(?P<firms>[A-Z][\w&.,'’\- ]{1,90}?)\s+(?:is|are|was|were|served|serve|serves|acted|act|is acting|are acting|is serving|are serving|"
-    r"has been retained|have been retained|will act|will serve|acting|serving)\s+as\s+(?:the\s+|its\s+|their\s+)?(?:exclusive\s+|lead\s+|sole\s+|co-)?"
+    r"(?P<firms>[A-Z](?:(?!\s(?:is|are|was|were|as)\s)[\w&.,'’\- ]){1,90}?)\s+(?:is acting|are acting|is serving|are serving|has been retained|have been retained|"
+    r"will act|will serve|served|serves|serve|acted|acting|serving|act|is|are|was|were)\s+as\s+(?:the\s+|its\s+|their\s+)?(?:exclusive\s+|lead\s+|sole\s+|co-)?"
     r"(?P<role>financial advisors?|legal (?:counsel|advisors?)|counsel|M&A advisors?|investment bank(?:er)?s?|lead arranger|placement agents?)"
-    r"(?:\s+(?:to|for)\s+(?P<client>[A-Z][\w&.'’\- ]{1,60}?))?(?=[,.;]|\s+and\s|\s+in connection|\s+on\s|$)"
+    r"(?:\s+(?:to|for)\s+(?:the\s+)?(?P<client>[A-Z][\w&.'’\- ]{1,60}?))?(?=[,.;]|\s+and\s|\s+in connection|\s+on\s|\s+with\s|$)"
 )
 _LENDER_RE = re.compile(
     r"(?:(?:debt )?financing (?:was |is |will be )?(?:provided|arranged|led|committed) by|(?:debt|committed) financing from)\s+"
@@ -450,7 +452,7 @@ def extract_advisors(text: str, url: str, party: Party | None = None, extra_firm
                 if adv["source_text"] == s or adv["firm"] in s:
                     adv["people"] = sorted(set(adv["people"]) | set(people))
     # DEFM14A / S-4 headings: "Opinion of Goldman Sachs & Co. LLC"
-    for m in re.finditer(r"Opinion of (?P<firm>[A-Z][\w&.,' ]{2,60}?(?:LLC|L\.L\.C\.|Inc\.|& Co\.|LP|L\.P\.|Incorporated))", text[:600000]):
+    for m in re.finditer(r"Opinion of (?P<firm>[A-Z][\w&.,' ]{2,60}?(?:LLC|L\.L\.C\.|Inc\.|& Co\.(?: LLC)?|LP|L\.P\.|Incorporated))(?=[ \t]*(?:\n|$|\())", text[:600000], re.M):
         firm = flatten(m.group("firm"))
         found.setdefault((firm, "financial"), {"firm": firm, "role": "financial", "client": "Michigan party" if party else None,
                                                "people": [], "source_url": url, "source_text": flatten(m.group(0)), "method": "rule"})
