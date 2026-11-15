@@ -1,0 +1,333 @@
+{
+ "schema_version": 2,
+ "week_start": "2024-12-02",
+ "week_end": "2024-12-08",
+ "generated_at": "2026-11-15T22:32:30Z",
+ "headline": "1 Michigan M&A deal, 6 financings; Sterling Bancorp, Inc.: M&A transaction (buyer/target roles under review)",
+ "stats": {
+  "ma_deals": 1,
+  "ma_disclosed_value": 261000000,
+  "ma_with_value": 1,
+  "financings": 6,
+  "financing_raised": 741014922,
+  "fund_raises": 2,
+  "fund_capital_raised": 2880000,
+  "stakes": 1
+ },
+ "trailing_4wk": {
+  "ma_deals": 0.2,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 2.0,
+  "financing_raised": 9347693.5,
+  "fund_raises": 0.0,
+  "fund_capital_raised": 0.0,
+  "stakes": 0.0
+ },
+ "change_vs_trailing": {
+  "ma_deals": 300.0,
+  "financings": 200.0,
+  "financing_raised": 7827.2
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-53b891f3fc",
+   "title": "Sterling Bancorp, Inc.: M&A transaction (buyer/target roles under review)",
+   "summary": "Sterling Bancorp, Inc.: M&A transaction (buyer/target roles under review) for $261M; pending 2024-12-06.",
+   "deal_type": "Recapitalization",
+   "status": "Pending",
+   "target": null,
+   "acquirer": null,
+   "value": 261000000.0,
+   "value_label": "Disclosed value",
+   "sector": "Financial Services",
+   "region": null,
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-ba073746f9",
+   "title": "DT Midstream, Inc.: credit facility ($700M)",
+   "summary": "DT Midstream, Inc.: credit facility ($700M).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "DT Midstream, Inc.",
+   "acquirer": null,
+   "value": 700000000.0,
+   "value_label": "Amount raised",
+   "sector": "Energy & Utilities",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-0f54a9b4bd",
+   "title": "Agrify Corp: growth equity ($25.9M raised)",
+   "summary": "Agrify Corp: growth equity ($25.9M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Closed",
+   "target": "Agrify Corp",
+   "acquirer": null,
+   "value": 25887622.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-25a1136ab1",
+   "title": "SeedtoScale III LLC: venture round ($5.9M raised)",
+   "summary": "SeedtoScale III LLC: venture round ($5.9M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "SeedtoScale III LLC",
+   "acquirer": null,
+   "value": 5917300.0,
+   "value_label": "Amount raised",
+   "sector": "Consumer",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-da35ae3304",
+   "title": "SkillTrade Inc.: venture round ($5M raised)",
+   "summary": "SkillTrade Inc.: venture round ($5M raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "SkillTrade Inc.",
+   "acquirer": null,
+   "value": 5049998.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-e71e23323a",
+   "title": "Ambient Biosciences, Inc.: growth equity ($4.2M raised)",
+   "summary": "Ambient Biosciences, Inc.: growth equity ($4.2M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Ambient Biosciences, Inc.",
+   "acquirer": null,
+   "value": 4160002.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-8af44046cc",
+   "name": "BFI Fort Pierce JV LLC",
+   "category": "Real Estate",
+   "amount_raised": 2100000.0,
+   "city": "Troy"
+  },
+  {
+   "id": "CF-ddae752450",
+   "name": "F3 Gateway LLC",
+   "category": "Real Estate",
+   "amount_raised": 780000.0,
+   "city": "Holland"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2023-12-08",
+   "2024-12-08"
+  ],
+  "acquirers": [
+   {
+    "name": "Ansys, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Mr. Coffey that provides that if his employment is terminated by the Company",
+    "deals": 1,
+    "disclosed_value": 160000000.0,
+    "recent_deal_ids": [
+     "MDR-762c28a96f"
+    ]
+   },
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "disclosed_value": 440000.0,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "Choiceone Financial Services Inc",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-2036bbbb45"
+    ]
+   },
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 1,
+    "disclosed_value": 1300000000.0,
+    "recent_deal_ids": [
+     "MDR-a598c6fe11"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Perella Weinberg Partners has not",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-762c28a96f"
+    ]
+   }
+  ],
+  "legal_advisors": []
+ },
+ "sector_commentary": [
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: SkillTrade Inc.: venture round ($5M raised)."
+  },
+  {
+   "sector": "Energy & Utilities",
+   "deals": 1,
+   "text": "1 deal: DT Midstream, Inc.: credit facility ($700M)."
+  },
+  {
+   "sector": "Financial Services",
+   "deals": 1,
+   "text": "1 deal: Sterling Bancorp, Inc.: M&A transaction (buyer/target roles under review)."
+  },
+  {
+   "sector": "Automotive & Mobility",
+   "deals": 1,
+   "text": "1 deal: Penske Automotive Group, Inc.: credit facility."
+  },
+  {
+   "sector": "Consumer",
+   "deals": 1,
+   "text": "1 deal: SeedtoScale III LLC: venture round ($5.9M raised)."
+  },
+  {
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: Ambient Biosciences, Inc.: growth equity ($4.2M raised)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "Sterling Bancorp, Inc.: M&A transaction (buyer/target roles under review) for $261M. Ask how buyers are underwriting Michigan financial services assets right now.",
+   "deal_ids": [
+    "MDR-53b891f3fc"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $741M raised across 6 financings (up 7827% vs. the trailing 4-week average). The largest: DT Midstream, Inc.: credit facility ($700M). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-ba073746f9"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "2 Michigan-based fund vehicles reported $2.9M raised, led by BFI Fort Pierce JV LLC (Real Estate). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Sterling Bancorp, Inc. 8-K (Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1680379/000110465924126324/0001104659-24-126324-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2024-12-06",
+   "deal_id": "MDR-53b891f3fc"
+  },
+  {
+   "title": "DT Midstream, Inc. 8-K (Item 1.01 definitive agreement, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1842022/000094787124000988/0000947871-24-000988-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2024-12-06",
+   "deal_id": "MDR-ba073746f9"
+  },
+  {
+   "title": "Agrify Corp Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1800637/000180063724000004/0001800637-24-000004-index.htm",
+   "kind": "SEC Form D",
+   "date": "2024-12-04",
+   "deal_id": "MDR-0f54a9b4bd"
+  },
+  {
+   "title": "SeedtoScale III LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1890807/000189080724000002/0001890807-24-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2024-12-03",
+   "deal_id": "MDR-25a1136ab1"
+  },
+  {
+   "title": "SkillTrade Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2047702/000204770224000001/0002047702-24-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2024-12-06",
+   "deal_id": "MDR-da35ae3304"
+  },
+  {
+   "title": "Ambient Biosciences, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1753668/000175366824000002/0001753668-24-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2024-12-02",
+   "deal_id": "MDR-e71e23323a"
+  }
+ ]
+}

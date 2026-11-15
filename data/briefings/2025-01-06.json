@@ -1,0 +1,285 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-01-06",
+ "week_end": "2025-01-12",
+ "generated_at": "2026-11-15T22:32:30Z",
+ "headline": "1 Michigan M&A deal, 3 financings; Stryker Corp acquired Inari pursuant to Section 251",
+ "stats": {
+  "ma_deals": 1,
+  "ma_disclosed_value": 4900000000,
+  "ma_with_value": 1,
+  "financings": 3,
+  "financing_raised": 240000,
+  "fund_raises": 2,
+  "fund_capital_raised": 1349023,
+  "stakes": 1
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.2,
+  "ma_disclosed_value": 418500000.0,
+  "ma_with_value": 0.5,
+  "financings": 4.2,
+  "financing_raised": 49882262.5,
+  "fund_raises": 2.5,
+  "fund_capital_raised": 133043295.5,
+  "stakes": 1.0
+ },
+ "change_vs_trailing": {
+  "ma_deals": -20.0,
+  "financings": -29.4,
+  "financing_raised": -99.5
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-6f503b58c5",
+   "title": "Stryker Corp acquired Inari pursuant to Section 251",
+   "summary": "Stryker Corp acquired Inari pursuant to Section 251 for $4.9B (cash); closed 2025-02-19.",
+   "deal_type": "Acquisition",
+   "status": "Closed",
+   "target": "Inari pursuant to Section 251",
+   "acquirer": "Stryker Corp",
+   "value": 4900000000.0,
+   "value_label": "Disclosed value",
+   "sector": "Healthcare",
+   "region": "Southwest Michigan",
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-5cbf24ea79",
+   "title": "Kall Morris Inc: growth equity ($140K raised)",
+   "summary": "Kall Morris Inc: growth equity ($140K raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Kall Morris Inc",
+   "acquirer": null,
+   "value": 140000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Upper Peninsula",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-762461f191",
+   "title": "ConcurrentData, Inc.: venture round ($100K raised)",
+   "summary": "ConcurrentData, Inc.: venture round ($100K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "ConcurrentData, Inc.",
+   "acquirer": null,
+   "value": 100000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-c1167ebce8",
+   "title": "Amesite Inc.: debt offering",
+   "summary": "Amesite Inc.: debt offering.",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Amesite Inc.",
+   "acquirer": null,
+   "value": null,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-1d5ed6cfde",
+   "name": "BELLE Michigan Impact Fund - Investor Side Fund, LLC",
+   "category": "Venture Capital Fund",
+   "amount_raised": 1348023.0,
+   "city": "Grosse Pointe Farms"
+  },
+  {
+   "id": "CF-44c3441ad1",
+   "name": "Pelican Pools Acquisition, LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 1000.0,
+   "city": "Bloomfield"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-01-12",
+   "2025-01-12"
+  ],
+  "acquirers": [
+   {
+    "name": "Stryker Corp",
+    "deals": 1,
+    "disclosed_value": 4900000000.0,
+    "recent_deal_ids": [
+     "MDR-6f503b58c5"
+    ]
+   },
+   {
+    "name": "CP Acquisitions, LLC",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-28e094740d"
+    ]
+   },
+   {
+    "name": "Gentex Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-d08cc96cee"
+    ]
+   },
+   {
+    "name": "Shyft, Aebi Schmidt Holding AG",
+    "deals": 1,
+    "disclosed_value": 474000000.0,
+    "recent_deal_ids": [
+     "MDR-3c7f849168"
+    ]
+   },
+   {
+    "name": "Ansys, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Perella Weinberg Partners has not",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-762c28a96f"
+    ]
+   }
+  ],
+  "legal_advisors": []
+ },
+ "sector_commentary": [
+  {
+   "sector": "Software & Technology",
+   "deals": 3,
+   "text": "3 deals: Amesite Inc.: debt offering; ConcurrentData, Inc.: venture round ($100K raised)."
+  },
+  {
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: Stryker Corp acquired Inari pursuant to Section 251."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "Stryker Corp acquired Inari pursuant to Section 251 for $4.9B. Ask how buyers are underwriting Michigan healthcare assets right now.",
+   "deal_ids": [
+    "MDR-6f503b58c5"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $240K raised across 3 financings (down 100% vs. the trailing 4-week average). The largest: Kall Morris Inc: growth equity ($140K raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-5cbf24ea79"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "2 Michigan-based fund vehicles reported $1.3M raised, led by BELLE Michigan Impact Fund - Investor Side Fund, LLC (Venture Capital Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stryker Corp 8-K (Item 1.01 definitive agreement, Item 7.01 Reg FD)",
+   "url": "https://www.sec.gov/Archives/edgar/data/310764/000119312525002537/0001193125-25-002537-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-01-07",
+   "deal_id": "MDR-6f503b58c5"
+  },
+  {
+   "title": "Stryker Corp SC TO-T",
+   "url": "https://www.sec.gov/Archives/edgar/data/310764/000119312525008416/0001193125-25-008416-index.htm",
+   "kind": "SEC SC TO-T",
+   "date": "2025-01-17",
+   "deal_id": "MDR-6f503b58c5"
+  },
+  {
+   "title": "Stryker Corp 8-K (Item 2.01 completion)",
+   "url": "https://www.sec.gov/Archives/edgar/data/310764/000119312525029187/0001193125-25-029187-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-02-19",
+   "deal_id": "MDR-6f503b58c5"
+  },
+  {
+   "title": "Kall Morris Inc Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1877509/000187750925000001/0001877509-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-01-06",
+   "deal_id": "MDR-5cbf24ea79"
+  },
+  {
+   "title": "ConcurrentData, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2039667/000203966725000001/0002039667-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-01-06",
+   "deal_id": "MDR-762461f191"
+  },
+  {
+   "title": "Amesite Inc. 8-K (Item 1.01 definitive agreement, Item 7.01 Reg FD, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1807166/000121390025002639/0001213900-25-002639-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-01-10",
+   "deal_id": "MDR-c1167ebce8"
+  }
+ ]
+}

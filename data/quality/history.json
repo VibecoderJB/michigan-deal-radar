@@ -1,0 +1,10 @@
+[
+ {
+  "at": "2026-11-15T22:32:46Z",
+  "summary": "456 new deals, 85 duplicate filings merged, 20 records flagged for review, 0 source errors",
+  "new_deals": 456,
+  "duplicates_merged": 85,
+  "flagged": 20,
+  "errors": 0
+ }
+]

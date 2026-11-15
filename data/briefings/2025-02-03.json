@@ -1,0 +1,280 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-02-03",
+ "week_end": "2025-02-09",
+ "generated_at": "2026-11-15T22:32:30Z",
+ "headline": "4 Michigan deals; $3.6M raised in private financings",
+ "stats": {
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 4,
+  "financing_raised": 3561451,
+  "fund_raises": 3,
+  "fund_capital_raised": 12150000,
+  "stakes": 0
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.2,
+  "ma_disclosed_value": 1225000000.0,
+  "ma_with_value": 0.2,
+  "financings": 3.2,
+  "financing_raised": 316394976.2,
+  "fund_raises": 2.8,
+  "fund_capital_raised": 9202755.8,
+  "stakes": 0.5
+ },
+ "change_vs_trailing": {
+  "ma_deals": -100.0,
+  "financings": 23.1,
+  "financing_raised": -98.9
+ },
+ "notable_ma": [],
+ "top_financings": [
+  {
+   "deal_id": "MDR-b774e0a7c3",
+   "title": "Eighty-Six Inc.: growth equity ($2M raised)",
+   "summary": "Eighty-Six Inc.: growth equity ($2M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Eighty-Six Inc.",
+   "acquirer": null,
+   "value": 2009634.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-d447938968",
+   "title": "String Ventures SPV SVA, LLC: venture round ($850K raised)",
+   "summary": "String Ventures SPV SVA, LLC: venture round ($850K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "String Ventures SPV SVA, LLC",
+   "acquirer": null,
+   "value": 850000.0,
+   "value_label": "Amount raised",
+   "sector": "Financial Services",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-1f9b89c6ab",
+   "title": "1005 L.C.C.: growth equity ($500K raised)",
+   "summary": "1005 L.C.C.: growth equity ($500K raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "1005 L.C.C.",
+   "acquirer": null,
+   "value": 500000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-5e6ea5b558",
+   "title": "Plymouth Hardware, LLC: venture round ($201.8K raised)",
+   "summary": "Plymouth Hardware, LLC: venture round ($201.8K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Plymouth Hardware, LLC",
+   "acquirer": null,
+   "value": 201817.0,
+   "value_label": "Amount raised",
+   "sector": "Advanced Manufacturing",
+   "region": "West Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-f443160b58",
+   "name": "Pavilion MFD, LLC",
+   "category": "Real Estate",
+   "amount_raised": 9550000.0,
+   "city": "Grand Haven"
+  },
+  {
+   "id": "CF-7d7a7d8a4c",
+   "name": "Howell Express Land L.L.C.",
+   "category": "Real Estate",
+   "amount_raised": 2600000.0,
+   "city": "Windsor Charter Township"
+  },
+  {
+   "id": "CF-68ec7746c0",
+   "name": "Twin Lux Red River Centerville LLC",
+   "category": "Real Estate",
+   "amount_raised": 0.0,
+   "city": "Woodhaven"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-02-09",
+   "2025-02-09"
+  ],
+  "acquirers": [
+   {
+    "name": "Stryker Corp",
+    "deals": 1,
+    "disclosed_value": 4900000000.0,
+    "recent_deal_ids": [
+     "MDR-6f503b58c5"
+    ]
+   },
+   {
+    "name": "CP Acquisitions, LLC",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-28e094740d"
+    ]
+   },
+   {
+    "name": "Gentex Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-d08cc96cee"
+    ]
+   },
+   {
+    "name": "Shyft, Aebi Schmidt Holding AG",
+    "deals": 1,
+    "disclosed_value": 474000000.0,
+    "recent_deal_ids": [
+     "MDR-3c7f849168"
+    ]
+   },
+   {
+    "name": "Ansys, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Perella Weinberg Partners has not",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-762c28a96f"
+    ]
+   }
+  ],
+  "legal_advisors": []
+ },
+ "sector_commentary": [
+  {
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: Plymouth Hardware, LLC: venture round ($201.8K raised)."
+  },
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: 1005 L.C.C.: growth equity ($500K raised)."
+  },
+  {
+   "sector": "Financial Services",
+   "deals": 1,
+   "text": "1 deal: String Ventures SPV SVA, LLC: venture round ($850K raised)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $3.6M raised across 4 financings (down 99% vs. the trailing 4-week average). The largest: Eighty-Six Inc.: growth equity ($2M raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-b774e0a7c3"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "3 Michigan-based fund vehicles reported $12.2M raised, led by Pavilion MFD, LLC (Real Estate). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Advanced Manufacturing was the most active Michigan sector this week with 1 deal. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Eighty-Six Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1757461/000175746125000001/0001757461-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-02-07",
+   "deal_id": "MDR-b774e0a7c3"
+  },
+  {
+   "title": "String Ventures SPV SVA, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2052610/000205261025000001/0002052610-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-02-03",
+   "deal_id": "MDR-d447938968"
+  },
+  {
+   "title": "1005 L.C.C. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2054999/000205499925000001/0002054999-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-02-04",
+   "deal_id": "MDR-1f9b89c6ab"
+  },
+  {
+   "title": "Plymouth Hardware, LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1973802/000197380225000003/0001973802-25-000003-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-02-05",
+   "deal_id": "MDR-5e6ea5b558"
+  }
+ ]
+}

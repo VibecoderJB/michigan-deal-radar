@@ -1,0 +1,374 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-10-27",
+ "week_end": "2025-11-02",
+ "generated_at": "2026-11-15T22:32:35Z",
+ "headline": "8 Michigan deals; $10.5M raised in private financings",
+ "stats": {
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 8,
+  "financing_raised": 10531071,
+  "fund_raises": 3,
+  "fund_capital_raised": 3428665442,
+  "stakes": 0
+ },
+ "trailing_4wk": {
+  "ma_deals": 0.5,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 4.8,
+  "financing_raised": 288973297.2,
+  "fund_raises": 4.0,
+  "fund_capital_raised": 37053403.0,
+  "stakes": 1.0
+ },
+ "change_vs_trailing": {
+  "ma_deals": -100.0,
+  "financings": 68.4,
+  "financing_raised": -96.4
+ },
+ "notable_ma": [],
+ "top_financings": [
+  {
+   "deal_id": "MDR-a1f9454772",
+   "title": "NxLite Technologies Inc.: venture round ($9.5M raised)",
+   "summary": "NxLite Technologies Inc.: venture round ($9.5M raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "NxLite Technologies Inc.",
+   "acquirer": null,
+   "value": 9456071.0,
+   "value_label": "Amount raised",
+   "sector": "Advanced Manufacturing",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-0f623a994e",
+   "title": "Orbion Space Technology, Inc.: debt raise ($500K raised)",
+   "summary": "Orbion Space Technology, Inc.: debt raise ($500K raised).",
+   "deal_type": "Debt Raise",
+   "status": "Announced",
+   "target": "Orbion Space Technology, Inc.",
+   "acquirer": null,
+   "value": 500000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Upper Peninsula",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-d916778660",
+   "title": "CCP Energy Fund III, LLC: venture round ($475K raised)",
+   "summary": "CCP Energy Fund III, LLC: venture round ($475K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "CCP Energy Fund III, LLC",
+   "acquirer": null,
+   "value": 475000.0,
+   "value_label": "Amount raised",
+   "sector": "Energy & Utilities",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-ca36b8dfae",
+   "title": "CCP Energy Fund II, LLC: venture round ($100K raised)",
+   "summary": "CCP Energy Fund II, LLC: venture round ($100K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "CCP Energy Fund II, LLC",
+   "acquirer": null,
+   "value": 100000.0,
+   "value_label": "Amount raised",
+   "sector": "Energy & Utilities",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-f23cf90269",
+   "title": "SportsCaster Media LLC: venture round ($0 raised)",
+   "summary": "SportsCaster Media LLC: venture round ($0 raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "SportsCaster Media LLC",
+   "acquirer": null,
+   "value": 0.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-ca5f752dae",
+   "name": "Oa Gp Fund, L.P.",
+   "category": "Private Equity Fund",
+   "amount_raised": 3425365442.0,
+   "city": "Grand Rapids"
+  },
+  {
+   "id": "CF-e45c92af3e",
+   "name": "Ajc Rochester R&d Holding LLC",
+   "category": "Real Estate",
+   "amount_raised": 3300000.0,
+   "city": "Bloomfield Hills"
+  },
+  {
+   "id": "CF-a980c5f6f7",
+   "name": "Primarch Capital, LP",
+   "category": "Hedge Fund",
+   "amount_raised": 0.0,
+   "city": "Detroit"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-11-02",
+   "2025-11-02"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 11150000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "HNI Corporation",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "Mercantile Bank Corp",
+    "deals": 1,
+    "disclosed_value": 95800000.0,
+    "recent_deal_ids": [
+     "MDR-b2f94c7e43"
+    ]
+   },
+   {
+    "name": "Mars, Incorporated",
+    "deals": 1,
+    "disclosed_value": 3100000000.0,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Parent, pursuant to which Parent agreed to purchase, and the Company",
+    "deals": 1,
+    "disclosed_value": 725000000.0,
+    "recent_deal_ids": [
+     "MDR-3cf289038e"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 2,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Kate Pew Wolters",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Mercantile for purposes of Rule 144 under the Securities Act",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "WK Kellogg",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-6770a293fd"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Bradley Arant Boult Cummings LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Wachtell, Lipton, Rosen & Katz",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Davis Polk & Wardwell LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Energy & Utilities",
+   "deals": 3,
+   "text": "3 deals: CCP Energy Fund III, LLC: venture round ($475K raised); CCP Energy Fund II, LLC: venture round ($100K raised)."
+  },
+  {
+   "sector": "Financial Services",
+   "deals": 1,
+   "text": "1 deal: Call Up Fund 1, LLC: venture round ($0 raised)."
+  },
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: Orbion Space Technology, Inc.: debt raise ($500K raised)."
+  },
+  {
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: NxLite Technologies Inc.: venture round ($9.5M raised)."
+  },
+  {
+   "sector": "Business Services",
+   "deals": 1,
+   "text": "1 deal: Universal Logistics Holdings, Inc.: debt offering."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $10.5M raised across 8 financings (down 96% vs. the trailing 4-week average). The largest: NxLite Technologies Inc.: venture round ($9.5M raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-a1f9454772"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "3 Michigan-based fund vehicles reported $3.4B raised, led by Oa Gp Fund, L.P. (Private Equity Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Energy & Utilities was the most active Michigan sector this week with 3 deals. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "NxLite Technologies Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2093860/000209386025000001/0002093860-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-27",
+   "deal_id": "MDR-a1f9454772"
+  },
+  {
+   "title": "Orbion Space Technology, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1711132/000171113225000006/0001711132-25-000006-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-29",
+   "deal_id": "MDR-0f623a994e"
+  },
+  {
+   "title": "CCP Energy Fund III, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2093044/000209304425000001/0002093044-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-29",
+   "deal_id": "MDR-d916778660"
+  },
+  {
+   "title": "CCP Energy Fund II, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2092941/000209294125000001/0002092941-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-29",
+   "deal_id": "MDR-ca36b8dfae"
+  },
+  {
+   "title": "SportsCaster Media LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2004430/000200443025000004/0002004430-25-000004-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-31",
+   "deal_id": "MDR-f23cf90269"
+  },
+  {
+   "title": "SportsCaster Media LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2004430/000200443025000005/0002004430-25-000005-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-11-19",
+   "deal_id": "MDR-f23cf90269"
+  }
+ ]
+}

@@ -1,109 +1,240 @@
 {
+ "schema_version": 2,
  "week_start": "2026-08-31",
  "week_end": "2026-09-06",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "2 Michigan deals, $2.6M raised — led by Sprint Growth Fund, LP",
+ "generated_at": "2026-11-15T22:32:44Z",
+ "headline": "1 Michigan deals; $1.1M raised in private financings",
  "stats": {
-  "deal_count": 2,
-  "by_type": {
-   "Fundraise": 2,
-   "M&A": 0,
-   "Material Agreement": 0,
-   "Stake": 0
-  },
-  "capital_raised": 2605000,
-  "capital_targeted": 2605000,
-  "fund_count": 1
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 1,
+  "financing_raised": 1055000,
+  "fund_raises": 1,
+  "fund_capital_raised": 1550000,
+  "stakes": 0
  },
  "trailing_4wk": {
-  "deal_count": 13.2,
-  "capital_raised": 414951528.8
+  "ma_deals": 1.2,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 3.5,
+  "financing_raised": 9374490.5,
+  "fund_raises": 4.0,
+  "fund_capital_raised": 61474994.2,
+  "stakes": 1.5
  },
  "change_vs_trailing": {
-  "deal_count_pct": -84.9,
-  "capital_raised_pct": -99.4
+  "ma_deals": -100.0,
+  "financings": -71.4,
+  "financing_raised": -88.7
  },
- "top_deals": [
-  {
-   "id": "D-2131125-021-596286",
-   "company": "Sprint Growth Fund, LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Venture Capital Fund",
-   "city": "Okemos",
-   "sector": "Private Funds",
-   "amount": 1550000.0,
-   "amount_sold": 1550000.0,
-   "amount_is_estimate": false,
-   "summary": "Sprint Growth Fund, LP, an Okemos-based venture capital fund, disclosed an open-ended (indefinite) raise; $1.6M sold to 10 investors.",
-   "filed": "2026-09-03"
-  },
-  {
-   "id": "D-2152960-021-596532",
-   "company": "MI Roof & Solar, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Ferndale",
-   "sector": "Other",
-   "amount": 1055000.0,
-   "amount_sold": 1055000.0,
-   "amount_is_estimate": false,
-   "summary": "MI Roof & Solar, LLC, a Ferndale-based company, filed a $1.1M pooled fund interests offering under Rule 506(b); $1.1M sold to 11 investors.",
-   "filed": "2026-09-04"
-  }
- ],
- "new_funds": [
-  {
-   "id": "D-2131125-021-596286",
-   "company": "Sprint Growth Fund, LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Venture Capital Fund",
-   "city": "Okemos",
-   "sector": "Private Funds",
-   "amount": 1550000.0,
-   "amount_sold": 1550000.0,
-   "amount_is_estimate": false,
-   "summary": "Sprint Growth Fund, LP, an Okemos-based venture capital fund, disclosed an open-ended (indefinite) raise; $1.6M sold to 10 investors.",
-   "filed": "2026-09-03"
-  }
- ],
  "notable_ma": [],
- "material_agreements": [],
- "top_sectors": [
+ "top_financings": [
   {
-   "sector": "Private Funds",
-   "count": 1,
-   "amount": 1550000.0
-  },
-  {
-   "sector": "Other",
-   "count": 1,
-   "amount": 1055000.0
+   "deal_id": "MDR-e2ff3c943c",
+   "title": "MI Roof & Solar, LLC: venture round ($1.1M raised)",
+   "summary": "MI Roof & Solar, LLC: venture round ($1.1M raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "MI Roof & Solar, LLC",
+   "acquirer": null,
+   "value": 1055000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
   }
  ],
+ "fund_raises": [
+  {
+   "id": "CF-7dbd2a5b28",
+   "name": "Sprint Growth Fund, LP",
+   "category": "Venture Capital Fund",
+   "amount_raised": 1550000.0,
+   "city": "Okemos"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2025-09-06",
+   "2026-09-06"
+  ],
+  "acquirers": [
+   {
+    "name": "ENDRA Life Sciences Inc.",
+    "deals": 1,
+    "disclosed_value": 50250000.0,
+    "recent_deal_ids": [
+     "MDR-2000d64c8c"
+    ]
+   },
+   {
+    "name": "Isabella Bank Corp",
+    "deals": 1,
+    "disclosed_value": 40000000.0,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Essence Parent Inc.",
+    "deals": 1,
+    "disclosed_value": 726000000.0,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Independent Bank Corp",
+    "deals": 1,
+    "disclosed_value": 70800000.0,
+    "recent_deal_ids": [
+     "MDR-81bcf88076"
+    ]
+   },
+   {
+    "name": "Esperion Therapeutics, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "ARCHIMED on April 21",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Independent include individuals that control",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Athyrium Capital Management",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Parent",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "PJT Partners",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20",
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Brean Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Centerview Partners",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Moelis & Company LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-653115fcbd",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-964f877284",
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Akin Gump LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Sidley Austin LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Arnold & Porter Kaye Scholer LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $2.6M sold across 2 Form D filings this week, down 99% vs. the prior 4-week average. The largest was MI Roof & Solar, LLC (Ferndale, Other) targeting $1.1M. Good question to ask: are founders in other favoring equity rounds over venture debt right now?",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $1.1M raised across 1 financings (down 89% vs. the trailing 4-week average). The largest: MI Roof & Solar, LLC: venture round ($1.1M raised). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "D-2152960-021-596532"
+    "MDR-e2ff3c943c"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "1 Michigan-based pooled fund filed Form Ds, reporting $1.6M raised so far — led by Sprint Growth Fund, LP (Venture Capital Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-2131125-021-596286"
-   ]
+   "text": "1 Michigan-based fund vehicle reported $1.6M raised, led by Sprint Growth Fund, LP (Venture Capital Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
   },
   {
-   "topic": "Sector watch",
-   "text": "Private Funds was the most active sector with 1 of 2 filings (50%). Ask contacts what's driving the activity, and whether it's showing up in their pipeline.",
-   "deal_ids": [
-    "D-2131125-021-596286"
-   ]
+   "topic": "Deal flow",
+   "text": "1 Michigan deals this week vs. a trailing average of 5. Ask whether pipelines are building or deal timelines are stretching.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "MI Roof & Solar, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2152960/000215296026000001/0002152960-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-09-04",
+   "deal_id": "MDR-e2ff3c943c"
   }
  ]
 }

@@ -33,7 +33,24 @@
 ## Key findings
 
 <!-- KEY-FINDINGS:START -->
-_Generated from the dataset after each pipeline run._
+_Auto-generated from the dataset · data as of 2026-11-13 · coverage from 2024-11-15_
+
+| Metric (trailing 24 months) | Value |
+|---|---|
+| Michigan M&A deals tracked | **92** (44 closed) |
+| Deals with a disclosed value | 22 ($52.8B total) |
+| Private financings (Form D / debt) | 358, raising $31B |
+| Venture rounds | 173 |
+| Michigan fund vehicles raising | 313, reporting $10.1B |
+| Schedule 13D stakes in Michigan companies | 83 |
+| Records sourced to SEC filings or official releases | 100.0% |
+
+- Most active counties: Oakland County (154), Washtenaw County (55), Kent County (54).
+- Most active focus sectors (trailing 4 quarters): Software & Technology (48), Financial Services (47), Other (36).
+- Most active acquirers: Rocket Companies, Inc. (2), Vantive Limited (1), Motown Acquisition Corp. (1).
+- Most active financial advisors: Goldman Sachs & Co. LLC (5), BofA Securities (4), J.P. Morgan Securities LLC (3).
+- Median disclosed EV/EBITDA across 1 Michigan deals: 4.8x (mean 4.8x).
+- Last 12 months: 40 M&A deals and 170 private financings.
 <!-- KEY-FINDINGS:END -->
 
 ## Architecture

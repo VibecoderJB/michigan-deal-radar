@@ -1,211 +1,394 @@
 {
+ "schema_version": 2,
  "week_start": "2026-06-22",
  "week_end": "2026-06-28",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "9 Michigan deals, $13.3M raised — led by ENDRA Life Sciences Inc.",
+ "generated_at": "2026-11-15T22:32:43Z",
+ "headline": "2 Michigan M&A deals, 4 financings; ENDRA Life Sciences Inc. to acquire Noble Africa LLC",
  "stats": {
-  "deal_count": 9,
-  "by_type": {
-   "Fundraise": 6,
-   "M&A": 2,
-   "Material Agreement": 1,
-   "Stake": 0
-  },
-  "capital_raised": 13331955,
-  "capital_targeted": 174173455,
-  "fund_count": 1
+  "ma_deals": 2,
+  "ma_disclosed_value": 50250000,
+  "ma_with_value": 1,
+  "financings": 4,
+  "financing_raised": 1150000,
+  "fund_raises": 1,
+  "fund_capital_raised": 0,
+  "stakes": 0
  },
  "trailing_4wk": {
-  "deal_count": 8.8,
-  "capital_raised": 99654414.0
+  "ma_deals": 0.5,
+  "ma_disclosed_value": 10000000.0,
+  "ma_with_value": 0.2,
+  "financings": 2.0,
+  "financing_raised": 415518250.0,
+  "fund_raises": 3.0,
+  "fund_capital_raised": 85779414.0,
+  "stakes": 0.8
  },
  "change_vs_trailing": {
-  "deal_count_pct": 2.9,
-  "capital_raised_pct": -86.6
+  "ma_deals": 300.0,
+  "financings": 100.0,
+  "financing_raised": -99.7
  },
- "top_deals": [
-  {
-   "id": "8K-0001213900-26-072268",
-   "company": "ENDRA Life Sciences Inc.",
-   "ticker": "NDRA",
-   "type": "M&A",
-   "subtype": "Definitive Agreement",
-   "city": "Ann Arbor",
-   "sector": "Health Care & Life Sciences",
-   "amount": 200000000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "ENDRA Life Sciences Inc. (NDRA) disclosed a definitive merger/acquisition agreement with ASP Isotopes Inc.; filing cites a figure of ~$200M.",
-   "filed": "2026-06-26"
-  },
-  {
-   "id": "D-2142040-021-588618",
-   "company": "Enspire Fund, LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Birmingham",
-   "sector": "Private Funds",
-   "amount": 150000000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Enspire Fund, LP, a Birmingham-based private equity fund, disclosed a $150M raise; $0 sold.",
-   "filed": "2026-06-25"
-  },
-  {
-   "id": "8K-0001193125-26-285573",
-   "company": "Universal Logistics Holdings, Inc.",
-   "ticker": "ULH",
-   "type": "M&A",
-   "subtype": "Definitive Agreement",
-   "city": "Warren",
-   "sector": "Business Services",
-   "amount": 38000000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "Universal Logistics Holdings, Inc. (ULH) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$38M.",
-   "filed": "2026-06-26"
-  },
-  {
-   "id": "D-2077504-021-552620",
-   "company": "Sterile State, Inc.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Grand Rapids",
-   "sector": "Health Care & Life Sciences",
-   "amount": 13023455.0,
-   "amount_sold": 10781955.0,
-   "amount_is_estimate": false,
-   "summary": "Sterile State, Inc., a Grand Rapids-based health care company, filed a $13M equity offering under Rule 506(b); $10.8M sold to 69 investors. (Amended filing.)",
-   "filed": "2026-06-22"
-  },
-  {
-   "id": "D-2141786-021-588214",
-   "company": "Stagecoach Capital Wyndham Lakes LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Rochester",
-   "sector": "Other",
-   "amount": 8000000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Stagecoach Capital Wyndham Lakes LLC, a Rochester-based company, filed a $8M equity offering under Rule 506(b); $0 sold.",
-   "filed": "2026-06-23"
-  }
- ],
- "new_funds": [
-  {
-   "id": "D-2142040-021-588618",
-   "company": "Enspire Fund, LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Birmingham",
-   "sector": "Private Funds",
-   "amount": 150000000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Enspire Fund, LP, a Birmingham-based private equity fund, disclosed a $150M raise; $0 sold.",
-   "filed": "2026-06-25"
-  }
- ],
  "notable_ma": [
   {
-   "id": "8K-0001213900-26-072268",
-   "company": "ENDRA Life Sciences Inc.",
-   "ticker": "NDRA",
-   "type": "M&A",
-   "subtype": "Definitive Agreement",
-   "city": "Ann Arbor",
-   "sector": "Health Care & Life Sciences",
-   "amount": 200000000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "ENDRA Life Sciences Inc. (NDRA) disclosed a definitive merger/acquisition agreement with ASP Isotopes Inc.; filing cites a figure of ~$200M.",
-   "filed": "2026-06-26"
+   "deal_id": "MDR-2000d64c8c",
+   "title": "ENDRA Life Sciences Inc. to acquire Noble Africa LLC",
+   "summary": "ENDRA Life Sciences Inc. to acquire Noble Africa LLC for $50.2M (stock); pending 2026-06-25.",
+   "deal_type": "Recapitalization",
+   "status": "Pending",
+   "target": "Noble Africa LLC",
+   "acquirer": "ENDRA Life Sciences Inc.",
+   "value": 50250000.0,
+   "value_label": "Disclosed value",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   },
   {
-   "id": "8K-0001193125-26-285573",
-   "company": "Universal Logistics Holdings, Inc.",
-   "ticker": "ULH",
-   "type": "M&A",
-   "subtype": "Definitive Agreement",
-   "city": "Warren",
+   "deal_id": "MDR-adf03237a8",
+   "title": "Universal Logistics Holdings, Inc.: M&A transaction (buyer/target roles under review)",
+   "summary": "Universal Logistics Holdings, Inc.: M&A transaction (buyer/target roles under review) (cash); closed 2026-06-24.",
+   "deal_type": "Acquisition",
+   "status": "Closed",
+   "target": null,
+   "acquirer": null,
+   "value": null,
+   "value_label": "Disclosed value",
    "sector": "Business Services",
-   "amount": 38000000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "Universal Logistics Holdings, Inc. (ULH) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$38M.",
-   "filed": "2026-06-26"
+   "region": null,
+   "confidence": "High"
   }
  ],
- "material_agreements": [
+ "top_financings": [
   {
-   "id": "8K-0001477932-26-004009",
-   "company": "Dynamic Aerospace Systems Corp",
-   "ticker": "BRQL",
-   "type": "Material Agreement",
-   "subtype": "Material Agreement",
-   "city": "Ann Arbor",
-   "sector": "Manufacturing & Automotive",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Dynamic Aerospace Systems Corp (BRQL) entered into a material definitive agreement.",
-   "filed": "2026-06-25"
+   "deal_id": "MDR-50c4bf75ef",
+   "title": "Zoe Diagnostics Inc: venture round ($500K raised)",
+   "summary": "Zoe Diagnostics Inc: venture round ($500K raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "Zoe Diagnostics Inc",
+   "acquirer": null,
+   "value": 500000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-971afb5636",
+   "title": "2nd Brain Inc.: venture round ($400K raised)",
+   "summary": "2nd Brain Inc.: venture round ($400K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "2nd Brain Inc.",
+   "acquirer": null,
+   "value": 400000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-2278e97f5a",
+   "title": "TopCar Media LLC: venture round ($250K raised)",
+   "summary": "TopCar Media LLC: venture round ($250K raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "TopCar Media LLC",
+   "acquirer": null,
+   "value": 250000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-349a352af7",
+   "title": "Stagecoach Capital Wyndham Lakes LLC: venture round ($0 raised)",
+   "summary": "Stagecoach Capital Wyndham Lakes LLC: venture round ($0 raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Stagecoach Capital Wyndham Lakes LLC",
+   "acquirer": null,
+   "value": 0.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
   }
  ],
- "top_sectors": [
+ "fund_raises": [
   {
-   "sector": "Other",
-   "count": 3,
-   "amount": 2150000.0
-  },
-  {
-   "sector": "Health Care & Life Sciences",
-   "count": 2,
-   "amount": 10781955.0
-  },
-  {
-   "sector": "Technology",
-   "count": 1,
-   "amount": 400000.0
-  },
+   "id": "CF-5b51defe6e",
+   "name": "Enspire Fund, LP",
+   "category": "Private Equity Fund",
+   "amount_raised": 0.0,
+   "city": "Birmingham"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2025-06-28",
+   "2026-06-28"
+  ],
+  "acquirers": [
+   {
+    "name": "ENDRA Life Sciences Inc.",
+    "deals": 1,
+    "disclosed_value": 50250000.0,
+    "recent_deal_ids": [
+     "MDR-2000d64c8c"
+    ]
+   },
+   {
+    "name": "Isabella Bank Corp",
+    "deals": 1,
+    "disclosed_value": 40000000.0,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Essence Parent Inc.",
+    "deals": 1,
+    "disclosed_value": 726000000.0,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Independent Bank Corp",
+    "deals": 1,
+    "disclosed_value": 70800000.0,
+    "recent_deal_ids": [
+     "MDR-81bcf88076"
+    ]
+   },
+   {
+    "name": "Esperion Therapeutics, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 2,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "ARCHIMED on April 21",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Independent include individuals that control",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Athyrium Capital Management",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "PJT Partners",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20",
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-964f877284",
+     "MDR-60d2b79b16",
+     "MDR-004182e774"
+    ]
+   },
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-653115fcbd",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Akin Gump LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Sidley Austin LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
   {
    "sector": "Business Services",
-   "count": 1,
-   "amount": 0.0
+   "deals": 1,
+   "text": "1 deal: Universal Logistics Holdings, Inc.: M&A transaction (buyer/target roles under review)."
   },
   {
-   "sector": "Private Funds",
-   "count": 1,
-   "amount": 0.0
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: ENDRA Life Sciences Inc. to acquire Noble Africa LLC."
+  },
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: 2nd Brain Inc.: venture round ($400K raised)."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $13.3M sold across 6 Form D filings this week, down 87% vs. the prior 4-week average. The largest was Sterile State, Inc. (Grand Rapids, Other Health Care) targeting $13M. Good question to ask: are founders in health care & life sciences favoring equity rounds over venture debt right now?",
+   "topic": "M&A",
+   "text": "ENDRA Life Sciences Inc. to acquire Noble Africa LLC for $50.2M. It was one of 2 Michigan M&A deals this week. Ask how buyers are underwriting Michigan healthcare assets right now.",
    "deal_ids": [
-    "D-2077504-021-552620"
+    "MDR-2000d64c8c",
+    "MDR-adf03237a8"
    ]
   },
   {
-   "topic": "M&A",
-   "text": "ENDRA Life Sciences Inc. (NDRA) disclosed a deal with ASP Isotopes Inc.. It was one of 2 M&A filings this week. Use it to ask how buyers are valuing Michigan health care & life sciences assets and whether consolidation is accelerating.",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $1.1M raised across 4 financings (down 100% vs. the trailing 4-week average). The largest: Zoe Diagnostics Inc: venture round ($500K raised). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "8K-0001213900-26-072268",
-    "8K-0001193125-26-285573"
+    "MDR-50c4bf75ef"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "1 Michigan-based pooled fund filed Form Ds, reporting $0 raised so far — led by Enspire Fund, LP (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-2142040-021-588618"
-   ]
+   "text": "1 Michigan-based fund vehicle reported $0 raised, led by Enspire Fund, LP (Private Equity Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "ENDRA Life Sciences Inc. 8-K (Item 1.01 definitive agreement, Item 7.01 Reg FD, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1681682/000121390026072268/0001213900-26-072268-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-06-26",
+   "deal_id": "MDR-2000d64c8c"
+  },
+  {
+   "title": "ENDRA Life Sciences Inc. 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1681682/000121390026105899/0001213900-26-105899-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-10-01",
+   "deal_id": "MDR-2000d64c8c"
+  },
+  {
+   "title": "ENDRA Life Sciences Inc. S-4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1681682/000119312526410883/0001193125-26-410883-index.htm",
+   "kind": "SEC S-4",
+   "date": "2026-10-02",
+   "deal_id": "MDR-2000d64c8c"
+  },
+  {
+   "title": "Universal Logistics Holdings, Inc. 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1308208/000119312526285573/0001193125-26-285573-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-06-26",
+   "deal_id": "MDR-adf03237a8"
+  },
+  {
+   "title": "Zoe Diagnostics Inc Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2141882/000214188226000001/0002141882-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-06-23",
+   "deal_id": "MDR-50c4bf75ef"
+  },
+  {
+   "title": "2nd Brain Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2140614/000214061426000001/0002140614-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-06-24",
+   "deal_id": "MDR-971afb5636"
+  },
+  {
+   "title": "TopCar Media LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2142268/000214226826000001/0002142268-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-06-25",
+   "deal_id": "MDR-2278e97f5a"
+  },
+  {
+   "title": "TopCar Media LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2142268/000214226826000002/0002142268-26-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-08-07",
+   "deal_id": "MDR-2278e97f5a"
+  },
+  {
+   "title": "Stagecoach Capital Wyndham Lakes LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2141786/000214178626000001/0002141786-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-06-23",
+   "deal_id": "MDR-349a352af7"
   }
  ]
 }

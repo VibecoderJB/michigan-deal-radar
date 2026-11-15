@@ -1,268 +1,346 @@
 {
+ "schema_version": 2,
  "week_start": "2026-08-03",
  "week_end": "2026-08-09",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "15 Michigan deals, $1.4B raised — led by Mercedes-Benz Financial Services USA LLC",
+ "generated_at": "2026-11-15T22:32:44Z",
+ "headline": "2 Michigan M&A deals, 3 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
  "stats": {
-  "deal_count": 15,
-  "by_type": {
-   "Fundraise": 8,
-   "M&A": 3,
-   "Material Agreement": 1,
-   "Stake": 3
-  },
-  "capital_raised": 1389614764,
-  "capital_targeted": 3026315000,
-  "fund_count": 1
+  "ma_deals": 2,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 3,
+  "financing_raised": 21110000,
+  "fund_raises": 2,
+  "fund_capital_raised": 0,
+  "stakes": 3
  },
  "trailing_4wk": {
-  "deal_count": 11.2,
-  "capital_raised": 54294365.5
+  "ma_deals": 1.0,
+  "ma_disclosed_value": 1250000.0,
+  "ma_with_value": 0.2,
+  "financings": 3.0,
+  "financing_raised": 11406131.8,
+  "fund_raises": 5.2,
+  "fund_capital_raised": 49196235.2,
+  "stakes": 0.8
  },
  "change_vs_trailing": {
-  "deal_count_pct": 33.3,
-  "capital_raised_pct": 2459.4
+  "ma_deals": 100.0,
+  "financings": 0.0,
+  "financing_raised": 85.1
  },
- "top_deals": [
-  {
-   "id": "D-1540252-021-281707",
-   "company": "Mercedes-Benz Financial Services USA LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Farmington Hills",
-   "sector": "Financial Services",
-   "amount": 3000000000.0,
-   "amount_sold": 1365889764.0,
-   "amount_is_estimate": false,
-   "summary": "Mercedes-Benz Financial Services USA LLC, a Farmington Hills-based financial services company, filed a $3B debt offering under Rule 506(c); $1.4B sold to 935 investors. (Amended filing.)",
-   "filed": "2026-08-03"
-  },
-  {
-   "id": "8K-0001213900-26-084282",
-   "company": "Bluerock Acquisition Corp.",
-   "ticker": "BLRK",
-   "type": "M&A",
-   "subtype": "Definitive Agreement",
-   "city": "Southfield",
-   "sector": "Financial Services",
-   "amount": 300000000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "Bluerock Acquisition Corp. (BLRK) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$300M.",
-   "filed": "2026-08-03"
-  },
-  {
-   "id": "D-2148703-021-593121",
-   "company": "AM Sailing LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Grand Rapids",
-   "sector": "Other",
-   "amount": 20000000.0,
-   "amount_sold": 20000000.0,
-   "amount_is_estimate": false,
-   "summary": "AM Sailing LP, a Grand Rapids-based company, filed an indefinite-size equity offering under Rule 506(b); $20M sold to 17 investors.",
-   "filed": "2026-08-04"
-  },
-  {
-   "id": "D-2130857-021-581274",
-   "company": "FanLabel Music Market LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Birmingham",
-   "sector": "Other",
-   "amount": 2365000.0,
-   "amount_sold": 2365000.0,
-   "amount_is_estimate": false,
-   "summary": "FanLabel Music Market LLC, a Birmingham-based company, filed a $2.4M equity offering under Rule 506(b); $2.4M sold to 4 investors. (Amended filing.)",
-   "filed": "2026-08-07"
-  },
-  {
-   "id": "D-2148680-021-593125",
-   "company": "Spansail Drive Apartments, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Auburn Hills",
-   "sector": "Real Estate",
-   "amount": 1950000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Spansail Drive Apartments, LLC, an Auburn Hills-based residential real estate company, filed a $1.9M equity offering under Rule 506(b); $0 sold.",
-   "filed": "2026-08-04"
-  }
- ],
- "new_funds": [
-  {
-   "id": "D-2149194-021-593528",
-   "company": "Northern Shore Capital HQ Co-Invest LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Bloomfield Hills",
-   "sector": "Private Funds",
-   "amount": 0.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Northern Shore Capital HQ Co-Invest LP, a Bloomfield Hills-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
-   "filed": "2026-08-07"
-  }
- ],
  "notable_ma": [
   {
-   "id": "D-2021228-021-593538",
-   "company": "High Street Holdco, LLC",
-   "ticker": null,
-   "type": "M&A",
-   "subtype": "Business Combination (Form D)",
-   "city": "Traverse City",
+   "deal_id": "MDR-dbcab44cdd",
+   "title": "High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "summary": "High Street Holdco, LLC issued securities in an acquisition (target not named).",
+   "deal_type": "Acquisition",
+   "status": "Closed",
+   "target": null,
+   "acquirer": "High Street Holdco, LLC",
+   "value": null,
+   "value_label": "Disclosed value",
    "sector": "Financial Services",
-   "amount": 450000.0,
-   "amount_sold": 450000.0,
-   "amount_is_estimate": false,
-   "summary": "High Street Holdco, LLC, a Traverse City-based company, filed a Form D tied to a business combination (acquisition or merger); $450K of equity issued to 1 investor.",
-   "filed": "2026-08-07"
+   "region": "Northern Michigan",
+   "confidence": "High"
   },
   {
-   "id": "13D-0001193125-26-340485",
-   "company": "Shoulder Innovations, Inc.",
-   "ticker": "SI",
-   "type": "Stake",
-   "subtype": "13D Amendment",
-   "city": "Grand Rapids",
-   "sector": "Health Care & Life Sciences",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Gilde Healthcare Holding B.V. and others reported a 10.7% stake in Shoulder Innovations, Inc. (SI) (Schedule 13D/A amendment 1).",
-   "filed": "2026-08-07"
-  },
-  {
-   "id": "13D-0001477932-26-004693",
-   "company": "Sharing Economy International Inc.",
-   "ticker": "SEII",
-   "type": "Stake",
-   "subtype": "New 13D Position",
-   "city": "FARMINGTON HILLS",
-   "sector": "Technology",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Huang Ximing reported a 65.6% stake in Sharing Economy International Inc. (SEII).",
-   "filed": "2026-08-04"
-  },
-  {
-   "id": "13D-0001477932-26-004692",
-   "company": "Sharing Economy International Inc.",
-   "ticker": "SEII",
-   "type": "Stake",
-   "subtype": "New 13D Position",
-   "city": "FARMINGTON HILLS",
-   "sector": "Technology",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Johnny Chen reported a 11.5% stake in Sharing Economy International Inc. (SEII).",
-   "filed": "2026-08-04"
-  },
-  {
-   "id": "8K-0001477932-26-004679",
-   "company": "Sharing Economy International Inc.",
-   "ticker": "SEII",
-   "type": "M&A",
-   "subtype": "Acquisition/Disposition Completed",
-   "city": "Farmington Hills",
-   "sector": "Technology",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Sharing Economy International Inc. (SEII) reported completing an acquisition or disposition of assets.",
-   "filed": "2026-08-03"
-  },
-  {
-   "id": "8K-0001213900-26-084282",
-   "company": "Bluerock Acquisition Corp.",
-   "ticker": "BLRK",
-   "type": "M&A",
-   "subtype": "Definitive Agreement",
-   "city": "Southfield",
-   "sector": "Financial Services",
-   "amount": 300000000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "Bluerock Acquisition Corp. (BLRK) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$300M.",
-   "filed": "2026-08-03"
+   "deal_id": "MDR-7e0b87723a",
+   "title": "Sharing Economy International Inc.: M&A transaction (buyer/target roles under review)",
+   "summary": "Sharing Economy International Inc.: M&A transaction (buyer/target roles under review) (stock); closed 2026-08-03.",
+   "deal_type": "Acquisition",
+   "status": "Closed",
+   "target": null,
+   "acquirer": null,
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Software & Technology",
+   "region": null,
+   "confidence": "High"
   }
  ],
- "material_agreements": [
+ "top_financings": [
   {
-   "id": "8K-0001783398-26-000114",
-   "company": "UWM Holdings Corp",
-   "ticker": "UWMC",
-   "type": "Material Agreement",
-   "subtype": "Equity Financing",
-   "city": "Pontiac",
-   "sector": "Financial Services",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "UWM Holdings Corp (UWMC) entered into a material definitive agreement (equity financing).",
-   "filed": "2026-08-06"
+   "deal_id": "MDR-c8bd2684eb",
+   "title": "AM Sailing LP: venture round ($20M raised)",
+   "summary": "AM Sailing LP: venture round ($20M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "AM Sailing LP",
+   "acquirer": null,
+   "value": 20000000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-67c05b7101",
+   "title": "StarupNation Ventures Group LLC: venture round ($1M raised)",
+   "summary": "StarupNation Ventures Group LLC: venture round ($1M raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "StarupNation Ventures Group LLC",
+   "acquirer": null,
+   "value": 1000000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-f1b182ae85",
+   "title": "Mixel Studio, Inc.: venture round ($110K raised)",
+   "summary": "Mixel Studio, Inc.: venture round ($110K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Mixel Studio, Inc.",
+   "acquirer": null,
+   "value": 110000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   }
  ],
- "top_sectors": [
+ "fund_raises": [
+  {
+   "id": "CF-0ef5b8871f",
+   "name": "Northern Shore Capital HQ Co-Invest LP",
+   "category": "Private Equity Fund",
+   "amount_raised": 0.0,
+   "city": "Bloomfield Hills"
+  },
+  {
+   "id": "CF-b60fd56a6a",
+   "name": "Spansail Drive Apartments, LLC",
+   "category": "Real Estate",
+   "amount_raised": 0.0,
+   "city": "Auburn Hills"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2025-08-09",
+   "2026-08-09"
+  ],
+  "acquirers": [
+   {
+    "name": "ENDRA Life Sciences Inc.",
+    "deals": 1,
+    "disclosed_value": 50250000.0,
+    "recent_deal_ids": [
+     "MDR-2000d64c8c"
+    ]
+   },
+   {
+    "name": "Isabella Bank Corp",
+    "deals": 1,
+    "disclosed_value": 40000000.0,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Essence Parent Inc.",
+    "deals": 1,
+    "disclosed_value": 726000000.0,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Independent Bank Corp",
+    "deals": 1,
+    "disclosed_value": 70800000.0,
+    "recent_deal_ids": [
+     "MDR-81bcf88076"
+    ]
+   },
+   {
+    "name": "Esperion Therapeutics, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "ARCHIMED on April 21",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Independent include individuals that control",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Athyrium Capital Management",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Parent",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "PJT Partners",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20",
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Brean Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Centerview Partners",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Moelis & Company LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-653115fcbd",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-964f877284",
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Akin Gump LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Sidley Austin LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Arnold & Porter Kaye Scholer LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Software & Technology",
+   "deals": 2,
+   "text": "2 deals: Mixel Studio, Inc.: venture round ($110K raised); Sharing Economy International Inc.: M&A transaction (buyer/target roles under review)."
+  },
   {
    "sector": "Financial Services",
-   "count": 4,
-   "amount": 1366339764.0
-  },
-  {
-   "sector": "Other",
-   "count": 4,
-   "amount": 23615000.0
-  },
-  {
-   "sector": "Technology",
-   "count": 4,
-   "amount": 110000.0
-  },
-  {
-   "sector": "Private Funds",
-   "count": 1,
-   "amount": 0.0
-  },
-  {
-   "sector": "Health Care & Life Sciences",
-   "count": 1,
-   "amount": 0.0
+   "deals": 1,
+   "text": "1 deal: High Street Holdco, LLC issued securities in an acquisition (target not named)."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $1.4B sold across 8 Form D filings this week, up 2459% vs. the prior 4-week average. The largest was Mercedes-Benz Financial Services USA LLC (Farmington Hills, Other Banking and Financial Services) targeting $3B. Good question to ask: are founders in financial services favoring equity rounds over venture debt right now?",
+   "topic": "M&A",
+   "text": "High Street Holdco, LLC issued securities in an acquisition (target not named). It was one of 2 Michigan M&A deals this week. Ask how buyers are underwriting Michigan financial services assets right now.",
    "deal_ids": [
-    "D-1540252-021-281707"
+    "MDR-dbcab44cdd",
+    "MDR-7e0b87723a"
    ]
   },
   {
-   "topic": "M&A",
-   "text": "Bluerock Acquisition Corp. (BLRK) disclosed a deal. It was one of 3 M&A filings this week. Use it to ask how buyers are valuing Michigan financial services assets and whether consolidation is accelerating.",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $21.1M raised across 3 financings (up 85% vs. the trailing 4-week average). The largest: AM Sailing LP: venture round ($20M raised). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "D-2021228-021-593538",
-    "8K-0001477932-26-004679",
-    "8K-0001213900-26-084282"
+    "MDR-c8bd2684eb"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "1 Michigan-based pooled fund filed Form Ds, reporting $0 raised so far — led by Northern Shore Capital HQ Co-Invest LP (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-2149194-021-593528"
-   ]
+   "text": "2 Michigan-based fund vehicles reported $0 raised, led by Northern Shore Capital HQ Co-Invest LP (Private Equity Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "High Street Holdco, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2021228/000202122826000002/0002021228-26-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-08-07",
+   "deal_id": "MDR-dbcab44cdd"
+  },
+  {
+   "title": "Sharing Economy International Inc. 8-K (Item 1.01 definitive agreement, Item 2.01 completion)",
+   "url": "https://www.sec.gov/Archives/edgar/data/819926/000147793226004679/0001477932-26-004679-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-08-03",
+   "deal_id": "MDR-7e0b87723a"
+  },
+  {
+   "title": "AM Sailing LP Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2148703/000214870326000002/0002148703-26-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-08-04",
+   "deal_id": "MDR-c8bd2684eb"
+  },
+  {
+   "title": "StarupNation Ventures Group LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2029421/000202942126000001/0002029421-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-08-07",
+   "deal_id": "MDR-67c05b7101"
+  },
+  {
+   "title": "Mixel Studio, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2148006/000214800626000002/0002148006-26-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-08-03",
+   "deal_id": "MDR-f1b182ae85"
   }
  ]
 }

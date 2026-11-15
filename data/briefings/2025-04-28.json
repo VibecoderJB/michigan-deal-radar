@@ -1,0 +1,224 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-04-28",
+ "week_end": "2025-05-04",
+ "generated_at": "2026-11-15T22:32:31Z",
+ "headline": "2 Michigan deals; $550K raised in private financings",
+ "stats": {
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 2,
+  "financing_raised": 550000,
+  "fund_raises": 0,
+  "fund_capital_raised": 0,
+  "stakes": 0
+ },
+ "trailing_4wk": {
+  "ma_deals": 0.8,
+  "ma_disclosed_value": 2415250000.0,
+  "ma_with_value": 0.5,
+  "financings": 3.2,
+  "financing_raised": 331825220.8,
+  "fund_raises": 0.2,
+  "fund_capital_raised": 706250.0,
+  "stakes": 0.8
+ },
+ "change_vs_trailing": {
+  "ma_deals": -100.0,
+  "financings": -38.5,
+  "financing_raised": -99.8
+ },
+ "notable_ma": [],
+ "top_financings": [
+  {
+   "deal_id": "MDR-5d036a533a",
+   "title": "Impact Eleven LLC: venture round ($550K raised)",
+   "summary": "Impact Eleven LLC: venture round ($550K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Impact Eleven LLC",
+   "acquirer": null,
+   "value": 550000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-0f8f07ba2a",
+   "title": "Chec 1 LLC: venture round ($0 raised)",
+   "summary": "Chec 1 LLC: venture round ($0 raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Chec 1 LLC",
+   "acquirer": null,
+   "value": 0.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "West Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [],
+ "league_snapshot": {
+  "window": [
+   "2024-05-04",
+   "2025-05-04"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 3,
+    "disclosed_value": 12450000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26",
+     "MDR-a598c6fe11"
+    ]
+   },
+   {
+    "name": "Bayview Acquisitions LLC",
+    "deals": 1,
+    "disclosed_value": 261000000.0,
+    "recent_deal_ids": [
+     "MDR-76eaf1ae34"
+    ]
+   },
+   {
+    "name": "Stryker Corp",
+    "deals": 1,
+    "disclosed_value": 4900000000.0,
+    "recent_deal_ids": [
+     "MDR-6f503b58c5"
+    ]
+   },
+   {
+    "name": "CP Acquisitions, LLC",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-28e094740d"
+    ]
+   },
+   {
+    "name": "Gentex Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-d08cc96cee"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Mr. Cooper selected Citi to",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6770a293fd"
+    ]
+   },
+   {
+    "name": "Mr. Cooper senior management believed that Citi would be well positioned to",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6770a293fd"
+    ]
+   },
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: Chec 1 LLC: venture round ($0 raised)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $550K raised across 2 financings (down 100% vs. the trailing 4-week average). The largest: Impact Eleven LLC: venture round ($550K raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-5d036a533a"
+   ]
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Healthcare was the most active Michigan sector this week with 1 deal. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  },
+  {
+   "topic": "Deal flow",
+   "text": "2 Michigan deals this week vs. a trailing average of 4. Ask whether pipelines are building or deal timelines are stretching.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Impact Eleven LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1984664/000198466425000002/0001984664-25-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-04-28",
+   "deal_id": "MDR-5d036a533a"
+  },
+  {
+   "title": "Chec 1 LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2065212/000206521225000001/0002065212-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-05-02",
+   "deal_id": "MDR-0f8f07ba2a"
+  }
+ ]
+}

@@ -1,0 +1,340 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-08-04",
+ "week_end": "2025-08-10",
+ "generated_at": "2026-11-15T22:32:33Z",
+ "headline": "1 Michigan M&A deal, 3 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+ "stats": {
+  "ma_deals": 1,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 3,
+  "financing_raised": 1523742,
+  "fund_raises": 3,
+  "fund_capital_raised": 38764793,
+  "stakes": 3
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.8,
+  "ma_disclosed_value": 980200000.0,
+  "ma_with_value": 0.8,
+  "financings": 3.0,
+  "financing_raised": 361503605.8,
+  "fund_raises": 4.5,
+  "fund_capital_raised": 59658077.8,
+  "stakes": 1.0
+ },
+ "change_vs_trailing": {
+  "ma_deals": -42.9,
+  "financings": 0.0,
+  "financing_raised": -99.6
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-cec5d8387c",
+   "title": "High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "summary": "High Street Holdco, LLC issued securities in an acquisition (target not named).",
+   "deal_type": "Acquisition",
+   "status": "Closed",
+   "target": null,
+   "acquirer": "High Street Holdco, LLC",
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Financial Services",
+   "region": "Northern Michigan",
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-d2738777b4",
+   "title": "Constrat, Inc.: venture round ($725K raised)",
+   "summary": "Constrat, Inc.: venture round ($725K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Constrat, Inc.",
+   "acquirer": null,
+   "value": 725000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-4d656bed88",
+   "title": "Roll & Hill, LLC: growth equity ($650K raised)",
+   "summary": "Roll & Hill, LLC: growth equity ($650K raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Roll & Hill, LLC",
+   "acquirer": null,
+   "value": 650000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-d44ab06603",
+   "title": "Gabriel, Roeder, Smith & Co Holdings, Inc.: growth equity ($148.7K raised)",
+   "summary": "Gabriel, Roeder, Smith & Co Holdings, Inc.: growth equity ($148.7K raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Gabriel, Roeder, Smith & Co Holdings, Inc.",
+   "acquirer": null,
+   "value": 148742.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-29d03e1cc8",
+   "name": "Hachem Properties LLC",
+   "category": "Real Estate",
+   "amount_raised": 25000000.0,
+   "city": "Inkster"
+  },
+  {
+   "id": "CF-9500a2170a",
+   "name": "Great Lakes Land Holdings, LLC",
+   "category": "Real Estate",
+   "amount_raised": 12000000.0,
+   "city": "Lowell"
+  },
+  {
+   "id": "CF-45497fca00",
+   "name": "Neighborhood Housing Trust Partners LLC",
+   "category": "Real Estate",
+   "amount_raised": 1764793.0,
+   "city": "Detroit"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-08-10",
+   "2025-08-10"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 11150000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "HNI Corporation",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "Mercantile Bank Corp",
+    "deals": 1,
+    "disclosed_value": 95800000.0,
+    "recent_deal_ids": [
+     "MDR-b2f94c7e43"
+    ]
+   },
+   {
+    "name": "Mars, Incorporated",
+    "deals": 1,
+    "disclosed_value": 3100000000.0,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Parent, pursuant to which Parent agreed to purchase, and the Company",
+    "deals": 1,
+    "disclosed_value": 725000000.0,
+    "recent_deal_ids": [
+     "MDR-3cf289038e"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 2,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Kate Pew Wolters",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Mercantile for purposes of Rule 144 under the Securities Act",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "WK Kellogg",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-6f5e61c9e2"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Davis Polk & Wardwell LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Financial Services",
+   "deals": 1,
+   "text": "1 deal: High Street Holdco, LLC issued securities in an acquisition (target not named)."
+  },
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: Constrat, Inc.: venture round ($725K raised)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "High Street Holdco, LLC issued securities in an acquisition (target not named). Ask how buyers are underwriting Michigan financial services assets right now.",
+   "deal_ids": [
+    "MDR-cec5d8387c"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $1.5M raised across 3 financings (down 100% vs. the trailing 4-week average). The largest: Constrat, Inc.: venture round ($725K raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-d2738777b4"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "3 Michigan-based fund vehicles reported $38.8M raised, led by Hachem Properties LLC (Real Estate). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "High Street Holdco, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2021228/000161559425000093/0001615594-25-000093-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-08-07",
+   "deal_id": "MDR-cec5d8387c"
+  },
+  {
+   "title": "Constrat, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2079840/000207984025000001/0002079840-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-08-04",
+   "deal_id": "MDR-d2738777b4"
+  },
+  {
+   "title": "Constrat, Inc. Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2079840/000207984026000001/0002079840-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-07-31",
+   "deal_id": "MDR-d2738777b4"
+  },
+  {
+   "title": "Roll & Hill, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2080533/000208053325000001/0002080533-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-08-07",
+   "deal_id": "MDR-4d656bed88"
+  },
+  {
+   "title": "Gabriel, Roeder, Smith & Co Holdings, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1682362/000168236225000001/0001682362-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-08-06",
+   "deal_id": "MDR-d44ab06603"
+  }
+ ]
+}

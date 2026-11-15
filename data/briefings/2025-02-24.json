@@ -1,0 +1,345 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-02-24",
+ "week_end": "2025-03-02",
+ "generated_at": "2026-11-15T22:32:31Z",
+ "headline": "2 Michigan M&A deals, 5 financings; Sun Communities Inc: M&A transaction with BIP Poseidon Holdco L.P. (buyer/target roles under review)",
+ "stats": {
+  "ma_deals": 2,
+  "ma_disclosed_value": 5650000000,
+  "ma_with_value": 1,
+  "financings": 5,
+  "financing_raised": 3014275988,
+  "fund_raises": 1,
+  "fund_capital_raised": 0,
+  "stakes": 0
+ },
+ "trailing_4wk": {
+  "ma_deals": 0.2,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 3.8,
+  "financing_raised": 492047349.2,
+  "fund_raises": 2.5,
+  "fund_capital_raised": 16246250.0,
+  "stakes": 0.8
+ },
+ "change_vs_trailing": {
+  "ma_deals": 700.0,
+  "financings": 33.3,
+  "financing_raised": 512.6
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-a0de2a074b",
+   "title": "Sun Communities Inc: M&A transaction with BIP Poseidon Holdco L.P. (buyer/target roles under review)",
+   "summary": "Sun Communities Inc: M&A transaction with BIP Poseidon Holdco L.P. (buyer/target roles under review) for $5.7B (cash); terminated 2025-02-24.",
+   "deal_type": "Acquisition",
+   "status": "Terminated",
+   "target": null,
+   "acquirer": null,
+   "value": 5650000000.0,
+   "value_label": "Disclosed value",
+   "sector": "Real Estate",
+   "region": null,
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-d03df023b9",
+   "title": "Sun Communities Inc: M&A transaction with Poseidon Holdco I L.P. (buyer/target roles under review)",
+   "summary": "Sun Communities Inc: M&A transaction with Poseidon Holdco I L.P. (buyer/target roles under review) (cash); closed 2025-04-30.",
+   "deal_type": "Acquisition",
+   "status": "Closed",
+   "target": null,
+   "acquirer": null,
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Real Estate",
+   "region": null,
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-db396ce726",
+   "title": "Stryker Corp: credit facility ($3B)",
+   "summary": "Stryker Corp: credit facility ($3B).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Stryker Corp",
+   "acquirer": null,
+   "value": 3000000000.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southwest Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-ef9ef4357f",
+   "title": "Evenergi Labs Inc.: venture round ($7M raised)",
+   "summary": "Evenergi Labs Inc.: venture round ($7M raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "Evenergi Labs Inc.",
+   "acquirer": null,
+   "value": 6999988.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-2d47ff1dee",
+   "title": "HOLO Footwear, Inc.: venture round ($6.9M raised)",
+   "summary": "HOLO Footwear, Inc.: venture round ($6.9M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "HOLO Footwear, Inc.",
+   "acquirer": null,
+   "value": 6936000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-0beaa3530e",
+   "title": "Redbud Roots National, LLC: venture round ($340K raised)",
+   "summary": "Redbud Roots National, LLC: venture round ($340K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Redbud Roots National, LLC",
+   "acquirer": null,
+   "value": 340000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southwest Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-306e1a1efd",
+   "title": "Credit Acceptance Corp: credit facility",
+   "summary": "Credit Acceptance Corp: credit facility.",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Credit Acceptance Corp",
+   "acquirer": null,
+   "value": null,
+   "value_label": "Amount raised",
+   "sector": "Financial Services",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-f0b9094d6c",
+   "name": "Mudita Venture Fund II LLC",
+   "category": "Venture Capital Fund",
+   "amount_raised": 0.0,
+   "city": "Bingham Farms"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-03-02",
+   "2025-03-02"
+  ],
+  "acquirers": [
+   {
+    "name": "Stryker Corp",
+    "deals": 1,
+    "disclosed_value": 4900000000.0,
+    "recent_deal_ids": [
+     "MDR-6f503b58c5"
+    ]
+   },
+   {
+    "name": "CP Acquisitions, LLC",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-28e094740d"
+    ]
+   },
+   {
+    "name": "Gentex Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-d08cc96cee"
+    ]
+   },
+   {
+    "name": "Shyft, Aebi Schmidt Holding AG",
+    "deals": 1,
+    "disclosed_value": 474000000.0,
+    "recent_deal_ids": [
+     "MDR-3c7f849168"
+    ]
+   },
+   {
+    "name": "Ansys, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Perella Weinberg Partners has not",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-762c28a96f"
+    ]
+   }
+  ],
+  "legal_advisors": []
+ },
+ "sector_commentary": [
+  {
+   "sector": "Real Estate",
+   "deals": 2,
+   "text": "2 deals: Sun Communities Inc: M&A transaction with Poseidon Holdco I L.P. (buyer/target roles under review); Sun Communities Inc: M&A transaction with BIP Poseidon Holdco L.P. (buyer/target roles under review)."
+  },
+  {
+   "sector": "Financial Services",
+   "deals": 1,
+   "text": "1 deal: Credit Acceptance Corp: credit facility."
+  },
+  {
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: Stryker Corp: credit facility ($3B)."
+  },
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: Evenergi Labs Inc.: venture round ($7M raised)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "Sun Communities Inc: M&A transaction with BIP Poseidon Holdco L.P. (buyer/target roles under review) for $5.7B. It was one of 2 Michigan M&A deals this week. Ask how buyers are underwriting Michigan real estate assets right now.",
+   "deal_ids": [
+    "MDR-a0de2a074b",
+    "MDR-d03df023b9"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $3B raised across 5 financings (up 513% vs. the trailing 4-week average). The largest: Stryker Corp: credit facility ($3B). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-db396ce726"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "1 Michigan-based fund vehicle reported $0 raised, led by Mudita Venture Fund II LLC (Venture Capital Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Sun Communities Inc 8-K (Item 1.01 definitive agreement, Item 7.01 Reg FD)",
+   "url": "https://www.sec.gov/Archives/edgar/data/912593/000119312525032906/0001193125-25-032906-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-02-24",
+   "deal_id": "MDR-a0de2a074b"
+  },
+  {
+   "title": "Sun Communities Inc 8-K (Item 2.01 completion, Item 7.01 Reg FD, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/912593/000091259325000164/0000912593-25-000164-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-05-06",
+   "deal_id": "MDR-d03df023b9"
+  },
+  {
+   "title": "Stryker Corp 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/310764/000119312525039302/0001193125-25-039302-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-02-27",
+   "deal_id": "MDR-db396ce726"
+  },
+  {
+   "title": "Evenergi Labs Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2001507/000200150725000001/0002001507-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-02-26",
+   "deal_id": "MDR-ef9ef4357f"
+  },
+  {
+   "title": "HOLO Footwear, Inc. Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1884823/000188482325000001/0001884823-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-02-25",
+   "deal_id": "MDR-2d47ff1dee"
+  },
+  {
+   "title": "HOLO Footwear, Inc. Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1884823/000188482325000002/0001884823-25-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-04-28",
+   "deal_id": "MDR-2d47ff1dee"
+  },
+  {
+   "title": "Redbud Roots National, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2057034/000205703425000001/0002057034-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-02-28",
+   "deal_id": "MDR-0beaa3530e"
+  },
+  {
+   "title": "Credit Acceptance Corp 8-K (Item 1.01 definitive agreement, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/885550/000088555025000023/0000885550-25-000023-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-02-28",
+   "deal_id": "MDR-306e1a1efd"
+  }
+ ]
+}

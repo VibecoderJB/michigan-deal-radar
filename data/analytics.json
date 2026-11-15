@@ -1,0 +1,1151 @@
+{
+ "as_of": "2026-11-15",
+ "last_12_months": {
+  "window": [
+   "2025-11-15",
+   "2026-11-15"
+  ],
+  "ma_deals": 40,
+  "ma_closed": 15,
+  "ma_with_disclosed_value": 10,
+  "ma_disclosed_value": 23570473000,
+  "financings": 170,
+  "financing_raised": 16804140464,
+  "venture_rounds": 93,
+  "fund_raises": 194,
+  "fund_capital_raised": 3907032185,
+  "stakes_13d": 41,
+  "high_confidence_share": 100.0
+ },
+ "last_24_months": {
+  "window": [
+   "2024-11-15",
+   "2026-11-15"
+  ],
+  "ma_deals": 92,
+  "ma_closed": 44,
+  "ma_with_disclosed_value": 22,
+  "ma_disclosed_value": 52837273000,
+  "financings": 358,
+  "financing_raised": 31010639070,
+  "venture_rounds": 173,
+  "fund_raises": 313,
+  "fund_capital_raised": 10082350291,
+  "stakes_13d": 83,
+  "high_confidence_share": 100.0
+ },
+ "by_month": [
+  {
+   "period": "2024-07",
+   "ma_count": 2,
+   "ma_value": 1300000000.0,
+   "ma_disclosed": 1,
+   "fin_count": 0,
+   "fin_raised": 0.0
+  },
+  {
+   "period": "2024-08",
+   "ma_count": 1,
+   "ma_value": 440000.0,
+   "ma_disclosed": 1,
+   "fin_count": 0,
+   "fin_raised": 0.0
+  },
+  {
+   "period": "2024-09",
+   "ma_count": 2,
+   "ma_value": 421000000.0,
+   "ma_disclosed": 2,
+   "fin_count": 0,
+   "fin_raised": 0.0
+  },
+  {
+   "period": "2024-10",
+   "ma_count": 1,
+   "ma_value": 0.0,
+   "ma_disclosed": 0,
+   "fin_count": 0,
+   "fin_raised": 0.0
+  },
+  {
+   "period": "2024-11",
+   "ma_count": 1,
+   "ma_value": 0.0,
+   "ma_disclosed": 0,
+   "fin_count": 8,
+   "fin_raised": 37390774.0
+  },
+  {
+   "period": "2024-12",
+   "ma_count": 6,
+   "ma_value": 1935000000.0,
+   "ma_disclosed": 3,
+   "fin_count": 22,
+   "fin_raised": 923135133.0
+  },
+  {
+   "period": "2025-01",
+   "ma_count": 5,
+   "ma_value": 4900000000.0,
+   "ma_disclosed": 1,
+   "fin_count": 14,
+   "fin_raised": 1282988744.0
+  },
+  {
+   "period": "2025-02",
+   "ma_count": 3,
+   "ma_value": 5650000000.0,
+   "ma_disclosed": 1,
+   "fin_count": 15,
+   "fin_raised": 3725792439.0
+  },
+  {
+   "period": "2025-03",
+   "ma_count": 5,
+   "ma_value": 11150000000.0,
+   "ma_disclosed": 2,
+   "fin_count": 20,
+   "fin_raised": 57140863.0
+  },
+  {
+   "period": "2025-04",
+   "ma_count": 2,
+   "ma_value": 261000000.0,
+   "ma_disclosed": 1,
+   "fin_count": 13,
+   "fin_raised": 1317400886.0
+  },
+  {
+   "period": "2025-05",
+   "ma_count": 3,
+   "ma_value": 0.0,
+   "ma_disclosed": 0,
+   "fin_count": 12,
+   "fin_raised": 784487467.0
+  },
+  {
+   "period": "2025-06",
+   "ma_count": 5,
+   "ma_value": 0.0,
+   "ma_disclosed": 0,
+   "fin_count": 13,
+   "fin_raised": 2617082988.0
+  },
+  {
+   "period": "2025-07",
+   "ma_count": 8,
+   "ma_value": 3920800000.0,
+   "ma_disclosed": 3,
+   "fin_count": 11,
+   "fin_raised": 277182111.0
+  },
+  {
+   "period": "2025-08",
+   "ma_count": 4,
+   "ma_value": 0.0,
+   "ma_disclosed": 0,
+   "fin_count": 16,
+   "fin_raised": 1952340733.0
+  },
+  {
+   "period": "2025-09",
+   "ma_count": 7,
+   "ma_value": 0.0,
+   "ma_disclosed": 0,
+   "fin_count": 13,
+   "fin_raised": 654130421.0
+  },
+  {
+   "period": "2025-10",
+   "ma_count": 2,
+   "ma_value": 0.0,
+   "ma_disclosed": 0,
+   "fin_count": 25,
+   "fin_raised": 565424260.0
+  },
+  {
+   "period": "2025-11",
+   "ma_count": 2,
+   "ma_value": 1969423000.0,
+   "ma_disclosed": 2,
+   "fin_count": 12,
+   "fin_raised": 363536787.0
+  },
+  {
+   "period": "2025-12",
+   "ma_count": 6,
+   "ma_value": 0.0,
+   "ma_disclosed": 0,
+   "fin_count": 13,
+   "fin_raised": 189674492.0
+  },
+  {
+   "period": "2026-01",
+   "ma_count": 4,
+   "ma_value": 150000000.0,
+   "ma_disclosed": 1,
+   "fin_count": 14,
+   "fin_raised": 145970145.0
+  },
+  {
+   "period": "2026-02",
+   "ma_count": 1,
+   "ma_value": 59000000.0,
+   "ma_disclosed": 1,
+   "fin_count": 11,
+   "fin_raised": 958280533.0
+  },
+  {
+   "period": "2026-03",
+   "ma_count": 3,
+   "ma_value": 70800000.0,
+   "ma_disclosed": 1,
+   "fin_count": 12,
+   "fin_raised": 673302925.0
+  },
+  {
+   "period": "2026-04",
+   "ma_count": 1,
+   "ma_value": 0.0,
+   "ma_disclosed": 0,
+   "fin_count": 20,
+   "fin_raised": 995099754.0
+  },
+  {
+   "period": "2026-05",
+   "ma_count": 2,
+   "ma_value": 726000000.0,
+   "ma_disclosed": 1,
+   "fin_count": 10,
+   "fin_raised": 9776033444.0
+  },
+  {
+   "period": "2026-06",
+   "ma_count": 3,
+   "ma_value": 90250000.0,
+   "ma_disclosed": 2,
+   "fin_count": 11,
+   "fin_raised": 1663152000.0
+  },
+  {
+   "period": "2026-07",
+   "ma_count": 4,
+   "ma_value": 5000000.0,
+   "ma_disclosed": 1,
+   "fin_count": 17,
+   "fin_raised": 1346824527.0
+  },
+  {
+   "period": "2026-08",
+   "ma_count": 5,
+   "ma_value": 0.0,
+   "ma_disclosed": 0,
+   "fin_count": 14,
+   "fin_raised": 37497962.0
+  },
+  {
+   "period": "2026-09",
+   "ma_count": 4,
+   "ma_value": 5650000000.0,
+   "ma_disclosed": 1,
+   "fin_count": 17,
+   "fin_raised": 63277782.0
+  },
+  {
+   "period": "2026-10",
+   "ma_count": 5,
+   "ma_value": 16300000000.0,
+   "ma_disclosed": 1,
+   "fin_count": 14,
+   "fin_raised": 576450400.0
+  },
+  {
+   "period": "2026-11",
+   "ma_count": 1,
+   "ma_value": 0.0,
+   "ma_disclosed": 0,
+   "fin_count": 11,
+   "fin_raised": 27041500.0
+  }
+ ],
+ "by_quarter": [
+  {
+   "period": "2024-Q3",
+   "ma_count": 5,
+   "ma_value": 1721440000.0,
+   "ma_disclosed": 4,
+   "fin_count": 0,
+   "fin_raised": 0.0
+  },
+  {
+   "period": "2024-Q4",
+   "ma_count": 8,
+   "ma_value": 1935000000.0,
+   "ma_disclosed": 3,
+   "fin_count": 30,
+   "fin_raised": 960525907.0
+  },
+  {
+   "period": "2025-Q1",
+   "ma_count": 13,
+   "ma_value": 21700000000.0,
+   "ma_disclosed": 4,
+   "fin_count": 49,
+   "fin_raised": 5065922046.0
+  },
+  {
+   "period": "2025-Q2",
+   "ma_count": 10,
+   "ma_value": 261000000.0,
+   "ma_disclosed": 1,
+   "fin_count": 38,
+   "fin_raised": 4718971341.0
+  },
+  {
+   "period": "2025-Q3",
+   "ma_count": 19,
+   "ma_value": 3920800000.0,
+   "ma_disclosed": 3,
+   "fin_count": 40,
+   "fin_raised": 2883653265.0
+  },
+  {
+   "period": "2025-Q4",
+   "ma_count": 10,
+   "ma_value": 1969423000.0,
+   "ma_disclosed": 2,
+   "fin_count": 50,
+   "fin_raised": 1118635539.0
+  },
+  {
+   "period": "2026-Q1",
+   "ma_count": 8,
+   "ma_value": 279800000.0,
+   "ma_disclosed": 3,
+   "fin_count": 37,
+   "fin_raised": 1777553603.0
+  },
+  {
+   "period": "2026-Q2",
+   "ma_count": 6,
+   "ma_value": 816250000.0,
+   "ma_disclosed": 3,
+   "fin_count": 41,
+   "fin_raised": 12434285198.0
+  },
+  {
+   "period": "2026-Q3",
+   "ma_count": 13,
+   "ma_value": 5655000000.0,
+   "ma_disclosed": 2,
+   "fin_count": 48,
+   "fin_raised": 1447600271.0
+  },
+  {
+   "period": "2026-Q4",
+   "ma_count": 6,
+   "ma_value": 16300000000.0,
+   "ma_disclosed": 1,
+   "fin_count": 25,
+   "fin_raised": 603491900.0
+  }
+ ],
+ "by_year": [
+  {
+   "period": "2024",
+   "ma_count": 13,
+   "ma_value": 3656440000.0,
+   "ma_disclosed": 7,
+   "fin_count": 30,
+   "fin_raised": 960525907.0
+  },
+  {
+   "period": "2025",
+   "ma_count": 52,
+   "ma_value": 27851223000.0,
+   "ma_disclosed": 10,
+   "fin_count": 177,
+   "fin_raised": 13787182191.0
+  },
+  {
+   "period": "2026",
+   "ma_count": 33,
+   "ma_value": 23051050000.0,
+   "ma_disclosed": 9,
+   "fin_count": 151,
+   "fin_raised": 16262930972.0
+  }
+ ],
+ "league_tables": {
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 11150000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Vantive Limited",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-14ad33e2a8"
+    ]
+   },
+   {
+    "name": "Motown Acquisition Corp.",
+    "deals": 1,
+    "disclosed_value": 16300000000.0,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c"
+    ]
+   },
+   {
+    "name": "ENDRA Life Sciences Inc.",
+    "deals": 1,
+    "disclosed_value": 50250000.0,
+    "recent_deal_ids": [
+     "MDR-2000d64c8c"
+    ]
+   },
+   {
+    "name": "Isabella Bank Corp",
+    "deals": 1,
+    "disclosed_value": 40000000.0,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Essence Parent Inc.",
+    "deals": 1,
+    "disclosed_value": 726000000.0,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Independent Bank Corp",
+    "deals": 1,
+    "disclosed_value": 70800000.0,
+    "recent_deal_ids": [
+     "MDR-81bcf88076"
+    ]
+   },
+   {
+    "name": "Esperion Therapeutics, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   },
+   {
+    "name": "Gentherm Inc",
+    "deals": 1,
+    "disclosed_value": 150000000.0,
+    "recent_deal_ids": [
+     "MDR-d830f32ff0"
+    ]
+   },
+   {
+    "name": "Lineage, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-700fcaad5d"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 3,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "ARCHIMED on April 21",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Independent include individuals that control",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Athyrium Capital Management",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Blackstone",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Kate Pew Wolters",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Mercantile for purposes of Rule 144 under the Securities Act",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "WK Kellogg",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 5,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c",
+     "MDR-c2e014f75f",
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Moelis & Company LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c",
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "PJT Partners",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20",
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-6770a293fd"
+    ]
+   },
+   {
+    "name": "Wells Fargo Securities, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c"
+    ]
+   },
+   {
+    "name": "Brean Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Centerview Partners",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 5,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c",
+     "MDR-964f877284",
+     "MDR-60d2b79b16",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Jones Day",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c",
+     "MDR-0299e00fcd"
+    ]
+   },
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-653115fcbd",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Debevoise & Plimpton LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c"
+    ]
+   },
+   {
+    "name": "Akin Gump LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Sidley Austin LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Arnold & Porter Kaye Scholer LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   },
+   {
+    "name": "Gibson, Dunn & Crutcher LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ],
+  "lenders": []
+ },
+ "precedents": {
+  "deal_ids": [
+   "MDR-54b9a0e84c",
+   "MDR-b641938620",
+   "MDR-17ad3b28e5",
+   "MDR-2000d64c8c",
+   "MDR-760b18dbe9",
+   "MDR-653115fcbd",
+   "MDR-81bcf88076",
+   "MDR-6dbb840dbd",
+   "MDR-d830f32ff0",
+   "MDR-8a21ae9a17",
+   "MDR-c2e014f75f",
+   "MDR-b2f94c7e43",
+   "MDR-63d95e3510",
+   "MDR-3cf289038e",
+   "MDR-76eaf1ae34",
+   "MDR-6770a293fd",
+   "MDR-f2d6037a26",
+   "MDR-a0de2a074b",
+   "MDR-6f503b58c5",
+   "MDR-6152d3ea8c",
+   "MDR-3c7f849168",
+   "MDR-53b891f3fc",
+   "MDR-b445ee60de",
+   "MDR-762c28a96f",
+   "MDR-ac5208db0d",
+   "MDR-a598c6fe11"
+  ],
+  "ev_ebitda": {
+   "n": 1,
+   "median": 4.85,
+   "mean": 4.85,
+   "low": 4.85,
+   "high": 4.85
+  },
+  "ev_revenue": {
+   "n": 0,
+   "median": null,
+   "mean": null,
+   "low": null,
+   "high": null
+  },
+  "value": {
+   "n": 26,
+   "median": 496711500.0,
+   "mean": 2098412038.46,
+   "low": 440000.0,
+   "high": 16300000000.0
+  }
+ },
+ "sector_trends": [
+  {
+   "sector": "Automotive & Mobility",
+   "quarter": "2026-Q3",
+   "deals": 3,
+   "prior_quarter": 4,
+   "year_ago_quarter": 1,
+   "qoq_pct": -25.0,
+   "yoy_pct": 200.0,
+   "trailing_4q": 15
+  },
+  {
+   "sector": "Advanced Manufacturing",
+   "quarter": "2026-Q3",
+   "deals": 1,
+   "prior_quarter": 4,
+   "year_ago_quarter": 6,
+   "qoq_pct": -75.0,
+   "yoy_pct": -83.3,
+   "trailing_4q": 14
+  },
+  {
+   "sector": "Healthcare",
+   "quarter": "2026-Q3",
+   "deals": 8,
+   "prior_quarter": 6,
+   "year_ago_quarter": 5,
+   "qoq_pct": 33.3,
+   "yoy_pct": 60.0,
+   "trailing_4q": 25
+  },
+  {
+   "sector": "Software & Technology",
+   "quarter": "2026-Q3",
+   "deals": 17,
+   "prior_quarter": 12,
+   "year_ago_quarter": 16,
+   "qoq_pct": 41.7,
+   "yoy_pct": 6.2,
+   "trailing_4q": 48
+  },
+  {
+   "sector": "Consumer",
+   "quarter": "2026-Q3",
+   "deals": 2,
+   "prior_quarter": 1,
+   "year_ago_quarter": 4,
+   "qoq_pct": 100.0,
+   "yoy_pct": -50.0,
+   "trailing_4q": 6
+  },
+  {
+   "sector": "Business Services",
+   "quarter": "2026-Q3",
+   "deals": 0,
+   "prior_quarter": 2,
+   "year_ago_quarter": 0,
+   "qoq_pct": -100.0,
+   "yoy_pct": null,
+   "trailing_4q": 11
+  },
+  {
+   "sector": "Financial Services",
+   "quarter": "2026-Q3",
+   "deals": 18,
+   "prior_quarter": 7,
+   "year_ago_quarter": 15,
+   "qoq_pct": 157.1,
+   "yoy_pct": 20.0,
+   "trailing_4q": 47
+  },
+  {
+   "sector": "Real Estate",
+   "quarter": "2026-Q3",
+   "deals": 2,
+   "prior_quarter": 0,
+   "year_ago_quarter": 0,
+   "qoq_pct": null,
+   "yoy_pct": null,
+   "trailing_4q": 5
+  },
+  {
+   "sector": "Energy & Utilities",
+   "quarter": "2026-Q3",
+   "deals": 0,
+   "prior_quarter": 1,
+   "year_ago_quarter": 2,
+   "qoq_pct": -100.0,
+   "yoy_pct": -100.0,
+   "trailing_4q": 6
+  },
+  {
+   "sector": "Other",
+   "quarter": "2026-Q3",
+   "deals": 10,
+   "prior_quarter": 10,
+   "year_ago_quarter": 10,
+   "qoq_pct": 0.0,
+   "yoy_pct": 0.0,
+   "trailing_4q": 36
+  }
+ ],
+ "sponsor_activity": {
+  "platform": 1,
+  "add_on": 0,
+  "by_quarter": {
+   "2024-Q3": {
+    "platform": 1
+   }
+  }
+ },
+ "counties": {
+  "Oakland County": 154,
+  "Washtenaw County": 55,
+  "Kent County": 54,
+  "Wayne County": 52,
+  "Grand Traverse County": 51,
+  "Ingham County": 14,
+  "Macomb County": 10,
+  "Ottawa County": 10,
+  "Berrien County": 6,
+  "Kalamazoo County": 5,
+  "Houghton County": 5,
+  "Calhoun County": 4,
+  "St. Joseph County": 3,
+  "Jackson County": 3,
+  "Marquette County": 3,
+  "Livingston County": 3,
+  "Charlevoix County": 3,
+  "Saginaw County": 2,
+  "Genesee County": 2,
+  "Presque Isle County": 1,
+  "St. Clair County": 1,
+  "Dickinson County": 1,
+  "Isabella County": 1,
+  "Newaygo County": 1,
+  "Clare County": 1,
+  "Cass County": 1,
+  "Mason County": 1,
+  "Midland County": 1,
+  "Van Buren County": 1,
+  "Monroe County": 1,
+  "Lenawee County": 1,
+  "Clinton County": 1,
+  "Benzie County": 1
+ },
+ "whos_active": [
+  {
+   "name": "Goldman Sachs & Co. LLC",
+   "kind": "Investment bank",
+   "deals": 5,
+   "recent_deal_ids": [
+    "MDR-0299e00fcd",
+    "MDR-c9cbae2000",
+    "MDR-63d95e3510",
+    "MDR-004182e774",
+    "MDR-f2d6037a26"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+   "kind": "Law firm",
+   "deals": 5,
+   "recent_deal_ids": [
+    "MDR-54b9a0e84c",
+    "MDR-964f877284",
+    "MDR-60d2b79b16",
+    "MDR-004182e774",
+    "MDR-f2d6037a26"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "BofA Securities",
+   "kind": "Investment bank",
+   "deals": 4,
+   "recent_deal_ids": [
+    "MDR-54b9a0e84c",
+    "MDR-c2e014f75f",
+    "MDR-c9cbae2000",
+    "MDR-92bfd33005"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "J.P. Morgan Securities LLC",
+   "kind": "Investment bank",
+   "deals": 4,
+   "recent_deal_ids": [
+    "MDR-0299e00fcd",
+    "MDR-60d2b79b16",
+    "MDR-c9cbae2000",
+    "MDR-6f5e61c9e2"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Citigroup Global Markets Inc",
+   "kind": "Investment bank",
+   "deals": 3,
+   "recent_deal_ids": [
+    "MDR-60d2b79b16",
+    "MDR-6770a293fd",
+    "MDR-6f5e61c9e2"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Morgan Stanley & Co. LLC",
+   "kind": "Investment bank",
+   "deals": 3,
+   "recent_deal_ids": [
+    "MDR-63d95e3510",
+    "MDR-004182e774",
+    "MDR-f2d6037a26"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Fenwick & West LLP",
+   "kind": "Law firm",
+   "deals": 2,
+   "recent_deal_ids": [
+    "MDR-004182e774",
+    "MDR-f2d6037a26"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Goodwin Procter LLP",
+   "kind": "Law firm",
+   "deals": 2,
+   "recent_deal_ids": [
+    "MDR-653115fcbd",
+    "MDR-964f877284"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Jones Day",
+   "kind": "Law firm",
+   "deals": 2,
+   "recent_deal_ids": [
+    "MDR-54b9a0e84c",
+    "MDR-0299e00fcd"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Kirkland & Ellis LLP",
+   "kind": "Law firm",
+   "deals": 2,
+   "recent_deal_ids": [
+    "MDR-c2e014f75f",
+    "MDR-63d95e3510"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Moelis & Company LLC",
+   "kind": "Investment bank",
+   "deals": 2,
+   "recent_deal_ids": [
+    "MDR-54b9a0e84c",
+    "MDR-653115fcbd"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "PJT Partners",
+   "kind": "Investment bank",
+   "deals": 2,
+   "recent_deal_ids": [
+    "MDR-f7dec1fa20",
+    "MDR-c2e014f75f"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "AAM selected J.P. Morgan to",
+   "kind": "Investment bank",
+   "deals": 1,
+   "recent_deal_ids": [
+    "MDR-3f8890de35"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Akin Gump LLP",
+   "kind": "Law firm",
+   "deals": 1,
+   "recent_deal_ids": [
+    "MDR-653115fcbd"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Allerhand & Odoner LLP",
+   "kind": "Law firm",
+   "deals": 1,
+   "recent_deal_ids": [
+    "MDR-964f877284"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Arnold & Porter Kaye Scholer LLP",
+   "kind": "Law firm",
+   "deals": 1,
+   "recent_deal_ids": [
+    "MDR-f7dec1fa20"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Barclays",
+   "kind": "Investment bank",
+   "deals": 1,
+   "recent_deal_ids": [
+    "MDR-d830f32ff0"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Bradley Arant Boult Cummings LLP",
+   "kind": "Law firm",
+   "deals": 1,
+   "recent_deal_ids": [
+    "MDR-60d2b79b16"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Brean Capital, LLC",
+   "kind": "Investment bank",
+   "deals": 1,
+   "recent_deal_ids": [
+    "MDR-760b18dbe9"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Centerview Partners",
+   "kind": "Investment bank",
+   "deals": 1,
+   "recent_deal_ids": [
+    "MDR-653115fcbd"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Chestnut Partners",
+   "kind": "Investment bank",
+   "deals": 1,
+   "recent_deal_ids": [
+    "MDR-964f877284"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Citigroup Global Markets Inc. has",
+   "kind": "Investment bank",
+   "deals": 1,
+   "recent_deal_ids": [
+    "MDR-6f5e61c9e2"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Davis Polk & Wardwell LLP",
+   "kind": "Law firm",
+   "deals": 1,
+   "recent_deal_ids": [
+    "MDR-63d95e3510"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "Debevoise & Plimpton LLP",
+   "kind": "Law firm",
+   "deals": 1,
+   "recent_deal_ids": [
+    "MDR-54b9a0e84c"
+   ],
+   "people": [],
+   "michigan_based": false
+  },
+  {
+   "name": "EFIN retained Piper Sandler to",
+   "kind": "Investment bank",
+   "deals": 1,
+   "recent_deal_ids": [
+    "MDR-b2f94c7e43"
+   ],
+   "people": [],
+   "michigan_based": false
+  }
+ ]
+}

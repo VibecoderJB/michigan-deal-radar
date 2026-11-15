@@ -1,169 +1,299 @@
 {
+ "schema_version": 2,
  "week_start": "2026-02-16",
  "week_end": "2026-02-22",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "4 Michigan deals, $54.5M raised — led by Penstock Equity II LP",
+ "generated_at": "2026-11-15T22:32:38Z",
+ "headline": "2 Michigan deals; $401.8M raised in private financings",
  "stats": {
-  "deal_count": 4,
-  "by_type": {
-   "Fundraise": 4,
-   "M&A": 0,
-   "Material Agreement": 0,
-   "Stake": 0
-  },
-  "capital_raised": 54461629,
-  "capital_targeted": 64171629,
-  "fund_count": 3
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 2,
+  "financing_raised": 401805533,
+  "fund_raises": 3,
+  "fund_capital_raised": 52656096,
+  "stakes": 0
  },
  "trailing_4wk": {
-  "deal_count": 10.8,
-  "capital_raised": 210786318.0
+  "ma_deals": 0.5,
+  "ma_disclosed_value": 52250000.0,
+  "ma_with_value": 0.5,
+  "financings": 2.8,
+  "financing_raised": 140758750.0,
+  "fund_raises": 5.2,
+  "fund_capital_raised": 204226318.0,
+  "stakes": 1.2
  },
  "change_vs_trailing": {
-  "deal_count_pct": -62.8,
-  "capital_raised_pct": -74.2
+  "ma_deals": -100.0,
+  "financings": -27.3,
+  "financing_raised": 185.5
  },
- "top_deals": [
-  {
-   "id": "D-2112655-021-574185",
-   "company": "Penstock Equity II LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Birmingham",
-   "sector": "Private Funds",
-   "amount": 50000000.0,
-   "amount_sold": 41040000.0,
-   "amount_is_estimate": false,
-   "summary": "Penstock Equity II LP, a Birmingham-based private equity fund, disclosed a $50M raise; $41M sold to 79 investors.",
-   "filed": "2026-02-20"
-  },
-  {
-   "id": "D-1916357-021-436985",
-   "company": "Cipher Chain Partners, LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Hedge Fund",
-   "city": "Birmingham",
-   "sector": "Private Funds",
-   "amount": 9366096.0,
-   "amount_sold": 9366096.0,
-   "amount_is_estimate": false,
-   "summary": "Cipher Chain Partners, LP, a Birmingham-based hedge fund, disclosed an open-ended (indefinite) raise; $9.4M sold to 18 investors. (Amended filing.)",
-   "filed": "2026-02-19"
-  },
-  {
-   "id": "D-2111599-021-573868",
-   "company": "SC LH Holdings III, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Other Investment Fund",
-   "city": "Grand Rapids",
-   "sector": "Private Funds",
-   "amount": 3000000.0,
-   "amount_sold": 2250000.0,
-   "amount_is_estimate": false,
-   "summary": "SC LH Holdings III, LLC, a Grand Rapids-based investment fund, disclosed a $3M raise; $2.2M sold to 9 investors.",
-   "filed": "2026-02-18"
-  },
-  {
-   "id": "D-2012452-021-574144",
-   "company": "Moksa.ai Inc.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Troy",
-   "sector": "Technology",
-   "amount": 1805533.0,
-   "amount_sold": 1805533.0,
-   "amount_is_estimate": false,
-   "summary": "Moksa.ai Inc., a Troy-based technology company, filed an indefinite-size equity offering under Rule 506(b); $1.8M sold to 3 investors.",
-   "filed": "2026-02-20"
-  }
- ],
- "new_funds": [
-  {
-   "id": "D-2112655-021-574185",
-   "company": "Penstock Equity II LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Birmingham",
-   "sector": "Private Funds",
-   "amount": 50000000.0,
-   "amount_sold": 41040000.0,
-   "amount_is_estimate": false,
-   "summary": "Penstock Equity II LP, a Birmingham-based private equity fund, disclosed a $50M raise; $41M sold to 79 investors.",
-   "filed": "2026-02-20"
-  },
-  {
-   "id": "D-1916357-021-436985",
-   "company": "Cipher Chain Partners, LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Hedge Fund",
-   "city": "Birmingham",
-   "sector": "Private Funds",
-   "amount": 9366096.0,
-   "amount_sold": 9366096.0,
-   "amount_is_estimate": false,
-   "summary": "Cipher Chain Partners, LP, a Birmingham-based hedge fund, disclosed an open-ended (indefinite) raise; $9.4M sold to 18 investors. (Amended filing.)",
-   "filed": "2026-02-19"
-  },
-  {
-   "id": "D-2111599-021-573868",
-   "company": "SC LH Holdings III, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Other Investment Fund",
-   "city": "Grand Rapids",
-   "sector": "Private Funds",
-   "amount": 3000000.0,
-   "amount_sold": 2250000.0,
-   "amount_is_estimate": false,
-   "summary": "SC LH Holdings III, LLC, a Grand Rapids-based investment fund, disclosed a $3M raise; $2.2M sold to 9 investors.",
-   "filed": "2026-02-18"
-  }
- ],
  "notable_ma": [],
- "material_agreements": [],
- "top_sectors": [
+ "top_financings": [
   {
-   "sector": "Private Funds",
-   "count": 3,
-   "amount": 52656096.0
+   "deal_id": "MDR-4e41d032b4",
+   "title": "Pultegroup Inc: credit facility ($400M)",
+   "summary": "Pultegroup Inc: credit facility ($400M).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Pultegroup Inc",
+   "acquirer": null,
+   "value": 400000000.0,
+   "value_label": "Amount raised",
+   "sector": "Consumer",
+   "region": null,
+   "confidence": "High"
   },
   {
-   "sector": "Technology",
-   "count": 1,
-   "amount": 1805533.0
+   "deal_id": "MDR-cd81dc9322",
+   "title": "Moksa.ai Inc.: venture round ($1.8M raised)",
+   "summary": "Moksa.ai Inc.: venture round ($1.8M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Moksa.ai Inc.",
+   "acquirer": null,
+   "value": 1805533.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-c1db3b2315",
+   "name": "Penstock Equity II LP",
+   "category": "Private Equity Fund",
+   "amount_raised": 41040000.0,
+   "city": "Birmingham"
+  },
+  {
+   "id": "CF-db3ad89318",
+   "name": "Cipher Chain Partners, LP",
+   "category": "Hedge Fund",
+   "amount_raised": 9366096.0,
+   "city": "Birmingham"
+  },
+  {
+   "id": "CF-05070f3a83",
+   "name": "SC LH Holdings III, LLC",
+   "category": "Other Investment Fund",
+   "amount_raised": 2250000.0,
+   "city": "Grand Rapids"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2025-02-22",
+   "2026-02-22"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 11150000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Gentherm Inc",
+    "deals": 1,
+    "disclosed_value": 150000000.0,
+    "recent_deal_ids": [
+     "MDR-d830f32ff0"
+    ]
+   },
+   {
+    "name": "Lineage, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-700fcaad5d"
+    ]
+   },
+   {
+    "name": "UWM Holdings Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-1c5d1214e2"
+    ]
+   },
+   {
+    "name": "Penske Automotive Group, Inc.",
+    "deals": 1,
+    "disclosed_value": 519423000.0,
+    "recent_deal_ids": [
+     "MDR-8a21ae9a17"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 3,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Blackstone",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Kate Pew Wolters",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Mercantile for purposes of Rule 144 under the Securities Act",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 5,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-6770a293fd"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-964f877284",
+     "MDR-60d2b79b16",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Allerhand & Odoner LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-964f877284"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: Moksa.ai Inc.: venture round ($1.8M raised)."
+  },
+  {
+   "sector": "Consumer",
+   "deals": 1,
+   "text": "1 deal: Pultegroup Inc: credit facility ($400M)."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $54.5M sold across 4 Form D filings this week, down 74% vs. the prior 4-week average. The largest was Moksa.ai Inc. (Troy, Other Technology) targeting $1.8M. Good question to ask: are founders in technology favoring equity rounds over venture debt right now?",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $401.8M raised across 2 financings (up 186% vs. the trailing 4-week average). The largest: Pultegroup Inc: credit facility ($400M). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "D-2012452-021-574144"
+    "MDR-4e41d032b4"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "3 Michigan-based pooled funds filed Form Ds, reporting $52.7M raised so far — led by Penstock Equity II LP (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-2112655-021-574185",
-    "D-1916357-021-436985",
-    "D-2111599-021-573868"
-   ]
+   "text": "3 Michigan-based fund vehicles reported $52.7M raised, led by Penstock Equity II LP (Private Equity Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
   },
   {
    "topic": "Sector watch",
-   "text": "Private Funds was the most active sector with 3 of 4 filings (75%). Ask contacts what's driving the activity, and whether it's showing up in their pipeline.",
-   "deal_ids": [
-    "D-2112655-021-574185",
-    "D-1916357-021-436985",
-    "D-2111599-021-573868"
-   ]
+   "text": "Software & Technology was the most active Michigan sector this week with 1 deal. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Pultegroup Inc 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/822416/000110465926018162/0001104659-26-018162-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-02-20",
+   "deal_id": "MDR-4e41d032b4"
+  },
+  {
+   "title": "Moksa.ai Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2012452/000201245226000003/0002012452-26-000003-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-02-20",
+   "deal_id": "MDR-cd81dc9322"
   }
  ]
 }

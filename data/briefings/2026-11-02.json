@@ -1,0 +1,378 @@
+{
+ "schema_version": 2,
+ "week_start": "2026-11-02",
+ "week_end": "2026-11-08",
+ "generated_at": "2026-11-15T22:32:46Z",
+ "headline": "1 Michigan M&A deal, 6 financings; Rockwell Medical, Inc. to sell business to Vantive Limited",
+ "stats": {
+  "ma_deals": 1,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 6,
+  "financing_raised": 11266500,
+  "fund_raises": 3,
+  "fund_capital_raised": 13949600,
+  "stakes": 0
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.0,
+  "ma_disclosed_value": 4075000000.0,
+  "ma_with_value": 0.2,
+  "financings": 3.2,
+  "financing_raised": 19112600.0,
+  "fund_raises": 2.8,
+  "fund_capital_raised": 43361473.8,
+  "stakes": 0.8
+ },
+ "change_vs_trailing": {
+  "ma_deals": 0.0,
+  "financings": 84.6,
+  "financing_raised": -41.1
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-14ad33e2a8",
+   "title": "Rockwell Medical, Inc. to sell business to Vantive Limited",
+   "summary": "Rockwell Medical, Inc. to sell business to Vantive Limited (cash); pending 2026-11-03.",
+   "deal_type": "Divestiture / Carve-out",
+   "status": "Pending",
+   "target": null,
+   "acquirer": "Vantive Limited",
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Healthcare",
+   "region": null,
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-cc5ad9d59e",
+   "title": "Evenergi Labs Inc.: venture round ($4M raised)",
+   "summary": "Evenergi Labs Inc.: venture round ($4M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Evenergi Labs Inc.",
+   "acquirer": null,
+   "value": 4010000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-ef188ad22b",
+   "title": "ElaiVee Ventures, LLC: venture round ($4M raised)",
+   "summary": "ElaiVee Ventures, LLC: venture round ($4M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "ElaiVee Ventures, LLC",
+   "acquirer": null,
+   "value": 4000000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-b24bce62dc",
+   "title": "Idaptiq Trials Inc.: venture round ($2.8M raised)",
+   "summary": "Idaptiq Trials Inc.: venture round ($2.8M raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "Idaptiq Trials Inc.",
+   "acquirer": null,
+   "value": 2790000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Northern Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-e983c0ae34",
+   "title": "Phases of the Moon LLC: venture round ($300K raised)",
+   "summary": "Phases of the Moon LLC: venture round ($300K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Phases of the Moon LLC",
+   "acquirer": null,
+   "value": 300000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-227301bb63",
+   "title": "Krabby Co Inc.: venture round ($166.5K raised)",
+   "summary": "Krabby Co Inc.: venture round ($166.5K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Krabby Co Inc.",
+   "acquirer": null,
+   "value": 166500.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-d675e5c102",
+   "name": "CVC Bank Inv",
+   "category": "Other Investment Fund",
+   "amount_raised": 12449600.0,
+   "city": "Grand Rapids"
+  },
+  {
+   "id": "CF-a73aae626d",
+   "name": "Northern Shore Capital AAS Co-Invest LP",
+   "category": "Private Equity Fund",
+   "amount_raised": 1500000.0,
+   "city": "Bloomfield Hills"
+  },
+  {
+   "id": "CF-48dd3b28c6",
+   "name": "Swan Charlie Opportunity Fund, LLC",
+   "category": "Real Estate",
+   "amount_raised": 0.0,
+   "city": "Portage"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2025-11-08",
+   "2026-11-08"
+  ],
+  "acquirers": [
+   {
+    "name": "Vantive Limited",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-14ad33e2a8"
+    ]
+   },
+   {
+    "name": "Motown Acquisition Corp.",
+    "deals": 1,
+    "disclosed_value": 16300000000.0,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c"
+    ]
+   },
+   {
+    "name": "ENDRA Life Sciences Inc.",
+    "deals": 1,
+    "disclosed_value": 50250000.0,
+    "recent_deal_ids": [
+     "MDR-2000d64c8c"
+    ]
+   },
+   {
+    "name": "Isabella Bank Corp",
+    "deals": 1,
+    "disclosed_value": 40000000.0,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Essence Parent Inc.",
+    "deals": 1,
+    "disclosed_value": 726000000.0,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "ARCHIMED on April 21",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Independent include individuals that control",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Athyrium Capital Management",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Parent",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Moelis & Company LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c",
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c"
+    ]
+   },
+   {
+    "name": "Wells Fargo Securities, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c"
+    ]
+   },
+   {
+    "name": "Brean Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Centerview Partners",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Jones Day",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c",
+     "MDR-0299e00fcd"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-653115fcbd",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Debevoise & Plimpton LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c"
+    ]
+   },
+   {
+    "name": "Akin Gump LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Software & Technology",
+   "deals": 3,
+   "text": "3 deals: Krabby Co Inc.: venture round ($166.5K raised); Evenergi Labs Inc.: venture round ($4M raised)."
+  },
+  {
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: Rockwell Medical, Inc. to sell business to Vantive Limited."
+  },
+  {
+   "sector": "Automotive & Mobility",
+   "deals": 1,
+   "text": "1 deal: Workhorse Group Inc.: credit facility."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "Rockwell Medical, Inc. to sell business to Vantive Limited. Ask how buyers are underwriting Michigan healthcare assets right now.",
+   "deal_ids": [
+    "MDR-14ad33e2a8"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $11.3M raised across 6 financings (down 41% vs. the trailing 4-week average). The largest: Evenergi Labs Inc.: venture round ($4M raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-cc5ad9d59e"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "3 Michigan-based fund vehicles reported $13.9M raised, led by CVC Bank Inv (Other Investment Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Rockwell Medical, Inc. 8-K (Item 1.01 definitive agreement, Item 7.01 Reg FD)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1041024/000110465926122103/0001104659-26-122103-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-11-03",
+   "deal_id": "MDR-14ad33e2a8"
+  },
+  {
+   "title": "Evenergi Labs Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2001507/000200150726000001/0002001507-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-11-04",
+   "deal_id": "MDR-cc5ad9d59e"
+  },
+  {
+   "title": "ElaiVee Ventures, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2162909/000216290926000001/0002162909-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-11-03",
+   "deal_id": "MDR-ef188ad22b"
+  },
+  {
+   "title": "Idaptiq Trials Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2161388/000123191926001520/0001231919-26-001520-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-11-02",
+   "deal_id": "MDR-b24bce62dc"
+  },
+  {
+   "title": "Phases of the Moon LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2163473/000216347326000002/0002163473-26-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-11-06",
+   "deal_id": "MDR-e983c0ae34"
+  },
+  {
+   "title": "Krabby Co Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2163797/000216379726000001/0002163797-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-11-06",
+   "deal_id": "MDR-227301bb63"
+  }
+ ]
+}

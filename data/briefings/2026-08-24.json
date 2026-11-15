@@ -1,240 +1,351 @@
 {
+ "schema_version": 2,
  "week_start": "2026-08-24",
  "week_end": "2026-08-30",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "13 Michigan deals, $15.5M raised — led by Solyco Portfolio SPV 3 Omega LLC",
+ "generated_at": "2026-11-15T22:32:44Z",
+ "headline": "5 Michigan deals; $7.6M raised in private financings",
  "stats": {
-  "deal_count": 13,
-  "by_type": {
-   "Fundraise": 11,
-   "M&A": 0,
-   "Material Agreement": 1,
-   "Stake": 1
-  },
-  "capital_raised": 15536202,
-  "capital_targeted": 166396202,
-  "fund_count": 4
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 5,
+  "financing_raised": 7638462,
+  "fund_raises": 4,
+  "fund_capital_raised": 1572034,
+  "stakes": 1
  },
  "trailing_4wk": {
-  "deal_count": 13.0,
-  "capital_raised": 434997113.8
+  "ma_deals": 1.5,
+  "ma_disclosed_value": 1250000.0,
+  "ma_with_value": 0.2,
+  "financings": 3.8,
+  "financing_raised": 14627694.0,
+  "fund_raises": 4.5,
+  "fund_capital_raised": 77675052.2,
+  "stakes": 1.2
  },
  "change_vs_trailing": {
-  "deal_count_pct": 0.0,
-  "capital_raised_pct": -96.4
+  "ma_deals": -100.0,
+  "financings": 33.3,
+  "financing_raised": -47.8
  },
- "top_deals": [
+ "notable_ma": [],
+ "top_financings": [
   {
-   "id": "D-2150578-021-595247",
-   "company": "Solyco Portfolio SPV 3 Omega LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Rochester",
-   "sector": "Private Funds",
-   "amount": 100000000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Solyco Portfolio SPV 3 Omega LLC, a Rochester-based private equity fund, disclosed a $100M raise; $0 sold.",
-   "filed": "2026-08-25"
+   "deal_id": "MDR-0bc662eaed",
+   "title": "Grounded Rvs Inc.: venture round ($4.7M raised)",
+   "summary": "Grounded Rvs Inc.: venture round ($4.7M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Grounded Rvs Inc.",
+   "acquirer": null,
+   "value": 4738475.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   },
   {
-   "id": "D-2150563-021-595249",
-   "company": "Solyco Portfolio SPV 3 LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Rochester",
-   "sector": "Private Funds",
-   "amount": 50000000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Solyco Portfolio SPV 3 LLC, a Rochester-based private equity fund, disclosed a $50M raise; $0 sold.",
-   "filed": "2026-08-25"
+   "deal_id": "MDR-2b24ceb1cf",
+   "title": "Livegistics, Inc.: venture round ($1.5M raised)",
+   "summary": "Livegistics, Inc.: venture round ($1.5M raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "Livegistics, Inc.",
+   "acquirer": null,
+   "value": 1499987.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   },
   {
-   "id": "D-2040534-021-595268",
-   "company": "Grounded Rvs Inc.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Detroit",
-   "sector": "Technology",
-   "amount": 4788475.0,
-   "amount_sold": 4738475.0,
-   "amount_is_estimate": false,
-   "summary": "Grounded Rvs Inc., a Detroit-based technology company, filed a $4.8M equity offering under Rule 506(b); $4.7M sold to 29 investors.",
-   "filed": "2026-08-25"
+   "deal_id": "MDR-a47a83ecd0",
+   "title": "Livegistics, Inc.: debt raise ($1.1M raised)",
+   "summary": "Livegistics, Inc.: debt raise ($1.1M raised).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Livegistics, Inc.",
+   "acquirer": null,
+   "value": 1100000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   },
   {
-   "id": "D-2100956-021-569991",
-   "company": "Capitan Orthopedics, Inc.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Grand Rapids",
-   "sector": "Health Care & Life Sciences",
-   "amount": 4135706.0,
-   "amount_sold": 4135706.0,
-   "amount_is_estimate": false,
-   "summary": "Capitan Orthopedics, Inc., a Grand Rapids-based health care company, filed a $4.1M debt and security to be acquired offering under Rule 506(b); $4.1M sold to 38 investors. (Amended filing.)",
-   "filed": "2026-08-28"
+   "deal_id": "MDR-594d27d41c",
+   "title": "Livegistics, Inc.: venture round ($150K raised)",
+   "summary": "Livegistics, Inc.: venture round ($150K raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "Livegistics, Inc.",
+   "acquirer": null,
+   "value": 150000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   },
   {
-   "id": "D-2108225-021-572018",
-   "company": "KBH Partners, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Caledonia",
-   "sector": "Manufacturing & Automotive",
-   "amount": 3000000.0,
-   "amount_sold": 2190000.0,
-   "amount_is_estimate": false,
-   "summary": "KBH Partners, LLC, a Caledonia-based manufacturing company, filed a $3M equity offering under Rule 506(b); $2.2M sold to 18 investors. (Amended filing.)",
-   "filed": "2026-08-28"
+   "deal_id": "MDR-0f64a51df2",
+   "title": "Livegistics, Inc.: venture round ($150K raised)",
+   "summary": "Livegistics, Inc.: venture round ($150K raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "Livegistics, Inc.",
+   "acquirer": null,
+   "value": 150000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   }
  ],
- "new_funds": [
+ "fund_raises": [
   {
-   "id": "D-2150578-021-595247",
-   "company": "Solyco Portfolio SPV 3 Omega LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Rochester",
-   "sector": "Private Funds",
-   "amount": 100000000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Solyco Portfolio SPV 3 Omega LLC, a Rochester-based private equity fund, disclosed a $100M raise; $0 sold.",
-   "filed": "2026-08-25"
+   "id": "CF-88e5e334a1",
+   "name": "Vellum Beta Fund, LP",
+   "category": "Hedge Fund",
+   "amount_raised": 1572034.0,
+   "city": "Grand Rapids"
   },
   {
-   "id": "D-2150563-021-595249",
-   "company": "Solyco Portfolio SPV 3 LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Rochester",
-   "sector": "Private Funds",
-   "amount": 50000000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Solyco Portfolio SPV 3 LLC, a Rochester-based private equity fund, disclosed a $50M raise; $0 sold.",
-   "filed": "2026-08-25"
+   "id": "CF-cbbf7a6008",
+   "name": "Syntha Carrera Alpha Fund, LP",
+   "category": "Hedge Fund",
+   "amount_raised": 0.0,
+   "city": "Ann Arbor"
   },
   {
-   "id": "D-1734529-021-308963",
-   "company": "Vellum Beta Fund, LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Hedge Fund",
-   "city": "Grand Rapids",
-   "sector": "Private Funds",
-   "amount": 1572034.0,
-   "amount_sold": 1572034.0,
-   "amount_is_estimate": false,
-   "summary": "Vellum Beta Fund, LP, a Grand Rapids-based hedge fund, disclosed an open-ended (indefinite) raise; $1.6M sold to 12 investors. (Amended filing.)",
-   "filed": "2026-08-28"
+   "id": "CF-925975025e",
+   "name": "Solyco Portfolio SPV 3 Omega LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 0.0,
+   "city": "Rochester"
   },
   {
-   "id": "D-2151807-021-595454",
-   "company": "Syntha Carrera Alpha Fund, LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Hedge Fund",
-   "city": "Ann Arbor",
-   "sector": "Private Funds",
-   "amount": 0.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Syntha Carrera Alpha Fund, LP, an Ann Arbor-based hedge fund, disclosed an open-ended (indefinite) raise; $0 sold.",
-   "filed": "2026-08-26"
+   "id": "CF-121a844965",
+   "name": "Solyco Portfolio SPV 3 LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 0.0,
+   "city": "Rochester"
   }
  ],
- "notable_ma": [
+ "league_snapshot": {
+  "window": [
+   "2025-08-28",
+   "2026-08-30"
+  ],
+  "acquirers": [
+   {
+    "name": "ENDRA Life Sciences Inc.",
+    "deals": 1,
+    "disclosed_value": 50250000.0,
+    "recent_deal_ids": [
+     "MDR-2000d64c8c"
+    ]
+   },
+   {
+    "name": "Isabella Bank Corp",
+    "deals": 1,
+    "disclosed_value": 40000000.0,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Essence Parent Inc.",
+    "deals": 1,
+    "disclosed_value": 726000000.0,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Independent Bank Corp",
+    "deals": 1,
+    "disclosed_value": 70800000.0,
+    "recent_deal_ids": [
+     "MDR-81bcf88076"
+    ]
+   },
+   {
+    "name": "Esperion Therapeutics, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "ARCHIMED on April 21",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Independent include individuals that control",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Athyrium Capital Management",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Parent",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "PJT Partners",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20",
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Brean Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Centerview Partners",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Moelis & Company LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-653115fcbd",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-964f877284",
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Akin Gump LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Sidley Austin LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Arnold & Porter Kaye Scholer LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
   {
-   "id": "13D-0002097390-26-000006",
-   "company": "Workhorse Group Inc.",
-   "ticker": "WKHS",
-   "type": "Stake",
-   "subtype": "13D Amendment",
-   "city": "WIXOM",
-   "sector": "Manufacturing & Automotive",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Motive GM Holdings II LLC and others reported a 65.4% stake in Workhorse Group Inc. (WKHS) (Schedule 13D/A amendment 1).",
-   "filed": "2026-08-25"
-  }
- ],
- "material_agreements": [
-  {
-   "id": "8K-0000885550-26-000185",
-   "company": "Credit Acceptance Corp",
-   "ticker": "CACC",
-   "type": "Material Agreement",
-   "subtype": "Material Agreement",
-   "city": "Southfield",
-   "sector": "Financial Services",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Credit Acceptance Corp (CACC) entered into a material definitive agreement.",
-   "filed": "2026-08-25"
-  }
- ],
- "top_sectors": [
-  {
-   "sector": "Technology",
-   "count": 5,
-   "amount": 7638462.0
-  },
-  {
-   "sector": "Private Funds",
-   "count": 4,
-   "amount": 1572034.0
-  },
-  {
-   "sector": "Manufacturing & Automotive",
-   "count": 2,
-   "amount": 2190000.0
-  },
-  {
-   "sector": "Health Care & Life Sciences",
-   "count": 1,
-   "amount": 4135706.0
-  },
-  {
-   "sector": "Financial Services",
-   "count": 1,
-   "amount": 0.0
+   "sector": "Software & Technology",
+   "deals": 5,
+   "text": "5 deals: Livegistics, Inc.: debt raise ($1.1M raised); Livegistics, Inc.: venture round ($150K raised)."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $15.5M sold across 11 Form D filings this week, down 96% vs. the prior 4-week average. The largest was Grounded Rvs Inc. (Detroit, Other Technology) targeting $4.8M. Good question to ask: are founders in technology favoring equity rounds over venture debt right now?",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $7.6M raised across 5 financings (down 48% vs. the trailing 4-week average). The largest: Grounded Rvs Inc.: venture round ($4.7M raised). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "D-2040534-021-595268"
+    "MDR-0bc662eaed"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "4 Michigan-based pooled funds filed Form Ds, reporting $1.6M raised so far — led by Solyco Portfolio SPV 3 Omega LLC (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-2150578-021-595247",
-    "D-2150563-021-595249",
-    "D-1734529-021-308963"
-   ]
+   "text": "4 Michigan-based fund vehicles reported $1.6M raised, led by Vellum Beta Fund, LP (Hedge Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
   },
   {
-   "topic": "Ownership moves",
-   "text": "Motive GM Holdings II LLC and others reported a 65.4% stake in Workhorse Group Inc. (WKHS) (Schedule 13D/A amendment 1). Schedule 13D filers can push for strategic change, so it's worth asking whether shareholders see a sale or restructuring on the table.",
-   "deal_ids": [
-    "13D-0002097390-26-000006"
-   ]
+   "topic": "Sector watch",
+   "text": "Software & Technology was the most active Michigan sector this week with 5 deals. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Grounded Rvs Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2040534/000204053426000002/0002040534-26-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-08-25",
+   "deal_id": "MDR-0bc662eaed"
+  },
+  {
+   "title": "Livegistics, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1884725/000188472526000003/0001884725-26-000003-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-08-28",
+   "deal_id": "MDR-2b24ceb1cf"
+  },
+  {
+   "title": "Livegistics, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1884725/000188472526000004/0001884725-26-000004-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-08-28",
+   "deal_id": "MDR-a47a83ecd0"
+  },
+  {
+   "title": "Livegistics, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1884725/000188472526000006/0001884725-26-000006-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-08-28",
+   "deal_id": "MDR-594d27d41c"
+  },
+  {
+   "title": "Livegistics, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1884725/000188472526000005/0001884725-26-000005-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-08-28",
+   "deal_id": "MDR-0f64a51df2"
   }
  ]
 }

@@ -1,0 +1,354 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-10-13",
+ "week_end": "2025-10-19",
+ "generated_at": "2026-11-15T22:32:34Z",
+ "headline": "6 Michigan deals; $34.6M raised in private financings",
+ "stats": {
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 6,
+  "financing_raised": 34560000,
+  "fund_raises": 3,
+  "fund_capital_raised": 5556000,
+  "stakes": 1
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.2,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 3.8,
+  "financing_raised": 271526432.5,
+  "fund_raises": 2.0,
+  "fund_capital_raised": 31958153.0,
+  "stakes": 0.8
+ },
+ "change_vs_trailing": {
+  "ma_deals": -100.0,
+  "financings": 60.0,
+  "financing_raised": -87.3
+ },
+ "notable_ma": [],
+ "top_financings": [
+  {
+   "deal_id": "MDR-7396289b92",
+   "title": "SPAR Group, Inc.: credit facility ($14.5M)",
+   "summary": "SPAR Group, Inc.: credit facility ($14.5M).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "SPAR Group, Inc.",
+   "acquirer": null,
+   "value": 14500000.0,
+   "value_label": "Amount raised",
+   "sector": "Business Services",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-d62932e2e0",
+   "title": "Djs Ky LLC: debt raise ($5M raised)",
+   "summary": "Djs Ky LLC: debt raise ($5M raised).",
+   "deal_type": "Debt Raise",
+   "status": "Announced",
+   "target": "Djs Ky LLC",
+   "acquirer": null,
+   "value": 5000000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-c30638b93d",
+   "title": "Erh Ky LLC: debt raise ($5M raised)",
+   "summary": "Erh Ky LLC: debt raise ($5M raised).",
+   "deal_type": "Debt Raise",
+   "status": "Announced",
+   "target": "Erh Ky LLC",
+   "acquirer": null,
+   "value": 5000000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-308c736e2e",
+   "title": "Dhk Ky LLC: debt raise ($5M raised)",
+   "summary": "Dhk Ky LLC: debt raise ($5M raised).",
+   "deal_type": "Debt Raise",
+   "status": "Announced",
+   "target": "Dhk Ky LLC",
+   "acquirer": null,
+   "value": 5000000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-0602fe67f9",
+   "title": "C3 Kentucky LLC: debt raise ($5M raised)",
+   "summary": "C3 Kentucky LLC: debt raise ($5M raised).",
+   "deal_type": "Debt Raise",
+   "status": "Announced",
+   "target": "C3 Kentucky LLC",
+   "acquirer": null,
+   "value": 5000000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-1b34575210",
+   "name": "Unwired Broadband Holdings, LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 3100000.0,
+   "city": "Bloomfield Hills"
+  },
+  {
+   "id": "CF-b068e7db3a",
+   "name": "SWC SCP Cedar Mill, LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 2455000.0,
+   "city": "Ann Arbor"
+  },
+  {
+   "id": "CF-7606e9d3cb",
+   "name": "Exceedio Acquisition, LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 1000.0,
+   "city": "Bloomfield Hills"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-10-19",
+   "2025-10-19"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 11150000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "HNI Corporation",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "Mercantile Bank Corp",
+    "deals": 1,
+    "disclosed_value": 95800000.0,
+    "recent_deal_ids": [
+     "MDR-b2f94c7e43"
+    ]
+   },
+   {
+    "name": "Mars, Incorporated",
+    "deals": 1,
+    "disclosed_value": 3100000000.0,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Parent, pursuant to which Parent agreed to purchase, and the Company",
+    "deals": 1,
+    "disclosed_value": 725000000.0,
+    "recent_deal_ids": [
+     "MDR-3cf289038e"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 2,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Kate Pew Wolters",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Mercantile for purposes of Rule 144 under the Securities Act",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "WK Kellogg",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-6770a293fd",
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000",
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Bradley Arant Boult Cummings LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Wachtell, Lipton, Rosen & Katz",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Davis Polk & Wardwell LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Business Services",
+   "deals": 1,
+   "text": "1 deal: SPAR Group, Inc.: credit facility ($14.5M)."
+  },
+  {
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: ZMD Acquisitions, LLC: venture round ($60K raised)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $34.6M raised across 6 financings (down 87% vs. the trailing 4-week average). The largest: SPAR Group, Inc.: credit facility ($14.5M). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-7396289b92"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "3 Michigan-based fund vehicles reported $5.6M raised, led by Unwired Broadband Holdings, LLC (Private Equity Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Business Services was the most active Michigan sector this week with 1 deal. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "SPAR Group, Inc. 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1004989/000143774925031161/0001437749-25-031161-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-10-16",
+   "deal_id": "MDR-7396289b92"
+  },
+  {
+   "title": "Djs Ky LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2091075/000209107525000001/0002091075-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-16",
+   "deal_id": "MDR-d62932e2e0"
+  },
+  {
+   "title": "Erh Ky LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2091145/000209114525000001/0002091145-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-16",
+   "deal_id": "MDR-c30638b93d"
+  },
+  {
+   "title": "Dhk Ky LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2091943/000209194325000001/0002091943-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-16",
+   "deal_id": "MDR-308c736e2e"
+  },
+  {
+   "title": "C3 Kentucky LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2091942/000209194225000001/0002091942-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-16",
+   "deal_id": "MDR-0602fe67f9"
+  }
+ ]
+}

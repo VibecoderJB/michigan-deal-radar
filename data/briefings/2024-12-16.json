@@ -1,0 +1,385 @@
+{
+ "schema_version": 2,
+ "week_start": "2024-12-16",
+ "week_end": "2024-12-22",
+ "generated_at": "2026-11-15T22:32:30Z",
+ "headline": "2 Michigan M&A deals, 5 financings; Shyft, Aebi Schmidt Holding AG to acquire Shyft Group, Inc.",
+ "stats": {
+  "ma_deals": 2,
+  "ma_disclosed_value": 474000000,
+  "ma_with_value": 1,
+  "financings": 5,
+  "financing_raised": 156745614,
+  "fund_raises": 5,
+  "fund_capital_raised": 362736550,
+  "stakes": 1
+ },
+ "trailing_4wk": {
+  "ma_deals": 0.8,
+  "ma_disclosed_value": 65250000.0,
+  "ma_with_value": 0.2,
+  "financings": 5.5,
+  "financing_raised": 198386422.0,
+  "fund_raises": 0.8,
+  "fund_capital_raised": 1953750.0,
+  "stakes": 0.2
+ },
+ "change_vs_trailing": {
+  "ma_deals": 166.7,
+  "financings": -9.1,
+  "financing_raised": -21.0
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-3c7f849168",
+   "title": "Shyft, Aebi Schmidt Holding AG to acquire Shyft Group, Inc.",
+   "summary": "Shyft, Aebi Schmidt Holding AG to acquire Shyft Group, Inc. for $474M (stock); pending 2024-12-16.",
+   "deal_type": "Recapitalization",
+   "status": "Pending",
+   "target": "Shyft Group, Inc.",
+   "acquirer": "Shyft, Aebi Schmidt Holding AG",
+   "value": 474000000.0,
+   "value_label": "Disclosed value",
+   "sector": "Advanced Manufacturing",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-d08cc96cee",
+   "title": "Gentex Corp terminated deal for VOXX",
+   "summary": "Gentex Corp terminated deal for VOXX (cash & stock); terminated 2024-12-17.",
+   "deal_type": "Acquisition",
+   "status": "Terminated",
+   "target": "VOXX",
+   "acquirer": "Gentex Corp",
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Automotive & Mobility",
+   "region": "West Michigan",
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-1a9a425ddb",
+   "title": "Esperion Therapeutics, Inc.: debt offering ($153.4M)",
+   "summary": "Esperion Therapeutics, Inc.: debt offering ($153.4M).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Esperion Therapeutics, Inc.",
+   "acquirer": null,
+   "value": 153400000.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-081f7f1a2d",
+   "title": "Ecovia Renewables Inc.: growth equity ($2M raised)",
+   "summary": "Ecovia Renewables Inc.: growth equity ($2M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Ecovia Renewables Inc.",
+   "acquirer": null,
+   "value": 2047729.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-2766ece68d",
+   "title": "Peptinovo Biopharma Inc.: growth equity ($1.3M raised)",
+   "summary": "Peptinovo Biopharma Inc.: growth equity ($1.3M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Peptinovo Biopharma Inc.",
+   "acquirer": null,
+   "value": 1297885.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-373344aa81",
+   "title": "Retailers Stock Co: growth equity ($0 raised)",
+   "summary": "Retailers Stock Co: growth equity ($0 raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Retailers Stock Co",
+   "acquirer": null,
+   "value": 0.0,
+   "value_label": "Amount raised",
+   "sector": "Financial Services",
+   "region": "Mid-Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-17ce5c34f9",
+   "title": "UWM Holdings Corp: debt offering",
+   "summary": "UWM Holdings Corp: debt offering.",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "UWM Holdings Corp",
+   "acquirer": null,
+   "value": null,
+   "value_label": "Amount raised",
+   "sector": "Financial Services",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-a1970ce1fd",
+   "name": "Rb Equity Fund III, L.P.",
+   "category": "Private Equity Fund",
+   "amount_raised": 180660000.0,
+   "city": "Detroit"
+  },
+  {
+   "id": "CF-610e6efb17",
+   "name": "Rb Equity Fund Iii-A, L.P.",
+   "category": "Private Equity Fund",
+   "amount_raised": 180660000.0,
+   "city": "Detroit"
+  },
+  {
+   "id": "CF-a928de24ea",
+   "name": "GSH Preserve Domestic Funding, LLC",
+   "category": "Real Estate",
+   "amount_raised": 816550.0,
+   "city": "Clawson"
+  },
+  {
+   "id": "CF-d44e13dbb6",
+   "name": "Mutual Trust Management Advisors LP",
+   "category": "Real Estate",
+   "amount_raised": 600000.0,
+   "city": "Dearborn"
+  },
+  {
+   "id": "CF-26b00551bf",
+   "name": "Augment Ventures Fund IV, L.P.",
+   "category": "Venture Capital Fund",
+   "amount_raised": 0.0,
+   "city": "Ann Arbor"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2023-12-22",
+   "2024-12-22"
+  ],
+  "acquirers": [
+   {
+    "name": "Gentex Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-d08cc96cee"
+    ]
+   },
+   {
+    "name": "Shyft, Aebi Schmidt Holding AG",
+    "deals": 1,
+    "disclosed_value": 474000000.0,
+    "recent_deal_ids": [
+     "MDR-3c7f849168"
+    ]
+   },
+   {
+    "name": "Ansys, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Mr. Coffey that provides that if his employment is terminated by the Company",
+    "deals": 1,
+    "disclosed_value": 160000000.0,
+    "recent_deal_ids": [
+     "MDR-762c28a96f"
+    ]
+   },
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "disclosed_value": 440000.0,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Perella Weinberg Partners has not",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-762c28a96f"
+    ]
+   }
+  ],
+  "legal_advisors": []
+ },
+ "sector_commentary": [
+  {
+   "sector": "Financial Services",
+   "deals": 2,
+   "text": "2 deals: Retailers Stock Co: growth equity ($0 raised); UWM Holdings Corp: debt offering."
+  },
+  {
+   "sector": "Healthcare",
+   "deals": 2,
+   "text": "2 deals: Esperion Therapeutics, Inc.: debt offering ($153.4M); Peptinovo Biopharma Inc.: growth equity ($1.3M raised)."
+  },
+  {
+   "sector": "Automotive & Mobility",
+   "deals": 1,
+   "text": "1 deal: Gentex Corp terminated deal for VOXX."
+  },
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: Ecovia Renewables Inc.: growth equity ($2M raised)."
+  },
+  {
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: Shyft, Aebi Schmidt Holding AG to acquire Shyft Group, Inc.."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "Shyft, Aebi Schmidt Holding AG to acquire Shyft Group, Inc. for $474M. It was one of 2 Michigan M&A deals this week. Ask how buyers are underwriting Michigan advanced manufacturing assets right now.",
+   "deal_ids": [
+    "MDR-3c7f849168",
+    "MDR-d08cc96cee"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $156.7M raised across 5 financings (down 21% vs. the trailing 4-week average). The largest: Esperion Therapeutics, Inc.: debt offering ($153.4M). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-1a9a425ddb"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "5 Michigan-based fund vehicles reported $362.7M raised, led by Rb Equity Fund III, L.P. (Private Equity Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Shyft Group, Inc. 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/743238/000095010324018087/0000950103-24-018087-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2024-12-20",
+   "deal_id": "MDR-3c7f849168"
+  },
+  {
+   "title": "Shyft Group, Inc. DEFM14A",
+   "url": "https://www.sec.gov/Archives/edgar/data/743238/000114036125018793/0001140361-25-018793-index.htm",
+   "kind": "SEC DEFM14A",
+   "date": "2025-05-14",
+   "deal_id": "MDR-3c7f849168"
+  },
+  {
+   "title": "Shyft Group, Inc. 8-K (Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/743238/000095010325007117/0000950103-25-007117-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-06-06",
+   "deal_id": "MDR-3c7f849168"
+  },
+  {
+   "title": "Gentex Corp 8-K (Item 1.01 definitive agreement, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/355811/000035581124000051/0000355811-24-000051-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2024-12-18",
+   "deal_id": "MDR-d08cc96cee"
+  },
+  {
+   "title": "Esperion Therapeutics, Inc. 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1434868/000110465924129592/0001104659-24-129592-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2024-12-18",
+   "deal_id": "MDR-1a9a425ddb"
+  },
+  {
+   "title": "Ecovia Renewables Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1734989/000173498924000001/0001734989-24-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2024-12-17",
+   "deal_id": "MDR-081f7f1a2d"
+  },
+  {
+   "title": "Peptinovo Biopharma Inc. Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1868564/000186856424000002/0001868564-24-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2024-12-16",
+   "deal_id": "MDR-2766ece68d"
+  },
+  {
+   "title": "Retailers Stock Co Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1963820/000196382024000002/0001963820-24-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2024-12-18",
+   "deal_id": "MDR-373344aa81"
+  },
+  {
+   "title": "UWM Holdings Corp 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339824000053/0001783398-24-000053-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2024-12-16",
+   "deal_id": "MDR-17ce5c34f9"
+  }
+ ]
+}

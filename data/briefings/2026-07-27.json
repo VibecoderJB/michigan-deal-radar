@@ -1,198 +1,402 @@
 {
+ "schema_version": 2,
  "week_start": "2026-07-27",
  "week_end": "2026-08-02",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "12 Michigan deals, $95.7M raised — led by Michigan Capital Network Venture Fund V, L.P.",
+ "generated_at": "2026-11-15T22:32:43Z",
+ "headline": "1 Michigan M&A deal, 6 financings; undisclosed buyer terminated deal for Bluerock Acquisition Corp.",
  "stats": {
-  "deal_count": 12,
-  "by_type": {
-   "Fundraise": 12,
-   "M&A": 0,
-   "Material Agreement": 0,
-   "Stake": 0
-  },
-  "capital_raised": 95718542,
-  "capital_targeted": 136587075,
-  "fund_count": 3
+  "ma_deals": 1,
+  "ma_disclosed_value": 5000000,
+  "ma_with_value": 1,
+  "financings": 6,
+  "financing_raised": 28651276,
+  "fund_raises": 6,
+  "fund_capital_raised": 66372266,
+  "stakes": 0
  },
  "trailing_4wk": {
-  "deal_count": 10.0,
-  "capital_raised": 30664730.0
+  "ma_deals": 0.8,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 2.8,
+  "financing_raised": 329543312.8,
+  "fund_raises": 3.8,
+  "fund_capital_raised": 32603168.8,
+  "stakes": 1.0
  },
  "change_vs_trailing": {
-  "deal_count_pct": 20.0,
-  "capital_raised_pct": 212.1
+  "ma_deals": 33.3,
+  "financings": 118.2,
+  "financing_raised": -91.3
  },
- "top_deals": [
+ "notable_ma": [
   {
-   "id": "D-2081840-021-554927",
-   "company": "Michigan Capital Network Venture Fund V, L.P.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Other Investment Fund",
-   "city": "Grand Rapids",
-   "sector": "Private Funds",
-   "amount": 65360000.0,
-   "amount_sold": 65360000.0,
-   "amount_is_estimate": false,
-   "summary": "Michigan Capital Network Venture Fund V, L.P., a Grand Rapids-based investment fund, disclosed an open-ended (indefinite) raise; $65.4M sold to 82 investors. (Amended filing.)",
-   "filed": "2026-07-28"
-  },
-  {
-   "id": "D-2079994-021-592502",
-   "company": "Gold Plus Coin LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Okemos",
+   "deal_id": "MDR-17ad3b28e5",
+   "title": "undisclosed buyer terminated deal for Bluerock Acquisition Corp.",
+   "summary": "undisclosed buyer terminated deal for Bluerock Acquisition Corp. for $5M (cash); terminated 2026-07-31.",
+   "deal_type": "Acquisition",
+   "status": "Terminated",
+   "target": "Bluerock Acquisition Corp.",
+   "acquirer": null,
+   "value": 5000000.0,
+   "value_label": "Disclosed value",
    "sector": "Financial Services",
-   "amount": 19998000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Gold Plus Coin LLC, an Okemos-based financial services company, filed a $20M equity offering under Rule 506(c); $0 sold to 1 investor.",
-   "filed": "2026-07-29"
-  },
-  {
-   "id": "D-1929085-021-592826",
-   "company": "Enumera Molecular, Inc.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Ann Arbor",
-   "sector": "Health Care & Life Sciences",
-   "amount": 17375672.0,
-   "amount_sold": 12325344.0,
-   "amount_is_estimate": false,
-   "summary": "Enumera Molecular, Inc., an Ann Arbor-based health care company, filed a $17.4M equity and other securities offering under Rule 506(b); $12.3M sold to 12 investors.",
-   "filed": "2026-07-31"
-  },
-  {
-   "id": "D-2128585-021-592178",
-   "company": "Blue Arbor Technologies, Inc.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Grass Lake",
-   "sector": "Health Care & Life Sciences",
-   "amount": 10174987.0,
-   "amount_sold": 10174987.0,
-   "amount_is_estimate": false,
-   "summary": "Blue Arbor Technologies, Inc., a Grass Lake-based biotechnology company, filed a $10.2M equity offering under Rule 506(b); $10.2M sold to 32 investors.",
-   "filed": "2026-07-27"
-  },
-  {
-   "id": "D-1650557-021-592635",
-   "company": "Genomenon, Inc.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Ann Arbor",
-   "sector": "Health Care & Life Sciences",
-   "amount": 10000000.0,
-   "amount_sold": 6025002.0,
-   "amount_is_estimate": false,
-   "summary": "Genomenon, Inc., an Ann Arbor-based biotechnology company, filed a $10M equity offering under Rule 506(b); $6M sold to 30 investors.",
-   "filed": "2026-07-30"
+   "region": "Southeast Michigan",
+   "confidence": "High"
   }
  ],
- "new_funds": [
+ "top_financings": [
   {
-   "id": "D-2081840-021-554927",
-   "company": "Michigan Capital Network Venture Fund V, L.P.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Other Investment Fund",
-   "city": "Grand Rapids",
-   "sector": "Private Funds",
-   "amount": 65360000.0,
-   "amount_sold": 65360000.0,
-   "amount_is_estimate": false,
-   "summary": "Michigan Capital Network Venture Fund V, L.P., a Grand Rapids-based investment fund, disclosed an open-ended (indefinite) raise; $65.4M sold to 82 investors. (Amended filing.)",
-   "filed": "2026-07-28"
+   "deal_id": "MDR-a351993116",
+   "title": "Enumera Molecular, Inc.: venture round ($12.3M raised)",
+   "summary": "Enumera Molecular, Inc.: venture round ($12.3M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Enumera Molecular, Inc.",
+   "acquirer": null,
+   "value": 12325344.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   },
   {
-   "id": "D-2135872-021-584595",
-   "company": "Clubhouse Capital CityGolf USA LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Venture Capital Fund",
-   "city": "Detroit",
-   "sector": "Private Funds",
-   "amount": 100000.0,
-   "amount_sold": 100000.0,
-   "amount_is_estimate": false,
-   "summary": "Clubhouse Capital CityGolf USA LLC, a Detroit-based venture capital fund, disclosed an open-ended (indefinite) raise; $100K sold to 4 investors. (Amended filing.)",
-   "filed": "2026-07-28"
+   "deal_id": "MDR-60406a3a30",
+   "title": "Blue Arbor Technologies, Inc.: venture round ($10.2M raised)",
+   "summary": "Blue Arbor Technologies, Inc.: venture round ($10.2M raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "Blue Arbor Technologies, Inc.",
+   "acquirer": null,
+   "value": 10174987.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Mid-Michigan",
+   "confidence": "High"
   },
   {
-   "id": "D-2130150-021-592544",
-   "company": "Damavand Capital Partners, L.P.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Hedge Fund",
-   "city": "Ann Arbor",
-   "sector": "Private Funds",
-   "amount": 0.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Damavand Capital Partners, L.P., an Ann Arbor-based hedge fund, disclosed an open-ended (indefinite) raise; $0 sold.",
-   "filed": "2026-07-30"
+   "deal_id": "MDR-9047a72bf4",
+   "title": "Genomenon, Inc.: growth equity ($6M raised)",
+   "summary": "Genomenon, Inc.: growth equity ($6M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Genomenon, Inc.",
+   "acquirer": null,
+   "value": 6025002.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-1e0d3756b7",
+   "title": "Gabriel, Roeder, Smith & Co Holdings, Inc.: growth equity ($95.9K raised)",
+   "summary": "Gabriel, Roeder, Smith & Co Holdings, Inc.: growth equity ($95.9K raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Gabriel, Roeder, Smith & Co Holdings, Inc.",
+   "acquirer": null,
+   "value": 95943.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-ced805584b",
+   "title": "Shrink Software LLC: debt raise ($30K raised)",
+   "summary": "Shrink Software LLC: debt raise ($30K raised).",
+   "deal_type": "Debt Raise",
+   "status": "Announced",
+   "target": "Shrink Software LLC",
+   "acquirer": null,
+   "value": 30000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "West Michigan",
+   "confidence": "High"
   }
  ],
- "notable_ma": [],
- "material_agreements": [],
- "top_sectors": [
+ "fund_raises": [
   {
-   "sector": "Private Funds",
-   "count": 3,
-   "amount": 65460000.0
+   "id": "CF-cc5d38f415",
+   "name": "Michigan Capital Network Venture Fund V, L.P.",
+   "category": "Other Investment Fund",
+   "amount_raised": 65360000.0,
+   "city": "Grand Rapids"
   },
   {
-   "sector": "Health Care & Life Sciences",
-   "count": 3,
-   "amount": 28525333.0
+   "id": "CF-558dd520b0",
+   "name": "Hvp Rocks LLC",
+   "category": "Real Estate",
+   "amount_raised": 912266.0,
+   "city": "Birmingham"
   },
   {
-   "sector": "Real Estate",
-   "count": 3,
-   "amount": 912266.0
+   "id": "CF-6659926707",
+   "name": "Clubhouse Capital CityGolf USA LLC",
+   "category": "Venture Capital Fund",
+   "amount_raised": 100000.0,
+   "city": "Detroit"
   },
   {
-   "sector": "Technology",
-   "count": 1,
-   "amount": 725000.0
+   "id": "CF-e7d123ff4a",
+   "name": "Detroit Real Estate Investor LLC",
+   "category": "Real Estate",
+   "amount_raised": 0.0,
+   "city": "Grand Rapids"
   },
   {
-   "sector": "Other",
-   "count": 1,
-   "amount": 95943.0
+   "id": "CF-e33e30dea2",
+   "name": "Damavand Capital Partners, L.P.",
+   "category": "Hedge Fund",
+   "amount_raised": 0.0,
+   "city": "Ann Arbor"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2025-08-02",
+   "2026-08-02"
+  ],
+  "acquirers": [
+   {
+    "name": "ENDRA Life Sciences Inc.",
+    "deals": 1,
+    "disclosed_value": 50250000.0,
+    "recent_deal_ids": [
+     "MDR-2000d64c8c"
+    ]
+   },
+   {
+    "name": "Isabella Bank Corp",
+    "deals": 1,
+    "disclosed_value": 40000000.0,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Essence Parent Inc.",
+    "deals": 1,
+    "disclosed_value": 726000000.0,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Independent Bank Corp",
+    "deals": 1,
+    "disclosed_value": 70800000.0,
+    "recent_deal_ids": [
+     "MDR-81bcf88076"
+    ]
+   },
+   {
+    "name": "Esperion Therapeutics, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "ARCHIMED on April 21",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Independent include individuals that control",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Athyrium Capital Management",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Parent",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "PJT Partners",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20",
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "Brean Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-653115fcbd",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-964f877284",
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Akin Gump LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Sidley Austin LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Arnold & Porter Kaye Scholer LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Healthcare",
+   "deals": 3,
+   "text": "3 deals: Enumera Molecular, Inc.: venture round ($12.3M raised); Genomenon, Inc.: growth equity ($6M raised)."
+  },
+  {
+   "sector": "Financial Services",
+   "deals": 2,
+   "text": "2 deals: undisclosed buyer terminated deal for Bluerock Acquisition Corp.; Gold Plus Coin LLC: venture round ($0 raised)."
+  },
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: Shrink Software LLC: debt raise ($30K raised)."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $95.7M sold across 12 Form D filings this week, up 212% vs. the prior 4-week average. The largest was Gold Plus Coin LLC (Okemos, Other Banking and Financial Services) targeting $20M. Good question to ask: are founders in financial services favoring equity rounds over venture debt right now?",
+   "topic": "M&A",
+   "text": "undisclosed buyer terminated deal for Bluerock Acquisition Corp. for $5M. Ask how buyers are underwriting Michigan financial services assets right now.",
    "deal_ids": [
-    "D-2079994-021-592502"
+    "MDR-17ad3b28e5"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $28.7M raised across 6 financings (down 91% vs. the trailing 4-week average). The largest: Enumera Molecular, Inc.: venture round ($12.3M raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-a351993116"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "3 Michigan-based pooled funds filed Form Ds, reporting $65.5M raised so far — led by Michigan Capital Network Venture Fund V, L.P. (Other Investment Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-2081840-021-554927",
-    "D-2135872-021-584595",
-    "D-2130150-021-592544"
-   ]
+   "text": "5 Michigan-based fund vehicles reported $66.4M raised, led by Michigan Capital Network Venture Fund V, L.P. (Other Investment Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Bluerock Acquisition Corp. 8-K (Item 1.01 definitive agreement, Item 7.01 Reg FD)",
+   "url": "https://www.sec.gov/Archives/edgar/data/2081532/000121390026084282/0001213900-26-084282-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-08-03",
+   "deal_id": "MDR-17ad3b28e5"
   },
   {
-   "topic": "Sector watch",
-   "text": "Real Estate was the most active sector with 3 of 12 filings (25%). Ask contacts what's driving the activity, and whether it's showing up in their pipeline.",
-   "deal_ids": [
-    "D-2146748-021-592741",
-    "D-2148235-021-592696",
-    "D-2145686-021-592645"
-   ]
+   "title": "Enumera Molecular, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1929085/000192908526000005/0001929085-26-000005-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-07-31",
+   "deal_id": "MDR-a351993116"
+  },
+  {
+   "title": "Blue Arbor Technologies, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2128585/000212858526000002/0002128585-26-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-07-27",
+   "deal_id": "MDR-60406a3a30"
+  },
+  {
+   "title": "Genomenon, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1650557/000165055726000004/0001650557-26-000004-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-07-30",
+   "deal_id": "MDR-9047a72bf4"
+  },
+  {
+   "title": "Gabriel, Roeder, Smith & Co Holdings, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1682362/000168236226000006/0001682362-26-000006-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-07-28",
+   "deal_id": "MDR-1e0d3756b7"
+  },
+  {
+   "title": "Shrink Software LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2145482/000214548226000001/0002145482-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-07-30",
+   "deal_id": "MDR-ced805584b"
+  },
+  {
+   "title": "Shrink Software LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2145482/000214548226000002/0002145482-26-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-08-21",
+   "deal_id": "MDR-ced805584b"
   }
  ]
 }

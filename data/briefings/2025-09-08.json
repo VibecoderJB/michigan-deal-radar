@@ -1,0 +1,338 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-09-08",
+ "week_end": "2025-09-14",
+ "generated_at": "2026-11-15T22:32:34Z",
+ "headline": "1 Michigan M&A deal, 3 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+ "stats": {
+  "ma_deals": 1,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 3,
+  "financing_raised": 2625000,
+  "fund_raises": 4,
+  "fund_capital_raised": 4150000,
+  "stakes": 0
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.0,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 3.2,
+  "financing_raised": 150796169.8,
+  "fund_raises": 0.8,
+  "fund_capital_raised": 107500.0,
+  "stakes": 1.2
+ },
+ "change_vs_trailing": {
+  "ma_deals": 0.0,
+  "financings": -7.7,
+  "financing_raised": -98.3
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-4f2b548b56",
+   "title": "High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "summary": "High Street Holdco, LLC issued securities in an acquisition (target not named).",
+   "deal_type": "Acquisition",
+   "status": "Announced",
+   "target": null,
+   "acquirer": "High Street Holdco, LLC",
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Financial Services",
+   "region": "Northern Michigan",
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-8e389fb2e4",
+   "title": "LORCAPT Intermediary Holdings, Inc.: venture round ($2.6M raised)",
+   "summary": "LORCAPT Intermediary Holdings, Inc.: venture round ($2.6M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "LORCAPT Intermediary Holdings, Inc.",
+   "acquirer": null,
+   "value": 2625000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-582c21ec48",
+   "title": "Millerknoll, Inc.: credit facility",
+   "summary": "Millerknoll, Inc.: credit facility.",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Millerknoll, Inc.",
+   "acquirer": null,
+   "value": null,
+   "value_label": "Amount raised",
+   "sector": "Advanced Manufacturing",
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-b630000a02",
+   "title": "UWM Holdings Corp: debt offering",
+   "summary": "UWM Holdings Corp: debt offering.",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "UWM Holdings Corp",
+   "acquirer": null,
+   "value": null,
+   "value_label": "Amount raised",
+   "sector": "Financial Services",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-d7e71db1cf",
+   "name": "Maple Lawrence Holdings LLC",
+   "category": "Real Estate",
+   "amount_raised": 2550000.0,
+   "city": "Hartford"
+  },
+  {
+   "id": "CF-210d5c7669",
+   "name": "SWC Naples LLC",
+   "category": "Real Estate",
+   "amount_raised": 875000.0,
+   "city": "Ann Arbor"
+  },
+  {
+   "id": "CF-9301a504e6",
+   "name": "Swc Ah, LLC",
+   "category": "Real Estate",
+   "amount_raised": 725000.0,
+   "city": "Ann Arbor"
+  },
+  {
+   "id": "CF-fe54d2c308",
+   "name": "Alumina SPV 1 LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 0.0,
+   "city": "Rochester"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-09-14",
+   "2025-09-14"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 11150000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "HNI Corporation",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "Mercantile Bank Corp",
+    "deals": 1,
+    "disclosed_value": 95800000.0,
+    "recent_deal_ids": [
+     "MDR-b2f94c7e43"
+    ]
+   },
+   {
+    "name": "Mars, Incorporated",
+    "deals": 1,
+    "disclosed_value": 3100000000.0,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Parent, pursuant to which Parent agreed to purchase, and the Company",
+    "deals": 1,
+    "disclosed_value": 725000000.0,
+    "recent_deal_ids": [
+     "MDR-3cf289038e"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 2,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Kate Pew Wolters",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Mercantile for purposes of Rule 144 under the Securities Act",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "WK Kellogg",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-6f5e61c9e2"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Davis Polk & Wardwell LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Financial Services",
+   "deals": 2,
+   "text": "2 deals: UWM Holdings Corp: debt offering; High Street Holdco, LLC issued securities in an acquisition (target not named)."
+  },
+  {
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: Millerknoll, Inc.: credit facility."
+  },
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: LORCAPT Intermediary Holdings, Inc.: venture round ($2.6M raised)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "High Street Holdco, LLC issued securities in an acquisition (target not named). Ask how buyers are underwriting Michigan financial services assets right now.",
+   "deal_ids": [
+    "MDR-4f2b548b56"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $2.6M raised across 3 financings (down 98% vs. the trailing 4-week average). The largest: LORCAPT Intermediary Holdings, Inc.: venture round ($2.6M raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-8e389fb2e4"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "4 Michigan-based fund vehicles reported $4.2M raised, led by Maple Lawrence Holdings LLC (Real Estate). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "High Street Holdco, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2021228/000161559425000106/0001615594-25-000106-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-09-08",
+   "deal_id": "MDR-4f2b548b56"
+  },
+  {
+   "title": "LORCAPT Intermediary Holdings, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2084770/000208477025000001/0002084770-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-09-08",
+   "deal_id": "MDR-8e389fb2e4"
+  },
+  {
+   "title": "Millerknoll, Inc. 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/66382/000006638225000097/0000066382-25-000097-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-09-12",
+   "deal_id": "MDR-582c21ec48"
+  },
+  {
+   "title": "UWM Holdings Corp 8-K (Item 1.01 definitive agreement, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339825000037/0001783398-25-000037-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-09-10",
+   "deal_id": "MDR-b630000a02"
+  }
+ ]
+}

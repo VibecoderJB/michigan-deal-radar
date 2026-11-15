@@ -1,177 +1,342 @@
 {
+ "schema_version": 2,
  "week_start": "2026-06-29",
  "week_end": "2026-07-05",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "7 Michigan deals, $1.2M raised — led by Park Place Capital LLC",
+ "generated_at": "2026-11-15T22:32:43Z",
+ "headline": "5 Michigan deals; $1.3B raised in private financings",
  "stats": {
-  "deal_count": 7,
-  "by_type": {
-   "Fundraise": 3,
-   "M&A": 0,
-   "Material Agreement": 3,
-   "Stake": 1
-  },
-  "capital_raised": 1200000,
-  "capital_targeted": 12850000,
-  "fund_count": 0
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 5,
+  "financing_raised": 1301200000,
+  "fund_raises": 0,
+  "fund_capital_raised": 0,
+  "stakes": 1
  },
  "trailing_4wk": {
-  "deal_count": 9.8,
-  "capital_raised": 102888402.8
+  "ma_deals": 0.8,
+  "ma_disclosed_value": 22562500.0,
+  "ma_with_value": 0.5,
+  "financings": 2.8,
+  "financing_raised": 415788000.0,
+  "fund_raises": 2.8,
+  "fund_capital_raised": 85698164.0,
+  "stakes": 0.8
  },
  "change_vs_trailing": {
-  "deal_count_pct": -28.2,
-  "capital_raised_pct": -98.8
+  "ma_deals": -100.0,
+  "financings": 81.8,
+  "financing_raised": 212.9
  },
- "top_deals": [
+ "notable_ma": [],
+ "top_financings": [
   {
-   "id": "D-2140953-021-589329",
-   "company": "Park Place Capital LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Traverse City",
-   "sector": "Travel & Hospitality",
-   "amount": 10200000.0,
-   "amount_sold": 1100000.0,
-   "amount_is_estimate": false,
-   "summary": "Park Place Capital LLC, a Traverse City-based lodging and conventions company, filed a $10.2M equity offering under Rule 506(b); $1.1M sold to 2 investors.",
-   "filed": "2026-07-01"
-  },
-  {
-   "id": "D-2141118-021-589332",
-   "company": "Park Place Capital GP, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Traverse City",
-   "sector": "Travel & Hospitality",
-   "amount": 1900000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Park Place Capital GP, LLC, a Traverse City-based lodging and conventions company, filed a $1.9M equity offering under Rule 506(b); $0 sold.",
-   "filed": "2026-07-01"
-  },
-  {
-   "id": "D-1854526-021-589511",
-   "company": "Dynamic Aerospace Systems Corp",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Ann Arbor",
-   "sector": "Manufacturing & Automotive",
-   "amount": 750000.0,
-   "amount_sold": 100000.0,
-   "amount_is_estimate": false,
-   "summary": "Dynamic Aerospace Systems Corp, an Ann Arbor-based manufacturing company, filed a $750K equity and security to be acquired offering under Rule 506(b); $100K sold to 1 investor.",
-   "filed": "2026-07-02"
-  }
- ],
- "new_funds": [],
- "notable_ma": [
-  {
-   "id": "13D-0001213900-26-073318",
-   "company": "ENDRA Life Sciences Inc.",
-   "ticker": "NDRA",
-   "type": "Stake",
-   "subtype": "13D Amendment",
-   "city": "Ann Arbor",
-   "sector": "Health Care & Life Sciences",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Anthony DiGiandomenico reported a 9.9% stake in ENDRA Life Sciences Inc. (NDRA) (Schedule 13D/A amendment 1).",
-   "filed": "2026-06-29"
-  }
- ],
- "material_agreements": [
-  {
-   "id": "8K-0001193125-26-293500",
-   "company": "Gentherm Inc",
-   "ticker": "THRM",
-   "type": "Material Agreement",
-   "subtype": "Credit Facility",
-   "city": "Novi",
-   "sector": "Manufacturing & Automotive",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Gentherm Inc (THRM) entered into a material definitive agreement (credit facility).",
-   "filed": "2026-07-02"
-  },
-  {
-   "id": "8K-0001104659-26-079925",
-   "company": "Jackson Financial Inc.",
-   "ticker": "JXN",
-   "type": "Material Agreement",
-   "subtype": "Credit Facility",
-   "city": "Lansing",
+   "deal_id": "MDR-d4eb637093",
+   "title": "Jackson Financial Inc.: credit facility ($1.2B)",
+   "summary": "Jackson Financial Inc.: credit facility ($1.2B).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Jackson Financial Inc.",
+   "acquirer": null,
+   "value": 1250000000.0,
+   "value_label": "Amount raised",
    "sector": "Financial Services",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Jackson Financial Inc. (JXN) entered into a material definitive agreement (credit facility).",
-   "filed": "2026-07-01"
+   "region": "Mid-Michigan",
+   "confidence": "High"
   },
   {
-   "id": "8K-0001699350-26-000044",
-   "company": "Shoulder Innovations, Inc.",
-   "ticker": "SI",
-   "type": "Material Agreement",
-   "subtype": "Credit Facility",
-   "city": "Grand Rapids",
-   "sector": "Health Care & Life Sciences",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Shoulder Innovations, Inc. (SI) entered into a material definitive agreement (credit facility).",
-   "filed": "2026-06-29"
+   "deal_id": "MDR-a9a2a368c1",
+   "title": "Gentherm Inc: credit facility ($50M)",
+   "summary": "Gentherm Inc: credit facility ($50M).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Gentherm Inc",
+   "acquirer": null,
+   "value": 50000000.0,
+   "value_label": "Amount raised",
+   "sector": "Automotive & Mobility",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-48edc406c3",
+   "title": "Park Place Capital LLC: venture round ($1.1M raised)",
+   "summary": "Park Place Capital LLC: venture round ($1.1M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Park Place Capital LLC",
+   "acquirer": null,
+   "value": 1100000.0,
+   "value_label": "Amount raised",
+   "sector": "Consumer",
+   "region": "Northern Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-730e48fc63",
+   "title": "Dynamic Aerospace Systems Corp: growth equity ($100K raised)",
+   "summary": "Dynamic Aerospace Systems Corp: growth equity ($100K raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Dynamic Aerospace Systems Corp",
+   "acquirer": null,
+   "value": 100000.0,
+   "value_label": "Amount raised",
+   "sector": "Advanced Manufacturing",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-97733a41b0",
+   "title": "Park Place Capital GP, LLC: venture round ($0 raised)",
+   "summary": "Park Place Capital GP, LLC: venture round ($0 raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Park Place Capital GP, LLC",
+   "acquirer": null,
+   "value": 0.0,
+   "value_label": "Amount raised",
+   "sector": "Consumer",
+   "region": "Northern Michigan",
+   "confidence": "High"
   }
  ],
- "top_sectors": [
+ "fund_raises": [],
+ "league_snapshot": {
+  "window": [
+   "2025-07-05",
+   "2026-07-05"
+  ],
+  "acquirers": [
+   {
+    "name": "ENDRA Life Sciences Inc.",
+    "deals": 1,
+    "disclosed_value": 50250000.0,
+    "recent_deal_ids": [
+     "MDR-2000d64c8c"
+    ]
+   },
+   {
+    "name": "Isabella Bank Corp",
+    "deals": 1,
+    "disclosed_value": 40000000.0,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Essence Parent Inc.",
+    "deals": 1,
+    "disclosed_value": 726000000.0,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Independent Bank Corp",
+    "deals": 1,
+    "disclosed_value": 70800000.0,
+    "recent_deal_ids": [
+     "MDR-81bcf88076"
+    ]
+   },
+   {
+    "name": "Esperion Therapeutics, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 2,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "ARCHIMED on April 21",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Independent include individuals that control",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Athyrium Capital Management",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "PJT Partners",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20",
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "Brean Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-653115fcbd",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-964f877284",
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Akin Gump LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Sidley Austin LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
   {
-   "sector": "Travel & Hospitality",
-   "count": 2,
-   "amount": 1100000.0
+   "sector": "Consumer",
+   "deals": 2,
+   "text": "2 deals: Park Place Capital GP, LLC: venture round ($0 raised); Park Place Capital LLC: venture round ($1.1M raised)."
   },
   {
-   "sector": "Manufacturing & Automotive",
-   "count": 2,
-   "amount": 100000.0
+   "sector": "Automotive & Mobility",
+   "deals": 1,
+   "text": "1 deal: Gentherm Inc: credit facility ($50M)."
   },
   {
-   "sector": "Health Care & Life Sciences",
-   "count": 2,
-   "amount": 0.0
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: Dynamic Aerospace Systems Corp: growth equity ($100K raised)."
   },
   {
    "sector": "Financial Services",
-   "count": 1,
-   "amount": 0.0
+   "deals": 1,
+   "text": "1 deal: Jackson Financial Inc.: credit facility ($1.2B)."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $1.2M sold across 3 Form D filings this week, down 99% vs. the prior 4-week average. The largest was Park Place Capital LLC (Traverse City, Lodging and Conventions) targeting $10.2M. Good question to ask: are founders in travel & hospitality favoring equity rounds over venture debt right now?",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $1.3B raised across 5 financings (up 213% vs. the trailing 4-week average). The largest: Jackson Financial Inc.: credit facility ($1.2B). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "D-2140953-021-589329"
-   ]
-  },
-  {
-   "topic": "Ownership moves",
-   "text": "Anthony DiGiandomenico reported a 9.9% stake in ENDRA Life Sciences Inc. (NDRA) (Schedule 13D/A amendment 1). Schedule 13D filers can push for strategic change, so it's worth asking whether shareholders see a sale or restructuring on the table.",
-   "deal_ids": [
-    "13D-0001213900-26-073318"
+    "MDR-d4eb637093"
    ]
   },
   {
    "topic": "Sector watch",
-   "text": "Manufacturing & Automotive was the most active sector with 2 of 7 filings (29%). Ask contacts what's driving the activity, and whether it's showing up in their pipeline.",
-   "deal_ids": [
-    "D-1854526-021-589511",
-    "8K-0001193125-26-293500"
-   ]
+   "text": "Consumer was the most active Michigan sector this week with 2 deals. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  },
+  {
+   "topic": "Deal flow",
+   "text": "5 Michigan deals this week vs. a trailing average of 4. Ask whether pipelines are building or deal timelines are stretching.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Jackson Financial Inc. 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1822993/000110465926079925/0001104659-26-079925-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-07-01",
+   "deal_id": "MDR-d4eb637093"
+  },
+  {
+   "title": "Gentherm Inc 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/903129/000119312526293500/0001193125-26-293500-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-07-02",
+   "deal_id": "MDR-a9a2a368c1"
+  },
+  {
+   "title": "Park Place Capital LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2140953/000214095326000001/0002140953-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-07-01",
+   "deal_id": "MDR-48edc406c3"
+  },
+  {
+   "title": "Dynamic Aerospace Systems Corp Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1854526/000185452626000002/0001854526-26-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-07-02",
+   "deal_id": "MDR-730e48fc63"
+  },
+  {
+   "title": "Park Place Capital GP, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2141118/000214111826000001/0002141118-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-07-01",
+   "deal_id": "MDR-97733a41b0"
   }
  ]
 }

@@ -1,0 +1,298 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-10-06",
+ "week_end": "2025-10-12",
+ "generated_at": "2026-11-15T22:32:34Z",
+ "headline": "3 Michigan deals; $450.8M raised in private financings",
+ "stats": {
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 3,
+  "financing_raised": 450800000,
+  "fund_raises": 1,
+  "fund_capital_raised": 11300000,
+  "stakes": 1
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.5,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 3.8,
+  "financing_raised": 159482682.5,
+  "fund_raises": 2.8,
+  "fund_capital_raised": 30170653.0,
+  "stakes": 0.5
+ },
+ "change_vs_trailing": {
+  "ma_deals": -100.0,
+  "financings": -20.0,
+  "financing_raised": 182.7
+ },
+ "notable_ma": [],
+ "top_financings": [
+  {
+   "deal_id": "MDR-6a50f350b8",
+   "title": "Steelcase Inc: debt offering ($450M)",
+   "summary": "Steelcase Inc: debt offering ($450M).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Steelcase Inc",
+   "acquirer": null,
+   "value": 450000000.0,
+   "value_label": "Amount raised",
+   "sector": "Advanced Manufacturing",
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-f4410af37e",
+   "title": "Cirius Therapeutics, Inc.: growth equity ($800K raised)",
+   "summary": "Cirius Therapeutics, Inc.: growth equity ($800K raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Cirius Therapeutics, Inc.",
+   "acquirer": null,
+   "value": 800000.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-ad30e20ed2",
+   "title": "Esperion Therapeutics, Inc.: debt offering",
+   "summary": "Esperion Therapeutics, Inc.: debt offering.",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Esperion Therapeutics, Inc.",
+   "acquirer": null,
+   "value": null,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-2afba9df6f",
+   "name": "EIG14T Ehw Fund Xv LLC",
+   "category": "Real Estate",
+   "amount_raised": 11300000.0,
+   "city": "Berkley"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-10-12",
+   "2025-10-12"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 11150000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "HNI Corporation",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "Mercantile Bank Corp",
+    "deals": 1,
+    "disclosed_value": 95800000.0,
+    "recent_deal_ids": [
+     "MDR-b2f94c7e43"
+    ]
+   },
+   {
+    "name": "Mars, Incorporated",
+    "deals": 1,
+    "disclosed_value": 3100000000.0,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Parent, pursuant to which Parent agreed to purchase, and the Company",
+    "deals": 1,
+    "disclosed_value": 725000000.0,
+    "recent_deal_ids": [
+     "MDR-3cf289038e"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 2,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Kate Pew Wolters",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Mercantile for purposes of Rule 144 under the Securities Act",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "WK Kellogg",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-6770a293fd",
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000",
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Bradley Arant Boult Cummings LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Wachtell, Lipton, Rosen & Katz",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Davis Polk & Wardwell LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Healthcare",
+   "deals": 2,
+   "text": "2 deals: Cirius Therapeutics, Inc.: growth equity ($800K raised); Esperion Therapeutics, Inc.: debt offering."
+  },
+  {
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: Steelcase Inc: debt offering ($450M)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $450.8M raised across 3 financings (up 183% vs. the trailing 4-week average). The largest: Steelcase Inc: debt offering ($450M). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-6a50f350b8"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "1 Michigan-based fund vehicle reported $11.3M raised, led by EIG14T Ehw Fund Xv LLC (Real Estate). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Healthcare was the most active Michigan sector this week with 2 deals. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Steelcase Inc 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1050825/000119312525236442/0001193125-25-236442-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-10-10",
+   "deal_id": "MDR-6a50f350b8"
+  },
+  {
+   "title": "Cirius Therapeutics, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1702956/000090572925000168/0000905729-25-000168-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-08",
+   "deal_id": "MDR-f4410af37e"
+  },
+  {
+   "title": "Esperion Therapeutics, Inc. 8-K (Item 1.01 definitive agreement, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1434868/000110465925097992/0001104659-25-097992-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-10-08",
+   "deal_id": "MDR-ad30e20ed2"
+  }
+ ]
+}

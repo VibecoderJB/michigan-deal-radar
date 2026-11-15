@@ -1,0 +1,376 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-08-11",
+ "week_end": "2025-08-17",
+ "generated_at": "2026-11-15T22:32:33Z",
+ "headline": "1 Michigan M&A deal, 6 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+ "stats": {
+  "ma_deals": 1,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 6,
+  "financing_raised": 557090000,
+  "fund_raises": 1,
+  "fund_capital_raised": 430000,
+  "stakes": 3
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.5,
+  "ma_disclosed_value": 23950000.0,
+  "ma_with_value": 0.2,
+  "financings": 3.5,
+  "financing_raised": 361862041.2,
+  "fund_raises": 3.8,
+  "fund_capital_raised": 65711776.0,
+  "stakes": 1.0
+ },
+ "change_vs_trailing": {
+  "ma_deals": -33.3,
+  "financings": 71.4,
+  "financing_raised": 54.0
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-f10dd8f97e",
+   "title": "High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "summary": "High Street Holdco, LLC issued securities in an acquisition (target not named).",
+   "deal_type": "Acquisition",
+   "status": "Announced",
+   "target": null,
+   "acquirer": "High Street Holdco, LLC",
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Financial Services",
+   "region": "Northern Michigan",
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-aa94745480",
+   "title": "Millerknoll, Inc.: credit facility ($550M)",
+   "summary": "Millerknoll, Inc.: credit facility ($550M).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Millerknoll, Inc.",
+   "acquirer": null,
+   "value": 550000000.0,
+   "value_label": "Amount raised",
+   "sector": "Advanced Manufacturing",
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-4eca0c55af",
+   "title": "Orb Aerospace, Inc.: growth equity ($4.5M raised)",
+   "summary": "Orb Aerospace, Inc.: growth equity ($4.5M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Orb Aerospace, Inc.",
+   "acquirer": null,
+   "value": 4500000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-b990ac0e9f",
+   "title": "Livonia Surgery Center, LLC: growth equity ($980K raised)",
+   "summary": "Livonia Surgery Center, LLC: growth equity ($980K raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Livonia Surgery Center, LLC",
+   "acquirer": null,
+   "value": 980000.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-1769fcbf57",
+   "title": "SportsCaster Media LLC: venture round ($755K raised)",
+   "summary": "SportsCaster Media LLC: venture round ($755K raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "SportsCaster Media LLC",
+   "acquirer": null,
+   "value": 755000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-118309d0f1",
+   "title": "Top This Media, LLC: venture round ($755K raised)",
+   "summary": "Top This Media, LLC: venture round ($755K raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "Top This Media, LLC",
+   "acquirer": null,
+   "value": 755000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-27cbd4f10d",
+   "name": "Fajr Fund, LLC",
+   "category": "Real Estate",
+   "amount_raised": 430000.0,
+   "city": "Warren"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-08-17",
+   "2025-08-17"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 11150000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "HNI Corporation",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "Mercantile Bank Corp",
+    "deals": 1,
+    "disclosed_value": 95800000.0,
+    "recent_deal_ids": [
+     "MDR-b2f94c7e43"
+    ]
+   },
+   {
+    "name": "Mars, Incorporated",
+    "deals": 1,
+    "disclosed_value": 3100000000.0,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Parent, pursuant to which Parent agreed to purchase, and the Company",
+    "deals": 1,
+    "disclosed_value": 725000000.0,
+    "recent_deal_ids": [
+     "MDR-3cf289038e"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 2,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Kate Pew Wolters",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Mercantile for purposes of Rule 144 under the Securities Act",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "WK Kellogg",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-6f5e61c9e2"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Davis Polk & Wardwell LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Financial Services",
+   "deals": 1,
+   "text": "1 deal: High Street Holdco, LLC issued securities in an acquisition (target not named)."
+  },
+  {
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: Livonia Surgery Center, LLC: growth equity ($980K raised)."
+  },
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: Orb Aerospace, Inc.: growth equity ($4.5M raised)."
+  },
+  {
+   "sector": "Energy & Utilities",
+   "deals": 1,
+   "text": "1 deal: Revex Technologies, Inc.: venture round ($100K raised)."
+  },
+  {
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: Millerknoll, Inc.: credit facility ($550M)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "High Street Holdco, LLC issued securities in an acquisition (target not named). Ask how buyers are underwriting Michigan financial services assets right now.",
+   "deal_ids": [
+    "MDR-f10dd8f97e"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $557.1M raised across 6 financings (up 54% vs. the trailing 4-week average). The largest: Millerknoll, Inc.: credit facility ($550M). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-aa94745480"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "1 Michigan-based fund vehicle reported $430K raised, led by Fajr Fund, LLC (Real Estate). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "High Street Holdco, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2021228/000202122825000002/0002021228-25-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-08-15",
+   "deal_id": "MDR-f10dd8f97e"
+  },
+  {
+   "title": "Millerknoll, Inc. 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/66382/000006638225000081/0000066382-25-000081-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-08-11",
+   "deal_id": "MDR-aa94745480"
+  },
+  {
+   "title": "Orb Aerospace, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1816293/000181629325000002/0001816293-25-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-08-13",
+   "deal_id": "MDR-4eca0c55af"
+  },
+  {
+   "title": "Livonia Surgery Center, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2077667/000207766725000001/0002077667-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-08-15",
+   "deal_id": "MDR-b990ac0e9f"
+  },
+  {
+   "title": "SportsCaster Media LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2004430/000200443025000002/0002004430-25-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-08-14",
+   "deal_id": "MDR-1769fcbf57"
+  },
+  {
+   "title": "Top This Media, LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1966112/000200443025000003/0002004430-25-000003-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-08-14",
+   "deal_id": "MDR-118309d0f1"
+  }
+ ]
+}

@@ -1,0 +1,360 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-07-07",
+ "week_end": "2025-07-13",
+ "generated_at": "2026-11-15T22:32:32Z",
+ "headline": "2 Michigan M&A deals, 1 financings; Mars, Incorporated acquired WK Kellogg Co",
+ "stats": {
+  "ma_deals": 2,
+  "ma_disclosed_value": 3825000000,
+  "ma_with_value": 2,
+  "financings": 1,
+  "financing_raised": 90000,
+  "fund_raises": 6,
+  "fund_capital_raised": 14550000,
+  "stakes": 3
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.5,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 3.0,
+  "financing_raised": 704270747.0,
+  "fund_raises": 1.5,
+  "fund_capital_raised": 18755473.8,
+  "stakes": 0.8
+ },
+ "change_vs_trailing": {
+  "ma_deals": 33.3,
+  "financings": -66.7,
+  "financing_raised": -100.0
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-63d95e3510",
+   "title": "Mars, Incorporated acquired WK Kellogg Co",
+   "summary": "Mars, Incorporated acquired WK Kellogg Co for $3.1B (cash & stock); closed 2025-09-12.",
+   "deal_type": "Recapitalization",
+   "status": "Closed",
+   "target": "WK Kellogg Co",
+   "acquirer": "Mars, Incorporated",
+   "value": 3100000000.0,
+   "value_label": "Disclosed value",
+   "sector": "Consumer",
+   "region": "Southwest Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-3cf289038e",
+   "title": "Parent, pursuant to which Parent agreed to purchase, and the Company to acquire Superior Industries International Inc",
+   "summary": "Parent, pursuant to which Parent agreed to purchase, and the Company to acquire Superior Industries International Inc for $725M (cash & stock); pending 2025-07-08.",
+   "deal_type": "Recapitalization",
+   "status": "Pending",
+   "target": "Superior Industries International Inc",
+   "acquirer": "Parent, pursuant to which Parent agreed to purchase, and the Company",
+   "value": 725000000.0,
+   "value_label": "Disclosed value",
+   "sector": "Automotive & Mobility",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-3ceea0bf12",
+   "title": "Rhythmic, Inc.: venture round ($90K raised)",
+   "summary": "Rhythmic, Inc.: venture round ($90K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Rhythmic, Inc.",
+   "acquirer": null,
+   "value": 90000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-5e1d64ba3f",
+   "name": "Stronghouse Solutions Holdings, LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 5000000.0,
+   "city": "Bloomfield Hills"
+  },
+  {
+   "id": "CF-21f4856004",
+   "name": "Exit Quotient Ventures Fund I, LP",
+   "category": "Venture Capital Fund",
+   "amount_raised": 4850000.0,
+   "city": "Lansing"
+  },
+  {
+   "id": "CF-499c6e108c",
+   "name": "Influit SOL SPV 1 LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 4500000.0,
+   "city": "Rochester"
+  },
+  {
+   "id": "CF-058794f99e",
+   "name": "Titan SPV 1 LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 200000.0,
+   "city": "Rochester"
+  },
+  {
+   "id": "CF-83040603b3",
+   "name": "Bon Sol SPV 3 LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 0.0,
+   "city": "Rochester"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-07-13",
+   "2025-07-13"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 3,
+    "disclosed_value": 12450000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26",
+     "MDR-a598c6fe11"
+    ]
+   },
+   {
+    "name": "Mars, Incorporated",
+    "deals": 1,
+    "disclosed_value": 3100000000.0,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Parent, pursuant to which Parent agreed to purchase, and the Company",
+    "deals": 1,
+    "disclosed_value": 725000000.0,
+    "recent_deal_ids": [
+     "MDR-3cf289038e"
+    ]
+   },
+   {
+    "name": "Sodali & Co.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-92bfd33005"
+    ]
+   },
+   {
+    "name": "AAM on January 29, 2025, the Dowlais Group",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-3f8890de35"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 2,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "WK Kellogg",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Lazard",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-92bfd33005"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Davis Polk & Wardwell LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Consumer",
+   "deals": 1,
+   "text": "1 deal: Mars, Incorporated acquired WK Kellogg Co."
+  },
+  {
+   "sector": "Automotive & Mobility",
+   "deals": 1,
+   "text": "1 deal: Parent, pursuant to which Parent agreed to purchase, and the Company to acquire Superior Industries International Inc."
+  },
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: Rhythmic, Inc.: venture round ($90K raised)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "Mars, Incorporated acquired WK Kellogg Co for $3.1B. It was one of 2 Michigan M&A deals this week. Ask how buyers are underwriting Michigan consumer assets right now.",
+   "deal_ids": [
+    "MDR-63d95e3510",
+    "MDR-3cf289038e"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $90K raised across 1 financings (down 100% vs. the trailing 4-week average). The largest: Rhythmic, Inc.: venture round ($90K raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-3ceea0bf12"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "5 Michigan-based fund vehicles reported $14.6M raised, led by Stronghouse Solutions Holdings, LLC (Private Equity Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "WK Kellogg Co 8-K (Item 1.01 definitive agreement, Item 7.01 Reg FD, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1959348/000119312525157425/0001193125-25-157425-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-07-10",
+   "deal_id": "MDR-63d95e3510"
+  },
+  {
+   "title": "WK Kellogg Co 8-K (Item 7.01 Reg FD, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1959348/000119312525170500/0001193125-25-170500-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-07-31",
+   "deal_id": "MDR-63d95e3510"
+  },
+  {
+   "title": "WK Kellogg Co DEFM14A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1959348/000119312525183025/0001193125-25-183025-index.htm",
+   "kind": "SEC DEFM14A",
+   "date": "2025-08-19",
+   "deal_id": "MDR-63d95e3510"
+  },
+  {
+   "title": "WK Kellogg Co 8-K (Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1959348/000119312525199222/0001193125-25-199222-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-09-09",
+   "deal_id": "MDR-63d95e3510"
+  },
+  {
+   "title": "WK Kellogg Co 8-K (Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1959348/000119312525201748/0001193125-25-201748-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-09-12",
+   "deal_id": "MDR-63d95e3510"
+  },
+  {
+   "title": "Superior Industries International Inc 8-K (Item 1.01 definitive agreement, Item 7.01 Reg FD)",
+   "url": "https://www.sec.gov/Archives/edgar/data/95552/000119312525156459/0001193125-25-156459-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-07-08",
+   "deal_id": "MDR-3cf289038e"
+  },
+  {
+   "title": "Superior Industries International Inc DEFM14A",
+   "url": "https://www.sec.gov/Archives/edgar/data/95552/000114036125031532/0001140361-25-031532-index.htm",
+   "kind": "SEC DEFM14A",
+   "date": "2025-08-15",
+   "deal_id": "MDR-3cf289038e"
+  },
+  {
+   "title": "Rhythmic, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2076248/000207624825000001/0002076248-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-07-08",
+   "deal_id": "MDR-3ceea0bf12"
+  }
+ ]
+}

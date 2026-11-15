@@ -1,362 +1,829 @@
 {
- "generated_at": "2026-11-08T05:07:32Z",
+ "generated_at": "2026-11-15T22:32:46Z",
  "weeks": [
+  {
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "headline": "1 Michigan M&A deal, 6 financings; Rockwell Medical, Inc. to sell business to Vantive Limited",
+   "ma_deals": 1,
+   "financings": 6,
+   "financing_raised": 11266500
+  },
   {
    "week_start": "2026-10-26",
    "week_end": "2026-11-01",
-   "headline": "8 Michigan deals, $27.4M raised — led by Green Meadow Partners, LLC",
-   "deal_count": 8,
-   "capital_raised": 27430000
+   "headline": "5 Michigan deals; $46.1M raised in private financings",
+   "ma_deals": 0,
+   "financings": 5,
+   "financing_raised": 46080000
   },
   {
    "week_start": "2026-10-19",
    "week_end": "2026-10-25",
-   "headline": "6 Michigan deals, $141.4M raised — led by Northern Shore Capital Fund I-A LP",
-   "deal_count": 6,
-   "capital_raised": 141377895
+   "headline": "2 Michigan deals; $300K raised in private financings",
+   "ma_deals": 0,
+   "financings": 2,
+   "financing_raised": 300000
   },
   {
    "week_start": "2026-10-12",
    "week_end": "2026-10-18",
-   "headline": "9 Michigan deals, $7.4M raised — led by Penske Automotive Group, Inc.",
-   "deal_count": 9,
-   "capital_raised": 7430400
+   "headline": "3 Michigan M&A deals, 3 financings; Motown Acquisition Corp. terminated deal for Penske Automotive Group, Inc.",
+   "ma_deals": 3,
+   "financings": 3,
+   "financing_raised": 1780400
   },
   {
    "week_start": "2026-10-05",
    "week_end": "2026-10-11",
-   "headline": "10 Michigan deals, $31.7M raised — led by Noblestone Credit Select III LLC",
-   "deal_count": 10,
-   "capital_raised": 31658000
+   "headline": "1 Michigan M&A deal, 3 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 3,
+   "financing_raised": 28290000
   },
   {
    "week_start": "2026-09-28",
    "week_end": "2026-10-04",
-   "headline": "10 Michigan deals, $86.3M raised — led by ENDRA Life Sciences Inc.",
-   "deal_count": 10,
-   "capital_raised": 86294514
+   "headline": "1 Michigan M&A deal, 3 financings; Gentherm Inc sold business to undisclosed buyer",
+   "ma_deals": 1,
+   "financings": 3,
+   "financing_raised": 501833998
   },
   {
    "week_start": "2026-09-21",
    "week_end": "2026-09-27",
-   "headline": "18 Michigan deals, $30.7M raised — led by Sun Communities Inc",
-   "deal_count": 18,
-   "capital_raised": 30683603
+   "headline": "3 Michigan M&A deals, 4 financings; Sun Communities Inc: M&A transaction (buyer/target roles under review)",
+   "ma_deals": 3,
+   "financings": 4,
+   "financing_raised": 7313793
   },
   {
    "week_start": "2026-09-14",
    "week_end": "2026-09-20",
-   "headline": "24 Michigan deals, $195.5M raised — led by English Capital Partners LP",
-   "deal_count": 24,
-   "capital_raised": 195524352
+   "headline": "1 Michigan M&A deal, 3 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 3,
+   "financing_raised": 975000
   },
   {
    "week_start": "2026-09-07",
    "week_end": "2026-09-13",
-   "headline": "10 Michigan deals, $34.8M raised — led by Sturgis Bancorp Inc",
-   "deal_count": 10,
-   "capital_raised": 34794991
+   "headline": "7 Michigan deals; $52.1M raised in private financings",
+   "ma_deals": 0,
+   "financings": 7,
+   "financing_raised": 52099991
   },
   {
    "week_start": "2026-08-31",
    "week_end": "2026-09-06",
-   "headline": "2 Michigan deals, $2.6M raised — led by Sprint Growth Fund, LP",
-   "deal_count": 2,
-   "capital_raised": 2605000
+   "headline": "1 Michigan deals; $1.1M raised in private financings",
+   "ma_deals": 0,
+   "financings": 1,
+   "financing_raised": 1055000
   },
   {
    "week_start": "2026-08-24",
    "week_end": "2026-08-30",
-   "headline": "13 Michigan deals, $15.5M raised — led by Solyco Portfolio SPV 3 Omega LLC",
-   "deal_count": 13,
-   "capital_raised": 15536202
+   "headline": "5 Michigan deals; $7.6M raised in private financings",
+   "ma_deals": 0,
+   "financings": 5,
+   "financing_raised": 7638462
   },
   {
    "week_start": "2026-08-17",
    "week_end": "2026-08-23",
-   "headline": "15 Michigan deals, $123.9M raised — led by Solyco Portfolio SPV 2 LLC",
-   "deal_count": 15,
-   "capital_raised": 123855649
+   "headline": "3 Michigan M&A deals, 1 financings; Kelly Roofing USA Holdings, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 3,
+   "financings": 1,
+   "financing_raised": 7950000
   },
   {
    "week_start": "2026-08-10",
    "week_end": "2026-08-16",
-   "headline": "10 Michigan deals, $130.8M raised — led by Blackford Capital Opportunity Fund II, LP",
-   "deal_count": 10,
-   "capital_raised": 130799500
+   "headline": "5 Michigan deals; $799.5K raised in private financings",
+   "ma_deals": 0,
+   "financings": 5,
+   "financing_raised": 799500
   },
   {
    "week_start": "2026-08-03",
    "week_end": "2026-08-09",
-   "headline": "15 Michigan deals, $1.4B raised — led by Mercedes-Benz Financial Services USA LLC",
-   "deal_count": 15,
-   "capital_raised": 1389614764
+   "headline": "2 Michigan M&A deals, 3 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 2,
+   "financings": 3,
+   "financing_raised": 21110000
   },
   {
    "week_start": "2026-07-27",
    "week_end": "2026-08-02",
-   "headline": "12 Michigan deals, $95.7M raised — led by Michigan Capital Network Venture Fund V, L.P.",
-   "deal_count": 12,
-   "capital_raised": 95718542
+   "headline": "1 Michigan M&A deal, 6 financings; undisclosed buyer terminated deal for Bluerock Acquisition Corp.",
+   "ma_deals": 1,
+   "financings": 6,
+   "financing_raised": 28651276
   },
   {
    "week_start": "2026-07-20",
    "week_end": "2026-07-26",
-   "headline": "15 Michigan deals, $82.3M raised — led by Gentherm Inc",
-   "deal_count": 15,
-   "capital_raised": 82298363
+   "headline": "2 Michigan M&A deals, 3 financings; Northpointe Bancshares Inc: M&A transaction (buyer/target roles under review)",
+   "ma_deals": 2,
+   "financings": 3,
+   "financing_raised": 12864988
   },
   {
    "week_start": "2026-07-13",
    "week_end": "2026-07-19",
-   "headline": "9 Michigan deals, $10.1M raised — led by Esperion Therapeutics, Inc.",
-   "deal_count": 9,
-   "capital_raised": 10130000
+   "headline": "1 Michigan M&A deal, 2 financings; University Bancorp, Inc. issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 2,
+   "financing_raised": 1977706
   },
   {
    "week_start": "2026-07-06",
    "week_end": "2026-07-12",
-   "headline": "9 Michigan deals, $29M raised — led by RPM Ventures Space, L.P.",
-   "deal_count": 9,
-   "capital_raised": 29030557
+   "headline": "1 Michigan deals; $2.1M raised in private financings",
+   "ma_deals": 0,
+   "financings": 1,
+   "financing_raised": 2130557
   },
   {
    "week_start": "2026-06-29",
    "week_end": "2026-07-05",
-   "headline": "7 Michigan deals, $1.2M raised — led by Park Place Capital LLC",
-   "deal_count": 7,
-   "capital_raised": 1200000
+   "headline": "5 Michigan deals; $1.3B raised in private financings",
+   "ma_deals": 0,
+   "financings": 5,
+   "financing_raised": 1301200000
   },
   {
    "week_start": "2026-06-22",
    "week_end": "2026-06-28",
-   "headline": "9 Michigan deals, $13.3M raised — led by ENDRA Life Sciences Inc.",
-   "deal_count": 9,
-   "capital_raised": 13331955
+   "headline": "2 Michigan M&A deals, 4 financings; ENDRA Life Sciences Inc. to acquire Noble Africa LLC",
+   "ma_deals": 2,
+   "financings": 4,
+   "financing_raised": 1150000
   },
   {
    "week_start": "2026-06-15",
    "week_end": "2026-06-21",
-   "headline": "10 Michigan deals, $2K raised — led by Isabella Bank Corp",
-   "deal_count": 10,
-   "capital_raised": 2000
+   "headline": "3 Michigan deals; $1.6B raised in private financings",
+   "ma_deals": 0,
+   "financings": 3,
+   "financing_raised": 1600002000
   },
   {
    "week_start": "2026-06-08",
    "week_end": "2026-06-14",
-   "headline": "13 Michigan deals, $29.1M raised — led by Rocket Companies, Inc.",
-   "deal_count": 13,
-   "capital_raised": 29099000
+   "headline": "1 Michigan M&A deal, 1 financings; Isabella Bank Corp acquired Grand River Commerce, Inc.",
+   "ma_deals": 1,
+   "financings": 1,
+   "financing_raised": 0
   },
   {
    "week_start": "2026-06-01",
    "week_end": "2026-06-07",
-   "headline": "7 Michigan deals, $369.1M raised — led by Cinnaire Fund for Housing Limited Partnership 45",
-   "deal_count": 7,
-   "capital_raised": 369120656
+   "headline": "3 Michigan deals; $62M raised in private financings",
+   "ma_deals": 0,
+   "financings": 3,
+   "financing_raised": 62000000
   },
   {
    "week_start": "2026-05-25",
    "week_end": "2026-05-31",
-   "headline": "5 Michigan deals, $396K raised — led by High Street Holdco, LLC",
-   "deal_count": 5,
-   "capital_raised": 396000
+   "headline": "1 Michigan M&A deal, 1 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 1,
+   "financing_raised": 71000
   },
   {
    "week_start": "2026-05-18",
    "week_end": "2026-05-24",
-   "headline": "11 Michigan deals, $169.7M raised — led by BAMF Health Parent, Inc.",
-   "deal_count": 11,
-   "capital_raised": 169700626
+   "headline": "6 Michigan deals; $9.8B raised in private financings",
+   "ma_deals": 0,
+   "financings": 6,
+   "financing_raised": 9772857444
   },
   {
    "week_start": "2026-05-11",
    "week_end": "2026-05-17",
-   "headline": "3 Michigan deals, $4.7M raised — led by cultivate(MD) Capital Focus Fund, L.P.",
-   "deal_count": 3,
-   "capital_raised": 4742050
+   "headline": "1 Michigan deals; $2.2M raised in private financings",
+   "ma_deals": 0,
+   "financings": 1,
+   "financing_raised": 2170000
   },
   {
    "week_start": "2026-05-04",
    "week_end": "2026-05-10",
-   "headline": "5 Michigan deals, $38.2M raised — led by Hantz Ventures - PF III (QP) LLC",
-   "deal_count": 5,
-   "capital_raised": 38210000
+   "headline": "2 Michigan deals; $935K raised in private financings",
+   "ma_deals": 0,
+   "financings": 2,
+   "financing_raised": 935000
   },
   {
    "week_start": "2026-04-27",
    "week_end": "2026-05-03",
-   "headline": "10 Michigan deals, $8.1M raised — led by Esperion Therapeutics, Inc.",
-   "deal_count": 10,
-   "capital_raised": 8063454
+   "headline": "1 Michigan M&A deal, 4 financings; Essence Parent Inc. to acquire Esperion Therapeutics, Inc.",
+   "ma_deals": 1,
+   "financings": 4,
+   "financing_raised": 406814954
   },
   {
    "week_start": "2026-04-20",
    "week_end": "2026-04-26",
-   "headline": "8 Michigan deals, $27.9M raised — led by Mudita Venture Fund Qp LLC",
-   "deal_count": 8,
-   "capital_raised": 27850860
+   "headline": "5 Michigan deals; $14.5M raised in private financings",
+   "ma_deals": 0,
+   "financings": 5,
+   "financing_raised": 14481000
   },
   {
    "week_start": "2026-04-13",
    "week_end": "2026-04-19",
-   "headline": "13 Michigan deals, $160.3M raised — led by Sygaldry Technologies, Inc.",
-   "deal_count": 13,
-   "capital_raised": 160323334
+   "headline": "1 Michigan M&A deal, 5 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 5,
+   "financing_raised": 151349650
   },
   {
    "week_start": "2026-04-06",
    "week_end": "2026-04-12",
-   "headline": "6 Michigan deals, $22.5M raised — led by Superior Frontier Capital Fund I, LP",
-   "deal_count": 6,
-   "capital_raised": 22454150
+   "headline": "5 Michigan deals; $22.5M raised in private financings",
+   "ma_deals": 0,
+   "financings": 5,
+   "financing_raised": 22454150
   },
   {
    "week_start": "2026-03-30",
    "week_end": "2026-04-05",
-   "headline": "8 Michigan deals, $250K raised — led by Esperion Therapeutics, Inc.",
-   "deal_count": 8,
-   "capital_raised": 250000
+   "headline": "1 Michigan deals; $400M raised in private financings",
+   "ma_deals": 0,
+   "financings": 1,
+   "financing_raised": 400000000
   },
   {
    "week_start": "2026-03-23",
    "week_end": "2026-03-29",
-   "headline": "7 Michigan deals, $26.2M raised — led by Northpointe Bancshares Inc",
-   "deal_count": 7,
-   "capital_raised": 26210358
+   "headline": "1 Michigan M&A deal, 3 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 3,
+   "financing_raised": 22170520
   },
   {
    "week_start": "2026-03-16",
    "week_end": "2026-03-22",
-   "headline": "18 Michigan deals, $23.8M raised — led by Trimas Corp",
-   "deal_count": 18,
-   "capital_raised": 23835114
+   "headline": "1 Michigan M&A deal, 2 financings; Independent Bank Corp to acquire HCB and Independent Bank Corporation",
+   "ma_deals": 1,
+   "financings": 2,
+   "financing_raised": 7773242
   },
   {
    "week_start": "2026-03-09",
    "week_end": "2026-03-15",
-   "headline": "11 Michigan deals, $92.5M raised — led by TCC MHP Holdings LLC",
-   "deal_count": 11,
-   "capital_raised": 92493574
+   "headline": "5 Michigan deals; $24.5M raised in private financings",
+   "ma_deals": 0,
+   "financings": 5,
+   "financing_raised": 24520553
   },
   {
    "week_start": "2026-03-02",
    "week_end": "2026-03-08",
-   "headline": "7 Michigan deals, $257.5M raised — led by Sturbridge Diversified Private Equity Fund IV, L.P.",
-   "deal_count": 7,
-   "capital_raised": 257488610
+   "headline": "1 Michigan M&A deal, 2 financings; Esperion Therapeutics, Inc. acquired Corstasis Therapeutics Inc.",
+   "ma_deals": 1,
+   "financings": 2,
+   "financing_raised": 618838610
   },
   {
    "week_start": "2026-02-23",
    "week_end": "2026-03-01",
-   "headline": "12 Michigan deals, $2.7M raised — led by Modular Devices Holdings, LLC",
-   "deal_count": 12,
-   "capital_raised": 2685000
+   "headline": "5 Michigan deals; $2.7M raised in private financings",
+   "ma_deals": 0,
+   "financings": 5,
+   "financing_raised": 2685000
   },
   {
    "week_start": "2026-02-16",
    "week_end": "2026-02-22",
-   "headline": "4 Michigan deals, $54.5M raised — led by Penstock Equity II LP",
-   "deal_count": 4,
-   "capital_raised": 54461629
+   "headline": "2 Michigan deals; $401.8M raised in private financings",
+   "ma_deals": 0,
+   "financings": 2,
+   "financing_raised": 401805533
   },
   {
    "week_start": "2026-02-09",
    "week_end": "2026-02-15",
-   "headline": "9 Michigan deals, $279.8M raised — led by Nantucket Fund L P",
-   "deal_count": 9,
-   "capital_raised": 279843873
+   "headline": "3 Michigan deals; $551.6M raised in private financings",
+   "ma_deals": 0,
+   "financings": 3,
+   "financing_raised": 551600000
   },
   {
    "week_start": "2026-02-02",
    "week_end": "2026-02-08",
-   "headline": "14 Michigan deals, $293.7M raised — led by TRP Capital Partners VI, LP",
-   "deal_count": 14,
-   "capital_raised": 293747350
+   "headline": "1 Michigan M&A deal, 1 financings; Stoneridge Inc sold business to undisclosed buyer",
+   "ma_deals": 1,
+   "financings": 1,
+   "financing_raised": 2190000
   },
   {
    "week_start": "2026-01-26",
    "week_end": "2026-02-01",
-   "headline": "10 Michigan deals, $259.5M raised — led by Oa Clo Fund, LP",
-   "deal_count": 10,
-   "capital_raised": 259549049
+   "headline": "1 Michigan M&A deal, 3 financings; Gentherm Inc acquired Platinum SpinCo Inc.",
+   "ma_deals": 1,
+   "financings": 3,
+   "financing_raised": 2040000
   },
   {
    "week_start": "2026-01-19",
    "week_end": "2026-01-25",
-   "headline": "10 Michigan deals, $10M raised — led by New Community Transformation Fund II, L.P.",
-   "deal_count": 10,
-   "capital_raised": 10005000
+   "headline": "4 Michigan deals; $7.2M raised in private financings",
+   "ma_deals": 0,
+   "financings": 4,
+   "financing_raised": 7205000
   },
   {
    "week_start": "2026-01-12",
    "week_end": "2026-01-18",
-   "headline": "14 Michigan deals, $127.4M raised — led by Tiseo Holdings, LLC",
-   "deal_count": 14,
-   "capital_raised": 127361787
+   "headline": "1 Michigan M&A deal, 5 financings; Decidr U.S. Inc. issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 5,
+   "financing_raised": 135230706
   },
   {
    "week_start": "2026-01-05",
    "week_end": "2026-01-11",
-   "headline": "8 Michigan deals, $105.1M raised — led by OneStream, Inc.",
-   "deal_count": 8,
-   "capital_raised": 105140349
+   "headline": "2 Michigan M&A deals, 2 financings; Kelly Services Inc: M&A transaction with Hunt Equity Opportunities, LLC (buyer/target roles under review)",
+   "ma_deals": 2,
+   "financings": 2,
+   "financing_raised": 1494439
   },
   {
    "week_start": "2025-12-29",
    "week_end": "2026-01-04",
-   "headline": "5 Michigan deals, $155.1M raised — led by LuxWall, Inc.",
-   "deal_count": 5,
-   "capital_raised": 155081646
+   "headline": "2 Michigan deals; $77M raised in private financings",
+   "ma_deals": 0,
+   "financings": 2,
+   "financing_raised": 77006646
   },
   {
    "week_start": "2025-12-22",
    "week_end": "2025-12-28",
-   "headline": "5 Michigan deals, $128M raised — led by Cinnaire Fund for Housing Limited Partnership 44",
-   "deal_count": 5,
-   "capital_raised": 128014928
+   "headline": "1 Michigan M&A deal, 2 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 2,
+   "financing_raised": 37899968
   },
   {
    "week_start": "2025-12-15",
    "week_end": "2025-12-21",
-   "headline": "11 Michigan deals, $42.6M raised — led by Orbion Space Technology, Inc.",
-   "deal_count": 11,
-   "capital_raised": 42601183
+   "headline": "2 Michigan M&A deals, 3 financings; Lineage, Inc. to acquire Lineage Logistics, LLC",
+   "ma_deals": 2,
+   "financings": 3,
+   "financing_raised": 27074488
   },
   {
    "week_start": "2025-12-08",
    "week_end": "2025-12-14",
-   "headline": "12 Michigan deals, $674.3M raised — led by RHP Partners IV, LP",
-   "deal_count": 12,
-   "capital_raised": 674343390
+   "headline": "2 Michigan M&A deals, 3 financings; Superior Industries International Inc: M&A transaction (buyer/target roles under review)",
+   "ma_deals": 2,
+   "financings": 3,
+   "financing_raised": 21298390
   },
   {
    "week_start": "2025-12-01",
    "week_end": "2025-12-07",
-   "headline": "6 Michigan deals, $25.5M raised — led by TXC Great Lakes Fund, LP",
-   "deal_count": 6,
-   "capital_raised": 25500000
+   "headline": "1 Michigan M&A deal, 3 financings; Wolverine Insurance Co issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 3,
+   "financing_raised": 26395000
   },
   {
    "week_start": "2025-11-24",
    "week_end": "2025-11-30",
-   "headline": "9 Michigan deals, $2.5M raised — led by Steelcase Inc",
-   "deal_count": 9,
-   "capital_raised": 2450000
+   "headline": "3 Michigan deals; $1.4M raised in private financings",
+   "ma_deals": 0,
+   "financings": 3,
+   "financing_raised": 1350000
   },
   {
    "week_start": "2025-11-17",
    "week_end": "2025-11-23",
-   "headline": "11 Michigan deals, $146.5M raised — led by Penske Automotive Group, Inc.",
-   "deal_count": 11,
-   "capital_raised": 146451780
+   "headline": "1 Michigan M&A deal, 3 financings; Penske Automotive Group, Inc. to acquire undisclosed target",
+   "ma_deals": 1,
+   "financings": 3,
+   "financing_raised": 350185000
   },
   {
    "week_start": "2025-11-10",
    "week_end": "2025-11-16",
-   "headline": "4 Michigan deals, $16.4M raised — led by LIT Financial Corporation, Inc.",
-   "deal_count": 4,
-   "capital_raised": 16368129
+   "headline": "4 Michigan deals; $10M raised in private financings",
+   "ma_deals": 0,
+   "financings": 4,
+   "financing_raised": 10001787
+  },
+  {
+   "week_start": "2025-11-03",
+   "week_end": "2025-11-09",
+   "headline": "1 Michigan M&A deal, 2 financings; Trimas Corp sold business to Takeoff Buyer, Inc.",
+   "ma_deals": 1,
+   "financings": 2,
+   "financing_raised": 2000000
+  },
+  {
+   "week_start": "2025-10-27",
+   "week_end": "2025-11-02",
+   "headline": "8 Michigan deals; $10.5M raised in private financings",
+   "ma_deals": 0,
+   "financings": 8,
+   "financing_raised": 10531071
+  },
+  {
+   "week_start": "2025-10-20",
+   "week_end": "2025-10-26",
+   "headline": "1 Michigan M&A deal, 4 financings; Closer to the Origins LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 4,
+   "financing_raised": 64532880
+  },
+  {
+   "week_start": "2025-10-13",
+   "week_end": "2025-10-19",
+   "headline": "6 Michigan deals; $34.6M raised in private financings",
+   "ma_deals": 0,
+   "financings": 6,
+   "financing_raised": 34560000
+  },
+  {
+   "week_start": "2025-10-06",
+   "week_end": "2025-10-12",
+   "headline": "3 Michigan deals; $450.8M raised in private financings",
+   "ma_deals": 0,
+   "financings": 3,
+   "financing_raised": 450800000
+  },
+  {
+   "week_start": "2025-09-29",
+   "week_end": "2025-10-05",
+   "headline": "1 Michigan M&A deal, 6 financings; Rocket Companies, Inc.: M&A transaction with Rocket Mortgage and the Administrative Agent, under which, inter alia, the Company (buyer/target roles under review)",
+   "ma_deals": 1,
+   "financings": 6,
+   "financing_raised": 606000309
+  },
+  {
+   "week_start": "2025-09-22",
+   "week_end": "2025-09-28",
+   "headline": "2 Michigan M&A deals, 4 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 2,
+   "financings": 4,
+   "financing_raised": 28630424
+  },
+  {
+   "week_start": "2025-09-15",
+   "week_end": "2025-09-21",
+   "headline": "2 Michigan M&A deals, 2 financings; WK Kellogg Co: M&A transaction (buyer/target roles under review)",
+   "ma_deals": 2,
+   "financings": 2,
+   "financing_raised": 674997
+  },
+  {
+   "week_start": "2025-09-08",
+   "week_end": "2025-09-14",
+   "headline": "1 Michigan M&A deal, 3 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 3,
+   "financing_raised": 2625000
+  },
+  {
+   "week_start": "2025-09-01",
+   "week_end": "2025-09-07",
+   "headline": "2 Michigan M&A deals, 2 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 2,
+   "financings": 2,
+   "financing_raised": 21200000
+  },
+  {
+   "week_start": "2025-08-25",
+   "week_end": "2025-08-31",
+   "headline": "4 Michigan deals; $22.7M raised in private financings",
+   "ma_deals": 0,
+   "financings": 4,
+   "financing_raised": 22745829
+  },
+  {
+   "week_start": "2025-08-18",
+   "week_end": "2025-08-24",
+   "headline": "1 Michigan M&A deal, 1 financings; MFI Group Holdings, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 1,
+   "financing_raised": 2148850
+  },
+  {
+   "week_start": "2025-08-11",
+   "week_end": "2025-08-17",
+   "headline": "1 Michigan M&A deal, 6 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 6,
+   "financing_raised": 557090000
+  },
+  {
+   "week_start": "2025-08-04",
+   "week_end": "2025-08-10",
+   "headline": "1 Michigan M&A deal, 3 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 3,
+   "financing_raised": 1523742
+  },
+  {
+   "week_start": "2025-07-28",
+   "week_end": "2025-08-03",
+   "headline": "3 Michigan M&A deals, 4 financings; HNI Corporation acquired Steelcase Inc",
+   "ma_deals": 3,
+   "financings": 4,
+   "financing_raised": 1415732312
+  },
+  {
+   "week_start": "2025-07-21",
+   "week_end": "2025-07-27",
+   "headline": "2 Michigan M&A deals, 1 financings; Mercantile Bank Corp to acquire undisclosed target",
+   "ma_deals": 2,
+   "financings": 1,
+   "financing_raised": 10781955
+  },
+  {
+   "week_start": "2025-07-14",
+   "week_end": "2025-07-20",
+   "headline": "6 Michigan deals; $19.4M raised in private financings",
+   "ma_deals": 0,
+   "financings": 6,
+   "financing_raised": 19410156
+  },
+  {
+   "week_start": "2025-07-07",
+   "week_end": "2025-07-13",
+   "headline": "2 Michigan M&A deals, 1 financings; Mars, Incorporated acquired WK Kellogg Co",
+   "ma_deals": 2,
+   "financings": 1,
+   "financing_raised": 90000
+  },
+  {
+   "week_start": "2025-06-30",
+   "week_end": "2025-07-06",
+   "headline": "2 Michigan M&A deals, 2 financings; Rocket Companies, Inc.: M&A transaction (buyer/target roles under review)",
+   "ma_deals": 2,
+   "financings": 2,
+   "financing_raised": 200000000
+  },
+  {
+   "week_start": "2025-06-23",
+   "week_end": "2025-06-29",
+   "headline": "3 Michigan M&A deals, 2 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 3,
+   "financings": 2,
+   "financing_raised": 2000000000
+  },
+  {
+   "week_start": "2025-06-16",
+   "week_end": "2025-06-22",
+   "headline": "1 Michigan M&A deal, 2 financings; Sodali & Co. to acquire SpartanNash Co",
+   "ma_deals": 1,
+   "financings": 2,
+   "financing_raised": 500000
+  },
+  {
+   "week_start": "2025-06-09",
+   "week_end": "2025-06-15",
+   "headline": "6 Michigan deals; $616.6M raised in private financings",
+   "ma_deals": 0,
+   "financings": 6,
+   "financing_raised": 616582988
+  },
+  {
+   "week_start": "2025-06-02",
+   "week_end": "2025-06-08",
+   "headline": "1 Michigan M&A deal, 2 financings; AAM on January 29, 2025, the Dowlais Group acquired American Axle & Manufacturing Holdings Inc",
+   "ma_deals": 1,
+   "financings": 2,
+   "financing_raised": 0
+  },
+  {
+   "week_start": "2025-05-26",
+   "week_end": "2025-06-01",
+   "headline": "3 Michigan deals; $2.5M raised in private financings",
+   "ma_deals": 0,
+   "financings": 3,
+   "financing_raised": 2450000
+  },
+  {
+   "week_start": "2025-05-19",
+   "week_end": "2025-05-25",
+   "headline": "2 Michigan M&A deals, 4 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 2,
+   "financings": 4,
+   "financing_raised": 23049467
+  },
+  {
+   "week_start": "2025-05-12",
+   "week_end": "2025-05-18",
+   "headline": "1 Michigan M&A deal, 1 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 1,
+   "financing_raised": 7000000
+  },
+  {
+   "week_start": "2025-05-05",
+   "week_end": "2025-05-11",
+   "headline": "3 Michigan deals; $752M raised in private financings",
+   "ma_deals": 0,
+   "financings": 3,
+   "financing_raised": 751988000
+  },
+  {
+   "week_start": "2025-04-28",
+   "week_end": "2025-05-04",
+   "headline": "2 Michigan deals; $550K raised in private financings",
+   "ma_deals": 0,
+   "financings": 2,
+   "financing_raised": 550000
+  },
+  {
+   "week_start": "2025-04-21",
+   "week_end": "2025-04-27",
+   "headline": "5 Michigan deals; $464.9M raised in private financings",
+   "ma_deals": 0,
+   "financings": 5,
+   "financing_raised": 464913562
+  },
+  {
+   "week_start": "2025-04-14",
+   "week_end": "2025-04-20",
+   "headline": "1 Michigan deals; $2.7M raised in private financings",
+   "ma_deals": 0,
+   "financings": 1,
+   "financing_raised": 2697331
+  },
+  {
+   "week_start": "2025-04-07",
+   "week_end": "2025-04-13",
+   "headline": "4 Michigan deals; $469.2M raised in private financings",
+   "ma_deals": 0,
+   "financings": 4,
+   "financing_raised": 469239993
+  },
+  {
+   "week_start": "2025-03-31",
+   "week_end": "2025-04-06",
+   "headline": "3 Michigan M&A deals, 3 financings; Rocket Companies, Inc. to acquire Mr",
+   "ma_deals": 3,
+   "financings": 3,
+   "financing_raised": 390449997
+  },
+  {
+   "week_start": "2025-03-24",
+   "week_end": "2025-03-30",
+   "headline": "2 Michigan M&A deals, 1 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 2,
+   "financings": 1,
+   "financing_raised": 245000
+  },
+  {
+   "week_start": "2025-03-17",
+   "week_end": "2025-03-23",
+   "headline": "1 Michigan M&A deal, 4 financings; SPAR Group, Inc.: M&A transaction (buyer/target roles under review)",
+   "ma_deals": 1,
+   "financings": 4,
+   "financing_raised": 27757370
+  },
+  {
+   "week_start": "2025-03-10",
+   "week_end": "2025-03-16",
+   "headline": "5 Michigan deals; $6.7M raised in private financings",
+   "ma_deals": 0,
+   "financings": 5,
+   "financing_raised": 6658496
+  },
+  {
+   "week_start": "2025-03-03",
+   "week_end": "2025-03-09",
+   "headline": "1 Michigan M&A deal, 9 financings; Rocket Companies, Inc. to acquire Redfin Corporation",
+   "ma_deals": 1,
+   "financings": 9,
+   "financing_raised": 12030000
+  },
+  {
+   "week_start": "2025-02-24",
+   "week_end": "2025-03-02",
+   "headline": "2 Michigan M&A deals, 5 financings; Sun Communities Inc: M&A transaction with BIP Poseidon Holdco L.P. (buyer/target roles under review)",
+   "ma_deals": 2,
+   "financings": 5,
+   "financing_raised": 3014275988
+  },
+  {
+   "week_start": "2025-02-17",
+   "week_end": "2025-02-23",
+   "headline": "1 Michigan M&A deal, 4 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 4,
+   "financing_raised": 5965000
+  },
+  {
+   "week_start": "2025-02-10",
+   "week_end": "2025-02-16",
+   "headline": "2 Michigan deals; $702M raised in private financings",
+   "ma_deals": 0,
+   "financings": 2,
+   "financing_raised": 701990000
+  },
+  {
+   "week_start": "2025-02-03",
+   "week_end": "2025-02-09",
+   "headline": "4 Michigan deals; $3.6M raised in private financings",
+   "ma_deals": 0,
+   "financings": 4,
+   "financing_raised": 3561451
+  },
+  {
+   "week_start": "2025-01-27",
+   "week_end": "2025-02-02",
+   "headline": "5 Michigan deals; $1.3B raised in private financings",
+   "ma_deals": 0,
+   "financings": 5,
+   "financing_raised": 1256672946
+  },
+  {
+   "week_start": "2025-01-20",
+   "week_end": "2025-01-26",
+   "headline": "4 Michigan M&A deals, 4 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 4,
+   "financings": 4,
+   "financing_raised": 6166959
+  },
+  {
+   "week_start": "2025-01-13",
+   "week_end": "2025-01-19",
+   "headline": "1 Michigan deals; $2.5M raised in private financings",
+   "ma_deals": 0,
+   "financings": 1,
+   "financing_raised": 2500000
+  },
+  {
+   "week_start": "2025-01-06",
+   "week_end": "2025-01-12",
+   "headline": "1 Michigan M&A deal, 3 financings; Stryker Corp acquired Inari pursuant to Section 251",
+   "ma_deals": 1,
+   "financings": 3,
+   "financing_raised": 240000
+  },
+  {
+   "week_start": "2024-12-30",
+   "week_end": "2025-01-05",
+   "headline": "2 Michigan M&A deals, 1 financings; DT Midstream, Inc.: M&A transaction (buyer/target roles under review)",
+   "ma_deals": 2,
+   "financings": 1,
+   "financing_raised": 17408839
+  },
+  {
+   "week_start": "2024-12-23",
+   "week_end": "2024-12-29",
+   "headline": "3 Michigan deals; $10.2M raised in private financings",
+   "ma_deals": 0,
+   "financings": 3,
+   "financing_raised": 10234605
+  },
+  {
+   "week_start": "2024-12-16",
+   "week_end": "2024-12-22",
+   "headline": "2 Michigan M&A deals, 5 financings; Shyft, Aebi Schmidt Holding AG to acquire Shyft Group, Inc.",
+   "ma_deals": 2,
+   "financings": 5,
+   "financing_raised": 156745614
+  },
+  {
+   "week_start": "2024-12-09",
+   "week_end": "2024-12-15",
+   "headline": "1 Michigan M&A deal, 8 financings; Agrify Corp: M&A transaction (buyer/target roles under review)",
+   "ma_deals": 1,
+   "financings": 8,
+   "financing_raised": 15139992
+  },
+  {
+   "week_start": "2024-12-02",
+   "week_end": "2024-12-08",
+   "headline": "1 Michigan M&A deal, 6 financings; Sterling Bancorp, Inc.: M&A transaction (buyer/target roles under review)",
+   "ma_deals": 1,
+   "financings": 6,
+   "financing_raised": 741014922
+  },
+  {
+   "week_start": "2024-11-25",
+   "week_end": "2024-12-01",
+   "headline": "1 Michigan M&A deal, 4 financings; MFI Group Holdings, LLC issued securities in an acquisition (target not named)",
+   "ma_deals": 1,
+   "financings": 4,
+   "financing_raised": 29412177
+  },
+  {
+   "week_start": "2024-11-18",
+   "week_end": "2024-11-24",
+   "headline": "4 Michigan deals; $8M raised in private financings",
+   "ma_deals": 0,
+   "financings": 4,
+   "financing_raised": 7978597
   }
  ]
 }

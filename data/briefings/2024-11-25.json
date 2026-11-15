@@ -1,0 +1,310 @@
+{
+ "schema_version": 2,
+ "week_start": "2024-11-25",
+ "week_end": "2024-12-01",
+ "generated_at": "2026-11-15T22:32:30Z",
+ "headline": "1 Michigan M&A deal, 4 financings; MFI Group Holdings, LLC issued securities in an acquisition (target not named)",
+ "stats": {
+  "ma_deals": 1,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 4,
+  "financing_raised": 29412177,
+  "fund_raises": 0,
+  "fund_capital_raised": 0,
+  "stakes": 0
+ },
+ "trailing_4wk": {
+  "ma_deals": 0.2,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 1.0,
+  "financing_raised": 1994649.2,
+  "fund_raises": 0.0,
+  "fund_capital_raised": 0.0,
+  "stakes": 0.0
+ },
+ "change_vs_trailing": {
+  "ma_deals": 300.0,
+  "financings": 300.0,
+  "financing_raised": 1374.6
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-ad2a7731cc",
+   "title": "MFI Group Holdings, LLC issued securities in an acquisition (target not named)",
+   "summary": "MFI Group Holdings, LLC issued securities in an acquisition (target not named).",
+   "deal_type": "Acquisition",
+   "status": "Closed",
+   "target": null,
+   "acquirer": "MFI Group Holdings, LLC",
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-5a11a5457a",
+   "title": "Delphinus Medical Technologies, Inc.: growth equity ($27.6M raised)",
+   "summary": "Delphinus Medical Technologies, Inc.: growth equity ($27.6M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Closed",
+   "target": "Delphinus Medical Technologies, Inc.",
+   "acquirer": null,
+   "value": 27602177.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-4a9ebfa7eb",
+   "title": "Fan Label LLC: growth equity ($1.6M raised)",
+   "summary": "Fan Label LLC: growth equity ($1.6M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Closed",
+   "target": "Fan Label LLC",
+   "acquirer": null,
+   "value": 1650000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-f483c8eefd",
+   "title": "Promethient, Inc.: debt raise ($160K raised)",
+   "summary": "Promethient, Inc.: debt raise ($160K raised).",
+   "deal_type": "Debt Raise",
+   "status": "Announced",
+   "target": "Promethient, Inc.",
+   "acquirer": null,
+   "value": 160000.0,
+   "value_label": "Amount raised",
+   "sector": "Advanced Manufacturing",
+   "region": "Northern Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-bd449949ce",
+   "title": "DT Midstream, Inc.: credit facility",
+   "summary": "DT Midstream, Inc.: credit facility.",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "DT Midstream, Inc.",
+   "acquirer": null,
+   "value": null,
+   "value_label": "Amount raised",
+   "sector": "Energy & Utilities",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [],
+ "league_snapshot": {
+  "window": [
+   "2023-12-01",
+   "2024-12-01"
+  ],
+  "acquirers": [
+   {
+    "name": "Ansys, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Mr. Coffey that provides that if his employment is terminated by the Company",
+    "deals": 1,
+    "disclosed_value": 160000000.0,
+    "recent_deal_ids": [
+     "MDR-762c28a96f"
+    ]
+   },
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "disclosed_value": 440000.0,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "Choiceone Financial Services Inc",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-2036bbbb45"
+    ]
+   },
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 1,
+    "disclosed_value": 1300000000.0,
+    "recent_deal_ids": [
+     "MDR-a598c6fe11"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Perella Weinberg Partners has not",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-762c28a96f"
+    ]
+   }
+  ],
+  "legal_advisors": []
+ },
+ "sector_commentary": [
+  {
+   "sector": "Energy & Utilities",
+   "deals": 1,
+   "text": "1 deal: DT Midstream, Inc.: credit facility."
+  },
+  {
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: Delphinus Medical Technologies, Inc.: growth equity ($27.6M raised)."
+  },
+  {
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: Promethient, Inc.: debt raise ($160K raised)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "MFI Group Holdings, LLC issued securities in an acquisition (target not named). Ask how buyers are underwriting Michigan middle-market assets right now.",
+   "deal_ids": [
+    "MDR-ad2a7731cc"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $29.4M raised across 4 financings (up 1375% vs. the trailing 4-week average). The largest: Delphinus Medical Technologies, Inc.: growth equity ($27.6M raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-5a11a5457a"
+   ]
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Energy & Utilities was the most active Michigan sector this week with 1 deal. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "MFI Group Holdings, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2046331/000204633124000001/0002046331-24-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2024-11-26",
+   "deal_id": "MDR-ad2a7731cc"
+  },
+  {
+   "title": "MFI Group Holdings, LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2046331/000204633124000002/0002046331-24-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2024-11-27",
+   "deal_id": "MDR-ad2a7731cc"
+  },
+  {
+   "title": "Delphinus Medical Technologies, Inc. Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1492534/000149253424000002/0001492534-24-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2024-11-26",
+   "deal_id": "MDR-5a11a5457a"
+  },
+  {
+   "title": "Delphinus Medical Technologies, Inc. Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1492534/000149253425000001/0001492534-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-04-03",
+   "deal_id": "MDR-5a11a5457a"
+  },
+  {
+   "title": "Fan Label LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1698379/000169837924000002/0001698379-24-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2024-11-27",
+   "deal_id": "MDR-4a9ebfa7eb"
+  },
+  {
+   "title": "Fan Label LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1698379/000169837926000001/0001698379-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-06-25",
+   "deal_id": "MDR-4a9ebfa7eb"
+  },
+  {
+   "title": "Promethient, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859867/000185986724000003/0001859867-24-000003-index.htm",
+   "kind": "SEC Form D",
+   "date": "2024-11-25",
+   "deal_id": "MDR-f483c8eefd"
+  },
+  {
+   "title": "Promethient, Inc. Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1859867/000185986724000004/0001859867-24-000004-index.htm",
+   "kind": "SEC Form D",
+   "date": "2024-12-23",
+   "deal_id": "MDR-f483c8eefd"
+  },
+  {
+   "title": "DT Midstream, Inc. 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1842022/000094787124000962/0000947871-24-000962-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2024-11-27",
+   "deal_id": "MDR-bd449949ce"
+  }
+ ]
+}

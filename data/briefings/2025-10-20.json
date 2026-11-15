@@ -1,0 +1,376 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-10-20",
+ "week_end": "2025-10-26",
+ "generated_at": "2026-11-15T22:32:35Z",
+ "headline": "1 Michigan M&A deal, 4 financings; Closer to the Origins LLC issued securities in an acquisition (target not named)",
+ "stats": {
+  "ma_deals": 1,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 4,
+  "financing_raised": 64532880,
+  "fund_raises": 8,
+  "fund_capital_raised": 23975000,
+  "stakes": 0
+ },
+ "trailing_4wk": {
+  "ma_deals": 0.8,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 4.8,
+  "financing_raised": 279997683.2,
+  "fund_raises": 2.8,
+  "fund_capital_raised": 33347153.0,
+  "stakes": 1.0
+ },
+ "change_vs_trailing": {
+  "ma_deals": 33.3,
+  "financings": -15.8,
+  "financing_raised": -77.0
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-bd3b3fbeee",
+   "title": "Closer to the Origins LLC issued securities in an acquisition (target not named)",
+   "summary": "Closer to the Origins LLC issued securities in an acquisition (target not named).",
+   "deal_type": "Acquisition",
+   "status": "Announced",
+   "target": null,
+   "acquirer": "Closer to the Origins LLC",
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-df4eb2b632",
+   "title": "Saga Communications Inc: credit facility ($50M)",
+   "summary": "Saga Communications Inc: credit facility ($50M).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Saga Communications Inc",
+   "acquirer": null,
+   "value": 50000000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-fdb7eaea4d",
+   "title": "ENDRA Life Sciences Inc.: growth equity ($14.4M raised)",
+   "summary": "ENDRA Life Sciences Inc.: growth equity ($14.4M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Closed",
+   "target": "ENDRA Life Sciences Inc.",
+   "acquirer": null,
+   "value": 14402880.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-0ad186137a",
+   "title": "Centered Venture Studio LLC: venture round ($130K raised)",
+   "summary": "Centered Venture Studio LLC: venture round ($130K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Centered Venture Studio LLC",
+   "acquirer": null,
+   "value": 130000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-6c07470f7e",
+   "title": "Jhkxwl Global Ltd: venture round ($0 raised)",
+   "summary": "Jhkxwl Global Ltd: venture round ($0 raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Jhkxwl Global Ltd",
+   "acquirer": null,
+   "value": 0.0,
+   "value_label": "Amount raised",
+   "sector": "Financial Services",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-6ac4b6061f",
+   "name": "Dynamic Drain Technologies Holdings, LLC",
+   "category": "Other Investment Fund",
+   "amount_raised": 19500000.0,
+   "city": "Bloomfield Hills"
+  },
+  {
+   "id": "CF-aa832ce852",
+   "name": "Mill Street Storage, LLC",
+   "category": "Real Estate",
+   "amount_raised": 4470000.0,
+   "city": "Birmingham"
+  },
+  {
+   "id": "CF-cfdd56e0fa",
+   "name": "One Way Property Restoration Acquisition, LLC",
+   "category": "Other Investment Fund",
+   "amount_raised": 1000.0,
+   "city": "Bloomfield Hills"
+  },
+  {
+   "id": "CF-5a80940f79",
+   "name": "DDT Midco, LLC",
+   "category": "Other Investment Fund",
+   "amount_raised": 1000.0,
+   "city": "Bloomfield Hills"
+  },
+  {
+   "id": "CF-52da64777d",
+   "name": "Dynamic Drain Technologies Acquisition, LLC",
+   "category": "Other Investment Fund",
+   "amount_raised": 1000.0,
+   "city": "Bloomfield Hills"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-10-26",
+   "2025-10-26"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 11150000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "HNI Corporation",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "Mercantile Bank Corp",
+    "deals": 1,
+    "disclosed_value": 95800000.0,
+    "recent_deal_ids": [
+     "MDR-b2f94c7e43"
+    ]
+   },
+   {
+    "name": "Mars, Incorporated",
+    "deals": 1,
+    "disclosed_value": 3100000000.0,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Parent, pursuant to which Parent agreed to purchase, and the Company",
+    "deals": 1,
+    "disclosed_value": 725000000.0,
+    "recent_deal_ids": [
+     "MDR-3cf289038e"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 2,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Kate Pew Wolters",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Mercantile for purposes of Rule 144 under the Securities Act",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "WK Kellogg",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-6770a293fd",
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000",
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Bradley Arant Boult Cummings LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Wachtell, Lipton, Rosen & Katz",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Davis Polk & Wardwell LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Software & Technology",
+   "deals": 2,
+   "text": "2 deals: Centered Venture Studio LLC: venture round ($130K raised); Saga Communications Inc: credit facility ($50M)."
+  },
+  {
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: ENDRA Life Sciences Inc.: growth equity ($14.4M raised)."
+  },
+  {
+   "sector": "Financial Services",
+   "deals": 1,
+   "text": "1 deal: Jhkxwl Global Ltd: venture round ($0 raised)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "Closer to the Origins LLC issued securities in an acquisition (target not named). Ask how buyers are underwriting Michigan middle-market assets right now.",
+   "deal_ids": [
+    "MDR-bd3b3fbeee"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $64.5M raised across 4 financings (down 77% vs. the trailing 4-week average). The largest: Saga Communications Inc: credit facility ($50M). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-df4eb2b632"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "5 Michigan-based fund vehicles reported $24M raised, led by Dynamic Drain Technologies Holdings, LLC (Other Investment Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Closer to the Origins LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2042378/000204237825000004/0002042378-25-000004-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-21",
+   "deal_id": "MDR-bd3b3fbeee"
+  },
+  {
+   "title": "Saga Communications Inc 8-K (Item 1.01 definitive agreement, Item 7.01 Reg FD, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/886136/000110465925100831/0001104659-25-100831-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-10-20",
+   "deal_id": "MDR-df4eb2b632"
+  },
+  {
+   "title": "ENDRA Life Sciences Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1681682/000168168225000004/0001681682-25-000004-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-24",
+   "deal_id": "MDR-fdb7eaea4d"
+  },
+  {
+   "title": "Centered Venture Studio LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2080794/000208079425000001/0002080794-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-23",
+   "deal_id": "MDR-0ad186137a"
+  },
+  {
+   "title": "Jhkxwl Global Ltd Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2092874/000209287425000001/0002092874-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-22",
+   "deal_id": "MDR-6c07470f7e"
+  }
+ ]
+}

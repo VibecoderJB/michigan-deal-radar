@@ -1,0 +1,325 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-03-17",
+ "week_end": "2025-03-23",
+ "generated_at": "2026-11-15T22:32:31Z",
+ "headline": "1 Michigan M&A deal, 4 financings; SPAR Group, Inc.: M&A transaction (buyer/target roles under review)",
+ "stats": {
+  "ma_deals": 1,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 4,
+  "financing_raised": 27757370,
+  "fund_raises": 2,
+  "fund_capital_raised": 8770000,
+  "stakes": 1
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.0,
+  "ma_disclosed_value": 1850000000.0,
+  "ma_with_value": 0.5,
+  "financings": 5.8,
+  "financing_raised": 759732371.0,
+  "fund_raises": 3.5,
+  "fund_capital_raised": 149351559.5,
+  "stakes": 0.8
+ },
+ "change_vs_trailing": {
+  "ma_deals": 0.0,
+  "financings": -30.4,
+  "financing_raised": -96.3
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-27b93c10ef",
+   "title": "SPAR Group, Inc.: M&A transaction (buyer/target roles under review)",
+   "summary": "SPAR Group, Inc.: M&A transaction (buyer/target roles under review); announced 2025-03-17.",
+   "deal_type": "Acquisition",
+   "status": "Announced",
+   "target": null,
+   "acquirer": null,
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Business Services",
+   "region": null,
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-5299db8f8f",
+   "title": "Shoulder Innovations, Inc.: growth equity ($20.1M raised)",
+   "summary": "Shoulder Innovations, Inc.: growth equity ($20.1M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Shoulder Innovations, Inc.",
+   "acquirer": null,
+   "value": 20111432.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-9bc3dbe778",
+   "title": "NP Clintonvilla Investors LLC: venture round ($7.3M raised)",
+   "summary": "NP Clintonvilla Investors LLC: venture round ($7.3M raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "NP Clintonvilla Investors LLC",
+   "acquirer": null,
+   "value": 7345000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-790de757de",
+   "title": "Atomic Object LLC: growth equity ($299.9K raised)",
+   "summary": "Atomic Object LLC: growth equity ($299.9K raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Atomic Object LLC",
+   "acquirer": null,
+   "value": 299938.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-03f1cf343a",
+   "title": "Gastechno Corp: venture round ($1K raised)",
+   "summary": "Gastechno Corp: venture round ($1K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Gastechno Corp",
+   "acquirer": null,
+   "value": 1000.0,
+   "value_label": "Amount raised",
+   "sector": "Advanced Manufacturing",
+   "region": "Northern Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-3ef0f846af",
+   "name": "Trillium Cedar Owner LLC",
+   "category": "Real Estate",
+   "amount_raised": 8710000.0,
+   "city": "Grand Rapids"
+  },
+  {
+   "id": "CF-2c1392305f",
+   "name": "MT Flagship Fund, LP",
+   "category": "Hedge Fund",
+   "amount_raised": 60000.0,
+   "city": "Grand Rapids"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-03-23",
+   "2025-03-23"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 3050000000.0,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26",
+     "MDR-a598c6fe11"
+    ]
+   },
+   {
+    "name": "Stryker Corp",
+    "deals": 1,
+    "disclosed_value": 4900000000.0,
+    "recent_deal_ids": [
+     "MDR-6f503b58c5"
+    ]
+   },
+   {
+    "name": "CP Acquisitions, LLC",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-28e094740d"
+    ]
+   },
+   {
+    "name": "Gentex Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-d08cc96cee"
+    ]
+   },
+   {
+    "name": "Shyft, Aebi Schmidt Holding AG",
+    "deals": 1,
+    "disclosed_value": 474000000.0,
+    "recent_deal_ids": [
+     "MDR-3c7f849168"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: Gastechno Corp: venture round ($1K raised)."
+  },
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: Atomic Object LLC: growth equity ($299.9K raised)."
+  },
+  {
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: Shoulder Innovations, Inc.: growth equity ($20.1M raised)."
+  },
+  {
+   "sector": "Business Services",
+   "deals": 1,
+   "text": "1 deal: SPAR Group, Inc.: M&A transaction (buyer/target roles under review)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "SPAR Group, Inc.: M&A transaction (buyer/target roles under review). Ask how buyers are underwriting Michigan business services assets right now.",
+   "deal_ids": [
+    "MDR-27b93c10ef"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $27.8M raised across 4 financings (down 96% vs. the trailing 4-week average). The largest: Shoulder Innovations, Inc.: growth equity ($20.1M raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-5299db8f8f"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "2 Michigan-based fund vehicles reported $8.8M raised, led by Trillium Cedar Owner LLC (Real Estate). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "SPAR Group, Inc. 8-K (Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1004989/000143774925007997/0001437749-25-007997-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-03-17",
+   "deal_id": "MDR-27b93c10ef"
+  },
+  {
+   "title": "Shoulder Innovations, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1699350/000169935025000001/0001699350-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-03-18",
+   "deal_id": "MDR-5299db8f8f"
+  },
+  {
+   "title": "NP Clintonvilla Investors LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2062120/000206212025000001/0002062120-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-03-20",
+   "deal_id": "MDR-9bc3dbe778"
+  },
+  {
+   "title": "Atomic Object LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1557827/000090572925000054/0000905729-25-000054-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-03-19",
+   "deal_id": "MDR-790de757de"
+  },
+  {
+   "title": "Atomic Object LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1557827/000090572925000080/0000905729-25-000080-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-04-24",
+   "deal_id": "MDR-790de757de"
+  },
+  {
+   "title": "Gastechno Corp Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2047581/000204758125000001/0002047581-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-03-20",
+   "deal_id": "MDR-03f1cf343a"
+  }
+ ]
+}

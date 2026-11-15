@@ -1,210 +1,347 @@
 {
+ "schema_version": 2,
  "week_start": "2026-09-07",
  "week_end": "2026-09-13",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "10 Michigan deals, $34.8M raised — led by Sturgis Bancorp Inc",
+ "generated_at": "2026-11-15T22:32:44Z",
+ "headline": "7 Michigan deals; $52.1M raised in private financings",
  "stats": {
-  "deal_count": 10,
-  "by_type": {
-   "Fundraise": 7,
-   "M&A": 0,
-   "Material Agreement": 2,
-   "Stake": 1
-  },
-  "capital_raised": 34794991,
-  "capital_targeted": 52204800,
-  "fund_count": 1
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 7,
+  "financing_raised": 52099991,
+  "fund_raises": 2,
+  "fund_capital_raised": 2695000,
+  "stakes": 1
  },
  "trailing_4wk": {
-  "deal_count": 10.0,
-  "capital_raised": 68199087.8
+  "ma_deals": 0.8,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 3.0,
+  "financing_raised": 4360740.5,
+  "fund_raises": 3.8,
+  "fund_capital_raised": 61862494.2,
+  "stakes": 0.8
  },
  "change_vs_trailing": {
-  "deal_count_pct": 0.0,
-  "capital_raised_pct": -49.0
+  "ma_deals": -100.0,
+  "financings": 133.3,
+  "financing_raised": 1094.8
  },
- "top_deals": [
+ "notable_ma": [],
+ "top_financings": [
   {
-   "id": "D-1166362-021-596895",
-   "company": "Sturgis Bancorp Inc",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Sturgis",
+   "deal_id": "MDR-e5e5933e4f",
+   "title": "Sturgis Bancorp Inc: debt raise ($25.5M raised)",
+   "summary": "Sturgis Bancorp Inc: debt raise ($25.5M raised).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Sturgis Bancorp Inc",
+   "acquirer": null,
+   "value": 25500000.0,
+   "value_label": "Amount raised",
    "sector": "Financial Services",
-   "amount": 25500000.0,
-   "amount_sold": 25500000.0,
-   "amount_is_estimate": false,
-   "summary": "Sturgis Bancorp Inc, a Sturgis-based commercial banking company, filed a $25.5M debt offering under Rule 506(b); $25.5M sold to 24 investors.",
-   "filed": "2026-09-09"
+   "region": "Southwest Michigan",
+   "confidence": "High"
   },
   {
-   "id": "D-2154196-021-597248",
-   "company": "DTC Residences Mezz Lender LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Traverse City",
-   "sector": "Other",
-   "amount": 10000000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "DTC Residences Mezz Lender LLC, a Traverse City-based company, filed a $10M equity offering under Rule 506(b); $0 sold.",
-   "filed": "2026-09-11"
+   "deal_id": "MDR-695524bf4d",
+   "title": "Cooper-Standard Holdings Inc.: credit facility ($20M)",
+   "summary": "Cooper-Standard Holdings Inc.: credit facility ($20M).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Cooper-Standard Holdings Inc.",
+   "acquirer": null,
+   "value": 20000000.0,
+   "value_label": "Amount raised",
+   "sector": "Automotive & Mobility",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   },
   {
-   "id": "D-2072307-021-597246",
-   "company": "CleanBotix, Inc.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Grand Rapids",
-   "sector": "Technology",
-   "amount": 10000000.0,
-   "amount_sold": 5999991.0,
-   "amount_is_estimate": false,
-   "summary": "CleanBotix, Inc., a Grand Rapids-based technology company, filed a $10M equity offering under Rule 506(b); $6M sold to 1 investor.",
-   "filed": "2026-09-11"
+   "deal_id": "MDR-847c96d93c",
+   "title": "CleanBotix, Inc.: venture round ($6M raised)",
+   "summary": "CleanBotix, Inc.: venture round ($6M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "CleanBotix, Inc.",
+   "acquirer": null,
+   "value": 5999991.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "West Michigan",
+   "confidence": "High"
   },
   {
-   "id": "D-2140565-021-596711",
-   "company": "Lumiom Inc.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "West Bloomfield Township",
-   "sector": "Technology",
-   "amount": 3000000.0,
-   "amount_sold": 100000.0,
-   "amount_is_estimate": false,
-   "summary": "Lumiom Inc., a West Bloomfield Township-based technology company, filed a $3M SAFE offering under Rule 506(b); $100K sold to 1 investor.",
-   "filed": "2026-09-08"
+   "deal_id": "MDR-9beefdecd6",
+   "title": "Shiftmate Corp.: venture round ($500K raised)",
+   "summary": "Shiftmate Corp.: venture round ($500K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Shiftmate Corp.",
+   "acquirer": null,
+   "value": 500000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   },
   {
-   "id": "D-2150566-021-597185",
-   "company": "NSC Urbandale, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Other Investment Fund",
-   "city": "Farmington Hills",
-   "sector": "Private Funds",
-   "amount": 2205000.0,
-   "amount_sold": 2205000.0,
-   "amount_is_estimate": false,
-   "summary": "NSC Urbandale, LLC, a Farmington Hills-based investment fund, disclosed a $2.2M raise; $2.2M sold to 21 investors.",
-   "filed": "2026-09-11"
+   "deal_id": "MDR-d81b672f05",
+   "title": "Lumiom Inc.: venture round ($100K raised)",
+   "summary": "Lumiom Inc.: venture round ($100K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Lumiom Inc.",
+   "acquirer": null,
+   "value": 100000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   }
  ],
- "new_funds": [
+ "fund_raises": [
   {
-   "id": "D-2150566-021-597185",
-   "company": "NSC Urbandale, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Other Investment Fund",
-   "city": "Farmington Hills",
-   "sector": "Private Funds",
-   "amount": 2205000.0,
-   "amount_sold": 2205000.0,
-   "amount_is_estimate": false,
-   "summary": "NSC Urbandale, LLC, a Farmington Hills-based investment fund, disclosed a $2.2M raise; $2.2M sold to 21 investors.",
-   "filed": "2026-09-11"
+   "id": "CF-a7c6a44fb8",
+   "name": "NSC Urbandale, LLC",
+   "category": "Other Investment Fund",
+   "amount_raised": 2205000.0,
+   "city": "Farmington Hills"
+  },
+  {
+   "id": "CF-292d9e19e5",
+   "name": "RKGA Group LLC",
+   "category": "Real Estate",
+   "amount_raised": 490000.0,
+   "city": "Detroit"
   }
  ],
- "notable_ma": [
+ "league_snapshot": {
+  "window": [
+   "2025-09-13",
+   "2026-09-13"
+  ],
+  "acquirers": [
+   {
+    "name": "ENDRA Life Sciences Inc.",
+    "deals": 1,
+    "disclosed_value": 50250000.0,
+    "recent_deal_ids": [
+     "MDR-2000d64c8c"
+    ]
+   },
+   {
+    "name": "Isabella Bank Corp",
+    "deals": 1,
+    "disclosed_value": 40000000.0,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Essence Parent Inc.",
+    "deals": 1,
+    "disclosed_value": 726000000.0,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Independent Bank Corp",
+    "deals": 1,
+    "disclosed_value": 70800000.0,
+    "recent_deal_ids": [
+     "MDR-81bcf88076"
+    ]
+   },
+   {
+    "name": "Esperion Therapeutics, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "ARCHIMED on April 21",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Independent include individuals that control",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Athyrium Capital Management",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Parent",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "PJT Partners",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20",
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Brean Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Centerview Partners",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Moelis & Company LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-653115fcbd",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-964f877284",
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Akin Gump LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Sidley Austin LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Arnold & Porter Kaye Scholer LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
   {
-   "id": "13D-0001104659-26-107138",
-   "company": "Hagerty, Inc.",
-   "ticker": "HGTY",
-   "type": "Stake",
-   "subtype": "13D Amendment",
-   "city": "TRAVERSE CITY",
+   "sector": "Software & Technology",
+   "deals": 3,
+   "text": "3 deals: Shiftmate Corp.: venture round ($500K raised); CleanBotix, Inc.: venture round ($6M raised)."
+  },
+  {
    "sector": "Financial Services",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Hagerty Holding Corp. reported a 56.5% stake in Hagerty, Inc. (HGTY) (Schedule 13D/A amendment 3).",
-   "filed": "2026-09-11"
-  }
- ],
- "material_agreements": [
-  {
-   "id": "8K-0001193125-26-389275",
-   "company": "Hagerty, Inc.",
-   "ticker": "HGTY",
-   "type": "Material Agreement",
-   "subtype": "Debt Offering",
-   "city": "Traverse City",
-   "sector": "Financial Services",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Hagerty, Inc. (HGTY) entered into a material definitive agreement (debt offering).",
-   "filed": "2026-09-11"
+   "deals": 2,
+   "text": "2 deals: Hagerty, Inc.: debt offering; Sturgis Bancorp Inc: debt raise ($25.5M raised)."
   },
   {
-   "id": "8K-0001320461-26-000119",
-   "company": "Cooper-Standard Holdings Inc.",
-   "ticker": "CPS",
-   "type": "Material Agreement",
-   "subtype": "Credit Facility",
-   "city": "Northville",
-   "sector": "Manufacturing & Automotive",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Cooper-Standard Holdings Inc. (CPS) entered into a material definitive agreement (credit facility).",
-   "filed": "2026-09-10"
-  }
- ],
- "top_sectors": [
-  {
-   "sector": "Financial Services",
-   "count": 3,
-   "amount": 25500000.0
-  },
-  {
-   "sector": "Technology",
-   "count": 3,
-   "amount": 6599991.0
-  },
-  {
-   "sector": "Private Funds",
-   "count": 1,
-   "amount": 2205000.0
-  },
-  {
-   "sector": "Real Estate",
-   "count": 1,
-   "amount": 490000.0
-  },
-  {
-   "sector": "Other",
-   "count": 1,
-   "amount": 0.0
+   "sector": "Automotive & Mobility",
+   "deals": 1,
+   "text": "1 deal: Cooper-Standard Holdings Inc.: credit facility ($20M)."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $34.8M sold across 7 Form D filings this week, down 49% vs. the prior 4-week average. The largest was Sturgis Bancorp Inc (Sturgis, Commercial Banking) targeting $25.5M. Good question to ask: are founders in financial services favoring equity rounds over venture debt right now?",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $52.1M raised across 7 financings (up 1095% vs. the trailing 4-week average). The largest: Sturgis Bancorp Inc: debt raise ($25.5M raised). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "D-1166362-021-596895"
+    "MDR-e5e5933e4f"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "1 Michigan-based pooled fund filed Form Ds, reporting $2.2M raised so far — led by NSC Urbandale, LLC (Other Investment Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-2150566-021-597185"
-   ]
+   "text": "2 Michigan-based fund vehicles reported $2.7M raised, led by NSC Urbandale, LLC (Other Investment Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
   },
   {
-   "topic": "Ownership moves",
-   "text": "Hagerty Holding Corp. reported a 56.5% stake in Hagerty, Inc. (HGTY) (Schedule 13D/A amendment 3). Schedule 13D filers can push for strategic change, so it's worth asking whether shareholders see a sale or restructuring on the table.",
-   "deal_ids": [
-    "13D-0001104659-26-107138"
-   ]
+   "topic": "Sector watch",
+   "text": "Software & Technology was the most active Michigan sector this week with 3 deals. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Sturgis Bancorp Inc Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1166362/000090572926000151/0000905729-26-000151-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-09-09",
+   "deal_id": "MDR-e5e5933e4f"
+  },
+  {
+   "title": "Cooper-Standard Holdings Inc. 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1320461/000132046126000119/0001320461-26-000119-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-09-10",
+   "deal_id": "MDR-695524bf4d"
+  },
+  {
+   "title": "CleanBotix, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2072307/000207230726000001/0002072307-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-09-11",
+   "deal_id": "MDR-847c96d93c"
+  },
+  {
+   "title": "Shiftmate Corp. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2064419/000206441926000001/0002064419-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-09-11",
+   "deal_id": "MDR-9beefdecd6"
+  },
+  {
+   "title": "Lumiom Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2140565/000214056526000003/0002140565-26-000003-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-09-08",
+   "deal_id": "MDR-d81b672f05"
   }
  ]
 }

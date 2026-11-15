@@ -1,239 +1,419 @@
 {
+ "schema_version": 2,
  "week_start": "2026-01-12",
  "week_end": "2026-01-18",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "14 Michigan deals, $127.4M raised — led by Tiseo Holdings, LLC",
+ "generated_at": "2026-11-15T22:32:37Z",
+ "headline": "1 Michigan M&A deal, 5 financings; Decidr U.S. Inc. issued securities in an acquisition (target not named)",
  "stats": {
-  "deal_count": 14,
-  "by_type": {
-   "Fundraise": 10,
-   "M&A": 1,
-   "Material Agreement": 2,
-   "Stake": 1
-  },
-  "capital_raised": 127361787,
-  "capital_targeted": 145011787,
-  "fund_count": 2
+  "ma_deals": 1,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 5,
+  "financing_raised": 135230706,
+  "fund_raises": 6,
+  "fund_capital_raised": 119165000,
+  "stakes": 1
  },
  "trailing_4wk": {
-  "deal_count": 7.2,
-  "capital_raised": 107709526.5
+  "ma_deals": 1.2,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 2.2,
+  "financing_raised": 35868885.2,
+  "fund_raises": 2.8,
+  "fund_capital_raised": 71840891.2,
+  "stakes": 0.2
  },
  "change_vs_trailing": {
-  "deal_count_pct": 93.1,
-  "capital_raised_pct": 18.2
+  "ma_deals": -20.0,
+  "financings": 122.2,
+  "financing_raised": 277.0
  },
- "top_deals": [
-  {
-   "id": "D-2105399-021-570014",
-   "company": "Tiseo Holdings, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Troy",
-   "sector": "Real Estate",
-   "amount": 48525000.0,
-   "amount_sold": 48525000.0,
-   "amount_is_estimate": false,
-   "summary": "Tiseo Holdings, LLC, a Troy-based construction company, filed a $48.5M equity offering under Rule 506(b); $48.5M sold to 7 investors.",
-   "filed": "2026-01-14"
-  },
-  {
-   "id": "D-2053434-021-536208",
-   "company": "TPlus3 Qualified Fund LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Hedge Fund",
-   "city": "Farmington Hills",
-   "sector": "Private Funds",
-   "amount": 28075000.0,
-   "amount_sold": 28075000.0,
-   "amount_is_estimate": false,
-   "summary": "TPlus3 Qualified Fund LP, a Farmington Hills-based hedge fund, disclosed an open-ended (indefinite) raise; $28.1M sold to 4 investors. (Amended filing.)",
-   "filed": "2026-01-16"
-  },
-  {
-   "id": "D-2105411-021-570017",
-   "company": "Tiseo Acquisition, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Troy",
-   "sector": "Real Estate",
-   "amount": 23500000.0,
-   "amount_sold": 23500000.0,
-   "amount_is_estimate": false,
-   "summary": "Tiseo Acquisition, LLC, a Troy-based construction company, filed a $23.5M equity offering under Rule 506(b); $23.5M sold to 22 investors.",
-   "filed": "2026-01-15"
-  },
-  {
-   "id": "D-2104425-021-570315",
-   "company": "Draper Goren Blockchain Early-Stage Opportunity Fund, L.P.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Troy",
-   "sector": "Financial Services",
-   "amount": 20000000.0,
-   "amount_sold": 4150000.0,
-   "amount_is_estimate": false,
-   "summary": "Draper Goren Blockchain Early-Stage Opportunity Fund, L.P., a Troy-based investment company, filed a $20M equity offering under Rule 506(b); $4.2M sold to 8 investors.",
-   "filed": "2026-01-16"
-  },
-  {
-   "id": "D-2102643-021-570290",
-   "company": "Trillium 440GR Owner, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Grand Rapids",
-   "sector": "Real Estate",
-   "amount": 16010000.0,
-   "amount_sold": 16010000.0,
-   "amount_is_estimate": false,
-   "summary": "Trillium 440GR Owner, LLC, a Grand Rapids-based commercial real estate company, filed an indefinite-size equity offering under Rule 506(b); $16M sold to 87 investors.",
-   "filed": "2026-01-16"
-  }
- ],
- "new_funds": [
-  {
-   "id": "D-2053434-021-536208",
-   "company": "TPlus3 Qualified Fund LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Hedge Fund",
-   "city": "Farmington Hills",
-   "sector": "Private Funds",
-   "amount": 28075000.0,
-   "amount_sold": 28075000.0,
-   "amount_is_estimate": false,
-   "summary": "TPlus3 Qualified Fund LP, a Farmington Hills-based hedge fund, disclosed an open-ended (indefinite) raise; $28.1M sold to 4 investors. (Amended filing.)",
-   "filed": "2026-01-16"
-  },
-  {
-   "id": "D-2104685-021-569636",
-   "company": "PCT Co Invest Fund Limited Partnership",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Birmingham",
-   "sector": "Private Funds",
-   "amount": 3000000.0,
-   "amount_sold": 3000000.0,
-   "amount_is_estimate": false,
-   "summary": "PCT Co Invest Fund Limited Partnership, a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $3M sold to 3 investors.",
-   "filed": "2026-01-12"
-  }
- ],
  "notable_ma": [
   {
-   "id": "D-2105729-021-570176",
-   "company": "Decidr U.S. Inc.",
-   "ticker": null,
-   "type": "M&A",
-   "subtype": "Business Combination (Form D)",
-   "city": "Bloomfield Hills",
-   "sector": "Other",
-   "amount": 9363285.0,
-   "amount_sold": 9363285.0,
-   "amount_is_estimate": false,
-   "summary": "Decidr U.S. Inc., a Bloomfield Hills-based company, filed a Form D tied to a business combination (acquisition or merger); $9.4M of equity issued to 39 investors.",
-   "filed": "2026-01-15"
-  },
-  {
-   "id": "13D-0001174947-26-000034",
-   "company": "Kelly Services Inc",
-   "ticker": "KELYA",
-   "type": "Stake",
-   "subtype": "13D Amendment",
-   "city": "TROY",
-   "sector": "Business Services",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Terence E. Adderley Revocable Trust K and others reported a 93.5% stake in Kelly Services Inc (KELYA) (Schedule 13D/A amendment 3).",
-   "filed": "2026-01-12"
+   "deal_id": "MDR-fde6cd3cfe",
+   "title": "Decidr U.S. Inc. issued securities in an acquisition (target not named)",
+   "summary": "Decidr U.S. Inc. issued securities in an acquisition (target not named).",
+   "deal_type": "Acquisition",
+   "status": "Closed",
+   "target": null,
+   "acquirer": "Decidr U.S. Inc.",
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
   }
  ],
- "material_agreements": [
+ "top_financings": [
   {
-   "id": "8K-0001104659-26-003728",
-   "company": "ITC Holdings Corp.",
-   "ticker": null,
-   "type": "Material Agreement",
-   "subtype": "Equity Financing",
-   "city": "Novi",
+   "deal_id": "MDR-5163cd8928",
+   "title": "ITC Holdings Corp.: credit facility ($125M)",
+   "summary": "ITC Holdings Corp.: credit facility ($125M).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "ITC Holdings Corp.",
+   "acquirer": null,
+   "value": 125000000.0,
+   "value_label": "Amount raised",
    "sector": "Energy & Utilities",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "ITC Holdings Corp. entered into a material definitive agreement (equity financing).",
-   "filed": "2026-01-14"
+   "region": "Southeast Michigan",
+   "confidence": "High"
   },
   {
-   "id": "8K-0001193125-26-009849",
-   "company": "Kelly Services Inc",
-   "ticker": "KELYA",
-   "type": "Material Agreement",
-   "subtype": "Material Agreement",
-   "city": "Troy",
-   "sector": "Business Services",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Kelly Services Inc (KELYA) entered into a material definitive agreement.",
-   "filed": "2026-01-12"
+   "deal_id": "MDR-fb352669c7",
+   "title": "Draper Goren Blockchain Early-Stage Opportunity Fund, L.P.: venture round ($4.2M raised)",
+   "summary": "Draper Goren Blockchain Early-Stage Opportunity Fund, L.P.: venture round ($4.2M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Draper Goren Blockchain Early-Stage Opportunity Fund, L.P.",
+   "acquirer": null,
+   "value": 4150000.0,
+   "value_label": "Amount raised",
+   "sector": "Financial Services",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-5b5bf84ea7",
+   "title": "Capitan Orthopedics, Inc.: venture round ($4.1M raised)",
+   "summary": "Capitan Orthopedics, Inc.: venture round ($4.1M raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "Capitan Orthopedics, Inc.",
+   "acquirer": null,
+   "value": 4135706.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-92cf1148f3",
+   "title": "KSHN Pouch Co., LLC: venture round ($1.4M raised)",
+   "summary": "KSHN Pouch Co., LLC: venture round ($1.4M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "KSHN Pouch Co., LLC",
+   "acquirer": null,
+   "value": 1375000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Mid-Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-3bdd2ec07e",
+   "title": "Iaso Therapeutics, Inc.: growth equity ($570K raised)",
+   "summary": "Iaso Therapeutics, Inc.: growth equity ($570K raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Iaso Therapeutics, Inc.",
+   "acquirer": null,
+   "value": 570000.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Mid-Michigan",
+   "confidence": "High"
   }
  ],
- "top_sectors": [
+ "fund_raises": [
   {
-   "sector": "Real Estate",
-   "count": 4,
-   "amount": 88090000.0
+   "id": "CF-9f74f0d6f8",
+   "name": "Tiseo Holdings, LLC",
+   "category": "Real Estate",
+   "amount_raised": 48525000.0,
+   "city": "Troy"
   },
   {
-   "sector": "Private Funds",
-   "count": 2,
-   "amount": 31075000.0
+   "id": "CF-9c563e9dd4",
+   "name": "TPlus3 Qualified Fund LP",
+   "category": "Hedge Fund",
+   "amount_raised": 28075000.0,
+   "city": "Farmington Hills"
   },
   {
-   "sector": "Other",
-   "count": 2,
-   "amount": 10738285.0
+   "id": "CF-5597ffae74",
+   "name": "Tiseo Acquisition, LLC",
+   "category": "Real Estate",
+   "amount_raised": 23500000.0,
+   "city": "Troy"
   },
   {
-   "sector": "Business Services",
-   "count": 2,
-   "amount": 0.0
+   "id": "CF-0b89efa089",
+   "name": "Trillium 440GR Owner, LLC",
+   "category": "Real Estate",
+   "amount_raised": 16010000.0,
+   "city": "Grand Rapids"
+  },
+  {
+   "id": "CF-4502610031",
+   "name": "PCT Co Invest Fund Limited Partnership",
+   "category": "Private Equity Fund",
+   "amount_raised": 3000000.0,
+   "city": "Birmingham"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2025-01-18",
+   "2026-01-18"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 11150000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Lineage, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-700fcaad5d"
+    ]
+   },
+   {
+    "name": "UWM Holdings Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-1c5d1214e2"
+    ]
+   },
+   {
+    "name": "Penske Automotive Group, Inc.",
+    "deals": 1,
+    "disclosed_value": 519423000.0,
+    "recent_deal_ids": [
+     "MDR-8a21ae9a17"
+    ]
+   },
+   {
+    "name": "Takeoff Buyer, Inc.",
+    "deals": 1,
+    "disclosed_value": 1450000000.0,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 3,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Blackstone",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Kate Pew Wolters",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Mercantile for purposes of Rule 144 under the Securities Act",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 5,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-6770a293fd"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-964f877284",
+     "MDR-60d2b79b16",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Allerhand & Odoner LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-964f877284"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Healthcare",
+   "deals": 2,
+   "text": "2 deals: Capitan Orthopedics, Inc.: venture round ($4.1M raised); Iaso Therapeutics, Inc.: growth equity ($570K raised)."
   },
   {
    "sector": "Financial Services",
-   "count": 1,
-   "amount": 4150000.0
+   "deals": 1,
+   "text": "1 deal: Draper Goren Blockchain Early-Stage Opportunity Fund, L.P.: venture round ($4.2M raised)."
+  },
+  {
+   "sector": "Energy & Utilities",
+   "deals": 1,
+   "text": "1 deal: ITC Holdings Corp.: credit facility ($125M)."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $127.4M sold across 10 Form D filings this week, up 18% vs. the prior 4-week average. The largest was Tiseo Holdings, LLC (Troy, Construction) targeting $48.5M. Good question to ask: are founders in real estate favoring equity rounds over venture debt right now?",
+   "topic": "M&A",
+   "text": "Decidr U.S. Inc. issued securities in an acquisition (target not named). Ask how buyers are underwriting Michigan middle-market assets right now.",
    "deal_ids": [
-    "D-2105399-021-570014"
+    "MDR-fde6cd3cfe"
    ]
   },
   {
-   "topic": "M&A",
-   "text": "Decidr U.S. Inc. disclosed a deal. Use it to ask how buyers are valuing Michigan other assets and whether consolidation is accelerating.",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $135.2M raised across 5 financings (up 277% vs. the trailing 4-week average). The largest: ITC Holdings Corp.: credit facility ($125M). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "D-2105729-021-570176"
+    "MDR-5163cd8928"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "2 Michigan-based pooled funds filed Form Ds, reporting $31.1M raised so far — led by TPlus3 Qualified Fund LP (Hedge Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-2053434-021-536208",
-    "D-2104685-021-569636"
-   ]
+   "text": "5 Michigan-based fund vehicles reported $119.2M raised, led by Tiseo Holdings, LLC (Real Estate). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Decidr U.S. Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2105729/000210572926000001/0002105729-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-01-15",
+   "deal_id": "MDR-fde6cd3cfe"
+  },
+  {
+   "title": "ITC Holdings Corp. 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1317630/000110465926003728/0001104659-26-003728-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-01-14",
+   "deal_id": "MDR-5163cd8928"
+  },
+  {
+   "title": "Draper Goren Blockchain Early-Stage Opportunity Fund, L.P. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2104425/000210442526000003/0002104425-26-000003-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-01-16",
+   "deal_id": "MDR-fb352669c7"
+  },
+  {
+   "title": "Capitan Orthopedics, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2100956/000208061226000002/0002080612-26-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-01-14",
+   "deal_id": "MDR-5b5bf84ea7"
+  },
+  {
+   "title": "Capitan Orthopedics, Inc. Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2100956/000208061226000029/0002080612-26-000029-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-05-27",
+   "deal_id": "MDR-5b5bf84ea7"
+  },
+  {
+   "title": "Capitan Orthopedics, Inc. Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2100956/000208061226000050/0002080612-26-000050-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-08-28",
+   "deal_id": "MDR-5b5bf84ea7"
+  },
+  {
+   "title": "KSHN Pouch Co., LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2102443/000090572926000017/0000905729-26-000017-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-01-13",
+   "deal_id": "MDR-92cf1148f3"
+  },
+  {
+   "title": "Iaso Therapeutics, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1961165/000090572926000020/0000905729-26-000020-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-01-14",
+   "deal_id": "MDR-3bdd2ec07e"
   }
  ]
 }

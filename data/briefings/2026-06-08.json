@@ -1,325 +1,333 @@
 {
+ "schema_version": 2,
  "week_start": "2026-06-08",
  "week_end": "2026-06-14",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "13 Michigan deals, $29.1M raised — led by Rocket Companies, Inc.",
+ "generated_at": "2026-11-15T22:32:42Z",
+ "headline": "1 Michigan M&A deal, 1 financings; Isabella Bank Corp acquired Grand River Commerce, Inc.",
  "stats": {
-  "deal_count": 13,
-  "by_type": {
-   "Fundraise": 7,
-   "M&A": 5,
-   "Material Agreement": 0,
-   "Stake": 1
-  },
-  "capital_raised": 29099000,
-  "capital_targeted": 40499000,
-  "fund_count": 4
+  "ma_deals": 1,
+  "ma_disclosed_value": 40000000,
+  "ma_with_value": 1,
+  "financings": 1,
+  "financing_raised": 0,
+  "fund_raises": 8,
+  "fund_capital_raised": 35672000,
+  "stakes": 1
  },
  "trailing_4wk": {
-  "deal_count": 6.5,
-  "capital_raised": 135989833.0
+  "ma_deals": 0.2,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 2.8,
+  "financing_raised": 2459274611.0,
+  "fund_raises": 2.2,
+  "fund_capital_raised": 86225472.0,
+  "stakes": 0.8
  },
  "change_vs_trailing": {
-  "deal_count_pct": 100.0,
-  "capital_raised_pct": -78.6
+  "ma_deals": 300.0,
+  "financings": -63.6,
+  "financing_raised": -100.0
  },
- "top_deals": [
-  {
-   "id": "8K-0001104659-26-071607",
-   "company": "Rocket Companies, Inc.",
-   "ticker": "RKT",
-   "type": "M&A",
-   "subtype": "Deal Announcement",
-   "city": "Detroit",
-   "sector": "Financial Services",
-   "amount": 600000000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "Rocket Companies, Inc. (RKT) disclosed merger/acquisition activity with Mr. Cooper Group Inc.; filing cites a figure of ~$600M.",
-   "filed": "2026-06-09"
-  },
-  {
-   "id": "D-2134486-021-587259",
-   "company": "Ajc Auburn Hills Investments LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Bloomfield Hills",
-   "sector": "Real Estate",
-   "amount": 22200000.0,
-   "amount_sold": 22200000.0,
-   "amount_is_estimate": false,
-   "summary": "Ajc Auburn Hills Investments LLC, a Bloomfield Hills-based real estate company, filed a $22.2M equity offering under Rule 506(b); $22.2M sold to 32 investors.",
-   "filed": "2026-06-12"
-  },
-  {
-   "id": "D-2139615-021-586890",
-   "company": "Swan Echo Investments, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Portage",
-   "sector": "Real Estate",
-   "amount": 9900000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Swan Echo Investments, LLC, a Portage-based residential real estate company, filed a $9.9M debt offering under Rule 504; $0 sold.",
-   "filed": "2026-06-10"
-  },
-  {
-   "id": "D-1957912-021-467398",
-   "company": "Baselake Partners, LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Hedge Fund",
-   "city": "Troy",
-   "sector": "Private Funds",
-   "amount": 6899000.0,
-   "amount_sold": 6899000.0,
-   "amount_is_estimate": false,
-   "summary": "Baselake Partners, LP, a Troy-based hedge fund, disclosed an open-ended (indefinite) raise; $6.9M sold to 11 investors. (Amended filing.)",
-   "filed": "2026-06-12"
-  },
-  {
-   "id": "D-2029922-021-586848",
-   "company": "TPCN Holdings, LLC",
-   "ticker": null,
-   "type": "M&A",
-   "subtype": "Business Combination (Form D)",
-   "city": "Bloomfield Hills",
-   "sector": "Private Funds",
-   "amount": 6572000.0,
-   "amount_sold": 6572000.0,
-   "amount_is_estimate": false,
-   "summary": "TPCN Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $6.6M of equity and pooled fund interests issued to 13 investors.",
-   "filed": "2026-06-10"
-  }
- ],
- "new_funds": [
-  {
-   "id": "D-1957912-021-467398",
-   "company": "Baselake Partners, LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Hedge Fund",
-   "city": "Troy",
-   "sector": "Private Funds",
-   "amount": 6899000.0,
-   "amount_sold": 6899000.0,
-   "amount_is_estimate": false,
-   "summary": "Baselake Partners, LP, a Troy-based hedge fund, disclosed an open-ended (indefinite) raise; $6.9M sold to 11 investors. (Amended filing.)",
-   "filed": "2026-06-12"
-  },
-  {
-   "id": "D-2029922-021-586848",
-   "company": "TPCN Holdings, LLC",
-   "ticker": null,
-   "type": "M&A",
-   "subtype": "Business Combination (Form D)",
-   "city": "Bloomfield Hills",
-   "sector": "Private Funds",
-   "amount": 6572000.0,
-   "amount_sold": 6572000.0,
-   "amount_is_estimate": false,
-   "summary": "TPCN Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $6.6M of equity and pooled fund interests issued to 13 investors.",
-   "filed": "2026-06-10"
-  },
-  {
-   "id": "D-2139822-021-586850",
-   "company": "Pooltek, LLC",
-   "ticker": null,
-   "type": "M&A",
-   "subtype": "Business Combination (Form D)",
-   "city": "Bloomfield Hills",
-   "sector": "Private Funds",
-   "amount": 1000.0,
-   "amount_sold": 1000.0,
-   "amount_is_estimate": false,
-   "summary": "Pooltek, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $1K of equity and pooled fund interests issued to 1 investor.",
-   "filed": "2026-06-10"
-  },
-  {
-   "id": "D-2136328-021-586699",
-   "company": "Huron Silver COV 2, L.P.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Detroit",
-   "sector": "Private Funds",
-   "amount": 0.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Huron Silver COV 2, L.P., a Detroit-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
-   "filed": "2026-06-09"
-  },
-  {
-   "id": "D-2127858-021-586701",
-   "company": "Huron Silver COV, L.P.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Detroit",
-   "sector": "Private Funds",
-   "amount": 0.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Huron Silver COV, L.P., a Detroit-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
-   "filed": "2026-06-09"
-  },
-  {
-   "id": "D-2127857-021-586698",
-   "company": "Huron Silver Fund, L.P.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Detroit",
-   "sector": "Private Funds",
-   "amount": 0.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Huron Silver Fund, L.P., a Detroit-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
-   "filed": "2026-06-09"
-  }
- ],
  "notable_ma": [
   {
-   "id": "8K-0000039311-26-000051",
-   "company": "Independent Bank Corp",
-   "ticker": "IBCP",
-   "type": "M&A",
-   "subtype": "Deal Announcement",
-   "city": "Grand Rapids",
+   "deal_id": "MDR-760b18dbe9",
+   "title": "Isabella Bank Corp acquired Grand River Commerce, Inc.",
+   "summary": "Isabella Bank Corp acquired Grand River Commerce, Inc. for $40M (cash & stock); closed 2026-11-02.",
+   "deal_type": "Recapitalization",
+   "status": "Closed",
+   "target": "Grand River Commerce, Inc.",
+   "acquirer": "Isabella Bank Corp",
+   "value": 40000000.0,
+   "value_label": "Disclosed value",
    "sector": "Financial Services",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Independent Bank Corp (IBCP) disclosed merger/acquisition activity.",
-   "filed": "2026-06-12"
-  },
-  {
-   "id": "D-2139822-021-586850",
-   "company": "Pooltek, LLC",
-   "ticker": null,
-   "type": "M&A",
-   "subtype": "Business Combination (Form D)",
-   "city": "Bloomfield Hills",
-   "sector": "Private Funds",
-   "amount": 1000.0,
-   "amount_sold": 1000.0,
-   "amount_is_estimate": false,
-   "summary": "Pooltek, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $1K of equity and pooled fund interests issued to 1 investor.",
-   "filed": "2026-06-10"
-  },
-  {
-   "id": "D-2029922-021-586848",
-   "company": "TPCN Holdings, LLC",
-   "ticker": null,
-   "type": "M&A",
-   "subtype": "Business Combination (Form D)",
-   "city": "Bloomfield Hills",
-   "sector": "Private Funds",
-   "amount": 6572000.0,
-   "amount_sold": 6572000.0,
-   "amount_is_estimate": false,
-   "summary": "TPCN Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $6.6M of equity and pooled fund interests issued to 13 investors.",
-   "filed": "2026-06-10"
-  },
-  {
-   "id": "8K-0001104659-26-071814",
-   "company": "Esperion Therapeutics, Inc.",
-   "ticker": "ESPR",
-   "type": "M&A",
-   "subtype": "Deal Announcement",
-   "city": "Ann Arbor",
-   "sector": "Health Care & Life Sciences",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Esperion Therapeutics, Inc. (ESPR) disclosed merger/acquisition activity with Essence Parent Inc.",
-   "filed": "2026-06-09"
-  },
-  {
-   "id": "8K-0001104659-26-071607",
-   "company": "Rocket Companies, Inc.",
-   "ticker": "RKT",
-   "type": "M&A",
-   "subtype": "Deal Announcement",
-   "city": "Detroit",
-   "sector": "Financial Services",
-   "amount": 600000000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "Rocket Companies, Inc. (RKT) disclosed merger/acquisition activity with Mr. Cooper Group Inc.; filing cites a figure of ~$600M.",
-   "filed": "2026-06-09"
-  },
-  {
-   "id": "13D-0000902664-26-002722",
-   "company": "Trimas Corp",
-   "ticker": "TRS",
-   "type": "Stake",
-   "subtype": "13D Amendment",
-   "city": "BLOOMFIELD HILLS",
-   "sector": "Manufacturing & Automotive",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Trend International Holding AG and others reported a 16.9% stake in Trimas Corp (TRS) (Schedule 13D/A amendment 4).",
-   "filed": "2026-06-08"
+   "region": "Mid-Michigan",
+   "confidence": "High"
   }
  ],
- "material_agreements": [],
- "top_sectors": [
+ "top_financings": [
   {
-   "sector": "Private Funds",
-   "count": 6,
-   "amount": 13472000.0
+   "deal_id": "MDR-3321b27d3a",
+   "title": "TacticalMind AI, LLC: venture round ($0 raised)",
+   "summary": "TacticalMind AI, LLC: venture round ($0 raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "TacticalMind AI, LLC",
+   "acquirer": null,
+   "value": 0.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southwest Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-af40d25bfe",
+   "name": "Ajc Auburn Hills Investments LLC",
+   "category": "Real Estate",
+   "amount_raised": 22200000.0,
+   "city": "Bloomfield Hills"
   },
   {
-   "sector": "Real Estate",
-   "count": 2,
-   "amount": 22200000.0
+   "id": "CF-a63e6af41e",
+   "name": "Baselake Partners, LP",
+   "category": "Hedge Fund",
+   "amount_raised": 6899000.0,
+   "city": "Troy"
   },
+  {
+   "id": "CF-46dcb05317",
+   "name": "TPCN Holdings, LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 6572000.0,
+   "city": "Bloomfield Hills"
+  },
+  {
+   "id": "CF-4ab9ca7440",
+   "name": "Pooltek, LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 1000.0,
+   "city": "Bloomfield Hills"
+  },
+  {
+   "id": "CF-e95d2e7f20",
+   "name": "Swan Echo Investments, LLC",
+   "category": "Real Estate",
+   "amount_raised": 0.0,
+   "city": "Portage"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2025-06-14",
+   "2026-06-14"
+  ],
+  "acquirers": [
+   {
+    "name": "Isabella Bank Corp",
+    "deals": 1,
+    "disclosed_value": 40000000.0,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Essence Parent Inc.",
+    "deals": 1,
+    "disclosed_value": 726000000.0,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Independent Bank Corp",
+    "deals": 1,
+    "disclosed_value": 70800000.0,
+    "recent_deal_ids": [
+     "MDR-81bcf88076"
+    ]
+   },
+   {
+    "name": "Esperion Therapeutics, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   },
+   {
+    "name": "Gentherm Inc",
+    "deals": 1,
+    "disclosed_value": 150000000.0,
+    "recent_deal_ids": [
+     "MDR-d830f32ff0"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 3,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "ARCHIMED on April 21",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Independent include individuals that control",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Athyrium Capital Management",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   },
+   {
+    "name": "PJT Partners",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20",
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-964f877284",
+     "MDR-60d2b79b16",
+     "MDR-004182e774"
+    ]
+   },
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-653115fcbd",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Akin Gump LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Sidley Austin LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
   {
    "sector": "Financial Services",
-   "count": 2,
-   "amount": 0.0
+   "deals": 1,
+   "text": "1 deal: Isabella Bank Corp acquired Grand River Commerce, Inc.."
   },
   {
-   "sector": "Technology",
-   "count": 1,
-   "amount": 0.0
-  },
-  {
-   "sector": "Health Care & Life Sciences",
-   "count": 1,
-   "amount": 0.0
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: TacticalMind AI, LLC: venture round ($0 raised)."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $29.1M sold across 7 Form D filings this week, down 79% vs. the prior 4-week average. The largest was Ajc Auburn Hills Investments LLC (Bloomfield Hills, Other Real Estate) targeting $22.2M. Good question to ask: are founders in real estate favoring equity rounds over venture debt right now?",
+   "topic": "M&A",
+   "text": "Isabella Bank Corp acquired Grand River Commerce, Inc. for $40M. Ask how buyers are underwriting Michigan financial services assets right now.",
    "deal_ids": [
-    "D-2134486-021-587259"
+    "MDR-760b18dbe9"
    ]
   },
   {
-   "topic": "M&A",
-   "text": "Rocket Companies, Inc. (RKT) disclosed a deal with Mr. Cooper Group Inc.. It was one of 5 M&A filings this week. Use it to ask how buyers are valuing Michigan financial services assets and whether consolidation is accelerating.",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $0 raised across 1 financings (down 100% vs. the trailing 4-week average). The largest: TacticalMind AI, LLC: venture round ($0 raised). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "8K-0000039311-26-000051",
-    "D-2139822-021-586850",
-    "D-2029922-021-586848"
+    "MDR-3321b27d3a"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "6 Michigan-based pooled funds filed Form Ds, reporting $13.5M raised so far — led by Baselake Partners, LP (Hedge Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-1957912-021-467398",
-    "D-2029922-021-586848",
-    "D-2139822-021-586850"
-   ]
+   "text": "5 Michigan-based fund vehicles reported $35.7M raised, led by Ajc Auburn Hills Investments LLC (Real Estate). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Isabella Bank Corp 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/842517/000084251726000158/0000842517-26-000158-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-06-15",
+   "deal_id": "MDR-760b18dbe9"
+  },
+  {
+   "title": "Isabella Bank Corp S-4",
+   "url": "https://www.sec.gov/Archives/edgar/data/842517/000110465926086639/0001104659-26-086639-index.htm",
+   "kind": "SEC S-4",
+   "date": "2026-07-24",
+   "deal_id": "MDR-760b18dbe9"
+  },
+  {
+   "title": "Isabella Bank Corp 8-K (Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/842517/000084251726000222/0000842517-26-000222-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-09-21",
+   "deal_id": "MDR-760b18dbe9"
+  },
+  {
+   "title": "Isabella Bank Corp 8-K (Item 2.01 completion, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/842517/000084251726000238/0000842517-26-000238-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-11-02",
+   "deal_id": "MDR-760b18dbe9"
+  },
+  {
+   "title": "TacticalMind AI, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2138455/000213845526000001/0002138455-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-06-09",
+   "deal_id": "MDR-3321b27d3a"
   }
  ]
 }

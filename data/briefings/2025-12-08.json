@@ -1,283 +1,394 @@
 {
+ "schema_version": 2,
  "week_start": "2025-12-08",
  "week_end": "2025-12-14",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "12 Michigan deals, $674.3M raised — led by RHP Partners IV, LP",
+ "generated_at": "2026-11-15T22:32:36Z",
+ "headline": "2 Michigan M&A deals, 3 financings; Superior Industries International Inc: M&A transaction (buyer/target roles under review)",
  "stats": {
-  "deal_count": 12,
-  "by_type": {
-   "Fundraise": 6,
-   "M&A": 2,
-   "Material Agreement": 1,
-   "Stake": 3
-  },
-  "capital_raised": 674343390,
-  "capital_targeted": 738293390,
-  "fund_count": 4
+  "ma_deals": 2,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 3,
+  "financing_raised": 21298390,
+  "fund_raises": 5,
+  "fund_capital_raised": 653870000,
+  "stakes": 3
  },
  "trailing_4wk": {
-  "deal_count": 7.5,
-  "capital_raised": 47692477.2
+  "ma_deals": 0.5,
+  "ma_disclosed_value": 129855750.0,
+  "ma_with_value": 0.2,
+  "financings": 3.2,
+  "financing_raised": 96982946.8,
+  "fund_raises": 2.0,
+  "fund_capital_raised": 49582129.0,
+  "stakes": 0.2
  },
  "change_vs_trailing": {
-  "deal_count_pct": 60.0,
-  "capital_raised_pct": 1313.9
+  "ma_deals": 300.0,
+  "financings": -7.7,
+  "financing_raised": -78.0
  },
- "top_deals": [
-  {
-   "id": "D-2005454-021-500403",
-   "company": "RHP Partners IV, LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Farmington Hills",
-   "sector": "Private Funds",
-   "amount": 642820000.0,
-   "amount_sold": 642820000.0,
-   "amount_is_estimate": false,
-   "summary": "RHP Partners IV, LP, a Farmington Hills-based private equity fund, disclosed an open-ended (indefinite) raise; $642.8M sold to 14 investors. (Amended filing.)",
-   "filed": "2025-12-09"
-  },
-  {
-   "id": "D-2093711-021-566375",
-   "company": "Freedom Partners No. 3, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "West Bloomfield",
-   "sector": "Private Funds",
-   "amount": 50000000.0,
-   "amount_sold": 9175000.0,
-   "amount_is_estimate": false,
-   "summary": "Freedom Partners No. 3, LLC, a West Bloomfield-based private equity fund, disclosed a $50M raise; $9.2M sold to 9 investors.",
-   "filed": "2025-12-10"
-  },
-  {
-   "id": "D-2098247-021-566430",
-   "company": "Noblestone Credit Select II LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Southfield",
-   "sector": "Real Estate",
-   "amount": 25000000.0,
-   "amount_sold": 1875000.0,
-   "amount_is_estimate": false,
-   "summary": "Noblestone Credit Select II LLC, a Southfield-based real estate company, filed a $25M equity offering under Rule 506(b); $1.9M sold to 10 investors.",
-   "filed": "2025-12-11"
-  },
-  {
-   "id": "D-2006359-021-566474",
-   "company": "Inngest Inc.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Royal Oak",
-   "sector": "Technology",
-   "amount": 20473390.0,
-   "amount_sold": 20473390.0,
-   "amount_is_estimate": false,
-   "summary": "Inngest Inc., a Royal Oak-based technology company, filed a $20.5M equity offering under Rule 506(b); $20.5M sold to 7 investors.",
-   "filed": "2025-12-11"
-  }
- ],
- "new_funds": [
-  {
-   "id": "D-2005454-021-500403",
-   "company": "RHP Partners IV, LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Farmington Hills",
-   "sector": "Private Funds",
-   "amount": 642820000.0,
-   "amount_sold": 642820000.0,
-   "amount_is_estimate": false,
-   "summary": "RHP Partners IV, LP, a Farmington Hills-based private equity fund, disclosed an open-ended (indefinite) raise; $642.8M sold to 14 investors. (Amended filing.)",
-   "filed": "2025-12-09"
-  },
-  {
-   "id": "D-2093711-021-566375",
-   "company": "Freedom Partners No. 3, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "West Bloomfield",
-   "sector": "Private Funds",
-   "amount": 50000000.0,
-   "amount_sold": 9175000.0,
-   "amount_is_estimate": false,
-   "summary": "Freedom Partners No. 3, LLC, a West Bloomfield-based private equity fund, disclosed a $50M raise; $9.2M sold to 9 investors.",
-   "filed": "2025-12-10"
-  },
-  {
-   "id": "D-2090108-021-566534",
-   "company": "O2 Investment Partners Fund V-B, L.P.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Bloomfield Hills",
-   "sector": "Private Funds",
-   "amount": 0.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "O2 Investment Partners Fund V-B, L.P., a Bloomfield Hills-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
-   "filed": "2025-12-11"
-  },
-  {
-   "id": "D-2090105-021-566533",
-   "company": "O2 Investment Partners Fund V-A, L.P.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Bloomfield Hills",
-   "sector": "Private Funds",
-   "amount": 0.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "O2 Investment Partners Fund V-A, L.P., a Bloomfield Hills-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
-   "filed": "2025-12-11"
-  }
- ],
  "notable_ma": [
   {
-   "id": "8K-0001193125-25-315864",
-   "company": "Steelcase Inc",
-   "ticker": "SCS",
-   "type": "M&A",
-   "subtype": "Acquisition/Disposition Completed",
-   "city": "Grand Rapids",
-   "sector": "Manufacturing & Automotive",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Steelcase Inc (SCS) reported completing an acquisition or disposition of assets.",
-   "filed": "2025-12-11"
+   "deal_id": "MDR-ff4a671b3b",
+   "title": "Superior Industries International Inc: M&A transaction (buyer/target roles under review)",
+   "summary": "Superior Industries International Inc: M&A transaction (buyer/target roles under review); closed 2025-12-08.",
+   "deal_type": "Recapitalization",
+   "status": "Closed",
+   "target": null,
+   "acquirer": null,
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Automotive & Mobility",
+   "region": null,
+   "confidence": "High"
   },
   {
-   "id": "13D-0000950103-25-016022",
-   "company": "Steelcase Inc.",
-   "ticker": "SCS",
-   "type": "Stake",
-   "subtype": "13D Amendment",
-   "city": "Grand Rapids",
-   "sector": "Manufacturing & Automotive",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "HNI Corporation reported a 100% stake in Steelcase Inc. (SCS) (Schedule 13D/A amendment 1).",
-   "filed": "2025-12-11"
-  },
-  {
-   "id": "13D-0001842002-25-000032",
-   "company": "UWM Holdings Corporation",
-   "ticker": "UWMC",
-   "type": "Stake",
-   "subtype": "13D Amendment",
-   "city": "Pontiac",
-   "sector": "Financial Services",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Mat Ishbia and others reported a 83.7% stake in UWM Holdings Corporation (UWMC) (Schedule 13D/A amendment 11).",
-   "filed": "2025-12-10"
-  },
-  {
-   "id": "13D-0001140361-25-045164",
-   "company": "Superior Industries International Inc",
-   "ticker": "SSUP",
-   "type": "Stake",
-   "subtype": "13D Amendment",
-   "city": "Southfield",
-   "sector": "Manufacturing & Automotive",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "SUP Parent Holdings, LLC and others reported a 5%+ stake in Superior Industries International Inc (SSUP) (Schedule 13D/A amendment 1).",
-   "filed": "2025-12-10"
-  },
-  {
-   "id": "8K-0001140361-25-044874",
-   "company": "Superior Industries International Inc",
-   "ticker": "SSUP",
-   "type": "M&A",
-   "subtype": "Acquisition/Disposition Completed",
-   "city": "Southfield",
-   "sector": "Manufacturing & Automotive",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Superior Industries International Inc (SSUP) reported completing an acquisition or disposition of assets.",
-   "filed": "2025-12-08"
+   "deal_id": "MDR-81c6dffe65",
+   "title": "undisclosed buyer terminated deal for Steelcase Inc",
+   "summary": "undisclosed buyer terminated deal for Steelcase Inc (cash & stock); terminated 2025-12-11.",
+   "deal_type": "Acquisition",
+   "status": "Terminated",
+   "target": "Steelcase Inc",
+   "acquirer": null,
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Advanced Manufacturing",
+   "region": "West Michigan",
+   "confidence": "High"
   }
  ],
- "material_agreements": [
+ "top_financings": [
   {
-   "id": "8K-0001336706-25-000012",
-   "company": "Northpointe Bancshares Inc",
-   "ticker": "NPB",
-   "type": "Material Agreement",
-   "subtype": "Debt Offering",
-   "city": "Grand Rapids",
+   "deal_id": "MDR-703aa9a78d",
+   "title": "Inngest Inc.: venture round ($20.5M raised)",
+   "summary": "Inngest Inc.: venture round ($20.5M raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "Inngest Inc.",
+   "acquirer": null,
+   "value": 20473390.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-82127d9cb5",
+   "title": "Call Up Fund 1, LLC: venture round ($825K raised)",
+   "summary": "Call Up Fund 1, LLC: venture round ($825K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Call Up Fund 1, LLC",
+   "acquirer": null,
+   "value": 825000.0,
+   "value_label": "Amount raised",
    "sector": "Financial Services",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Northpointe Bancshares Inc (NPB) entered into a material definitive agreement (debt offering).",
-   "filed": "2025-12-09"
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-0763347b03",
+   "title": "Northpointe Bancshares Inc: debt offering",
+   "summary": "Northpointe Bancshares Inc: debt offering.",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Northpointe Bancshares Inc",
+   "acquirer": null,
+   "value": null,
+   "value_label": "Amount raised",
+   "sector": "Financial Services",
+   "region": "West Michigan",
+   "confidence": "High"
   }
  ],
- "top_sectors": [
+ "fund_raises": [
   {
-   "sector": "Private Funds",
-   "count": 4,
-   "amount": 651995000.0
+   "id": "CF-114bef1195",
+   "name": "RHP Partners IV, LP",
+   "category": "Private Equity Fund",
+   "amount_raised": 642820000.0,
+   "city": "Farmington Hills"
   },
   {
-   "sector": "Manufacturing & Automotive",
-   "count": 4,
-   "amount": 0.0
+   "id": "CF-a7597da12b",
+   "name": "Freedom Partners No. 3, LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 9175000.0,
+   "city": "West Bloomfield"
   },
+  {
+   "id": "CF-5db94514f0",
+   "name": "Noblestone Credit Select II LLC",
+   "category": "Real Estate",
+   "amount_raised": 1875000.0,
+   "city": "Southfield"
+  },
+  {
+   "id": "CF-9c52674b56",
+   "name": "O2 Investment Partners Fund V-A, L.P.",
+   "category": "Private Equity Fund",
+   "amount_raised": 0.0,
+   "city": "Bloomfield Hills"
+  },
+  {
+   "id": "CF-7dea655497",
+   "name": "O2 Investment Partners Fund V-B, L.P.",
+   "category": "Private Equity Fund",
+   "amount_raised": 0.0,
+   "city": "Bloomfield Hills"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-12-14",
+   "2025-12-14"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 11150000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Penske Automotive Group, Inc.",
+    "deals": 1,
+    "disclosed_value": 519423000.0,
+    "recent_deal_ids": [
+     "MDR-8a21ae9a17"
+    ]
+   },
+   {
+    "name": "Takeoff Buyer, Inc.",
+    "deals": 1,
+    "disclosed_value": 1450000000.0,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "HNI Corporation",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "Mercantile Bank Corp",
+    "deals": 1,
+    "disclosed_value": 95800000.0,
+    "recent_deal_ids": [
+     "MDR-b2f94c7e43"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 3,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Blackstone",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Kate Pew Wolters",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Mercantile for purposes of Rule 144 under the Securities Act",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "WK Kellogg",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-6770a293fd"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Bradley Arant Boult Cummings LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Wachtell, Lipton, Rosen & Katz",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
   {
    "sector": "Financial Services",
-   "count": 2,
-   "amount": 0.0
+   "deals": 2,
+   "text": "2 deals: Call Up Fund 1, LLC: venture round ($825K raised); Northpointe Bancshares Inc: debt offering."
   },
   {
-   "sector": "Technology",
-   "count": 1,
-   "amount": 20473390.0
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: undisclosed buyer terminated deal for Steelcase Inc."
   },
   {
-   "sector": "Real Estate",
-   "count": 1,
-   "amount": 1875000.0
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: Inngest Inc.: venture round ($20.5M raised)."
+  },
+  {
+   "sector": "Automotive & Mobility",
+   "deals": 1,
+   "text": "1 deal: Superior Industries International Inc: M&A transaction (buyer/target roles under review)."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $674.3M sold across 6 Form D filings this week, up 1314% vs. the prior 4-week average. The largest was Noblestone Credit Select II LLC (Southfield, Other Real Estate) targeting $25M. Good question to ask: are founders in real estate favoring equity rounds over venture debt right now?",
+   "topic": "M&A",
+   "text": "Superior Industries International Inc: M&A transaction (buyer/target roles under review). It was one of 2 Michigan M&A deals this week. Ask how buyers are underwriting Michigan automotive & mobility assets right now.",
    "deal_ids": [
-    "D-2098247-021-566430"
+    "MDR-ff4a671b3b",
+    "MDR-81c6dffe65"
    ]
   },
   {
-   "topic": "M&A",
-   "text": "Steelcase Inc (SCS) closed a transaction. It was one of 2 M&A filings this week. Use it to ask how buyers are valuing Michigan manufacturing & automotive assets and whether consolidation is accelerating.",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $21.3M raised across 3 financings (down 78% vs. the trailing 4-week average). The largest: Inngest Inc.: venture round ($20.5M raised). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "8K-0001193125-25-315864",
-    "8K-0001140361-25-044874"
+    "MDR-703aa9a78d"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "4 Michigan-based pooled funds filed Form Ds, reporting $652M raised so far — led by RHP Partners IV, LP (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-2005454-021-500403",
-    "D-2093711-021-566375",
-    "D-2090108-021-566534"
-   ]
+   "text": "5 Michigan-based fund vehicles reported $653.9M raised, led by RHP Partners IV, LP (Private Equity Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Superior Industries International Inc 8-K (Item 1.01 definitive agreement, Item 2.01 completion, Item 7.01 Reg FD)",
+   "url": "https://www.sec.gov/Archives/edgar/data/95552/000114036125044874/0001140361-25-044874-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-12-08",
+   "deal_id": "MDR-ff4a671b3b"
+  },
+  {
+   "title": "Steelcase Inc 8-K (Item 1.02 termination, Item 2.01 completion, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1050825/000119312525315864/0001193125-25-315864-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-12-11",
+   "deal_id": "MDR-81c6dffe65"
+  },
+  {
+   "title": "Inngest Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2006359/000200635925000002/0002006359-25-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-12-11",
+   "deal_id": "MDR-703aa9a78d"
+  },
+  {
+   "title": "Call Up Fund 1, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2094513/000149315225026839/0001493152-25-026839-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-12-09",
+   "deal_id": "MDR-82127d9cb5"
+  },
+  {
+   "title": "Call Up Fund 1, LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2094513/000149315226021110/0001493152-26-021110-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-05-04",
+   "deal_id": "MDR-82127d9cb5"
+  },
+  {
+   "title": "Northpointe Bancshares Inc 8-K (Item 1.01 definitive agreement, Item 7.01 Reg FD)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1336706/000133670625000012/0001336706-25-000012-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-12-09",
+   "deal_id": "MDR-0763347b03"
   }
  ]
 }

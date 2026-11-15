@@ -1,0 +1,226 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-02-10",
+ "week_end": "2025-02-16",
+ "generated_at": "2026-11-15T22:32:30Z",
+ "headline": "2 Michigan deals; $702M raised in private financings",
+ "stats": {
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 2,
+  "financing_raised": 701990000,
+  "fund_raises": 2,
+  "fund_capital_raised": 17225000,
+  "stakes": 3
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.0,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 3.5,
+  "financing_raised": 317225339.0,
+  "fund_raises": 3.0,
+  "fund_capital_raised": 11903000.0,
+  "stakes": 0.2
+ },
+ "change_vs_trailing": {
+  "ma_deals": -100.0,
+  "financings": -42.9,
+  "financing_raised": 121.3
+ },
+ "notable_ma": [],
+ "top_financings": [
+  {
+   "deal_id": "MDR-a44391da3b",
+   "title": "Stryker Corp: debt offering ($700M)",
+   "summary": "Stryker Corp: debt offering ($700M).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Stryker Corp",
+   "acquirer": null,
+   "value": 700000000.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southwest Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-9ed6e2ae7b",
+   "title": "Protein Pints Inc.: debt raise ($2M raised)",
+   "summary": "Protein Pints Inc.: debt raise ($2M raised).",
+   "deal_type": "Debt Raise",
+   "status": "Announced",
+   "target": "Protein Pints Inc.",
+   "acquirer": null,
+   "value": 1990000.0,
+   "value_label": "Amount raised",
+   "sector": "Advanced Manufacturing",
+   "region": "West Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-68d4f45fe8",
+   "name": "Flip Holdings, LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 17225000.0,
+   "city": "Bloomfield Hills"
+  },
+  {
+   "id": "CF-043d93a93f",
+   "name": "Matterhorn Capital Fund I, LP",
+   "category": "Private Equity Fund",
+   "amount_raised": 0.0,
+   "city": "Ada"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-02-16",
+   "2025-02-16"
+  ],
+  "acquirers": [
+   {
+    "name": "Stryker Corp",
+    "deals": 1,
+    "disclosed_value": 4900000000.0,
+    "recent_deal_ids": [
+     "MDR-6f503b58c5"
+    ]
+   },
+   {
+    "name": "CP Acquisitions, LLC",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-28e094740d"
+    ]
+   },
+   {
+    "name": "Gentex Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-d08cc96cee"
+    ]
+   },
+   {
+    "name": "Shyft, Aebi Schmidt Holding AG",
+    "deals": 1,
+    "disclosed_value": 474000000.0,
+    "recent_deal_ids": [
+     "MDR-3c7f849168"
+    ]
+   },
+   {
+    "name": "Ansys, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Perella Weinberg Partners has not",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-762c28a96f"
+    ]
+   }
+  ],
+  "legal_advisors": []
+ },
+ "sector_commentary": [
+  {
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: Stryker Corp: debt offering ($700M)."
+  },
+  {
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: Protein Pints Inc.: debt raise ($2M raised)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $702M raised across 2 financings (up 121% vs. the trailing 4-week average). The largest: Stryker Corp: debt offering ($700M). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-a44391da3b"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "2 Michigan-based fund vehicles reported $17.2M raised, led by Flip Holdings, LLC (Private Equity Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Healthcare was the most active Michigan sector this week with 1 deal. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stryker Corp 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/310764/000119312525023587/0001193125-25-023587-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-02-10",
+   "deal_id": "MDR-a44391da3b"
+  },
+  {
+   "title": "Protein Pints Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2030080/000203008025000001/0002030080-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-02-10",
+   "deal_id": "MDR-9ed6e2ae7b"
+  }
+ ]
+}

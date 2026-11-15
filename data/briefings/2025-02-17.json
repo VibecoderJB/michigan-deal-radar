@@ -1,0 +1,304 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-02-17",
+ "week_end": "2025-02-23",
+ "generated_at": "2026-11-15T22:32:30Z",
+ "headline": "1 Michigan M&A deal, 4 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+ "stats": {
+  "ma_deals": 1,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 4,
+  "financing_raised": 5965000,
+  "fund_raises": 3,
+  "fund_capital_raised": 13720000,
+  "stakes": 0
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.0,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 3.8,
+  "financing_raised": 492097839.0,
+  "fund_raises": 2.0,
+  "fund_capital_raised": 13824000.0,
+  "stakes": 1.0
+ },
+ "change_vs_trailing": {
+  "ma_deals": 0.0,
+  "financings": 6.7,
+  "financing_raised": -98.8
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-92bfea89d6",
+   "title": "High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "summary": "High Street Holdco, LLC issued securities in an acquisition (target not named).",
+   "deal_type": "Acquisition",
+   "status": "Closed",
+   "target": null,
+   "acquirer": "High Street Holdco, LLC",
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Financial Services",
+   "region": "Northern Michigan",
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-3f3853bfc1",
+   "title": "Instrumentum, LLC: venture round ($4M raised)",
+   "summary": "Instrumentum, LLC: venture round ($4M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Instrumentum, LLC",
+   "acquirer": null,
+   "value": 4000000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-79c6ee6489",
+   "title": "Patensee, Inc.: venture round ($1.6M raised)",
+   "summary": "Patensee, Inc.: venture round ($1.6M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Patensee, Inc.",
+   "acquirer": null,
+   "value": 1600000.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-963b74b35d",
+   "title": "Clean Energy Sauce LLC: growth equity ($315K raised)",
+   "summary": "Clean Energy Sauce LLC: growth equity ($315K raised).",
+   "deal_type": "Growth Equity",
+   "status": "Closed",
+   "target": "Clean Energy Sauce LLC",
+   "acquirer": null,
+   "value": 315000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-fd763c761f",
+   "title": "Majesty SPV-Orb, LP: venture round ($50K raised)",
+   "summary": "Majesty SPV-Orb, LP: venture round ($50K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Majesty SPV-Orb, LP",
+   "acquirer": null,
+   "value": 50000.0,
+   "value_label": "Amount raised",
+   "sector": "Advanced Manufacturing",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-9909d23463",
+   "name": "Cricket Ridge Holdings LLC",
+   "category": "Real Estate",
+   "amount_raised": 11450000.0,
+   "city": "Troy"
+  },
+  {
+   "id": "CF-f383a69107",
+   "name": "Noblestone Credit Select LLC",
+   "category": "Real Estate",
+   "amount_raised": 1520000.0,
+   "city": "Southfield"
+  },
+  {
+   "id": "CF-5f30f287dc",
+   "name": "4th & Elm Investments LLC",
+   "category": "Real Estate",
+   "amount_raised": 750000.0,
+   "city": "Saline"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-02-23",
+   "2025-02-23"
+  ],
+  "acquirers": [
+   {
+    "name": "Stryker Corp",
+    "deals": 1,
+    "disclosed_value": 4900000000.0,
+    "recent_deal_ids": [
+     "MDR-6f503b58c5"
+    ]
+   },
+   {
+    "name": "CP Acquisitions, LLC",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-28e094740d"
+    ]
+   },
+   {
+    "name": "Gentex Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-d08cc96cee"
+    ]
+   },
+   {
+    "name": "Shyft, Aebi Schmidt Holding AG",
+    "deals": 1,
+    "disclosed_value": 474000000.0,
+    "recent_deal_ids": [
+     "MDR-3c7f849168"
+    ]
+   },
+   {
+    "name": "Ansys, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Perella Weinberg Partners has not",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-762c28a96f"
+    ]
+   }
+  ],
+  "legal_advisors": []
+ },
+ "sector_commentary": [
+  {
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: Majesty SPV-Orb, LP: venture round ($50K raised)."
+  },
+  {
+   "sector": "Financial Services",
+   "deals": 1,
+   "text": "1 deal: High Street Holdco, LLC issued securities in an acquisition (target not named)."
+  },
+  {
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: Patensee, Inc.: venture round ($1.6M raised)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "High Street Holdco, LLC issued securities in an acquisition (target not named). Ask how buyers are underwriting Michigan financial services assets right now.",
+   "deal_ids": [
+    "MDR-92bfea89d6"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $6M raised across 4 financings (down 99% vs. the trailing 4-week average). The largest: Instrumentum, LLC: venture round ($4M raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-3f3853bfc1"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "3 Michigan-based fund vehicles reported $13.7M raised, led by Cricket Ridge Holdings LLC (Real Estate). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "High Street Holdco, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2021228/000161559425000037/0001615594-25-000037-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-02-20",
+   "deal_id": "MDR-92bfea89d6"
+  },
+  {
+   "title": "Instrumentum, LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1938536/000193853625000001/0001938536-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-02-18",
+   "deal_id": "MDR-3f3853bfc1"
+  },
+  {
+   "title": "Patensee, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2057317/000090572925000043/0000905729-25-000043-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-02-20",
+   "deal_id": "MDR-79c6ee6489"
+  },
+  {
+   "title": "Clean Energy Sauce LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2056931/000090572925000042/0000905729-25-000042-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-02-20",
+   "deal_id": "MDR-963b74b35d"
+  },
+  {
+   "title": "Majesty SPV-Orb, LP Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2056466/000205646625000001/0002056466-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-02-20",
+   "deal_id": "MDR-fd763c761f"
+  }
+ ]
+}

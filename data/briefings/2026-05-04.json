@@ -1,166 +1,288 @@
 {
+ "schema_version": 2,
  "week_start": "2026-05-04",
  "week_end": "2026-05-10",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "5 Michigan deals, $38.2M raised — led by Hantz Ventures - PF III (QP) LLC",
+ "generated_at": "2026-11-15T22:32:41Z",
+ "headline": "2 Michigan deals; $935K raised in private financings",
  "stats": {
-  "deal_count": 5,
-  "by_type": {
-   "Fundraise": 5,
-   "M&A": 0,
-   "Material Agreement": 0,
-   "Stake": 0
-  },
-  "capital_raised": 38210000,
-  "capital_targeted": 53675000,
-  "fund_count": 1
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 2,
+  "financing_raised": 935000,
+  "fund_raises": 2,
+  "fund_capital_raised": 36450000,
+  "stakes": 0
  },
  "trailing_4wk": {
-  "deal_count": 9.2,
-  "capital_raised": 54672949.5
+  "ma_deals": 0.5,
+  "ma_disclosed_value": 181500000.0,
+  "ma_with_value": 0.2,
+  "financings": 4.8,
+  "financing_raised": 148774938.5,
+  "fund_raises": 2.5,
+  "fund_capital_raised": 9326761.0,
+  "stakes": 0.8
  },
  "change_vs_trailing": {
-  "deal_count_pct": -45.9,
-  "capital_raised_pct": -30.1
+  "ma_deals": -100.0,
+  "financings": -57.9,
+  "financing_raised": -99.4
  },
- "top_deals": [
-  {
-   "id": "D-2131756-021-582899",
-   "company": "Hantz Ventures - PF III (QP) LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Venture Capital Fund",
-   "city": "Southfield",
-   "sector": "Private Funds",
-   "amount": 36000000.0,
-   "amount_sold": 36000000.0,
-   "amount_is_estimate": false,
-   "summary": "Hantz Ventures - PF III (QP) LLC, a Southfield-based venture capital fund, disclosed a $36M raise; $36M sold to 88 investors.",
-   "filed": "2026-05-05"
-  },
-  {
-   "id": "D-2094513-021-566270",
-   "company": "Call Up Fund 1, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Farmington Hills",
-   "sector": "Financial Services",
-   "amount": 10000000.0,
-   "amount_sold": 825000.0,
-   "amount_is_estimate": false,
-   "summary": "Call Up Fund 1, LLC, a Farmington Hills-based investment company, filed a $10M equity and other securities offering under Rule 506(c); $825K sold to 5 investors. (Amended filing.)",
-   "filed": "2026-05-04"
-  },
-  {
-   "id": "D-2133262-021-582806",
-   "company": "Talbot Portage LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Birmingham",
-   "sector": "Real Estate",
-   "amount": 5000000.0,
-   "amount_sold": 450000.0,
-   "amount_is_estimate": false,
-   "summary": "Talbot Portage LLC, a Birmingham-based residential real estate company, filed a $5M equity offering under Rule 506(b); $450K sold to 3 investors.",
-   "filed": "2026-05-04"
-  },
-  {
-   "id": "D-2134232-021-583419",
-   "company": "Thermaxis, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Traverse City",
-   "sector": "Manufacturing & Automotive",
-   "amount": 1500000.0,
-   "amount_sold": 325000.0,
-   "amount_is_estimate": false,
-   "summary": "Thermaxis, LLC, a Traverse City-based manufacturing company, filed a $1.5M debt offering under Rule 506(b); $325K sold to 3 investors.",
-   "filed": "2026-05-08"
-  },
-  {
-   "id": "D-1638343-021-583153",
-   "company": "Passage Inc.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Detroit",
-   "sector": "Technology",
-   "amount": 1175000.0,
-   "amount_sold": 610000.0,
-   "amount_is_estimate": false,
-   "summary": "Passage Inc., a Detroit-based technology company, filed a $1.2M equity offering under Rule 506(b); $610K sold to 4 investors.",
-   "filed": "2026-05-07"
-  }
- ],
- "new_funds": [
-  {
-   "id": "D-2131756-021-582899",
-   "company": "Hantz Ventures - PF III (QP) LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Venture Capital Fund",
-   "city": "Southfield",
-   "sector": "Private Funds",
-   "amount": 36000000.0,
-   "amount_sold": 36000000.0,
-   "amount_is_estimate": false,
-   "summary": "Hantz Ventures - PF III (QP) LLC, a Southfield-based venture capital fund, disclosed a $36M raise; $36M sold to 88 investors.",
-   "filed": "2026-05-05"
-  }
- ],
  "notable_ma": [],
- "material_agreements": [],
- "top_sectors": [
+ "top_financings": [
   {
-   "sector": "Private Funds",
-   "count": 1,
-   "amount": 36000000.0
+   "deal_id": "MDR-e5427185ad",
+   "title": "Passage Inc.: growth equity ($610K raised)",
+   "summary": "Passage Inc.: growth equity ($610K raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Passage Inc.",
+   "acquirer": null,
+   "value": 610000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   },
   {
-   "sector": "Financial Services",
-   "count": 1,
-   "amount": 825000.0
+   "deal_id": "MDR-2142dde8fe",
+   "title": "Thermaxis, LLC: debt raise ($325K raised)",
+   "summary": "Thermaxis, LLC: debt raise ($325K raised).",
+   "deal_type": "Debt Raise",
+   "status": "Announced",
+   "target": "Thermaxis, LLC",
+   "acquirer": null,
+   "value": 325000.0,
+   "value_label": "Amount raised",
+   "sector": "Advanced Manufacturing",
+   "region": "Northern Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-306588dacd",
+   "name": "Hantz Ventures - PF III (QP) LLC",
+   "category": "Venture Capital Fund",
+   "amount_raised": 36000000.0,
+   "city": "Southfield"
   },
   {
-   "sector": "Technology",
-   "count": 1,
-   "amount": 610000.0
+   "id": "CF-8efee0316d",
+   "name": "Talbot Portage LLC",
+   "category": "Real Estate",
+   "amount_raised": 450000.0,
+   "city": "Birmingham"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2025-05-10",
+   "2026-05-10"
+  ],
+  "acquirers": [
+   {
+    "name": "Essence Parent Inc.",
+    "deals": 1,
+    "disclosed_value": 726000000.0,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Independent Bank Corp",
+    "deals": 1,
+    "disclosed_value": 70800000.0,
+    "recent_deal_ids": [
+     "MDR-81bcf88076"
+    ]
+   },
+   {
+    "name": "Esperion Therapeutics, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   },
+   {
+    "name": "Gentherm Inc",
+    "deals": 1,
+    "disclosed_value": 150000000.0,
+    "recent_deal_ids": [
+     "MDR-d830f32ff0"
+    ]
+   },
+   {
+    "name": "Lineage, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-700fcaad5d"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 3,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "ARCHIMED on April 21",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Independent include individuals that control",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Athyrium Capital Management",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   },
+   {
+    "name": "PJT Partners",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20",
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-964f877284",
+     "MDR-60d2b79b16",
+     "MDR-004182e774"
+    ]
+   },
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-653115fcbd",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Akin Gump LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Sidley Austin LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: Thermaxis, LLC: debt raise ($325K raised)."
   },
   {
-   "sector": "Real Estate",
-   "count": 1,
-   "amount": 450000.0
-  },
-  {
-   "sector": "Manufacturing & Automotive",
-   "count": 1,
-   "amount": 325000.0
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: Passage Inc.: growth equity ($610K raised)."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $38.2M sold across 5 Form D filings this week, down 30% vs. the prior 4-week average. The largest was Call Up Fund 1, LLC (Farmington Hills, Investing) targeting $10M. Good question to ask: are founders in financial services favoring equity rounds over venture debt right now?",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $935K raised across 2 financings (down 99% vs. the trailing 4-week average). The largest: Passage Inc.: growth equity ($610K raised). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "D-2094513-021-566270"
+    "MDR-e5427185ad"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "1 Michigan-based pooled fund filed Form Ds, reporting $36M raised so far — led by Hantz Ventures - PF III (QP) LLC (Venture Capital Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-2131756-021-582899"
-   ]
+   "text": "2 Michigan-based fund vehicles reported $36.5M raised, led by Hantz Ventures - PF III (QP) LLC (Venture Capital Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
   },
   {
    "topic": "Sector watch",
-   "text": "Manufacturing & Automotive was the most active sector with 1 of 5 filings (20%). Ask contacts what's driving the activity, and whether it's showing up in their pipeline.",
-   "deal_ids": [
-    "D-2134232-021-583419"
-   ]
+   "text": "Advanced Manufacturing was the most active Michigan sector this week with 1 deal. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Passage Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1638343/000163834326000005/0001638343-26-000005-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-05-07",
+   "deal_id": "MDR-e5427185ad"
+  },
+  {
+   "title": "Thermaxis, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2134232/000213423226000001/0002134232-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-05-08",
+   "deal_id": "MDR-2142dde8fe"
   }
  ]
 }

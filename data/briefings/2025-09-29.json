@@ -1,0 +1,451 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-09-29",
+ "week_end": "2025-10-05",
+ "generated_at": "2026-11-15T22:32:34Z",
+ "headline": "1 Michigan M&A deal, 6 financings; Rocket Companies, Inc.: M&A transaction with Rocket Mortgage and the Administrative Agent, under which, inter alia, the Company (buyer/target roles under review)",
+ "stats": {
+  "ma_deals": 1,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 6,
+  "financing_raised": 606000309,
+  "fund_raises": 4,
+  "fund_capital_raised": 107382612,
+  "stakes": 2
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.8,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 2.8,
+  "financing_raised": 13282605.2,
+  "fund_raises": 2.0,
+  "fund_capital_raised": 3325000.0,
+  "stakes": 0.0
+ },
+ "change_vs_trailing": {
+  "ma_deals": -42.9,
+  "financings": 118.2,
+  "financing_raised": 4462.4
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-60d2b79b16",
+   "title": "Rocket Companies, Inc.: M&A transaction with Rocket Mortgage and the Administrative Agent, under which, inter alia, the Company (buyer/target roles under review)",
+   "summary": "Rocket Companies, Inc.: M&A transaction with Rocket Mortgage and the Administrative Agent, under which, inter alia, the Company (buyer/target roles under review) (cash & stock); closed 2025-10-01.",
+   "deal_type": "Acquisition",
+   "status": "Closed",
+   "target": null,
+   "acquirer": null,
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Financial Services",
+   "region": null,
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-09d287c06d",
+   "title": "Wolverine World Wide Inc: credit facility ($600M)",
+   "summary": "Wolverine World Wide Inc: credit facility ($600M).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Wolverine World Wide Inc",
+   "acquirer": null,
+   "value": 600000000.0,
+   "value_label": "Amount raised",
+   "sector": "Consumer",
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-ab07374994",
+   "title": "Dart Financial Corp: growth equity ($3.6M raised)",
+   "summary": "Dart Financial Corp: growth equity ($3.6M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Dart Financial Corp",
+   "acquirer": null,
+   "value": 3575309.0,
+   "value_label": "Amount raised",
+   "sector": "Financial Services",
+   "region": "Mid-Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-99714074ea",
+   "title": "Town Doc, Inc.: venture round ($1M raised)",
+   "summary": "Town Doc, Inc.: venture round ($1M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Town Doc, Inc.",
+   "acquirer": null,
+   "value": 1000000.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-76f8294cbc",
+   "title": "Honor & Fire LLC: growth equity ($900K raised)",
+   "summary": "Honor & Fire LLC: growth equity ($900K raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Honor & Fire LLC",
+   "acquirer": null,
+   "value": 900000.0,
+   "value_label": "Amount raised",
+   "sector": "Business Services",
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-4b4c8e22b0",
+   "title": "Spring Rock Venture Partners VI LP: venture round ($525K raised)",
+   "summary": "Spring Rock Venture Partners VI LP: venture round ($525K raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "Spring Rock Venture Partners VI LP",
+   "acquirer": null,
+   "value": 525000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southwest Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-754bfda033",
+   "name": "Sleeping Giant Capital Principled Impact Evergreen Fund II, LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 100000000.0,
+   "city": "Kalamazoo"
+  },
+  {
+   "id": "CF-37ef4542c3",
+   "name": "Hantz Ventures - SPV I LLC",
+   "category": "Venture Capital Fund",
+   "amount_raised": 7382612.0,
+   "city": "Southfield"
+  },
+  {
+   "id": "CF-4c8fbbba31",
+   "name": "Crestland Capital, L.P.",
+   "category": "Hedge Fund",
+   "amount_raised": 0.0,
+   "city": "Ann Arbor"
+  },
+  {
+   "id": "CF-afd836df2a",
+   "name": "Twin Lux H Squared LLC",
+   "category": "Real Estate",
+   "amount_raised": 0.0,
+   "city": "Woodhaven"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-10-05",
+   "2025-10-05"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 11150000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "HNI Corporation",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "Mercantile Bank Corp",
+    "deals": 1,
+    "disclosed_value": 95800000.0,
+    "recent_deal_ids": [
+     "MDR-b2f94c7e43"
+    ]
+   },
+   {
+    "name": "Mars, Incorporated",
+    "deals": 1,
+    "disclosed_value": 3100000000.0,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Parent, pursuant to which Parent agreed to purchase, and the Company",
+    "deals": 1,
+    "disclosed_value": 725000000.0,
+    "recent_deal_ids": [
+     "MDR-3cf289038e"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 2,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Kate Pew Wolters",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Mercantile for purposes of Rule 144 under the Securities Act",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "WK Kellogg",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-6770a293fd",
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000",
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Bradley Arant Boult Cummings LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Wachtell, Lipton, Rosen & Katz",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Davis Polk & Wardwell LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-63d95e3510"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Business Services",
+   "deals": 2,
+   "text": "2 deals: Universal Logistics Holdings, Inc.: credit facility; Honor & Fire LLC: growth equity ($900K raised)."
+  },
+  {
+   "sector": "Financial Services",
+   "deals": 2,
+   "text": "2 deals: Dart Financial Corp: growth equity ($3.6M raised); Rocket Companies, Inc.: M&A transaction with Rocket Mortgage and the Administrative Agent, under which, inter alia, the Company (buyer/target roles under review)."
+  },
+  {
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: Town Doc, Inc.: venture round ($1M raised)."
+  },
+  {
+   "sector": "Consumer",
+   "deals": 1,
+   "text": "1 deal: Wolverine World Wide Inc: credit facility ($600M)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "Rocket Companies, Inc.: M&A transaction with Rocket Mortgage and the Administrative Agent, under which, inter alia, the Company (buyer/target roles under review). Ask how buyers are underwriting Michigan financial services assets right now.",
+   "deal_ids": [
+    "MDR-60d2b79b16"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $606M raised across 6 financings (up 4462% vs. the trailing 4-week average). The largest: Wolverine World Wide Inc: credit facility ($600M). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-09d287c06d"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "4 Michigan-based fund vehicles reported $107.4M raised, led by Sleeping Giant Capital Principled Impact Evergreen Fund II, LLC (Private Equity Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Rocket Companies, Inc. 8-K (Item 1.01 definitive agreement, Item 2.01 completion, Item 7.01 Reg FD, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1805284/000095014225002622/0000950142-25-002622-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-10-01",
+   "deal_id": "MDR-60d2b79b16"
+  },
+  {
+   "title": "Wolverine World Wide Inc 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/110471/000162828025043230/0001628280-25-043230-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-09-30",
+   "deal_id": "MDR-09d287c06d"
+  },
+  {
+   "title": "Dart Financial Corp Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1589984/000158998425000002/0001589984-25-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-03",
+   "deal_id": "MDR-ab07374994"
+  },
+  {
+   "title": "Dart Financial Corp Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1589984/000158998426000001/0001589984-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-09-29",
+   "deal_id": "MDR-ab07374994"
+  },
+  {
+   "title": "Town Doc, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2088770/000090572925000153/0000905729-25-000153-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-09-30",
+   "deal_id": "MDR-99714074ea"
+  },
+  {
+   "title": "Honor & Fire LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2082741/000208274125000001/0002082741-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-01",
+   "deal_id": "MDR-76f8294cbc"
+  },
+  {
+   "title": "Honor & Fire LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2082741/000208274126000001/0002082741-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-01-06",
+   "deal_id": "MDR-76f8294cbc"
+  },
+  {
+   "title": "Honor & Fire LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2082741/000208274126000002/0002082741-26-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-01-13",
+   "deal_id": "MDR-76f8294cbc"
+  },
+  {
+   "title": "Honor & Fire LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2082741/000208274126000003/0002082741-26-000003-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-02-25",
+   "deal_id": "MDR-76f8294cbc"
+  },
+  {
+   "title": "Honor & Fire LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2082741/000208274126000004/0002082741-26-000004-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-05-18",
+   "deal_id": "MDR-76f8294cbc"
+  },
+  {
+   "title": "Honor & Fire LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2082741/000208274126000005/0002082741-26-000005-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-06-22",
+   "deal_id": "MDR-76f8294cbc"
+  },
+  {
+   "title": "Honor & Fire LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2082741/000208274126000006/0002082741-26-000006-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-09-10",
+   "deal_id": "MDR-76f8294cbc"
+  },
+  {
+   "title": "Honor & Fire LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2082741/000208274126000007/0002082741-26-000007-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-11-03",
+   "deal_id": "MDR-76f8294cbc"
+  },
+  {
+   "title": "Spring Rock Venture Partners VI LP Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2087116/000208711625000001/0002087116-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-10-02",
+   "deal_id": "MDR-4b4c8e22b0"
+  }
+ ]
+}

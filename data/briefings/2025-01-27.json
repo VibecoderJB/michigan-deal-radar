@@ -1,0 +1,299 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-01-27",
+ "week_end": "2025-02-02",
+ "generated_at": "2026-11-15T22:32:30Z",
+ "headline": "5 Michigan deals; $1.3B raised in private financings",
+ "stats": {
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 5,
+  "financing_raised": 1256672946,
+  "fund_raises": 2,
+  "fund_capital_raised": 21890000,
+  "stakes": 0
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.8,
+  "ma_disclosed_value": 1525000000.0,
+  "ma_with_value": 0.5,
+  "financings": 2.2,
+  "financing_raised": 6578949.5,
+  "fund_raises": 2.5,
+  "fund_capital_raised": 3852318.2,
+  "stakes": 1.0
+ },
+ "change_vs_trailing": {
+  "ma_deals": -100.0,
+  "financings": 122.2,
+  "financing_raised": 19001.4
+ },
+ "notable_ma": [],
+ "top_financings": [
+  {
+   "deal_id": "MDR-5402b7c009",
+   "title": "American Axle & Manufacturing Holdings Inc: credit facility ($1.2B)",
+   "summary": "American Axle & Manufacturing Holdings Inc: credit facility ($1.2B).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "American Axle & Manufacturing Holdings Inc",
+   "acquirer": null,
+   "value": 1250000000.0,
+   "value_label": "Amount raised",
+   "sector": "Automotive & Mobility",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-c6d77be4e0",
+   "title": "MH3D, Inc.: venture round ($3.3M raised)",
+   "summary": "MH3D, Inc.: venture round ($3.3M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "MH3D, Inc.",
+   "acquirer": null,
+   "value": 3313000.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-657d1f5c2a",
+   "title": "Heat2Power Inc.: venture round ($3M raised)",
+   "summary": "Heat2Power Inc.: venture round ($3M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Heat2Power Inc.",
+   "acquirer": null,
+   "value": 2999946.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-e0e95bf0e8",
+   "title": "SIGU Credit, LLC: debt raise ($190K raised)",
+   "summary": "SIGU Credit, LLC: debt raise ($190K raised).",
+   "deal_type": "Debt Raise",
+   "status": "Announced",
+   "target": "SIGU Credit, LLC",
+   "acquirer": null,
+   "value": 190000.0,
+   "value_label": "Amount raised",
+   "sector": "Financial Services",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-809b3c219c",
+   "title": "Binge Golf Corp: venture round ($170K raised)",
+   "summary": "Binge Golf Corp: venture round ($170K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Binge Golf Corp",
+   "acquirer": null,
+   "value": 170000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-58dfcc0b15",
+   "name": "Investnext, Inc.",
+   "category": "Real Estate",
+   "amount_raised": 14800000.0,
+   "city": "Detroit"
+  },
+  {
+   "id": "CF-25a3e75720",
+   "name": "Talbot Bridge LLC",
+   "category": "Real Estate",
+   "amount_raised": 7090000.0,
+   "city": "Birmingham"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-02-02",
+   "2025-02-02"
+  ],
+  "acquirers": [
+   {
+    "name": "Stryker Corp",
+    "deals": 1,
+    "disclosed_value": 4900000000.0,
+    "recent_deal_ids": [
+     "MDR-6f503b58c5"
+    ]
+   },
+   {
+    "name": "CP Acquisitions, LLC",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-28e094740d"
+    ]
+   },
+   {
+    "name": "Gentex Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-d08cc96cee"
+    ]
+   },
+   {
+    "name": "Shyft, Aebi Schmidt Holding AG",
+    "deals": 1,
+    "disclosed_value": 474000000.0,
+    "recent_deal_ids": [
+     "MDR-3c7f849168"
+    ]
+   },
+   {
+    "name": "Ansys, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Perella Weinberg Partners has not",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-762c28a96f"
+    ]
+   }
+  ],
+  "legal_advisors": []
+ },
+ "sector_commentary": [
+  {
+   "sector": "Software & Technology",
+   "deals": 2,
+   "text": "2 deals: Binge Golf Corp: venture round ($170K raised); Heat2Power Inc.: venture round ($3M raised)."
+  },
+  {
+   "sector": "Financial Services",
+   "deals": 1,
+   "text": "1 deal: SIGU Credit, LLC: debt raise ($190K raised)."
+  },
+  {
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: MH3D, Inc.: venture round ($3.3M raised)."
+  },
+  {
+   "sector": "Automotive & Mobility",
+   "deals": 1,
+   "text": "1 deal: American Axle & Manufacturing Holdings Inc: credit facility ($1.2B)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $1.3B raised across 5 financings (up 19001% vs. the trailing 4-week average). The largest: American Axle & Manufacturing Holdings Inc: credit facility ($1.2B). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-5402b7c009"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "2 Michigan-based fund vehicles reported $21.9M raised, led by Investnext, Inc. (Real Estate). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Software & Technology was the most active Michigan sector this week with 2 deals. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "American Axle & Manufacturing Holdings Inc 8-K (Item 1.01 definitive agreement, Item 7.01 Reg FD)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1062231/000110465925007242/0001104659-25-007242-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-01-29",
+   "deal_id": "MDR-5402b7c009"
+  },
+  {
+   "title": "MH3D, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2054406/000205440625000001/0002054406-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-01-30",
+   "deal_id": "MDR-c6d77be4e0"
+  },
+  {
+   "title": "Heat2Power Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2053146/000205314625000001/0002053146-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-01-27",
+   "deal_id": "MDR-657d1f5c2a"
+  },
+  {
+   "title": "SIGU Credit, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2054527/000205452725000001/0002054527-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-01-31",
+   "deal_id": "MDR-e0e95bf0e8"
+  },
+  {
+   "title": "Binge Golf Corp Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2002301/000200230125000001/0002002301-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-01-29",
+   "deal_id": "MDR-809b3c219c"
+  }
+ ]
+}

@@ -1,239 +1,346 @@
 {
+ "schema_version": 2,
  "week_start": "2025-11-17",
  "week_end": "2025-11-23",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "11 Michigan deals, $146.5M raised — led by Penske Automotive Group, Inc.",
+ "generated_at": "2026-11-15T22:32:35Z",
+ "headline": "1 Michigan M&A deal, 3 financings; Penske Automotive Group, Inc. to acquire undisclosed target",
  "stats": {
-  "deal_count": 11,
-  "by_type": {
-   "Fundraise": 7,
-   "M&A": 1,
-   "Material Agreement": 3,
-   "Stake": 0
-  },
-  "capital_raised": 146451780,
-  "capital_targeted": 158308480,
-  "fund_count": 2
+  "ma_deals": 1,
+  "ma_disclosed_value": 519423000,
+  "ma_with_value": 1,
+  "financings": 3,
+  "financing_raised": 350185000,
+  "fund_raises": 3,
+  "fund_capital_raised": 144433480,
+  "stakes": 0
  },
  "trailing_4wk": {
-  "deal_count": 1.0,
-  "capital_raised": 4092032.2
+  "ma_deals": 0.5,
+  "ma_disclosed_value": 362500000.0,
+  "ma_with_value": 0.2,
+  "financings": 4.5,
+  "financing_raised": 21766434.5,
+  "fund_raises": 3.8,
+  "fund_capital_raised": 921339642.8,
+  "stakes": 0.8
  },
  "change_vs_trailing": {
-  "deal_count_pct": 1000.0,
-  "capital_raised_pct": 3478.9
+  "ma_deals": 100.0,
+  "financings": -33.3,
+  "financing_raised": 1508.8
  },
- "top_deals": [
-  {
-   "id": "8K-0001628280-25-053042",
-   "company": "Penske Automotive Group, Inc.",
-   "ticker": "PAG",
-   "type": "M&A",
-   "subtype": "Definitive Agreement",
-   "city": "Bloomfield Hills",
-   "sector": "Consumer & Retail",
-   "amount": 519423000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "Penske Automotive Group, Inc. (PAG) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$519.4M.",
-   "filed": "2025-11-19"
-  },
-  {
-   "id": "D-2035861-021-529761",
-   "company": "Bloomfield Capital Income Fund V, LLC - Series D",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Birmingham",
-   "sector": "Private Funds",
-   "amount": 136018480.0,
-   "amount_sold": 136018480.0,
-   "amount_is_estimate": false,
-   "summary": "Bloomfield Capital Income Fund V, LLC - Series D, a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $136M sold to 61 investors. (Amended filing.)",
-   "filed": "2025-11-18"
-  },
-  {
-   "id": "D-1579495-021-529710",
-   "company": "Bfkw, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Grand Rapids",
-   "sector": "Health Care & Life Sciences",
-   "amount": 12000000.0,
-   "amount_sold": 1833300.0,
-   "amount_is_estimate": false,
-   "summary": "Bfkw, LLC, a Grand Rapids-based health care company, filed a $12M equity offering under Rule 506(b); $1.8M sold to 7 investors. (Amended filing.)",
-   "filed": "2025-11-21"
-  },
-  {
-   "id": "D-2097362-021-564544",
-   "company": "K2 Capital LSV V Fund, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Dowagiac",
-   "sector": "Private Funds",
-   "amount": 5250000.0,
-   "amount_sold": 5250000.0,
-   "amount_is_estimate": false,
-   "summary": "K2 Capital LSV V Fund, LLC, a Dowagiac-based private equity fund, disclosed an open-ended (indefinite) raise; $5.2M sold to 8 investors.",
-   "filed": "2025-11-20"
-  },
-  {
-   "id": "D-2081976-021-564787",
-   "company": "SR AA Hub Church II, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Grand Beach",
-   "sector": "Real Estate",
-   "amount": 3165000.0,
-   "amount_sold": 3165000.0,
-   "amount_is_estimate": false,
-   "summary": "SR AA Hub Church II, LLC, a Grand Beach-based real estate company, filed an indefinite-size equity offering under Rule 506(b); $3.2M sold to 15 investors.",
-   "filed": "2025-11-21"
-  }
- ],
- "new_funds": [
-  {
-   "id": "D-2035861-021-529761",
-   "company": "Bloomfield Capital Income Fund V, LLC - Series D",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Birmingham",
-   "sector": "Private Funds",
-   "amount": 136018480.0,
-   "amount_sold": 136018480.0,
-   "amount_is_estimate": false,
-   "summary": "Bloomfield Capital Income Fund V, LLC - Series D, a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $136M sold to 61 investors. (Amended filing.)",
-   "filed": "2025-11-18"
-  },
-  {
-   "id": "D-2097362-021-564544",
-   "company": "K2 Capital LSV V Fund, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Dowagiac",
-   "sector": "Private Funds",
-   "amount": 5250000.0,
-   "amount_sold": 5250000.0,
-   "amount_is_estimate": false,
-   "summary": "K2 Capital LSV V Fund, LLC, a Dowagiac-based private equity fund, disclosed an open-ended (indefinite) raise; $5.2M sold to 8 investors.",
-   "filed": "2025-11-20"
-  }
- ],
  "notable_ma": [
   {
-   "id": "8K-0001628280-25-053042",
-   "company": "Penske Automotive Group, Inc.",
-   "ticker": "PAG",
-   "type": "M&A",
-   "subtype": "Definitive Agreement",
-   "city": "Bloomfield Hills",
-   "sector": "Consumer & Retail",
-   "amount": 519423000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "Penske Automotive Group, Inc. (PAG) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$519.4M.",
-   "filed": "2025-11-19"
+   "deal_id": "MDR-8a21ae9a17",
+   "title": "Penske Automotive Group, Inc. to acquire undisclosed target",
+   "summary": "Penske Automotive Group, Inc. to acquire undisclosed target for $519.4M (cash); pending 2025-11-19.",
+   "deal_type": "Acquisition",
+   "status": "Pending",
+   "target": null,
+   "acquirer": "Penske Automotive Group, Inc.",
+   "value": 519423000.0,
+   "value_label": "Disclosed value",
+   "sector": "Automotive & Mobility",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   }
  ],
- "material_agreements": [
+ "top_financings": [
   {
-   "id": "8K-0001104659-25-114875",
-   "company": "CMS Energy Corp",
-   "ticker": "CMS",
-   "type": "Material Agreement",
-   "subtype": "Material Agreement",
-   "city": "Jackson",
-   "sector": "Energy & Utilities",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "CMS Energy Corp (CMS) entered into a material definitive agreement.",
-   "filed": "2025-11-21"
-  },
-  {
-   "id": "8K-0000885550-25-000131",
-   "company": "Credit Acceptance Corp",
-   "ticker": "CACC",
-   "type": "Material Agreement",
-   "subtype": "Material Agreement",
-   "city": "Southfield",
-   "sector": "Financial Services",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Credit Acceptance Corp (CACC) entered into a material definitive agreement.",
-   "filed": "2025-11-19"
-  },
-  {
-   "id": "8K-0001104659-25-113644",
-   "company": "Agree Realty Corp",
-   "ticker": "ADC",
-   "type": "Material Agreement",
-   "subtype": "Credit Facility",
-   "city": "Royal Oak",
+   "deal_id": "MDR-b5e1227bd3",
+   "title": "Agree Realty Corp: credit facility ($350M)",
+   "summary": "Agree Realty Corp: credit facility ($350M).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Agree Realty Corp",
+   "acquirer": null,
+   "value": 350000000.0,
+   "value_label": "Amount raised",
    "sector": "Real Estate",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Agree Realty Corp (ADC) entered into a material definitive agreement (credit facility).",
-   "filed": "2025-11-18"
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-4ab89f6ac3",
+   "title": "Fourth State Technologies Inc.: venture round ($125K raised)",
+   "summary": "Fourth State Technologies Inc.: venture round ($125K raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "Fourth State Technologies Inc.",
+   "acquirer": null,
+   "value": 125000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-2b5109fd9d",
+   "title": "NextFolio LLC: venture round ($60K raised)",
+   "summary": "NextFolio LLC: venture round ($60K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "NextFolio LLC",
+   "acquirer": null,
+   "value": 60000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Northern Michigan",
+   "confidence": "High"
   }
  ],
- "top_sectors": [
+ "fund_raises": [
   {
-   "sector": "Private Funds",
-   "count": 2,
-   "amount": 141268480.0
+   "id": "CF-f3fbd9a2a3",
+   "name": "Bloomfield Capital Income Fund V, LLC - Series D",
+   "category": "Private Equity Fund",
+   "amount_raised": 136018480.0,
+   "city": "Birmingham"
+  },
+  {
+   "id": "CF-45168b32e5",
+   "name": "K2 Capital LSV V Fund, LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 5250000.0,
+   "city": "Dowagiac"
+  },
+  {
+   "id": "CF-ca2186263d",
+   "name": "SR AA Hub Church II, LLC",
+   "category": "Real Estate",
+   "amount_raised": 3165000.0,
+   "city": "Grand Beach"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-11-23",
+   "2025-11-23"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 11150000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Penske Automotive Group, Inc.",
+    "deals": 1,
+    "disclosed_value": 519423000.0,
+    "recent_deal_ids": [
+     "MDR-8a21ae9a17"
+    ]
+   },
+   {
+    "name": "Takeoff Buyer, Inc.",
+    "deals": 1,
+    "disclosed_value": 1450000000.0,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "HNI Corporation",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "Mercantile Bank Corp",
+    "deals": 1,
+    "disclosed_value": 95800000.0,
+    "recent_deal_ids": [
+     "MDR-b2f94c7e43"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 2,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Blackstone",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Kate Pew Wolters",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Mercantile for purposes of Rule 144 under the Securities Act",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "WK Kellogg",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-6770a293fd"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Bradley Arant Boult Cummings LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16"
+    ]
+   },
+   {
+    "name": "Wachtell, Lipton, Rosen & Katz",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Automotive & Mobility",
+   "deals": 1,
+   "text": "1 deal: Penske Automotive Group, Inc. to acquire undisclosed target."
+  },
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: Fourth State Technologies Inc.: venture round ($125K raised)."
   },
   {
    "sector": "Real Estate",
-   "count": 2,
-   "amount": 3165000.0
-  },
-  {
-   "sector": "Other",
-   "count": 2,
-   "amount": 60000.0
-  },
-  {
-   "sector": "Health Care & Life Sciences",
-   "count": 1,
-   "amount": 1833300.0
-  },
-  {
-   "sector": "Technology",
-   "count": 1,
-   "amount": 125000.0
+   "deals": 1,
+   "text": "1 deal: Agree Realty Corp: credit facility ($350M)."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $146.5M sold across 7 Form D filings this week, up 3479% vs. the prior 4-week average. The largest was Bfkw, LLC (Grand Rapids, Other Health Care) targeting $12M. Good question to ask: are founders in health care & life sciences favoring equity rounds over venture debt right now?",
+   "topic": "M&A",
+   "text": "Penske Automotive Group, Inc. to acquire undisclosed target for $519.4M. Ask how buyers are underwriting Michigan automotive & mobility assets right now.",
    "deal_ids": [
-    "D-1579495-021-529710"
+    "MDR-8a21ae9a17"
    ]
   },
   {
-   "topic": "M&A",
-   "text": "Penske Automotive Group, Inc. (PAG) disclosed a deal. Use it to ask how buyers are valuing Michigan consumer & retail assets and whether consolidation is accelerating.",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $350.2M raised across 3 financings (up 1509% vs. the trailing 4-week average). The largest: Agree Realty Corp: credit facility ($350M). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "8K-0001628280-25-053042"
+    "MDR-b5e1227bd3"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "2 Michigan-based pooled funds filed Form Ds, reporting $141.3M raised so far — led by Bloomfield Capital Income Fund V, LLC - Series D (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-2035861-021-529761",
-    "D-2097362-021-564544"
-   ]
+   "text": "3 Michigan-based fund vehicles reported $144.4M raised, led by Bloomfield Capital Income Fund V, LLC - Series D (Private Equity Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Penske Automotive Group, Inc. 8-K (Item 1.01 definitive agreement, Item 7.01 Reg FD)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1019849/000162828025053042/0001628280-25-053042-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-11-19",
+   "deal_id": "MDR-8a21ae9a17"
+  },
+  {
+   "title": "Agree Realty Corp 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/917251/000110465925113644/0001104659-25-113644-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-11-18",
+   "deal_id": "MDR-b5e1227bd3"
+  },
+  {
+   "title": "Fourth State Technologies Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2096336/000209633625000001/0002096336-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-11-19",
+   "deal_id": "MDR-4ab89f6ac3"
+  },
+  {
+   "title": "NextFolio LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2031492/000203149225000002/0002031492-25-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-11-20",
+   "deal_id": "MDR-2b5109fd9d"
   }
  ]
 }

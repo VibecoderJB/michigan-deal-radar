@@ -1,192 +1,286 @@
 {
+ "schema_version": 2,
  "week_start": "2026-05-25",
  "week_end": "2026-05-31",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "5 Michigan deals, $396K raised — led by High Street Holdco, LLC",
+ "generated_at": "2026-11-15T22:32:42Z",
+ "headline": "1 Michigan M&A deal, 1 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
  "stats": {
-  "deal_count": 5,
-  "by_type": {
-   "Fundraise": 3,
-   "M&A": 1,
-   "Material Agreement": 1,
-   "Stake": 0
-  },
-  "capital_raised": 396000,
-  "capital_targeted": 975000,
-  "fund_count": 2
+  "ma_deals": 1,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 1,
+  "financing_raised": 71000,
+  "fund_raises": 2,
+  "fund_capital_raised": 325000,
+  "stakes": 0
  },
  "trailing_4wk": {
-  "deal_count": 7.2,
-  "capital_raised": 55179032.5
+  "ma_deals": 0.2,
+  "ma_disclosed_value": 181500000.0,
+  "ma_with_value": 0.2,
+  "financings": 3.2,
+  "financing_raised": 2545694349.5,
+  "fund_raises": 2.5,
+  "fund_capital_raised": 18788683.0,
+  "stakes": 0.2
  },
  "change_vs_trailing": {
-  "deal_count_pct": -31.0,
-  "capital_raised_pct": -99.3
+  "ma_deals": 300.0,
+  "financings": -69.2,
+  "financing_raised": -100.0
  },
- "top_deals": [
-  {
-   "id": "D-2021228-021-585056",
-   "company": "High Street Holdco, LLC",
-   "ticker": null,
-   "type": "M&A",
-   "subtype": "Business Combination (Form D)",
-   "city": "Traverse City",
-   "sector": "Financial Services",
-   "amount": 2300000.0,
-   "amount_sold": 2300000.0,
-   "amount_is_estimate": false,
-   "summary": "High Street Holdco, LLC, a Traverse City-based company, filed a Form D tied to a business combination (acquisition or merger); $2.3M of equity and options/warrants issued to 1 investor.",
-   "filed": "2026-05-26"
-  },
-  {
-   "id": "D-2136757-021-585332",
-   "company": "Kingsbury Pictures LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Sawyer",
-   "sector": "Other",
-   "amount": 650000.0,
-   "amount_sold": 71000.0,
-   "amount_is_estimate": false,
-   "summary": "Kingsbury Pictures LLC, a Sawyer-based company, filed a $650K equity offering under Rule 506(b); $71K sold to 5 investors.",
-   "filed": "2026-05-27"
-  },
-  {
-   "id": "D-2135870-021-584599",
-   "company": "Clubhouse Capital LOVB SF LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Venture Capital Fund",
-   "city": "Birmingham",
-   "sector": "Private Funds",
-   "amount": 250000.0,
-   "amount_sold": 250000.0,
-   "amount_is_estimate": false,
-   "summary": "Clubhouse Capital LOVB SF LLC, a Birmingham-based venture capital fund, disclosed an open-ended (indefinite) raise; $250K sold to 3 investors. (Amended filing.)",
-   "filed": "2026-05-26"
-  },
-  {
-   "id": "D-2135792-021-584600",
-   "company": "Clubhouse Capital PredictSync LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Venture Capital Fund",
-   "city": "Birmingham",
-   "sector": "Private Funds",
-   "amount": 75000.0,
-   "amount_sold": 75000.0,
-   "amount_is_estimate": false,
-   "summary": "Clubhouse Capital PredictSync LLC, a Birmingham-based venture capital fund, disclosed an open-ended (indefinite) raise; $75K sold to 3 investors. (Amended filing.)",
-   "filed": "2026-05-26"
-  }
- ],
- "new_funds": [
-  {
-   "id": "D-2135870-021-584599",
-   "company": "Clubhouse Capital LOVB SF LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Venture Capital Fund",
-   "city": "Birmingham",
-   "sector": "Private Funds",
-   "amount": 250000.0,
-   "amount_sold": 250000.0,
-   "amount_is_estimate": false,
-   "summary": "Clubhouse Capital LOVB SF LLC, a Birmingham-based venture capital fund, disclosed an open-ended (indefinite) raise; $250K sold to 3 investors. (Amended filing.)",
-   "filed": "2026-05-26"
-  },
-  {
-   "id": "D-2135792-021-584600",
-   "company": "Clubhouse Capital PredictSync LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Venture Capital Fund",
-   "city": "Birmingham",
-   "sector": "Private Funds",
-   "amount": 75000.0,
-   "amount_sold": 75000.0,
-   "amount_is_estimate": false,
-   "summary": "Clubhouse Capital PredictSync LLC, a Birmingham-based venture capital fund, disclosed an open-ended (indefinite) raise; $75K sold to 3 investors. (Amended filing.)",
-   "filed": "2026-05-26"
-  }
- ],
  "notable_ma": [
   {
-   "id": "D-2021228-021-585056",
-   "company": "High Street Holdco, LLC",
-   "ticker": null,
-   "type": "M&A",
-   "subtype": "Business Combination (Form D)",
-   "city": "Traverse City",
+   "deal_id": "MDR-a86b2a561a",
+   "title": "High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "summary": "High Street Holdco, LLC issued securities in an acquisition (target not named).",
+   "deal_type": "Acquisition",
+   "status": "Announced",
+   "target": null,
+   "acquirer": "High Street Holdco, LLC",
+   "value": null,
+   "value_label": "Disclosed value",
    "sector": "Financial Services",
-   "amount": 2300000.0,
-   "amount_sold": 2300000.0,
-   "amount_is_estimate": false,
-   "summary": "High Street Holdco, LLC, a Traverse City-based company, filed a Form D tied to a business combination (acquisition or merger); $2.3M of equity and options/warrants issued to 1 investor.",
-   "filed": "2026-05-26"
+   "region": "Northern Michigan",
+   "confidence": "High"
   }
  ],
- "material_agreements": [
+ "top_financings": [
   {
-   "id": "8K-0001213900-26-061701",
-   "company": "ENDRA Life Sciences Inc.",
-   "ticker": "NDRA",
-   "type": "Material Agreement",
-   "subtype": "Equity Financing",
-   "city": "Ann Arbor",
-   "sector": "Health Care & Life Sciences",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "ENDRA Life Sciences Inc. (NDRA) entered into a material definitive agreement (equity financing).",
-   "filed": "2026-05-28"
+   "deal_id": "MDR-a2bd19dca9",
+   "title": "Kingsbury Pictures LLC: venture round ($71K raised)",
+   "summary": "Kingsbury Pictures LLC: venture round ($71K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Kingsbury Pictures LLC",
+   "acquirer": null,
+   "value": 71000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southwest Michigan",
+   "confidence": "High"
   }
  ],
- "top_sectors": [
+ "fund_raises": [
   {
-   "sector": "Private Funds",
-   "count": 2,
-   "amount": 325000.0
+   "id": "CF-a93a6737d0",
+   "name": "Clubhouse Capital LOVB SF LLC",
+   "category": "Venture Capital Fund",
+   "amount_raised": 250000.0,
+   "city": "Birmingham"
   },
+  {
+   "id": "CF-935ddd63be",
+   "name": "Clubhouse Capital PredictSync LLC",
+   "category": "Venture Capital Fund",
+   "amount_raised": 75000.0,
+   "city": "Birmingham"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2025-05-28",
+   "2026-05-31"
+  ],
+  "acquirers": [
+   {
+    "name": "Essence Parent Inc.",
+    "deals": 1,
+    "disclosed_value": 726000000.0,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Independent Bank Corp",
+    "deals": 1,
+    "disclosed_value": 70800000.0,
+    "recent_deal_ids": [
+     "MDR-81bcf88076"
+    ]
+   },
+   {
+    "name": "Esperion Therapeutics, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   },
+   {
+    "name": "Gentherm Inc",
+    "deals": 1,
+    "disclosed_value": 150000000.0,
+    "recent_deal_ids": [
+     "MDR-d830f32ff0"
+    ]
+   },
+   {
+    "name": "Lineage, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-700fcaad5d"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 3,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "ARCHIMED on April 21",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Independent include individuals that control",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Athyrium Capital Management",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   },
+   {
+    "name": "PJT Partners",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20",
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-964f877284",
+     "MDR-60d2b79b16",
+     "MDR-004182e774"
+    ]
+   },
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-653115fcbd",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Akin Gump LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Sidley Austin LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
   {
    "sector": "Financial Services",
-   "count": 1,
-   "amount": 2300000.0
-  },
-  {
-   "sector": "Other",
-   "count": 1,
-   "amount": 71000.0
-  },
-  {
-   "sector": "Health Care & Life Sciences",
-   "count": 1,
-   "amount": 0.0
+   "deals": 1,
+   "text": "1 deal: High Street Holdco, LLC issued securities in an acquisition (target not named)."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $396K sold across 3 Form D filings this week, down 99% vs. the prior 4-week average. The largest was Kingsbury Pictures LLC (Sawyer, Other) targeting $650K. Good question to ask: are founders in other favoring equity rounds over venture debt right now?",
+   "topic": "M&A",
+   "text": "High Street Holdco, LLC issued securities in an acquisition (target not named). Ask how buyers are underwriting Michigan financial services assets right now.",
    "deal_ids": [
-    "D-2136757-021-585332"
+    "MDR-a86b2a561a"
    ]
   },
   {
-   "topic": "M&A",
-   "text": "High Street Holdco, LLC disclosed a deal. Use it to ask how buyers are valuing Michigan financial services assets and whether consolidation is accelerating.",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $71K raised across 1 financings (down 100% vs. the trailing 4-week average). The largest: Kingsbury Pictures LLC: venture round ($71K raised). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "D-2021228-021-585056"
+    "MDR-a2bd19dca9"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "2 Michigan-based pooled funds filed Form Ds, reporting $325K raised so far — led by Clubhouse Capital LOVB SF LLC (Venture Capital Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-2135870-021-584599",
-    "D-2135792-021-584600"
-   ]
+   "text": "2 Michigan-based fund vehicles reported $325K raised, led by Clubhouse Capital LOVB SF LLC (Venture Capital Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "High Street Holdco, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2021228/000161559426000032/0001615594-26-000032-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-05-26",
+   "deal_id": "MDR-a86b2a561a"
+  },
+  {
+   "title": "Kingsbury Pictures LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2136757/000213675726000001/0002136757-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-05-27",
+   "deal_id": "MDR-a2bd19dca9"
   }
  ]
 }

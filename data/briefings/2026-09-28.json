@@ -1,240 +1,334 @@
 {
+ "schema_version": 2,
  "week_start": "2026-09-28",
  "week_end": "2026-10-04",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "10 Michigan deals, $86.3M raised — led by ENDRA Life Sciences Inc.",
+ "generated_at": "2026-11-15T22:32:45Z",
+ "headline": "1 Michigan M&A deal, 3 financings; Gentherm Inc sold business to undisclosed buyer",
  "stats": {
-  "deal_count": 10,
-  "by_type": {
-   "Fundraise": 6,
-   "M&A": 2,
-   "Material Agreement": 2,
-   "Stake": 0
-  },
-  "capital_raised": 86294514,
-  "capital_targeted": 98860516,
-  "fund_count": 2
+  "ma_deals": 1,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 3,
+  "financing_raised": 501833998,
+  "fund_raises": 3,
+  "fund_capital_raised": 80885207,
+  "stakes": 0
  },
  "trailing_4wk": {
-  "deal_count": 13.5,
-  "capital_raised": 65901986.5
+  "ma_deals": 1.0,
+  "ma_disclosed_value": 1412500000.0,
+  "ma_with_value": 0.2,
+  "financings": 3.8,
+  "financing_raised": 15360946.0,
+  "fund_raises": 7.0,
+  "fund_capital_raised": 57916040.5,
+  "stakes": 0.5
  },
  "change_vs_trailing": {
-  "deal_count_pct": -25.9,
-  "capital_raised_pct": 30.9
+  "ma_deals": 0.0,
+  "financings": -20.0,
+  "financing_raised": 3166.9
  },
- "top_deals": [
-  {
-   "id": "8K-0001213900-26-105899",
-   "company": "ENDRA Life Sciences Inc.",
-   "ticker": "NDRA",
-   "type": "M&A",
-   "subtype": "Definitive Agreement",
-   "city": "Ann Arbor",
-   "sector": "Health Care & Life Sciences",
-   "amount": 200000000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "ENDRA Life Sciences Inc. (NDRA) disclosed a definitive merger/acquisition agreement with ASP Isotopes Inc.; filing cites a figure of ~$200M.",
-   "filed": "2026-10-01"
-  },
-  {
-   "id": "D-1949307-021-460852",
-   "company": "Clarkston QV Fund, LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Other Investment Fund",
-   "city": "Bloomfield Hills",
-   "sector": "Private Funds",
-   "amount": 80585207.0,
-   "amount_sold": 80585207.0,
-   "amount_is_estimate": false,
-   "summary": "Clarkston QV Fund, LP, a Bloomfield Hills-based investment fund, disclosed an open-ended (indefinite) raise; $80.6M sold to 57 investors. (Amended filing.)",
-   "filed": "2026-09-30"
-  },
-  {
-   "id": "D-2149393-021-599029",
-   "company": "Chuck Waste, Inc",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Walker",
-   "sector": "Technology",
-   "amount": 7000000.0,
-   "amount_sold": 833998.0,
-   "amount_is_estimate": false,
-   "summary": "Chuck Waste, Inc, a Walker-based technology company, filed a $7M equity offering under Rule 506(b); $834K sold to 4 investors.",
-   "filed": "2026-09-28"
-  },
-  {
-   "id": "D-2151729-021-599334",
-   "company": "Boch Investment Fund, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Bloomfield Hills",
-   "sector": "Private Funds",
-   "amount": 6000000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Boch Investment Fund, LLC, a Bloomfield Hills-based private equity fund, disclosed a $6M raise; $0 sold.",
-   "filed": "2026-09-30"
-  },
-  {
-   "id": "D-1589984-021-205189",
-   "company": "Dart Financial Corp",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Mason",
-   "sector": "Financial Services",
-   "amount": 3575309.0,
-   "amount_sold": 3575309.0,
-   "amount_is_estimate": false,
-   "summary": "Dart Financial Corp, a Mason-based commercial banking company, filed an indefinite-size equity offering under Rule 504; $3.6M sold to 403 investors. (Amended filing.)",
-   "filed": "2026-09-29"
-  }
- ],
- "new_funds": [
-  {
-   "id": "D-1949307-021-460852",
-   "company": "Clarkston QV Fund, LP",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Other Investment Fund",
-   "city": "Bloomfield Hills",
-   "sector": "Private Funds",
-   "amount": 80585207.0,
-   "amount_sold": 80585207.0,
-   "amount_is_estimate": false,
-   "summary": "Clarkston QV Fund, LP, a Bloomfield Hills-based investment fund, disclosed an open-ended (indefinite) raise; $80.6M sold to 57 investors. (Amended filing.)",
-   "filed": "2026-09-30"
-  },
-  {
-   "id": "D-2151729-021-599334",
-   "company": "Boch Investment Fund, LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Bloomfield Hills",
-   "sector": "Private Funds",
-   "amount": 6000000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Boch Investment Fund, LLC, a Bloomfield Hills-based private equity fund, disclosed a $6M raise; $0 sold.",
-   "filed": "2026-09-30"
-  }
- ],
  "notable_ma": [
   {
-   "id": "8K-0001213900-26-105899",
-   "company": "ENDRA Life Sciences Inc.",
-   "ticker": "NDRA",
-   "type": "M&A",
-   "subtype": "Definitive Agreement",
-   "city": "Ann Arbor",
-   "sector": "Health Care & Life Sciences",
-   "amount": 200000000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "ENDRA Life Sciences Inc. (NDRA) disclosed a definitive merger/acquisition agreement with ASP Isotopes Inc.; filing cites a figure of ~$200M.",
-   "filed": "2026-10-01"
-  },
-  {
-   "id": "8K-0001193125-26-410776",
-   "company": "Gentherm Inc",
-   "ticker": "THRM",
-   "type": "M&A",
-   "subtype": "Acquisition/Disposition Completed",
-   "city": "Novi",
-   "sector": "Manufacturing & Automotive",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Gentherm Inc (THRM) reported completing an acquisition or disposition of assets.",
-   "filed": "2026-10-01"
+   "deal_id": "MDR-1310e3994c",
+   "title": "Gentherm Inc sold business to undisclosed buyer",
+   "summary": "Gentherm Inc sold business to undisclosed buyer; closed 2026-10-01.",
+   "deal_type": "Divestiture / Carve-out",
+   "status": "Closed",
+   "target": null,
+   "acquirer": null,
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Automotive & Mobility",
+   "region": null,
+   "confidence": "High"
   }
  ],
- "material_agreements": [
+ "top_financings": [
   {
-   "id": "8K-0000912593-26-000262",
-   "company": "Sun Communities Inc",
-   "ticker": "SUI",
-   "type": "Material Agreement",
-   "subtype": "Material Agreement",
-   "city": "Southfield",
-   "sector": "Real Estate",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Sun Communities Inc (SUI) entered into a material definitive agreement.",
-   "filed": "2026-10-02"
-  },
-  {
-   "id": "8K-0001193125-26-410681",
-   "company": "Universal Logistics Holdings, Inc.",
-   "ticker": "ULH",
-   "type": "Material Agreement",
-   "subtype": "Credit Facility",
-   "city": "Warren",
+   "deal_id": "MDR-4189aaf3c8",
+   "title": "Universal Logistics Holdings, Inc.: credit facility ($500M)",
+   "summary": "Universal Logistics Holdings, Inc.: credit facility ($500M).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Universal Logistics Holdings, Inc.",
+   "acquirer": null,
+   "value": 500000000.0,
+   "value_label": "Amount raised",
    "sector": "Business Services",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Universal Logistics Holdings, Inc. (ULH) entered into a material definitive agreement (credit facility).",
-   "filed": "2026-10-01"
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-45af55570e",
+   "title": "Lindera US, Inc.: venture round ($1M raised)",
+   "summary": "Lindera US, Inc.: venture round ($1M raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "Lindera US, Inc.",
+   "acquirer": null,
+   "value": 1000000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-1a0a428b22",
+   "title": "Chuck Waste, Inc: venture round ($834K raised)",
+   "summary": "Chuck Waste, Inc: venture round ($834K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Chuck Waste, Inc",
+   "acquirer": null,
+   "value": 833998.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "West Michigan",
+   "confidence": "High"
   }
  ],
- "top_sectors": [
+ "fund_raises": [
   {
-   "sector": "Private Funds",
-   "count": 2,
-   "amount": 80585207.0
+   "id": "CF-9f6c922f81",
+   "name": "Clarkston QV Fund, LP",
+   "category": "Other Investment Fund",
+   "amount_raised": 80585207.0,
+   "city": "Bloomfield Hills"
   },
   {
-   "sector": "Technology",
-   "count": 2,
-   "amount": 1833998.0
+   "id": "CF-60c0d8fb82",
+   "name": "3331 Trumbull, LLC",
+   "category": "Real Estate",
+   "amount_raised": 300000.0,
+   "city": "Detroit"
   },
   {
-   "sector": "Real Estate",
-   "count": 2,
-   "amount": 300000.0
+   "id": "CF-7325675dfe",
+   "name": "Boch Investment Fund, LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 0.0,
+   "city": "Bloomfield Hills"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2025-10-04",
+   "2026-10-04"
+  ],
+  "acquirers": [
+   {
+    "name": "ENDRA Life Sciences Inc.",
+    "deals": 1,
+    "disclosed_value": 50250000.0,
+    "recent_deal_ids": [
+     "MDR-2000d64c8c"
+    ]
+   },
+   {
+    "name": "Isabella Bank Corp",
+    "deals": 1,
+    "disclosed_value": 40000000.0,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Essence Parent Inc.",
+    "deals": 1,
+    "disclosed_value": 726000000.0,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Independent Bank Corp",
+    "deals": 1,
+    "disclosed_value": 70800000.0,
+    "recent_deal_ids": [
+     "MDR-81bcf88076"
+    ]
+   },
+   {
+    "name": "Esperion Therapeutics, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "ARCHIMED on April 21",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Independent include individuals that control",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Athyrium Capital Management",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Parent",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "PJT Partners",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20",
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "Brean Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Centerview Partners",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Moelis & Company LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Jefferies LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-653115fcbd",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Akin Gump LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Sidley Austin LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Arnold & Porter Kaye Scholer LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   },
+   {
+    "name": "Gibson, Dunn & Crutcher LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Software & Technology",
+   "deals": 2,
+   "text": "2 deals: Lindera US, Inc.: venture round ($1M raised); Chuck Waste, Inc: venture round ($834K raised)."
   },
   {
-   "sector": "Financial Services",
-   "count": 1,
-   "amount": 3575309.0
+   "sector": "Business Services",
+   "deals": 1,
+   "text": "1 deal: Universal Logistics Holdings, Inc.: credit facility ($500M)."
   },
   {
-   "sector": "Health Care & Life Sciences",
-   "count": 1,
-   "amount": 0.0
+   "sector": "Automotive & Mobility",
+   "deals": 1,
+   "text": "1 deal: Gentherm Inc sold business to undisclosed buyer."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $86.3M sold across 6 Form D filings this week, up 31% vs. the prior 4-week average. The largest was Chuck Waste, Inc (Walker, Other Technology) targeting $7M. Good question to ask: are founders in technology favoring equity rounds over venture debt right now?",
+   "topic": "M&A",
+   "text": "Gentherm Inc sold business to undisclosed buyer. Ask how buyers are underwriting Michigan automotive & mobility assets right now.",
    "deal_ids": [
-    "D-2149393-021-599029"
+    "MDR-1310e3994c"
    ]
   },
   {
-   "topic": "M&A",
-   "text": "ENDRA Life Sciences Inc. (NDRA) disclosed a deal with ASP Isotopes Inc.. It was one of 2 M&A filings this week. Use it to ask how buyers are valuing Michigan health care & life sciences assets and whether consolidation is accelerating.",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $501.8M raised across 3 financings (up 3167% vs. the trailing 4-week average). The largest: Universal Logistics Holdings, Inc.: credit facility ($500M). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "8K-0001213900-26-105899",
-    "8K-0001193125-26-410776"
+    "MDR-4189aaf3c8"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "2 Michigan-based pooled funds filed Form Ds, reporting $80.6M raised so far — led by Clarkston QV Fund, LP (Other Investment Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-1949307-021-460852",
-    "D-2151729-021-599334"
-   ]
+   "text": "3 Michigan-based fund vehicles reported $80.9M raised, led by Clarkston QV Fund, LP (Other Investment Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Gentherm Inc 8-K (Item 1.01 definitive agreement, Item 2.01 completion, Item 7.01 Reg FD)",
+   "url": "https://www.sec.gov/Archives/edgar/data/903129/000119312526410776/0001193125-26-410776-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-10-01",
+   "deal_id": "MDR-1310e3994c"
+  },
+  {
+   "title": "Universal Logistics Holdings, Inc. 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1308208/000119312526410681/0001193125-26-410681-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-10-01",
+   "deal_id": "MDR-4189aaf3c8"
+  },
+  {
+   "title": "Lindera US, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2157512/000215751226000001/0002157512-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-09-30",
+   "deal_id": "MDR-45af55570e"
+  },
+  {
+   "title": "Chuck Waste, Inc Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2149393/000214939326000001/0002149393-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-09-28",
+   "deal_id": "MDR-1a0a428b22"
   }
  ]
 }

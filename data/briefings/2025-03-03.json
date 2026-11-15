@@ -1,0 +1,362 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-03-03",
+ "week_end": "2025-03-09",
+ "generated_at": "2026-11-15T22:32:31Z",
+ "headline": "1 Michigan M&A deal, 9 financings; Rocket Companies, Inc. to acquire Redfin Corporation",
+ "stats": {
+  "ma_deals": 1,
+  "ma_disclosed_value": 1750000000,
+  "ma_with_value": 1,
+  "financings": 9,
+  "financing_raised": 12030000,
+  "fund_raises": 3,
+  "fund_capital_raised": 48293000,
+  "stakes": 1
+ },
+ "trailing_4wk": {
+  "ma_deals": 0.8,
+  "ma_disclosed_value": 1412500000.0,
+  "ma_with_value": 0.2,
+  "financings": 3.8,
+  "financing_raised": 931448109.8,
+  "fund_raises": 2.2,
+  "fund_capital_raised": 10773750.0,
+  "stakes": 0.8
+ },
+ "change_vs_trailing": {
+  "ma_deals": 33.3,
+  "financings": 140.0,
+  "financing_raised": -98.7
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-f2d6037a26",
+   "title": "Rocket Companies, Inc. to acquire Redfin Corporation",
+   "summary": "Rocket Companies, Inc. to acquire Redfin Corporation for $1.8B (stock); pending 2025-03-09.",
+   "deal_type": "Recapitalization",
+   "status": "Pending",
+   "target": "Redfin Corporation",
+   "acquirer": "Rocket Companies, Inc.",
+   "value": 1750000000.0,
+   "value_label": "Disclosed value",
+   "sector": "Financial Services",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-55b3fe036d",
+   "title": "Conifer Holdings, Inc.: growth equity ($5M raised)",
+   "summary": "Conifer Holdings, Inc.: growth equity ($5M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Closed",
+   "target": "Conifer Holdings, Inc.",
+   "acquirer": null,
+   "value": 5000000.0,
+   "value_label": "Amount raised",
+   "sector": "Financial Services",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-d685eeb9d0",
+   "title": "Noble Gas Systems Inc.: venture round ($4.2M raised)",
+   "summary": "Noble Gas Systems Inc.: venture round ($4.2M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Noble Gas Systems Inc.",
+   "acquirer": null,
+   "value": 4200000.0,
+   "value_label": "Amount raised",
+   "sector": "Advanced Manufacturing",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-c6fcc75d95",
+   "title": "DCFC Holdings, LLC: growth equity ($1.1M raised)",
+   "summary": "DCFC Holdings, LLC: growth equity ($1.1M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "DCFC Holdings, LLC",
+   "acquirer": null,
+   "value": 1100000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-2823530a37",
+   "title": "Livsee, Inc.: venture round ($900K raised)",
+   "summary": "Livsee, Inc.: venture round ($900K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Livsee, Inc.",
+   "acquirer": null,
+   "value": 900000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-af87fe60ff",
+   "title": "CCP Energy Fund I, LLC: venture round ($500K raised)",
+   "summary": "CCP Energy Fund I, LLC: venture round ($500K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "CCP Energy Fund I, LLC",
+   "acquirer": null,
+   "value": 500000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-20803e0b5f",
+   "name": "Renaissance Venture Capital Fund V, L.P.",
+   "category": "Other Investment Fund",
+   "amount_raised": 47800000.0,
+   "city": "Ann Arbor"
+  },
+  {
+   "id": "CF-0a4b84e577",
+   "name": "Endeavor Fund, LP",
+   "category": "Hedge Fund",
+   "amount_raised": 493000.0,
+   "city": "Dearborn"
+  },
+  {
+   "id": "CF-4bdb60c1f7",
+   "name": "Advantage Health Properties, L.L.C.",
+   "category": "Real Estate",
+   "amount_raised": 0.0,
+   "city": "Grand Rapids"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-03-09",
+   "2025-03-09"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 3050000000.0,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26",
+     "MDR-a598c6fe11"
+    ]
+   },
+   {
+    "name": "Stryker Corp",
+    "deals": 1,
+    "disclosed_value": 4900000000.0,
+    "recent_deal_ids": [
+     "MDR-6f503b58c5"
+    ]
+   },
+   {
+    "name": "CP Acquisitions, LLC",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-28e094740d"
+    ]
+   },
+   {
+    "name": "Gentex Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-d08cc96cee"
+    ]
+   },
+   {
+    "name": "Shyft, Aebi Schmidt Holding AG",
+    "deals": 1,
+    "disclosed_value": 474000000.0,
+    "recent_deal_ids": [
+     "MDR-3c7f849168"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Financial Services",
+   "deals": 2,
+   "text": "2 deals: Rocket Companies, Inc. to acquire Redfin Corporation; Conifer Holdings, Inc.: growth equity ($5M raised)."
+  },
+  {
+   "sector": "Software & Technology",
+   "deals": 2,
+   "text": "2 deals: Livsee, Inc.: venture round ($900K raised); RideSmith Fund, LLC: debt raise ($25K raised)."
+  },
+  {
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: Noble Gas Systems Inc.: venture round ($4.2M raised)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "Rocket Companies, Inc. to acquire Redfin Corporation for $1.8B. Ask how buyers are underwriting Michigan financial services assets right now.",
+   "deal_ids": [
+    "MDR-f2d6037a26"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $12M raised across 9 financings (down 99% vs. the trailing 4-week average). The largest: Conifer Holdings, Inc.: growth equity ($5M raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-55b3fe036d"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "3 Michigan-based fund vehicles reported $48.3M raised, led by Renaissance Venture Capital Fund V, L.P. (Other Investment Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Rocket Companies, Inc. 8-K (Item 1.01 definitive agreement, Item 7.01 Reg FD)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1805284/000095014225000696/0000950142-25-000696-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-03-10",
+   "deal_id": "MDR-f2d6037a26"
+  },
+  {
+   "title": "Rocket Companies, Inc. S-4",
+   "url": "https://www.sec.gov/Archives/edgar/data/1805284/000110465925032694/0001104659-25-032694-index.htm",
+   "kind": "SEC S-4",
+   "date": "2025-04-07",
+   "deal_id": "MDR-f2d6037a26"
+  },
+  {
+   "title": "Conifer Holdings, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1502292/000114036125007538/0001140361-25-007538-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-03-07",
+   "deal_id": "MDR-55b3fe036d"
+  },
+  {
+   "title": "Noble Gas Systems Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1902786/000190278625000001/0001902786-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-03-06",
+   "deal_id": "MDR-d685eeb9d0"
+  },
+  {
+   "title": "DCFC Holdings, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1630745/000163074525000001/0001630745-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-03-07",
+   "deal_id": "MDR-c6fcc75d95"
+  },
+  {
+   "title": "Livsee, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2055231/000205523125000002/0002055231-25-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-03-07",
+   "deal_id": "MDR-2823530a37"
+  },
+  {
+   "title": "Livsee, Inc. Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2055231/000205523125000003/0002055231-25-000003-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-07-03",
+   "deal_id": "MDR-2823530a37"
+  },
+  {
+   "title": "CCP Energy Fund I, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2046578/000121390025021521/0001213900-25-021521-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-03-07",
+   "deal_id": "MDR-af87fe60ff"
+  },
+  {
+   "title": "CCP Energy Fund I, LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/2046578/000204657825000002/0002046578-25-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-12-05",
+   "deal_id": "MDR-af87fe60ff"
+  }
+ ]
+}

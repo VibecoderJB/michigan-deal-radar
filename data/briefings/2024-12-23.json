@@ -1,0 +1,254 @@
+{
+ "schema_version": 2,
+ "week_start": "2024-12-23",
+ "week_end": "2024-12-29",
+ "generated_at": "2026-11-15T22:32:30Z",
+ "headline": "3 Michigan deals; $10.2M raised in private financings",
+ "stats": {
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 3,
+  "financing_raised": 10234605,
+  "fund_raises": 3,
+  "fund_capital_raised": 164013382,
+  "stakes": 1
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.2,
+  "ma_disclosed_value": 183750000.0,
+  "ma_with_value": 0.5,
+  "financings": 5.8,
+  "financing_raised": 235578176.2,
+  "fund_raises": 2.0,
+  "fund_capital_raised": 92637887.5,
+  "stakes": 0.5
+ },
+ "change_vs_trailing": {
+  "ma_deals": -100.0,
+  "financings": -47.8,
+  "financing_raised": -95.7
+ },
+ "notable_ma": [],
+ "top_financings": [
+  {
+   "deal_id": "MDR-654e3eeb7a",
+   "title": "CubeWorks, Inc.: growth equity ($5.5M raised)",
+   "summary": "CubeWorks, Inc.: growth equity ($5.5M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "CubeWorks, Inc.",
+   "acquirer": null,
+   "value": 5497110.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-f3c2007374",
+   "title": "Auto Hauler Exchange Inc.: venture round ($4.7M raised)",
+   "summary": "Auto Hauler Exchange Inc.: venture round ($4.7M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Auto Hauler Exchange Inc.",
+   "acquirer": null,
+   "value": 4737495.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-7f9a00153d",
+   "title": "WK Kellogg Co: credit facility",
+   "summary": "WK Kellogg Co: credit facility.",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "WK Kellogg Co",
+   "acquirer": null,
+   "value": null,
+   "value_label": "Amount raised",
+   "sector": "Consumer",
+   "region": "Southwest Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-79bdbec017",
+   "name": "Cinnaire Fund for Housing Limited Partnership 42",
+   "category": "Private Equity Fund",
+   "amount_raised": 158503560.0,
+   "city": "Lansing"
+  },
+  {
+   "id": "CF-7e6db7e9ce",
+   "name": "TPCN Holdings, LLC",
+   "category": "Private Equity Fund",
+   "amount_raised": 2880717.0,
+   "city": "Bloomfield Hills"
+  },
+  {
+   "id": "CF-cf9033a2d6",
+   "name": "FarmFi Fund 1 - Volatility, LP",
+   "category": "Hedge Fund",
+   "amount_raised": 2629105.0,
+   "city": "Birmingham"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2023-12-28",
+   "2024-12-29"
+  ],
+  "acquirers": [
+   {
+    "name": "Gentex Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-d08cc96cee"
+    ]
+   },
+   {
+    "name": "Shyft, Aebi Schmidt Holding AG",
+    "deals": 1,
+    "disclosed_value": 474000000.0,
+    "recent_deal_ids": [
+     "MDR-3c7f849168"
+    ]
+   },
+   {
+    "name": "Ansys, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Mr. Coffey that provides that if his employment is terminated by the Company",
+    "deals": 1,
+    "disclosed_value": 160000000.0,
+    "recent_deal_ids": [
+     "MDR-762c28a96f"
+    ]
+   },
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "disclosed_value": 440000.0,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Perella Weinberg Partners has not",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-762c28a96f"
+    ]
+   }
+  ],
+  "legal_advisors": []
+ },
+ "sector_commentary": [
+  {
+   "sector": "Consumer",
+   "deals": 1,
+   "text": "1 deal: WK Kellogg Co: credit facility."
+  },
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: CubeWorks, Inc.: growth equity ($5.5M raised)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $10.2M raised across 3 financings (down 96% vs. the trailing 4-week average). The largest: CubeWorks, Inc.: growth equity ($5.5M raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-654e3eeb7a"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "3 Michigan-based fund vehicles reported $164M raised, led by Cinnaire Fund for Housing Limited Partnership 42 (Private Equity Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Consumer was the most active Michigan sector this week with 1 deal. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "CubeWorks, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1689341/000168934124000004/0001689341-24-000004-index.htm",
+   "kind": "SEC Form D",
+   "date": "2024-12-23",
+   "deal_id": "MDR-654e3eeb7a"
+  },
+  {
+   "title": "Auto Hauler Exchange Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1936122/000193612224000001/0001936122-24-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2024-12-23",
+   "deal_id": "MDR-f3c2007374"
+  },
+  {
+   "title": "WK Kellogg Co 8-K (Item 1.01 definitive agreement)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1959348/000162828024052331/0001628280-24-052331-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2024-12-23",
+   "deal_id": "MDR-7f9a00153d"
+  }
+ ]
+}

@@ -1,210 +1,321 @@
 {
+ "schema_version": 2,
  "week_start": "2026-03-02",
  "week_end": "2026-03-08",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "7 Michigan deals, $257.5M raised — led by Sturbridge Diversified Private Equity Fund IV, L.P.",
+ "generated_at": "2026-11-15T22:32:39Z",
+ "headline": "1 Michigan M&A deal, 2 financings; Esperion Therapeutics, Inc. acquired Corstasis Therapeutics Inc.",
  "stats": {
-  "deal_count": 7,
-  "by_type": {
-   "Fundraise": 2,
-   "M&A": 1,
-   "Material Agreement": 1,
-   "Stake": 3
-  },
-  "capital_raised": 257488610,
-  "capital_targeted": 265300000,
-  "fund_count": 1
+  "ma_deals": 1,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 2,
+  "financing_raised": 618838610,
+  "fund_raises": 1,
+  "fund_capital_raised": 255550000,
+  "stakes": 3
  },
  "trailing_4wk": {
-  "deal_count": 9.8,
-  "capital_raised": 157684463.0
+  "ma_deals": 0.2,
+  "ma_disclosed_value": 14750000.0,
+  "ma_with_value": 0.2,
+  "financings": 2.8,
+  "financing_raised": 239570133.2,
+  "fund_raises": 5.0,
+  "fund_capital_raised": 153813329.8,
+  "stakes": 1.0
  },
  "change_vs_trailing": {
-  "deal_count_pct": -28.2,
-  "capital_raised_pct": 63.3
+  "ma_deals": 300.0,
+  "financings": -27.3,
+  "financing_raised": 158.3
  },
- "top_deals": [
-  {
-   "id": "D-2114214-021-575369",
-   "company": "Sturbridge Diversified Private Equity Fund IV, L.P.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Birmingham",
-   "sector": "Private Funds",
-   "amount": 255550000.0,
-   "amount_sold": 255550000.0,
-   "amount_is_estimate": false,
-   "summary": "Sturbridge Diversified Private Equity Fund IV, L.P., a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $255.6M sold to 112 investors.",
-   "filed": "2026-03-04"
-  },
-  {
-   "id": "8K-0001628280-26-013552",
-   "company": "Esperion Therapeutics, Inc.",
-   "ticker": "ESPR",
-   "type": "M&A",
-   "subtype": "Definitive Agreement",
-   "city": "Ann Arbor",
-   "sector": "Health Care & Life Sciences",
-   "amount": 180000000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "Esperion Therapeutics, Inc. (ESPR) disclosed a definitive merger/acquisition agreement with Corstasis Therapeutics Inc.; filing cites a figure of ~$180M.",
-   "filed": "2026-03-03"
-  },
-  {
-   "id": "D-1615041-021-575210",
-   "company": "CloudLaw, Public Benefit Corp",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Traverse City",
-   "sector": "Technology",
-   "amount": 9750000.0,
-   "amount_sold": 1938610.0,
-   "amount_is_estimate": false,
-   "summary": "CloudLaw, Public Benefit Corp, a Traverse City-based technology company, filed a $9.8M equity offering under Rule 506(b); $1.9M sold to 4 investors.",
-   "filed": "2026-03-03"
-  }
- ],
- "new_funds": [
-  {
-   "id": "D-2114214-021-575369",
-   "company": "Sturbridge Diversified Private Equity Fund IV, L.P.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "city": "Birmingham",
-   "sector": "Private Funds",
-   "amount": 255550000.0,
-   "amount_sold": 255550000.0,
-   "amount_is_estimate": false,
-   "summary": "Sturbridge Diversified Private Equity Fund IV, L.P., a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $255.6M sold to 112 investors.",
-   "filed": "2026-03-04"
-  }
- ],
  "notable_ma": [
   {
-   "id": "13D-0001842002-26-000008",
-   "company": "UWM Holdings Corporation",
-   "ticker": "UWMC",
-   "type": "Stake",
-   "subtype": "13D Amendment",
-   "city": "Pontiac",
-   "sector": "Financial Services",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Mat Ishbia and others reported a 81.7% stake in UWM Holdings Corporation (UWMC) (Schedule 13D/A amendment 13).",
-   "filed": "2026-03-05"
-  },
-  {
-   "id": "8K-0001628280-26-013552",
-   "company": "Esperion Therapeutics, Inc.",
-   "ticker": "ESPR",
-   "type": "M&A",
-   "subtype": "Definitive Agreement",
-   "city": "Ann Arbor",
-   "sector": "Health Care & Life Sciences",
-   "amount": 180000000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "Esperion Therapeutics, Inc. (ESPR) disclosed a definitive merger/acquisition agreement with Corstasis Therapeutics Inc.; filing cites a figure of ~$180M.",
-   "filed": "2026-03-03"
-  },
-  {
-   "id": "13D-0001493152-26-008749",
-   "company": "Whirlpool Corp",
-   "ticker": "WHR",
-   "type": "Stake",
-   "subtype": "New 13D Position",
-   "city": "Benton Harbor",
-   "sector": "Manufacturing & Automotive",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Appaloosa LP and others reported a 4.9% stake in Whirlpool Corp (WHR).",
-   "filed": "2026-03-03"
-  },
-  {
-   "id": "13D-0001104659-26-022995",
-   "company": "Presurance Holdings, Inc.",
-   "ticker": "PRHI",
-   "type": "Stake",
-   "subtype": "13D Amendment",
-   "city": "Troy",
-   "sector": "Financial Services",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Clarkston Ventures, LLC and others reported a 69.7% stake in Presurance Holdings, Inc. (PRHI) (Schedule 13D/A amendment 6).",
-   "filed": "2026-03-03"
+   "deal_id": "MDR-f7dec1fa20",
+   "title": "Esperion Therapeutics, Inc. acquired Corstasis Therapeutics Inc.",
+   "summary": "Esperion Therapeutics, Inc. acquired Corstasis Therapeutics Inc. (cash); closed 2026-04-02.",
+   "deal_type": "Acquisition",
+   "status": "Closed",
+   "target": "Corstasis Therapeutics Inc.",
+   "acquirer": "Esperion Therapeutics, Inc.",
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   }
  ],
- "material_agreements": [
+ "top_financings": [
   {
-   "id": "8K-0001320461-26-000057",
-   "company": "Cooper-Standard Holdings Inc.",
-   "ticker": "CPS",
-   "type": "Material Agreement",
-   "subtype": "Debt Offering",
-   "city": "Northville",
-   "sector": "Manufacturing & Automotive",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Cooper-Standard Holdings Inc. (CPS) entered into a material definitive agreement (debt offering).",
-   "filed": "2026-03-04"
+   "deal_id": "MDR-f3c253a62b",
+   "title": "Cooper-Standard Holdings Inc.: credit facility ($616.9M)",
+   "summary": "Cooper-Standard Holdings Inc.: credit facility ($616.9M).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Cooper-Standard Holdings Inc.",
+   "acquirer": null,
+   "value": 616900000.0,
+   "value_label": "Amount raised",
+   "sector": "Automotive & Mobility",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-2c7a78d16a",
+   "title": "CloudLaw, Public Benefit Corp: growth equity ($1.9M raised)",
+   "summary": "CloudLaw, Public Benefit Corp: growth equity ($1.9M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "CloudLaw, Public Benefit Corp",
+   "acquirer": null,
+   "value": 1938610.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Northern Michigan",
+   "confidence": "High"
   }
  ],
- "top_sectors": [
+ "fund_raises": [
   {
-   "sector": "Financial Services",
-   "count": 2,
-   "amount": 0.0
+   "id": "CF-454aa81dc7",
+   "name": "Sturbridge Diversified Private Equity Fund IV, L.P.",
+   "category": "Private Equity Fund",
+   "amount_raised": 255550000.0,
+   "city": "Birmingham"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2025-03-08",
+   "2026-03-08"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 11150000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Esperion Therapeutics, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   },
+   {
+    "name": "Gentherm Inc",
+    "deals": 1,
+    "disclosed_value": 150000000.0,
+    "recent_deal_ids": [
+     "MDR-d830f32ff0"
+    ]
+   },
+   {
+    "name": "Lineage, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-700fcaad5d"
+    ]
+   },
+   {
+    "name": "UWM Holdings Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-1c5d1214e2"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 3,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Athyrium Capital Management",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Blackstone",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Kate Pew Wolters",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 5,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "PJT Partners",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20",
+     "MDR-c2e014f75f"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-964f877284",
+     "MDR-60d2b79b16",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Arnold & Porter Kaye Scholer LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   },
+   {
+    "name": "Gibson, Dunn & Crutcher LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Automotive & Mobility",
+   "deals": 1,
+   "text": "1 deal: Cooper-Standard Holdings Inc.: credit facility ($616.9M)."
   },
   {
-   "sector": "Manufacturing & Automotive",
-   "count": 2,
-   "amount": 0.0
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: CloudLaw, Public Benefit Corp: growth equity ($1.9M raised)."
   },
   {
-   "sector": "Private Funds",
-   "count": 1,
-   "amount": 255550000.0
-  },
-  {
-   "sector": "Technology",
-   "count": 1,
-   "amount": 1938610.0
-  },
-  {
-   "sector": "Health Care & Life Sciences",
-   "count": 1,
-   "amount": 0.0
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: Esperion Therapeutics, Inc. acquired Corstasis Therapeutics Inc.."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $257.5M sold across 2 Form D filings this week, up 63% vs. the prior 4-week average. The largest was CloudLaw, Public Benefit Corp (Traverse City, Other Technology) targeting $9.8M. Good question to ask: are founders in technology favoring equity rounds over venture debt right now?",
+   "topic": "M&A",
+   "text": "Esperion Therapeutics, Inc. acquired Corstasis Therapeutics Inc.. Ask how buyers are underwriting Michigan healthcare assets right now.",
    "deal_ids": [
-    "D-1615041-021-575210"
+    "MDR-f7dec1fa20"
    ]
   },
   {
-   "topic": "M&A",
-   "text": "Esperion Therapeutics, Inc. (ESPR) disclosed a deal with Corstasis Therapeutics Inc.. Use it to ask how buyers are valuing Michigan health care & life sciences assets and whether consolidation is accelerating.",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $618.8M raised across 2 financings (up 158% vs. the trailing 4-week average). The largest: Cooper-Standard Holdings Inc.: credit facility ($616.9M). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "8K-0001628280-26-013552"
+    "MDR-f3c253a62b"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "1 Michigan-based pooled fund filed Form Ds, reporting $255.6M raised so far — led by Sturbridge Diversified Private Equity Fund IV, L.P. (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-2114214-021-575369"
-   ]
+   "text": "1 Michigan-based fund vehicle reported $255.6M raised, led by Sturbridge Diversified Private Equity Fund IV, L.P. (Private Equity Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Esperion Therapeutics, Inc. 8-K (Item 1.01 definitive agreement, Item 7.01 Reg FD)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1434868/000162828026013552/0001628280-26-013552-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-03-03",
+   "deal_id": "MDR-f7dec1fa20"
+  },
+  {
+   "title": "Esperion Therapeutics, Inc. 8-K (Item 1.01 definitive agreement, Item 2.01 completion, Item 7.01 Reg FD)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1434868/000162828026023196/0001628280-26-023196-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-04-02",
+   "deal_id": "MDR-f7dec1fa20"
+  },
+  {
+   "title": "Cooper-Standard Holdings Inc. 8-K (Item 1.01 definitive agreement, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1320461/000132046126000057/0001320461-26-000057-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-03-04",
+   "deal_id": "MDR-f3c253a62b"
+  },
+  {
+   "title": "CloudLaw, Public Benefit Corp Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1615041/000161504126000001/0001615041-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-03-03",
+   "deal_id": "MDR-2c7a78d16a"
   }
  ]
 }

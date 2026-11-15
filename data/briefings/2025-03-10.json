@@ -1,0 +1,338 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-03-10",
+ "week_end": "2025-03-16",
+ "generated_at": "2026-11-15T22:32:31Z",
+ "headline": "5 Michigan deals; $6.7M raised in private financings",
+ "stats": {
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 5,
+  "financing_raised": 6658496,
+  "fund_raises": 7,
+  "fund_capital_raised": 535393238,
+  "stakes": 2
+ },
+ "trailing_4wk": {
+  "ma_deals": 1.0,
+  "ma_disclosed_value": 1850000000.0,
+  "ma_with_value": 0.5,
+  "financings": 5.0,
+  "financing_raised": 933565247.0,
+  "fund_raises": 2.2,
+  "fund_capital_raised": 19809500.0,
+  "stakes": 1.0
+ },
+ "change_vs_trailing": {
+  "ma_deals": -100.0,
+  "financings": 0.0,
+  "financing_raised": -99.3
+ },
+ "notable_ma": [],
+ "top_financings": [
+  {
+   "deal_id": "MDR-0e5188c921",
+   "title": "Honor Bancorp, Inc.: growth equity ($4M raised)",
+   "summary": "Honor Bancorp, Inc.: growth equity ($4M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Honor Bancorp, Inc.",
+   "acquirer": null,
+   "value": 4039838.0,
+   "value_label": "Amount raised",
+   "sector": "Financial Services",
+   "region": "Northern Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-c5d42257be",
+   "title": "Cpd To Spd, LLC: growth equity ($1.9M raised)",
+   "summary": "Cpd To Spd, LLC: growth equity ($1.9M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Cpd To Spd, LLC",
+   "acquirer": null,
+   "value": 1935000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-5b36d93990",
+   "title": "Competitive Wedge, LLC: debt raise ($668.7K raised)",
+   "summary": "Competitive Wedge, LLC: debt raise ($668.7K raised).",
+   "deal_type": "Debt Raise",
+   "status": "Announced",
+   "target": "Competitive Wedge, LLC",
+   "acquirer": null,
+   "value": 668658.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "West Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-1c86ba1960",
+   "title": "Eidolon Film, LLC: venture round ($15K raised)",
+   "summary": "Eidolon Film, LLC: venture round ($15K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Eidolon Film, LLC",
+   "acquirer": null,
+   "value": 15000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-ddc32c1dea",
+   "title": "Commerce Club, LLC: venture round ($0 raised)",
+   "summary": "Commerce Club, LLC: venture round ($0 raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Commerce Club, LLC",
+   "acquirer": null,
+   "value": 0.0,
+   "value_label": "Amount raised",
+   "sector": "Business Services",
+   "region": "West Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-bb5ad1a320",
+   "name": "Atlantic Fund I LP",
+   "category": "Other Investment Fund",
+   "amount_raised": 219746000.0,
+   "city": "Birmingham"
+  },
+  {
+   "id": "CF-63e74e2573",
+   "name": "Pacific Fund I LP",
+   "category": "Other Investment Fund",
+   "amount_raised": 215592000.0,
+   "city": "Birmingham"
+  },
+  {
+   "id": "CF-e1c3730bd9",
+   "name": "Bluestein Capital Opportunities Fund, L.P.",
+   "category": "Other Investment Fund",
+   "amount_raised": 95930000.0,
+   "city": "Birmingham"
+  },
+  {
+   "id": "CF-42f8c65882",
+   "name": "Great Lakes Mortgage Fund LLC",
+   "category": "Other Investment Fund",
+   "amount_raised": 2380238.0,
+   "city": "Troy"
+  },
+  {
+   "id": "CF-4d1d53ff41",
+   "name": "Assembly Ventures AT I, L.P.",
+   "category": "Venture Capital Fund",
+   "amount_raised": 1095000.0,
+   "city": "Detroit"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-03-16",
+   "2025-03-16"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 3050000000.0,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26",
+     "MDR-a598c6fe11"
+    ]
+   },
+   {
+    "name": "Stryker Corp",
+    "deals": 1,
+    "disclosed_value": 4900000000.0,
+    "recent_deal_ids": [
+     "MDR-6f503b58c5"
+    ]
+   },
+   {
+    "name": "CP Acquisitions, LLC",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-28e094740d"
+    ]
+   },
+   {
+    "name": "Gentex Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-d08cc96cee"
+    ]
+   },
+   {
+    "name": "Shyft, Aebi Schmidt Holding AG",
+    "deals": 1,
+    "disclosed_value": 474000000.0,
+    "recent_deal_ids": [
+     "MDR-3c7f849168"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-f2d6037a26"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: Competitive Wedge, LLC: debt raise ($668.7K raised)."
+  },
+  {
+   "sector": "Business Services",
+   "deals": 1,
+   "text": "1 deal: Commerce Club, LLC: venture round ($0 raised)."
+  },
+  {
+   "sector": "Financial Services",
+   "deals": 1,
+   "text": "1 deal: Honor Bancorp, Inc.: growth equity ($4M raised)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $6.7M raised across 5 financings (down 99% vs. the trailing 4-week average). The largest: Honor Bancorp, Inc.: growth equity ($4M raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-0e5188c921"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "5 Michigan-based fund vehicles reported $535.4M raised, led by Atlantic Fund I LP (Other Investment Fund). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Software & Technology was the most active Michigan sector this week with 1 deal. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Honor Bancorp, Inc. Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1573184/000157318425000001/0001573184-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-03-13",
+   "deal_id": "MDR-0e5188c921"
+  },
+  {
+   "title": "Honor Bancorp, Inc. Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1573184/000157318426000003/0001573184-26-000003-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-03-26",
+   "deal_id": "MDR-0e5188c921"
+  },
+  {
+   "title": "Cpd To Spd, LLC Form D/A",
+   "url": "https://www.sec.gov/Archives/edgar/data/1817929/000181792925000001/0001817929-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-03-12",
+   "deal_id": "MDR-c5d42257be"
+  },
+  {
+   "title": "Competitive Wedge, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1808694/000180869425000001/0001808694-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-03-14",
+   "deal_id": "MDR-5b36d93990"
+  },
+  {
+   "title": "Eidolon Film, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2060788/000206078825000001/0002060788-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-03-14",
+   "deal_id": "MDR-1c86ba1960"
+  },
+  {
+   "title": "Commerce Club, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2059404/000205940425000001/0002059404-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-03-13",
+   "deal_id": "MDR-ddc32c1dea"
+  }
+ ]
+}

@@ -1,224 +1,373 @@
 {
+ "schema_version": 2,
  "week_start": "2026-10-12",
  "week_end": "2026-10-18",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "9 Michigan deals, $7.4M raised — led by Penske Automotive Group, Inc.",
+ "generated_at": "2026-11-15T22:32:45Z",
+ "headline": "3 Michigan M&A deals, 3 financings; Motown Acquisition Corp. terminated deal for Penske Automotive Group, Inc.",
  "stats": {
-  "deal_count": 9,
-  "by_type": {
-   "Fundraise": 4,
-   "M&A": 3,
-   "Material Agreement": 0,
-   "Stake": 2
-  },
-  "capital_raised": 7430400,
-  "capital_targeted": 9740400,
-  "fund_count": 0
+  "ma_deals": 3,
+  "ma_disclosed_value": 16300000000,
+  "ma_with_value": 1,
+  "financings": 3,
+  "financing_raised": 1780400,
+  "fund_raises": 1,
+  "fund_capital_raised": 5650000,
+  "stakes": 2
  },
  "trailing_4wk": {
-  "deal_count": 15.5,
-  "capital_raised": 86040117.2
+  "ma_deals": 1.5,
+  "ma_disclosed_value": 1412500000.0,
+  "ma_with_value": 0.2,
+  "financings": 3.2,
+  "financing_raised": 134603197.8,
+  "fund_raises": 8.0,
+  "fund_capital_raised": 77918092.2,
+  "stakes": 0.5
  },
  "change_vs_trailing": {
-  "deal_count_pct": -41.9,
-  "capital_raised_pct": -91.4
+  "ma_deals": 100.0,
+  "financings": -7.7,
+  "financing_raised": -98.7
  },
- "top_deals": [
-  {
-   "id": "8K-0001140361-26-039664",
-   "company": "Penske Automotive Group, Inc.",
-   "ticker": "PAG",
-   "type": "M&A",
-   "subtype": "Definitive Agreement",
-   "city": "Bloomfield Hills",
-   "sector": "Consumer & Retail",
-   "amount": 2400000000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "Penske Automotive Group, Inc. (PAG) disclosed a definitive merger/acquisition agreement with Motown Acquisition Corp.; filing cites a figure of ~$2.4B.",
-   "filed": "2026-10-15"
-  },
-  {
-   "id": "D-2158822-021-601288",
-   "company": "SWC Michigan RBH LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Ann Arbor",
-   "sector": "Real Estate",
-   "amount": 5850000.0,
-   "amount_sold": 5650000.0,
-   "amount_is_estimate": false,
-   "summary": "SWC Michigan RBH LLC, an Ann Arbor-based real estate company, filed a $5.8M equity offering under Rule 506(b); $5.7M sold to 27 investors.",
-   "filed": "2026-10-14"
-  },
-  {
-   "id": "D-2021228-021-601503",
-   "company": "High Street Holdco, LLC",
-   "ticker": null,
-   "type": "M&A",
-   "subtype": "Business Combination (Form D)",
-   "city": "Traverse City",
-   "sector": "Financial Services",
-   "amount": 4500000.0,
-   "amount_sold": 4500000.0,
-   "amount_is_estimate": false,
-   "summary": "High Street Holdco, LLC, a Traverse City-based company, filed a Form D tied to a business combination (acquisition or merger); $4.5M of equity and options/warrants issued to 2 investors.",
-   "filed": "2026-10-16"
-  },
-  {
-   "id": "D-2021228-021-601498",
-   "company": "High Street Holdco, LLC",
-   "ticker": null,
-   "type": "M&A",
-   "subtype": "Business Combination (Form D)",
-   "city": "Traverse City",
-   "sector": "Financial Services",
-   "amount": 3500000.0,
-   "amount_sold": 3500000.0,
-   "amount_is_estimate": false,
-   "summary": "High Street Holdco, LLC, a Traverse City-based company, filed a Form D tied to a business combination (acquisition or merger); $3.5M of equity and options/warrants issued to 1 investor.",
-   "filed": "2026-10-15"
-  },
-  {
-   "id": "D-2158986-021-601004",
-   "company": "Dvant Pharma, Inc.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Superior Township",
-   "sector": "Health Care & Life Sciences",
-   "amount": 3090400.0,
-   "amount_sold": 1230400.0,
-   "amount_is_estimate": false,
-   "summary": "Dvant Pharma, Inc., a Superior Township-based biotechnology company, filed a $3.1M equity and options/warrants offering under Rule 506(b); $1.2M sold to 9 investors.",
-   "filed": "2026-10-13"
-  }
- ],
- "new_funds": [],
  "notable_ma": [
   {
-   "id": "D-2021228-021-601503",
-   "company": "High Street Holdco, LLC",
-   "ticker": null,
-   "type": "M&A",
-   "subtype": "Business Combination (Form D)",
-   "city": "Traverse City",
+   "deal_id": "MDR-54b9a0e84c",
+   "title": "Motown Acquisition Corp. terminated deal for Penske Automotive Group, Inc.",
+   "summary": "Motown Acquisition Corp. terminated deal for Penske Automotive Group, Inc. for $16.3B (stock); terminated 2026-10-15.",
+   "deal_type": "Acquisition",
+   "status": "Terminated",
+   "target": "Penske Automotive Group, Inc.",
+   "acquirer": "Motown Acquisition Corp.",
+   "value": 16300000000.0,
+   "value_label": "Disclosed value",
+   "sector": "Automotive & Mobility",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-5c000940ee",
+   "title": "High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "summary": "High Street Holdco, LLC issued securities in an acquisition (target not named).",
+   "deal_type": "Acquisition",
+   "status": "Announced",
+   "target": null,
+   "acquirer": "High Street Holdco, LLC",
+   "value": null,
+   "value_label": "Disclosed value",
    "sector": "Financial Services",
-   "amount": 4500000.0,
-   "amount_sold": 4500000.0,
-   "amount_is_estimate": false,
-   "summary": "High Street Holdco, LLC, a Traverse City-based company, filed a Form D tied to a business combination (acquisition or merger); $4.5M of equity and options/warrants issued to 2 investors.",
-   "filed": "2026-10-16"
+   "region": "Northern Michigan",
+   "confidence": "High"
   },
   {
-   "id": "D-2021228-021-601498",
-   "company": "High Street Holdco, LLC",
-   "ticker": null,
-   "type": "M&A",
-   "subtype": "Business Combination (Form D)",
-   "city": "Traverse City",
+   "deal_id": "MDR-28eae17fa7",
+   "title": "High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "summary": "High Street Holdco, LLC issued securities in an acquisition (target not named).",
+   "deal_type": "Acquisition",
+   "status": "Announced",
+   "target": null,
+   "acquirer": "High Street Holdco, LLC",
+   "value": null,
+   "value_label": "Disclosed value",
    "sector": "Financial Services",
-   "amount": 3500000.0,
-   "amount_sold": 3500000.0,
-   "amount_is_estimate": false,
-   "summary": "High Street Holdco, LLC, a Traverse City-based company, filed a Form D tied to a business combination (acquisition or merger); $3.5M of equity and options/warrants issued to 1 investor.",
-   "filed": "2026-10-15"
-  },
-  {
-   "id": "8K-0001140361-26-039664",
-   "company": "Penske Automotive Group, Inc.",
-   "ticker": "PAG",
-   "type": "M&A",
-   "subtype": "Definitive Agreement",
-   "city": "Bloomfield Hills",
-   "sector": "Consumer & Retail",
-   "amount": 2400000000.0,
-   "amount_sold": null,
-   "amount_is_estimate": true,
-   "summary": "Penske Automotive Group, Inc. (PAG) disclosed a definitive merger/acquisition agreement with Motown Acquisition Corp.; filing cites a figure of ~$2.4B.",
-   "filed": "2026-10-15"
-  },
-  {
-   "id": "13D-0001193125-26-422280",
-   "company": "Penske Automotive Group, Inc.",
-   "ticker": "PAG",
-   "type": "Stake",
-   "subtype": "13D Amendment",
-   "city": "Bloomfield Hills",
-   "sector": "Consumer & Retail",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Penske Corporation and others reported a 52.3% stake in Penske Automotive Group, Inc. (PAG) (Schedule 13D/A amendment 34).",
-   "filed": "2026-10-15"
-  },
-  {
-   "id": "13D-0001193125-26-422269",
-   "company": "Penske Automotive Group, Inc.",
-   "ticker": "PAG",
-   "type": "Stake",
-   "subtype": "13D Amendment",
-   "city": "Bloomfield Hills",
-   "sector": "Consumer & Retail",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Mitsui & Co., Ltd. and others reported a 20.3% stake in Penske Automotive Group, Inc. (PAG) (Schedule 13D/A amendment 15).",
-   "filed": "2026-10-15"
+   "region": "Northern Michigan",
+   "confidence": "High"
   }
  ],
- "material_agreements": [],
- "top_sectors": [
+ "top_financings": [
   {
-   "sector": "Consumer & Retail",
-   "count": 3,
-   "amount": 0.0
+   "deal_id": "MDR-b6bb6d29ed",
+   "title": "Dvant Pharma, Inc.: growth equity ($1.2M raised)",
+   "summary": "Dvant Pharma, Inc.: growth equity ($1.2M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Dvant Pharma, Inc.",
+   "acquirer": null,
+   "value": 1230400.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   },
+  {
+   "deal_id": "MDR-5e8c816645",
+   "title": "StrikeArc Labs Inc.: venture round ($500K raised)",
+   "summary": "StrikeArc Labs Inc.: venture round ($500K raised).",
+   "deal_type": "Venture Round",
+   "status": "Closed",
+   "target": "StrikeArc Labs Inc.",
+   "acquirer": null,
+   "value": 500000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-946b9015c7",
+   "title": "Motaris Inc.: venture round ($50K raised)",
+   "summary": "Motaris Inc.: venture round ($50K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Motaris Inc.",
+   "acquirer": null,
+   "value": 50000.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-60c2dbb20d",
+   "name": "SWC Michigan RBH LLC",
+   "category": "Real Estate",
+   "amount_raised": 5650000.0,
+   "city": "Ann Arbor"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2025-10-18",
+   "2026-10-18"
+  ],
+  "acquirers": [
+   {
+    "name": "Motown Acquisition Corp.",
+    "deals": 1,
+    "disclosed_value": 16300000000.0,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c"
+    ]
+   },
+   {
+    "name": "ENDRA Life Sciences Inc.",
+    "deals": 1,
+    "disclosed_value": 50250000.0,
+    "recent_deal_ids": [
+     "MDR-2000d64c8c"
+    ]
+   },
+   {
+    "name": "Isabella Bank Corp",
+    "deals": 1,
+    "disclosed_value": 40000000.0,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   },
+   {
+    "name": "Essence Parent Inc.",
+    "deals": 1,
+    "disclosed_value": 726000000.0,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "Independent Bank Corp",
+    "deals": 1,
+    "disclosed_value": 70800000.0,
+    "recent_deal_ids": [
+     "MDR-81bcf88076"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "ARCHIMED on April 21",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Independent include individuals that control",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Athyrium Capital Management",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Parent",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "BofA Securities",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c",
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "Moelis & Company LLC",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c",
+     "MDR-653115fcbd"
+    ]
+   },
+   {
+    "name": "PJT Partners",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-f7dec1fa20",
+     "MDR-c2e014f75f"
+    ]
+   },
+   {
+    "name": "Wells Fargo Securities, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c"
+    ]
+   },
+   {
+    "name": "Brean Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-760b18dbe9"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Jones Day",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c",
+     "MDR-0299e00fcd"
+    ]
+   },
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-653115fcbd",
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Debevoise & Plimpton LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-54b9a0e84c"
+    ]
+   },
+   {
+    "name": "Akin Gump LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-653115fcbd"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
   {
    "sector": "Financial Services",
-   "count": 2,
-   "amount": 8000000.0
+   "deals": 2,
+   "text": "2 deals: High Street Holdco, LLC issued securities in an acquisition (target not named); High Street Holdco, LLC issued securities in an acquisition (target not named)."
   },
   {
-   "sector": "Real Estate",
-   "count": 1,
-   "amount": 5650000.0
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: Motaris Inc.: venture round ($50K raised)."
   },
   {
-   "sector": "Health Care & Life Sciences",
-   "count": 1,
-   "amount": 1230400.0
+   "sector": "Automotive & Mobility",
+   "deals": 1,
+   "text": "1 deal: Motown Acquisition Corp. terminated deal for Penske Automotive Group, Inc.."
   },
   {
-   "sector": "Other",
-   "count": 1,
-   "amount": 500000.0
+   "sector": "Healthcare",
+   "deals": 1,
+   "text": "1 deal: Dvant Pharma, Inc.: growth equity ($1.2M raised)."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $7.4M sold across 4 Form D filings this week, down 91% vs. the prior 4-week average. The largest was SWC Michigan RBH LLC (Ann Arbor, Other Real Estate) targeting $5.8M. Good question to ask: are founders in real estate favoring equity rounds over venture debt right now?",
-   "deal_ids": [
-    "D-2158822-021-601288"
-   ]
-  },
-  {
    "topic": "M&A",
-   "text": "Penske Automotive Group, Inc. (PAG) disclosed a deal with Motown Acquisition Corp.. It was one of 3 M&A filings this week. Use it to ask how buyers are valuing Michigan consumer & retail assets and whether consolidation is accelerating.",
+   "text": "Motown Acquisition Corp. terminated deal for Penske Automotive Group, Inc. for $16.3B. It was one of 3 Michigan M&A deals this week. Ask how buyers are underwriting Michigan automotive & mobility assets right now.",
    "deal_ids": [
-    "D-2021228-021-601503",
-    "D-2021228-021-601498",
-    "8K-0001140361-26-039664"
+    "MDR-54b9a0e84c",
+    "MDR-5c000940ee",
+    "MDR-28eae17fa7"
    ]
   },
   {
-   "topic": "Ownership moves",
-   "text": "Penske Corporation and others reported a 52.3% stake in Penske Automotive Group, Inc. (PAG) (Schedule 13D/A amendment 34). Schedule 13D filers can push for strategic change, so it's worth asking whether shareholders see a sale or restructuring on the table.",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $1.8M raised across 3 financings (down 99% vs. the trailing 4-week average). The largest: Dvant Pharma, Inc.: growth equity ($1.2M raised). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "13D-0001193125-26-422280"
+    "MDR-b6bb6d29ed"
    ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "1 Michigan-based fund vehicle reported $5.7M raised, led by SWC Michigan RBH LLC (Real Estate). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "Penske Automotive Group, Inc. 8-K (Item 1.01 definitive agreement, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1019849/000114036126039664/0001140361-26-039664-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-10-15",
+   "deal_id": "MDR-54b9a0e84c"
+  },
+  {
+   "title": "High Street Holdco, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2021228/000202122826000010/0002021228-26-000010-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-10-16",
+   "deal_id": "MDR-5c000940ee"
+  },
+  {
+   "title": "High Street Holdco, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2021228/000202122826000009/0002021228-26-000009-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-10-15",
+   "deal_id": "MDR-28eae17fa7"
+  },
+  {
+   "title": "Dvant Pharma, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2158986/000215898626000001/0002158986-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-10-13",
+   "deal_id": "MDR-b6bb6d29ed"
+  },
+  {
+   "title": "StrikeArc Labs Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2160355/000216035526000001/0002160355-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-10-16",
+   "deal_id": "MDR-5e8c816645"
+  },
+  {
+   "title": "Motaris Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2160028/000216002826000002/0002160028-26-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-10-16",
+   "deal_id": "MDR-946b9015c7"
   }
  ]
 }

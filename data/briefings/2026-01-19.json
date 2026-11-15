@@ -1,210 +1,348 @@
 {
+ "schema_version": 2,
  "week_start": "2026-01-19",
  "week_end": "2026-01-25",
- "generated_at": "2026-11-08T05:07:32Z",
- "headline": "10 Michigan deals, $10M raised — led by New Community Transformation Fund II, L.P.",
+ "generated_at": "2026-11-15T22:32:37Z",
+ "headline": "4 Michigan deals; $7.2M raised in private financings",
  "stats": {
-  "deal_count": 10,
-  "by_type": {
-   "Fundraise": 7,
-   "M&A": 0,
-   "Material Agreement": 2,
-   "Stake": 1
-  },
-  "capital_raised": 10005000,
-  "capital_targeted": 40450000,
-  "fund_count": 1
+  "ma_deals": 0,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 4,
+  "financing_raised": 7205000,
+  "fund_raises": 4,
+  "fund_capital_raised": 2800000,
+  "stakes": 1
  },
  "trailing_4wk": {
-  "deal_count": 8.0,
-  "capital_raised": 128899677.5
+  "ma_deals": 1.0,
+  "ma_disclosed_value": 0.0,
+  "ma_with_value": 0.0,
+  "financings": 2.8,
+  "financing_raised": 62907939.8,
+  "fund_raises": 3.2,
+  "fund_capital_raised": 97750217.5,
+  "stakes": 0.2
  },
  "change_vs_trailing": {
-  "deal_count_pct": 25.0,
-  "capital_raised_pct": -92.2
+  "ma_deals": -100.0,
+  "financings": 45.5,
+  "financing_raised": -88.5
  },
- "top_deals": [
+ "notable_ma": [],
+ "top_financings": [
   {
-   "id": "D-2102028-021-571011",
-   "company": "New Community Transformation Fund II, L.P.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Venture Capital Fund",
-   "city": "Grand Rapids",
-   "sector": "Private Funds",
-   "amount": 20000000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "New Community Transformation Fund II, L.P., a Grand Rapids-based venture capital fund, disclosed a $20M raise; $0 sold.",
-   "filed": "2026-01-23"
+   "deal_id": "MDR-720aef821e",
+   "title": "NP Indiana Investors LLC: venture round ($6.9M raised)",
+   "summary": "NP Indiana Investors LLC: venture round ($6.9M raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "NP Indiana Investors LLC",
+   "acquirer": null,
+   "value": 6855000.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
   },
   {
-   "id": "D-2101609-021-570634",
-   "company": "NP Indiana Investors LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Bloomfield Hills",
-   "sector": "Other",
-   "amount": 7000000.0,
-   "amount_sold": 6855000.0,
-   "amount_is_estimate": false,
-   "summary": "NP Indiana Investors LLC, a Bloomfield Hills-based company, filed a $7M equity offering under Rule 506(b); $6.9M sold to 29 investors.",
-   "filed": "2026-01-21"
+   "deal_id": "MDR-d7112f502a",
+   "title": "Token Launch LLC: debt raise ($250K raised)",
+   "summary": "Token Launch LLC: debt raise ($250K raised).",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Token Launch LLC",
+   "acquirer": null,
+   "value": 250000.0,
+   "value_label": "Amount raised",
+   "sector": "Business Services",
+   "region": "Southeast Michigan",
+   "confidence": "High"
   },
   {
-   "id": "D-2106843-021-570795",
-   "company": "CGC Income House 01 LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Grand Rapids",
-   "sector": "Real Estate",
-   "amount": 5000000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "CGC Income House 01 LLC, a Grand Rapids-based commercial real estate company, filed a $5M equity offering under Rule 506(c); $0 sold.",
-   "filed": "2026-01-22"
-  },
-  {
-   "id": "D-2031492-021-570551",
-   "company": "NextFolio Inc.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Traverse City",
+   "deal_id": "MDR-6affa67b2b",
+   "title": "NextFolio Inc.: venture round ($100K raised)",
+   "summary": "NextFolio Inc.: venture round ($100K raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "NextFolio Inc.",
+   "acquirer": null,
+   "value": 100000.0,
+   "value_label": "Amount raised",
    "sector": "Financial Services",
-   "amount": 5000000.0,
-   "amount_sold": 100000.0,
-   "amount_is_estimate": false,
-   "summary": "NextFolio Inc., a Traverse City-based investment company, filed a $5M equity offering under Rule 506(c); $100K sold to 1 investor.",
-   "filed": "2026-01-21"
+   "region": "Northern Michigan",
+   "confidence": "High"
   },
   {
-   "id": "D-2105966-021-570484",
-   "company": "Swc Ci Wf LLC",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "city": "Ann Arbor",
-   "sector": "Real Estate",
-   "amount": 2000000.0,
-   "amount_sold": 2000000.0,
-   "amount_is_estimate": false,
-   "summary": "Swc Ci Wf LLC, an Ann Arbor-based real estate company, filed an indefinite-size equity offering under Rule 506(b); $2M sold to 13 investors.",
-   "filed": "2026-01-20"
-  }
- ],
- "new_funds": [
-  {
-   "id": "D-2102028-021-571011",
-   "company": "New Community Transformation Fund II, L.P.",
-   "ticker": null,
-   "type": "Fundraise",
-   "subtype": "Venture Capital Fund",
-   "city": "Grand Rapids",
-   "sector": "Private Funds",
-   "amount": 20000000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "New Community Transformation Fund II, L.P., a Grand Rapids-based venture capital fund, disclosed a $20M raise; $0 sold.",
-   "filed": "2026-01-23"
-  }
- ],
- "notable_ma": [
-  {
-   "id": "13D-0001193125-26-019685",
-   "company": "Alta Equipment Group Inc.",
-   "ticker": "ALTG",
-   "type": "Stake",
-   "subtype": "13D Amendment",
-   "city": "Livonia",
-   "sector": "Consumer & Retail",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Mill Road Capital III, L.P. and others reported a 13.3% stake in Alta Equipment Group Inc. (ALTG) (Schedule 13D/A amendment 10).",
-   "filed": "2026-01-22"
-  }
- ],
- "material_agreements": [
-  {
-   "id": "8K-0001193125-26-019511",
-   "company": "Alta Equipment Group Inc.",
-   "ticker": "ALTG",
-   "type": "Material Agreement",
-   "subtype": "Material Agreement",
-   "city": "Livonia",
-   "sector": "Consumer & Retail",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Alta Equipment Group Inc. (ALTG) entered into a material definitive agreement.",
-   "filed": "2026-01-22"
-  },
-  {
-   "id": "8K-0000885550-26-000004",
-   "company": "Credit Acceptance Corp",
-   "ticker": "CACC",
-   "type": "Material Agreement",
-   "subtype": "Credit Facility",
-   "city": "Southfield",
+   "deal_id": "MDR-18be707d32",
+   "title": "Credit Acceptance Corp: credit facility",
+   "summary": "Credit Acceptance Corp: credit facility.",
+   "deal_type": "Debt Raise",
+   "status": "Closed",
+   "target": "Credit Acceptance Corp",
+   "acquirer": null,
+   "value": null,
+   "value_label": "Amount raised",
    "sector": "Financial Services",
-   "amount": null,
-   "amount_sold": null,
-   "amount_is_estimate": false,
-   "summary": "Credit Acceptance Corp (CACC) entered into a material definitive agreement (credit facility).",
-   "filed": "2026-01-20"
+   "region": "Southeast Michigan",
+   "confidence": "High"
   }
  ],
- "top_sectors": [
+ "fund_raises": [
   {
-   "sector": "Real Estate",
-   "count": 3,
-   "amount": 2800000.0
+   "id": "CF-4f14d92506",
+   "name": "Swc Ci Wf LLC",
+   "category": "Real Estate",
+   "amount_raised": 2000000.0,
+   "city": "Ann Arbor"
   },
+  {
+   "id": "CF-a6eb1da506",
+   "name": "Pascagoula 76 LLC",
+   "category": "Real Estate",
+   "amount_raised": 800000.0,
+   "city": "Ypsilanti"
+  },
+  {
+   "id": "CF-4143d6273b",
+   "name": "New Community Transformation Fund II, L.P.",
+   "category": "Venture Capital Fund",
+   "amount_raised": 0.0,
+   "city": "Grand Rapids"
+  },
+  {
+   "id": "CF-437b77dd63",
+   "name": "CGC Income House 01 LLC",
+   "category": "Real Estate",
+   "amount_raised": 0.0,
+   "city": "Grand Rapids"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2025-01-25",
+   "2026-01-25"
+  ],
+  "acquirers": [
+   {
+    "name": "Rocket Companies, Inc.",
+    "deals": 2,
+    "disclosed_value": 11150000000.0,
+    "recent_deal_ids": [
+     "MDR-6770a293fd",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Lineage, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-700fcaad5d"
+    ]
+   },
+   {
+    "name": "UWM Holdings Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-1c5d1214e2"
+    ]
+   },
+   {
+    "name": "Penske Automotive Group, Inc.",
+    "deals": 1,
+    "disclosed_value": 519423000.0,
+    "recent_deal_ids": [
+     "MDR-8a21ae9a17"
+    ]
+   },
+   {
+    "name": "Takeoff Buyer, Inc.",
+    "deals": 1,
+    "disclosed_value": 1450000000.0,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Parent",
+    "deals": 3,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "KKR",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Blackstone",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Kate Pew Wolters",
+    "deals": 1,
+    "recent_deal_ids": []
+   },
+   {
+    "name": "Mercantile for purposes of Rule 144 under the Securities Act",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Goldman Sachs & Co. LLC",
+    "deals": 5,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-c9cbae2000",
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-0299e00fcd",
+     "MDR-60d2b79b16",
+     "MDR-c9cbae2000"
+    ]
+   },
+   {
+    "name": "BofA Securities",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-c9cbae2000",
+     "MDR-92bfd33005"
+    ]
+   },
+   {
+    "name": "Morgan Stanley & Co. LLC",
+    "deals": 3,
+    "recent_deal_ids": [
+     "MDR-63d95e3510",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-60d2b79b16",
+     "MDR-6770a293fd"
+    ]
+   }
+  ],
+  "legal_advisors": [
+   {
+    "name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "deals": 4,
+    "recent_deal_ids": [
+     "MDR-964f877284",
+     "MDR-60d2b79b16",
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Kirkland & Ellis LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-c2e014f75f",
+     "MDR-63d95e3510"
+    ]
+   },
+   {
+    "name": "Fenwick & West LLP",
+    "deals": 2,
+    "recent_deal_ids": [
+     "MDR-004182e774",
+     "MDR-f2d6037a26"
+    ]
+   },
+   {
+    "name": "Allerhand & Odoner LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-964f877284"
+    ]
+   },
+   {
+    "name": "Goodwin Procter LLP",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-964f877284"
+    ]
+   }
+  ]
+ },
+ "sector_commentary": [
   {
    "sector": "Financial Services",
-   "count": 2,
-   "amount": 100000.0
-  },
-  {
-   "sector": "Consumer & Retail",
-   "count": 2,
-   "amount": 0.0
-  },
-  {
-   "sector": "Other",
-   "count": 1,
-   "amount": 6855000.0
+   "deals": 2,
+   "text": "2 deals: NextFolio Inc.: venture round ($100K raised); Credit Acceptance Corp: credit facility."
   },
   {
    "sector": "Business Services",
-   "count": 1,
-   "amount": 250000.0
+   "deals": 1,
+   "text": "1 deal: Token Launch LLC: debt raise ($250K raised)."
   }
  ],
  "talking_points": [
   {
-   "topic": "Capital formation",
-   "text": "Michigan issuers reported $10M sold across 7 Form D filings this week, down 92% vs. the prior 4-week average. The largest was NP Indiana Investors LLC (Bloomfield Hills, Other) targeting $7M. Good question to ask: are founders in other favoring equity rounds over venture debt right now?",
+   "topic": "Private capital",
+   "text": "Michigan companies reported $7.2M raised across 4 financings (down 88% vs. the trailing 4-week average). The largest: NP Indiana Investors LLC: venture round ($6.9M raised). Good question: are founders favoring equity or debt in today's market?",
    "deal_ids": [
-    "D-2101609-021-570634"
+    "MDR-720aef821e"
    ]
   },
   {
    "topic": "Fund formation",
-   "text": "1 Michigan-based pooled fund filed Form Ds, reporting $0 raised so far — led by New Community Transformation Fund II, L.P. (Venture Capital Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
-   "deal_ids": [
-    "D-2102028-021-571011"
-   ]
+   "text": "4 Michigan-based fund vehicles reported $2.8M raised, led by Swc Ci Wf LLC (Real Estate). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
   },
   {
-   "topic": "Ownership moves",
-   "text": "Mill Road Capital III, L.P. and others reported a 13.3% stake in Alta Equipment Group Inc. (ALTG) (Schedule 13D/A amendment 10). Schedule 13D filers can push for strategic change, so it's worth asking whether shareholders see a sale or restructuring on the table.",
-   "deal_ids": [
-    "13D-0001193125-26-019685"
-   ]
+   "topic": "Sector watch",
+   "text": "Financial Services was the most active Michigan sector this week with 2 deals. Ask contacts whether that is showing up in their pipelines.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "NP Indiana Investors LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2101609/000210160926000001/0002101609-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-01-21",
+   "deal_id": "MDR-720aef821e"
+  },
+  {
+   "title": "Token Launch LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2106789/000210678926000001/0002106789-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-01-23",
+   "deal_id": "MDR-d7112f502a"
+  },
+  {
+   "title": "NextFolio Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2031492/000203149226000001/0002031492-26-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2026-01-21",
+   "deal_id": "MDR-6affa67b2b"
+  },
+  {
+   "title": "Credit Acceptance Corp 8-K (Item 1.01 definitive agreement, Item 8.01 other events)",
+   "url": "https://www.sec.gov/Archives/edgar/data/885550/000088555026000004/0000885550-26-000004-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2026-01-20",
+   "deal_id": "MDR-18be707d32"
   }
  ]
 }

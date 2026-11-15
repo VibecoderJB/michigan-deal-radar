@@ -1,0 +1,360 @@
+{
+ "schema_version": 2,
+ "week_start": "2025-01-20",
+ "week_end": "2025-01-26",
+ "generated_at": "2026-11-15T22:32:30Z",
+ "headline": "4 Michigan M&A deals, 4 financings; High Street Holdco, LLC issued securities in an acquisition (target not named)",
+ "stats": {
+  "ma_deals": 4,
+  "ma_disclosed_value": 0,
+  "ma_with_value": 0,
+  "financings": 4,
+  "financing_raised": 6166959,
+  "fund_raises": 1,
+  "fund_capital_raised": 4031000,
+  "stakes": 1
+ },
+ "trailing_4wk": {
+  "ma_deals": 0.8,
+  "ma_disclosed_value": 1525000000.0,
+  "ma_with_value": 0.5,
+  "financings": 2.0,
+  "financing_raised": 7595861.0,
+  "fund_raises": 3.0,
+  "fund_capital_raised": 43847913.8,
+  "stakes": 1.0
+ },
+ "change_vs_trailing": {
+  "ma_deals": 433.3,
+  "financings": 100.0,
+  "financing_raised": -18.8
+ },
+ "notable_ma": [
+  {
+   "deal_id": "MDR-711efcda14",
+   "title": "High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "summary": "High Street Holdco, LLC issued securities in an acquisition (target not named).",
+   "deal_type": "Acquisition",
+   "status": "Closed",
+   "target": null,
+   "acquirer": "High Street Holdco, LLC",
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Financial Services",
+   "region": "Northern Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-b8d43049a8",
+   "title": "High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "summary": "High Street Holdco, LLC issued securities in an acquisition (target not named).",
+   "deal_type": "Acquisition",
+   "status": "Closed",
+   "target": null,
+   "acquirer": "High Street Holdco, LLC",
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Financial Services",
+   "region": "Northern Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-d1ba7e3985",
+   "title": "High Street Holdco, LLC issued securities in an acquisition (target not named)",
+   "summary": "High Street Holdco, LLC issued securities in an acquisition (target not named).",
+   "deal_type": "Acquisition",
+   "status": "Closed",
+   "target": null,
+   "acquirer": "High Street Holdco, LLC",
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Financial Services",
+   "region": "Northern Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-f73211283c",
+   "title": "Kraig Biocraft Laboratories, Inc: M&A transaction (buyer/target roles under review)",
+   "summary": "Kraig Biocraft Laboratories, Inc: M&A transaction (buyer/target roles under review); announced 2025-01-21.",
+   "deal_type": "Acquisition",
+   "status": "Announced",
+   "target": null,
+   "acquirer": null,
+   "value": null,
+   "value_label": "Disclosed value",
+   "sector": "Advanced Manufacturing",
+   "region": null,
+   "confidence": "High"
+  }
+ ],
+ "top_financings": [
+  {
+   "deal_id": "MDR-e9b62f894f",
+   "title": "PassiveBolt, Inc.: growth equity ($6.2M raised)",
+   "summary": "PassiveBolt, Inc.: growth equity ($6.2M raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "PassiveBolt, Inc.",
+   "acquirer": null,
+   "value": 6166959.0,
+   "value_label": "Amount raised",
+   "sector": "Software & Technology",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-165d919305",
+   "title": "Lemont Partners LLC: venture round ($0 raised)",
+   "summary": "Lemont Partners LLC: venture round ($0 raised).",
+   "deal_type": "Venture Round",
+   "status": "Announced",
+   "target": "Lemont Partners LLC",
+   "acquirer": null,
+   "value": 0.0,
+   "value_label": "Amount raised",
+   "sector": null,
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-797b69b2d0",
+   "title": "Michigan Endoscopy Center, L.L.C.: growth equity ($0 raised)",
+   "summary": "Michigan Endoscopy Center, L.L.C.: growth equity ($0 raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "Michigan Endoscopy Center, L.L.C.",
+   "acquirer": null,
+   "value": 0.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Southeast Michigan",
+   "confidence": "High"
+  },
+  {
+   "deal_id": "MDR-75e3bcca4e",
+   "title": "GreenMark Biomedical Inc.: growth equity ($0 raised)",
+   "summary": "GreenMark Biomedical Inc.: growth equity ($0 raised).",
+   "deal_type": "Growth Equity",
+   "status": "Announced",
+   "target": "GreenMark Biomedical Inc.",
+   "acquirer": null,
+   "value": 0.0,
+   "value_label": "Amount raised",
+   "sector": "Healthcare",
+   "region": "Mid-Michigan",
+   "confidence": "High"
+  }
+ ],
+ "fund_raises": [
+  {
+   "id": "CF-d7f9a12cc7",
+   "name": "CB Workforce Housing Portfolio II, LLC",
+   "category": "Real Estate",
+   "amount_raised": 4031000.0,
+   "city": "Traverse City"
+  }
+ ],
+ "league_snapshot": {
+  "window": [
+   "2024-01-26",
+   "2025-01-26"
+  ],
+  "acquirers": [
+   {
+    "name": "Stryker Corp",
+    "deals": 1,
+    "disclosed_value": 4900000000.0,
+    "recent_deal_ids": [
+     "MDR-6f503b58c5"
+    ]
+   },
+   {
+    "name": "CP Acquisitions, LLC",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-28e094740d"
+    ]
+   },
+   {
+    "name": "Gentex Corp",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-d08cc96cee"
+    ]
+   },
+   {
+    "name": "Shyft, Aebi Schmidt Holding AG",
+    "deals": 1,
+    "disclosed_value": 474000000.0,
+    "recent_deal_ids": [
+     "MDR-3c7f849168"
+    ]
+   },
+   {
+    "name": "Ansys, Inc.",
+    "deals": 1,
+    "disclosed_value": 0.0,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   }
+  ],
+  "sponsors": [
+   {
+    "name": "Highwire Capital, LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-ac5208db0d"
+    ]
+   },
+   {
+    "name": "FDIC insurance",
+    "deals": 1,
+    "recent_deal_ids": []
+   }
+  ],
+  "financial_advisors": [
+   {
+    "name": "Citigroup Global Markets Inc",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Citigroup Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Global Markets Inc. has",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "J.P. Morgan Securities LLC",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-6f5e61c9e2"
+    ]
+   },
+   {
+    "name": "Perella Weinberg Partners has not",
+    "deals": 1,
+    "recent_deal_ids": [
+     "MDR-762c28a96f"
+    ]
+   }
+  ],
+  "legal_advisors": []
+ },
+ "sector_commentary": [
+  {
+   "sector": "Financial Services",
+   "deals": 3,
+   "text": "3 deals: High Street Holdco, LLC issued securities in an acquisition (target not named); High Street Holdco, LLC issued securities in an acquisition (target not named)."
+  },
+  {
+   "sector": "Healthcare",
+   "deals": 2,
+   "text": "2 deals: Michigan Endoscopy Center, L.L.C.: growth equity ($0 raised); GreenMark Biomedical Inc.: growth equity ($0 raised)."
+  },
+  {
+   "sector": "Software & Technology",
+   "deals": 1,
+   "text": "1 deal: PassiveBolt, Inc.: growth equity ($6.2M raised)."
+  },
+  {
+   "sector": "Advanced Manufacturing",
+   "deals": 1,
+   "text": "1 deal: Kraig Biocraft Laboratories, Inc: M&A transaction (buyer/target roles under review)."
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "M&A",
+   "text": "High Street Holdco, LLC issued securities in an acquisition (target not named). It was one of 4 Michigan M&A deals this week. Ask how buyers are underwriting Michigan financial services assets right now.",
+   "deal_ids": [
+    "MDR-711efcda14",
+    "MDR-b8d43049a8",
+    "MDR-d1ba7e3985"
+   ]
+  },
+  {
+   "topic": "Private capital",
+   "text": "Michigan companies reported $6.2M raised across 4 financings (down 19% vs. the trailing 4-week average). The largest: PassiveBolt, Inc.: growth equity ($6.2M raised). Good question: are founders favoring equity or debt in today's market?",
+   "deal_ids": [
+    "MDR-e9b62f894f"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "1 Michigan-based fund vehicle reported $4M raised, led by CB Workforce Housing Portfolio II, LLC (Real Estate). Ask what LPs want from Michigan sponsors this year.",
+   "deal_ids": []
+  }
+ ],
+ "sources": [
+  {
+   "title": "High Street Holdco, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2021228/000161559425000014/0001615594-25-000014-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-01-23",
+   "deal_id": "MDR-711efcda14"
+  },
+  {
+   "title": "High Street Holdco, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2021228/000161559425000012/0001615594-25-000012-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-01-22",
+   "deal_id": "MDR-b8d43049a8"
+  },
+  {
+   "title": "High Street Holdco, LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2021228/000161559425000011/0001615594-25-000011-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-01-21",
+   "deal_id": "MDR-d1ba7e3985"
+  },
+  {
+   "title": "Kraig Biocraft Laboratories, Inc 8-K (Item 1.01 definitive agreement, Item 7.01 Reg FD)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1413119/000149315225003093/0001493152-25-003093-index.htm",
+   "kind": "SEC 8-K",
+   "date": "2025-01-21",
+   "deal_id": "MDR-f73211283c"
+  },
+  {
+   "title": "PassiveBolt, Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1745682/000174568225000001/0001745682-25-000001-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-01-22",
+   "deal_id": "MDR-e9b62f894f"
+  },
+  {
+   "title": "Lemont Partners LLC Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/2053072/000120087625000002/0001200876-25-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-01-24",
+   "deal_id": "MDR-165d919305"
+  },
+  {
+   "title": "Michigan Endoscopy Center, L.L.C. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1473810/000147381025000002/0001473810-25-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-01-21",
+   "deal_id": "MDR-797b69b2d0"
+  },
+  {
+   "title": "GreenMark Biomedical Inc. Form D",
+   "url": "https://www.sec.gov/Archives/edgar/data/1741718/000174171825000002/0001741718-25-000002-index.htm",
+   "kind": "SEC Form D",
+   "date": "2025-01-21",
+   "deal_id": "MDR-75e3bcca4e"
+  }
+ ]
+}
