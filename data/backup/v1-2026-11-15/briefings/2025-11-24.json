@@ -1,0 +1,225 @@
+{
+ "week_start": "2025-11-24",
+ "week_end": "2025-11-30",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "9 Michigan deals, $2.5M raised — led by Steelcase Inc",
+ "stats": {
+  "deal_count": 9,
+  "by_type": {
+   "Fundraise": 5,
+   "M&A": 2,
+   "Material Agreement": 1,
+   "Stake": 1
+  },
+  "capital_raised": 2450000,
+  "capital_targeted": 8800000,
+  "fund_count": 1
+ },
+ "trailing_4wk": {
+  "deal_count": 3.8,
+  "capital_raised": 40704977.2
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 140.0,
+  "capital_raised_pct": -94.0
+ },
+ "top_deals": [
+  {
+   "id": "8K-0001193125-25-294601",
+   "company": "Steelcase Inc",
+   "ticker": "SCS",
+   "type": "M&A",
+   "subtype": "Deal Announcement",
+   "city": "Grand Rapids",
+   "sector": "Manufacturing & Automotive",
+   "amount": 1200000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Steelcase Inc (SCS) disclosed merger/acquisition activity with HNI Corporation; filing cites a figure of ~$1.2B.",
+   "filed": "2025-11-25"
+  },
+  {
+   "id": "D-2032873-021-564989",
+   "company": "Swan Bravo Opportunity Fund, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Portage",
+   "sector": "Real Estate",
+   "amount": 4000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Swan Bravo Opportunity Fund, LLC, a Portage-based residential real estate company, filed a $4M debt offering under Rule 504; $0 sold.",
+   "filed": "2025-11-25"
+  },
+  {
+   "id": "D-2097419-021-564801",
+   "company": "Nitro Village LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 2150000.0,
+   "amount_sold": 1100000.0,
+   "amount_is_estimate": false,
+   "summary": "Nitro Village LLC, a Birmingham-based investment fund, disclosed a $2.1M raise; $1.1M sold to 3 investors.",
+   "filed": "2025-11-24"
+  },
+  {
+   "id": "D-1689341-021-564842",
+   "company": "CubeWorks, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Ann Arbor",
+   "sector": "Technology",
+   "amount": 2000000.0,
+   "amount_sold": 1000000.0,
+   "amount_is_estimate": false,
+   "summary": "CubeWorks, Inc., an Ann Arbor-based technology company, filed a $2M debt and convertible note offering under Rule 506(b); $1M sold to 3 investors.",
+   "filed": "2025-11-24"
+  },
+  {
+   "id": "D-1977196-021-565053",
+   "company": "Life Knight, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Traverse City",
+   "sector": "Technology",
+   "amount": 600000.0,
+   "amount_sold": 300000.0,
+   "amount_is_estimate": false,
+   "summary": "Life Knight, Inc., a Traverse City-based technology company, filed a $600K equity offering under Rule 506(c); $300K sold to 2 investors.",
+   "filed": "2025-11-25"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2097419-021-564801",
+   "company": "Nitro Village LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 2150000.0,
+   "amount_sold": 1100000.0,
+   "amount_is_estimate": false,
+   "summary": "Nitro Village LLC, a Birmingham-based investment fund, disclosed a $2.1M raise; $1.1M sold to 3 investors.",
+   "filed": "2025-11-24"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "13D-0000898432-25-000936",
+   "company": "ENDRA Life Sciences Inc.",
+   "ticker": "NDRA",
+   "type": "Stake",
+   "subtype": "New 13D Position",
+   "city": "Ann Arbor",
+   "sector": "Health Care & Life Sciences",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Anthony DiGiandomenico reported a 9.99% stake in ENDRA Life Sciences Inc. (NDRA).",
+   "filed": "2025-11-26"
+  },
+  {
+   "id": "8K-0001193125-25-294601",
+   "company": "Steelcase Inc",
+   "ticker": "SCS",
+   "type": "M&A",
+   "subtype": "Deal Announcement",
+   "city": "Grand Rapids",
+   "sector": "Manufacturing & Automotive",
+   "amount": 1200000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Steelcase Inc (SCS) disclosed merger/acquisition activity with HNI Corporation; filing cites a figure of ~$1.2B.",
+   "filed": "2025-11-25"
+  },
+  {
+   "id": "8K-0001193125-25-294589",
+   "company": "Steelcase Inc",
+   "ticker": "SCS",
+   "type": "M&A",
+   "subtype": "Deal Announcement",
+   "city": "Grand Rapids",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Steelcase Inc (SCS) disclosed merger/acquisition activity with HNI Corporation.",
+   "filed": "2025-11-25"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001805284-25-000151",
+   "company": "Rocket Companies, Inc.",
+   "ticker": "RKT",
+   "type": "Material Agreement",
+   "subtype": "Material Agreement",
+   "city": "Detroit",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Rocket Companies, Inc. (RKT) entered into a material definitive agreement.",
+   "filed": "2025-11-26"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Technology",
+   "count": 3,
+   "amount": 1350000.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 2,
+   "amount": 0.0
+  },
+  {
+   "sector": "Private Funds",
+   "count": 1,
+   "amount": 1100000.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 1,
+   "amount": 0.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $2.5M sold across 5 Form D filings this week, down 94% vs. the prior 4-week average. The largest was Swan Bravo Opportunity Fund, LLC (Portage, Residential) targeting $4M. Good question to ask: are founders in real estate favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2032873-021-564989"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "Steelcase Inc (SCS) disclosed a deal with HNI Corporation. It was one of 2 M&A filings this week. Use it to ask how buyers are valuing Michigan manufacturing & automotive assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "8K-0001193125-25-294601",
+    "8K-0001193125-25-294589"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "1 Michigan-based pooled fund filed Form Ds, reporting $1.1M raised so far — led by Nitro Village LLC (Other Investment Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2097419-021-564801"
+   ]
+  }
+ ]
+}

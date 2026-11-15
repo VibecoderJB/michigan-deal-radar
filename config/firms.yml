@@ -1,0 +1,175 @@
+# Firm watchlist: Michigan-based or Michigan-active dealmakers.
+#
+# Used to (1) classify buyers as financial sponsors / family offices / strategics,
+# (2) recognize advisors in filings and press releases, and (3) flag wire and news items
+# that mention these firms (most firms announce deals through PR Newswire, Business Wire
+# or GlobeNewswire, which the pipeline already monitors).
+#
+# Optional per-firm keys:
+#   aliases:   other names the firm appears under
+#   rss_url:   a public RSS feed for the firm's news (checked daily, robots.txt respected)
+#   news_url:  a public news/portfolio page (checked daily for new deal links, robots.txt respected)
+# Leave rss_url/news_url blank until you have confirmed the URL and that the site allows it.
+
+private_equity:
+  - name: Huron Capital
+    hq: Detroit, MI
+  - name: Peninsula Capital Partners
+    hq: Detroit, MI
+  - name: Auxo Investment Partners
+    hq: Grand Rapids, MI
+  - name: Blackford Capital
+    hq: Grand Rapids, MI
+  - name: O2 Investment Partners
+    hq: Bloomfield Hills, MI
+  - name: Northern Shore Capital
+    hq: Bloomfield Hills, MI
+  - name: RHP Partners
+    hq: Farmington Hills, MI
+  - name: Beringea
+    hq: Farmington Hills, MI
+
+venture_capital:
+  - name: Arboretum Ventures
+    hq: Ann Arbor, MI
+  - name: RPM Ventures
+    hq: Ann Arbor, MI
+  - name: Renaissance Venture Capital Fund
+    hq: Ann Arbor, MI
+  - name: Grand Ventures
+    hq: Grand Rapids, MI
+  - name: Ludlow Ventures
+    hq: Detroit, MI
+  - name: Detroit Venture Partners
+    hq: Detroit, MI
+  - name: Invest Detroit Ventures
+    hq: Detroit, MI
+  - name: Michigan Capital Network
+    hq: Grand Rapids, MI
+
+family_offices:
+  - name: RDV Corporation
+    hq: Grand Rapids, MI
+
+investment_banks:
+  - name: Robert W. Baird & Co.
+    aliases: [Baird]
+  - name: Houlihan Lokey
+  - name: Lincoln International
+  - name: Harris Williams
+  - name: William Blair
+  - name: Stifel
+  - name: KeyBanc Capital Markets
+  - name: Piper Sandler
+  - name: Raymond James
+  - name: Comerica Securities
+  - name: Fifth Third Securities
+  - name: Huntington Securities
+  - name: Goldman Sachs & Co. LLC
+    aliases: [Goldman Sachs]
+  - name: J.P. Morgan Securities LLC
+    aliases: [J.P. Morgan, JPMorgan]
+  - name: Morgan Stanley & Co. LLC
+    aliases: [Morgan Stanley]
+  - name: BofA Securities
+  - name: Jefferies LLC
+    aliases: [Jefferies]
+  - name: Evercore
+  - name: Lazard
+  - name: Centerview Partners
+  - name: Keefe, Bruyette & Woods
+    aliases: [KBW]
+  - name: Janney Montgomery Scott
+    aliases: [Janney]
+  - name: Hovde Group
+  - name: D.A. Davidson & Co.
+    aliases: [D.A. Davidson]
+
+law_firms:
+  - name: Honigman LLP
+    aliases: [Honigman]
+    hq: Detroit, MI
+  - name: Dickinson Wright PLLC
+    aliases: [Dickinson Wright]
+    hq: Troy, MI
+  - name: Dykema Gossett PLLC
+    aliases: [Dykema]
+    hq: Detroit, MI
+  - name: Miller, Canfield, Paddock and Stone, P.L.C.
+    aliases: [Miller Canfield]
+    hq: Detroit, MI
+  - name: Warner Norcross + Judd LLP
+    aliases: [Warner Norcross]
+    hq: Grand Rapids, MI
+  - name: Clark Hill PLC
+    aliases: [Clark Hill]
+    hq: Detroit, MI
+  - name: Varnum LLP
+    aliases: [Varnum]
+    hq: Grand Rapids, MI
+  - name: Bodman PLC
+    aliases: [Bodman]
+    hq: Detroit, MI
+  - name: Butzel Long
+    aliases: [Butzel]
+    hq: Detroit, MI
+  - name: Jaffe Raitt Heuer & Weiss
+    aliases: [Jaffe]
+    hq: Southfield, MI
+  - name: Plunkett Cooney
+    hq: Bloomfield Hills, MI
+  - name: Howard & Howard
+    hq: Royal Oak, MI
+  - name: Barack Ferrazzano Kirschbaum & Nagelberg LLP
+    aliases: [Barack Ferrazzano]
+  - name: Wachtell, Lipton, Rosen & Katz
+    aliases: [Wachtell Lipton]
+  - name: Kirkland & Ellis LLP
+    aliases: [Kirkland & Ellis]
+  - name: Skadden, Arps, Slate, Meagher & Flom LLP
+    aliases: [Skadden]
+  - name: Jones Day
+  - name: Sidley Austin LLP
+    aliases: [Sidley]
+  - name: Foley & Lardner LLP
+    aliases: [Foley & Lardner]
+
+corporate_acquirers:
+  - name: Stryker
+    hq: Portage, MI
+  - name: Masco
+    hq: Livonia, MI
+  - name: Lear
+    hq: Southfield, MI
+  - name: BorgWarner
+    hq: Auburn Hills, MI
+  - name: Gentex
+    hq: Zeeland, MI
+  - name: Gentherm
+    hq: Novi, MI
+  - name: Penske Automotive Group
+    hq: Bloomfield Hills, MI
+  - name: Whirlpool
+    hq: Benton Harbor, MI
+  - name: DTE Energy
+    hq: Detroit, MI
+  - name: CMS Energy
+    hq: Jackson, MI
+  - name: UFP Industries
+    hq: Grand Rapids, MI
+  - name: Wolverine World Wide
+    hq: Rockford, MI
+  - name: SpartanNash
+    hq: Grand Rapids, MI
+  - name: Domino's Pizza
+    hq: Ann Arbor, MI
+  - name: Rocket Companies
+    hq: Detroit, MI
+  - name: Ally Financial
+    hq: Detroit, MI
+  - name: Mercantile Bank
+    hq: Grand Rapids, MI
+  - name: Independent Bank Corporation
+    hq: Grand Rapids, MI
+  - name: Isabella Bank Corporation
+    hq: Mt. Pleasant, MI

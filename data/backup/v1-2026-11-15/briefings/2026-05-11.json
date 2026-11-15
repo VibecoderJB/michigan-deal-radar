@@ -1,0 +1,108 @@
+{
+ "week_start": "2026-05-11",
+ "week_end": "2026-05-17",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "3 Michigan deals, $4.7M raised — led by cultivate(MD) Capital Focus Fund, L.P.",
+ "stats": {
+  "deal_count": 3,
+  "by_type": {
+   "Fundraise": 2,
+   "M&A": 0,
+   "Material Agreement": 1,
+   "Stake": 0
+  },
+  "capital_raised": 4742050,
+  "capital_targeted": 60000000,
+  "fund_count": 0
+ },
+ "trailing_4wk": {
+  "deal_count": 9.0,
+  "capital_raised": 58611912.0
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": -66.7,
+  "capital_raised_pct": -91.9
+ },
+ "top_deals": [
+  {
+   "id": "D-2124874-021-584069",
+   "company": "cultivate(MD) Capital Focus Fund, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Grand Rapids",
+   "sector": "Financial Services",
+   "amount": 50000000.0,
+   "amount_sold": 2170000.0,
+   "amount_is_estimate": false,
+   "summary": "cultivate(MD) Capital Focus Fund, L.P., a Grand Rapids-based investment company, filed a $50M equity offering under Rule 506(b); $2.2M sold to 16 investors.",
+   "filed": "2026-05-14"
+  },
+  {
+   "id": "D-2068060-021-546060",
+   "company": "HIG Lending Opportunities LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Grand Rapids",
+   "sector": "Real Estate",
+   "amount": 10000000.0,
+   "amount_sold": 2572050.0,
+   "amount_is_estimate": false,
+   "summary": "HIG Lending Opportunities LLC, a Grand Rapids-based real estate company, filed a $10M equity offering under Rule 506(c); $2.6M sold to 15 investors. (Amended filing.)",
+   "filed": "2026-05-11"
+  }
+ ],
+ "new_funds": [],
+ "notable_ma": [],
+ "material_agreements": [
+  {
+   "id": "8K-0000885550-26-000098",
+   "company": "Credit Acceptance Corp",
+   "ticker": "CACC",
+   "type": "Material Agreement",
+   "subtype": "Material Agreement",
+   "city": "Southfield",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Credit Acceptance Corp (CACC) entered into a material definitive agreement.",
+   "filed": "2026-05-11"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Financial Services",
+   "count": 2,
+   "amount": 2170000.0
+  },
+  {
+   "sector": "Real Estate",
+   "count": 1,
+   "amount": 2572050.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $4.7M sold across 2 Form D filings this week, down 92% vs. the prior 4-week average. The largest was cultivate(MD) Capital Focus Fund, L.P. (Grand Rapids, Investing) targeting $50M. Good question to ask: are founders in financial services favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2124874-021-584069"
+   ]
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Financial Services was the most active sector with 2 of 3 filings (67%). Ask contacts what's driving the activity, and whether it's showing up in their pipeline.",
+   "deal_ids": [
+    "D-2124874-021-584069",
+    "8K-0000885550-26-000098"
+   ]
+  },
+  {
+   "topic": "Year to date",
+   "text": "Year to date, Michigan private issuers have reported $1.8B sold across 114 Form D offerings in 2026, with February the busiest month so far.",
+   "deal_ids": []
+  }
+ ]
+}

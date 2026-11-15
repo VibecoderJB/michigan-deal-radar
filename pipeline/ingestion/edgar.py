@@ -8,7 +8,7 @@ from dataclasses import dataclass, field
 from datetime import date, timedelta
 from typing import Iterator
 
-from . import config
+from .. import config
 from .sec_client import SecClient
 
 log = logging.getLogger(__name__)
@@ -28,6 +28,7 @@ class FilingHit:
     entities: list[dict]  # [{name, tickers, cik, location, state}]
     items: list[str] = field(default_factory=list)
     sics: list[str] = field(default_factory=list)
+    inc_states: list[str] = field(default_factory=list)
     file_nums: list[str] = field(default_factory=list)
     documents: list[str] = field(default_factory=list)  # filenames seen in hits
     primary_document: str | None = None
@@ -58,10 +59,12 @@ def search_filings(
     end: date,
     query: str | None = None,
     location: str = config.STATE_CODE,
+    location_type: str | None = None,
 ) -> list[FilingHit]:
     """Return filings (deduplicated by accession) matching the search.
 
-    ``location`` filters on the state of the filer's principal business address.
+    ``location`` filters on the state of the filer's principal business address, or on the
+    state of incorporation when ``location_type="incorporated"``.
     """
     by_accession: dict[str, FilingHit] = {}
     for win_start, win_end in month_windows(start, end):
@@ -77,6 +80,8 @@ def search_filings(
             }
             if query:
                 params["q"] = query
+            if location_type:
+                params["locationType"] = location_type
             payload = client.get_json(config.FTS_URL, params)
             hits = payload.get("hits", {}).get("hits", [])
             for hit in hits:
@@ -113,6 +118,7 @@ def _merge_hit(store: dict[str, FilingHit], hit: dict) -> None:
             entities=entities,
             items=list(src.get("items") or []),
             sics=[str(x) for x in (src.get("sics") or [])],
+            inc_states=[str(x) for x in (src.get("inc_states") or []) if x],
             file_nums=list(src.get("file_num") or []),
         )
         store[accession] = existing

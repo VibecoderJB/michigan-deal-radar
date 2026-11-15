@@ -1,0 +1,65 @@
+# Public RSS feeds monitored for Michigan deal announcements.
+#
+# Rules this pipeline follows for every feed:
+#  * robots.txt is checked before each request; disallowed URLs are skipped and reported.
+#  * Only the RSS item's headline, link, date and publisher-provided summary are stored.
+#    Article pages are never fetched, so paywalled content is never collected.
+#  * kind: "press_release" (official company announcement -> High confidence) or
+#          "news" (reputable outlet -> Medium confidence).
+#  * verified: set to true once a pipeline run has fetched the feed successfully
+#    (see data/quality/latest.json -> sources.news.feeds). Unverified feeds still run;
+#    failures are logged, never fatal.
+#
+# Google News RSS is intentionally NOT used: news.google.com/robots.txt disallows /rss.
+
+feeds:
+  # Press-release wires (official announcements)
+  - name: PR Newswire: Acquisitions, Mergers & Takeovers
+    url: https://www.prnewswire.com/rss/financial-services-latest-news/acquisitions-mergers-and-takeovers-list.rss
+    publisher: PR Newswire
+    kind: press_release
+    verified: false
+  - name: PR Newswire: All news releases
+    url: https://www.prnewswire.com/rss/news-releases-list.rss
+    publisher: PR Newswire
+    kind: press_release
+    verified: false
+  - name: GlobeNewswire: Mergers and Acquisitions
+    url: https://www.globenewswire.com/RssFeed/subjectcode/27-Mergers%20and%20Acquisitions/feedTitle/GlobeNewswire%20-%20Mergers%20and%20Acquisitions
+    publisher: GlobeNewswire
+    kind: press_release
+    verified: false
+  - name: GlobeNewswire: Michigan keyword
+    url: https://www.globenewswire.com/RssFeed/keyword/Michigan/feedTitle/GlobeNewswire%20-%20Michigan
+    publisher: GlobeNewswire
+    kind: press_release
+    verified: false
+  - name: Business Wire: Home
+    url: https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFtRWA==
+    publisher: Business Wire
+    kind: press_release
+    verified: false
+
+  # Michigan business news (headlines and links only)
+  - name: Crain's Detroit Business
+    url: https://www.crainsdetroit.com/rss.xml
+    publisher: Crain's Detroit Business
+    kind: news
+    paywalled: true
+    verified: false
+  - name: Crain's Grand Rapids Business
+    url: https://www.crainsgrandrapids.com/feed/
+    publisher: Crain's Grand Rapids Business
+    kind: news
+    paywalled: true
+    verified: false
+  - name: DBusiness
+    url: https://www.dbusiness.com/feed/
+    publisher: DBusiness
+    kind: news
+    verified: false
+  - name: MLive Business
+    url: https://www.mlive.com/arc/outboundfeeds/rss/category/business/?outputType=xml
+    publisher: MLive
+    kind: news
+    verified: false

@@ -1,0 +1,225 @@
+{
+ "week_start": "2026-10-05",
+ "week_end": "2026-10-11",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "10 Michigan deals, $31.7M raised — led by Noblestone Credit Select III LLC",
+ "stats": {
+  "deal_count": 10,
+  "by_type": {
+   "Fundraise": 7,
+   "M&A": 1,
+   "Material Agreement": 1,
+   "Stake": 1
+  },
+  "capital_raised": 31658000,
+  "capital_targeted": 57225000,
+  "fund_count": 2
+ },
+ "trailing_4wk": {
+  "deal_count": 15.5,
+  "capital_raised": 86824365.0
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": -35.5,
+  "capital_raised_pct": -63.5
+ },
+ "top_deals": [
+  {
+   "id": "D-2159626-021-600732",
+   "company": "Noblestone Credit Select III LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Southfield",
+   "sector": "Real Estate",
+   "amount": 25000000.0,
+   "amount_sold": 2518000.0,
+   "amount_is_estimate": false,
+   "summary": "Noblestone Credit Select III LLC, a Southfield-based real estate company, filed a $25M equity offering under Rule 506(b); $2.5M sold to 16 investors.",
+   "filed": "2026-10-09"
+  },
+  {
+   "id": "D-2098380-021-600312",
+   "company": "University Bancorp, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Ann Arbor",
+   "sector": "Financial Services",
+   "amount": 25000000.0,
+   "amount_sold": 25000000.0,
+   "amount_is_estimate": false,
+   "summary": "University Bancorp, Inc., an Ann Arbor-based commercial banking company, filed a $25M debt offering under Rule 506(b); $25M sold to 5 investors.",
+   "filed": "2026-10-07"
+  },
+  {
+   "id": "D-2021228-021-600545",
+   "company": "High Street Holdco, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Traverse City",
+   "sector": "Financial Services",
+   "amount": 3743520.0,
+   "amount_sold": 3743520.0,
+   "amount_is_estimate": false,
+   "summary": "High Street Holdco, LLC, a Traverse City-based company, filed a Form D tied to a business combination (acquisition or merger); $3.7M of equity and options/warrants issued to 1 investor.",
+   "filed": "2026-10-08"
+  },
+  {
+   "id": "D-2158942-021-600225",
+   "company": "Moer Venture Fund A Series of V360 Holdings LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 2185000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Moer Venture Fund A Series of V360 Holdings LLC, a Grand Rapids-based venture capital fund, disclosed a $2.2M raise; $0 sold.",
+   "filed": "2026-10-07"
+  },
+  {
+   "id": "D-2130440-021-599907",
+   "company": "Swarm Defense Technologies, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Auburn Hills",
+   "sector": "Technology",
+   "amount": 2040000.0,
+   "amount_sold": 2040000.0,
+   "amount_is_estimate": false,
+   "summary": "Swarm Defense Technologies, Inc., an Auburn Hills-based technology company, filed a $2M SAFE offering under Rule 506(b); $2M sold to 3 investors. (Amended filing.)",
+   "filed": "2026-10-09"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2158942-021-600225",
+   "company": "Moer Venture Fund A Series of V360 Holdings LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 2185000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Moer Venture Fund A Series of V360 Holdings LLC, a Grand Rapids-based venture capital fund, disclosed a $2.2M raise; $0 sold.",
+   "filed": "2026-10-07"
+  },
+  {
+   "id": "D-2158893-021-600162",
+   "company": "Seiche Fund I LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Novi",
+   "sector": "Private Funds",
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Seiche Fund I LP, a Novi-based hedge fund, disclosed an open-ended (indefinite) raise; $0 sold.",
+   "filed": "2026-10-06"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "D-2021228-021-600545",
+   "company": "High Street Holdco, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Traverse City",
+   "sector": "Financial Services",
+   "amount": 3743520.0,
+   "amount_sold": 3743520.0,
+   "amount_is_estimate": false,
+   "summary": "High Street Holdco, LLC, a Traverse City-based company, filed a Form D tied to a business combination (acquisition or merger); $3.7M of equity and options/warrants issued to 1 investor.",
+   "filed": "2026-10-08"
+  },
+  {
+   "id": "13D-0001477932-26-006128",
+   "company": "ENDRA Life Sciences Inc.",
+   "ticker": "NDRA",
+   "type": "Stake",
+   "subtype": "New 13D Position",
+   "city": "ANN ARBOR",
+   "sector": "Health Care & Life Sciences",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "ASP Isotopes Inc. and others reported a 15.1% stake in ENDRA Life Sciences Inc. (NDRA).",
+   "filed": "2026-10-08"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001043337-26-000087",
+   "company": "Stoneridge Inc",
+   "ticker": "SRI",
+   "type": "Material Agreement",
+   "subtype": "Employment Agreement",
+   "city": "Novi",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Stoneridge Inc (SRI) entered into a material definitive agreement (employment agreement).",
+   "filed": "2026-10-07"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Financial Services",
+   "count": 2,
+   "amount": 28743520.0
+  },
+  {
+   "sector": "Real Estate",
+   "count": 2,
+   "amount": 3368000.0
+  },
+  {
+   "sector": "Technology",
+   "count": 2,
+   "amount": 3290000.0
+  },
+  {
+   "sector": "Private Funds",
+   "count": 2,
+   "amount": 0.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $31.7M sold across 7 Form D filings this week, down 64% vs. the prior 4-week average. The largest was Noblestone Credit Select III LLC (Southfield, Other Real Estate) targeting $25M. Good question to ask: are founders in real estate favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2159626-021-600732"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "High Street Holdco, LLC disclosed a deal. Use it to ask how buyers are valuing Michigan financial services assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "D-2021228-021-600545"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "2 Michigan-based pooled funds filed Form Ds, reporting $0 raised so far — led by Moer Venture Fund A Series of V360 Holdings LLC (Venture Capital Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2158942-021-600225",
+    "D-2158893-021-600162"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "week_start": "2026-05-04",
+ "week_end": "2026-05-10",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "5 Michigan deals, $38.2M raised — led by Hantz Ventures - PF III (QP) LLC",
+ "stats": {
+  "deal_count": 5,
+  "by_type": {
+   "Fundraise": 5,
+   "M&A": 0,
+   "Material Agreement": 0,
+   "Stake": 0
+  },
+  "capital_raised": 38210000,
+  "capital_targeted": 53675000,
+  "fund_count": 1
+ },
+ "trailing_4wk": {
+  "deal_count": 9.2,
+  "capital_raised": 54672949.5
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": -45.9,
+  "capital_raised_pct": -30.1
+ },
+ "top_deals": [
+  {
+   "id": "D-2131756-021-582899",
+   "company": "Hantz Ventures - PF III (QP) LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Southfield",
+   "sector": "Private Funds",
+   "amount": 36000000.0,
+   "amount_sold": 36000000.0,
+   "amount_is_estimate": false,
+   "summary": "Hantz Ventures - PF III (QP) LLC, a Southfield-based venture capital fund, disclosed a $36M raise; $36M sold to 88 investors.",
+   "filed": "2026-05-05"
+  },
+  {
+   "id": "D-2094513-021-566270",
+   "company": "Call Up Fund 1, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Farmington Hills",
+   "sector": "Financial Services",
+   "amount": 10000000.0,
+   "amount_sold": 825000.0,
+   "amount_is_estimate": false,
+   "summary": "Call Up Fund 1, LLC, a Farmington Hills-based investment company, filed a $10M equity and other securities offering under Rule 506(c); $825K sold to 5 investors. (Amended filing.)",
+   "filed": "2026-05-04"
+  },
+  {
+   "id": "D-2133262-021-582806",
+   "company": "Talbot Portage LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Birmingham",
+   "sector": "Real Estate",
+   "amount": 5000000.0,
+   "amount_sold": 450000.0,
+   "amount_is_estimate": false,
+   "summary": "Talbot Portage LLC, a Birmingham-based residential real estate company, filed a $5M equity offering under Rule 506(b); $450K sold to 3 investors.",
+   "filed": "2026-05-04"
+  },
+  {
+   "id": "D-2134232-021-583419",
+   "company": "Thermaxis, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Traverse City",
+   "sector": "Manufacturing & Automotive",
+   "amount": 1500000.0,
+   "amount_sold": 325000.0,
+   "amount_is_estimate": false,
+   "summary": "Thermaxis, LLC, a Traverse City-based manufacturing company, filed a $1.5M debt offering under Rule 506(b); $325K sold to 3 investors.",
+   "filed": "2026-05-08"
+  },
+  {
+   "id": "D-1638343-021-583153",
+   "company": "Passage Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Detroit",
+   "sector": "Technology",
+   "amount": 1175000.0,
+   "amount_sold": 610000.0,
+   "amount_is_estimate": false,
+   "summary": "Passage Inc., a Detroit-based technology company, filed a $1.2M equity offering under Rule 506(b); $610K sold to 4 investors.",
+   "filed": "2026-05-07"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2131756-021-582899",
+   "company": "Hantz Ventures - PF III (QP) LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Southfield",
+   "sector": "Private Funds",
+   "amount": 36000000.0,
+   "amount_sold": 36000000.0,
+   "amount_is_estimate": false,
+   "summary": "Hantz Ventures - PF III (QP) LLC, a Southfield-based venture capital fund, disclosed a $36M raise; $36M sold to 88 investors.",
+   "filed": "2026-05-05"
+  }
+ ],
+ "notable_ma": [],
+ "material_agreements": [],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 1,
+   "amount": 36000000.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 1,
+   "amount": 825000.0
+  },
+  {
+   "sector": "Technology",
+   "count": 1,
+   "amount": 610000.0
+  },
+  {
+   "sector": "Real Estate",
+   "count": 1,
+   "amount": 450000.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 1,
+   "amount": 325000.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $38.2M sold across 5 Form D filings this week, down 30% vs. the prior 4-week average. The largest was Call Up Fund 1, LLC (Farmington Hills, Investing) targeting $10M. Good question to ask: are founders in financial services favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2094513-021-566270"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "1 Michigan-based pooled fund filed Form Ds, reporting $36M raised so far — led by Hantz Ventures - PF III (QP) LLC (Venture Capital Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2131756-021-582899"
+   ]
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Manufacturing & Automotive was the most active sector with 1 of 5 filings (20%). Ask contacts what's driving the activity, and whether it's showing up in their pipeline.",
+   "deal_ids": [
+    "D-2134232-021-583419"
+   ]
+  }
+ ]
+}

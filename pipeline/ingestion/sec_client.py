@@ -14,7 +14,7 @@ from typing import Any
 
 import requests
 
-from . import config
+from .. import config
 
 log = logging.getLogger(__name__)
 
@@ -28,10 +28,11 @@ class SecError(RuntimeError):
 class SecClient:
     def __init__(
         self,
-        user_agent: str = config.USER_AGENT,
+        user_agent: str | None = None,
         max_rps: float = config.MAX_REQUESTS_PER_SECOND,
         session: requests.Session | None = None,
     ) -> None:
+        user_agent = user_agent or config.sec_user_agent()
         if "@" not in user_agent:
             raise ValueError("SEC requires a contact email in the User-Agent")
         self.session = session or requests.Session()

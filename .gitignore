@@ -9,3 +9,4 @@ _site/
 desktop/node_modules/
 desktop/dist/
 desktop/web/
+scripts/geo/node_modules/

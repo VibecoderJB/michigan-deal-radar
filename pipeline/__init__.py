@@ -5,4 +5,4 @@ normalizes it into a single deal schema, and writes static JSON for the web app.
 No AI/LLM calls anywhere: every classification and summary is rule-based.
 """
 
-__version__ = "1.0.0"
+__version__ = "2.0.0"

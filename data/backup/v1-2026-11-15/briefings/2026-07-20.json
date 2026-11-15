@@ -1,0 +1,326 @@
+{
+ "week_start": "2026-07-20",
+ "week_end": "2026-07-26",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "15 Michigan deals, $82.3M raised — led by Gentherm Inc",
+ "stats": {
+  "deal_count": 15,
+  "by_type": {
+   "Fundraise": 7,
+   "M&A": 4,
+   "Material Agreement": 2,
+   "Stake": 2
+  },
+  "capital_raised": 82298363,
+  "capital_targeted": 135688387,
+  "fund_count": 3
+ },
+ "trailing_4wk": {
+  "deal_count": 8.5,
+  "capital_raised": 13423128.0
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 76.5,
+  "capital_raised_pct": 513.1
+ },
+ "top_deals": [
+  {
+   "id": "8K-0001193125-26-313204",
+   "company": "Gentherm Inc",
+   "ticker": "THRM",
+   "type": "M&A",
+   "subtype": "Acquisition/Disposition Completed",
+   "city": "Novi",
+   "sector": "Manufacturing & Automotive",
+   "amount": 400000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Gentherm Inc (THRM) reported completing an acquisition or disposition of assets; filing cites a figure of ~$400M.",
+   "filed": "2026-07-23"
+  },
+  {
+   "id": "D-2040457-021-591624",
+   "company": "Elh Fund 1 LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Northville",
+   "sector": "Real Estate",
+   "amount": 50000000.0,
+   "amount_sold": 70000.0,
+   "amount_is_estimate": false,
+   "summary": "Elh Fund 1 LLC, a Northville-based residential real estate company, filed a $50M equity offering under Rule 506(c); $70K sold to 1 investor.",
+   "filed": "2026-07-21"
+  },
+  {
+   "id": "D-2094473-021-591513",
+   "company": "GEC Holdco LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 34325194.0,
+   "amount_sold": 34325194.0,
+   "amount_is_estimate": false,
+   "summary": "GEC Holdco LLC, a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $34.3M sold to 46 investors.",
+   "filed": "2026-07-20"
+  },
+  {
+   "id": "D-2147148-021-592057",
+   "company": "O2 PT Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 23143500.0,
+   "amount_sold": 23143500.0,
+   "amount_is_estimate": false,
+   "summary": "O2 PT Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $23.1M of equity and pooled fund interests issued to 7 investors.",
+   "filed": "2026-07-24"
+  },
+  {
+   "id": "D-2076935-021-552337",
+   "company": "Bloomfield Capital Fund IV, LP - Series E",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 19108181.0,
+   "amount_sold": 19108181.0,
+   "amount_is_estimate": false,
+   "summary": "Bloomfield Capital Fund IV, LP - Series E, a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $19.1M sold to 99 investors. (Amended filing.)",
+   "filed": "2026-07-21"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2094473-021-591513",
+   "company": "GEC Holdco LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 34325194.0,
+   "amount_sold": 34325194.0,
+   "amount_is_estimate": false,
+   "summary": "GEC Holdco LLC, a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $34.3M sold to 46 investors.",
+   "filed": "2026-07-20"
+  },
+  {
+   "id": "D-2147148-021-592057",
+   "company": "O2 PT Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 23143500.0,
+   "amount_sold": 23143500.0,
+   "amount_is_estimate": false,
+   "summary": "O2 PT Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $23.1M of equity and pooled fund interests issued to 7 investors.",
+   "filed": "2026-07-24"
+  },
+  {
+   "id": "D-2076935-021-552337",
+   "company": "Bloomfield Capital Fund IV, LP - Series E",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 19108181.0,
+   "amount_sold": 19108181.0,
+   "amount_is_estimate": false,
+   "summary": "Bloomfield Capital Fund IV, LP - Series E, a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $19.1M sold to 99 investors. (Amended filing.)",
+   "filed": "2026-07-21"
+  },
+  {
+   "id": "D-2138462-021-591479",
+   "company": "Kelchner Holdco LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 15930000.0,
+   "amount_sold": 15930000.0,
+   "amount_is_estimate": false,
+   "summary": "Kelchner Holdco LLC, a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $15.9M sold to 43 investors.",
+   "filed": "2026-07-20"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "D-2147148-021-592057",
+   "company": "O2 PT Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 23143500.0,
+   "amount_sold": 23143500.0,
+   "amount_is_estimate": false,
+   "summary": "O2 PT Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $23.1M of equity and pooled fund interests issued to 7 investors.",
+   "filed": "2026-07-24"
+  },
+  {
+   "id": "8K-0001193125-26-313204",
+   "company": "Gentherm Inc",
+   "ticker": "THRM",
+   "type": "M&A",
+   "subtype": "Acquisition/Disposition Completed",
+   "city": "Novi",
+   "sector": "Manufacturing & Automotive",
+   "amount": 400000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Gentherm Inc (THRM) reported completing an acquisition or disposition of assets; filing cites a figure of ~$400M.",
+   "filed": "2026-07-23"
+  },
+  {
+   "id": "D-2021228-021-591796",
+   "company": "High Street Holdco, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Traverse City",
+   "sector": "Financial Services",
+   "amount": 2750000.0,
+   "amount_sold": 2750000.0,
+   "amount_is_estimate": false,
+   "summary": "High Street Holdco, LLC, a Traverse City-based company, filed a Form D tied to a business combination (acquisition or merger); $2.8M of equity and options/warrants issued to 1 investor.",
+   "filed": "2026-07-22"
+  },
+  {
+   "id": "13D-0001193125-26-311372",
+   "company": "Penske Automotive Group, Inc.",
+   "ticker": "PAG",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Bloomfield Hills",
+   "sector": "Consumer & Retail",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Penske Corporation and others reported a 52.2% stake in Penske Automotive Group, Inc. (PAG) (Schedule 13D/A amendment 33).",
+   "filed": "2026-07-22"
+  },
+  {
+   "id": "13D-0001193125-26-311337",
+   "company": "Penske Automotive Group, Inc.",
+   "ticker": "PAG",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Bloomfield Hills",
+   "sector": "Consumer & Retail",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Mitsui & Co., Ltd. and others reported a 20.3% stake in Penske Automotive Group, Inc. (PAG) (Schedule 13D/A amendment 14).",
+   "filed": "2026-07-22"
+  },
+  {
+   "id": "8K-0001336706-26-000059",
+   "company": "Northpointe Bancshares Inc",
+   "ticker": "NPB",
+   "type": "M&A",
+   "subtype": "Acquisition/Disposition Completed",
+   "city": "Grand Rapids",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Northpointe Bancshares Inc (NPB) reported completing an acquisition or disposition of assets.",
+   "filed": "2026-07-21"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001111335-26-000045",
+   "company": "Visteon Corp",
+   "ticker": "VC",
+   "type": "Material Agreement",
+   "subtype": "Equity Financing",
+   "city": "Van Buren Township",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Visteon Corp (VC) entered into a material definitive agreement (equity financing).",
+   "filed": "2026-07-23"
+  },
+  {
+   "id": "8K-0001213900-26-079637",
+   "company": "Amesite Inc.",
+   "ticker": "AMST",
+   "type": "Material Agreement",
+   "subtype": "Equity Financing",
+   "city": "Ann Arbor",
+   "sector": "Technology",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Amesite Inc. (AMST) entered into a material definitive agreement (equity financing).",
+   "filed": "2026-07-20"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 4,
+   "amount": 92506875.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 4,
+   "amount": 13150000.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 2,
+   "amount": 0.0
+  },
+  {
+   "sector": "Consumer & Retail",
+   "count": 2,
+   "amount": 0.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 1,
+   "amount": 2464988.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $82.3M sold across 7 Form D filings this week, up 513% vs. the prior 4-week average. The largest was Elh Fund 1 LLC (Northville, Residential) targeting $50M. Good question to ask: are founders in real estate favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2040457-021-591624"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "Gentherm Inc (THRM) closed a transaction. It was one of 4 M&A filings this week. Use it to ask how buyers are valuing Michigan manufacturing & automotive assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "D-2147148-021-592057",
+    "8K-0001193125-26-313204",
+    "D-2021228-021-591796"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "4 Michigan-based pooled funds filed Form Ds, reporting $92.5M raised so far — led by GEC Holdco LLC (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2094473-021-591513",
+    "D-2147148-021-592057",
+    "D-2076935-021-552337"
+   ]
+  }
+ ]
+}

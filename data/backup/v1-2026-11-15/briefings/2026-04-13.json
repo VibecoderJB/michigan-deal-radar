@@ -1,0 +1,268 @@
+{
+ "week_start": "2026-04-13",
+ "week_end": "2026-04-19",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "13 Michigan deals, $160.3M raised — led by Sygaldry Technologies, Inc.",
+ "stats": {
+  "deal_count": 13,
+  "by_type": {
+   "Fundraise": 7,
+   "M&A": 2,
+   "Material Agreement": 2,
+   "Stake": 2
+  },
+  "capital_raised": 160323334,
+  "capital_targeted": 180443334,
+  "fund_count": 1
+ },
+ "trailing_4wk": {
+  "deal_count": 9.8,
+  "capital_raised": 18187405.5
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 33.3,
+  "capital_raised_pct": 781.5
+ },
+ "top_deals": [
+  {
+   "id": "D-2125374-021-580292",
+   "company": "Sygaldry Technologies, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Ann Arbor",
+   "sector": "Technology",
+   "amount": 139034650.0,
+   "amount_sold": 139034650.0,
+   "amount_is_estimate": false,
+   "summary": "Sygaldry Technologies, Inc., an Ann Arbor-based technology company, filed a $139M equity offering under Rule 506(b); $139M sold to 165 investors.",
+   "filed": "2026-04-14"
+  },
+  {
+   "id": "D-2129697-021-580755",
+   "company": "Food Capital Partners Holdings LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Oxford",
+   "sector": "Business Services",
+   "amount": 22000000.0,
+   "amount_sold": 10805000.0,
+   "amount_is_estimate": false,
+   "summary": "Food Capital Partners Holdings LLC, an Oxford-based business services company, filed a $22M equity offering under Rule 506(b); $10.8M sold to 7 investors.",
+   "filed": "2026-04-16"
+  },
+  {
+   "id": "D-2128331-021-580511",
+   "company": "O2 Atlas Paving Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 11350000.0,
+   "amount_sold": 11350000.0,
+   "amount_is_estimate": false,
+   "summary": "O2 Atlas Paving Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $11.3M of equity and pooled fund interests issued to 8 investors.",
+   "filed": "2026-04-15"
+  },
+  {
+   "id": "D-2128834-021-580276",
+   "company": "W Silverbell LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Bingham Farms",
+   "sector": "Real Estate",
+   "amount": 8473684.0,
+   "amount_sold": 8473684.0,
+   "amount_is_estimate": false,
+   "summary": "W Silverbell LLC, a Bingham Farms-based commercial real estate company, filed a $8.5M equity offering under Rule 506(b); $8.5M sold to 85 investors.",
+   "filed": "2026-04-14"
+  },
+  {
+   "id": "D-2021228-021-580085",
+   "company": "High Street Holdco, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Traverse City",
+   "sector": "Financial Services",
+   "amount": 8115000.0,
+   "amount_sold": 8115000.0,
+   "amount_is_estimate": false,
+   "summary": "High Street Holdco, LLC, a Traverse City-based company, filed a Form D tied to a business combination (acquisition or merger); $8.1M of equity and options/warrants issued to 1 investor.",
+   "filed": "2026-04-13"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2128331-021-580511",
+   "company": "O2 Atlas Paving Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 11350000.0,
+   "amount_sold": 11350000.0,
+   "amount_is_estimate": false,
+   "summary": "O2 Atlas Paving Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $11.3M of equity and pooled fund interests issued to 8 investors.",
+   "filed": "2026-04-15"
+  },
+  {
+   "id": "D-2127905-021-580203",
+   "company": "1847 Anchor SPV 2, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Holland",
+   "sector": "Private Funds",
+   "amount": 500000.0,
+   "amount_sold": 500000.0,
+   "amount_is_estimate": false,
+   "summary": "1847 Anchor SPV 2, LLC, a Holland-based investment fund, disclosed an open-ended (indefinite) raise; $500K sold to 9 investors.",
+   "filed": "2026-04-13"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "D-2128331-021-580511",
+   "company": "O2 Atlas Paving Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 11350000.0,
+   "amount_sold": 11350000.0,
+   "amount_is_estimate": false,
+   "summary": "O2 Atlas Paving Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $11.3M of equity and pooled fund interests issued to 8 investors.",
+   "filed": "2026-04-15"
+  },
+  {
+   "id": "13D-0000905148-26-001695",
+   "company": "Hagerty, Inc.",
+   "ticker": "HGTY",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Traverse City",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Markel Group Inc. reported a 44.8% stake in Hagerty, Inc. (HGTY) (Schedule 13D/A amendment 5).",
+   "filed": "2026-04-15"
+  },
+  {
+   "id": "13D-0001242914-26-000005",
+   "company": "Stryker Corp",
+   "ticker": "SYK",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "PORTAGE",
+   "sector": "Health Care & Life Sciences",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Stryker Ronda E reported a 4% stake in Stryker Corp (SYK) (Schedule 13D/A amendment 8).",
+   "filed": "2026-04-14"
+  },
+  {
+   "id": "D-2021228-021-580085",
+   "company": "High Street Holdco, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Traverse City",
+   "sector": "Financial Services",
+   "amount": 8115000.0,
+   "amount_sold": 8115000.0,
+   "amount_is_estimate": false,
+   "summary": "High Street Holdco, LLC, a Traverse City-based company, filed a Form D tied to a business combination (acquisition or merger); $8.1M of equity and options/warrants issued to 1 investor.",
+   "filed": "2026-04-13"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0000037996-26-000079",
+   "company": "Ford Motor Co",
+   "ticker": "F",
+   "type": "Material Agreement",
+   "subtype": "Material Agreement",
+   "city": "Dearborn",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Ford Motor Co (F) entered into a material definitive agreement.",
+   "filed": "2026-04-15"
+  },
+  {
+   "id": "8K-0001699350-26-000016",
+   "company": "Shoulder Innovations, Inc.",
+   "ticker": "SI",
+   "type": "Material Agreement",
+   "subtype": "Real Estate / Lease",
+   "city": "Grand Rapids",
+   "sector": "Health Care & Life Sciences",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Shoulder Innovations, Inc. (SI) entered into a material definitive agreement (real estate / lease).",
+   "filed": "2026-04-14"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Technology",
+   "count": 3,
+   "amount": 140544650.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 3,
+   "amount": 0.0
+  },
+  {
+   "sector": "Private Funds",
+   "count": 2,
+   "amount": 11850000.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 2,
+   "amount": 8115000.0
+  },
+  {
+   "sector": "Business Services",
+   "count": 1,
+   "amount": 10805000.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $160.3M sold across 7 Form D filings this week, up 782% vs. the prior 4-week average. The largest was Sygaldry Technologies, Inc. (Ann Arbor, Other Technology) targeting $139M. Good question to ask: are founders in technology favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2125374-021-580292"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "O2 Atlas Paving Holdings, LLC disclosed a deal. It was one of 2 M&A filings this week. Use it to ask how buyers are valuing Michigan private funds assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "D-2128331-021-580511",
+    "D-2021228-021-580085"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "2 Michigan-based pooled funds filed Form Ds, reporting $11.8M raised so far — led by O2 Atlas Paving Holdings, LLC (Business Combination (Form D)). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2128331-021-580511",
+    "D-2127905-021-580203"
+   ]
+  }
+ ]
+}

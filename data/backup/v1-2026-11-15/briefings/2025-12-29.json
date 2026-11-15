@@ -1,0 +1,159 @@
+{
+ "week_start": "2025-12-29",
+ "week_end": "2026-01-04",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "5 Michigan deals, $155.1M raised — led by LuxWall, Inc.",
+ "stats": {
+  "deal_count": 5,
+  "by_type": {
+   "Fundraise": 2,
+   "M&A": 0,
+   "Material Agreement": 3,
+   "Stake": 0
+  },
+  "capital_raised": 155081646,
+  "capital_targeted": 189074963,
+  "fund_count": 1
+ },
+ "trailing_4wk": {
+  "deal_count": 8.5,
+  "capital_raised": 217614875.2
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": -41.2,
+  "capital_raised_pct": -28.7
+ },
+ "top_deals": [
+  {
+   "id": "D-1931489-021-568104",
+   "company": "LuxWall, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Ypsilanti",
+   "sector": "Manufacturing & Automotive",
+   "amount": 110999963.0,
+   "amount_sold": 77006646.0,
+   "amount_is_estimate": false,
+   "summary": "LuxWall, Inc., a Ypsilanti-based manufacturing company, filed a $111M equity offering under Rule 506(b); $77M sold to 11 investors.",
+   "filed": "2025-12-29"
+  },
+  {
+   "id": "D-1663864-021-255294",
+   "company": "Marnell Management Fund, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Farmington Hills",
+   "sector": "Private Funds",
+   "amount": 78075000.0,
+   "amount_sold": 78075000.0,
+   "amount_is_estimate": false,
+   "summary": "Marnell Management Fund, L.P., a Farmington Hills-based hedge fund, disclosed an open-ended (indefinite) raise; $78.1M sold to 50 investors. (Amended filing.)",
+   "filed": "2025-12-31"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-1663864-021-255294",
+   "company": "Marnell Management Fund, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Farmington Hills",
+   "sector": "Private Funds",
+   "amount": 78075000.0,
+   "amount_sold": 78075000.0,
+   "amount_is_estimate": false,
+   "summary": "Marnell Management Fund, L.P., a Farmington Hills-based hedge fund, disclosed an open-ended (indefinite) raise; $78.1M sold to 50 investors. (Amended filing.)",
+   "filed": "2025-12-31"
+  }
+ ],
+ "notable_ma": [],
+ "material_agreements": [
+  {
+   "id": "8K-0001840776-26-000003",
+   "company": "Hagerty, Inc.",
+   "ticker": "HGTY",
+   "type": "Material Agreement",
+   "subtype": "Material Agreement",
+   "city": "Traverse City",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Hagerty, Inc. (HGTY) entered into a material definitive agreement.",
+   "filed": "2026-01-02"
+  },
+  {
+   "id": "8K-0001437749-25-039072",
+   "company": "Mercantile Bank Corp",
+   "ticker": "MBWM",
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "city": "Grand Rapids",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Mercantile Bank Corp (MBWM) entered into a material definitive agreement (credit facility).",
+   "filed": "2025-12-31"
+  },
+  {
+   "id": "8K-0001193125-25-337040",
+   "company": "Presurance Holdings, Inc.",
+   "ticker": "PRHI",
+   "type": "Material Agreement",
+   "subtype": "Equity Financing",
+   "city": "Troy",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Presurance Holdings, Inc. (PRHI) entered into a material definitive agreement (equity financing).",
+   "filed": "2025-12-30"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Financial Services",
+   "count": 3,
+   "amount": 0.0
+  },
+  {
+   "sector": "Private Funds",
+   "count": 1,
+   "amount": 78075000.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 1,
+   "amount": 77006646.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $155.1M sold across 2 Form D filings this week, down 29% vs. the prior 4-week average. The largest was LuxWall, Inc. (Ypsilanti, Manufacturing) targeting $111M. Good question to ask: are founders in manufacturing & automotive favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-1931489-021-568104"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "1 Michigan-based pooled fund filed Form Ds, reporting $78.1M raised so far — led by Marnell Management Fund, L.P. (Hedge Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-1663864-021-255294"
+   ]
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Financial Services was the most active sector with 3 of 5 filings (60%). Ask contacts what's driving the activity, and whether it's showing up in their pipeline.",
+   "deal_ids": [
+    "8K-0001840776-26-000003",
+    "8K-0001437749-25-039072",
+    "8K-0001193125-25-337040"
+   ]
+  }
+ ]
+}

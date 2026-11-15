@@ -1,0 +1,326 @@
+{
+ "week_start": "2026-09-14",
+ "week_end": "2026-09-20",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "24 Michigan deals, $195.5M raised — led by English Capital Partners LP",
+ "stats": {
+  "deal_count": 24,
+  "by_type": {
+   "Fundraise": 18,
+   "M&A": 4,
+   "Material Agreement": 1,
+   "Stake": 1
+  },
+  "capital_raised": 195524352,
+  "capital_targeted": 262399352,
+  "fund_count": 13
+ },
+ "trailing_4wk": {
+  "deal_count": 10.0,
+  "capital_raised": 44197960.5
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 140.0,
+  "capital_raised_pct": 342.4
+ },
+ "top_deals": [
+  {
+   "id": "D-1642912-021-240431",
+   "company": "English Capital Partners LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 97683512.0,
+   "amount_sold": 97683512.0,
+   "amount_is_estimate": false,
+   "summary": "English Capital Partners LP, a Bloomfield Hills-based hedge fund, disclosed an open-ended (indefinite) raise; $97.7M sold to 16 investors. (Amended filing.)",
+   "filed": "2026-09-18"
+  },
+  {
+   "id": "D-2149230-021-597473",
+   "company": "Ssib Fund I LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Ann Arbor",
+   "sector": "Private Funds",
+   "amount": 50000000.0,
+   "amount_sold": 36200000.0,
+   "amount_is_estimate": false,
+   "summary": "Ssib Fund I LP, an Ann Arbor-based private equity fund, disclosed a $50M raise; $36.2M sold to 32 investors.",
+   "filed": "2026-09-15"
+  },
+  {
+   "id": "D-2126536-021-579934",
+   "company": "Net Alliance Fund One LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Grand Rapids",
+   "sector": "Real Estate",
+   "amount": 40000000.0,
+   "amount_sold": 950000.0,
+   "amount_is_estimate": false,
+   "summary": "Net Alliance Fund One LLC, a Grand Rapids-based commercial real estate company, filed a $40M equity offering under Rule 506(c); $950K sold to 11 investors. (Amended filing.)",
+   "filed": "2026-09-15"
+  },
+  {
+   "id": "D-1996158-021-495542",
+   "company": "Optimal SIC 6X9, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Traverse City",
+   "sector": "Private Funds",
+   "amount": 13514760.0,
+   "amount_sold": 13514760.0,
+   "amount_is_estimate": false,
+   "summary": "Optimal SIC 6X9, LLC, a Traverse City-based private equity fund, disclosed a $13.5M raise; $13.5M sold to 32 investors. (Amended filing.)",
+   "filed": "2026-09-15"
+  },
+  {
+   "id": "D-1996224-021-495539",
+   "company": "Optimal MCAP Fund II, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Traverse City",
+   "sector": "Private Funds",
+   "amount": 11350000.0,
+   "amount_sold": 11350000.0,
+   "amount_is_estimate": false,
+   "summary": "Optimal MCAP Fund II, LLC, a Traverse City-based investment fund, disclosed an open-ended (indefinite) raise; $11.3M sold to 31 investors. (Amended filing.)",
+   "filed": "2026-09-15"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-1642912-021-240431",
+   "company": "English Capital Partners LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 97683512.0,
+   "amount_sold": 97683512.0,
+   "amount_is_estimate": false,
+   "summary": "English Capital Partners LP, a Bloomfield Hills-based hedge fund, disclosed an open-ended (indefinite) raise; $97.7M sold to 16 investors. (Amended filing.)",
+   "filed": "2026-09-18"
+  },
+  {
+   "id": "D-2149230-021-597473",
+   "company": "Ssib Fund I LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Ann Arbor",
+   "sector": "Private Funds",
+   "amount": 50000000.0,
+   "amount_sold": 36200000.0,
+   "amount_is_estimate": false,
+   "summary": "Ssib Fund I LP, an Ann Arbor-based private equity fund, disclosed a $50M raise; $36.2M sold to 32 investors.",
+   "filed": "2026-09-15"
+  },
+  {
+   "id": "D-1996158-021-495542",
+   "company": "Optimal SIC 6X9, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Traverse City",
+   "sector": "Private Funds",
+   "amount": 13514760.0,
+   "amount_sold": 13514760.0,
+   "amount_is_estimate": false,
+   "summary": "Optimal SIC 6X9, LLC, a Traverse City-based private equity fund, disclosed a $13.5M raise; $13.5M sold to 32 investors. (Amended filing.)",
+   "filed": "2026-09-15"
+  },
+  {
+   "id": "D-1996224-021-495539",
+   "company": "Optimal MCAP Fund II, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Traverse City",
+   "sector": "Private Funds",
+   "amount": 11350000.0,
+   "amount_sold": 11350000.0,
+   "amount_is_estimate": false,
+   "summary": "Optimal MCAP Fund II, LLC, a Traverse City-based investment fund, disclosed an open-ended (indefinite) raise; $11.3M sold to 31 investors. (Amended filing.)",
+   "filed": "2026-09-15"
+  },
+  {
+   "id": "D-1996229-021-495543",
+   "company": "Optimal SM Capital Fund I, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Traverse City",
+   "sector": "Private Funds",
+   "amount": 7100000.0,
+   "amount_sold": 7100000.0,
+   "amount_is_estimate": false,
+   "summary": "Optimal SM Capital Fund I, LLC, a Traverse City-based investment fund, disclosed a $7.1M raise; $7.1M sold to 19 investors. (Amended filing.)",
+   "filed": "2026-09-15"
+  },
+  {
+   "id": "D-1996207-021-495536",
+   "company": "Optimal Access I, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Traverse City",
+   "sector": "Private Funds",
+   "amount": 6452500.0,
+   "amount_sold": 6452500.0,
+   "amount_is_estimate": false,
+   "summary": "Optimal Access I, LLC, a Traverse City-based investment fund, disclosed an open-ended (indefinite) raise; $6.5M sold to 17 investors. (Amended filing.)",
+   "filed": "2026-09-15"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "D-2084848-021-558287",
+   "company": "WL Growth Partners, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 5600000.0,
+   "amount_sold": 5600000.0,
+   "amount_is_estimate": false,
+   "summary": "WL Growth Partners, LLC, a Birmingham-based fund, filed a Form D tied to a business combination (acquisition or merger); $5.6M of equity and pooled fund interests issued to 24 investors. (Amended filing.)",
+   "filed": "2026-09-16"
+  },
+  {
+   "id": "D-2084847-021-558281",
+   "company": "Fencecrete Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Birmingham",
+   "sector": "Other",
+   "amount": 8900000.0,
+   "amount_sold": 8900000.0,
+   "amount_is_estimate": false,
+   "summary": "Fencecrete Holdings, LLC, a Birmingham-based company, filed a Form D tied to a business combination (acquisition or merger); $8.9M of equity issued to 7 investors. (Amended filing.)",
+   "filed": "2026-09-16"
+  },
+  {
+   "id": "D-2021228-021-597580",
+   "company": "High Street Holdco, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Traverse City",
+   "sector": "Financial Services",
+   "amount": 6785000.0,
+   "amount_sold": 6785000.0,
+   "amount_is_estimate": false,
+   "summary": "High Street Holdco, LLC, a Traverse City-based company, filed a Form D tied to a business combination (acquisition or merger); $6.8M of equity and options/warrants issued to 1 investor.",
+   "filed": "2026-09-15"
+  },
+  {
+   "id": "D-2153591-021-597415",
+   "company": "PCM Norton Shores Holdco, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Okemos",
+   "sector": "Real Estate",
+   "amount": 1500000.0,
+   "amount_sold": 1500000.0,
+   "amount_is_estimate": false,
+   "summary": "PCM Norton Shores Holdco, LLC, an Okemos-based company, filed a Form D tied to a business combination (acquisition or merger); $1.5M of equity issued to 4 investors.",
+   "filed": "2026-09-14"
+  },
+  {
+   "id": "13D-0000905148-26-004169",
+   "company": "Hagerty, Inc.",
+   "ticker": "HGTY",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Traverse City",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Markel Group Inc. reported a 42% stake in Hagerty, Inc. (HGTY) (Schedule 13D/A amendment 6).",
+   "filed": "2026-09-14"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0000885550-26-000192",
+   "company": "Credit Acceptance Corp",
+   "ticker": "CACC",
+   "type": "Material Agreement",
+   "subtype": "Material Agreement",
+   "city": "Southfield",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Credit Acceptance Corp (CACC) entered into a material definitive agreement.",
+   "filed": "2026-09-18"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 14,
+   "amount": 192699352.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 4,
+   "amount": 7360000.0
+  },
+  {
+   "sector": "Real Estate",
+   "count": 3,
+   "amount": 8950000.0
+  },
+  {
+   "sector": "Other",
+   "count": 2,
+   "amount": 9100000.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 1,
+   "amount": 200000.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $195.5M sold across 18 Form D filings this week, up 342% vs. the prior 4-week average. The largest was Net Alliance Fund One LLC (Grand Rapids, Commercial) targeting $40M. Good question to ask: are founders in real estate favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2126536-021-579934"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "Fencecrete Holdings, LLC disclosed a deal. It was one of 4 M&A filings this week. Use it to ask how buyers are valuing Michigan other assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "D-2084848-021-558287",
+    "D-2084847-021-558281",
+    "D-2021228-021-597580"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "14 Michigan-based pooled funds filed Form Ds, reporting $192.7M raised so far — led by English Capital Partners LP (Hedge Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-1642912-021-240431",
+    "D-2149230-021-597473",
+    "D-1996158-021-495542"
+   ]
+  }
+ ]
+}

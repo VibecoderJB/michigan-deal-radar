@@ -1,0 +1,240 @@
+{
+ "week_start": "2026-08-24",
+ "week_end": "2026-08-30",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "13 Michigan deals, $15.5M raised — led by Solyco Portfolio SPV 3 Omega LLC",
+ "stats": {
+  "deal_count": 13,
+  "by_type": {
+   "Fundraise": 11,
+   "M&A": 0,
+   "Material Agreement": 1,
+   "Stake": 1
+  },
+  "capital_raised": 15536202,
+  "capital_targeted": 166396202,
+  "fund_count": 4
+ },
+ "trailing_4wk": {
+  "deal_count": 13.0,
+  "capital_raised": 434997113.8
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 0.0,
+  "capital_raised_pct": -96.4
+ },
+ "top_deals": [
+  {
+   "id": "D-2150578-021-595247",
+   "company": "Solyco Portfolio SPV 3 Omega LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Rochester",
+   "sector": "Private Funds",
+   "amount": 100000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Solyco Portfolio SPV 3 Omega LLC, a Rochester-based private equity fund, disclosed a $100M raise; $0 sold.",
+   "filed": "2026-08-25"
+  },
+  {
+   "id": "D-2150563-021-595249",
+   "company": "Solyco Portfolio SPV 3 LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Rochester",
+   "sector": "Private Funds",
+   "amount": 50000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Solyco Portfolio SPV 3 LLC, a Rochester-based private equity fund, disclosed a $50M raise; $0 sold.",
+   "filed": "2026-08-25"
+  },
+  {
+   "id": "D-2040534-021-595268",
+   "company": "Grounded Rvs Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Detroit",
+   "sector": "Technology",
+   "amount": 4788475.0,
+   "amount_sold": 4738475.0,
+   "amount_is_estimate": false,
+   "summary": "Grounded Rvs Inc., a Detroit-based technology company, filed a $4.8M equity offering under Rule 506(b); $4.7M sold to 29 investors.",
+   "filed": "2026-08-25"
+  },
+  {
+   "id": "D-2100956-021-569991",
+   "company": "Capitan Orthopedics, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Grand Rapids",
+   "sector": "Health Care & Life Sciences",
+   "amount": 4135706.0,
+   "amount_sold": 4135706.0,
+   "amount_is_estimate": false,
+   "summary": "Capitan Orthopedics, Inc., a Grand Rapids-based health care company, filed a $4.1M debt and security to be acquired offering under Rule 506(b); $4.1M sold to 38 investors. (Amended filing.)",
+   "filed": "2026-08-28"
+  },
+  {
+   "id": "D-2108225-021-572018",
+   "company": "KBH Partners, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Caledonia",
+   "sector": "Manufacturing & Automotive",
+   "amount": 3000000.0,
+   "amount_sold": 2190000.0,
+   "amount_is_estimate": false,
+   "summary": "KBH Partners, LLC, a Caledonia-based manufacturing company, filed a $3M equity offering under Rule 506(b); $2.2M sold to 18 investors. (Amended filing.)",
+   "filed": "2026-08-28"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2150578-021-595247",
+   "company": "Solyco Portfolio SPV 3 Omega LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Rochester",
+   "sector": "Private Funds",
+   "amount": 100000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Solyco Portfolio SPV 3 Omega LLC, a Rochester-based private equity fund, disclosed a $100M raise; $0 sold.",
+   "filed": "2026-08-25"
+  },
+  {
+   "id": "D-2150563-021-595249",
+   "company": "Solyco Portfolio SPV 3 LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Rochester",
+   "sector": "Private Funds",
+   "amount": 50000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Solyco Portfolio SPV 3 LLC, a Rochester-based private equity fund, disclosed a $50M raise; $0 sold.",
+   "filed": "2026-08-25"
+  },
+  {
+   "id": "D-1734529-021-308963",
+   "company": "Vellum Beta Fund, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 1572034.0,
+   "amount_sold": 1572034.0,
+   "amount_is_estimate": false,
+   "summary": "Vellum Beta Fund, LP, a Grand Rapids-based hedge fund, disclosed an open-ended (indefinite) raise; $1.6M sold to 12 investors. (Amended filing.)",
+   "filed": "2026-08-28"
+  },
+  {
+   "id": "D-2151807-021-595454",
+   "company": "Syntha Carrera Alpha Fund, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Ann Arbor",
+   "sector": "Private Funds",
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Syntha Carrera Alpha Fund, LP, an Ann Arbor-based hedge fund, disclosed an open-ended (indefinite) raise; $0 sold.",
+   "filed": "2026-08-26"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "13D-0002097390-26-000006",
+   "company": "Workhorse Group Inc.",
+   "ticker": "WKHS",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "WIXOM",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Motive GM Holdings II LLC and others reported a 65.4% stake in Workhorse Group Inc. (WKHS) (Schedule 13D/A amendment 1).",
+   "filed": "2026-08-25"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0000885550-26-000185",
+   "company": "Credit Acceptance Corp",
+   "ticker": "CACC",
+   "type": "Material Agreement",
+   "subtype": "Material Agreement",
+   "city": "Southfield",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Credit Acceptance Corp (CACC) entered into a material definitive agreement.",
+   "filed": "2026-08-25"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Technology",
+   "count": 5,
+   "amount": 7638462.0
+  },
+  {
+   "sector": "Private Funds",
+   "count": 4,
+   "amount": 1572034.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 2,
+   "amount": 2190000.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 1,
+   "amount": 4135706.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $15.5M sold across 11 Form D filings this week, down 96% vs. the prior 4-week average. The largest was Grounded Rvs Inc. (Detroit, Other Technology) targeting $4.8M. Good question to ask: are founders in technology favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2040534-021-595268"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "4 Michigan-based pooled funds filed Form Ds, reporting $1.6M raised so far — led by Solyco Portfolio SPV 3 Omega LLC (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2150578-021-595247",
+    "D-2150563-021-595249",
+    "D-1734529-021-308963"
+   ]
+  },
+  {
+   "topic": "Ownership moves",
+   "text": "Motive GM Holdings II LLC and others reported a 65.4% stake in Workhorse Group Inc. (WKHS) (Schedule 13D/A amendment 1). Schedule 13D filers can push for strategic change, so it's worth asking whether shareholders see a sale or restructuring on the table.",
+   "deal_ids": [
+    "13D-0002097390-26-000006"
+   ]
+  }
+ ]
+}

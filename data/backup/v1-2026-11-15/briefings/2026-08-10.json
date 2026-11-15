@@ -1,0 +1,239 @@
+{
+ "week_start": "2026-08-10",
+ "week_end": "2026-08-16",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "10 Michigan deals, $130.8M raised — led by Blackford Capital Opportunity Fund II, LP",
+ "stats": {
+  "deal_count": 10,
+  "by_type": {
+   "Fundraise": 6,
+   "M&A": 0,
+   "Material Agreement": 2,
+   "Stake": 2
+  },
+  "capital_raised": 130799500,
+  "capital_targeted": 196792000,
+  "fund_count": 2
+ },
+ "trailing_4wk": {
+  "deal_count": 12.8,
+  "capital_raised": 394440417.2
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": -21.6,
+  "capital_raised_pct": -66.8
+ },
+ "top_deals": [
+  {
+   "id": "D-2148250-021-594215",
+   "company": "Blackford Capital Opportunity Fund II, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 130000000.0,
+   "amount_sold": 90000000.0,
+   "amount_is_estimate": false,
+   "summary": "Blackford Capital Opportunity Fund II, LP, a Grand Rapids-based private equity fund, disclosed a $130M raise; $90M sold to 5 investors.",
+   "filed": "2026-08-14"
+  },
+  {
+   "id": "D-2148352-021-594219",
+   "company": "Blackford Capital Co-Investment Fund II, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 40000000.0,
+   "amount_sold": 40000000.0,
+   "amount_is_estimate": false,
+   "summary": "Blackford Capital Co-Investment Fund II, LP, a Grand Rapids-based private equity fund, disclosed a $40M raise; $40M sold to 5 investors.",
+   "filed": "2026-08-14"
+  },
+  {
+   "id": "D-2147328-021-594101",
+   "company": "iReprogram, Inc",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Ann Arbor",
+   "sector": "Health Care & Life Sciences",
+   "amount": 25000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "iReprogram, Inc, an Ann Arbor-based biotechnology company, filed a $25M debt offering under Rule 506(b); $0 sold.",
+   "filed": "2026-08-13"
+  },
+  {
+   "id": "D-2148532-021-594312",
+   "company": "Superior Genomics, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Norway",
+   "sector": "Technology",
+   "amount": 1500000.0,
+   "amount_sold": 507500.0,
+   "amount_is_estimate": false,
+   "summary": "Superior Genomics, Inc., a Norway-based technology company, filed a $1.5M SAFE offering under Rule 506(b); $507.5K sold to 14 investors.",
+   "filed": "2026-08-14"
+  },
+  {
+   "id": "D-2148824-021-593648",
+   "company": "MI Fire Giver Investments, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Northville",
+   "sector": "Other",
+   "amount": 180000.0,
+   "amount_sold": 180000.0,
+   "amount_is_estimate": false,
+   "summary": "MI Fire Giver Investments, LLC, a Northville-based company, filed a $180K equity and pooled fund interests offering under Rule 506(b); $180K sold to 7 investors.",
+   "filed": "2026-08-10"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2148250-021-594215",
+   "company": "Blackford Capital Opportunity Fund II, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 130000000.0,
+   "amount_sold": 90000000.0,
+   "amount_is_estimate": false,
+   "summary": "Blackford Capital Opportunity Fund II, LP, a Grand Rapids-based private equity fund, disclosed a $130M raise; $90M sold to 5 investors.",
+   "filed": "2026-08-14"
+  },
+  {
+   "id": "D-2148352-021-594219",
+   "company": "Blackford Capital Co-Investment Fund II, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 40000000.0,
+   "amount_sold": 40000000.0,
+   "amount_is_estimate": false,
+   "summary": "Blackford Capital Co-Investment Fund II, LP, a Grand Rapids-based private equity fund, disclosed a $40M raise; $40M sold to 5 investors.",
+   "filed": "2026-08-14"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "13D-0001477932-26-004961",
+   "company": "Sharing Economy International Inc.",
+   "ticker": "SEII",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "FARMINGTON HILLS",
+   "sector": "Technology",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Huang Ximing reported a 65.6% stake in Sharing Economy International Inc. (SEII) (Schedule 13D/A amendment 1).",
+   "filed": "2026-08-13"
+  },
+  {
+   "id": "13D-0001842002-26-000024",
+   "company": "UWM Holdings Corporation",
+   "ticker": "UWMC",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Pontiac",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Mat Ishbia and others reported a 79.4% stake in UWM Holdings Corporation (UWMC) (Schedule 13D/A amendment 16).",
+   "filed": "2026-08-10"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001628280-26-056273",
+   "company": "Workhorse Group Inc.",
+   "ticker": "WKHS",
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "city": "Wixom",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Workhorse Group Inc. (WKHS) entered into a material definitive agreement (credit facility).",
+   "filed": "2026-08-12"
+  },
+  {
+   "id": "8K-0001193125-26-344698",
+   "company": "General Motors Co",
+   "ticker": "GM",
+   "type": "Material Agreement",
+   "subtype": "Equity Financing",
+   "city": "Detroit",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "General Motors Co (GM) entered into a material definitive agreement (equity financing).",
+   "filed": "2026-08-11"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Technology",
+   "count": 3,
+   "amount": 619500.0
+  },
+  {
+   "sector": "Private Funds",
+   "count": 2,
+   "amount": 130000000.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 2,
+   "amount": 0.0
+  },
+  {
+   "sector": "Other",
+   "count": 1,
+   "amount": 180000.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $130.8M sold across 6 Form D filings this week, down 67% vs. the prior 4-week average. The largest was iReprogram, Inc (Ann Arbor, Biotechnology) targeting $25M. Good question to ask: are founders in health care & life sciences favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2147328-021-594101"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "2 Michigan-based pooled funds filed Form Ds, reporting $130M raised so far — led by Blackford Capital Opportunity Fund II, LP (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2148250-021-594215",
+    "D-2148352-021-594219"
+   ]
+  },
+  {
+   "topic": "Ownership moves",
+   "text": "Mat Ishbia and others reported a 79.4% stake in UWM Holdings Corporation (UWMC) (Schedule 13D/A amendment 16). Schedule 13D filers can push for strategic change, so it's worth asking whether shareholders see a sale or restructuring on the table.",
+   "deal_ids": [
+    "13D-0001842002-26-000024"
+   ]
+  }
+ ]
+}

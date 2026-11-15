@@ -1,0 +1,292 @@
+{
+ "week_start": "2026-02-02",
+ "week_end": "2026-02-08",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "14 Michigan deals, $293.7M raised — led by TRP Capital Partners VI, LP",
+ "stats": {
+  "deal_count": 14,
+  "by_type": {
+   "Fundraise": 9,
+   "M&A": 3,
+   "Material Agreement": 0,
+   "Stake": 2
+  },
+  "capital_raised": 293747350,
+  "capital_targeted": 300062750,
+  "fund_count": 5
+ },
+ "trailing_4wk": {
+  "deal_count": 10.5,
+  "capital_raised": 125514046.2
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 33.3,
+  "capital_raised_pct": 134.0
+ },
+ "top_deals": [
+  {
+   "id": "D-2007435-021-503572",
+   "company": "TRP Capital Partners VI, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 251210000.0,
+   "amount_sold": 251210000.0,
+   "amount_is_estimate": false,
+   "summary": "TRP Capital Partners VI, LP, a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $251.2M sold to 60 investors. (Amended filing.)",
+   "filed": "2026-02-06"
+  },
+  {
+   "id": "D-2108488-021-572230",
+   "company": "GinSan InvestCo, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 14500000.0,
+   "amount_sold": 13180000.0,
+   "amount_is_estimate": false,
+   "summary": "GinSan InvestCo, LLC, a Grand Rapids-based investment fund, disclosed a $14.5M raise; $13.2M sold to 27 investors.",
+   "filed": "2026-02-03"
+  },
+  {
+   "id": "D-2007436-021-503626",
+   "company": "TRP Capital Partners VI (B), LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 12800000.0,
+   "amount_sold": 12800000.0,
+   "amount_is_estimate": false,
+   "summary": "TRP Capital Partners VI (B), LP, a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $12.8M sold to 14 investors. (Amended filing.)",
+   "filed": "2026-02-06"
+  },
+  {
+   "id": "D-2107962-021-572277",
+   "company": "Ajc Savannah Gs Holding LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Bloomfield Hills",
+   "sector": "Real Estate",
+   "amount": 8730000.0,
+   "amount_sold": 8730000.0,
+   "amount_is_estimate": false,
+   "summary": "Ajc Savannah Gs Holding LLC, a Bloomfield Hills-based real estate company, filed a $8.7M equity offering under Rule 506(b); $8.7M sold to 66 investors.",
+   "filed": "2026-02-04"
+  },
+  {
+   "id": "D-2109828-021-572815",
+   "company": "Bevel Holdings, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Farmington Hills",
+   "sector": "Real Estate",
+   "amount": 5000000.0,
+   "amount_sold": 4600.0,
+   "amount_is_estimate": false,
+   "summary": "Bevel Holdings, LLC, a Farmington Hills-based real estate company, filed a $5M equity and debt offering under Rule 506(b); $4.6K sold to 6 investors.",
+   "filed": "2026-02-06"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2007435-021-503572",
+   "company": "TRP Capital Partners VI, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 251210000.0,
+   "amount_sold": 251210000.0,
+   "amount_is_estimate": false,
+   "summary": "TRP Capital Partners VI, LP, a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $251.2M sold to 60 investors. (Amended filing.)",
+   "filed": "2026-02-06"
+  },
+  {
+   "id": "D-2108488-021-572230",
+   "company": "GinSan InvestCo, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 14500000.0,
+   "amount_sold": 13180000.0,
+   "amount_is_estimate": false,
+   "summary": "GinSan InvestCo, LLC, a Grand Rapids-based investment fund, disclosed a $14.5M raise; $13.2M sold to 27 investors.",
+   "filed": "2026-02-03"
+  },
+  {
+   "id": "D-2007436-021-503626",
+   "company": "TRP Capital Partners VI (B), LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 12800000.0,
+   "amount_sold": 12800000.0,
+   "amount_is_estimate": false,
+   "summary": "TRP Capital Partners VI (B), LP, a Birmingham-based private equity fund, disclosed an open-ended (indefinite) raise; $12.8M sold to 14 investors. (Amended filing.)",
+   "filed": "2026-02-06"
+  },
+  {
+   "id": "D-1949028-021-572132",
+   "company": "GSS Investment Holdco, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Southfield",
+   "sector": "Private Funds",
+   "amount": 717750.0,
+   "amount_sold": 717750.0,
+   "amount_is_estimate": false,
+   "summary": "GSS Investment Holdco, L.P., a Southfield-based private equity fund, disclosed an open-ended (indefinite) raise; $717.8K sold to 20 investors.",
+   "filed": "2026-02-03"
+  },
+  {
+   "id": "D-2109161-021-572412",
+   "company": "OA Fund VII Sidecar II, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "OA Fund VII Sidecar II, LP, a Grand Rapids-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
+   "filed": "2026-02-04"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "13D-0000921895-26-000236",
+   "company": "Stoneridge Inc",
+   "ticker": "SRI",
+   "type": "Stake",
+   "subtype": "New 13D Position",
+   "city": "NOVI",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "22NW Fund, LP and others reported a 8.2% stake in Stoneridge Inc (SRI).",
+   "filed": "2026-02-06"
+  },
+  {
+   "id": "D-2109402-021-572532",
+   "company": "INVMW Delray Senior Investor LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Detroit",
+   "sector": "Real Estate",
+   "amount": 300000.0,
+   "amount_sold": 300000.0,
+   "amount_is_estimate": false,
+   "summary": "INVMW Delray Senior Investor LLC, a Detroit-based company, filed a Form D tied to a business combination (acquisition or merger); $300K of equity issued to 4 investors.",
+   "filed": "2026-02-05"
+  },
+  {
+   "id": "8K-0001104659-26-009503",
+   "company": "Dauch Corp",
+   "ticker": "AXL",
+   "type": "M&A",
+   "subtype": "Acquisition/Disposition Completed",
+   "city": "Detroit",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Dauch Corp (AXL) reported completing an acquisition or disposition of assets.",
+   "filed": "2026-02-03"
+  },
+  {
+   "id": "8K-0001043337-26-000002",
+   "company": "Stoneridge Inc",
+   "ticker": "SRI",
+   "type": "M&A",
+   "subtype": "Acquisition/Disposition Completed",
+   "city": "Novi",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Stoneridge Inc (SRI) reported completing an acquisition or disposition of assets.",
+   "filed": "2026-02-02"
+  },
+  {
+   "id": "13D-0001842002-26-000004",
+   "company": "UWM Holdings Corporation",
+   "ticker": "UWMC",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Pontiac",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Mat Ishbia and others reported a 82.7% stake in UWM Holdings Corporation (UWMC) (Schedule 13D/A amendment 12).",
+   "filed": "2026-02-02"
+  }
+ ],
+ "material_agreements": [],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 5,
+   "amount": 277907750.0
+  },
+  {
+   "sector": "Real Estate",
+   "count": 5,
+   "amount": 16139600.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 3,
+   "amount": 0.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $293.7M sold across 9 Form D filings this week, up 134% vs. the prior 4-week average. The largest was Ajc Savannah Gs Holding LLC (Bloomfield Hills, Other Real Estate) targeting $8.7M. Good question to ask: are founders in real estate favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2107962-021-572277"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "INVMW Delray Senior Investor LLC disclosed a deal. It was one of 3 M&A filings this week. Use it to ask how buyers are valuing Michigan real estate assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "D-2109402-021-572532",
+    "8K-0001104659-26-009503",
+    "8K-0001043337-26-000002"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "5 Michigan-based pooled funds filed Form Ds, reporting $277.9M raised so far — led by TRP Capital Partners VI, LP (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2007435-021-503572",
+    "D-2108488-021-572230",
+    "D-2007436-021-503626"
+   ]
+  }
+ ]
+}

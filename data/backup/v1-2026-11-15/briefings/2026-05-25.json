@@ -1,0 +1,192 @@
+{
+ "week_start": "2026-05-25",
+ "week_end": "2026-05-31",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "5 Michigan deals, $396K raised — led by High Street Holdco, LLC",
+ "stats": {
+  "deal_count": 5,
+  "by_type": {
+   "Fundraise": 3,
+   "M&A": 1,
+   "Material Agreement": 1,
+   "Stake": 0
+  },
+  "capital_raised": 396000,
+  "capital_targeted": 975000,
+  "fund_count": 2
+ },
+ "trailing_4wk": {
+  "deal_count": 7.2,
+  "capital_raised": 55179032.5
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": -31.0,
+  "capital_raised_pct": -99.3
+ },
+ "top_deals": [
+  {
+   "id": "D-2021228-021-585056",
+   "company": "High Street Holdco, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Traverse City",
+   "sector": "Financial Services",
+   "amount": 2300000.0,
+   "amount_sold": 2300000.0,
+   "amount_is_estimate": false,
+   "summary": "High Street Holdco, LLC, a Traverse City-based company, filed a Form D tied to a business combination (acquisition or merger); $2.3M of equity and options/warrants issued to 1 investor.",
+   "filed": "2026-05-26"
+  },
+  {
+   "id": "D-2136757-021-585332",
+   "company": "Kingsbury Pictures LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Sawyer",
+   "sector": "Other",
+   "amount": 650000.0,
+   "amount_sold": 71000.0,
+   "amount_is_estimate": false,
+   "summary": "Kingsbury Pictures LLC, a Sawyer-based company, filed a $650K equity offering under Rule 506(b); $71K sold to 5 investors.",
+   "filed": "2026-05-27"
+  },
+  {
+   "id": "D-2135870-021-584599",
+   "company": "Clubhouse Capital LOVB SF LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 250000.0,
+   "amount_sold": 250000.0,
+   "amount_is_estimate": false,
+   "summary": "Clubhouse Capital LOVB SF LLC, a Birmingham-based venture capital fund, disclosed an open-ended (indefinite) raise; $250K sold to 3 investors. (Amended filing.)",
+   "filed": "2026-05-26"
+  },
+  {
+   "id": "D-2135792-021-584600",
+   "company": "Clubhouse Capital PredictSync LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 75000.0,
+   "amount_sold": 75000.0,
+   "amount_is_estimate": false,
+   "summary": "Clubhouse Capital PredictSync LLC, a Birmingham-based venture capital fund, disclosed an open-ended (indefinite) raise; $75K sold to 3 investors. (Amended filing.)",
+   "filed": "2026-05-26"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2135870-021-584599",
+   "company": "Clubhouse Capital LOVB SF LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 250000.0,
+   "amount_sold": 250000.0,
+   "amount_is_estimate": false,
+   "summary": "Clubhouse Capital LOVB SF LLC, a Birmingham-based venture capital fund, disclosed an open-ended (indefinite) raise; $250K sold to 3 investors. (Amended filing.)",
+   "filed": "2026-05-26"
+  },
+  {
+   "id": "D-2135792-021-584600",
+   "company": "Clubhouse Capital PredictSync LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 75000.0,
+   "amount_sold": 75000.0,
+   "amount_is_estimate": false,
+   "summary": "Clubhouse Capital PredictSync LLC, a Birmingham-based venture capital fund, disclosed an open-ended (indefinite) raise; $75K sold to 3 investors. (Amended filing.)",
+   "filed": "2026-05-26"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "D-2021228-021-585056",
+   "company": "High Street Holdco, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Traverse City",
+   "sector": "Financial Services",
+   "amount": 2300000.0,
+   "amount_sold": 2300000.0,
+   "amount_is_estimate": false,
+   "summary": "High Street Holdco, LLC, a Traverse City-based company, filed a Form D tied to a business combination (acquisition or merger); $2.3M of equity and options/warrants issued to 1 investor.",
+   "filed": "2026-05-26"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001213900-26-061701",
+   "company": "ENDRA Life Sciences Inc.",
+   "ticker": "NDRA",
+   "type": "Material Agreement",
+   "subtype": "Equity Financing",
+   "city": "Ann Arbor",
+   "sector": "Health Care & Life Sciences",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "ENDRA Life Sciences Inc. (NDRA) entered into a material definitive agreement (equity financing).",
+   "filed": "2026-05-28"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 2,
+   "amount": 325000.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 1,
+   "amount": 2300000.0
+  },
+  {
+   "sector": "Other",
+   "count": 1,
+   "amount": 71000.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $396K sold across 3 Form D filings this week, down 99% vs. the prior 4-week average. The largest was Kingsbury Pictures LLC (Sawyer, Other) targeting $650K. Good question to ask: are founders in other favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2136757-021-585332"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "High Street Holdco, LLC disclosed a deal. Use it to ask how buyers are valuing Michigan financial services assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "D-2021228-021-585056"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "2 Michigan-based pooled funds filed Form Ds, reporting $325K raised so far — led by Clubhouse Capital LOVB SF LLC (Venture Capital Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2135870-021-584599",
+    "D-2135792-021-584600"
+   ]
+  }
+ ]
+}

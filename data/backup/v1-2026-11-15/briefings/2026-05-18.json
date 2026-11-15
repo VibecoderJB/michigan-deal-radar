@@ -1,0 +1,283 @@
+{
+ "week_start": "2026-05-18",
+ "week_end": "2026-05-24",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "11 Michigan deals, $169.7M raised — led by BAMF Health Parent, Inc.",
+ "stats": {
+  "deal_count": 11,
+  "by_type": {
+   "Fundraise": 6,
+   "M&A": 2,
+   "Material Agreement": 2,
+   "Stake": 1
+  },
+  "capital_raised": 169700626,
+  "capital_targeted": 240899773,
+  "fund_count": 2
+ },
+ "trailing_4wk": {
+  "deal_count": 6.5,
+  "capital_raised": 19716591.0
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 69.2,
+  "capital_raised_pct": 760.7
+ },
+ "top_deals": [
+  {
+   "id": "D-2135570-021-584553",
+   "company": "BAMF Health Parent, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Grand Rapids",
+   "sector": "Health Care & Life Sciences",
+   "amount": 129558326.0,
+   "amount_sold": 59652075.0,
+   "amount_is_estimate": false,
+   "summary": "BAMF Health Parent, Inc., a Grand Rapids-based health care company, filed a $129.6M equity and options/warrants offering under Rule 506(b); $59.7M sold to 12 investors.",
+   "filed": "2026-05-19"
+  },
+  {
+   "id": "D-2128418-021-584828",
+   "company": "Michigan State University Federal Credit Union",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "East Lansing",
+   "sector": "Financial Services",
+   "amount": 75000000.0,
+   "amount_sold": 75000000.0,
+   "amount_is_estimate": false,
+   "summary": "Michigan State University Federal Credit Union, an East Lansing-based financial services company, filed a $75M debt offering under Rule 506(b); $75M sold to 41 investors.",
+   "filed": "2026-05-21"
+  },
+  {
+   "id": "D-2108211-021-576154",
+   "company": "BGW Ventures V, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Ann Arbor",
+   "sector": "Private Funds",
+   "amount": 22699994.0,
+   "amount_sold": 22699994.0,
+   "amount_is_estimate": false,
+   "summary": "BGW Ventures V, LP, an Ann Arbor-based venture capital fund, disclosed a $22.7M raise; $22.7M sold to 12 investors. (Amended filing.)",
+   "filed": "2026-05-18"
+  },
+  {
+   "id": "D-2131845-021-584367",
+   "company": "BAMF Investment Partners, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Ada",
+   "sector": "Private Funds",
+   "amount": 10183188.0,
+   "amount_sold": 10183188.0,
+   "amount_is_estimate": false,
+   "summary": "BAMF Investment Partners, LLC, an Ada-based investment fund, disclosed a $10.2M raise; $10.2M sold to 60 investors.",
+   "filed": "2026-05-18"
+  },
+  {
+   "id": "D-1557827-021-584944",
+   "company": "Atomic Object LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Grand Rapids",
+   "sector": "Technology",
+   "amount": 2458265.0,
+   "amount_sold": 1165369.0,
+   "amount_is_estimate": false,
+   "summary": "Atomic Object LLC, a Grand Rapids-based computers company, filed a $2.5M equity offering under Rule 504; $1.2M sold to 30 investors.",
+   "filed": "2026-05-22"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2108211-021-576154",
+   "company": "BGW Ventures V, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Ann Arbor",
+   "sector": "Private Funds",
+   "amount": 22699994.0,
+   "amount_sold": 22699994.0,
+   "amount_is_estimate": false,
+   "summary": "BGW Ventures V, LP, an Ann Arbor-based venture capital fund, disclosed a $22.7M raise; $22.7M sold to 12 investors. (Amended filing.)",
+   "filed": "2026-05-18"
+  },
+  {
+   "id": "D-2131845-021-584367",
+   "company": "BAMF Investment Partners, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Ada",
+   "sector": "Private Funds",
+   "amount": 10183188.0,
+   "amount_sold": 10183188.0,
+   "amount_is_estimate": false,
+   "summary": "BAMF Investment Partners, LLC, an Ada-based investment fund, disclosed a $10.2M raise; $10.2M sold to 60 investors.",
+   "filed": "2026-05-18"
+  },
+  {
+   "id": "D-1903938-021-584625",
+   "company": "Modular Devices Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 2000000.0,
+   "amount_sold": 2000000.0,
+   "amount_is_estimate": false,
+   "summary": "Modular Devices Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $2M of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2026-05-20"
+  },
+  {
+   "id": "D-2135550-021-584626",
+   "company": "Absolute Medical Imaging Acquisition, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 1000.0,
+   "amount_sold": 1000.0,
+   "amount_is_estimate": false,
+   "summary": "Absolute Medical Imaging Acquisition, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $1K of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2026-05-20"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "D-2135550-021-584626",
+   "company": "Absolute Medical Imaging Acquisition, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 1000.0,
+   "amount_sold": 1000.0,
+   "amount_is_estimate": false,
+   "summary": "Absolute Medical Imaging Acquisition, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $1K of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2026-05-20"
+  },
+  {
+   "id": "D-1903938-021-584625",
+   "company": "Modular Devices Holdings, LLC",
+   "ticker": null,
+   "type": "M&A",
+   "subtype": "Business Combination (Form D)",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 2000000.0,
+   "amount_sold": 2000000.0,
+   "amount_is_estimate": false,
+   "summary": "Modular Devices Holdings, LLC, a Bloomfield Hills-based fund, filed a Form D tied to a business combination (acquisition or merger); $2M of equity and pooled fund interests issued to 1 investor.",
+   "filed": "2026-05-20"
+  },
+  {
+   "id": "13D-0000950142-26-001455",
+   "company": "Kelly Services Inc",
+   "ticker": "KELYA",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "TROY",
+   "sector": "Business Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Hunt Equity Opportunities, LLC and others reported a 92.2% stake in Kelly Services Inc (KELYA) (Schedule 13D/A amendment 1).",
+   "filed": "2026-05-19"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0000912593-26-000174",
+   "company": "Sun Communities Inc",
+   "ticker": "SUI",
+   "type": "Material Agreement",
+   "subtype": "Equity Financing",
+   "city": "Southfield",
+   "sector": "Real Estate",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Sun Communities Inc (SUI) entered into a material definitive agreement (equity financing).",
+   "filed": "2026-05-21"
+  },
+  {
+   "id": "8K-0000037996-26-000093",
+   "company": "Ford Motor Co",
+   "ticker": "F",
+   "type": "Material Agreement",
+   "subtype": "Material Agreement",
+   "city": "Dearborn",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Ford Motor Co (F) entered into a material definitive agreement.",
+   "filed": "2026-05-21"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 4,
+   "amount": 34884182.0
+  },
+  {
+   "sector": "Financial Services",
+   "count": 1,
+   "amount": 75000000.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 1,
+   "amount": 59652075.0
+  },
+  {
+   "sector": "Technology",
+   "count": 1,
+   "amount": 1165369.0
+  },
+  {
+   "sector": "Other",
+   "count": 1,
+   "amount": 1000000.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $169.7M sold across 6 Form D filings this week, up 761% vs. the prior 4-week average. The largest was BAMF Health Parent, Inc. (Grand Rapids, Other Health Care) targeting $129.6M. Good question to ask: are founders in health care & life sciences favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2135570-021-584553"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "Modular Devices Holdings, LLC disclosed a deal. It was one of 2 M&A filings this week. Use it to ask how buyers are valuing Michigan private funds assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "D-2135550-021-584626",
+    "D-1903938-021-584625"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "4 Michigan-based pooled funds filed Form Ds, reporting $34.9M raised so far — led by BGW Ventures V, LP (Venture Capital Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2108211-021-576154",
+    "D-2131845-021-584367",
+    "D-1903938-021-584625"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,220 @@
+{
+ "week_start": "2026-01-05",
+ "week_end": "2026-01-11",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "8 Michigan deals, $105.1M raised — led by OneStream, Inc.",
+ "stats": {
+  "deal_count": 8,
+  "by_type": {
+   "Fundraise": 7,
+   "M&A": 1,
+   "Material Agreement": 0,
+   "Stake": 0
+  },
+  "capital_raised": 105140349,
+  "capital_targeted": 108805910,
+  "fund_count": 4
+ },
+ "trailing_4wk": {
+  "deal_count": 8.2,
+  "capital_raised": 250010286.8
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": -3.0,
+  "capital_raised_pct": -57.9
+ },
+ "top_deals": [
+  {
+   "id": "8K-0001193125-26-004772",
+   "company": "OneStream, Inc.",
+   "ticker": "OS",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Birmingham",
+   "sector": "Technology",
+   "amount": 5600000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "OneStream, Inc. (OS) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$5.6B.",
+   "filed": "2026-01-06"
+  },
+  {
+   "id": "D-2104255-021-569463",
+   "company": "QCP Income & Growth Fund, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Ann Arbor",
+   "sector": "Private Funds",
+   "amount": 100000000.0,
+   "amount_sold": 100000000.0,
+   "amount_is_estimate": false,
+   "summary": "QCP Income & Growth Fund, L.P., an Ann Arbor-based investment fund, disclosed an open-ended (indefinite) raise; $100M sold to 1 investor.",
+   "filed": "2026-01-09"
+  },
+  {
+   "id": "D-2104288-021-569245",
+   "company": "CGC Store House 01 LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Grand Rapids",
+   "sector": "Other",
+   "amount": 3660000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "CGC Store House 01 LLC, a Grand Rapids-based company, filed a $3.7M equity offering under Rule 506(b); $0 sold.",
+   "filed": "2026-01-07"
+  },
+  {
+   "id": "D-1886981-021-569231",
+   "company": "FarmFi Fund 1 - Volatility, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 2629105.0,
+   "amount_sold": 2629105.0,
+   "amount_is_estimate": false,
+   "summary": "FarmFi Fund 1 - Volatility, LP, a Birmingham-based hedge fund, disclosed an open-ended (indefinite) raise; $2.6M sold to 9 investors.",
+   "filed": "2026-01-07"
+  },
+  {
+   "id": "D-1808694-021-569362",
+   "company": "Competitive Wedge, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Grand Rapids",
+   "sector": "Technology",
+   "amount": 1500000.0,
+   "amount_sold": 1494439.0,
+   "amount_is_estimate": false,
+   "summary": "Competitive Wedge, LLC, a Grand Rapids-based technology company, filed a $1.5M equity offering under Rule 506(b); $1.5M sold to 34 investors.",
+   "filed": "2026-01-08"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2104255-021-569463",
+   "company": "QCP Income & Growth Fund, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Ann Arbor",
+   "sector": "Private Funds",
+   "amount": 100000000.0,
+   "amount_sold": 100000000.0,
+   "amount_is_estimate": false,
+   "summary": "QCP Income & Growth Fund, L.P., an Ann Arbor-based investment fund, disclosed an open-ended (indefinite) raise; $100M sold to 1 investor.",
+   "filed": "2026-01-09"
+  },
+  {
+   "id": "D-1886981-021-569231",
+   "company": "FarmFi Fund 1 - Volatility, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 2629105.0,
+   "amount_sold": 2629105.0,
+   "amount_is_estimate": false,
+   "summary": "FarmFi Fund 1 - Volatility, LP, a Birmingham-based hedge fund, disclosed an open-ended (indefinite) raise; $2.6M sold to 9 investors.",
+   "filed": "2026-01-07"
+  },
+  {
+   "id": "D-1747730-021-331377",
+   "company": "Leaven Partners LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Detroit",
+   "sector": "Private Funds",
+   "amount": 891805.0,
+   "amount_sold": 891805.0,
+   "amount_is_estimate": false,
+   "summary": "Leaven Partners LP, a Detroit-based hedge fund, disclosed an open-ended (indefinite) raise; $891.8K sold to 7 investors. (Amended filing.)",
+   "filed": "2026-01-08"
+  },
+  {
+   "id": "D-1973968-021-479334",
+   "company": "Brock Pond Fund L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Ann Arbor",
+   "sector": "Private Funds",
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Brock Pond Fund L.P., an Ann Arbor-based hedge fund, disclosed an open-ended (indefinite) raise; $0 sold. (Amended filing.)",
+   "filed": "2026-01-07"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "8K-0001193125-26-004772",
+   "company": "OneStream, Inc.",
+   "ticker": "OS",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Birmingham",
+   "sector": "Technology",
+   "amount": 5600000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "OneStream, Inc. (OS) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$5.6B.",
+   "filed": "2026-01-06"
+  }
+ ],
+ "material_agreements": [],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 4,
+   "amount": 103520910.0
+  },
+  {
+   "sector": "Technology",
+   "count": 2,
+   "amount": 1494439.0
+  },
+  {
+   "sector": "Real Estate",
+   "count": 1,
+   "amount": 125000.0
+  },
+  {
+   "sector": "Other",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $105.1M sold across 7 Form D filings this week, down 58% vs. the prior 4-week average. The largest was CGC Store House 01 LLC (Grand Rapids, Other) targeting $3.7M. Good question to ask: are founders in other favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2104288-021-569245"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "OneStream, Inc. (OS) disclosed a deal. Use it to ask how buyers are valuing Michigan technology assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "8K-0001193125-26-004772"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "4 Michigan-based pooled funds filed Form Ds, reporting $103.5M raised so far — led by QCP Income & Growth Fund, L.P. (Other Investment Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2104255-021-569463",
+    "D-1886981-021-569231",
+    "D-1747730-021-331377"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,169 @@
+{
+ "week_start": "2026-02-16",
+ "week_end": "2026-02-22",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "4 Michigan deals, $54.5M raised — led by Penstock Equity II LP",
+ "stats": {
+  "deal_count": 4,
+  "by_type": {
+   "Fundraise": 4,
+   "M&A": 0,
+   "Material Agreement": 0,
+   "Stake": 0
+  },
+  "capital_raised": 54461629,
+  "capital_targeted": 64171629,
+  "fund_count": 3
+ },
+ "trailing_4wk": {
+  "deal_count": 10.8,
+  "capital_raised": 210786318.0
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": -62.8,
+  "capital_raised_pct": -74.2
+ },
+ "top_deals": [
+  {
+   "id": "D-2112655-021-574185",
+   "company": "Penstock Equity II LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 50000000.0,
+   "amount_sold": 41040000.0,
+   "amount_is_estimate": false,
+   "summary": "Penstock Equity II LP, a Birmingham-based private equity fund, disclosed a $50M raise; $41M sold to 79 investors.",
+   "filed": "2026-02-20"
+  },
+  {
+   "id": "D-1916357-021-436985",
+   "company": "Cipher Chain Partners, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 9366096.0,
+   "amount_sold": 9366096.0,
+   "amount_is_estimate": false,
+   "summary": "Cipher Chain Partners, LP, a Birmingham-based hedge fund, disclosed an open-ended (indefinite) raise; $9.4M sold to 18 investors. (Amended filing.)",
+   "filed": "2026-02-19"
+  },
+  {
+   "id": "D-2111599-021-573868",
+   "company": "SC LH Holdings III, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 3000000.0,
+   "amount_sold": 2250000.0,
+   "amount_is_estimate": false,
+   "summary": "SC LH Holdings III, LLC, a Grand Rapids-based investment fund, disclosed a $3M raise; $2.2M sold to 9 investors.",
+   "filed": "2026-02-18"
+  },
+  {
+   "id": "D-2012452-021-574144",
+   "company": "Moksa.ai Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Troy",
+   "sector": "Technology",
+   "amount": 1805533.0,
+   "amount_sold": 1805533.0,
+   "amount_is_estimate": false,
+   "summary": "Moksa.ai Inc., a Troy-based technology company, filed an indefinite-size equity offering under Rule 506(b); $1.8M sold to 3 investors.",
+   "filed": "2026-02-20"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2112655-021-574185",
+   "company": "Penstock Equity II LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 50000000.0,
+   "amount_sold": 41040000.0,
+   "amount_is_estimate": false,
+   "summary": "Penstock Equity II LP, a Birmingham-based private equity fund, disclosed a $50M raise; $41M sold to 79 investors.",
+   "filed": "2026-02-20"
+  },
+  {
+   "id": "D-1916357-021-436985",
+   "company": "Cipher Chain Partners, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Birmingham",
+   "sector": "Private Funds",
+   "amount": 9366096.0,
+   "amount_sold": 9366096.0,
+   "amount_is_estimate": false,
+   "summary": "Cipher Chain Partners, LP, a Birmingham-based hedge fund, disclosed an open-ended (indefinite) raise; $9.4M sold to 18 investors. (Amended filing.)",
+   "filed": "2026-02-19"
+  },
+  {
+   "id": "D-2111599-021-573868",
+   "company": "SC LH Holdings III, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 3000000.0,
+   "amount_sold": 2250000.0,
+   "amount_is_estimate": false,
+   "summary": "SC LH Holdings III, LLC, a Grand Rapids-based investment fund, disclosed a $3M raise; $2.2M sold to 9 investors.",
+   "filed": "2026-02-18"
+  }
+ ],
+ "notable_ma": [],
+ "material_agreements": [],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 3,
+   "amount": 52656096.0
+  },
+  {
+   "sector": "Technology",
+   "count": 1,
+   "amount": 1805533.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $54.5M sold across 4 Form D filings this week, down 74% vs. the prior 4-week average. The largest was Moksa.ai Inc. (Troy, Other Technology) targeting $1.8M. Good question to ask: are founders in technology favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2012452-021-574144"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "3 Michigan-based pooled funds filed Form Ds, reporting $52.7M raised so far — led by Penstock Equity II LP (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2112655-021-574185",
+    "D-1916357-021-436985",
+    "D-2111599-021-573868"
+   ]
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Private Funds was the most active sector with 3 of 4 filings (75%). Ask contacts what's driving the activity, and whether it's showing up in their pipeline.",
+   "deal_ids": [
+    "D-2112655-021-574185",
+    "D-1916357-021-436985",
+    "D-2111599-021-573868"
+   ]
+  }
+ ]
+}

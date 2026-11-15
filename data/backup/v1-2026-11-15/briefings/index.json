@@ -1,0 +1,362 @@
+{
+ "generated_at": "2026-11-08T05:07:32Z",
+ "weeks": [
+  {
+   "week_start": "2026-10-26",
+   "week_end": "2026-11-01",
+   "headline": "8 Michigan deals, $27.4M raised — led by Green Meadow Partners, LLC",
+   "deal_count": 8,
+   "capital_raised": 27430000
+  },
+  {
+   "week_start": "2026-10-19",
+   "week_end": "2026-10-25",
+   "headline": "6 Michigan deals, $141.4M raised — led by Northern Shore Capital Fund I-A LP",
+   "deal_count": 6,
+   "capital_raised": 141377895
+  },
+  {
+   "week_start": "2026-10-12",
+   "week_end": "2026-10-18",
+   "headline": "9 Michigan deals, $7.4M raised — led by Penske Automotive Group, Inc.",
+   "deal_count": 9,
+   "capital_raised": 7430400
+  },
+  {
+   "week_start": "2026-10-05",
+   "week_end": "2026-10-11",
+   "headline": "10 Michigan deals, $31.7M raised — led by Noblestone Credit Select III LLC",
+   "deal_count": 10,
+   "capital_raised": 31658000
+  },
+  {
+   "week_start": "2026-09-28",
+   "week_end": "2026-10-04",
+   "headline": "10 Michigan deals, $86.3M raised — led by ENDRA Life Sciences Inc.",
+   "deal_count": 10,
+   "capital_raised": 86294514
+  },
+  {
+   "week_start": "2026-09-21",
+   "week_end": "2026-09-27",
+   "headline": "18 Michigan deals, $30.7M raised — led by Sun Communities Inc",
+   "deal_count": 18,
+   "capital_raised": 30683603
+  },
+  {
+   "week_start": "2026-09-14",
+   "week_end": "2026-09-20",
+   "headline": "24 Michigan deals, $195.5M raised — led by English Capital Partners LP",
+   "deal_count": 24,
+   "capital_raised": 195524352
+  },
+  {
+   "week_start": "2026-09-07",
+   "week_end": "2026-09-13",
+   "headline": "10 Michigan deals, $34.8M raised — led by Sturgis Bancorp Inc",
+   "deal_count": 10,
+   "capital_raised": 34794991
+  },
+  {
+   "week_start": "2026-08-31",
+   "week_end": "2026-09-06",
+   "headline": "2 Michigan deals, $2.6M raised — led by Sprint Growth Fund, LP",
+   "deal_count": 2,
+   "capital_raised": 2605000
+  },
+  {
+   "week_start": "2026-08-24",
+   "week_end": "2026-08-30",
+   "headline": "13 Michigan deals, $15.5M raised — led by Solyco Portfolio SPV 3 Omega LLC",
+   "deal_count": 13,
+   "capital_raised": 15536202
+  },
+  {
+   "week_start": "2026-08-17",
+   "week_end": "2026-08-23",
+   "headline": "15 Michigan deals, $123.9M raised — led by Solyco Portfolio SPV 2 LLC",
+   "deal_count": 15,
+   "capital_raised": 123855649
+  },
+  {
+   "week_start": "2026-08-10",
+   "week_end": "2026-08-16",
+   "headline": "10 Michigan deals, $130.8M raised — led by Blackford Capital Opportunity Fund II, LP",
+   "deal_count": 10,
+   "capital_raised": 130799500
+  },
+  {
+   "week_start": "2026-08-03",
+   "week_end": "2026-08-09",
+   "headline": "15 Michigan deals, $1.4B raised — led by Mercedes-Benz Financial Services USA LLC",
+   "deal_count": 15,
+   "capital_raised": 1389614764
+  },
+  {
+   "week_start": "2026-07-27",
+   "week_end": "2026-08-02",
+   "headline": "12 Michigan deals, $95.7M raised — led by Michigan Capital Network Venture Fund V, L.P.",
+   "deal_count": 12,
+   "capital_raised": 95718542
+  },
+  {
+   "week_start": "2026-07-20",
+   "week_end": "2026-07-26",
+   "headline": "15 Michigan deals, $82.3M raised — led by Gentherm Inc",
+   "deal_count": 15,
+   "capital_raised": 82298363
+  },
+  {
+   "week_start": "2026-07-13",
+   "week_end": "2026-07-19",
+   "headline": "9 Michigan deals, $10.1M raised — led by Esperion Therapeutics, Inc.",
+   "deal_count": 9,
+   "capital_raised": 10130000
+  },
+  {
+   "week_start": "2026-07-06",
+   "week_end": "2026-07-12",
+   "headline": "9 Michigan deals, $29M raised — led by RPM Ventures Space, L.P.",
+   "deal_count": 9,
+   "capital_raised": 29030557
+  },
+  {
+   "week_start": "2026-06-29",
+   "week_end": "2026-07-05",
+   "headline": "7 Michigan deals, $1.2M raised — led by Park Place Capital LLC",
+   "deal_count": 7,
+   "capital_raised": 1200000
+  },
+  {
+   "week_start": "2026-06-22",
+   "week_end": "2026-06-28",
+   "headline": "9 Michigan deals, $13.3M raised — led by ENDRA Life Sciences Inc.",
+   "deal_count": 9,
+   "capital_raised": 13331955
+  },
+  {
+   "week_start": "2026-06-15",
+   "week_end": "2026-06-21",
+   "headline": "10 Michigan deals, $2K raised — led by Isabella Bank Corp",
+   "deal_count": 10,
+   "capital_raised": 2000
+  },
+  {
+   "week_start": "2026-06-08",
+   "week_end": "2026-06-14",
+   "headline": "13 Michigan deals, $29.1M raised — led by Rocket Companies, Inc.",
+   "deal_count": 13,
+   "capital_raised": 29099000
+  },
+  {
+   "week_start": "2026-06-01",
+   "week_end": "2026-06-07",
+   "headline": "7 Michigan deals, $369.1M raised — led by Cinnaire Fund for Housing Limited Partnership 45",
+   "deal_count": 7,
+   "capital_raised": 369120656
+  },
+  {
+   "week_start": "2026-05-25",
+   "week_end": "2026-05-31",
+   "headline": "5 Michigan deals, $396K raised — led by High Street Holdco, LLC",
+   "deal_count": 5,
+   "capital_raised": 396000
+  },
+  {
+   "week_start": "2026-05-18",
+   "week_end": "2026-05-24",
+   "headline": "11 Michigan deals, $169.7M raised — led by BAMF Health Parent, Inc.",
+   "deal_count": 11,
+   "capital_raised": 169700626
+  },
+  {
+   "week_start": "2026-05-11",
+   "week_end": "2026-05-17",
+   "headline": "3 Michigan deals, $4.7M raised — led by cultivate(MD) Capital Focus Fund, L.P.",
+   "deal_count": 3,
+   "capital_raised": 4742050
+  },
+  {
+   "week_start": "2026-05-04",
+   "week_end": "2026-05-10",
+   "headline": "5 Michigan deals, $38.2M raised — led by Hantz Ventures - PF III (QP) LLC",
+   "deal_count": 5,
+   "capital_raised": 38210000
+  },
+  {
+   "week_start": "2026-04-27",
+   "week_end": "2026-05-03",
+   "headline": "10 Michigan deals, $8.1M raised — led by Esperion Therapeutics, Inc.",
+   "deal_count": 10,
+   "capital_raised": 8063454
+  },
+  {
+   "week_start": "2026-04-20",
+   "week_end": "2026-04-26",
+   "headline": "8 Michigan deals, $27.9M raised — led by Mudita Venture Fund Qp LLC",
+   "deal_count": 8,
+   "capital_raised": 27850860
+  },
+  {
+   "week_start": "2026-04-13",
+   "week_end": "2026-04-19",
+   "headline": "13 Michigan deals, $160.3M raised — led by Sygaldry Technologies, Inc.",
+   "deal_count": 13,
+   "capital_raised": 160323334
+  },
+  {
+   "week_start": "2026-04-06",
+   "week_end": "2026-04-12",
+   "headline": "6 Michigan deals, $22.5M raised — led by Superior Frontier Capital Fund I, LP",
+   "deal_count": 6,
+   "capital_raised": 22454150
+  },
+  {
+   "week_start": "2026-03-30",
+   "week_end": "2026-04-05",
+   "headline": "8 Michigan deals, $250K raised — led by Esperion Therapeutics, Inc.",
+   "deal_count": 8,
+   "capital_raised": 250000
+  },
+  {
+   "week_start": "2026-03-23",
+   "week_end": "2026-03-29",
+   "headline": "7 Michigan deals, $26.2M raised — led by Northpointe Bancshares Inc",
+   "deal_count": 7,
+   "capital_raised": 26210358
+  },
+  {
+   "week_start": "2026-03-16",
+   "week_end": "2026-03-22",
+   "headline": "18 Michigan deals, $23.8M raised — led by Trimas Corp",
+   "deal_count": 18,
+   "capital_raised": 23835114
+  },
+  {
+   "week_start": "2026-03-09",
+   "week_end": "2026-03-15",
+   "headline": "11 Michigan deals, $92.5M raised — led by TCC MHP Holdings LLC",
+   "deal_count": 11,
+   "capital_raised": 92493574
+  },
+  {
+   "week_start": "2026-03-02",
+   "week_end": "2026-03-08",
+   "headline": "7 Michigan deals, $257.5M raised — led by Sturbridge Diversified Private Equity Fund IV, L.P.",
+   "deal_count": 7,
+   "capital_raised": 257488610
+  },
+  {
+   "week_start": "2026-02-23",
+   "week_end": "2026-03-01",
+   "headline": "12 Michigan deals, $2.7M raised — led by Modular Devices Holdings, LLC",
+   "deal_count": 12,
+   "capital_raised": 2685000
+  },
+  {
+   "week_start": "2026-02-16",
+   "week_end": "2026-02-22",
+   "headline": "4 Michigan deals, $54.5M raised — led by Penstock Equity II LP",
+   "deal_count": 4,
+   "capital_raised": 54461629
+  },
+  {
+   "week_start": "2026-02-09",
+   "week_end": "2026-02-15",
+   "headline": "9 Michigan deals, $279.8M raised — led by Nantucket Fund L P",
+   "deal_count": 9,
+   "capital_raised": 279843873
+  },
+  {
+   "week_start": "2026-02-02",
+   "week_end": "2026-02-08",
+   "headline": "14 Michigan deals, $293.7M raised — led by TRP Capital Partners VI, LP",
+   "deal_count": 14,
+   "capital_raised": 293747350
+  },
+  {
+   "week_start": "2026-01-26",
+   "week_end": "2026-02-01",
+   "headline": "10 Michigan deals, $259.5M raised — led by Oa Clo Fund, LP",
+   "deal_count": 10,
+   "capital_raised": 259549049
+  },
+  {
+   "week_start": "2026-01-19",
+   "week_end": "2026-01-25",
+   "headline": "10 Michigan deals, $10M raised — led by New Community Transformation Fund II, L.P.",
+   "deal_count": 10,
+   "capital_raised": 10005000
+  },
+  {
+   "week_start": "2026-01-12",
+   "week_end": "2026-01-18",
+   "headline": "14 Michigan deals, $127.4M raised — led by Tiseo Holdings, LLC",
+   "deal_count": 14,
+   "capital_raised": 127361787
+  },
+  {
+   "week_start": "2026-01-05",
+   "week_end": "2026-01-11",
+   "headline": "8 Michigan deals, $105.1M raised — led by OneStream, Inc.",
+   "deal_count": 8,
+   "capital_raised": 105140349
+  },
+  {
+   "week_start": "2025-12-29",
+   "week_end": "2026-01-04",
+   "headline": "5 Michigan deals, $155.1M raised — led by LuxWall, Inc.",
+   "deal_count": 5,
+   "capital_raised": 155081646
+  },
+  {
+   "week_start": "2025-12-22",
+   "week_end": "2025-12-28",
+   "headline": "5 Michigan deals, $128M raised — led by Cinnaire Fund for Housing Limited Partnership 44",
+   "deal_count": 5,
+   "capital_raised": 128014928
+  },
+  {
+   "week_start": "2025-12-15",
+   "week_end": "2025-12-21",
+   "headline": "11 Michigan deals, $42.6M raised — led by Orbion Space Technology, Inc.",
+   "deal_count": 11,
+   "capital_raised": 42601183
+  },
+  {
+   "week_start": "2025-12-08",
+   "week_end": "2025-12-14",
+   "headline": "12 Michigan deals, $674.3M raised — led by RHP Partners IV, LP",
+   "deal_count": 12,
+   "capital_raised": 674343390
+  },
+  {
+   "week_start": "2025-12-01",
+   "week_end": "2025-12-07",
+   "headline": "6 Michigan deals, $25.5M raised — led by TXC Great Lakes Fund, LP",
+   "deal_count": 6,
+   "capital_raised": 25500000
+  },
+  {
+   "week_start": "2025-11-24",
+   "week_end": "2025-11-30",
+   "headline": "9 Michigan deals, $2.5M raised — led by Steelcase Inc",
+   "deal_count": 9,
+   "capital_raised": 2450000
+  },
+  {
+   "week_start": "2025-11-17",
+   "week_end": "2025-11-23",
+   "headline": "11 Michigan deals, $146.5M raised — led by Penske Automotive Group, Inc.",
+   "deal_count": 11,
+   "capital_raised": 146451780
+  },
+  {
+   "week_start": "2025-11-10",
+   "week_end": "2025-11-16",
+   "headline": "4 Michigan deals, $16.4M raised — led by LIT Financial Corporation, Inc.",
+   "deal_count": 4,
+   "capital_raised": 16368129
+  }
+ ]
+}

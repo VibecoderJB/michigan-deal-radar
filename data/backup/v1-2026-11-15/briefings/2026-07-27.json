@@ -1,0 +1,198 @@
+{
+ "week_start": "2026-07-27",
+ "week_end": "2026-08-02",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "12 Michigan deals, $95.7M raised — led by Michigan Capital Network Venture Fund V, L.P.",
+ "stats": {
+  "deal_count": 12,
+  "by_type": {
+   "Fundraise": 12,
+   "M&A": 0,
+   "Material Agreement": 0,
+   "Stake": 0
+  },
+  "capital_raised": 95718542,
+  "capital_targeted": 136587075,
+  "fund_count": 3
+ },
+ "trailing_4wk": {
+  "deal_count": 10.0,
+  "capital_raised": 30664730.0
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 20.0,
+  "capital_raised_pct": 212.1
+ },
+ "top_deals": [
+  {
+   "id": "D-2081840-021-554927",
+   "company": "Michigan Capital Network Venture Fund V, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 65360000.0,
+   "amount_sold": 65360000.0,
+   "amount_is_estimate": false,
+   "summary": "Michigan Capital Network Venture Fund V, L.P., a Grand Rapids-based investment fund, disclosed an open-ended (indefinite) raise; $65.4M sold to 82 investors. (Amended filing.)",
+   "filed": "2026-07-28"
+  },
+  {
+   "id": "D-2079994-021-592502",
+   "company": "Gold Plus Coin LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Okemos",
+   "sector": "Financial Services",
+   "amount": 19998000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Gold Plus Coin LLC, an Okemos-based financial services company, filed a $20M equity offering under Rule 506(c); $0 sold to 1 investor.",
+   "filed": "2026-07-29"
+  },
+  {
+   "id": "D-1929085-021-592826",
+   "company": "Enumera Molecular, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Ann Arbor",
+   "sector": "Health Care & Life Sciences",
+   "amount": 17375672.0,
+   "amount_sold": 12325344.0,
+   "amount_is_estimate": false,
+   "summary": "Enumera Molecular, Inc., an Ann Arbor-based health care company, filed a $17.4M equity and other securities offering under Rule 506(b); $12.3M sold to 12 investors.",
+   "filed": "2026-07-31"
+  },
+  {
+   "id": "D-2128585-021-592178",
+   "company": "Blue Arbor Technologies, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Grass Lake",
+   "sector": "Health Care & Life Sciences",
+   "amount": 10174987.0,
+   "amount_sold": 10174987.0,
+   "amount_is_estimate": false,
+   "summary": "Blue Arbor Technologies, Inc., a Grass Lake-based biotechnology company, filed a $10.2M equity offering under Rule 506(b); $10.2M sold to 32 investors.",
+   "filed": "2026-07-27"
+  },
+  {
+   "id": "D-1650557-021-592635",
+   "company": "Genomenon, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Ann Arbor",
+   "sector": "Health Care & Life Sciences",
+   "amount": 10000000.0,
+   "amount_sold": 6025002.0,
+   "amount_is_estimate": false,
+   "summary": "Genomenon, Inc., an Ann Arbor-based biotechnology company, filed a $10M equity offering under Rule 506(b); $6M sold to 30 investors.",
+   "filed": "2026-07-30"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2081840-021-554927",
+   "company": "Michigan Capital Network Venture Fund V, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 65360000.0,
+   "amount_sold": 65360000.0,
+   "amount_is_estimate": false,
+   "summary": "Michigan Capital Network Venture Fund V, L.P., a Grand Rapids-based investment fund, disclosed an open-ended (indefinite) raise; $65.4M sold to 82 investors. (Amended filing.)",
+   "filed": "2026-07-28"
+  },
+  {
+   "id": "D-2135872-021-584595",
+   "company": "Clubhouse Capital CityGolf USA LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Detroit",
+   "sector": "Private Funds",
+   "amount": 100000.0,
+   "amount_sold": 100000.0,
+   "amount_is_estimate": false,
+   "summary": "Clubhouse Capital CityGolf USA LLC, a Detroit-based venture capital fund, disclosed an open-ended (indefinite) raise; $100K sold to 4 investors. (Amended filing.)",
+   "filed": "2026-07-28"
+  },
+  {
+   "id": "D-2130150-021-592544",
+   "company": "Damavand Capital Partners, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Ann Arbor",
+   "sector": "Private Funds",
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Damavand Capital Partners, L.P., an Ann Arbor-based hedge fund, disclosed an open-ended (indefinite) raise; $0 sold.",
+   "filed": "2026-07-30"
+  }
+ ],
+ "notable_ma": [],
+ "material_agreements": [],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 3,
+   "amount": 65460000.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 3,
+   "amount": 28525333.0
+  },
+  {
+   "sector": "Real Estate",
+   "count": 3,
+   "amount": 912266.0
+  },
+  {
+   "sector": "Technology",
+   "count": 1,
+   "amount": 725000.0
+  },
+  {
+   "sector": "Other",
+   "count": 1,
+   "amount": 95943.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $95.7M sold across 12 Form D filings this week, up 212% vs. the prior 4-week average. The largest was Gold Plus Coin LLC (Okemos, Other Banking and Financial Services) targeting $20M. Good question to ask: are founders in financial services favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2079994-021-592502"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "3 Michigan-based pooled funds filed Form Ds, reporting $65.5M raised so far — led by Michigan Capital Network Venture Fund V, L.P. (Other Investment Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2081840-021-554927",
+    "D-2135872-021-584595",
+    "D-2130150-021-592544"
+   ]
+  },
+  {
+   "topic": "Sector watch",
+   "text": "Real Estate was the most active sector with 3 of 12 filings (25%). Ask contacts what's driving the activity, and whether it's showing up in their pipeline.",
+   "deal_ids": [
+    "D-2146748-021-592741",
+    "D-2148235-021-592696",
+    "D-2145686-021-592645"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,268 @@
+{
+ "week_start": "2026-04-27",
+ "week_end": "2026-05-03",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "10 Michigan deals, $8.1M raised — led by Esperion Therapeutics, Inc.",
+ "stats": {
+  "deal_count": 10,
+  "by_type": {
+   "Fundraise": 5,
+   "M&A": 1,
+   "Material Agreement": 4,
+   "Stake": 0
+  },
+  "capital_raised": 8063454,
+  "capital_targeted": 59450350,
+  "fund_count": 3
+ },
+ "trailing_4wk": {
+  "deal_count": 8.8,
+  "capital_raised": 52719586.0
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 14.3,
+  "capital_raised_pct": -84.7
+ },
+ "top_deals": [
+  {
+   "id": "8K-0001104659-26-053482",
+   "company": "Esperion Therapeutics, Inc.",
+   "ticker": "ESPR",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Ann Arbor",
+   "sector": "Health Care & Life Sciences",
+   "amount": 350000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Esperion Therapeutics, Inc. (ESPR) disclosed a definitive merger/acquisition agreement with Essence Parent Inc.; filing cites a figure of ~$350M.",
+   "filed": "2026-05-01"
+  },
+  {
+   "id": "D-2023514-021-514004",
+   "company": "Haddon Rig Med-Tech Fund, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 50000000.0,
+   "amount_sold": 848500.0,
+   "amount_is_estimate": false,
+   "summary": "Haddon Rig Med-Tech Fund, LLC, a Grand Rapids-based private equity fund, disclosed a $50M raise; $848.5K sold to 2 investors. (Amended filing.)",
+   "filed": "2026-04-29"
+  },
+  {
+   "id": "D-1796500-021-581951",
+   "company": "Employ Intelligence, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Detroit",
+   "sector": "Other",
+   "amount": 8000000.0,
+   "amount_sold": 5764604.0,
+   "amount_is_estimate": false,
+   "summary": "Employ Intelligence, Inc., a Detroit-based company, filed a $8M equity offering under Rule 506(b); $5.8M sold to 11 investors.",
+   "filed": "2026-04-27"
+  },
+  {
+   "id": "D-2128289-021-582094",
+   "company": "Oha Sp 6.5, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Traverse City",
+   "sector": "Health Care & Life Sciences",
+   "amount": 1050350.0,
+   "amount_sold": 1050350.0,
+   "amount_is_estimate": false,
+   "summary": "Oha Sp 6.5, LLC, a Traverse City-based health care company, filed an indefinite-size equity offering under Rule 506(b); $1.1M sold.",
+   "filed": "2026-04-28"
+  },
+  {
+   "id": "D-1877791-021-420239",
+   "company": "Hurdle6 Partners, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Rochester",
+   "sector": "Private Funds",
+   "amount": 400000.0,
+   "amount_sold": 400000.0,
+   "amount_is_estimate": false,
+   "summary": "Hurdle6 Partners, LP, a Rochester-based hedge fund, disclosed an open-ended (indefinite) raise; $400K sold to 3 investors. (Amended filing.)",
+   "filed": "2026-04-29"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2023514-021-514004",
+   "company": "Haddon Rig Med-Tech Fund, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 50000000.0,
+   "amount_sold": 848500.0,
+   "amount_is_estimate": false,
+   "summary": "Haddon Rig Med-Tech Fund, LLC, a Grand Rapids-based private equity fund, disclosed a $50M raise; $848.5K sold to 2 investors. (Amended filing.)",
+   "filed": "2026-04-29"
+  },
+  {
+   "id": "D-1877791-021-420239",
+   "company": "Hurdle6 Partners, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Rochester",
+   "sector": "Private Funds",
+   "amount": 400000.0,
+   "amount_sold": 400000.0,
+   "amount_is_estimate": false,
+   "summary": "Hurdle6 Partners, LP, a Rochester-based hedge fund, disclosed an open-ended (indefinite) raise; $400K sold to 3 investors. (Amended filing.)",
+   "filed": "2026-04-29"
+  },
+  {
+   "id": "D-2115614-021-582416",
+   "company": "Mgcp Hlth, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Farmington Hills",
+   "sector": "Private Funds",
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Mgcp Hlth, LP, a Farmington Hills-based investment fund, disclosed an open-ended (indefinite) raise; $0 sold.",
+   "filed": "2026-04-30"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "8K-0001104659-26-053482",
+   "company": "Esperion Therapeutics, Inc.",
+   "ticker": "ESPR",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Ann Arbor",
+   "sector": "Health Care & Life Sciences",
+   "amount": 350000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Esperion Therapeutics, Inc. (ESPR) disclosed a definitive merger/acquisition agreement with Essence Parent Inc.; filing cites a figure of ~$350M.",
+   "filed": "2026-05-01"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001477932-26-002697",
+   "company": "Dynamic Aerospace Systems Corp",
+   "ticker": "BRQL",
+   "type": "Material Agreement",
+   "subtype": "Equity Financing",
+   "city": "Ann Arbor",
+   "sector": "Technology",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Dynamic Aerospace Systems Corp (BRQL) entered into a material definitive agreement (equity financing).",
+   "filed": "2026-04-30"
+  },
+  {
+   "id": "8K-0001111335-26-000025",
+   "company": "Visteon Corp",
+   "ticker": "VC",
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "city": "Van Buren Township",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Visteon Corp (VC) entered into a material definitive agreement (credit facility).",
+   "filed": "2026-04-29"
+  },
+  {
+   "id": "8K-0001213900-26-048326",
+   "company": "Amesite Inc.",
+   "ticker": "AMST",
+   "type": "Material Agreement",
+   "subtype": "Equity Financing",
+   "city": "Ann Arbor",
+   "sector": "Technology",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Amesite Inc. (AMST) entered into a material definitive agreement (equity financing).",
+   "filed": "2026-04-28"
+  },
+  {
+   "id": "8K-0001628280-26-027522",
+   "company": "Workhorse Group Inc.",
+   "ticker": "WKHS",
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "city": "Wixom",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Workhorse Group Inc. (WKHS) entered into a material definitive agreement (credit facility).",
+   "filed": "2026-04-27"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Private Funds",
+   "count": 3,
+   "amount": 1248500.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 2,
+   "amount": 1050350.0
+  },
+  {
+   "sector": "Technology",
+   "count": 2,
+   "amount": 0.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 2,
+   "amount": 0.0
+  },
+  {
+   "sector": "Other",
+   "count": 1,
+   "amount": 5764604.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $8.1M sold across 5 Form D filings this week, down 85% vs. the prior 4-week average. The largest was Employ Intelligence, Inc. (Detroit, Other) targeting $8M. Good question to ask: are founders in other favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-1796500-021-581951"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "Esperion Therapeutics, Inc. (ESPR) disclosed a deal with Essence Parent Inc.. Use it to ask how buyers are valuing Michigan health care & life sciences assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "8K-0001104659-26-053482"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "3 Michigan-based pooled funds filed Form Ds, reporting $1.2M raised so far — led by Haddon Rig Med-Tech Fund, LLC (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2023514-021-514004",
+    "D-1877791-021-420239",
+    "D-2115614-021-582416"
+   ]
+  }
+ ]
+}

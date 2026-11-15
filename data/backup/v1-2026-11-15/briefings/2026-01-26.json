@@ -1,0 +1,249 @@
+{
+ "week_start": "2026-01-26",
+ "week_end": "2026-02-01",
+ "generated_at": "2026-11-08T05:07:32Z",
+ "headline": "10 Michigan deals, $259.5M raised — led by Oa Clo Fund, LP",
+ "stats": {
+  "deal_count": 10,
+  "by_type": {
+   "Fundraise": 6,
+   "M&A": 2,
+   "Material Agreement": 0,
+   "Stake": 2
+  },
+  "capital_raised": 259549049,
+  "capital_targeted": 319749049,
+  "fund_count": 3
+ },
+ "trailing_4wk": {
+  "deal_count": 9.2,
+  "capital_raised": 99397195.5
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 8.1,
+  "capital_raised_pct": 161.1
+ },
+ "top_deals": [
+  {
+   "id": "D-2108316-021-571714",
+   "company": "Oa Clo Fund, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 255350917.0,
+   "amount_sold": 255350917.0,
+   "amount_is_estimate": false,
+   "summary": "Oa Clo Fund, LP, a Grand Rapids-based private equity fund, disclosed an open-ended (indefinite) raise; $255.4M sold to 8 investors.",
+   "filed": "2026-01-29"
+  },
+  {
+   "id": "8K-0001193125-26-029374",
+   "company": "Gentherm Inc",
+   "ticker": "THRM",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Novi",
+   "sector": "Manufacturing & Automotive",
+   "amount": 210000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Gentherm Inc (THRM) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$210M.",
+   "filed": "2026-01-29"
+  },
+  {
+   "id": "D-2107366-021-571286",
+   "company": "Ludlow Ventures Detroit V LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Oak Park",
+   "sector": "Private Funds",
+   "amount": 60000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Ludlow Ventures Detroit V LP, an Oak Park-based venture capital fund, disclosed a $60M raise; $0 sold.",
+   "filed": "2026-01-27"
+  },
+  {
+   "id": "D-2038075-021-524754",
+   "company": "Joint Investment Limited Partnership",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Canton",
+   "sector": "Private Funds",
+   "amount": 2158132.0,
+   "amount_sold": 2158132.0,
+   "amount_is_estimate": false,
+   "summary": "Joint Investment Limited Partnership, a Canton-based hedge fund, disclosed an open-ended (indefinite) raise; $2.2M sold to 6 investors. (Amended filing.)",
+   "filed": "2026-01-26"
+  },
+  {
+   "id": "D-2107292-021-571287",
+   "company": "MI XAI Investment, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Plymouth",
+   "sector": "Technology",
+   "amount": 1840000.0,
+   "amount_sold": 1840000.0,
+   "amount_is_estimate": false,
+   "summary": "MI XAI Investment, LLC, a Plymouth-based technology company, filed a $1.8M equity offering under Rule 506(b); $1.8M sold to 42 investors.",
+   "filed": "2026-01-27"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2108316-021-571714",
+   "company": "Oa Clo Fund, LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 255350917.0,
+   "amount_sold": 255350917.0,
+   "amount_is_estimate": false,
+   "summary": "Oa Clo Fund, LP, a Grand Rapids-based private equity fund, disclosed an open-ended (indefinite) raise; $255.4M sold to 8 investors.",
+   "filed": "2026-01-29"
+  },
+  {
+   "id": "D-2107366-021-571286",
+   "company": "Ludlow Ventures Detroit V LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Venture Capital Fund",
+   "city": "Oak Park",
+   "sector": "Private Funds",
+   "amount": 60000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Ludlow Ventures Detroit V LP, an Oak Park-based venture capital fund, disclosed a $60M raise; $0 sold.",
+   "filed": "2026-01-27"
+  },
+  {
+   "id": "D-2038075-021-524754",
+   "company": "Joint Investment Limited Partnership",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Hedge Fund",
+   "city": "Canton",
+   "sector": "Private Funds",
+   "amount": 2158132.0,
+   "amount_sold": 2158132.0,
+   "amount_is_estimate": false,
+   "summary": "Joint Investment Limited Partnership, a Canton-based hedge fund, disclosed an open-ended (indefinite) raise; $2.2M sold to 6 investors. (Amended filing.)",
+   "filed": "2026-01-26"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "8K-0001193125-26-031768",
+   "company": "Kelly Services Inc",
+   "ticker": "KELYA",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Troy",
+   "sector": "Business Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Kelly Services Inc (KELYA) disclosed a definitive merger/acquisition agreement with Hunt Equity Opportunities, LLC.",
+   "filed": "2026-01-30"
+  },
+  {
+   "id": "13D-0001174947-26-000120",
+   "company": "Kelly Services Inc",
+   "ticker": "KELYA",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "TROY",
+   "sector": "Business Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Terence E. Adderley Revocable Trust K and others reported a 1.3% stake in Kelly Services Inc (KELYA) (Schedule 13D/A amendment 4).",
+   "filed": "2026-01-30"
+  },
+  {
+   "id": "13D-0000950142-26-000277",
+   "company": "Kelly Services Inc",
+   "ticker": "KELYA",
+   "type": "Stake",
+   "subtype": "New 13D Position",
+   "city": "TROY",
+   "sector": "Business Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Hunt Equity Opportunities, LLC and others reported a 92.2% stake in Kelly Services Inc (KELYA).",
+   "filed": "2026-01-30"
+  },
+  {
+   "id": "8K-0001193125-26-029374",
+   "company": "Gentherm Inc",
+   "ticker": "THRM",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Novi",
+   "sector": "Manufacturing & Automotive",
+   "amount": 210000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Gentherm Inc (THRM) disclosed a definitive merger/acquisition agreement; filing cites a figure of ~$210M.",
+   "filed": "2026-01-29"
+  }
+ ],
+ "material_agreements": [],
+ "top_sectors": [
+  {
+   "sector": "Business Services",
+   "count": 5,
+   "amount": 200000.0
+  },
+  {
+   "sector": "Private Funds",
+   "count": 3,
+   "amount": 257509049.0
+  },
+  {
+   "sector": "Technology",
+   "count": 1,
+   "amount": 1840000.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 1,
+   "amount": 0.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $259.5M sold across 6 Form D filings this week, up 161% vs. the prior 4-week average. The largest was MI XAI Investment, LLC (Plymouth, Other Technology) targeting $1.8M. Good question to ask: are founders in technology favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2107292-021-571287"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "Gentherm Inc (THRM) disclosed a deal. It was one of 2 M&A filings this week. Use it to ask how buyers are valuing Michigan manufacturing & automotive assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "8K-0001193125-26-031768",
+    "8K-0001193125-26-029374"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "3 Michigan-based pooled funds filed Form Ds, reporting $257.5M raised so far — led by Oa Clo Fund, LP (Private Equity Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2108316-021-571714",
+    "D-2107366-021-571286",
+    "D-2038075-021-524754"
+   ]
+  }
+ ]
+}

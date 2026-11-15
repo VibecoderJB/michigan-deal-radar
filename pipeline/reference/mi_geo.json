@@ -1,0 +1,7159 @@
+{
+ "sources": {
+  "counties": "U.S. Census Bureau cartographic boundary files (via us-atlas 3.0.1)",
+  "places": "GeoNames cities with population >= 1,000 (via all-the-cities 3.1.0), CC-BY 4.0",
+  "zips": "ZIP centroids from the zipcodes 8.0.0 package (BSD), assigned to counties by point-in-polygon",
+  "regions": "Michigan Deal Radar custom regions (county-based)"
+ },
+ "counties": {
+  "26001": {
+   "name": "Alcona",
+   "region": "Northern Michigan"
+  },
+  "26003": {
+   "name": "Alger",
+   "region": "Upper Peninsula"
+  },
+  "26005": {
+   "name": "Allegan",
+   "region": "West Michigan"
+  },
+  "26007": {
+   "name": "Alpena",
+   "region": "Northern Michigan"
+  },
+  "26009": {
+   "name": "Antrim",
+   "region": "Northern Michigan"
+  },
+  "26011": {
+   "name": "Arenac",
+   "region": "East Michigan & Thumb"
+  },
+  "26013": {
+   "name": "Baraga",
+   "region": "Upper Peninsula"
+  },
+  "26015": {
+   "name": "Barry",
+   "region": "West Michigan"
+  },
+  "26017": {
+   "name": "Bay",
+   "region": "East Michigan & Thumb"
+  },
+  "26019": {
+   "name": "Benzie",
+   "region": "Northern Michigan"
+  },
+  "26021": {
+   "name": "Berrien",
+   "region": "Southwest Michigan"
+  },
+  "26023": {
+   "name": "Branch",
+   "region": "Southwest Michigan"
+  },
+  "26025": {
+   "name": "Calhoun",
+   "region": "Southwest Michigan"
+  },
+  "26027": {
+   "name": "Cass",
+   "region": "Southwest Michigan"
+  },
+  "26029": {
+   "name": "Charlevoix",
+   "region": "Northern Michigan"
+  },
+  "26031": {
+   "name": "Cheboygan",
+   "region": "Northern Michigan"
+  },
+  "26033": {
+   "name": "Chippewa",
+   "region": "Upper Peninsula"
+  },
+  "26035": {
+   "name": "Clare",
+   "region": "Mid-Michigan"
+  },
+  "26037": {
+   "name": "Clinton",
+   "region": "Mid-Michigan"
+  },
+  "26039": {
+   "name": "Crawford",
+   "region": "Northern Michigan"
+  },
+  "26041": {
+   "name": "Delta",
+   "region": "Upper Peninsula"
+  },
+  "26043": {
+   "name": "Dickinson",
+   "region": "Upper Peninsula"
+  },
+  "26045": {
+   "name": "Eaton",
+   "region": "Mid-Michigan"
+  },
+  "26047": {
+   "name": "Emmet",
+   "region": "Northern Michigan"
+  },
+  "26049": {
+   "name": "Genesee",
+   "region": "East Michigan & Thumb"
+  },
+  "26051": {
+   "name": "Gladwin",
+   "region": "Mid-Michigan"
+  },
+  "26053": {
+   "name": "Gogebic",
+   "region": "Upper Peninsula"
+  },
+  "26055": {
+   "name": "Grand Traverse",
+   "region": "Northern Michigan"
+  },
+  "26057": {
+   "name": "Gratiot",
+   "region": "Mid-Michigan"
+  },
+  "26059": {
+   "name": "Hillsdale",
+   "region": "Mid-Michigan"
+  },
+  "26061": {
+   "name": "Houghton",
+   "region": "Upper Peninsula"
+  },
+  "26063": {
+   "name": "Huron",
+   "region": "East Michigan & Thumb"
+  },
+  "26065": {
+   "name": "Ingham",
+   "region": "Mid-Michigan"
+  },
+  "26067": {
+   "name": "Ionia",
+   "region": "West Michigan"
+  },
+  "26069": {
+   "name": "Iosco",
+   "region": "Northern Michigan"
+  },
+  "26071": {
+   "name": "Iron",
+   "region": "Upper Peninsula"
+  },
+  "26073": {
+   "name": "Isabella",
+   "region": "Mid-Michigan"
+  },
+  "26075": {
+   "name": "Jackson",
+   "region": "Mid-Michigan"
+  },
+  "26077": {
+   "name": "Kalamazoo",
+   "region": "Southwest Michigan"
+  },
+  "26079": {
+   "name": "Kalkaska",
+   "region": "Northern Michigan"
+  },
+  "26081": {
+   "name": "Kent",
+   "region": "West Michigan"
+  },
+  "26083": {
+   "name": "Keweenaw",
+   "region": "Upper Peninsula"
+  },
+  "26085": {
+   "name": "Lake",
+   "region": "West Michigan"
+  },
+  "26087": {
+   "name": "Lapeer",
+   "region": "East Michigan & Thumb"
+  },
+  "26089": {
+   "name": "Leelanau",
+   "region": "Northern Michigan"
+  },
+  "26091": {
+   "name": "Lenawee",
+   "region": "Southeast Michigan"
+  },
+  "26093": {
+   "name": "Livingston",
+   "region": "Southeast Michigan"
+  },
+  "26095": {
+   "name": "Luce",
+   "region": "Upper Peninsula"
+  },
+  "26097": {
+   "name": "Mackinac",
+   "region": "Upper Peninsula"
+  },
+  "26099": {
+   "name": "Macomb",
+   "region": "Southeast Michigan"
+  },
+  "26101": {
+   "name": "Manistee",
+   "region": "Northern Michigan"
+  },
+  "26103": {
+   "name": "Marquette",
+   "region": "Upper Peninsula"
+  },
+  "26105": {
+   "name": "Mason",
+   "region": "West Michigan"
+  },
+  "26107": {
+   "name": "Mecosta",
+   "region": "West Michigan"
+  },
+  "26109": {
+   "name": "Menominee",
+   "region": "Upper Peninsula"
+  },
+  "26111": {
+   "name": "Midland",
+   "region": "Mid-Michigan"
+  },
+  "26113": {
+   "name": "Missaukee",
+   "region": "Northern Michigan"
+  },
+  "26115": {
+   "name": "Monroe",
+   "region": "Southeast Michigan"
+  },
+  "26117": {
+   "name": "Montcalm",
+   "region": "West Michigan"
+  },
+  "26119": {
+   "name": "Montmorency",
+   "region": "Northern Michigan"
+  },
+  "26121": {
+   "name": "Muskegon",
+   "region": "West Michigan"
+  },
+  "26123": {
+   "name": "Newaygo",
+   "region": "West Michigan"
+  },
+  "26125": {
+   "name": "Oakland",
+   "region": "Southeast Michigan"
+  },
+  "26127": {
+   "name": "Oceana",
+   "region": "West Michigan"
+  },
+  "26129": {
+   "name": "Ogemaw",
+   "region": "Northern Michigan"
+  },
+  "26131": {
+   "name": "Ontonagon",
+   "region": "Upper Peninsula"
+  },
+  "26133": {
+   "name": "Osceola",
+   "region": "West Michigan"
+  },
+  "26135": {
+   "name": "Oscoda",
+   "region": "Northern Michigan"
+  },
+  "26137": {
+   "name": "Otsego",
+   "region": "Northern Michigan"
+  },
+  "26139": {
+   "name": "Ottawa",
+   "region": "West Michigan"
+  },
+  "26141": {
+   "name": "Presque Isle",
+   "region": "Northern Michigan"
+  },
+  "26143": {
+   "name": "Roscommon",
+   "region": "Northern Michigan"
+  },
+  "26145": {
+   "name": "Saginaw",
+   "region": "East Michigan & Thumb"
+  },
+  "26147": {
+   "name": "St. Clair",
+   "region": "Southeast Michigan"
+  },
+  "26149": {
+   "name": "St. Joseph",
+   "region": "Southwest Michigan"
+  },
+  "26151": {
+   "name": "Sanilac",
+   "region": "East Michigan & Thumb"
+  },
+  "26153": {
+   "name": "Schoolcraft",
+   "region": "Upper Peninsula"
+  },
+  "26155": {
+   "name": "Shiawassee",
+   "region": "Mid-Michigan"
+  },
+  "26157": {
+   "name": "Tuscola",
+   "region": "East Michigan & Thumb"
+  },
+  "26159": {
+   "name": "Van Buren",
+   "region": "Southwest Michigan"
+  },
+  "26161": {
+   "name": "Washtenaw",
+   "region": "Southeast Michigan"
+  },
+  "26163": {
+   "name": "Wayne",
+   "region": "Southeast Michigan"
+  },
+  "26165": {
+   "name": "Wexford",
+   "region": "Northern Michigan"
+  }
+ },
+ "cities": {
+  "inkster": {
+   "name": "Inkster",
+   "county": "26163",
+   "lat": 42.2942,
+   "lon": -83.3099,
+   "population": 24672
+  },
+  "adrian": {
+   "name": "Adrian",
+   "county": "26091",
+   "lat": 41.8976,
+   "lon": -84.0372,
+   "population": 20691
+  },
+  "albion": {
+   "name": "Albion",
+   "county": "26025",
+   "lat": 42.2431,
+   "lon": -84.753,
+   "population": 8229
+  },
+  "algonac": {
+   "name": "Algonac",
+   "county": "26147",
+   "lat": 42.6186,
+   "lon": -82.5323,
+   "population": 4055
+  },
+  "allegan": {
+   "name": "Allegan",
+   "county": "26005",
+   "lat": 42.5292,
+   "lon": -85.8553,
+   "population": 5071
+  },
+  "allen park": {
+   "name": "Allen Park",
+   "county": "26163",
+   "lat": 42.2575,
+   "lon": -83.211,
+   "population": 27425
+  },
+  "allendale": {
+   "name": "Allendale",
+   "county": "26139",
+   "lat": 42.9723,
+   "lon": -85.9536,
+   "population": 17579
+  },
+  "alma": {
+   "name": "Alma",
+   "county": "26057",
+   "lat": 43.3789,
+   "lon": -84.6597,
+   "population": 9193
+  },
+  "almont": {
+   "name": "Almont",
+   "county": "26087",
+   "lat": 42.9206,
+   "lon": -83.0449,
+   "population": 2723
+  },
+  "alpena": {
+   "name": "Alpena",
+   "county": "26007",
+   "lat": 45.0617,
+   "lon": -83.4327,
+   "population": 10175
+  },
+  "ann arbor": {
+   "name": "Ann Arbor",
+   "county": "26161",
+   "lat": 42.2776,
+   "lon": -83.7409,
+   "population": 117070
+  },
+  "argentine": {
+   "name": "Argentine",
+   "county": "26049",
+   "lat": 42.7914,
+   "lon": -83.8463,
+   "population": 2525
+  },
+  "armada": {
+   "name": "Armada",
+   "county": "26099",
+   "lat": 42.8442,
+   "lon": -82.8844,
+   "population": 1744
+  },
+  "athens": {
+   "name": "Athens",
+   "county": "26025",
+   "lat": 42.0887,
+   "lon": -85.2347,
+   "population": 1007
+  },
+  "atlanta": {
+   "name": "Atlanta",
+   "county": "26119",
+   "lat": 45.0047,
+   "lon": -84.1439,
+   "population": 827
+  },
+  "au sable": {
+   "name": "Au Sable",
+   "county": "26069",
+   "lat": 44.4109,
+   "lon": -83.3322,
+   "population": 1404
+  },
+  "auburn": {
+   "name": "Auburn",
+   "county": "26017",
+   "lat": 43.6034,
+   "lon": -84.0697,
+   "population": 2113
+  },
+  "auburn hills": {
+   "name": "Auburn Hills",
+   "county": "26125",
+   "lat": 42.6875,
+   "lon": -83.2341,
+   "population": 22672
+  },
+  "bad axe": {
+   "name": "Bad Axe",
+   "county": "26063",
+   "lat": 43.802,
+   "lon": -83.0008,
+   "population": 3011
+  },
+  "baldwin": {
+   "name": "Baldwin",
+   "county": "26085",
+   "lat": 43.9011,
+   "lon": -85.8517,
+   "population": 1159
+  },
+  "bangor": {
+   "name": "Bangor",
+   "county": "26159",
+   "lat": 42.3125,
+   "lon": -86.1131,
+   "population": 1850
+  },
+  "baraga": {
+   "name": "Baraga",
+   "county": "26013",
+   "lat": 46.7785,
+   "lon": -88.489,
+   "population": 1996
+  },
+  "bath": {
+   "name": "Bath",
+   "county": "26037",
+   "lat": 42.8186,
+   "lon": -84.4486,
+   "population": 2083
+  },
+  "battle creek": {
+   "name": "Battle Creek",
+   "county": "26025",
+   "lat": 42.3173,
+   "lon": -85.1782,
+   "population": 51589
+  },
+  "bay city": {
+   "name": "Bay City",
+   "county": "26017",
+   "lat": 43.5945,
+   "lon": -83.8889,
+   "population": 33917
+  },
+  "beaverton": {
+   "name": "Beaverton",
+   "county": "26051",
+   "lat": 43.8822,
+   "lon": -84.4847,
+   "population": 1049
+  },
+  "beecher": {
+   "name": "Beecher",
+   "county": "26049",
+   "lat": 43.09,
+   "lon": -83.6944,
+   "population": 10232
+  },
+  "beechwood": {
+   "name": "Beechwood",
+   "county": "26139",
+   "lat": 42.797,
+   "lon": -86.1259,
+   "population": 3015
+  },
+  "belding": {
+   "name": "Belding",
+   "county": "26067",
+   "lat": 43.0978,
+   "lon": -85.2289,
+   "population": 5769
+  },
+  "bellaire": {
+   "name": "Bellaire",
+   "county": "26009",
+   "lat": 44.9803,
+   "lon": -85.2112,
+   "population": 1065
+  },
+  "belleville": {
+   "name": "Belleville",
+   "county": "26163",
+   "lat": 42.2048,
+   "lon": -83.4852,
+   "population": 3880
+  },
+  "bellevue": {
+   "name": "Bellevue",
+   "county": "26045",
+   "lat": 42.4434,
+   "lon": -85.0181,
+   "population": 1278
+  },
+  "benton harbor": {
+   "name": "Benton Harbor",
+   "county": "26021",
+   "lat": 42.1167,
+   "lon": -86.4542,
+   "population": 9976
+  },
+  "benton heights": {
+   "name": "Benton Heights",
+   "county": "26021",
+   "lat": 42.1311,
+   "lon": -86.4072,
+   "population": 4084
+  },
+  "berkley": {
+   "name": "Berkley",
+   "county": "26125",
+   "lat": 42.5031,
+   "lon": -83.1835,
+   "population": 15268
+  },
+  "berrien springs": {
+   "name": "Berrien Springs",
+   "county": "26021",
+   "lat": 41.9464,
+   "lon": -86.3389,
+   "population": 1764
+  },
+  "bessemer": {
+   "name": "Bessemer",
+   "county": "26053",
+   "lat": 46.4813,
+   "lon": -90.0529,
+   "population": 1770
+  },
+  "beulah": {
+   "name": "Beulah",
+   "county": "26019",
+   "lat": 44.6319,
+   "lon": -86.0909,
+   "population": 341
+  },
+  "beverly hills": {
+   "name": "Beverly Hills",
+   "county": "26125",
+   "lat": 42.5239,
+   "lon": -83.2233,
+   "population": 10267
+  },
+  "big rapids": {
+   "name": "Big Rapids",
+   "county": "26107",
+   "lat": 43.6981,
+   "lon": -85.4837,
+   "population": 10397
+  },
+  "bingham farms": {
+   "name": "Bingham Farms",
+   "county": "26125",
+   "lat": 42.5159,
+   "lon": -83.2733,
+   "population": 1133
+  },
+  "birch run": {
+   "name": "Birch Run",
+   "county": "26145",
+   "lat": 43.2509,
+   "lon": -83.7941,
+   "population": 1479
+  },
+  "birmingham": {
+   "name": "Birmingham",
+   "county": "26125",
+   "lat": 42.5467,
+   "lon": -83.2113,
+   "population": 20857
+  },
+  "blissfield": {
+   "name": "Blissfield",
+   "county": "26091",
+   "lat": 41.8325,
+   "lon": -83.8624,
+   "population": 3255
+  },
+  "bloomfield hills": {
+   "name": "Bloomfield Hills",
+   "county": "26125",
+   "lat": 42.5836,
+   "lon": -83.2455,
+   "population": 4004
+  },
+  "boyne city": {
+   "name": "Boyne City",
+   "county": "26029",
+   "lat": 45.2167,
+   "lon": -85.0139,
+   "population": 3776
+  },
+  "breckenridge": {
+   "name": "Breckenridge",
+   "county": "26057",
+   "lat": 43.4081,
+   "lon": -84.475,
+   "population": 1305
+  },
+  "bridgeport": {
+   "name": "Bridgeport",
+   "county": "26145",
+   "lat": 43.3595,
+   "lon": -83.8816,
+   "population": 6950
+  },
+  "bridgman": {
+   "name": "Bridgman",
+   "county": "26021",
+   "lat": 41.9431,
+   "lon": -86.557,
+   "population": 2258
+  },
+  "brighton": {
+   "name": "Brighton",
+   "county": "26093",
+   "lat": 42.5295,
+   "lon": -83.7802,
+   "population": 7609
+  },
+  "bronson": {
+   "name": "Bronson",
+   "county": "26023",
+   "lat": 41.8723,
+   "lon": -85.1947,
+   "population": 2335
+  },
+  "brooklyn": {
+   "name": "Brooklyn",
+   "county": "26075",
+   "lat": 42.1059,
+   "lon": -84.2483,
+   "population": 1198
+  },
+  "brown city": {
+   "name": "Brown City",
+   "county": "26151",
+   "lat": 43.2122,
+   "lon": -82.9897,
+   "population": 1274
+  },
+  "brownlee park": {
+   "name": "Brownlee Park",
+   "county": "26025",
+   "lat": 42.3189,
+   "lon": -85.1425,
+   "population": 2108
+  },
+  "buchanan": {
+   "name": "Buchanan",
+   "county": "26021",
+   "lat": 41.8273,
+   "lon": -86.3611,
+   "population": 4362
+  },
+  "buena vista": {
+   "name": "Buena Vista",
+   "county": "26145",
+   "lat": 43.4203,
+   "lon": -83.8986,
+   "population": 6816
+  },
+  "burt": {
+   "name": "Burt",
+   "county": "26145",
+   "lat": 43.2367,
+   "lon": -83.9064,
+   "population": 1228
+  },
+  "burton": {
+   "name": "Burton",
+   "county": "26049",
+   "lat": 42.9995,
+   "lon": -83.6163,
+   "population": 28788
+  },
+  "byron center": {
+   "name": "Byron Center",
+   "county": "26081",
+   "lat": 42.8122,
+   "lon": -85.7228,
+   "population": 5822
+  },
+  "cadillac": {
+   "name": "Cadillac",
+   "county": "26165",
+   "lat": 44.252,
+   "lon": -85.4012,
+   "population": 10373
+  },
+  "caledonia": {
+   "name": "Caledonia",
+   "county": "26081",
+   "lat": 42.7892,
+   "lon": -85.5167,
+   "population": 1590
+  },
+  "canadian lakes": {
+   "name": "Canadian Lakes",
+   "county": "26107",
+   "lat": 43.5792,
+   "lon": -85.3017,
+   "population": 2756
+  },
+  "canton": {
+   "name": "Canton",
+   "county": "26163",
+   "lat": 42.3087,
+   "lon": -83.4822,
+   "population": 86825
+  },
+  "capac": {
+   "name": "Capac",
+   "county": "26147",
+   "lat": 43.0125,
+   "lon": -82.928,
+   "population": 1849
+  },
+  "carleton": {
+   "name": "Carleton",
+   "county": "26115",
+   "lat": 42.0592,
+   "lon": -83.3908,
+   "population": 2338
+  },
+  "caro": {
+   "name": "Caro",
+   "county": "26157",
+   "lat": 43.4907,
+   "lon": -83.3988,
+   "population": 4099
+  },
+  "carrollton": {
+   "name": "Carrollton",
+   "county": "26145",
+   "lat": 43.4586,
+   "lon": -83.9303,
+   "population": 6583
+  },
+  "carson city": {
+   "name": "Carson City",
+   "county": "26117",
+   "lat": 43.177,
+   "lon": -84.8464,
+   "population": 1090
+  },
+  "cass city": {
+   "name": "Cass City",
+   "county": "26157",
+   "lat": 43.6009,
+   "lon": -83.1747,
+   "population": 2357
+  },
+  "cassopolis": {
+   "name": "Cassopolis",
+   "county": "26027",
+   "lat": 41.9117,
+   "lon": -86.01,
+   "population": 1729
+  },
+  "cedar springs": {
+   "name": "Cedar Springs",
+   "county": "26081",
+   "lat": 43.2234,
+   "lon": -85.5514,
+   "population": 3624
+  },
+  "center line": {
+   "name": "Center Line",
+   "county": "26099",
+   "lat": 42.485,
+   "lon": -83.0277,
+   "population": 8320
+  },
+  "centreville": {
+   "name": "Centreville",
+   "county": "26149",
+   "lat": 41.9234,
+   "lon": -85.5283,
+   "population": 1415
+  },
+  "charlevoix": {
+   "name": "Charlevoix",
+   "county": "26029",
+   "lat": 45.3181,
+   "lon": -85.2584,
+   "population": 2540
+  },
+  "charlotte": {
+   "name": "Charlotte",
+   "county": "26045",
+   "lat": 42.5637,
+   "lon": -84.8358,
+   "population": 9054
+  },
+  "cheboygan": {
+   "name": "Cheboygan",
+   "county": "26031",
+   "lat": 45.647,
+   "lon": -84.4745,
+   "population": 4733
+  },
+  "chelsea": {
+   "name": "Chelsea",
+   "county": "26161",
+   "lat": 42.3181,
+   "lon": -84.0218,
+   "population": 5205
+  },
+  "chesaning": {
+   "name": "Chesaning",
+   "county": "26145",
+   "lat": 43.1848,
+   "lon": -84.115,
+   "population": 2288
+  },
+  "clare": {
+   "name": "Clare",
+   "county": "26035",
+   "lat": 43.8195,
+   "lon": -84.7686,
+   "population": 3082
+  },
+  "clarkston": {
+   "name": "Clarkston",
+   "county": "26125",
+   "lat": 42.7359,
+   "lon": -83.4188,
+   "population": 1035
+  },
+  "clawson": {
+   "name": "Clawson",
+   "county": "26125",
+   "lat": 42.5334,
+   "lon": -83.1463,
+   "population": 12015
+  },
+  "clinton": {
+   "name": "Clinton",
+   "county": "26091",
+   "lat": 42.072,
+   "lon": -83.9716,
+   "population": 2272
+  },
+  "clinton township": {
+   "name": "Clinton Township",
+   "county": "26099",
+   "lat": 42.587,
+   "lon": -82.9199,
+   "population": 99753
+  },
+  "clio": {
+   "name": "Clio",
+   "county": "26049",
+   "lat": 43.1775,
+   "lon": -83.7341,
+   "population": 2536
+  },
+  "coldwater": {
+   "name": "Coldwater",
+   "county": "26023",
+   "lat": 41.9403,
+   "lon": -85.0005,
+   "population": 10844
+  },
+  "coleman": {
+   "name": "Coleman",
+   "county": "26111",
+   "lat": 43.7567,
+   "lon": -84.5858,
+   "population": 1205
+  },
+  "coloma": {
+   "name": "Coloma",
+   "county": "26021",
+   "lat": 42.1861,
+   "lon": -86.3084,
+   "population": 1455
+  },
+  "colon": {
+   "name": "Colon",
+   "county": "26149",
+   "lat": 41.9584,
+   "lon": -85.325,
+   "population": 1159
+  },
+  "comstock park": {
+   "name": "Comstock Park",
+   "county": "26081",
+   "lat": 43.0386,
+   "lon": -85.67,
+   "population": 10088
+  },
+  "concord": {
+   "name": "Concord",
+   "county": "26075",
+   "lat": 42.1778,
+   "lon": -84.643,
+   "population": 1050
+  },
+  "constantine": {
+   "name": "Constantine",
+   "county": "26149",
+   "lat": 41.8412,
+   "lon": -85.6686,
+   "population": 2064
+  },
+  "coopersville": {
+   "name": "Coopersville",
+   "county": "26139",
+   "lat": 43.0639,
+   "lon": -85.9348,
+   "population": 4351
+  },
+  "corunna": {
+   "name": "Corunna",
+   "county": "26155",
+   "lat": 42.982,
+   "lon": -84.1178,
+   "population": 3404
+  },
+  "croswell": {
+   "name": "Croswell",
+   "county": "26151",
+   "lat": 43.2756,
+   "lon": -82.621,
+   "population": 2338
+  },
+  "crystal falls": {
+   "name": "Crystal Falls",
+   "county": "26071",
+   "lat": 46.098,
+   "lon": -88.334,
+   "population": 1414
+  },
+  "cutlerville": {
+   "name": "Cutlerville",
+   "county": "26081",
+   "lat": 42.8409,
+   "lon": -85.6636,
+   "population": 14370
+  },
+  "davison": {
+   "name": "Davison",
+   "county": "26049",
+   "lat": 43.0348,
+   "lon": -83.518,
+   "population": 4965
+  },
+  "dewitt": {
+   "name": "DeWitt",
+   "county": "26037",
+   "lat": 42.8423,
+   "lon": -84.5691,
+   "population": 4655
+  },
+  "dearborn": {
+   "name": "Dearborn",
+   "county": "26163",
+   "lat": 42.3223,
+   "lon": -83.1763,
+   "population": 95171
+  },
+  "dearborn heights": {
+   "name": "Dearborn Heights",
+   "county": "26163",
+   "lat": 42.337,
+   "lon": -83.2733,
+   "population": 56145
+  },
+  "decatur": {
+   "name": "Decatur",
+   "county": "26159",
+   "lat": 42.1081,
+   "lon": -85.9745,
+   "population": 1767
+  },
+  "detroit": {
+   "name": "Detroit",
+   "county": "26163",
+   "lat": 42.3314,
+   "lon": -83.0457,
+   "population": 677116
+  },
+  "detroit beach": {
+   "name": "Detroit Beach",
+   "county": "26115",
+   "lat": 41.9312,
+   "lon": -83.3269,
+   "population": 2087
+  },
+  "dexter": {
+   "name": "Dexter",
+   "county": "26161",
+   "lat": 42.3383,
+   "lon": -83.8895,
+   "population": 4067
+  },
+  "dimondale": {
+   "name": "Dimondale",
+   "county": "26045",
+   "lat": 42.6456,
+   "lon": -84.6489,
+   "population": 1245
+  },
+  "dollar bay": {
+   "name": "Dollar Bay",
+   "county": "26061",
+   "lat": 47.1197,
+   "lon": -88.5115,
+   "population": 1082
+  },
+  "douglas": {
+   "name": "Douglas",
+   "county": "26005",
+   "lat": 42.6434,
+   "lon": -86.2006,
+   "population": 1284
+  },
+  "dowagiac": {
+   "name": "Dowagiac",
+   "county": "26027",
+   "lat": 41.9842,
+   "lon": -86.1086,
+   "population": 5851
+  },
+  "dundee": {
+   "name": "Dundee",
+   "county": "26115",
+   "lat": 41.9573,
+   "lon": -83.6597,
+   "population": 3994
+  },
+  "durand": {
+   "name": "Durand",
+   "county": "26155",
+   "lat": 42.912,
+   "lon": -83.9847,
+   "population": 3338
+  },
+  "eagle river": {
+   "name": "Eagle River",
+   "county": "26083",
+   "lat": 47.4138,
+   "lon": -88.2957,
+   "population": 71
+  },
+  "east grand rapids": {
+   "name": "East Grand Rapids",
+   "county": "26081",
+   "lat": 42.9411,
+   "lon": -85.61,
+   "population": 11311
+  },
+  "east jordan": {
+   "name": "East Jordan",
+   "county": "26029",
+   "lat": 45.1581,
+   "lon": -85.1242,
+   "population": 2371
+  },
+  "east lansing": {
+   "name": "East Lansing",
+   "county": "26065",
+   "lat": 42.737,
+   "lon": -84.4839,
+   "population": 48471
+  },
+  "east tawas": {
+   "name": "East Tawas",
+   "county": "26069",
+   "lat": 44.2795,
+   "lon": -83.4903,
+   "population": 2747
+  },
+  "eastpointe": {
+   "name": "Eastpointe",
+   "county": "26099",
+   "lat": 42.4684,
+   "lon": -82.9555,
+   "population": 32657
+  },
+  "eastwood": {
+   "name": "Eastwood",
+   "county": "26077",
+   "lat": 42.3031,
+   "lon": -85.5503,
+   "population": 6340
+  },
+  "eaton rapids": {
+   "name": "Eaton Rapids",
+   "county": "26045",
+   "lat": 42.5092,
+   "lon": -84.6558,
+   "population": 5225
+  },
+  "ecorse": {
+   "name": "Ecorse",
+   "county": "26163",
+   "lat": 42.2445,
+   "lon": -83.1458,
+   "population": 9257
+  },
+  "edgemont park": {
+   "name": "Edgemont Park",
+   "county": "26065",
+   "lat": 42.7467,
+   "lon": -84.5936,
+   "population": 2358
+  },
+  "edmore": {
+   "name": "Edmore",
+   "county": "26117",
+   "lat": 43.4081,
+   "lon": -85.0386,
+   "population": 1196
+  },
+  "edwardsburg": {
+   "name": "Edwardsburg",
+   "county": "26027",
+   "lat": 41.7956,
+   "lon": -86.0808,
+   "population": 1227
+  },
+  "elk rapids": {
+   "name": "Elk Rapids",
+   "county": "26009",
+   "lat": 44.8956,
+   "lon": -85.4165,
+   "population": 1615
+  },
+  "essexville": {
+   "name": "Essexville",
+   "county": "26017",
+   "lat": 43.6153,
+   "lon": -83.8419,
+   "population": 3396
+  },
+  "evart": {
+   "name": "Evart",
+   "county": "26133",
+   "lat": 43.9006,
+   "lon": -85.2581,
+   "population": 1861
+  },
+  "fair plain": {
+   "name": "Fair Plain",
+   "county": "26021",
+   "lat": 42.087,
+   "lon": -86.4559,
+   "population": 7631
+  },
+  "farmington": {
+   "name": "Farmington",
+   "county": "26125",
+   "lat": 42.4645,
+   "lon": -83.3763,
+   "population": 10523
+  },
+  "farmington hills": {
+   "name": "Farmington Hills",
+   "county": "26125",
+   "lat": 42.4853,
+   "lon": -83.3772,
+   "population": 81330
+  },
+  "fennville": {
+   "name": "Fennville",
+   "county": "26005",
+   "lat": 42.5939,
+   "lon": -86.1017,
+   "population": 1400
+  },
+  "fenton": {
+   "name": "Fenton",
+   "county": "26049",
+   "lat": 42.7978,
+   "lon": -83.7049,
+   "population": 11442
+  },
+  "ferndale": {
+   "name": "Ferndale",
+   "county": "26125",
+   "lat": 42.4606,
+   "lon": -83.1346,
+   "population": 20177
+  },
+  "ferrysburg": {
+   "name": "Ferrysburg",
+   "county": "26139",
+   "lat": 43.0845,
+   "lon": -86.2203,
+   "population": 2993
+  },
+  "flat rock": {
+   "name": "Flat Rock",
+   "county": "26163",
+   "lat": 42.0964,
+   "lon": -83.2919,
+   "population": 9914
+  },
+  "flint": {
+   "name": "Flint",
+   "county": "26049",
+   "lat": 43.0125,
+   "lon": -83.6875,
+   "population": 98310
+  },
+  "flushing": {
+   "name": "Flushing",
+   "county": "26049",
+   "lat": 43.0631,
+   "lon": -83.8511,
+   "population": 8086
+  },
+  "forest hills": {
+   "name": "Forest Hills",
+   "county": "26081",
+   "lat": 42.9595,
+   "lon": -85.4898,
+   "population": 25867
+  },
+  "fowler": {
+   "name": "Fowler",
+   "county": "26037",
+   "lat": 43.0017,
+   "lon": -84.7397,
+   "population": 1225
+  },
+  "fowlerville": {
+   "name": "Fowlerville",
+   "county": "26093",
+   "lat": 42.6606,
+   "lon": -84.073,
+   "population": 2895
+  },
+  "frankenmuth": {
+   "name": "Frankenmuth",
+   "county": "26145",
+   "lat": 43.3317,
+   "lon": -83.738,
+   "population": 5025
+  },
+  "frankfort": {
+   "name": "Frankfort",
+   "county": "26019",
+   "lat": 44.6336,
+   "lon": -86.2345,
+   "population": 1283
+  },
+  "franklin": {
+   "name": "Franklin",
+   "county": "26125",
+   "lat": 42.5223,
+   "lon": -83.306,
+   "population": 3237
+  },
+  "fraser": {
+   "name": "Fraser",
+   "county": "26099",
+   "lat": 42.5392,
+   "lon": -82.9494,
+   "population": 14636
+  },
+  "freeland": {
+   "name": "Freeland",
+   "county": "26145",
+   "lat": 43.525,
+   "lon": -84.1228,
+   "population": 6969
+  },
+  "fremont": {
+   "name": "Fremont",
+   "county": "26123",
+   "lat": 43.4675,
+   "lon": -85.942,
+   "population": 4036
+  },
+  "fruitport": {
+   "name": "Fruitport",
+   "county": "26121",
+   "lat": 43.132,
+   "lon": -86.1548,
+   "population": 1111
+  },
+  "galesburg": {
+   "name": "Galesburg",
+   "county": "26077",
+   "lat": 42.2886,
+   "lon": -85.4181,
+   "population": 2043
+  },
+  "garden city": {
+   "name": "Garden City",
+   "county": "26163",
+   "lat": 42.3256,
+   "lon": -83.331,
+   "population": 26920
+  },
+  "gaylord": {
+   "name": "Gaylord",
+   "county": "26137",
+   "lat": 45.0275,
+   "lon": -84.6748,
+   "population": 3660
+  },
+  "gibraltar": {
+   "name": "Gibraltar",
+   "county": "26163",
+   "lat": 42.095,
+   "lon": -83.1897,
+   "population": 4531
+  },
+  "gladstone": {
+   "name": "Gladstone",
+   "county": "26041",
+   "lat": 45.8527,
+   "lon": -87.0218,
+   "population": 4830
+  },
+  "gladwin": {
+   "name": "Gladwin",
+   "county": "26051",
+   "lat": 43.9808,
+   "lon": -84.4864,
+   "population": 2880
+  },
+  "goodrich": {
+   "name": "Goodrich",
+   "county": "26049",
+   "lat": 42.917,
+   "lon": -83.5063,
+   "population": 1831
+  },
+  "grand blanc": {
+   "name": "Grand Blanc",
+   "county": "26049",
+   "lat": 42.9275,
+   "lon": -83.6299,
+   "population": 7993
+  },
+  "grand haven": {
+   "name": "Grand Haven",
+   "county": "26139",
+   "lat": 43.0631,
+   "lon": -86.2284,
+   "population": 11062
+  },
+  "grand ledge": {
+   "name": "Grand Ledge",
+   "county": "26045",
+   "lat": 42.7534,
+   "lon": -84.7464,
+   "population": 7791
+  },
+  "grand rapids": {
+   "name": "Grand Rapids",
+   "county": "26081",
+   "lat": 42.9634,
+   "lon": -85.6681,
+   "population": 195097
+  },
+  "grandville": {
+   "name": "Grandville",
+   "county": "26081",
+   "lat": 42.9098,
+   "lon": -85.7631,
+   "population": 15953
+  },
+  "grass lake": {
+   "name": "Grass Lake",
+   "county": "26075",
+   "lat": 42.2509,
+   "lon": -84.213,
+   "population": 1166
+  },
+  "grayling": {
+   "name": "Grayling",
+   "county": "26039",
+   "lat": 44.6614,
+   "lon": -84.7147,
+   "population": 1844
+  },
+  "greenville": {
+   "name": "Greenville",
+   "county": "26117",
+   "lat": 43.1775,
+   "lon": -85.2528,
+   "population": 8444
+  },
+  "grosse ile": {
+   "name": "Grosse Ile",
+   "county": "26163",
+   "lat": 42.1292,
+   "lon": -83.1444,
+   "population": 11361
+  },
+  "grosse pointe": {
+   "name": "Grosse Pointe",
+   "county": "26163",
+   "lat": 42.3862,
+   "lon": -82.9119,
+   "population": 5232
+  },
+  "grosse pointe farms": {
+   "name": "Grosse Pointe Farms",
+   "county": "26163",
+   "lat": 42.4092,
+   "lon": -82.8919,
+   "population": 9232
+  },
+  "grosse pointe park": {
+   "name": "Grosse Pointe Park",
+   "county": "26163",
+   "lat": 42.3759,
+   "lon": -82.9374,
+   "population": 11220
+  },
+  "grosse pointe woods": {
+   "name": "Grosse Pointe Woods",
+   "county": "26163",
+   "lat": 42.4436,
+   "lon": -82.9069,
+   "population": 15762
+  },
+  "gwinn": {
+   "name": "Gwinn",
+   "county": "26103",
+   "lat": 46.2811,
+   "lon": -87.441,
+   "population": 1917
+  },
+  "hamtramck": {
+   "name": "Hamtramck",
+   "county": "26163",
+   "lat": 42.3928,
+   "lon": -83.0496,
+   "population": 22002
+  },
+  "hancock": {
+   "name": "Hancock",
+   "county": "26061",
+   "lat": 47.1269,
+   "lon": -88.581,
+   "population": 4555
+  },
+  "harbor beach": {
+   "name": "Harbor Beach",
+   "county": "26063",
+   "lat": 43.8447,
+   "lon": -82.6513,
+   "population": 1634
+  },
+  "harbor springs": {
+   "name": "Harbor Springs",
+   "county": "26047",
+   "lat": 45.4317,
+   "lon": -84.992,
+   "population": 1201
+  },
+  "harper woods": {
+   "name": "Harper Woods",
+   "county": "26163",
+   "lat": 42.4331,
+   "lon": -82.9241,
+   "population": 13836
+  },
+  "harrison": {
+   "name": "Harrison",
+   "county": "26035",
+   "lat": 44.0192,
+   "lon": -84.7995,
+   "population": 2107
+  },
+  "harrisville": {
+   "name": "Harrisville",
+   "county": "26001",
+   "lat": 44.6564,
+   "lon": -83.2947,
+   "population": 470
+  },
+  "hart": {
+   "name": "Hart",
+   "county": "26127",
+   "lat": 43.6983,
+   "lon": -86.364,
+   "population": 2098
+  },
+  "hartford": {
+   "name": "Hartford",
+   "county": "26159",
+   "lat": 42.2067,
+   "lon": -86.1667,
+   "population": 2617
+  },
+  "harvey": {
+   "name": "Harvey",
+   "county": "26103",
+   "lat": 46.4947,
+   "lon": -87.3543,
+   "population": 1393
+  },
+  "haslett": {
+   "name": "Haslett",
+   "county": "26065",
+   "lat": 42.747,
+   "lon": -84.4011,
+   "population": 19220
+  },
+  "hastings": {
+   "name": "Hastings",
+   "county": "26015",
+   "lat": 42.6459,
+   "lon": -85.2908,
+   "population": 7284
+  },
+  "hazel park": {
+   "name": "Hazel Park",
+   "county": "26125",
+   "lat": 42.4625,
+   "lon": -83.1041,
+   "population": 16597
+  },
+  "hemlock": {
+   "name": "Hemlock",
+   "county": "26145",
+   "lat": 43.4147,
+   "lon": -84.2305,
+   "population": 1466
+  },
+  "highland park": {
+   "name": "Highland Park",
+   "county": "26163",
+   "lat": 42.4056,
+   "lon": -83.0969,
+   "population": 10949
+  },
+  "hillsdale": {
+   "name": "Hillsdale",
+   "county": "26059",
+   "lat": 41.9201,
+   "lon": -84.6305,
+   "population": 8163
+  },
+  "holland": {
+   "name": "Holland",
+   "county": "26139",
+   "lat": 42.7875,
+   "lon": -86.1089,
+   "population": 33742
+  },
+  "holly": {
+   "name": "Holly",
+   "county": "26125",
+   "lat": 42.792,
+   "lon": -83.6277,
+   "population": 6169
+  },
+  "holt": {
+   "name": "Holt",
+   "county": "26065",
+   "lat": 42.6406,
+   "lon": -84.5152,
+   "population": 23973
+  },
+  "homer": {
+   "name": "Homer",
+   "county": "26025",
+   "lat": 42.1459,
+   "lon": -84.8089,
+   "population": 1630
+  },
+  "houghton": {
+   "name": "Houghton",
+   "county": "26061",
+   "lat": 47.1219,
+   "lon": -88.569,
+   "population": 7970
+  },
+  "houghton lake": {
+   "name": "Houghton Lake",
+   "county": "26143",
+   "lat": 44.3147,
+   "lon": -84.7648,
+   "population": 3427
+  },
+  "howard city": {
+   "name": "Howard City",
+   "county": "26117",
+   "lat": 43.3956,
+   "lon": -85.4678,
+   "population": 1792
+  },
+  "howell": {
+   "name": "Howell",
+   "county": "26093",
+   "lat": 42.6073,
+   "lon": -83.9294,
+   "population": 9521
+  },
+  "hubbard lake": {
+   "name": "Hubbard Lake",
+   "county": "26001",
+   "lat": 44.7597,
+   "lon": -83.5444,
+   "population": 1002
+  },
+  "hudson": {
+   "name": "Hudson",
+   "county": "26091",
+   "lat": 41.855,
+   "lon": -84.3538,
+   "population": 2241
+  },
+  "hudsonville": {
+   "name": "Hudsonville",
+   "county": "26139",
+   "lat": 42.8709,
+   "lon": -85.865,
+   "population": 7324
+  },
+  "huntington woods": {
+   "name": "Huntington Woods",
+   "county": "26125",
+   "lat": 42.4806,
+   "lon": -83.1669,
+   "population": 6340
+  },
+  "imlay city": {
+   "name": "Imlay City",
+   "county": "26087",
+   "lat": 43.0247,
+   "lon": -83.0777,
+   "population": 3573
+  },
+  "indian river": {
+   "name": "Indian River",
+   "county": "26031",
+   "lat": 45.4125,
+   "lon": -84.6125,
+   "population": 1959
+  },
+  "ionia": {
+   "name": "Ionia",
+   "county": "26067",
+   "lat": 42.9873,
+   "lon": -85.0711,
+   "population": 11372
+  },
+  "iron mountain": {
+   "name": "Iron Mountain",
+   "county": "26043",
+   "lat": 45.8202,
+   "lon": -88.066,
+   "population": 7504
+  },
+  "iron river": {
+   "name": "Iron River",
+   "county": "26071",
+   "lat": 46.0927,
+   "lon": -88.6423,
+   "population": 2904
+  },
+  "ironwood": {
+   "name": "Ironwood",
+   "county": "26053",
+   "lat": 46.4547,
+   "lon": -90.171,
+   "population": 5002
+  },
+  "ishpeming": {
+   "name": "Ishpeming",
+   "county": "26103",
+   "lat": 46.4885,
+   "lon": -87.6676,
+   "population": 6483
+  },
+  "ithaca": {
+   "name": "Ithaca",
+   "county": "26057",
+   "lat": 43.2917,
+   "lon": -84.6075,
+   "population": 2834
+  },
+  "jackson": {
+   "name": "Jackson",
+   "county": "26075",
+   "lat": 42.2459,
+   "lon": -84.4013,
+   "population": 33133
+  },
+  "jenison": {
+   "name": "Jenison",
+   "county": "26139",
+   "lat": 42.9072,
+   "lon": -85.792,
+   "population": 16538
+  },
+  "jonesville": {
+   "name": "Jonesville",
+   "county": "26059",
+   "lat": 41.9842,
+   "lon": -84.6619,
+   "population": 2220
+  },
+  "kalamazoo": {
+   "name": "Kalamazoo",
+   "county": "26077",
+   "lat": 42.2917,
+   "lon": -85.5872,
+   "population": 76041
+  },
+  "kalkaska": {
+   "name": "Kalkaska",
+   "county": "26079",
+   "lat": 44.7342,
+   "lon": -85.1759,
+   "population": 2038
+  },
+  "keego harbor": {
+   "name": "Keego Harbor",
+   "county": "26125",
+   "lat": 42.6081,
+   "lon": -83.3438,
+   "population": 3029
+  },
+  "kent city": {
+   "name": "Kent City",
+   "county": "26081",
+   "lat": 43.22,
+   "lon": -85.7511,
+   "population": 1102
+  },
+  "kentwood": {
+   "name": "Kentwood",
+   "county": "26081",
+   "lat": 42.8695,
+   "lon": -85.6448,
+   "population": 51357
+  },
+  "kilmanagh": {
+   "name": "Kilmanagh",
+   "county": "26063",
+   "lat": 43.7561,
+   "lon": -83.3569,
+   "population": 2944
+  },
+  "kingsford": {
+   "name": "Kingsford",
+   "county": "26043",
+   "lat": 45.795,
+   "lon": -88.0721,
+   "population": 5069
+  },
+  "kingsley": {
+   "name": "Kingsley",
+   "county": "26055",
+   "lat": 44.5847,
+   "lon": -85.5359,
+   "population": 1559
+  },
+  "lanse": {
+   "name": "L'Anse",
+   "county": "26013",
+   "lat": 46.7566,
+   "lon": -88.4529,
+   "population": 1934
+  },
+  "laingsburg": {
+   "name": "Laingsburg",
+   "county": "26155",
+   "lat": 42.8903,
+   "lon": -84.3514,
+   "population": 1277
+  },
+  "lake city": {
+   "name": "Lake City",
+   "county": "26113",
+   "lat": 44.3353,
+   "lon": -85.2151,
+   "population": 843
+  },
+  "lake fenton": {
+   "name": "Lake Fenton",
+   "county": "26049",
+   "lat": 42.8461,
+   "lon": -83.7077,
+   "population": 5559
+  },
+  "lake michigan beach": {
+   "name": "Lake Michigan Beach",
+   "county": "26021",
+   "lat": 42.2209,
+   "lon": -86.3695,
+   "population": 1216
+  },
+  "lake odessa": {
+   "name": "Lake Odessa",
+   "county": "26067",
+   "lat": 42.7848,
+   "lon": -85.1383,
+   "population": 2029
+  },
+  "lake orion": {
+   "name": "Lake Orion",
+   "county": "26125",
+   "lat": 42.7845,
+   "lon": -83.2397,
+   "population": 3051
+  },
+  "lakeview": {
+   "name": "Lakeview",
+   "county": "26025",
+   "lat": 42.2984,
+   "lon": -85.2111,
+   "population": 1115
+  },
+  "lakewood club": {
+   "name": "Lakewood Club",
+   "county": "26121",
+   "lat": 43.3711,
+   "lon": -86.2603,
+   "population": 1288
+  },
+  "lambertville": {
+   "name": "Lambertville",
+   "county": "26115",
+   "lat": 41.7659,
+   "lon": -83.628,
+   "population": 9953
+  },
+  "lansing": {
+   "name": "Lansing",
+   "county": "26065",
+   "lat": 42.7325,
+   "lon": -84.5555,
+   "population": 115056
+  },
+  "lapeer": {
+   "name": "Lapeer",
+   "county": "26087",
+   "lat": 43.0514,
+   "lon": -83.3188,
+   "population": 8790
+  },
+  "lathrup village": {
+   "name": "Lathrup Village",
+   "county": "26125",
+   "lat": 42.4964,
+   "lon": -83.2227,
+   "population": 4135
+  },
+  "laurium": {
+   "name": "Laurium",
+   "county": "26061",
+   "lat": 47.2374,
+   "lon": -88.4432,
+   "population": 1941
+  },
+  "lawton": {
+   "name": "Lawton",
+   "county": "26159",
+   "lat": 42.1673,
+   "lon": -85.847,
+   "population": 1866
+  },
+  "leslie": {
+   "name": "Leslie",
+   "county": "26065",
+   "lat": 42.4514,
+   "lon": -84.4325,
+   "population": 1866
+  },
+  "lewiston": {
+   "name": "Lewiston",
+   "county": "26119",
+   "lat": 44.8839,
+   "lon": -84.3056,
+   "population": 1392
+  },
+  "lexington": {
+   "name": "Lexington",
+   "county": "26151",
+   "lat": 43.2681,
+   "lon": -82.5308,
+   "population": 1128
+  },
+  "lincoln park": {
+   "name": "Lincoln Park",
+   "county": "26163",
+   "lat": 42.2506,
+   "lon": -83.1785,
+   "population": 37012
+  },
+  "linden": {
+   "name": "Linden",
+   "county": "26049",
+   "lat": 42.8145,
+   "lon": -83.7824,
+   "population": 3839
+  },
+  "litchfield": {
+   "name": "Litchfield",
+   "county": "26059",
+   "lat": 42.0439,
+   "lon": -84.7575,
+   "population": 1347
+  },
+  "livonia": {
+   "name": "Livonia",
+   "county": "26163",
+   "lat": 42.3684,
+   "lon": -83.3527,
+   "population": 94635
+  },
+  "lowell": {
+   "name": "Lowell",
+   "county": "26081",
+   "lat": 42.9336,
+   "lon": -85.342,
+   "population": 3906
+  },
+  "ludington": {
+   "name": "Ludington",
+   "county": "26105",
+   "lat": 43.9553,
+   "lon": -86.4526,
+   "population": 8058
+  },
+  "luna pier": {
+   "name": "Luna Pier",
+   "county": "26115",
+   "lat": 41.807,
+   "lon": -83.4424,
+   "population": 1389
+  },
+  "madison heights": {
+   "name": "Madison Heights",
+   "county": "26125",
+   "lat": 42.4859,
+   "lon": -83.1052,
+   "population": 30198
+  },
+  "manchester": {
+   "name": "Manchester",
+   "county": "26161",
+   "lat": 42.1503,
+   "lon": -84.0377,
+   "population": 2143
+  },
+  "manistee": {
+   "name": "Manistee",
+   "county": "26101",
+   "lat": 44.2445,
+   "lon": -86.3243,
+   "population": 6084
+  },
+  "mancelona": {
+   "name": "Mancelona",
+   "county": "26009",
+   "lat": 44.9022,
+   "lon": -85.0609,
+   "population": 1365
+  },
+  "manistique": {
+   "name": "Manistique",
+   "county": "26153",
+   "lat": 45.9577,
+   "lon": -86.2463,
+   "population": 2982
+  },
+  "manton": {
+   "name": "Manton",
+   "county": "26165",
+   "lat": 44.4108,
+   "lon": -85.3989,
+   "population": 1371
+  },
+  "marcellus": {
+   "name": "Marcellus",
+   "county": "26027",
+   "lat": 42.0259,
+   "lon": -85.8156,
+   "population": 1157
+  },
+  "marine city": {
+   "name": "Marine City",
+   "county": "26147",
+   "lat": 42.7195,
+   "lon": -82.4921,
+   "population": 4143
+  },
+  "marlette": {
+   "name": "Marlette",
+   "county": "26151",
+   "lat": 43.327,
+   "lon": -83.0802,
+   "population": 1801
+  },
+  "marquette": {
+   "name": "Marquette",
+   "county": "26103",
+   "lat": 46.5435,
+   "lon": -87.3954,
+   "population": 21297
+  },
+  "marshall": {
+   "name": "Marshall",
+   "county": "26025",
+   "lat": 42.2723,
+   "lon": -84.9633,
+   "population": 7045
+  },
+  "marysville": {
+   "name": "Marysville",
+   "county": "26147",
+   "lat": 42.9125,
+   "lon": -82.4869,
+   "population": 9757
+  },
+  "mason": {
+   "name": "Mason",
+   "county": "26065",
+   "lat": 42.5792,
+   "lon": -84.4436,
+   "population": 8427
+  },
+  "mattawan": {
+   "name": "Mattawan",
+   "county": "26159",
+   "lat": 42.2095,
+   "lon": -85.7845,
+   "population": 1947
+  },
+  "melvindale": {
+   "name": "Melvindale",
+   "county": "26163",
+   "lat": 42.2825,
+   "lon": -83.1752,
+   "population": 10404
+  },
+  "memphis": {
+   "name": "Memphis",
+   "county": "26099",
+   "lat": 42.8964,
+   "lon": -82.7688,
+   "population": 1182
+  },
+  "menominee": {
+   "name": "Menominee",
+   "county": "26109",
+   "lat": 45.1078,
+   "lon": -87.6143,
+   "population": 8382
+  },
+  "michigan center": {
+   "name": "Michigan Center",
+   "county": "26075",
+   "lat": 42.2331,
+   "lon": -84.3272,
+   "population": 4672
+  },
+  "middleville": {
+   "name": "Middleville",
+   "county": "26015",
+   "lat": 42.7131,
+   "lon": -85.462,
+   "population": 3301
+  },
+  "midland": {
+   "name": "Midland",
+   "county": "26111",
+   "lat": 43.6156,
+   "lon": -84.2472,
+   "population": 42200
+  },
+  "milan": {
+   "name": "Milan",
+   "county": "26161",
+   "lat": 42.0853,
+   "lon": -83.6824,
+   "population": 5983
+  },
+  "milford": {
+   "name": "Milford",
+   "county": "26125",
+   "lat": 42.5936,
+   "lon": -83.5994,
+   "population": 6472
+  },
+  "millington": {
+   "name": "Millington",
+   "county": "26157",
+   "lat": 43.2814,
+   "lon": -83.5297,
+   "population": 1037
+  },
+  "mio": {
+   "name": "Mio",
+   "county": "26135",
+   "lat": 44.6522,
+   "lon": -84.1297,
+   "population": 1826
+  },
+  "monroe": {
+   "name": "Monroe",
+   "county": "26115",
+   "lat": 41.9164,
+   "lon": -83.3977,
+   "population": 20092
+  },
+  "montague": {
+   "name": "Montague",
+   "county": "26121",
+   "lat": 43.4167,
+   "lon": -86.357,
+   "population": 2362
+  },
+  "montrose": {
+   "name": "Montrose",
+   "county": "26049",
+   "lat": 43.1767,
+   "lon": -83.8927,
+   "population": 1587
+  },
+  "morenci": {
+   "name": "Morenci",
+   "county": "26091",
+   "lat": 41.7195,
+   "lon": -84.218,
+   "population": 2187
+  },
+  "mount clemens": {
+   "name": "Mount Clemens",
+   "county": "26099",
+   "lat": 42.5973,
+   "lon": -82.878,
+   "population": 16400
+  },
+  "mount morris": {
+   "name": "Mount Morris",
+   "county": "26049",
+   "lat": 43.1186,
+   "lon": -83.695,
+   "population": 2964
+  },
+  "mount pleasant": {
+   "name": "Mount Pleasant",
+   "county": "26073",
+   "lat": 43.5978,
+   "lon": -84.7675,
+   "population": 26060
+  },
+  "munising": {
+   "name": "Munising",
+   "county": "26003",
+   "lat": 46.4112,
+   "lon": -86.6493,
+   "population": 2288
+  },
+  "muskegon": {
+   "name": "Muskegon",
+   "county": "26121",
+   "lat": 43.2342,
+   "lon": -86.2484,
+   "population": 38401
+  },
+  "muskegon heights": {
+   "name": "Muskegon Heights",
+   "county": "26121",
+   "lat": 43.2011,
+   "lon": -86.239,
+   "population": 10796
+  },
+  "napoleon": {
+   "name": "Napoleon",
+   "county": "26075",
+   "lat": 42.1606,
+   "lon": -84.2461,
+   "population": 1258
+  },
+  "nashville": {
+   "name": "Nashville",
+   "county": "26015",
+   "lat": 42.6028,
+   "lon": -85.0931,
+   "population": 1633
+  },
+  "negaunee": {
+   "name": "Negaunee",
+   "county": "26103",
+   "lat": 46.4991,
+   "lon": -87.6118,
+   "population": 4582
+  },
+  "new baltimore": {
+   "name": "New Baltimore",
+   "county": "26099",
+   "lat": 42.6811,
+   "lon": -82.7369,
+   "population": 12354
+  },
+  "new buffalo": {
+   "name": "New Buffalo",
+   "county": "26021",
+   "lat": 41.7939,
+   "lon": -86.7439,
+   "population": 1876
+  },
+  "new haven": {
+   "name": "New Haven",
+   "county": "26155",
+   "lat": 43.0936,
+   "lon": -84.1533,
+   "population": 5123
+  },
+  "newaygo": {
+   "name": "Newaygo",
+   "county": "26123",
+   "lat": 43.4197,
+   "lon": -85.8,
+   "population": 1957
+  },
+  "newberry": {
+   "name": "Newberry",
+   "county": "26095",
+   "lat": 46.355,
+   "lon": -85.5096,
+   "population": 1455
+  },
+  "niles": {
+   "name": "Niles",
+   "county": "26021",
+   "lat": 41.8298,
+   "lon": -86.2542,
+   "population": 11333
+  },
+  "north branch": {
+   "name": "North Branch",
+   "county": "26087",
+   "lat": 43.2295,
+   "lon": -83.1966,
+   "population": 1029
+  },
+  "north muskegon": {
+   "name": "North Muskegon",
+   "county": "26121",
+   "lat": 43.2561,
+   "lon": -86.2676,
+   "population": 3779
+  },
+  "northview": {
+   "name": "Northview",
+   "county": "26081",
+   "lat": 43.0456,
+   "lon": -85.6006,
+   "population": 14541
+  },
+  "northville": {
+   "name": "Northville",
+   "county": "26163",
+   "lat": 42.4312,
+   "lon": -83.4833,
+   "population": 6010
+  },
+  "norton shores": {
+   "name": "Norton Shores",
+   "county": "26121",
+   "lat": 43.1689,
+   "lon": -86.2639,
+   "population": 24208
+  },
+  "norway": {
+   "name": "Norway",
+   "county": "26043",
+   "lat": 45.7869,
+   "lon": -87.9037,
+   "population": 2798
+  },
+  "novi": {
+   "name": "Novi",
+   "county": "26125",
+   "lat": 42.4806,
+   "lon": -83.4755,
+   "population": 58723
+  },
+  "oak park": {
+   "name": "Oak Park",
+   "county": "26125",
+   "lat": 42.4595,
+   "lon": -83.1827,
+   "population": 29752
+  },
+  "okemos": {
+   "name": "Okemos",
+   "county": "26065",
+   "lat": 42.7223,
+   "lon": -84.4275,
+   "population": 21369
+  },
+  "olivet": {
+   "name": "Olivet",
+   "county": "26045",
+   "lat": 42.4414,
+   "lon": -84.9241,
+   "population": 1610
+  },
+  "ontonagon": {
+   "name": "Ontonagon",
+   "county": "26131",
+   "lat": 46.871,
+   "lon": -89.314,
+   "population": 1324
+  },
+  "orchard lake": {
+   "name": "Orchard Lake",
+   "county": "26125",
+   "lat": 42.5831,
+   "lon": -83.3594,
+   "population": 2245
+  },
+  "ortonville": {
+   "name": "Ortonville",
+   "county": "26125",
+   "lat": 42.8522,
+   "lon": -83.443,
+   "population": 1463
+  },
+  "otsego": {
+   "name": "Otsego",
+   "county": "26005",
+   "lat": 42.4606,
+   "lon": -85.6964,
+   "population": 3991
+  },
+  "ovid": {
+   "name": "Ovid",
+   "county": "26037",
+   "lat": 43.0059,
+   "lon": -84.3716,
+   "population": 1612
+  },
+  "owosso": {
+   "name": "Owosso",
+   "county": "26155",
+   "lat": 42.9978,
+   "lon": -84.1766,
+   "population": 14699
+  },
+  "oxford": {
+   "name": "Oxford",
+   "county": "26125",
+   "lat": 42.8248,
+   "lon": -83.2647,
+   "population": 3534
+  },
+  "parchment": {
+   "name": "Parchment",
+   "county": "26077",
+   "lat": 42.3281,
+   "lon": -85.5697,
+   "population": 1848
+  },
+  "paw paw": {
+   "name": "Paw Paw",
+   "county": "26159",
+   "lat": 42.2178,
+   "lon": -85.8911,
+   "population": 3455
+  },
+  "paw paw lake": {
+   "name": "Paw Paw Lake",
+   "county": "26021",
+   "lat": 42.2123,
+   "lon": -86.272,
+   "population": 3511
+  },
+  "pearl beach": {
+   "name": "Pearl Beach",
+   "county": "26147",
+   "lat": 42.6267,
+   "lon": -82.5977,
+   "population": 2829
+  },
+  "perry": {
+   "name": "Perry",
+   "county": "26155",
+   "lat": 42.8264,
+   "lon": -84.2194,
+   "population": 2100
+  },
+  "petersburg": {
+   "name": "Petersburg",
+   "county": "26115",
+   "lat": 41.9012,
+   "lon": -83.7149,
+   "population": 1131
+  },
+  "petoskey": {
+   "name": "Petoskey",
+   "county": "26047",
+   "lat": 45.3733,
+   "lon": -84.9553,
+   "population": 5719
+  },
+  "pigeon": {
+   "name": "Pigeon",
+   "county": "26063",
+   "lat": 43.83,
+   "lon": -83.27,
+   "population": 1166
+  },
+  "pinckney": {
+   "name": "Pinckney",
+   "county": "26093",
+   "lat": 42.457,
+   "lon": -83.9479,
+   "population": 2436
+  },
+  "pinconning": {
+   "name": "Pinconning",
+   "county": "26017",
+   "lat": 43.8536,
+   "lon": -83.965,
+   "population": 1271
+  },
+  "plainwell": {
+   "name": "Plainwell",
+   "county": "26005",
+   "lat": 42.44,
+   "lon": -85.6489,
+   "population": 3822
+  },
+  "pleasant ridge": {
+   "name": "Pleasant Ridge",
+   "county": "26125",
+   "lat": 42.4712,
+   "lon": -83.1422,
+   "population": 2556
+  },
+  "plymouth": {
+   "name": "Plymouth",
+   "county": "26163",
+   "lat": 42.3714,
+   "lon": -83.4702,
+   "population": 8905
+  },
+  "pontiac": {
+   "name": "Pontiac",
+   "county": "26125",
+   "lat": 42.6389,
+   "lon": -83.291,
+   "population": 59917
+  },
+  "port huron": {
+   "name": "Port Huron",
+   "county": "26147",
+   "lat": 42.9709,
+   "lon": -82.4249,
+   "population": 29330
+  },
+  "portage": {
+   "name": "Portage",
+   "county": "26077",
+   "lat": 42.2011,
+   "lon": -85.58,
+   "population": 48177
+  },
+  "portland": {
+   "name": "Portland",
+   "county": "26067",
+   "lat": 42.8692,
+   "lon": -84.903,
+   "population": 3923
+  },
+  "potterville": {
+   "name": "Potterville",
+   "county": "26045",
+   "lat": 42.6292,
+   "lon": -84.7389,
+   "population": 2618
+  },
+  "prudenville": {
+   "name": "Prudenville",
+   "county": "26143",
+   "lat": 44.2983,
+   "lon": -84.652,
+   "population": 1682
+  },
+  "quincy": {
+   "name": "Quincy",
+   "county": "26023",
+   "lat": 41.9442,
+   "lon": -84.8838,
+   "population": 1640
+  },
+  "quinnesec": {
+   "name": "Quinnesec",
+   "county": "26043",
+   "lat": 45.8064,
+   "lon": -87.9885,
+   "population": 1191
+  },
+  "rapid city": {
+   "name": "Rapid City",
+   "county": "26079",
+   "lat": 44.8344,
+   "lon": -85.2826,
+   "population": 1352
+  },
+  "ravenna": {
+   "name": "Ravenna",
+   "county": "26121",
+   "lat": 43.1895,
+   "lon": -85.937,
+   "population": 1213
+  },
+  "reading": {
+   "name": "Reading",
+   "county": "26059",
+   "lat": 41.8395,
+   "lon": -84.748,
+   "population": 1056
+  },
+  "redford": {
+   "name": "Redford",
+   "county": "26163",
+   "lat": 42.3834,
+   "lon": -83.2966,
+   "population": 49936
+  },
+  "reed city": {
+   "name": "Reed City",
+   "county": "26133",
+   "lat": 43.875,
+   "lon": -85.5101,
+   "population": 2390
+  },
+  "reese": {
+   "name": "Reese",
+   "county": "26157",
+   "lat": 43.4506,
+   "lon": -83.6963,
+   "population": 1408
+  },
+  "richmond": {
+   "name": "Richmond",
+   "county": "26099",
+   "lat": 42.8092,
+   "lon": -82.7558,
+   "population": 5864
+  },
+  "river rouge": {
+   "name": "River Rouge",
+   "county": "26163",
+   "lat": 42.2734,
+   "lon": -83.1344,
+   "population": 7546
+  },
+  "riverview": {
+   "name": "Riverview",
+   "county": "26163",
+   "lat": 42.1742,
+   "lon": -83.1794,
+   "population": 12181
+  },
+  "rochester": {
+   "name": "Rochester",
+   "county": "26125",
+   "lat": 42.6806,
+   "lon": -83.1338,
+   "population": 12993
+  },
+  "rochester hills": {
+   "name": "Rochester Hills",
+   "county": "26125",
+   "lat": 42.6584,
+   "lon": -83.1499,
+   "population": 73424
+  },
+  "rockford": {
+   "name": "Rockford",
+   "county": "26081",
+   "lat": 43.12,
+   "lon": -85.56,
+   "population": 6134
+  },
+  "rockwood": {
+   "name": "Rockwood",
+   "county": "26163",
+   "lat": 42.0709,
+   "lon": -83.2466,
+   "population": 3199
+  },
+  "rogers city": {
+   "name": "Rogers City",
+   "county": "26141",
+   "lat": 45.4214,
+   "lon": -83.8183,
+   "population": 2712
+  },
+  "romeo": {
+   "name": "Romeo",
+   "county": "26099",
+   "lat": 42.8028,
+   "lon": -83.013,
+   "population": 3625
+  },
+  "romulus": {
+   "name": "Romulus",
+   "county": "26163",
+   "lat": 42.2223,
+   "lon": -83.3966,
+   "population": 23417
+  },
+  "roosevelt park": {
+   "name": "Roosevelt Park",
+   "county": "26121",
+   "lat": 43.1964,
+   "lon": -86.2723,
+   "population": 3821
+  },
+  "roscommon": {
+   "name": "Roscommon",
+   "county": "26143",
+   "lat": 44.4984,
+   "lon": -84.592,
+   "population": 1061
+  },
+  "roseville": {
+   "name": "Roseville",
+   "county": "26099",
+   "lat": 42.4973,
+   "lon": -82.9371,
+   "population": 47637
+  },
+  "royal oak": {
+   "name": "Royal Oak",
+   "county": "26125",
+   "lat": 42.4895,
+   "lon": -83.1446,
+   "population": 59008
+  },
+  "saginaw": {
+   "name": "Saginaw",
+   "county": "26145",
+   "lat": 43.4195,
+   "lon": -83.9508,
+   "population": 49347
+  },
+  "st charles": {
+   "name": "Saint Charles",
+   "county": "26145",
+   "lat": 43.297,
+   "lon": -84.1405,
+   "population": 2054
+  },
+  "st helen": {
+   "name": "Saint Helen",
+   "county": "26143",
+   "lat": 44.3636,
+   "lon": -84.4103,
+   "population": 2668
+  },
+  "st ignace": {
+   "name": "Saint Ignace",
+   "county": "26097",
+   "lat": 45.8661,
+   "lon": -84.7275,
+   "population": 2452
+  },
+  "st johns": {
+   "name": "Saint Johns",
+   "county": "26037",
+   "lat": 43.0011,
+   "lon": -84.5592,
+   "population": 7865
+  },
+  "st joseph": {
+   "name": "Saint Joseph",
+   "county": "26021",
+   "lat": 42.1098,
+   "lon": -86.48,
+   "population": 8365
+  },
+  "st louis": {
+   "name": "Saint Louis",
+   "county": "26057",
+   "lat": 43.4084,
+   "lon": -84.6067,
+   "population": 7482
+  },
+  "saline": {
+   "name": "Saline",
+   "county": "26161",
+   "lat": 42.1667,
+   "lon": -83.7816,
+   "population": 9100
+  },
+  "sand lake": {
+   "name": "Sand Lake",
+   "county": "26069",
+   "lat": 44.3192,
+   "lon": -83.6847,
+   "population": 1412
+  },
+  "sandusky": {
+   "name": "Sandusky",
+   "county": "26151",
+   "lat": 43.4203,
+   "lon": -82.8297,
+   "population": 2596
+  },
+  "saranac": {
+   "name": "Saranac",
+   "county": "26067",
+   "lat": 42.9295,
+   "lon": -85.2131,
+   "population": 1333
+  },
+  "sault ste marie": {
+   "name": "Sault Ste. Marie",
+   "county": "26033",
+   "lat": 46.4953,
+   "lon": -84.3453,
+   "population": 13827
+  },
+  "schoolcraft": {
+   "name": "Schoolcraft",
+   "county": "26077",
+   "lat": 42.1142,
+   "lon": -85.6378,
+   "population": 1566
+  },
+  "scottville": {
+   "name": "Scottville",
+   "county": "26105",
+   "lat": 43.9547,
+   "lon": -86.2801,
+   "population": 1213
+  },
+  "sebewaing": {
+   "name": "Sebewaing",
+   "county": "26063",
+   "lat": 43.7322,
+   "lon": -83.4511,
+   "population": 1692
+  },
+  "shelby": {
+   "name": "Shelby",
+   "county": "26099",
+   "lat": 42.6709,
+   "lon": -83.033,
+   "population": 74099
+  },
+  "shepherd": {
+   "name": "Shepherd",
+   "county": "26073",
+   "lat": 43.5245,
+   "lon": -84.6947,
+   "population": 1507
+  },
+  "shields": {
+   "name": "Shields",
+   "county": "26145",
+   "lat": 43.4153,
+   "lon": -84.0564,
+   "population": 6587
+  },
+  "skidway lake": {
+   "name": "Skidway Lake",
+   "county": "26129",
+   "lat": 44.1833,
+   "lon": -84.0353,
+   "population": 3392
+  },
+  "south gull lake": {
+   "name": "South Gull Lake",
+   "county": "26077",
+   "lat": 42.3875,
+   "lon": -85.3967,
+   "population": 1182
+  },
+  "south haven": {
+   "name": "South Haven",
+   "county": "26159",
+   "lat": 42.4031,
+   "lon": -86.2736,
+   "population": 4359
+  },
+  "south lyon": {
+   "name": "South Lyon",
+   "county": "26125",
+   "lat": 42.4606,
+   "lon": -83.6516,
+   "population": 11722
+  },
+  "south monroe": {
+   "name": "South Monroe",
+   "county": "26115",
+   "lat": 41.8959,
+   "lon": -83.4177,
+   "population": 6433
+  },
+  "south rockwood": {
+   "name": "South Rockwood",
+   "county": "26115",
+   "lat": 42.0639,
+   "lon": -83.261,
+   "population": 1642
+  },
+  "southfield": {
+   "name": "Southfield",
+   "county": "26125",
+   "lat": 42.4734,
+   "lon": -83.2219,
+   "population": 73156
+  },
+  "southgate": {
+   "name": "Southgate",
+   "county": "26163",
+   "lat": 42.2139,
+   "lon": -83.1938,
+   "population": 29293
+  },
+  "sparta": {
+   "name": "Sparta",
+   "county": "26081",
+   "lat": 43.1609,
+   "lon": -85.71,
+   "population": 4311
+  },
+  "spring arbor": {
+   "name": "Spring Arbor",
+   "county": "26075",
+   "lat": 42.205,
+   "lon": -84.5527,
+   "population": 2881
+  },
+  "spring lake": {
+   "name": "Spring Lake",
+   "county": "26139",
+   "lat": 43.077,
+   "lon": -86.197,
+   "population": 2480
+  },
+  "springfield": {
+   "name": "Springfield",
+   "county": "26025",
+   "lat": 42.3264,
+   "lon": -85.2392,
+   "population": 5192
+  },
+  "st clair": {
+   "name": "Saint Clair",
+   "county": "26147",
+   "lat": 42.8209,
+   "lon": -82.486,
+   "population": 5485
+  },
+  "st clair shores": {
+   "name": "Saint Clair Shores",
+   "county": "26099",
+   "lat": 42.497,
+   "lon": -82.8888,
+   "population": 59715
+  },
+  "stambaugh iron river": {
+   "name": "Stambaugh, Iron River",
+   "county": "26071",
+   "lat": 46.0811,
+   "lon": -88.6271,
+   "population": 1215
+  },
+  "standish": {
+   "name": "Standish",
+   "county": "26011",
+   "lat": 43.9831,
+   "lon": -83.9589,
+   "population": 1452
+  },
+  "stanton": {
+   "name": "Stanton",
+   "county": "26117",
+   "lat": 43.2925,
+   "lon": -85.0814,
+   "population": 1414
+  },
+  "sterling heights": {
+   "name": "Sterling Heights",
+   "county": "26099",
+   "lat": 42.5803,
+   "lon": -83.0302,
+   "population": 132052
+  },
+  "stevensville": {
+   "name": "Stevensville",
+   "county": "26021",
+   "lat": 42.0145,
+   "lon": -86.5195,
+   "population": 1119
+  },
+  "stockbridge": {
+   "name": "Stockbridge",
+   "county": "26065",
+   "lat": 42.4511,
+   "lon": -84.1805,
+   "population": 1232
+  },
+  "stony point": {
+   "name": "Stony Point",
+   "county": "26015",
+   "lat": 42.497,
+   "lon": -85.4267,
+   "population": 1849
+  },
+  "sturgis": {
+   "name": "Sturgis",
+   "county": "26149",
+   "lat": 41.7992,
+   "lon": -85.4192,
+   "population": 10896
+  },
+  "swartz creek": {
+   "name": "Swartz Creek",
+   "county": "26049",
+   "lat": 42.9573,
+   "lon": -83.8305,
+   "population": 5567
+  },
+  "sylvan lake": {
+   "name": "Sylvan Lake",
+   "county": "26125",
+   "lat": 42.6114,
+   "lon": -83.3286,
+   "population": 1785
+  },
+  "tawas city": {
+   "name": "Tawas City",
+   "county": "26069",
+   "lat": 44.2695,
+   "lon": -83.5147,
+   "population": 1786
+  },
+  "taylor": {
+   "name": "Taylor",
+   "county": "26163",
+   "lat": 42.2409,
+   "lon": -83.2696,
+   "population": 61568
+  },
+  "tecumseh": {
+   "name": "Tecumseh",
+   "county": "26091",
+   "lat": 42.0039,
+   "lon": -83.9449,
+   "population": 8372
+  },
+  "temperance": {
+   "name": "Temperance",
+   "county": "26115",
+   "lat": 41.7792,
+   "lon": -83.5688,
+   "population": 8517
+  },
+  "three rivers": {
+   "name": "Three Rivers",
+   "county": "26149",
+   "lat": 41.9439,
+   "lon": -85.6325,
+   "population": 7752
+  },
+  "three oaks": {
+   "name": "Three Oaks",
+   "county": "26021",
+   "lat": 41.7987,
+   "lon": -86.6106,
+   "population": 1579
+  },
+  "traverse city": {
+   "name": "Traverse City",
+   "county": "26055",
+   "lat": 44.7631,
+   "lon": -85.6206,
+   "population": 15218
+  },
+  "trenton": {
+   "name": "Trenton",
+   "county": "26163",
+   "lat": 42.1395,
+   "lon": -83.1783,
+   "population": 18380
+  },
+  "trowbridge park": {
+   "name": "Trowbridge Park",
+   "county": "26103",
+   "lat": 46.5566,
+   "lon": -87.4374,
+   "population": 2176
+  },
+  "troy": {
+   "name": "Troy",
+   "county": "26125",
+   "lat": 42.6056,
+   "lon": -83.1499,
+   "population": 83280
+  },
+  "twin lake": {
+   "name": "Twin Lake",
+   "county": "26121",
+   "lat": 43.3628,
+   "lon": -86.1648,
+   "population": 1720
+  },
+  "union city": {
+   "name": "Union City",
+   "county": "26023",
+   "lat": 42.0667,
+   "lon": -85.1361,
+   "population": 1584
+  },
+  "utica": {
+   "name": "Utica",
+   "county": "26099",
+   "lat": 42.6261,
+   "lon": -83.0335,
+   "population": 4942
+  },
+  "vandercook lake": {
+   "name": "Vandercook Lake",
+   "county": "26075",
+   "lat": 42.1934,
+   "lon": -84.3911,
+   "population": 4721
+  },
+  "vassar": {
+   "name": "Vassar",
+   "county": "26157",
+   "lat": 43.372,
+   "lon": -83.5833,
+   "population": 2620
+  },
+  "vicksburg": {
+   "name": "Vicksburg",
+   "county": "26077",
+   "lat": 42.12,
+   "lon": -85.5328,
+   "population": 3230
+  },
+  "lake isabella": {
+   "name": "Lake Isabella",
+   "county": "26073",
+   "lat": 43.6436,
+   "lon": -84.9972,
+   "population": 1652
+  },
+  "wacousta": {
+   "name": "Wacousta",
+   "county": "26037",
+   "lat": 42.8278,
+   "lon": -84.7008,
+   "population": 1440
+  },
+  "wakefield": {
+   "name": "Wakefield",
+   "county": "26053",
+   "lat": 46.4752,
+   "lon": -89.9399,
+   "population": 1725
+  },
+  "walker": {
+   "name": "Walker",
+   "county": "26081",
+   "lat": 43.0014,
+   "lon": -85.7681,
+   "population": 24647
+  },
+  "walled lake": {
+   "name": "Walled Lake",
+   "county": "26125",
+   "lat": 42.5378,
+   "lon": -83.481,
+   "population": 7110
+  },
+  "warren": {
+   "name": "Warren",
+   "county": "26099",
+   "lat": 42.4904,
+   "lon": -83.013,
+   "population": 134056
+  },
+  "waterford": {
+   "name": "Waterford",
+   "county": "26125",
+   "lat": 42.693,
+   "lon": -83.4118,
+   "population": 75737
+  },
+  "watervliet": {
+   "name": "Watervliet",
+   "county": "26021",
+   "lat": 42.1867,
+   "lon": -86.2606,
+   "population": 1692
+  },
+  "waverly": {
+   "name": "Waverly",
+   "county": "26045",
+   "lat": 42.7392,
+   "lon": -84.6208,
+   "population": 23925
+  },
+  "wayland": {
+   "name": "Wayland",
+   "county": "26005",
+   "lat": 42.6739,
+   "lon": -85.6447,
+   "population": 4166
+  },
+  "wayne": {
+   "name": "Wayne",
+   "county": "26163",
+   "lat": 42.2814,
+   "lon": -83.3863,
+   "population": 17081
+  },
+  "webberville": {
+   "name": "Webberville",
+   "county": "26065",
+   "lat": 42.667,
+   "lon": -84.1741,
+   "population": 1274
+  },
+  "west branch": {
+   "name": "West Branch",
+   "county": "26129",
+   "lat": 44.2764,
+   "lon": -84.2386,
+   "population": 2067
+  },
+  "west ishpeming": {
+   "name": "West Ishpeming",
+   "county": "26103",
+   "lat": 46.4836,
+   "lon": -87.701,
+   "population": 2662
+  },
+  "west monroe": {
+   "name": "West Monroe",
+   "county": "26115",
+   "lat": 41.9139,
+   "lon": -83.4316,
+   "population": 3503
+  },
+  "westland": {
+   "name": "Westland",
+   "county": "26163",
+   "lat": 42.3242,
+   "lon": -83.4002,
+   "population": 82000
+  },
+  "westwood": {
+   "name": "Westwood",
+   "county": "26077",
+   "lat": 42.3028,
+   "lon": -85.6336,
+   "population": 8653
+  },
+  "white cloud": {
+   "name": "White Cloud",
+   "county": "26123",
+   "lat": 43.5503,
+   "lon": -85.772,
+   "population": 1383
+  },
+  "white pigeon": {
+   "name": "White Pigeon",
+   "county": "26149",
+   "lat": 41.7981,
+   "lon": -85.6433,
+   "population": 1514
+  },
+  "whitehall": {
+   "name": "Whitehall",
+   "county": "26121",
+   "lat": 43.41,
+   "lon": -86.3487,
+   "population": 2711
+  },
+  "whitmore lake": {
+   "name": "Whitmore Lake",
+   "county": "26093",
+   "lat": 42.4397,
+   "lon": -83.7453,
+   "population": 6423
+  },
+  "williamston": {
+   "name": "Williamston",
+   "county": "26065",
+   "lat": 42.6889,
+   "lon": -84.283,
+   "population": 3883
+  },
+  "wixom": {
+   "name": "Wixom",
+   "county": "26125",
+   "lat": 42.5248,
+   "lon": -83.5363,
+   "population": 13746
+  },
+  "wolf lake": {
+   "name": "Wolf Lake",
+   "county": "26121",
+   "lat": 43.2547,
+   "lon": -86.1098,
+   "population": 4104
+  },
+  "wolverine lake": {
+   "name": "Wolverine Lake",
+   "county": "26125",
+   "lat": 42.5567,
+   "lon": -83.4738,
+   "population": 4312
+  },
+  "woodhaven": {
+   "name": "Woodhaven",
+   "county": "26163",
+   "lat": 42.1389,
+   "lon": -83.2416,
+   "population": 12539
+  },
+  "woodland beach": {
+   "name": "Woodland Beach",
+   "county": "26115",
+   "lat": 41.94,
+   "lon": -83.3133,
+   "population": 2049
+  },
+  "wyandotte": {
+   "name": "Wyandotte",
+   "county": "26163",
+   "lat": 42.2142,
+   "lon": -83.1499,
+   "population": 25156
+  },
+  "wyoming": {
+   "name": "Wyoming",
+   "county": "26081",
+   "lat": 42.9134,
+   "lon": -85.7053,
+   "population": 75275
+  },
+  "yale": {
+   "name": "Yale",
+   "county": "26147",
+   "lat": 43.13,
+   "lon": -82.7983,
+   "population": 1905
+  },
+  "ypsilanti": {
+   "name": "Ypsilanti",
+   "county": "26161",
+   "lat": 42.2411,
+   "lon": -83.613,
+   "population": 19945
+  },
+  "zeeland": {
+   "name": "Zeeland",
+   "county": "26139",
+   "lat": 42.8125,
+   "lon": -86.0186,
+   "population": 5626
+  },
+  "zilwaukee": {
+   "name": "Zilwaukee",
+   "county": "26145",
+   "lat": 43.4764,
+   "lon": -83.9205,
+   "population": 1577
+  },
+  "k i sawyer air force base": {
+   "name": "K. I. Sawyer Air Force Base",
+   "county": "26103",
+   "lat": 46.3465,
+   "lon": -87.3863,
+   "population": 2624
+  },
+  "level parkoak park": {
+   "name": "Level Park-Oak Park",
+   "county": "26025",
+   "lat": 42.3642,
+   "lon": -85.2665,
+   "population": 3409
+  },
+  "manitou beachdevils lake": {
+   "name": "Manitou Beach-Devils Lake",
+   "county": "26091",
+   "lat": 41.9757,
+   "lon": -84.2862,
+   "population": 2019
+  },
+  "saginaw township north": {
+   "name": "Saginaw Township North",
+   "county": "26145",
+   "lat": 43.46,
+   "lon": -84.0067,
+   "population": 24994
+  },
+  "shorewoodtower hillsharbert": {
+   "name": "Shorewood-Tower Hills-Harbert",
+   "county": "26021",
+   "lat": 41.8817,
+   "lon": -86.6141,
+   "population": 1344
+  },
+  "barnes lakemillers lake": {
+   "name": "Barnes Lake-Millers Lake",
+   "county": "26087",
+   "lat": 43.1796,
+   "lon": -83.3123,
+   "population": 1093
+  },
+  "comstock northwest": {
+   "name": "Comstock Northwest",
+   "county": "26077",
+   "lat": 42.3218,
+   "lon": -85.5176,
+   "population": 5455
+  },
+  "west bloomfield township": {
+   "name": "West Bloomfield Township",
+   "county": "26125",
+   "lat": 42.5689,
+   "lon": -83.3836,
+   "population": 64690
+  },
+  "bay harbor": {
+   "name": "Bay Harbor",
+   "county": "26047",
+   "lat": 45.3641,
+   "lon": -85.0821,
+   "population": 5749
+  },
+  "allenton": {
+   "name": "Allenton",
+   "county": "26147",
+   "source": "zip"
+  },
+  "anchorville": {
+   "name": "Anchorville",
+   "county": "26147",
+   "source": "zip"
+  },
+  "avoca": {
+   "name": "Avoca",
+   "county": "26147",
+   "source": "zip"
+  },
+  "emmett": {
+   "name": "Emmett",
+   "county": "26147",
+   "source": "zip"
+  },
+  "fair haven": {
+   "name": "Fair Haven",
+   "county": "26147",
+   "source": "zip"
+  },
+  "goodells": {
+   "name": "Goodells",
+   "county": "26147",
+   "source": "zip"
+  },
+  "harsens island": {
+   "name": "Harsens Island",
+   "county": "26147",
+   "source": "zip"
+  },
+  "jeddo": {
+   "name": "Jeddo",
+   "county": "26147",
+   "source": "zip"
+  },
+  "macomb": {
+   "name": "Macomb",
+   "county": "26099",
+   "source": "zip"
+  },
+  "harrison township": {
+   "name": "Harrison Township",
+   "county": "26099",
+   "source": "zip"
+  },
+  "north street": {
+   "name": "North Street",
+   "county": "26147",
+   "source": "zip"
+  },
+  "east china": {
+   "name": "East China",
+   "county": "26147",
+   "source": "zip"
+  },
+  "fort gratiot": {
+   "name": "Fort Gratiot",
+   "county": "26147",
+   "source": "zip"
+  },
+  "columbus": {
+   "name": "Columbus",
+   "county": "26147",
+   "source": "zip"
+  },
+  "casco": {
+   "name": "Casco",
+   "county": "26147",
+   "source": "zip"
+  },
+  "smiths creek": {
+   "name": "Smiths Creek",
+   "county": "26147",
+   "source": "zip"
+  },
+  "washington": {
+   "name": "Washington",
+   "county": "26099",
+   "source": "zip"
+  },
+  "ray": {
+   "name": "Ray",
+   "county": "26099",
+   "source": "zip"
+  },
+  "azalia": {
+   "name": "Azalia",
+   "county": "26115",
+   "source": "zip"
+  },
+  "bridgewater": {
+   "name": "Bridgewater",
+   "county": "26161",
+   "source": "zip"
+  },
+  "erie": {
+   "name": "Erie",
+   "county": "26115",
+   "source": "zip"
+  },
+  "gregory": {
+   "name": "Gregory",
+   "county": "26093",
+   "source": "zip"
+  },
+  "hamburg": {
+   "name": "Hamburg",
+   "county": "26093",
+   "source": "zip"
+  },
+  "ida": {
+   "name": "Ida",
+   "county": "26115",
+   "source": "zip"
+  },
+  "lakeland": {
+   "name": "Lakeland",
+   "county": "26093",
+   "source": "zip"
+  },
+  "la salle": {
+   "name": "La Salle",
+   "county": "26115",
+   "source": "zip"
+  },
+  "maybee": {
+   "name": "Maybee",
+   "county": "26115",
+   "source": "zip"
+  },
+  "new boston": {
+   "name": "New Boston",
+   "county": "26163",
+   "source": "zip"
+  },
+  "new hudson": {
+   "name": "New Hudson",
+   "county": "26125",
+   "source": "zip"
+  },
+  "newport": {
+   "name": "Newport",
+   "county": "26115",
+   "source": "zip"
+  },
+  "salem": {
+   "name": "Salem",
+   "county": "26161",
+   "source": "zip"
+  },
+  "samaria": {
+   "name": "Samaria",
+   "county": "26115",
+   "source": "zip"
+  },
+  "whittaker": {
+   "name": "Whittaker",
+   "county": "26161",
+   "source": "zip"
+  },
+  "willis": {
+   "name": "Willis",
+   "county": "26161",
+   "source": "zip"
+  },
+  "west bloomfield": {
+   "name": "West Bloomfield",
+   "county": "26125",
+   "source": "zip"
+  },
+  "drayton plains": {
+   "name": "Drayton Plains",
+   "county": "26125",
+   "source": "zip"
+  },
+  "davisburg": {
+   "name": "Davisburg",
+   "county": "26125",
+   "source": "zip"
+  },
+  "hartland": {
+   "name": "Hartland",
+   "county": "26093",
+   "source": "zip"
+  },
+  "highland": {
+   "name": "Highland",
+   "county": "26125",
+   "source": "zip"
+  },
+  "oakland": {
+   "name": "Oakland",
+   "county": "26125",
+   "source": "zip"
+  },
+  "lakeville": {
+   "name": "Lakeville",
+   "county": "26125",
+   "source": "zip"
+  },
+  "leonard": {
+   "name": "Leonard",
+   "county": "26125",
+   "source": "zip"
+  },
+  "commerce township": {
+   "name": "Commerce Township",
+   "county": "26125",
+   "source": "zip"
+  },
+  "white lake": {
+   "name": "White Lake",
+   "county": "26125",
+   "source": "zip"
+  },
+  "union lake": {
+   "name": "Union Lake",
+   "county": "26125",
+   "source": "zip"
+  },
+  "applegate": {
+   "name": "Applegate",
+   "county": "26151",
+   "source": "zip"
+  },
+  "argyle": {
+   "name": "Argyle",
+   "county": "26151",
+   "source": "zip"
+  },
+  "atlas": {
+   "name": "Atlas",
+   "county": "26049",
+   "source": "zip"
+  },
+  "attica": {
+   "name": "Attica",
+   "county": "26087",
+   "source": "zip"
+  },
+  "bancroft": {
+   "name": "Bancroft",
+   "county": "26155",
+   "source": "zip"
+  },
+  "byron": {
+   "name": "Byron",
+   "county": "26155",
+   "source": "zip"
+  },
+  "carsonville": {
+   "name": "Carsonville",
+   "county": "26151",
+   "source": "zip"
+  },
+  "columbiaville": {
+   "name": "Columbiaville",
+   "county": "26087",
+   "source": "zip"
+  },
+  "decker": {
+   "name": "Decker",
+   "county": "26151",
+   "source": "zip"
+  },
+  "deckerville": {
+   "name": "Deckerville",
+   "county": "26151",
+   "source": "zip"
+  },
+  "dryden": {
+   "name": "Dryden",
+   "county": "26087",
+   "source": "zip"
+  },
+  "filion": {
+   "name": "Filion",
+   "county": "26063",
+   "source": "zip"
+  },
+  "forestville": {
+   "name": "Forestville",
+   "county": "26151",
+   "source": "zip"
+  },
+  "fostoria": {
+   "name": "Fostoria",
+   "county": "26157",
+   "source": "zip"
+  },
+  "gaines": {
+   "name": "Gaines",
+   "county": "26049",
+   "source": "zip"
+  },
+  "genesee": {
+   "name": "Genesee",
+   "county": "26049",
+   "source": "zip"
+  },
+  "hadley": {
+   "name": "Hadley",
+   "county": "26087",
+   "source": "zip"
+  },
+  "kinde": {
+   "name": "Kinde",
+   "county": "26063",
+   "source": "zip"
+  },
+  "lennon": {
+   "name": "Lennon",
+   "county": "26155",
+   "source": "zip"
+  },
+  "melvin": {
+   "name": "Melvin",
+   "county": "26151",
+   "source": "zip"
+  },
+  "metamora": {
+   "name": "Metamora",
+   "county": "26087",
+   "source": "zip"
+  },
+  "minden city": {
+   "name": "Minden City",
+   "county": "26151",
+   "source": "zip"
+  },
+  "new lothrop": {
+   "name": "New Lothrop",
+   "county": "26145",
+   "source": "zip"
+  },
+  "otisville": {
+   "name": "Otisville",
+   "county": "26049",
+   "source": "zip"
+  },
+  "otter lake": {
+   "name": "Otter Lake",
+   "county": "26087",
+   "source": "zip"
+  },
+  "palms": {
+   "name": "Palms",
+   "county": "26151",
+   "source": "zip"
+  },
+  "peck": {
+   "name": "Peck",
+   "county": "26151",
+   "source": "zip"
+  },
+  "port austin": {
+   "name": "Port Austin",
+   "county": "26063",
+   "source": "zip"
+  },
+  "port hope": {
+   "name": "Port Hope",
+   "county": "26063",
+   "source": "zip"
+  },
+  "port sanilac": {
+   "name": "Port Sanilac",
+   "county": "26151",
+   "source": "zip"
+  },
+  "ruth": {
+   "name": "Ruth",
+   "county": "26063",
+   "source": "zip"
+  },
+  "snover": {
+   "name": "Snover",
+   "county": "26151",
+   "source": "zip"
+  },
+  "ubly": {
+   "name": "Ubly",
+   "county": "26063",
+   "source": "zip"
+  },
+  "vernon": {
+   "name": "Vernon",
+   "county": "26155",
+   "source": "zip"
+  },
+  "fisher body boc": {
+   "name": "Fisher Body Boc",
+   "county": "26049",
+   "source": "zip"
+  },
+  "alger": {
+   "name": "Alger",
+   "county": "26051",
+   "source": "zip"
+  },
+  "bentley": {
+   "name": "Bentley",
+   "county": "26017",
+   "source": "zip"
+  },
+  "brant": {
+   "name": "Brant",
+   "county": "26145",
+   "source": "zip"
+  },
+  "comins": {
+   "name": "Comins",
+   "county": "26135",
+   "source": "zip"
+  },
+  "edenville": {
+   "name": "Edenville",
+   "county": "26111",
+   "source": "zip"
+  },
+  "fairview": {
+   "name": "Fairview",
+   "county": "26135",
+   "source": "zip"
+  },
+  "farwell": {
+   "name": "Farwell",
+   "county": "26035",
+   "source": "zip"
+  },
+  "higgins lake": {
+   "name": "Higgins Lake",
+   "county": "26143",
+   "source": "zip"
+  },
+  "hope": {
+   "name": "Hope",
+   "county": "26111",
+   "source": "zip"
+  },
+  "houghton lake heights": {
+   "name": "Houghton Lake Heights",
+   "county": "26143",
+   "source": "zip"
+  },
+  "kawkawlin": {
+   "name": "Kawkawlin",
+   "county": "26017",
+   "source": "zip"
+  },
+  "lake": {
+   "name": "Lake",
+   "county": "26035",
+   "source": "zip"
+  },
+  "lake george": {
+   "name": "Lake George",
+   "county": "26035",
+   "source": "zip"
+  },
+  "linwood": {
+   "name": "Linwood",
+   "county": "26017",
+   "source": "zip"
+  },
+  "lupton": {
+   "name": "Lupton",
+   "county": "26129",
+   "source": "zip"
+  },
+  "luzerne": {
+   "name": "Luzerne",
+   "county": "26135",
+   "source": "zip"
+  },
+  "merrill": {
+   "name": "Merrill",
+   "county": "26145",
+   "source": "zip"
+  },
+  "oakley": {
+   "name": "Oakley",
+   "county": "26145",
+   "source": "zip"
+  },
+  "rhodes": {
+   "name": "Rhodes",
+   "county": "26051",
+   "source": "zip"
+  },
+  "rose city": {
+   "name": "Rose City",
+   "county": "26129",
+   "source": "zip"
+  },
+  "sanford": {
+   "name": "Sanford",
+   "county": "26111",
+   "source": "zip"
+  },
+  "sterling": {
+   "name": "Sterling",
+   "county": "26011",
+   "source": "zip"
+  },
+  "wheeler": {
+   "name": "Wheeler",
+   "county": "26057",
+   "source": "zip"
+  },
+  "akron": {
+   "name": "Akron",
+   "county": "26157",
+   "source": "zip"
+  },
+  "au gres": {
+   "name": "Au Gres",
+   "county": "26011",
+   "source": "zip"
+  },
+  "barton city": {
+   "name": "Barton City",
+   "county": "26001",
+   "source": "zip"
+  },
+  "university center": {
+   "name": "University Center",
+   "county": "26017",
+   "source": "zip"
+  },
+  "bay port": {
+   "name": "Bay Port",
+   "county": "26063",
+   "source": "zip"
+  },
+  "black river": {
+   "name": "Black River",
+   "county": "26001",
+   "source": "zip"
+  },
+  "caseville": {
+   "name": "Caseville",
+   "county": "26063",
+   "source": "zip"
+  },
+  "clifford": {
+   "name": "Clifford",
+   "county": "26087",
+   "source": "zip"
+  },
+  "curran": {
+   "name": "Curran",
+   "county": "26001",
+   "source": "zip"
+  },
+  "deford": {
+   "name": "Deford",
+   "county": "26157",
+   "source": "zip"
+  },
+  "elkton": {
+   "name": "Elkton",
+   "county": "26063",
+   "source": "zip"
+  },
+  "fairgrove": {
+   "name": "Fairgrove",
+   "county": "26157",
+   "source": "zip"
+  },
+  "gagetown": {
+   "name": "Gagetown",
+   "county": "26157",
+   "source": "zip"
+  },
+  "gilford": {
+   "name": "Gilford",
+   "county": "26157",
+   "source": "zip"
+  },
+  "glennie": {
+   "name": "Glennie",
+   "county": "26001",
+   "source": "zip"
+  },
+  "greenbush": {
+   "name": "Greenbush",
+   "county": "26001",
+   "source": "zip"
+  },
+  "hale": {
+   "name": "Hale",
+   "county": "26069",
+   "source": "zip"
+  },
+  "kingston": {
+   "name": "Kingston",
+   "county": "26157",
+   "source": "zip"
+  },
+  "lincoln": {
+   "name": "Lincoln",
+   "county": "26001",
+   "source": "zip"
+  },
+  "long lake": {
+   "name": "Long Lake",
+   "county": "26069",
+   "source": "zip"
+  },
+  "mayville": {
+   "name": "Mayville",
+   "county": "26157",
+   "source": "zip"
+  },
+  "mikado": {
+   "name": "Mikado",
+   "county": "26001",
+   "source": "zip"
+  },
+  "munger": {
+   "name": "Munger",
+   "county": "26017",
+   "source": "zip"
+  },
+  "national city": {
+   "name": "National City",
+   "county": "26069",
+   "source": "zip"
+  },
+  "omer": {
+   "name": "Omer",
+   "county": "26011",
+   "source": "zip"
+  },
+  "oscoda": {
+   "name": "Oscoda",
+   "county": "26069",
+   "source": "zip"
+  },
+  "owendale": {
+   "name": "Owendale",
+   "county": "26063",
+   "source": "zip"
+  },
+  "prescott": {
+   "name": "Prescott",
+   "county": "26129",
+   "source": "zip"
+  },
+  "richville": {
+   "name": "Richville",
+   "county": "26157",
+   "source": "zip"
+  },
+  "silverwood": {
+   "name": "Silverwood",
+   "county": "26087",
+   "source": "zip"
+  },
+  "south branch": {
+   "name": "South Branch",
+   "county": "26069",
+   "source": "zip"
+  },
+  "spruce": {
+   "name": "Spruce",
+   "county": "26001",
+   "source": "zip"
+  },
+  "turner": {
+   "name": "Turner",
+   "county": "26011",
+   "source": "zip"
+  },
+  "twining": {
+   "name": "Twining",
+   "county": "26011",
+   "source": "zip"
+  },
+  "unionville": {
+   "name": "Unionville",
+   "county": "26157",
+   "source": "zip"
+  },
+  "whittemore": {
+   "name": "Whittemore",
+   "county": "26069",
+   "source": "zip"
+  },
+  "ashley": {
+   "name": "Ashley",
+   "county": "26057",
+   "source": "zip"
+  },
+  "bannister": {
+   "name": "Bannister",
+   "county": "26145",
+   "source": "zip"
+  },
+  "cedar lake": {
+   "name": "Cedar Lake",
+   "county": "26117",
+   "source": "zip"
+  },
+  "clarksville": {
+   "name": "Clarksville",
+   "county": "26067",
+   "source": "zip"
+  },
+  "cohoctah": {
+   "name": "Cohoctah",
+   "county": "26093",
+   "source": "zip"
+  },
+  "crystal": {
+   "name": "Crystal",
+   "county": "26117",
+   "source": "zip"
+  },
+  "dansville": {
+   "name": "Dansville",
+   "county": "26065",
+   "source": "zip"
+  },
+  "eagle": {
+   "name": "Eagle",
+   "county": "26037",
+   "source": "zip"
+  },
+  "elm hall": {
+   "name": "Elm Hall",
+   "county": "26057",
+   "source": "zip"
+  },
+  "elsie": {
+   "name": "Elsie",
+   "county": "26037",
+   "source": "zip"
+  },
+  "elwell": {
+   "name": "Elwell",
+   "county": "26057",
+   "source": "zip"
+  },
+  "eureka": {
+   "name": "Eureka",
+   "county": "26037",
+   "source": "zip"
+  },
+  "fenwick": {
+   "name": "Fenwick",
+   "county": "26117",
+   "source": "zip"
+  },
+  "henderson": {
+   "name": "Henderson",
+   "county": "26155",
+   "source": "zip"
+  },
+  "hubbardston": {
+   "name": "Hubbardston",
+   "county": "26067",
+   "source": "zip"
+  },
+  "lyons": {
+   "name": "Lyons",
+   "county": "26067",
+   "source": "zip"
+  },
+  "mcbrides": {
+   "name": "Mcbrides",
+   "county": "26117",
+   "source": "zip"
+  },
+  "maple rapids": {
+   "name": "Maple Rapids",
+   "county": "26037",
+   "source": "zip"
+  },
+  "middleton": {
+   "name": "Middleton",
+   "county": "26057",
+   "source": "zip"
+  },
+  "morrice": {
+   "name": "Morrice",
+   "county": "26155",
+   "source": "zip"
+  },
+  "muir": {
+   "name": "Muir",
+   "county": "26067",
+   "source": "zip"
+  },
+  "mulliken": {
+   "name": "Mulliken",
+   "county": "26045",
+   "source": "zip"
+  },
+  "north star": {
+   "name": "North Star",
+   "county": "26057",
+   "source": "zip"
+  },
+  "orleans": {
+   "name": "Orleans",
+   "county": "26067",
+   "source": "zip"
+  },
+  "palo": {
+   "name": "Palo",
+   "county": "26067",
+   "source": "zip"
+  },
+  "perrinton": {
+   "name": "Perrinton",
+   "county": "26057",
+   "source": "zip"
+  },
+  "pewamo": {
+   "name": "Pewamo",
+   "county": "26067",
+   "source": "zip"
+  },
+  "pompeii": {
+   "name": "Pompeii",
+   "county": "26057",
+   "source": "zip"
+  },
+  "riverdale": {
+   "name": "Riverdale",
+   "county": "26057",
+   "source": "zip"
+  },
+  "rosebush": {
+   "name": "Rosebush",
+   "county": "26073",
+   "source": "zip"
+  },
+  "shaftsburg": {
+   "name": "Shaftsburg",
+   "county": "26155",
+   "source": "zip"
+  },
+  "sheridan": {
+   "name": "Sheridan",
+   "county": "26117",
+   "source": "zip"
+  },
+  "sidney": {
+   "name": "Sidney",
+   "county": "26117",
+   "source": "zip"
+  },
+  "six lakes": {
+   "name": "Six Lakes",
+   "county": "26117",
+   "source": "zip"
+  },
+  "smyrna": {
+   "name": "Smyrna",
+   "county": "26067",
+   "source": "zip"
+  },
+  "sumner": {
+   "name": "Sumner",
+   "county": "26057",
+   "source": "zip"
+  },
+  "sunfield": {
+   "name": "Sunfield",
+   "county": "26045",
+   "source": "zip"
+  },
+  "vestaburg": {
+   "name": "Vestaburg",
+   "county": "26117",
+   "source": "zip"
+  },
+  "weidman": {
+   "name": "Weidman",
+   "county": "26073",
+   "source": "zip"
+  },
+  "westphalia": {
+   "name": "Westphalia",
+   "county": "26037",
+   "source": "zip"
+  },
+  "winn": {
+   "name": "Winn",
+   "county": "26073",
+   "source": "zip"
+  },
+  "woodland": {
+   "name": "Woodland",
+   "county": "26015",
+   "source": "zip"
+  },
+  "augusta": {
+   "name": "Augusta",
+   "county": "26077",
+   "source": "zip"
+  },
+  "bedford": {
+   "name": "Bedford",
+   "county": "26025",
+   "source": "zip"
+  },
+  "bloomingdale": {
+   "name": "Bloomingdale",
+   "county": "26159",
+   "source": "zip"
+  },
+  "breedsville": {
+   "name": "Breedsville",
+   "county": "26159",
+   "source": "zip"
+  },
+  "burlington": {
+   "name": "Burlington",
+   "county": "26025",
+   "source": "zip"
+  },
+  "burr oak": {
+   "name": "Burr Oak",
+   "county": "26149",
+   "source": "zip"
+  },
+  "ceresco": {
+   "name": "Ceresco",
+   "county": "26025",
+   "source": "zip"
+  },
+  "climax": {
+   "name": "Climax",
+   "county": "26077",
+   "source": "zip"
+  },
+  "cloverdale": {
+   "name": "Cloverdale",
+   "county": "26015",
+   "source": "zip"
+  },
+  "hagar shores": {
+   "name": "Hagar Shores",
+   "county": "26021",
+   "source": "zip"
+  },
+  "comstock": {
+   "name": "Comstock",
+   "county": "26077",
+   "source": "zip"
+  },
+  "covert": {
+   "name": "Covert",
+   "county": "26159",
+   "source": "zip"
+  },
+  "delton": {
+   "name": "Delton",
+   "county": "26015",
+   "source": "zip"
+  },
+  "dowling": {
+   "name": "Dowling",
+   "county": "26015",
+   "source": "zip"
+  },
+  "east leroy": {
+   "name": "East Leroy",
+   "county": "26025",
+   "source": "zip"
+  },
+  "fulton": {
+   "name": "Fulton",
+   "county": "26077",
+   "source": "zip"
+  },
+  "gobles": {
+   "name": "Gobles",
+   "county": "26159",
+   "source": "zip"
+  },
+  "grand junction": {
+   "name": "Grand Junction",
+   "county": "26159",
+   "source": "zip"
+  },
+  "hickory corners": {
+   "name": "Hickory Corners",
+   "county": "26015",
+   "source": "zip"
+  },
+  "jones": {
+   "name": "Jones",
+   "county": "26027",
+   "source": "zip"
+  },
+  "kendall": {
+   "name": "Kendall",
+   "county": "26159",
+   "source": "zip"
+  },
+  "lacota": {
+   "name": "Lacota",
+   "county": "26159",
+   "source": "zip"
+  },
+  "lawrence": {
+   "name": "Lawrence",
+   "county": "26159",
+   "source": "zip"
+  },
+  "leonidas": {
+   "name": "Leonidas",
+   "county": "26149",
+   "source": "zip"
+  },
+  "martin": {
+   "name": "Martin",
+   "county": "26005",
+   "source": "zip"
+  },
+  "mendon": {
+   "name": "Mendon",
+   "county": "26149",
+   "source": "zip"
+  },
+  "nazareth": {
+   "name": "Nazareth",
+   "county": "26077",
+   "source": "zip"
+  },
+  "nottawa": {
+   "name": "Nottawa",
+   "county": "26149",
+   "source": "zip"
+  },
+  "oshtemo": {
+   "name": "Oshtemo",
+   "county": "26077",
+   "source": "zip"
+  },
+  "richland": {
+   "name": "Richland",
+   "county": "26077",
+   "source": "zip"
+  },
+  "riverside": {
+   "name": "Riverside",
+   "county": "26021",
+   "source": "zip"
+  },
+  "scotts": {
+   "name": "Scotts",
+   "county": "26077",
+   "source": "zip"
+  },
+  "sherwood": {
+   "name": "Sherwood",
+   "county": "26023",
+   "source": "zip"
+  },
+  "tekonsha": {
+   "name": "Tekonsha",
+   "county": "26025",
+   "source": "zip"
+  },
+  "vandalia": {
+   "name": "Vandalia",
+   "county": "26027",
+   "source": "zip"
+  },
+  "vermontville": {
+   "name": "Vermontville",
+   "county": "26045",
+   "source": "zip"
+  },
+  "baroda": {
+   "name": "Baroda",
+   "county": "26021",
+   "source": "zip"
+  },
+  "berrien center": {
+   "name": "Berrien Center",
+   "county": "26021",
+   "source": "zip"
+  },
+  "eau claire": {
+   "name": "Eau Claire",
+   "county": "26021",
+   "source": "zip"
+  },
+  "galien": {
+   "name": "Galien",
+   "county": "26021",
+   "source": "zip"
+  },
+  "harbert": {
+   "name": "Harbert",
+   "county": "26021",
+   "source": "zip"
+  },
+  "lakeside": {
+   "name": "Lakeside",
+   "county": "26021",
+   "source": "zip"
+  },
+  "new troy": {
+   "name": "New Troy",
+   "county": "26021",
+   "source": "zip"
+  },
+  "sawyer": {
+   "name": "Sawyer",
+   "county": "26021",
+   "source": "zip"
+  },
+  "sodus": {
+   "name": "Sodus",
+   "county": "26021",
+   "source": "zip"
+  },
+  "union pier": {
+   "name": "Union Pier",
+   "county": "26021",
+   "source": "zip"
+  },
+  "union": {
+   "name": "Union",
+   "county": "26027",
+   "source": "zip"
+  },
+  "addison": {
+   "name": "Addison",
+   "county": "26091",
+   "source": "zip"
+  },
+  "allen": {
+   "name": "Allen",
+   "county": "26059",
+   "source": "zip"
+  },
+  "britton": {
+   "name": "Britton",
+   "county": "26091",
+   "source": "zip"
+  },
+  "camden": {
+   "name": "Camden",
+   "county": "26059",
+   "source": "zip"
+  },
+  "cement city": {
+   "name": "Cement City",
+   "county": "26091",
+   "source": "zip"
+  },
+  "clarklake": {
+   "name": "Clarklake",
+   "county": "26075",
+   "source": "zip"
+  },
+  "clayton": {
+   "name": "Clayton",
+   "county": "26091",
+   "source": "zip"
+  },
+  "deerfield": {
+   "name": "Deerfield",
+   "county": "26091",
+   "source": "zip"
+  },
+  "frontier": {
+   "name": "Frontier",
+   "county": "26059",
+   "source": "zip"
+  },
+  "hanover": {
+   "name": "Hanover",
+   "county": "26075",
+   "source": "zip"
+  },
+  "horton": {
+   "name": "Horton",
+   "county": "26075",
+   "source": "zip"
+  },
+  "jasper": {
+   "name": "Jasper",
+   "county": "26091",
+   "source": "zip"
+  },
+  "jerome": {
+   "name": "Jerome",
+   "county": "26059",
+   "source": "zip"
+  },
+  "manitou beach": {
+   "name": "Manitou Beach",
+   "county": "26091",
+   "source": "zip"
+  },
+  "montgomery": {
+   "name": "Montgomery",
+   "county": "26023",
+   "source": "zip"
+  },
+  "moscow": {
+   "name": "Moscow",
+   "county": "26059",
+   "source": "zip"
+  },
+  "mosherville": {
+   "name": "Mosherville",
+   "county": "26059",
+   "source": "zip"
+  },
+  "munith": {
+   "name": "Munith",
+   "county": "26075",
+   "source": "zip"
+  },
+  "north adams": {
+   "name": "North Adams",
+   "county": "26059",
+   "source": "zip"
+  },
+  "norvell": {
+   "name": "Norvell",
+   "county": "26075",
+   "source": "zip"
+  },
+  "onondaga": {
+   "name": "Onondaga",
+   "county": "26065",
+   "source": "zip"
+  },
+  "onsted": {
+   "name": "Onsted",
+   "county": "26091",
+   "source": "zip"
+  },
+  "osseo": {
+   "name": "Osseo",
+   "county": "26059",
+   "source": "zip"
+  },
+  "ottawa lake": {
+   "name": "Ottawa Lake",
+   "county": "26115",
+   "source": "zip"
+  },
+  "palmyra": {
+   "name": "Palmyra",
+   "county": "26091",
+   "source": "zip"
+  },
+  "parma": {
+   "name": "Parma",
+   "county": "26075",
+   "source": "zip"
+  },
+  "pittsford": {
+   "name": "Pittsford",
+   "county": "26059",
+   "source": "zip"
+  },
+  "pleasant lake": {
+   "name": "Pleasant Lake",
+   "county": "26075",
+   "source": "zip"
+  },
+  "riga": {
+   "name": "Riga",
+   "county": "26091",
+   "source": "zip"
+  },
+  "rives junction": {
+   "name": "Rives Junction",
+   "county": "26075",
+   "source": "zip"
+  },
+  "sand creek": {
+   "name": "Sand Creek",
+   "county": "26091",
+   "source": "zip"
+  },
+  "somerset": {
+   "name": "Somerset",
+   "county": "26059",
+   "source": "zip"
+  },
+  "somerset center": {
+   "name": "Somerset Center",
+   "county": "26059",
+   "source": "zip"
+  },
+  "springport": {
+   "name": "Springport",
+   "county": "26075",
+   "source": "zip"
+  },
+  "tipton": {
+   "name": "Tipton",
+   "county": "26091",
+   "source": "zip"
+  },
+  "waldron": {
+   "name": "Waldron",
+   "county": "26059",
+   "source": "zip"
+  },
+  "weston": {
+   "name": "Weston",
+   "county": "26091",
+   "source": "zip"
+  },
+  "ada": {
+   "name": "Ada",
+   "county": "26081",
+   "source": "zip"
+  },
+  "alto": {
+   "name": "Alto",
+   "county": "26081",
+   "source": "zip"
+  },
+  "bailey": {
+   "name": "Bailey",
+   "county": "26121",
+   "source": "zip"
+  },
+  "barryton": {
+   "name": "Barryton",
+   "county": "26107",
+   "source": "zip"
+  },
+  "belmont": {
+   "name": "Belmont",
+   "county": "26081",
+   "source": "zip"
+  },
+  "bitely": {
+   "name": "Bitely",
+   "county": "26123",
+   "source": "zip"
+  },
+  "blanchard": {
+   "name": "Blanchard",
+   "county": "26073",
+   "source": "zip"
+  },
+  "bradley": {
+   "name": "Bradley",
+   "county": "26005",
+   "source": "zip"
+  },
+  "brohman": {
+   "name": "Brohman",
+   "county": "26123",
+   "source": "zip"
+  },
+  "burnips": {
+   "name": "Burnips",
+   "county": "26005",
+   "source": "zip"
+  },
+  "cannonsburg": {
+   "name": "Cannonsburg",
+   "county": "26081",
+   "source": "zip"
+  },
+  "casnovia": {
+   "name": "Casnovia",
+   "county": "26121",
+   "source": "zip"
+  },
+  "chippewa lake": {
+   "name": "Chippewa Lake",
+   "county": "26107",
+   "source": "zip"
+  },
+  "coral": {
+   "name": "Coral",
+   "county": "26117",
+   "source": "zip"
+  },
+  "dorr": {
+   "name": "Dorr",
+   "county": "26005",
+   "source": "zip"
+  },
+  "freeport": {
+   "name": "Freeport",
+   "county": "26015",
+   "source": "zip"
+  },
+  "gowen": {
+   "name": "Gowen",
+   "county": "26081",
+   "source": "zip"
+  },
+  "grant": {
+   "name": "Grant",
+   "county": "26123",
+   "source": "zip"
+  },
+  "hopkins": {
+   "name": "Hopkins",
+   "county": "26005",
+   "source": "zip"
+  },
+  "mecosta": {
+   "name": "Mecosta",
+   "county": "26107",
+   "source": "zip"
+  },
+  "moline": {
+   "name": "Moline",
+   "county": "26005",
+   "source": "zip"
+  },
+  "morley": {
+   "name": "Morley",
+   "county": "26107",
+   "source": "zip"
+  },
+  "paris": {
+   "name": "Paris",
+   "county": "26107",
+   "source": "zip"
+  },
+  "pierson": {
+   "name": "Pierson",
+   "county": "26117",
+   "source": "zip"
+  },
+  "remus": {
+   "name": "Remus",
+   "county": "26107",
+   "source": "zip"
+  },
+  "rodney": {
+   "name": "Rodney",
+   "county": "26107",
+   "source": "zip"
+  },
+  "shelbyville": {
+   "name": "Shelbyville",
+   "county": "26005",
+   "source": "zip"
+  },
+  "stanwood": {
+   "name": "Stanwood",
+   "county": "26107",
+   "source": "zip"
+  },
+  "trufant": {
+   "name": "Trufant",
+   "county": "26117",
+   "source": "zip"
+  },
+  "branch": {
+   "name": "Branch",
+   "county": "26085",
+   "source": "zip"
+  },
+  "conklin": {
+   "name": "Conklin",
+   "county": "26139",
+   "source": "zip"
+  },
+  "custer": {
+   "name": "Custer",
+   "county": "26105",
+   "source": "zip"
+  },
+  "fountain": {
+   "name": "Fountain",
+   "county": "26105",
+   "source": "zip"
+  },
+  "free soil": {
+   "name": "Free Soil",
+   "county": "26105",
+   "source": "zip"
+  },
+  "glenn": {
+   "name": "Glenn",
+   "county": "26005",
+   "source": "zip"
+  },
+  "hamilton": {
+   "name": "Hamilton",
+   "county": "26005",
+   "source": "zip"
+  },
+  "hesperia": {
+   "name": "Hesperia",
+   "county": "26127",
+   "source": "zip"
+  },
+  "holton": {
+   "name": "Holton",
+   "county": "26121",
+   "source": "zip"
+  },
+  "jamestown": {
+   "name": "Jamestown",
+   "county": "26139",
+   "source": "zip"
+  },
+  "lamont": {
+   "name": "Lamont",
+   "county": "26139",
+   "source": "zip"
+  },
+  "macatawa": {
+   "name": "Macatawa",
+   "county": "26139",
+   "source": "zip"
+  },
+  "marne": {
+   "name": "Marne",
+   "county": "26139",
+   "source": "zip"
+  },
+  "mears": {
+   "name": "Mears",
+   "county": "26127",
+   "source": "zip"
+  },
+  "new era": {
+   "name": "New Era",
+   "county": "26127",
+   "source": "zip"
+  },
+  "nunica": {
+   "name": "Nunica",
+   "county": "26139",
+   "source": "zip"
+  },
+  "pentwater": {
+   "name": "Pentwater",
+   "county": "26105",
+   "source": "zip"
+  },
+  "pullman": {
+   "name": "Pullman",
+   "county": "26005",
+   "source": "zip"
+  },
+  "rothbury": {
+   "name": "Rothbury",
+   "county": "26127",
+   "source": "zip"
+  },
+  "saugatuck": {
+   "name": "Saugatuck",
+   "county": "26005",
+   "source": "zip"
+  },
+  "walhalla": {
+   "name": "Walhalla",
+   "county": "26105",
+   "source": "zip"
+  },
+  "walkerville": {
+   "name": "Walkerville",
+   "county": "26127",
+   "source": "zip"
+  },
+  "west olive": {
+   "name": "West Olive",
+   "county": "26139",
+   "source": "zip"
+  },
+  "acme": {
+   "name": "Acme",
+   "county": "26055",
+   "source": "zip"
+  },
+  "alba": {
+   "name": "Alba",
+   "county": "26009",
+   "source": "zip"
+  },
+  "alden": {
+   "name": "Alden",
+   "county": "26009",
+   "source": "zip"
+  },
+  "arcadia": {
+   "name": "Arcadia",
+   "county": "26019",
+   "source": "zip"
+  },
+  "bear lake": {
+   "name": "Bear Lake",
+   "county": "26101",
+   "source": "zip"
+  },
+  "benzonia": {
+   "name": "Benzonia",
+   "county": "26019",
+   "source": "zip"
+  },
+  "boon": {
+   "name": "Boon",
+   "county": "26165",
+   "source": "zip"
+  },
+  "brethren": {
+   "name": "Brethren",
+   "county": "26101",
+   "source": "zip"
+  },
+  "buckley": {
+   "name": "Buckley",
+   "county": "26055",
+   "source": "zip"
+  },
+  "cedar": {
+   "name": "Cedar",
+   "county": "26089",
+   "source": "zip"
+  },
+  "central lake": {
+   "name": "Central Lake",
+   "county": "26009",
+   "source": "zip"
+  },
+  "chase": {
+   "name": "Chase",
+   "county": "26085",
+   "source": "zip"
+  },
+  "copemish": {
+   "name": "Copemish",
+   "county": "26101",
+   "source": "zip"
+  },
+  "eastlake": {
+   "name": "Eastlake",
+   "county": "26101",
+   "source": "zip"
+  },
+  "eastport": {
+   "name": "Eastport",
+   "county": "26009",
+   "source": "zip"
+  },
+  "elberta": {
+   "name": "Elberta",
+   "county": "26019",
+   "source": "zip"
+  },
+  "empire": {
+   "name": "Empire",
+   "county": "26089",
+   "source": "zip"
+  },
+  "falmouth": {
+   "name": "Falmouth",
+   "county": "26113",
+   "source": "zip"
+  },
+  "fife lake": {
+   "name": "Fife Lake",
+   "county": "26079",
+   "source": "zip"
+  },
+  "filer city": {
+   "name": "Filer City",
+   "county": "26101",
+   "source": "zip"
+  },
+  "glen arbor": {
+   "name": "Glen Arbor",
+   "county": "26089",
+   "source": "zip"
+  },
+  "grawn": {
+   "name": "Grawn",
+   "county": "26055",
+   "source": "zip"
+  },
+  "harrietta": {
+   "name": "Harrietta",
+   "county": "26165",
+   "source": "zip"
+  },
+  "hersey": {
+   "name": "Hersey",
+   "county": "26133",
+   "source": "zip"
+  },
+  "honor": {
+   "name": "Honor",
+   "county": "26019",
+   "source": "zip"
+  },
+  "idlewild": {
+   "name": "Idlewild",
+   "county": "26085",
+   "source": "zip"
+  },
+  "interlochen": {
+   "name": "Interlochen",
+   "county": "26055",
+   "source": "zip"
+  },
+  "irons": {
+   "name": "Irons",
+   "county": "26085",
+   "source": "zip"
+  },
+  "kaleva": {
+   "name": "Kaleva",
+   "county": "26101",
+   "source": "zip"
+  },
+  "kewadin": {
+   "name": "Kewadin",
+   "county": "26009",
+   "source": "zip"
+  },
+  "lake ann": {
+   "name": "Lake Ann",
+   "county": "26019",
+   "source": "zip"
+  },
+  "lake leelanau": {
+   "name": "Lake Leelanau",
+   "county": "26089",
+   "source": "zip"
+  },
+  "leroy": {
+   "name": "Leroy",
+   "county": "26133",
+   "source": "zip"
+  },
+  "luther": {
+   "name": "Luther",
+   "county": "26085",
+   "source": "zip"
+  },
+  "mc bain": {
+   "name": "Mc Bain",
+   "county": "26113",
+   "source": "zip"
+  },
+  "maple city": {
+   "name": "Maple City",
+   "county": "26089",
+   "source": "zip"
+  },
+  "marion": {
+   "name": "Marion",
+   "county": "26133",
+   "source": "zip"
+  },
+  "mayfield": {
+   "name": "Mayfield",
+   "county": "26055",
+   "source": "zip"
+  },
+  "merritt": {
+   "name": "Merritt",
+   "county": "26113",
+   "source": "zip"
+  },
+  "mesick": {
+   "name": "Mesick",
+   "county": "26165",
+   "source": "zip"
+  },
+  "northport": {
+   "name": "Northport",
+   "county": "26089",
+   "source": "zip"
+  },
+  "old mission": {
+   "name": "Old Mission",
+   "county": "26055",
+   "source": "zip"
+  },
+  "omena": {
+   "name": "Omena",
+   "county": "26089",
+   "source": "zip"
+  },
+  "onekama": {
+   "name": "Onekama",
+   "county": "26101",
+   "source": "zip"
+  },
+  "sears": {
+   "name": "Sears",
+   "county": "26133",
+   "source": "zip"
+  },
+  "south boardman": {
+   "name": "South Boardman",
+   "county": "26079",
+   "source": "zip"
+  },
+  "suttons bay": {
+   "name": "Suttons Bay",
+   "county": "26089",
+   "source": "zip"
+  },
+  "thompsonville": {
+   "name": "Thompsonville",
+   "county": "26019",
+   "source": "zip"
+  },
+  "tustin": {
+   "name": "Tustin",
+   "county": "26133",
+   "source": "zip"
+  },
+  "wellston": {
+   "name": "Wellston",
+   "county": "26101",
+   "source": "zip"
+  },
+  "williamsburg": {
+   "name": "Williamsburg",
+   "county": "26055",
+   "source": "zip"
+  },
+  "mackinaw city": {
+   "name": "Mackinaw City",
+   "county": "26031",
+   "source": "zip"
+  },
+  "afton": {
+   "name": "Afton",
+   "county": "26031",
+   "source": "zip"
+  },
+  "alanson": {
+   "name": "Alanson",
+   "county": "26047",
+   "source": "zip"
+  },
+  "barbeau": {
+   "name": "Barbeau",
+   "county": "26033",
+   "source": "zip"
+  },
+  "bay shore": {
+   "name": "Bay Shore",
+   "county": "26029",
+   "source": "zip"
+  },
+  "boyne falls": {
+   "name": "Boyne Falls",
+   "county": "26029",
+   "source": "zip"
+  },
+  "brimley": {
+   "name": "Brimley",
+   "county": "26033",
+   "source": "zip"
+  },
+  "brutus": {
+   "name": "Brutus",
+   "county": "26047",
+   "source": "zip"
+  },
+  "burt lake": {
+   "name": "Burt Lake",
+   "county": "26031",
+   "source": "zip"
+  },
+  "carp lake": {
+   "name": "Carp Lake",
+   "county": "26047",
+   "source": "zip"
+  },
+  "cedarville": {
+   "name": "Cedarville",
+   "county": "26097",
+   "source": "zip"
+  },
+  "conway": {
+   "name": "Conway",
+   "county": "26047",
+   "source": "zip"
+  },
+  "cross village": {
+   "name": "Cross Village",
+   "county": "26047",
+   "source": "zip"
+  },
+  "dafter": {
+   "name": "Dafter",
+   "county": "26033",
+   "source": "zip"
+  },
+  "de tour village": {
+   "name": "De Tour Village",
+   "county": "26033",
+   "source": "zip"
+  },
+  "drummond island": {
+   "name": "Drummond Island",
+   "county": "26033",
+   "source": "zip"
+  },
+  "eckerman": {
+   "name": "Eckerman",
+   "county": "26033",
+   "source": "zip"
+  },
+  "ellsworth": {
+   "name": "Ellsworth",
+   "county": "26009",
+   "source": "zip"
+  },
+  "elmira": {
+   "name": "Elmira",
+   "county": "26137",
+   "source": "zip"
+  },
+  "frederic": {
+   "name": "Frederic",
+   "county": "26039",
+   "source": "zip"
+  },
+  "goetzville": {
+   "name": "Goetzville",
+   "county": "26033",
+   "source": "zip"
+  },
+  "good hart": {
+   "name": "Good Hart",
+   "county": "26047",
+   "source": "zip"
+  },
+  "hawks": {
+   "name": "Hawks",
+   "county": "26141",
+   "source": "zip"
+  },
+  "herron": {
+   "name": "Herron",
+   "county": "26007",
+   "source": "zip"
+  },
+  "hessel": {
+   "name": "Hessel",
+   "county": "26097",
+   "source": "zip"
+  },
+  "hillman": {
+   "name": "Hillman",
+   "county": "26119",
+   "source": "zip"
+  },
+  "hulbert": {
+   "name": "Hulbert",
+   "county": "26033",
+   "source": "zip"
+  },
+  "johannesburg": {
+   "name": "Johannesburg",
+   "county": "26137",
+   "source": "zip"
+  },
+  "kinross": {
+   "name": "Kinross",
+   "county": "26033",
+   "source": "zip"
+  },
+  "lachine": {
+   "name": "Lachine",
+   "county": "26007",
+   "source": "zip"
+  },
+  "levering": {
+   "name": "Levering",
+   "county": "26047",
+   "source": "zip"
+  },
+  "mackinac island": {
+   "name": "Mackinac Island",
+   "county": "26097",
+   "source": "zip"
+  },
+  "millersburg": {
+   "name": "Millersburg",
+   "county": "26141",
+   "source": "zip"
+  },
+  "moran": {
+   "name": "Moran",
+   "county": "26097",
+   "source": "zip"
+  },
+  "mullett lake": {
+   "name": "Mullett Lake",
+   "county": "26031",
+   "source": "zip"
+  },
+  "naubinway": {
+   "name": "Naubinway",
+   "county": "26097",
+   "source": "zip"
+  },
+  "oden": {
+   "name": "Oden",
+   "county": "26047",
+   "source": "zip"
+  },
+  "onaway": {
+   "name": "Onaway",
+   "county": "26141",
+   "source": "zip"
+  },
+  "ossineke": {
+   "name": "Ossineke",
+   "county": "26007",
+   "source": "zip"
+  },
+  "paradise": {
+   "name": "Paradise",
+   "county": "26033",
+   "source": "zip"
+  },
+  "pellston": {
+   "name": "Pellston",
+   "county": "26047",
+   "source": "zip"
+  },
+  "pickford": {
+   "name": "Pickford",
+   "county": "26097",
+   "source": "zip"
+  },
+  "pointe aux pins": {
+   "name": "Pointe Aux Pins",
+   "county": "26097",
+   "source": "zip"
+  },
+  "posen": {
+   "name": "Posen",
+   "county": "26141",
+   "source": "zip"
+  },
+  "presque isle": {
+   "name": "Presque Isle",
+   "county": "26141",
+   "source": "zip"
+  },
+  "rudyard": {
+   "name": "Rudyard",
+   "county": "26033",
+   "source": "zip"
+  },
+  "beaver island": {
+   "name": "Beaver Island",
+   "county": "26029",
+   "source": "zip"
+  },
+  "sault sainte marie": {
+   "name": "Sault Sainte Marie",
+   "county": "26033",
+   "source": "zip"
+  },
+  "kincheloe": {
+   "name": "Kincheloe",
+   "county": "26033",
+   "source": "zip"
+  },
+  "topinabee": {
+   "name": "Topinabee",
+   "county": "26031",
+   "source": "zip"
+  },
+  "tower": {
+   "name": "Tower",
+   "county": "26031",
+   "source": "zip"
+  },
+  "trout lake": {
+   "name": "Trout Lake",
+   "county": "26033",
+   "source": "zip"
+  },
+  "vanderbilt": {
+   "name": "Vanderbilt",
+   "county": "26137",
+   "source": "zip"
+  },
+  "walloon lake": {
+   "name": "Walloon Lake",
+   "county": "26029",
+   "source": "zip"
+  },
+  "waters": {
+   "name": "Waters",
+   "county": "26137",
+   "source": "zip"
+  },
+  "wolverine": {
+   "name": "Wolverine",
+   "county": "26031",
+   "source": "zip"
+  },
+  "allouez": {
+   "name": "Allouez",
+   "county": "26083",
+   "source": "zip"
+  },
+  "au train": {
+   "name": "Au Train",
+   "county": "26003",
+   "source": "zip"
+  },
+  "bark river": {
+   "name": "Bark River",
+   "county": "26041",
+   "source": "zip"
+  },
+  "big bay": {
+   "name": "Big Bay",
+   "county": "26103",
+   "source": "zip"
+  },
+  "carney": {
+   "name": "Carney",
+   "county": "26109",
+   "source": "zip"
+  },
+  "champion": {
+   "name": "Champion",
+   "county": "26103",
+   "source": "zip"
+  },
+  "channing": {
+   "name": "Channing",
+   "county": "26043",
+   "source": "zip"
+  },
+  "chatham": {
+   "name": "Chatham",
+   "county": "26003",
+   "source": "zip"
+  },
+  "cooks": {
+   "name": "Cooks",
+   "county": "26041",
+   "source": "zip"
+  },
+  "cornell": {
+   "name": "Cornell",
+   "county": "26041",
+   "source": "zip"
+  },
+  "arnold": {
+   "name": "Arnold",
+   "county": "26103",
+   "source": "zip"
+  },
+  "curtis": {
+   "name": "Curtis",
+   "county": "26097",
+   "source": "zip"
+  },
+  "daggett": {
+   "name": "Daggett",
+   "county": "26109",
+   "source": "zip"
+  },
+  "deerton": {
+   "name": "Deerton",
+   "county": "26003",
+   "source": "zip"
+  },
+  "eben junction": {
+   "name": "Eben Junction",
+   "county": "26003",
+   "source": "zip"
+  },
+  "rumely": {
+   "name": "Rumely",
+   "county": "26003",
+   "source": "zip"
+  },
+  "engadine": {
+   "name": "Engadine",
+   "county": "26097",
+   "source": "zip"
+  },
+  "escanaba": {
+   "name": "Escanaba",
+   "county": "26041",
+   "source": "zip"
+  },
+  "felch": {
+   "name": "Felch",
+   "county": "26043",
+   "source": "zip"
+  },
+  "little lake": {
+   "name": "Little Lake",
+   "county": "26103",
+   "source": "zip"
+  },
+  "foster city": {
+   "name": "Foster City",
+   "county": "26043",
+   "source": "zip"
+  },
+  "garden": {
+   "name": "Garden",
+   "county": "26041",
+   "source": "zip"
+  },
+  "germfask": {
+   "name": "Germfask",
+   "county": "26153",
+   "source": "zip"
+  },
+  "gould city": {
+   "name": "Gould City",
+   "county": "26097",
+   "source": "zip"
+  },
+  "grand marais": {
+   "name": "Grand Marais",
+   "county": "26003",
+   "source": "zip"
+  },
+  "gulliver": {
+   "name": "Gulliver",
+   "county": "26153",
+   "source": "zip"
+  },
+  "harris": {
+   "name": "Harris",
+   "county": "26109",
+   "source": "zip"
+  },
+  "hermansville": {
+   "name": "Hermansville",
+   "county": "26109",
+   "source": "zip"
+  },
+  "ingalls": {
+   "name": "Ingalls",
+   "county": "26109",
+   "source": "zip"
+  },
+  "loretto": {
+   "name": "Loretto",
+   "county": "26043",
+   "source": "zip"
+  },
+  "mc millan": {
+   "name": "Mc Millan",
+   "county": "26095",
+   "source": "zip"
+  },
+  "michigamme": {
+   "name": "Michigamme",
+   "county": "26103",
+   "source": "zip"
+  },
+  "nadeau": {
+   "name": "Nadeau",
+   "county": "26109",
+   "source": "zip"
+  },
+  "nahma": {
+   "name": "Nahma",
+   "county": "26041",
+   "source": "zip"
+  },
+  "national mine": {
+   "name": "National Mine",
+   "county": "26103",
+   "source": "zip"
+  },
+  "palmer": {
+   "name": "Palmer",
+   "county": "26103",
+   "source": "zip"
+  },
+  "perkins": {
+   "name": "Perkins",
+   "county": "26041",
+   "source": "zip"
+  },
+  "perronville": {
+   "name": "Perronville",
+   "county": "26109",
+   "source": "zip"
+  },
+  "powers": {
+   "name": "Powers",
+   "county": "26109",
+   "source": "zip"
+  },
+  "ralph": {
+   "name": "Ralph",
+   "county": "26043",
+   "source": "zip"
+  },
+  "rapid river": {
+   "name": "Rapid River",
+   "county": "26041",
+   "source": "zip"
+  },
+  "republic": {
+   "name": "Republic",
+   "county": "26103",
+   "source": "zip"
+  },
+  "rock": {
+   "name": "Rock",
+   "county": "26041",
+   "source": "zip"
+  },
+  "sagola": {
+   "name": "Sagola",
+   "county": "26043",
+   "source": "zip"
+  },
+  "seney": {
+   "name": "Seney",
+   "county": "26153",
+   "source": "zip"
+  },
+  "shingleton": {
+   "name": "Shingleton",
+   "county": "26003",
+   "source": "zip"
+  },
+  "skandia": {
+   "name": "Skandia",
+   "county": "26103",
+   "source": "zip"
+  },
+  "spalding": {
+   "name": "Spalding",
+   "county": "26109",
+   "source": "zip"
+  },
+  "stephenson": {
+   "name": "Stephenson",
+   "county": "26109",
+   "source": "zip"
+  },
+  "trenary": {
+   "name": "Trenary",
+   "county": "26003",
+   "source": "zip"
+  },
+  "vulcan": {
+   "name": "Vulcan",
+   "county": "26043",
+   "source": "zip"
+  },
+  "wallace": {
+   "name": "Wallace",
+   "county": "26109",
+   "source": "zip"
+  },
+  "wells": {
+   "name": "Wells",
+   "county": "26041",
+   "source": "zip"
+  },
+  "wetmore": {
+   "name": "Wetmore",
+   "county": "26003",
+   "source": "zip"
+  },
+  "wilson": {
+   "name": "Wilson",
+   "county": "26109",
+   "source": "zip"
+  },
+  "ahmeek": {
+   "name": "Ahmeek",
+   "county": "26083",
+   "source": "zip"
+  },
+  "alpha": {
+   "name": "Alpha",
+   "county": "26071",
+   "source": "zip"
+  },
+  "amasa": {
+   "name": "Amasa",
+   "county": "26071",
+   "source": "zip"
+  },
+  "atlantic mine": {
+   "name": "Atlantic Mine",
+   "county": "26061",
+   "source": "zip"
+  },
+  "bergland": {
+   "name": "Bergland",
+   "county": "26131",
+   "source": "zip"
+  },
+  "bruce crossing": {
+   "name": "Bruce Crossing",
+   "county": "26131",
+   "source": "zip"
+  },
+  "calumet": {
+   "name": "Calumet",
+   "county": "26061",
+   "source": "zip"
+  },
+  "caspian": {
+   "name": "Caspian",
+   "county": "26071",
+   "source": "zip"
+  },
+  "chassell": {
+   "name": "Chassell",
+   "county": "26061",
+   "source": "zip"
+  },
+  "copper city": {
+   "name": "Copper City",
+   "county": "26061",
+   "source": "zip"
+  },
+  "copper harbor": {
+   "name": "Copper Harbor",
+   "county": "26083",
+   "source": "zip"
+  },
+  "covington": {
+   "name": "Covington",
+   "county": "26013",
+   "source": "zip"
+  },
+  "dodgeville": {
+   "name": "Dodgeville",
+   "county": "26061",
+   "source": "zip"
+  },
+  "ewen": {
+   "name": "Ewen",
+   "county": "26131",
+   "source": "zip"
+  },
+  "gaastra": {
+   "name": "Gaastra",
+   "county": "26071",
+   "source": "zip"
+  },
+  "greenland": {
+   "name": "Greenland",
+   "county": "26131",
+   "source": "zip"
+  },
+  "hubbell": {
+   "name": "Hubbell",
+   "county": "26061",
+   "source": "zip"
+  },
+  "kearsarge": {
+   "name": "Kearsarge",
+   "county": "26061",
+   "source": "zip"
+  },
+  "lake linden": {
+   "name": "Lake Linden",
+   "county": "26061",
+   "source": "zip"
+  },
+  "marenisco": {
+   "name": "Marenisco",
+   "county": "26053",
+   "source": "zip"
+  },
+  "mass city": {
+   "name": "Mass City",
+   "county": "26131",
+   "source": "zip"
+  },
+  "mohawk": {
+   "name": "Mohawk",
+   "county": "26083",
+   "source": "zip"
+  },
+  "nisula": {
+   "name": "Nisula",
+   "county": "26061",
+   "source": "zip"
+  },
+  "painesdale": {
+   "name": "Painesdale",
+   "county": "26061",
+   "source": "zip"
+  },
+  "pelkie": {
+   "name": "Pelkie",
+   "county": "26013",
+   "source": "zip"
+  },
+  "ramsay": {
+   "name": "Ramsay",
+   "county": "26053",
+   "source": "zip"
+  },
+  "rockland": {
+   "name": "Rockland",
+   "county": "26131",
+   "source": "zip"
+  },
+  "sidnaw": {
+   "name": "Sidnaw",
+   "county": "26061",
+   "source": "zip"
+  },
+  "skanee": {
+   "name": "Skanee",
+   "county": "26013",
+   "source": "zip"
+  },
+  "south range": {
+   "name": "South Range",
+   "county": "26061",
+   "source": "zip"
+  },
+  "stambaugh": {
+   "name": "Stambaugh",
+   "county": "26071",
+   "source": "zip"
+  },
+  "toivola": {
+   "name": "Toivola",
+   "county": "26061",
+   "source": "zip"
+  },
+  "trout creek": {
+   "name": "Trout Creek",
+   "county": "26131",
+   "source": "zip"
+  },
+  "watersmeet": {
+   "name": "Watersmeet",
+   "county": "26053",
+   "source": "zip"
+  },
+  "watton": {
+   "name": "Watton",
+   "county": "26013",
+   "source": "zip"
+  },
+  "white pine": {
+   "name": "White Pine",
+   "county": "26131",
+   "source": "zip"
+  }
+ },
+ "zips": {
+  "48001": "26147",
+  "48002": "26147",
+  "48003": "26087",
+  "48004": "26147",
+  "48005": "26099",
+  "48006": "26147",
+  "48007": "26125",
+  "48009": "26125",
+  "48012": "26125",
+  "48014": "26147",
+  "48015": "26099",
+  "48017": "26125",
+  "48021": "26099",
+  "48022": "26147",
+  "48023": "26147",
+  "48025": "26125",
+  "48026": "26099",
+  "48027": "26147",
+  "48028": "26147",
+  "48030": "26125",
+  "48032": "26147",
+  "48033": "26125",
+  "48034": "26125",
+  "48035": "26099",
+  "48036": "26099",
+  "48037": "26125",
+  "48038": "26099",
+  "48039": "26147",
+  "48040": "26147",
+  "48041": "26147",
+  "48042": "26099",
+  "48043": "26099",
+  "48044": "26099",
+  "48045": "26099",
+  "48046": "26099",
+  "48047": "26099",
+  "48048": "26099",
+  "48049": "26147",
+  "48050": "26099",
+  "48051": "26099",
+  "48054": "26147",
+  "48059": "26147",
+  "48060": "26147",
+  "48061": "26147",
+  "48062": "26099",
+  "48063": "26147",
+  "48064": "26147",
+  "48065": "26099",
+  "48066": "26099",
+  "48067": "26125",
+  "48068": "26125",
+  "48069": "26125",
+  "48070": "26125",
+  "48071": "26125",
+  "48072": "26125",
+  "48073": "26125",
+  "48074": "26147",
+  "48075": "26125",
+  "48076": "26125",
+  "48079": "26147",
+  "48080": "26099",
+  "48081": "26099",
+  "48082": "26099",
+  "48083": "26125",
+  "48084": "26125",
+  "48085": "26125",
+  "48086": "26125",
+  "48088": "26099",
+  "48089": "26099",
+  "48090": "26099",
+  "48091": "26099",
+  "48092": "26099",
+  "48093": "26099",
+  "48094": "26099",
+  "48095": "26099",
+  "48096": "26099",
+  "48097": "26147",
+  "48098": "26125",
+  "48099": "26125",
+  "48101": "26163",
+  "48103": "26161",
+  "48104": "26161",
+  "48105": "26161",
+  "48106": "26161",
+  "48107": "26161",
+  "48108": "26161",
+  "48109": "26161",
+  "48110": "26115",
+  "48111": "26163",
+  "48112": "26163",
+  "48113": "26161",
+  "48114": "26093",
+  "48115": "26161",
+  "48116": "26093",
+  "48117": "26115",
+  "48118": "26161",
+  "48120": "26163",
+  "48121": "26163",
+  "48122": "26163",
+  "48123": "26163",
+  "48124": "26163",
+  "48125": "26163",
+  "48126": "26163",
+  "48127": "26163",
+  "48128": "26163",
+  "48130": "26161",
+  "48131": "26115",
+  "48133": "26115",
+  "48134": "26163",
+  "48135": "26163",
+  "48136": "26163",
+  "48137": "26093",
+  "48138": "26163",
+  "48139": "26093",
+  "48140": "26115",
+  "48141": "26163",
+  "48143": "26093",
+  "48144": "26115",
+  "48145": "26115",
+  "48146": "26163",
+  "48150": "26163",
+  "48151": "26163",
+  "48152": "26163",
+  "48153": "26163",
+  "48154": "26163",
+  "48157": "26115",
+  "48158": "26161",
+  "48159": "26115",
+  "48160": "26161",
+  "48161": "26115",
+  "48162": "26115",
+  "48164": "26163",
+  "48165": "26125",
+  "48166": "26115",
+  "48167": "26163",
+  "48168": "26163",
+  "48169": "26093",
+  "48170": "26163",
+  "48173": "26163",
+  "48174": "26163",
+  "48175": "26161",
+  "48176": "26161",
+  "48177": "26115",
+  "48178": "26125",
+  "48179": "26115",
+  "48180": "26163",
+  "48182": "26115",
+  "48183": "26163",
+  "48184": "26163",
+  "48185": "26163",
+  "48186": "26163",
+  "48187": "26163",
+  "48188": "26163",
+  "48189": "26093",
+  "48190": "26161",
+  "48191": "26161",
+  "48192": "26163",
+  "48193": "26163",
+  "48195": "26163",
+  "48197": "26161",
+  "48198": "26161",
+  "48201": "26163",
+  "48202": "26163",
+  "48203": "26163",
+  "48204": "26163",
+  "48205": "26163",
+  "48206": "26163",
+  "48207": "26163",
+  "48208": "26163",
+  "48209": "26163",
+  "48210": "26163",
+  "48211": "26163",
+  "48212": "26163",
+  "48213": "26163",
+  "48214": "26163",
+  "48215": "26163",
+  "48216": "26163",
+  "48217": "26163",
+  "48218": "26163",
+  "48219": "26163",
+  "48220": "26125",
+  "48221": "26163",
+  "48222": "26163",
+  "48223": "26163",
+  "48224": "26163",
+  "48225": "26163",
+  "48226": "26163",
+  "48227": "26163",
+  "48228": "26163",
+  "48229": "26163",
+  "48230": "26163",
+  "48231": "26163",
+  "48232": "26163",
+  "48233": "26163",
+  "48234": "26163",
+  "48235": "26163",
+  "48236": "26163",
+  "48237": "26125",
+  "48238": "26163",
+  "48239": "26163",
+  "48240": "26163",
+  "48242": "26163",
+  "48243": "26163",
+  "48244": "26163",
+  "48255": "26163",
+  "48260": "26163",
+  "48264": "26163",
+  "48265": "26163",
+  "48266": "26163",
+  "48267": "26163",
+  "48268": "26163",
+  "48269": "26163",
+  "48272": "26163",
+  "48275": "26163",
+  "48277": "26163",
+  "48278": "26163",
+  "48279": "26163",
+  "48288": "26163",
+  "48301": "26125",
+  "48302": "26125",
+  "48303": "26125",
+  "48304": "26125",
+  "48306": "26125",
+  "48307": "26125",
+  "48308": "26125",
+  "48309": "26125",
+  "48310": "26099",
+  "48311": "26099",
+  "48312": "26099",
+  "48313": "26099",
+  "48314": "26099",
+  "48315": "26099",
+  "48316": "26099",
+  "48317": "26099",
+  "48318": "26099",
+  "48320": "26125",
+  "48321": "26125",
+  "48322": "26125",
+  "48323": "26125",
+  "48324": "26125",
+  "48325": "26125",
+  "48326": "26125",
+  "48327": "26125",
+  "48328": "26125",
+  "48329": "26125",
+  "48330": "26125",
+  "48331": "26125",
+  "48332": "26125",
+  "48333": "26125",
+  "48334": "26125",
+  "48335": "26125",
+  "48336": "26125",
+  "48340": "26125",
+  "48341": "26125",
+  "48342": "26125",
+  "48343": "26125",
+  "48346": "26125",
+  "48347": "26125",
+  "48348": "26125",
+  "48350": "26125",
+  "48353": "26093",
+  "48356": "26125",
+  "48357": "26125",
+  "48359": "26125",
+  "48360": "26125",
+  "48361": "26125",
+  "48362": "26125",
+  "48363": "26125",
+  "48366": "26125",
+  "48367": "26125",
+  "48370": "26125",
+  "48371": "26125",
+  "48374": "26125",
+  "48375": "26125",
+  "48376": "26125",
+  "48377": "26125",
+  "48380": "26125",
+  "48381": "26125",
+  "48382": "26125",
+  "48383": "26125",
+  "48386": "26125",
+  "48387": "26125",
+  "48390": "26125",
+  "48391": "26125",
+  "48393": "26125",
+  "48397": "26099",
+  "48401": "26151",
+  "48410": "26151",
+  "48411": "26049",
+  "48412": "26087",
+  "48413": "26063",
+  "48414": "26155",
+  "48415": "26145",
+  "48416": "26151",
+  "48417": "26145",
+  "48418": "26155",
+  "48419": "26151",
+  "48420": "26049",
+  "48421": "26087",
+  "48422": "26151",
+  "48423": "26049",
+  "48426": "26151",
+  "48427": "26151",
+  "48428": "26087",
+  "48429": "26155",
+  "48430": "26049",
+  "48432": "26063",
+  "48433": "26049",
+  "48434": "26151",
+  "48435": "26157",
+  "48436": "26049",
+  "48437": "26049",
+  "48438": "26049",
+  "48439": "26049",
+  "48440": "26087",
+  "48441": "26063",
+  "48442": "26125",
+  "48444": "26087",
+  "48445": "26063",
+  "48446": "26087",
+  "48449": "26155",
+  "48450": "26151",
+  "48451": "26049",
+  "48453": "26151",
+  "48454": "26151",
+  "48455": "26087",
+  "48456": "26151",
+  "48457": "26049",
+  "48458": "26049",
+  "48460": "26145",
+  "48461": "26087",
+  "48462": "26125",
+  "48463": "26049",
+  "48464": "26087",
+  "48465": "26151",
+  "48466": "26151",
+  "48467": "26063",
+  "48468": "26063",
+  "48469": "26151",
+  "48470": "26063",
+  "48471": "26151",
+  "48472": "26151",
+  "48473": "26049",
+  "48475": "26063",
+  "48476": "26155",
+  "48480": "26049",
+  "48501": "26049",
+  "48502": "26049",
+  "48503": "26049",
+  "48504": "26049",
+  "48505": "26049",
+  "48506": "26049",
+  "48507": "26049",
+  "48509": "26049",
+  "48519": "26049",
+  "48529": "26049",
+  "48531": "26049",
+  "48532": "26049",
+  "48550": "26049",
+  "48551": "26049",
+  "48552": "26049",
+  "48553": "26049",
+  "48554": "26049",
+  "48555": "26049",
+  "48556": "26049",
+  "48557": "26049",
+  "48559": "26049",
+  "48601": "26145",
+  "48602": "26145",
+  "48603": "26145",
+  "48604": "26145",
+  "48605": "26145",
+  "48606": "26145",
+  "48607": "26145",
+  "48608": "26145",
+  "48609": "26145",
+  "48610": "26051",
+  "48611": "26017",
+  "48612": "26051",
+  "48613": "26017",
+  "48614": "26145",
+  "48615": "26057",
+  "48616": "26145",
+  "48617": "26035",
+  "48618": "26111",
+  "48619": "26135",
+  "48620": "26111",
+  "48621": "26135",
+  "48622": "26035",
+  "48623": "26111",
+  "48624": "26051",
+  "48625": "26035",
+  "48626": "26145",
+  "48627": "26143",
+  "48628": "26111",
+  "48629": "26143",
+  "48630": "26143",
+  "48631": "26017",
+  "48632": "26035",
+  "48633": "26035",
+  "48634": "26017",
+  "48635": "26129",
+  "48636": "26135",
+  "48637": "26145",
+  "48638": "26145",
+  "48640": "26111",
+  "48641": "26111",
+  "48642": "26111",
+  "48647": "26135",
+  "48649": "26145",
+  "48650": "26017",
+  "48651": "26143",
+  "48652": "26051",
+  "48653": "26143",
+  "48654": "26129",
+  "48655": "26145",
+  "48656": "26143",
+  "48657": "26111",
+  "48658": "26011",
+  "48659": "26011",
+  "48661": "26129",
+  "48662": "26057",
+  "48663": "26145",
+  "48667": "26111",
+  "48670": "26111",
+  "48674": "26111",
+  "48686": "26111",
+  "48701": "26157",
+  "48703": "26011",
+  "48705": "26001",
+  "48706": "26017",
+  "48708": "26017",
+  "48710": "26017",
+  "48720": "26063",
+  "48721": "26001",
+  "48722": "26145",
+  "48723": "26157",
+  "48724": "26145",
+  "48725": "26063",
+  "48726": "26157",
+  "48727": "26087",
+  "48728": "26001",
+  "48729": "26157",
+  "48730": "26069",
+  "48731": "26063",
+  "48732": "26017",
+  "48733": "26157",
+  "48734": "26145",
+  "48735": "26157",
+  "48736": "26157",
+  "48737": "26001",
+  "48738": "26001",
+  "48739": "26069",
+  "48740": "26001",
+  "48741": "26157",
+  "48742": "26001",
+  "48743": "26069",
+  "48744": "26157",
+  "48745": "26001",
+  "48746": "26157",
+  "48747": "26017",
+  "48748": "26069",
+  "48749": "26011",
+  "48750": "26069",
+  "48754": "26063",
+  "48755": "26063",
+  "48756": "26129",
+  "48757": "26145",
+  "48758": "26157",
+  "48759": "26063",
+  "48760": "26087",
+  "48761": "26069",
+  "48762": "26001",
+  "48763": "26069",
+  "48764": "26069",
+  "48765": "26011",
+  "48766": "26011",
+  "48767": "26157",
+  "48768": "26157",
+  "48769": "26157",
+  "48770": "26069",
+  "48787": "26145",
+  "48801": "26057",
+  "48802": "26057",
+  "48804": "26073",
+  "48805": "26065",
+  "48806": "26057",
+  "48807": "26145",
+  "48808": "26037",
+  "48809": "26067",
+  "48811": "26117",
+  "48812": "26117",
+  "48813": "26045",
+  "48815": "26067",
+  "48816": "26093",
+  "48817": "26155",
+  "48818": "26117",
+  "48819": "26065",
+  "48820": "26037",
+  "48821": "26045",
+  "48822": "26037",
+  "48823": "26065",
+  "48824": "26065",
+  "48825": "26065",
+  "48826": "26065",
+  "48827": "26045",
+  "48829": "26117",
+  "48830": "26057",
+  "48831": "26037",
+  "48832": "26057",
+  "48833": "26037",
+  "48834": "26117",
+  "48835": "26037",
+  "48836": "26093",
+  "48837": "26045",
+  "48838": "26117",
+  "48840": "26065",
+  "48841": "26155",
+  "48842": "26065",
+  "48843": "26093",
+  "48844": "26093",
+  "48845": "26067",
+  "48846": "26067",
+  "48847": "26057",
+  "48848": "26155",
+  "48849": "26067",
+  "48850": "26117",
+  "48851": "26067",
+  "48852": "26117",
+  "48853": "26037",
+  "48854": "26065",
+  "48855": "26093",
+  "48856": "26057",
+  "48857": "26155",
+  "48858": "26073",
+  "48859": "26073",
+  "48860": "26067",
+  "48861": "26045",
+  "48862": "26057",
+  "48863": "26093",
+  "48864": "26065",
+  "48865": "26067",
+  "48866": "26155",
+  "48867": "26155",
+  "48870": "26067",
+  "48871": "26057",
+  "48872": "26155",
+  "48873": "26067",
+  "48874": "26057",
+  "48875": "26067",
+  "48876": "26045",
+  "48877": "26057",
+  "48878": "26073",
+  "48879": "26037",
+  "48880": "26057",
+  "48881": "26067",
+  "48882": "26155",
+  "48883": "26111",
+  "48884": "26117",
+  "48885": "26117",
+  "48886": "26117",
+  "48887": "26067",
+  "48888": "26117",
+  "48889": "26057",
+  "48890": "26045",
+  "48891": "26117",
+  "48892": "26065",
+  "48893": "26073",
+  "48894": "26037",
+  "48895": "26065",
+  "48896": "26073",
+  "48897": "26015",
+  "48901": "26065",
+  "48906": "26065",
+  "48908": "26045",
+  "48909": "26065",
+  "48910": "26065",
+  "48911": "26065",
+  "48912": "26065",
+  "48913": "26065",
+  "48915": "26065",
+  "48916": "26065",
+  "48917": "26045",
+  "48918": "26065",
+  "48919": "26065",
+  "48921": "26065",
+  "48922": "26065",
+  "48924": "26065",
+  "48929": "26065",
+  "48930": "26065",
+  "48933": "26065",
+  "48937": "26065",
+  "48950": "26065",
+  "48951": "26065",
+  "48956": "26065",
+  "48980": "26065",
+  "49001": "26077",
+  "49002": "26077",
+  "49003": "26077",
+  "49004": "26077",
+  "49005": "26077",
+  "49006": "26077",
+  "49007": "26077",
+  "49008": "26077",
+  "49009": "26077",
+  "49010": "26005",
+  "49011": "26025",
+  "49012": "26077",
+  "49013": "26159",
+  "49014": "26025",
+  "49015": "26025",
+  "49016": "26025",
+  "49017": "26025",
+  "49018": "26025",
+  "49019": "26077",
+  "49020": "26025",
+  "49021": "26045",
+  "49022": "26021",
+  "49023": "26021",
+  "49024": "26077",
+  "49026": "26159",
+  "49027": "26159",
+  "49028": "26023",
+  "49029": "26025",
+  "49030": "26149",
+  "49031": "26027",
+  "49032": "26149",
+  "49033": "26025",
+  "49034": "26077",
+  "49035": "26015",
+  "49036": "26023",
+  "49037": "26025",
+  "49038": "26021",
+  "49039": "26021",
+  "49040": "26149",
+  "49041": "26077",
+  "49042": "26149",
+  "49043": "26159",
+  "49045": "26159",
+  "49046": "26015",
+  "49047": "26027",
+  "49048": "26077",
+  "49050": "26015",
+  "49051": "26025",
+  "49052": "26077",
+  "49053": "26077",
+  "49055": "26159",
+  "49056": "26159",
+  "49057": "26159",
+  "49058": "26015",
+  "49060": "26015",
+  "49061": "26027",
+  "49062": "26159",
+  "49063": "26159",
+  "49064": "26159",
+  "49065": "26159",
+  "49066": "26149",
+  "49067": "26027",
+  "49068": "26025",
+  "49069": "26025",
+  "49070": "26005",
+  "49071": "26159",
+  "49072": "26149",
+  "49073": "26015",
+  "49074": "26077",
+  "49075": "26149",
+  "49076": "26045",
+  "49077": "26077",
+  "49078": "26005",
+  "49079": "26159",
+  "49080": "26005",
+  "49081": "26077",
+  "49082": "26023",
+  "49083": "26077",
+  "49084": "26021",
+  "49085": "26021",
+  "49087": "26077",
+  "49088": "26077",
+  "49089": "26023",
+  "49090": "26159",
+  "49091": "26149",
+  "49092": "26025",
+  "49093": "26149",
+  "49094": "26023",
+  "49095": "26027",
+  "49096": "26045",
+  "49097": "26077",
+  "49098": "26021",
+  "49099": "26149",
+  "49101": "26021",
+  "49102": "26021",
+  "49103": "26021",
+  "49104": "26021",
+  "49106": "26021",
+  "49107": "26021",
+  "49111": "26021",
+  "49112": "26027",
+  "49113": "26021",
+  "49115": "26021",
+  "49116": "26021",
+  "49117": "26021",
+  "49119": "26021",
+  "49120": "26021",
+  "49121": "26021",
+  "49125": "26021",
+  "49126": "26021",
+  "49127": "26021",
+  "49128": "26021",
+  "49129": "26021",
+  "49130": "26027",
+  "49201": "26075",
+  "49202": "26075",
+  "49203": "26075",
+  "49204": "26075",
+  "49220": "26091",
+  "49221": "26091",
+  "49224": "26025",
+  "49227": "26059",
+  "49228": "26091",
+  "49229": "26091",
+  "49230": "26075",
+  "49232": "26059",
+  "49233": "26091",
+  "49234": "26075",
+  "49235": "26091",
+  "49236": "26091",
+  "49237": "26075",
+  "49238": "26091",
+  "49239": "26059",
+  "49240": "26075",
+  "49241": "26075",
+  "49242": "26059",
+  "49245": "26025",
+  "49246": "26075",
+  "49247": "26091",
+  "49248": "26091",
+  "49249": "26059",
+  "49250": "26059",
+  "49251": "26065",
+  "49252": "26059",
+  "49253": "26091",
+  "49254": "26075",
+  "49255": "26023",
+  "49256": "26091",
+  "49257": "26059",
+  "49258": "26059",
+  "49259": "26075",
+  "49261": "26075",
+  "49262": "26059",
+  "49263": "26075",
+  "49264": "26065",
+  "49265": "26091",
+  "49266": "26059",
+  "49267": "26115",
+  "49268": "26091",
+  "49269": "26075",
+  "49270": "26115",
+  "49271": "26059",
+  "49272": "26075",
+  "49274": "26059",
+  "49276": "26091",
+  "49277": "26075",
+  "49279": "26091",
+  "49281": "26059",
+  "49282": "26059",
+  "49283": "26075",
+  "49284": "26075",
+  "49285": "26065",
+  "49286": "26091",
+  "49287": "26091",
+  "49288": "26059",
+  "49289": "26091",
+  "49301": "26081",
+  "49302": "26081",
+  "49303": "26121",
+  "49304": "26085",
+  "49305": "26107",
+  "49306": "26081",
+  "49307": "26107",
+  "49309": "26123",
+  "49310": "26073",
+  "49311": "26005",
+  "49312": "26123",
+  "49314": "26005",
+  "49315": "26081",
+  "49316": "26081",
+  "49317": "26081",
+  "49318": "26121",
+  "49319": "26081",
+  "49320": "26107",
+  "49321": "26081",
+  "49322": "26117",
+  "49323": "26005",
+  "49325": "26015",
+  "49326": "26081",
+  "49327": "26123",
+  "49328": "26005",
+  "49329": "26117",
+  "49330": "26081",
+  "49331": "26081",
+  "49332": "26107",
+  "49333": "26015",
+  "49335": "26005",
+  "49336": "26107",
+  "49337": "26123",
+  "49338": "26107",
+  "49339": "26117",
+  "49340": "26107",
+  "49341": "26081",
+  "49342": "26107",
+  "49343": "26117",
+  "49344": "26005",
+  "49345": "26081",
+  "49346": "26107",
+  "49347": "26117",
+  "49348": "26005",
+  "49349": "26123",
+  "49351": "26081",
+  "49355": "26081",
+  "49356": "26081",
+  "49357": "26081",
+  "49401": "26139",
+  "49402": "26085",
+  "49403": "26139",
+  "49404": "26139",
+  "49405": "26105",
+  "49406": "26005",
+  "49408": "26005",
+  "49409": "26139",
+  "49410": "26105",
+  "49411": "26105",
+  "49412": "26123",
+  "49413": "26123",
+  "49415": "26121",
+  "49416": "26005",
+  "49417": "26139",
+  "49418": "26081",
+  "49419": "26005",
+  "49420": "26127",
+  "49421": "26127",
+  "49422": "26139",
+  "49423": "26139",
+  "49424": "26139",
+  "49425": "26121",
+  "49426": "26139",
+  "49427": "26139",
+  "49428": "26139",
+  "49429": "26139",
+  "49430": "26139",
+  "49431": "26105",
+  "49434": "26139",
+  "49435": "26139",
+  "49436": "26127",
+  "49437": "26121",
+  "49440": "26121",
+  "49441": "26121",
+  "49442": "26121",
+  "49443": "26121",
+  "49444": "26121",
+  "49445": "26121",
+  "49446": "26127",
+  "49448": "26139",
+  "49449": "26105",
+  "49450": "26005",
+  "49451": "26121",
+  "49452": "26127",
+  "49453": "26005",
+  "49454": "26105",
+  "49455": "26127",
+  "49456": "26139",
+  "49457": "26121",
+  "49458": "26105",
+  "49459": "26127",
+  "49460": "26139",
+  "49461": "26121",
+  "49464": "26139",
+  "49468": "26081",
+  "49501": "26081",
+  "49502": "26081",
+  "49503": "26081",
+  "49504": "26081",
+  "49505": "26081",
+  "49506": "26081",
+  "49507": "26081",
+  "49508": "26081",
+  "49509": "26081",
+  "49510": "26081",
+  "49512": "26081",
+  "49514": "26081",
+  "49515": "26081",
+  "49516": "26081",
+  "49518": "26081",
+  "49519": "26081",
+  "49523": "26081",
+  "49525": "26081",
+  "49528": "26081",
+  "49530": "26081",
+  "49534": "26081",
+  "49544": "26081",
+  "49546": "26081",
+  "49548": "26081",
+  "49550": "26081",
+  "49555": "26081",
+  "49560": "26081",
+  "49588": "26081",
+  "49599": "26081",
+  "49601": "26165",
+  "49610": "26055",
+  "49611": "26009",
+  "49612": "26009",
+  "49613": "26019",
+  "49614": "26101",
+  "49615": "26009",
+  "49616": "26019",
+  "49617": "26019",
+  "49618": "26165",
+  "49619": "26101",
+  "49620": "26055",
+  "49621": "26089",
+  "49622": "26009",
+  "49623": "26085",
+  "49625": "26101",
+  "49626": "26101",
+  "49627": "26009",
+  "49628": "26019",
+  "49629": "26009",
+  "49630": "26089",
+  "49631": "26133",
+  "49632": "26113",
+  "49633": "26079",
+  "49634": "26101",
+  "49635": "26019",
+  "49636": "26089",
+  "49637": "26055",
+  "49638": "26165",
+  "49639": "26133",
+  "49640": "26019",
+  "49642": "26085",
+  "49643": "26055",
+  "49644": "26085",
+  "49645": "26101",
+  "49646": "26079",
+  "49648": "26009",
+  "49649": "26055",
+  "49650": "26019",
+  "49651": "26113",
+  "49653": "26089",
+  "49655": "26133",
+  "49656": "26085",
+  "49657": "26113",
+  "49659": "26009",
+  "49660": "26101",
+  "49663": "26165",
+  "49664": "26089",
+  "49665": "26133",
+  "49666": "26055",
+  "49667": "26113",
+  "49668": "26165",
+  "49670": "26089",
+  "49673": "26055",
+  "49674": "26089",
+  "49675": "26101",
+  "49676": "26079",
+  "49677": "26133",
+  "49679": "26133",
+  "49680": "26079",
+  "49682": "26089",
+  "49683": "26019",
+  "49684": "26055",
+  "49686": "26055",
+  "49688": "26133",
+  "49689": "26101",
+  "49690": "26055",
+  "49701": "26031",
+  "49705": "26031",
+  "49706": "26047",
+  "49707": "26007",
+  "49709": "26119",
+  "49710": "26033",
+  "49711": "26029",
+  "49712": "26029",
+  "49713": "26029",
+  "49715": "26033",
+  "49716": "26047",
+  "49717": "26031",
+  "49718": "26047",
+  "49719": "26097",
+  "49720": "26029",
+  "49721": "26031",
+  "49722": "26047",
+  "49723": "26047",
+  "49724": "26033",
+  "49725": "26033",
+  "49726": "26033",
+  "49727": "26029",
+  "49728": "26033",
+  "49729": "26009",
+  "49730": "26137",
+  "49733": "26039",
+  "49734": "26137",
+  "49735": "26137",
+  "49736": "26033",
+  "49737": "26047",
+  "49738": "26039",
+  "49739": "26039",
+  "49740": "26047",
+  "49743": "26141",
+  "49744": "26007",
+  "49745": "26097",
+  "49746": "26119",
+  "49747": "26007",
+  "49748": "26033",
+  "49749": "26031",
+  "49751": "26137",
+  "49752": "26033",
+  "49753": "26007",
+  "49755": "26047",
+  "49756": "26135",
+  "49757": "26097",
+  "49759": "26141",
+  "49760": "26097",
+  "49761": "26031",
+  "49762": "26097",
+  "49764": "26047",
+  "49765": "26141",
+  "49766": "26007",
+  "49768": "26033",
+  "49769": "26047",
+  "49770": "26047",
+  "49774": "26097",
+  "49775": "26097",
+  "49776": "26141",
+  "49777": "26141",
+  "49779": "26141",
+  "49780": "26033",
+  "49781": "26097",
+  "49782": "26029",
+  "49783": "26033",
+  "49784": "26033",
+  "49785": "26033",
+  "49786": "26033",
+  "49788": "26033",
+  "49790": "26033",
+  "49791": "26031",
+  "49792": "26031",
+  "49793": "26033",
+  "49795": "26137",
+  "49796": "26029",
+  "49797": "26137",
+  "49799": "26031",
+  "49801": "26043",
+  "49802": "26043",
+  "49805": "26083",
+  "49806": "26003",
+  "49807": "26041",
+  "49808": "26103",
+  "49812": "26109",
+  "49814": "26103",
+  "49815": "26043",
+  "49816": "26003",
+  "49817": "26041",
+  "49818": "26041",
+  "49819": "26103",
+  "49820": "26097",
+  "49821": "26109",
+  "49822": "26003",
+  "49825": "26003",
+  "49826": "26003",
+  "49827": "26097",
+  "49829": "26041",
+  "49831": "26043",
+  "49833": "26103",
+  "49834": "26043",
+  "49835": "26041",
+  "49836": "26153",
+  "49837": "26041",
+  "49838": "26097",
+  "49839": "26003",
+  "49840": "26153",
+  "49841": "26103",
+  "49845": "26109",
+  "49847": "26109",
+  "49848": "26109",
+  "49849": "26103",
+  "49852": "26043",
+  "49853": "26095",
+  "49854": "26153",
+  "49855": "26103",
+  "49858": "26109",
+  "49861": "26103",
+  "49862": "26003",
+  "49863": "26109",
+  "49864": "26041",
+  "49865": "26103",
+  "49866": "26103",
+  "49868": "26095",
+  "49870": "26043",
+  "49871": "26103",
+  "49872": "26041",
+  "49873": "26109",
+  "49874": "26109",
+  "49876": "26043",
+  "49877": "26043",
+  "49878": "26041",
+  "49879": "26103",
+  "49880": "26041",
+  "49881": "26043",
+  "49883": "26153",
+  "49884": "26003",
+  "49885": "26103",
+  "49886": "26109",
+  "49887": "26109",
+  "49891": "26003",
+  "49892": "26043",
+  "49893": "26109",
+  "49894": "26041",
+  "49895": "26003",
+  "49896": "26109",
+  "49901": "26083",
+  "49902": "26071",
+  "49903": "26071",
+  "49905": "26061",
+  "49908": "26013",
+  "49910": "26131",
+  "49911": "26053",
+  "49912": "26131",
+  "49913": "26061",
+  "49915": "26071",
+  "49916": "26061",
+  "49917": "26061",
+  "49918": "26083",
+  "49919": "26013",
+  "49920": "26071",
+  "49921": "26061",
+  "49922": "26061",
+  "49925": "26131",
+  "49927": "26071",
+  "49929": "26131",
+  "49930": "26061",
+  "49931": "26061",
+  "49934": "26061",
+  "49935": "26071",
+  "49938": "26053",
+  "49942": "26061",
+  "49945": "26061",
+  "49946": "26013",
+  "49947": "26053",
+  "49948": "26131",
+  "49950": "26083",
+  "49952": "26061",
+  "49953": "26131",
+  "49955": "26061",
+  "49958": "26013",
+  "49959": "26053",
+  "49960": "26131",
+  "49961": "26061",
+  "49962": "26013",
+  "49963": "26061",
+  "49964": "26071",
+  "49965": "26061",
+  "49967": "26131",
+  "49968": "26053",
+  "49969": "26053",
+  "49970": "26013",
+  "49971": "26131"
+ }
+}

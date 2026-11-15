@@ -25,9 +25,9 @@ jobs:
       # Override in Settings -> Secrets and variables -> Actions -> Variables if you like.
       SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT || 'MichiganDealRadar/1.0 (student research project; jacksonrbond@gmail.com)' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
