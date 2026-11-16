@@ -1,6 +1,20 @@
 {
- "generated_at": "2026-11-08T05:07:32Z",
+ "generated_at": "2026-11-16T21:01:34Z",
  "weeks": [
+  {
+   "week_start": "2026-11-09",
+   "week_end": "2026-11-15",
+   "headline": "10 Michigan deals, $20.4M raised — led by Michigan State University Federal Credit Union",
+   "deal_count": 10,
+   "capital_raised": 20389258
+  },
+  {
+   "week_start": "2026-11-02",
+   "week_end": "2026-11-08",
+   "headline": "14 Michigan deals, $26.1M raised — led by Rockwell Medical, Inc.",
+   "deal_count": 14,
+   "capital_raised": 26116100
+  },
   {
    "week_start": "2026-10-26",
    "week_end": "2026-11-01",

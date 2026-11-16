@@ -1,0 +1,254 @@
+{
+ "week_start": "2026-11-02",
+ "week_end": "2026-11-08",
+ "generated_at": "2026-11-16T21:01:34Z",
+ "headline": "14 Michigan deals, $26.1M raised — led by Rockwell Medical, Inc.",
+ "stats": {
+  "deal_count": 14,
+  "by_type": {
+   "Fundraise": 9,
+   "M&A": 2,
+   "Material Agreement": 3,
+   "Stake": 0
+  },
+  "capital_raised": 26116100,
+  "capital_targeted": 43400000,
+  "fund_count": 2
+ },
+ "trailing_4wk": {
+  "deal_count": 8.2,
+  "capital_raised": 51974073.8
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": 69.7,
+  "capital_raised_pct": -49.8
+ },
+ "top_deals": [
+  {
+   "id": "8K-0001104659-26-122103",
+   "company": "Rockwell Medical, Inc.",
+   "ticker": "RMTI",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Wixom",
+   "sector": "Health Care & Life Sciences",
+   "amount": 500000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Rockwell Medical, Inc. (RMTI) disclosed a definitive merger/acquisition agreement with Vantive Limited; filing cites a figure of ~$500M.",
+   "filed": "2026-11-03"
+  },
+  {
+   "id": "D-2146938-021-592102",
+   "company": "Cvc Bank Inv",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 15060000.0,
+   "amount_sold": 12449600.0,
+   "amount_is_estimate": false,
+   "summary": "Cvc Bank Inv, a Grand Rapids-based investment fund, disclosed a $15.1M raise; $12.4M sold to 38 investors. (Amended filing.)",
+   "filed": "2026-11-03"
+  },
+  {
+   "id": "D-2161540-021-603294",
+   "company": "Swan Charlie Opportunity Fund, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Portage",
+   "sector": "Real Estate",
+   "amount": 9900000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Swan Charlie Opportunity Fund, LLC, a Portage-based residential real estate company, filed a $9.9M debt offering under Rule 504; $0 sold.",
+   "filed": "2026-11-02"
+  },
+  {
+   "id": "D-2162909-021-603376",
+   "company": "ElaiVee Ventures, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Milford",
+   "sector": "Other",
+   "amount": 6000000.0,
+   "amount_sold": 4000000.0,
+   "amount_is_estimate": false,
+   "summary": "ElaiVee Ventures, LLC, a Milford-based company, filed a $6M equity offering under Rule 506(b); $4M sold to 3 investors.",
+   "filed": "2026-11-03"
+  },
+  {
+   "id": "D-2001507-021-603499",
+   "company": "Evenergi Labs Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Ann Arbor",
+   "sector": "Technology",
+   "amount": 5000000.0,
+   "amount_sold": 4010000.0,
+   "amount_is_estimate": false,
+   "summary": "Evenergi Labs Inc., an Ann Arbor-based technology company, filed a $5M options/warrants and security to be acquired offering under Rule 506(b); $4M sold to 6 investors.",
+   "filed": "2026-11-04"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2146938-021-592102",
+   "company": "Cvc Bank Inv",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 15060000.0,
+   "amount_sold": 12449600.0,
+   "amount_is_estimate": false,
+   "summary": "Cvc Bank Inv, a Grand Rapids-based investment fund, disclosed a $15.1M raise; $12.4M sold to 38 investors. (Amended filing.)",
+   "filed": "2026-11-03"
+  },
+  {
+   "id": "D-2088409-021-563303",
+   "company": "Northern Shore Capital AAS Co-Invest LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Bloomfield Hills",
+   "sector": "Private Funds",
+   "amount": 1500000.0,
+   "amount_sold": 1500000.0,
+   "amount_is_estimate": false,
+   "summary": "Northern Shore Capital AAS Co-Invest LP, a Bloomfield Hills-based private equity fund, disclosed an open-ended (indefinite) raise; $1.5M sold to 1 investor. (Amended filing.)",
+   "filed": "2026-11-06"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "8K-0001104659-26-122103",
+   "company": "Rockwell Medical, Inc.",
+   "ticker": "RMTI",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "city": "Wixom",
+   "sector": "Health Care & Life Sciences",
+   "amount": 500000000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Rockwell Medical, Inc. (RMTI) disclosed a definitive merger/acquisition agreement with Vantive Limited; filing cites a figure of ~$500M.",
+   "filed": "2026-11-03"
+  },
+  {
+   "id": "8K-0000842517-26-000238",
+   "company": "Isabella Bank Corp",
+   "ticker": "ISBA",
+   "type": "M&A",
+   "subtype": "Acquisition/Disposition Completed",
+   "city": "Mt Pleasant",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Isabella Bank Corp (ISBA) reported completing an acquisition or disposition of assets involving Grand River Commerce, Inc.",
+   "filed": "2026-11-02"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001193125-26-448536",
+   "company": "DTE Energy Co",
+   "ticker": "DTE",
+   "type": "Material Agreement",
+   "subtype": "Equity Financing",
+   "city": "Detroit",
+   "sector": "Energy & Utilities",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "DTE Energy Co (DTE) entered into a material definitive agreement (equity financing).",
+   "filed": "2026-11-05"
+  },
+  {
+   "id": "8K-0001628280-26-068874",
+   "company": "Workhorse Group Inc.",
+   "ticker": "WKHS",
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "city": "Wixom",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Workhorse Group Inc. (WKHS) entered into a material definitive agreement (credit facility).",
+   "filed": "2026-11-02"
+  },
+  {
+   "id": "8K-0001320461-26-000132",
+   "company": "Cooper-Standard Holdings Inc.",
+   "ticker": "CPS",
+   "type": "Material Agreement",
+   "subtype": "Material Agreement",
+   "city": "Northville",
+   "sector": "Manufacturing & Automotive",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Cooper-Standard Holdings Inc. (CPS) entered into a material definitive agreement.",
+   "filed": "2026-11-02"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Technology",
+   "count": 3,
+   "amount": 6966500.0
+  },
+  {
+   "sector": "Private Funds",
+   "count": 2,
+   "amount": 13949600.0
+  },
+  {
+   "sector": "Other",
+   "count": 2,
+   "amount": 4300000.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 2,
+   "amount": 0.0
+  },
+  {
+   "sector": "Business Services",
+   "count": 1,
+   "amount": 900000.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $26.1M sold across 9 Form D filings this week, down 50% vs. the prior 4-week average. The largest was Swan Charlie Opportunity Fund, LLC (Portage, Residential) targeting $9.9M. Good question to ask: are founders in real estate favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-2161540-021-603294"
+   ]
+  },
+  {
+   "topic": "M&A",
+   "text": "Rockwell Medical, Inc. (RMTI) disclosed a deal with Vantive Limited. It was one of 2 M&A filings this week. Use it to ask how buyers are valuing Michigan health care & life sciences assets and whether consolidation is accelerating.",
+   "deal_ids": [
+    "8K-0001104659-26-122103",
+    "8K-0000842517-26-000238"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "2 Michigan-based pooled funds filed Form Ds, reporting $13.9M raised so far — led by Cvc Bank Inv (Other Investment Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2146938-021-592102",
+    "D-2088409-021-563303"
+   ]
+  }
+ ]
+}

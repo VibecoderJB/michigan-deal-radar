@@ -1,9 +1,689 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-08T05:07:32Z",
+ "generated_at": "2026-11-16T21:01:34Z",
  "state": "MI",
- "count": 511,
+ "count": 521,
  "deals": [
+  {
+   "id": "D-2164539-021-604675",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002164539-26-000001",
+   "company": "Golden Hour LLC",
+   "cik": "2164539",
+   "ticker": null,
+   "city": "Okemos",
+   "state": "MI",
+   "industry": "Other",
+   "sector": "Other",
+   "filed": "2026-11-13",
+   "event_date": "2026-11-03",
+   "amount": 500000.0,
+   "amount_sold": 500000.0,
+   "amount_is_estimate": false,
+   "summary": "Golden Hour LLC, an Okemos-based company, filed a $500K equity offering under Rule 506(b); $500K sold.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Carly M. Haller",
+     "roles": [
+      "Director"
+     ],
+     "clarification": "Manager of the Issuer"
+    }
+   ],
+   "details": {
+    "total_offering_amount": 500000.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 0.0,
+    "minimum_investment": 0.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Michigan",
+    "year_of_inc": "2023",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-604675"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2164539/000216453926000001/0002164539-26-000001-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2164539/000216453926000001/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002164539-26-000001",
+     "filed": "2026-11-13",
+     "form": "D",
+     "amount_sold": 500000.0
+    }
+   ]
+  },
+  {
+   "id": "D-2164262-021-604737",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002164262-26-000001",
+   "company": "SSM Exchange Inc.",
+   "cik": "2164262",
+   "ticker": null,
+   "city": "Huntington Woods",
+   "state": "MI",
+   "industry": "Other Technology",
+   "sector": "Technology",
+   "filed": "2026-11-13",
+   "event_date": "2026-10-28",
+   "amount": 25000.0,
+   "amount_sold": 25000.0,
+   "amount_is_estimate": false,
+   "summary": "SSM Exchange Inc., a Huntington Woods-based technology company, filed an indefinite-size options/warrants and security to be acquired offering under Rule 506(b); $25K sold to 1 investor.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Samuel Harrison Stone",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clarification": "Chief Executive Officer of the Issuer"
+    }
+   ],
+   "details": {
+    "total_offering_amount": null,
+    "offering_indefinite": true,
+    "total_remaining": null,
+    "investor_count": 1.0,
+    "minimum_investment": 0.0,
+    "securities": [
+     "Options/Warrants",
+     "Security to be Acquired"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Corporation",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-604737"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2164262/000216426226000001/0002164262-26-000001-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2164262/000216426226000001/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002164262-26-000001",
+     "filed": "2026-11-13",
+     "form": "D",
+     "amount_sold": 25000.0
+    }
+   ]
+  },
+  {
+   "id": "D-2163479-021-604634",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002163479-26-000001",
+   "company": "BSF Howell Holdings LLC",
+   "cik": "2163479",
+   "ticker": null,
+   "city": "Birmingham",
+   "state": "MI",
+   "industry": "Commercial",
+   "sector": "Real Estate",
+   "filed": "2026-11-13",
+   "event_date": "2026-10-30",
+   "amount": 1985000.0,
+   "amount_sold": 1933017.0,
+   "amount_is_estimate": false,
+   "summary": "BSF Howell Holdings LLC, a Birmingham-based commercial real estate company, filed a $2M equity offering under Rule 506(b); $1.9M sold to 7 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Brody David Joshua",
+     "roles": [
+      "Director"
+     ],
+     "clarification": "Manager of Manager; Member of Sponsor"
+    },
+    {
+     "name": "Jonathan Sherman",
+     "roles": [
+      "Director"
+     ],
+     "clarification": "Manager of Manager; Indirect Member of Sponsor"
+    },
+    {
+     "name": "Matthew Fenster",
+     "roles": [
+      "Director"
+     ],
+     "clarification": "Manager of Manager; Member of Sponsor"
+    }
+   ],
+   "details": {
+    "total_offering_amount": 1985000.0,
+    "offering_indefinite": false,
+    "total_remaining": 51983.0,
+    "investor_count": 7.0,
+    "minimum_investment": 0.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Michigan",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-604634"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2163479/000216347926000001/0002163479-26-000001-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2163479/000216347926000001/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002163479-26-000001",
+     "filed": "2026-11-13",
+     "form": "D",
+     "amount_sold": 1933017.0
+    }
+   ]
+  },
+  {
+   "id": "D-2163477-021-604636",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002163477-26-000001",
+   "company": "BSF Howell Holdings II, LLC",
+   "cik": "2163477",
+   "ticker": null,
+   "city": "Birmingham",
+   "state": "MI",
+   "industry": "Commercial",
+   "sector": "Real Estate",
+   "filed": "2026-11-13",
+   "event_date": "2026-10-30",
+   "amount": 445000.0,
+   "amount_sold": 431241.0,
+   "amount_is_estimate": false,
+   "summary": "BSF Howell Holdings II, LLC, a Birmingham-based commercial real estate company, filed a $445K equity offering under Rule 506(b); $431.2K sold to 7 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Joshua Brody",
+     "roles": [
+      "Director"
+     ],
+     "clarification": "Manager of Manager; Member of Sponsor"
+    },
+    {
+     "name": "Jonathan Sherman",
+     "roles": [
+      "Director"
+     ],
+     "clarification": "Manager of Manager; Indirect Member of Sponsor."
+    },
+    {
+     "name": "Matthew Fenster",
+     "roles": [
+      "Director"
+     ],
+     "clarification": "Manager of Manager; Member of Sponsor"
+    }
+   ],
+   "details": {
+    "total_offering_amount": 445000.0,
+    "offering_indefinite": false,
+    "total_remaining": 13759.0,
+    "investor_count": 7.0,
+    "minimum_investment": 0.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Michigan",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-604636"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2163477/000216347726000001/0002163477-26-000001-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2163477/000216347726000001/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002163477-26-000001",
+     "filed": "2026-11-13",
+     "form": "D",
+     "amount_sold": 431241.0
+    }
+   ]
+  },
+  {
+   "id": "13D-0000905148-26-004791",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "form": "SCHEDULE 13D/A",
+   "accession": "0000905148-26-004791",
+   "company": "Hagerty, Inc.",
+   "cik": "1840776",
+   "ticker": "HGTY",
+   "city": "Traverse City",
+   "state": "MI",
+   "industry": "Insurance",
+   "sector": "Financial Services",
+   "filed": "2026-11-13",
+   "event_date": "2026-11-12",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Markel Group Inc. reported a 39.6% stake in Hagerty, Inc. (HGTY) (Schedule 13D/A amendment 7).",
+   "excerpt": "Item 4 of the Schedule 13D is hereby amended and supplemented as follows: On November 12, 2026, in connection with the closing of an underwritten secondary offering of shares of Class A Common Stock by Hagerty Holding Corp. (the \"November 2026 Secondary Offering\"), and pursuant to the terms of the Amended and Restated Exchange Agreement, the Reporting Person exchanged 4,693,570 shares of Class V Common Stock and…",
+   "counterparty": "Markel Group Inc.",
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Markel Group Inc.",
+     "roles": [
+      "39.6% of class"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "percent_of_class": 39.6,
+    "security_class": "Class A Common Stock, par value $0.0001 per share",
+    "cusip": "405166109",
+    "amendment_no": "7"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/1840776/000090514826004791/0000905148-26-004791-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1840776/000090514826004791/primary_doc.xml"
+  },
+  {
+   "id": "D-2163316-021-604423",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002163316-26-000001",
+   "company": "Wave Lumina Inc.",
+   "cik": "2163316",
+   "ticker": null,
+   "city": "Williamsburg",
+   "state": "MI",
+   "industry": "Other Technology",
+   "sector": "Technology",
+   "filed": "2026-11-12",
+   "event_date": "2026-10-28",
+   "amount": 250000.0,
+   "amount_sold": 250000.0,
+   "amount_is_estimate": false,
+   "summary": "Wave Lumina Inc., a Williamsburg-based technology company, filed a $250K SAFE offering under Rule 506(b); $250K sold to 1 investor.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Vernon L LaLone",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 250000.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 1.0,
+    "minimum_investment": 0.0,
+    "securities": [
+     "Simple Agreement for Future Equity (SAFE)"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Corporation",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2025",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-604423"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2163316/000216331626000001/0002163316-26-000001-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2163316/000216331626000001/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002163316-26-000001",
+     "filed": "2026-11-12",
+     "form": "D",
+     "amount_sold": 250000.0
+    }
+   ]
+  },
+  {
+   "id": "8K-0001193125-26-458570",
+   "type": "Material Agreement",
+   "subtype": "Debt Offering",
+   "form": "8-K",
+   "accession": "0001193125-26-458570",
+   "company": "Hagerty, Inc.",
+   "cik": "1840776",
+   "ticker": "HGTY",
+   "city": "Traverse City",
+   "state": "MI",
+   "industry": "Insurance",
+   "sector": "Financial Services",
+   "filed": "2026-11-12",
+   "event_date": null,
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Hagerty, Inc. (HGTY) entered into a material definitive agreement (debt offering).",
+   "excerpt": "On November 10, 2026, Hagerty, Inc. (the \" Company \"), The Hagerty Group, LLC, and Hagerty Holding Corp. (the \" Selling Stockholder \") entered into an underwriting agreement (the \" Underwriting Agreement \") with J.P. Morgan Securities LLC and Wells Fargo Securities, LLC as representatives of the several underwriters named therein (collectively, the \" Underwriters \").",
+   "counterparty": null,
+   "items": [
+    "1.01",
+    "8.01",
+    "9.01"
+   ],
+   "related_persons": [],
+   "details": {
+    "item_titles": [
+     "Entry into a Material Definitive Agreement",
+     "Other Events",
+     "Financial Statements and Exhibits"
+    ],
+    "sic": "6411"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/1840776/000119312526458570/0001193125-26-458570-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1840776/000119312526458570/d151794d8k.htm"
+  },
+  {
+   "id": "13D-0001104659-26-126363",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "form": "SCHEDULE 13D/A",
+   "accession": "0001104659-26-126363",
+   "company": "Hagerty, Inc.",
+   "cik": "1840776",
+   "ticker": "HGTY",
+   "city": "TRAVERSE CITY",
+   "state": "MI",
+   "industry": "Insurance",
+   "sector": "Financial Services",
+   "filed": "2026-11-12",
+   "event_date": "2026-11-11",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Hagerty Holding Corp. reported a 51.4% stake in Hagerty, Inc. (HGTY) (Schedule 13D/A amendment 4).",
+   "excerpt": "The responses to Item 3 and Item 6 of this Schedule 13D are incorporated by reference herein. Hagerty Holding Corp., a Delaware close corporation (\"HHC\") acquired the shares of Class V common stock, par value $0.0001 per share (\"Class V Common Stock\"), of Hagerty, Inc. (the \"issuer\" or the \"Company\") for investment purposes.",
+   "counterparty": "Hagerty Holding Corp.",
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Hagerty Holding Corp.",
+     "roles": [
+      "51.4% of class"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "percent_of_class": 51.4,
+    "security_class": "Class A common stock, par value $0.0001 per share",
+    "cusip": "405166109",
+    "amendment_no": "4"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/1840776/000110465926126363/0001104659-26-126363-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1840776/000110465926126363/primary_doc.xml"
+  },
+  {
+   "id": "D-2128418-021-604238",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0001437749-26-036066",
+   "company": "Michigan State University Federal Credit Union",
+   "cik": "2128418",
+   "ticker": null,
+   "city": "East Lansing",
+   "state": "MI",
+   "industry": "Other Banking and Financial Services",
+   "sector": "Financial Services",
+   "filed": "2026-11-10",
+   "event_date": "2026-10-28",
+   "amount": 15000000.0,
+   "amount_sold": 15000000.0,
+   "amount_is_estimate": false,
+   "summary": "Michigan State University Federal Credit Union, an East Lansing-based financial services company, filed a $15M debt offering under Rule 506(b); $15M sold to 3 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "April Clobes",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Sara Dolan",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Lera Ammerman",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "James Hunsanger",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Benjamin Maxim",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Ami Iceman-Haueter",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Silvia Dimma",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Robert Johnson",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Janet Lillie",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Elizabeth Lawrence",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "William Beekman",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Steven Kurncz",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 15000000.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 3.0,
+    "minimum_investment": 100000.0,
+    "securities": [
+     "Debt"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Other",
+    "jurisdiction": "Michigan",
+    "year_of_inc": null,
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-604238"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2128418/000143774926036066/0001437749-26-036066-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2128418/000143774926036066/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0001437749-26-036066",
+     "filed": "2026-11-10",
+     "form": "D",
+     "amount_sold": 15000000.0
+    }
+   ]
+  },
+  {
+   "id": "D-2164158-021-604094",
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "form": "D",
+   "accession": "0002080612-26-000060",
+   "company": "Tricap Btr Fund II LLC",
+   "cik": "2164158",
+   "ticker": null,
+   "city": "Ann Arbor",
+   "state": "MI",
+   "industry": "Pooled Investment Fund",
+   "sector": "Private Funds",
+   "filed": "2026-11-09",
+   "event_date": "2026-09-25",
+   "amount": 2250000.0,
+   "amount_sold": 2250000.0,
+   "amount_is_estimate": false,
+   "summary": "Tricap Btr Fund II LLC, an Ann Arbor-based investment fund, disclosed a $2.2M raise; $2.2M sold to 11 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Tricap BTR Fund II Manager LLC",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": "Manager"
+    }
+   ],
+   "details": {
+    "total_offering_amount": 2250000.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 11.0,
+    "minimum_investment": 0.0,
+    "securities": [
+     "Pooled Fund Interests"
+    ],
+    "exemptions": [
+     "Rule 506(c)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": null,
+    "fund_type": "Other Investment Fund",
+    "is_pooled_fund": true,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-604094"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2164158/000208061226000060/0002080612-26-000060-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2164158/000208061226000060/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002080612-26-000060",
+     "filed": "2026-11-09",
+     "form": "D",
+     "amount_sold": 2250000.0
+    }
+   ]
+  },
   {
    "id": "D-2163797-021-603899",
    "type": "Fundraise",
