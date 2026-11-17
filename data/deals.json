@@ -1,9 +1,81 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T21:01:34Z",
+ "generated_at": "2026-11-17T19:50:47Z",
  "state": "MI",
- "count": 521,
+ "count": 522,
  "deals": [
+  {
+   "id": "D-2164666-021-605009",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002164666-26-000001",
+   "company": "Savlamar, Inc.",
+   "cik": "2164666",
+   "ticker": null,
+   "city": "Hudsonville",
+   "state": "MI",
+   "industry": "Manufacturing",
+   "sector": "Manufacturing & Automotive",
+   "filed": "2026-11-17",
+   "event_date": "2026-10-23",
+   "amount": 6055000.0,
+   "amount_sold": 2499925.0,
+   "amount_is_estimate": false,
+   "summary": "Savlamar, Inc., a Hudsonville-based manufacturing company, filed a $6.1M equity offering under Rule 506(c); $2.5M sold to 3 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Kevin Michael Clement",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Brian Phillip Hirsch",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 6055000.0,
+    "offering_indefinite": false,
+    "total_remaining": 3555075.0,
+    "investor_count": 3.0,
+    "minimum_investment": 250000.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(c)"
+    ],
+    "entity_type": "Corporation",
+    "jurisdiction": "Michigan",
+    "year_of_inc": null,
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-605009"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2164666/000216466626000001/0002164666-26-000001-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2164666/000216466626000001/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002164666-26-000001",
+     "filed": "2026-11-17",
+     "form": "D",
+     "amount_sold": 2499925.0
+    }
+   ]
+  },
   {
    "id": "D-2164539-021-604675",
    "type": "Fundraise",
