@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-17T19:50:47Z",
+ "generated_at": "2026-11-18T19:24:23Z",
  "state": "MI",
- "count": 522,
+ "count": 523,
  "deals": [
   {
    "id": "D-2164666-021-605009",
@@ -75,6 +75,48 @@
      "amount_sold": 2499925.0
     }
    ]
+  },
+  {
+   "id": "8K-0001783398-26-000145",
+   "type": "Material Agreement",
+   "subtype": "Equity Financing",
+   "form": "8-K",
+   "accession": "0001783398-26-000145",
+   "company": "UWM Holdings Corp",
+   "cik": "1783398",
+   "ticker": "UWMC",
+   "city": "Pontiac",
+   "state": "MI",
+   "industry": "Banking & Credit",
+   "sector": "Financial Services",
+   "filed": "2026-11-17",
+   "event_date": null,
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "UWM Holdings Corp (UWMC) entered into a material definitive agreement (equity financing).",
+   "excerpt": "Rights Offering On November 17, 2026, UWM Holdings Corporation (the \"Company\") completed its previously announced rights offering of transferable subscription rights to purchase up to an aggregate of 200,000,000 shares of the Company's Class A common stock, par value $0.0001 per share (the \"Class A common stock\") (the \"rights offering\"), which expired at 5:00 p.m., Eastern Time, on November 12, 2026 (the \"expiration…",
+   "counterparty": null,
+   "items": [
+    "1.01",
+    "3.02",
+    "5.03",
+    "8.01",
+    "9.01"
+   ],
+   "related_persons": [],
+   "details": {
+    "item_titles": [
+     "Entry into a Material Definitive Agreement",
+     "Unregistered Sales of Equity Securities",
+     "Amendments to Articles or Bylaws",
+     "Other Events",
+     "Financial Statements and Exhibits"
+    ],
+    "sic": "6162"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339826000145/0001783398-26-000145-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1783398/000178339826000145/xbrl-20261117.htm"
   },
   {
    "id": "D-2164539-021-604675",
