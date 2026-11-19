@@ -1,9 +1,320 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-18T19:24:23Z",
+ "generated_at": "2026-11-19T19:28:53Z",
  "state": "MI",
- "count": 523,
+ "count": 524,
  "deals": [
+  {
+   "id": "D-2149794-021-605377",
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "form": "D",
+   "accession": "0002149794-26-000001",
+   "company": "TRM Equity Fund III LP",
+   "cik": "2149794",
+   "ticker": null,
+   "city": "Southfield",
+   "state": "MI",
+   "industry": "Pooled Investment Fund",
+   "sector": "Private Funds",
+   "filed": "2026-11-19",
+   "event_date": null,
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "TRM Equity Fund III LP, a Southfield-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "TRM III GP LLC",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": "General Partner of Issuer"
+    },
+    {
+     "name": "Jeffrey Stone",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": "Manager of the GP of Issuer"
+    },
+    {
+     "name": "Robert Sylvester",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": "Manager of the GP of the Issuer"
+    },
+    {
+     "name": "TRM Advisors LP",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": "Manager of the Manager of the GP of Issuer"
+    }
+   ],
+   "details": {
+    "total_offering_amount": null,
+    "offering_indefinite": true,
+    "total_remaining": null,
+    "investor_count": 0.0,
+    "minimum_investment": 0.0,
+    "securities": [
+     "Pooled Fund Interests"
+    ],
+    "exemptions": [
+     "Investment Company Act 3(c)",
+     "ICA 3(c)(7)"
+    ],
+    "entity_type": "Limited Partnership",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": "Private Equity Fund",
+    "is_pooled_fund": true,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": true,
+    "file_number": "021-605377"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2149794/000214979426000001/0002149794-26-000001-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2149794/000214979426000001/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002149794-26-000001",
+     "filed": "2026-11-19",
+     "form": "D",
+     "amount_sold": 0.0
+    }
+   ]
+  },
+  {
+   "id": "D-2081840-021-554927",
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "form": "D/A",
+   "accession": "0002081840-26-000003",
+   "company": "Michigan Capital Network Venture Fund V, L.P.",
+   "cik": "2081840",
+   "ticker": null,
+   "city": "Grand Rapids",
+   "state": "MI",
+   "industry": "Pooled Investment Fund",
+   "sector": "Private Funds",
+   "filed": "2026-11-19",
+   "event_date": "2025-08-14",
+   "amount": 75000000.0,
+   "amount_sold": 75000000.0,
+   "amount_is_estimate": false,
+   "summary": "Michigan Capital Network Venture Fund V, L.P., a Grand Rapids-based investment fund, disclosed an open-ended (indefinite) raise; $75M sold to 87 investors. (Amended filing.)",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "MCN Fund V GP, LLC",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": "General Partner"
+    },
+    {
+     "name": "Michigan Capital Network Ventures, LLC",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": "Management Company"
+    },
+    {
+     "name": "Paul D'Amato",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": "Managing Director of the General Partner"
+    },
+    {
+     "name": "Dale Grogan",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": "Managing Partner of the General Partner"
+    },
+    {
+     "name": "Jody Venderwel",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": "Managing Partner of the General Partner"
+    },
+    {
+     "name": "Meagan Malm",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": "Managing Partner of the General Partner"
+    }
+   ],
+   "details": {
+    "total_offering_amount": null,
+    "offering_indefinite": true,
+    "total_remaining": null,
+    "investor_count": 87.0,
+    "minimum_investment": 0.0,
+    "securities": [
+     "Pooled Fund Interests"
+    ],
+    "exemptions": [
+     "Rule 506(b)",
+     "Investment Company Act 3(c)",
+     "ICA 3(c)(1)"
+    ],
+    "entity_type": "Limited Partnership",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2024",
+    "revenue_range": null,
+    "fund_type": "Other Investment Fund",
+    "is_pooled_fund": true,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-554927"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2081840/000208184026000003/0002081840-26-000003-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2081840/000208184026000003/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002081840-26-000001",
+     "filed": "2026-03-04",
+     "form": "D/A",
+     "amount_sold": 50260000.0
+    },
+    {
+     "accession": "0002081840-26-000002",
+     "filed": "2026-07-28",
+     "form": "D/A",
+     "amount_sold": 65360000.0
+    },
+    {
+     "accession": "0002081840-26-000003",
+     "filed": "2026-11-19",
+     "form": "D/A",
+     "amount_sold": 75000000.0
+    }
+   ],
+   "first_filed": "2026-03-04"
+  },
+  {
+   "id": "D-1579495-021-529710",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D/A",
+   "accession": "0001579495-26-000003",
+   "company": "Bfkw, LLC",
+   "cik": "1579495",
+   "ticker": null,
+   "city": "Grand Rapids",
+   "state": "MI",
+   "industry": "Other Health Care",
+   "sector": "Health Care & Life Sciences",
+   "filed": "2026-11-19",
+   "event_date": "2024-11-08",
+   "amount": 12000000.0,
+   "amount_sold": 2595675.0,
+   "amount_is_estimate": false,
+   "summary": "Bfkw, LLC, a Grand Rapids-based health care company, filed a $12M equity offering under Rule 506(b); $2.6M sold to 10 investors. (Amended filing.)",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Randal S. Baker",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "PAUL R. KEMMETER",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "James A. Foote",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Jerry Baker",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "PAUL GRACEY",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Jeffrey Baker",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 12000000.0,
+    "offering_indefinite": false,
+    "total_remaining": 9404325.0,
+    "investor_count": 10.0,
+    "minimum_investment": 0.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Michigan",
+    "year_of_inc": null,
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-529710"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/1579495/000157949526000003/0001579495-26-000003-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1579495/000157949526000003/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0001579495-25-000003",
+     "filed": "2025-11-21",
+     "form": "D/A",
+     "amount_sold": 1833300.0
+    },
+    {
+     "accession": "0001579495-26-000003",
+     "filed": "2026-11-19",
+     "form": "D/A",
+     "amount_sold": 2595675.0
+    }
+   ],
+   "first_filed": "2025-11-21"
+  },
   {
    "id": "D-2164666-021-605009",
    "type": "Fundraise",
@@ -13222,115 +13533,6 @@
     }
    ],
    "first_filed": "2026-05-20"
-  },
-  {
-   "id": "D-2081840-021-554927",
-   "type": "Fundraise",
-   "subtype": "Other Investment Fund",
-   "form": "D/A",
-   "accession": "0002081840-26-000002",
-   "company": "Michigan Capital Network Venture Fund V, L.P.",
-   "cik": "2081840",
-   "ticker": null,
-   "city": "Grand Rapids",
-   "state": "MI",
-   "industry": "Pooled Investment Fund",
-   "sector": "Private Funds",
-   "filed": "2026-07-28",
-   "event_date": "2025-08-14",
-   "amount": 65360000.0,
-   "amount_sold": 65360000.0,
-   "amount_is_estimate": false,
-   "summary": "Michigan Capital Network Venture Fund V, L.P., a Grand Rapids-based investment fund, disclosed an open-ended (indefinite) raise; $65.4M sold to 82 investors. (Amended filing.)",
-   "excerpt": null,
-   "counterparty": null,
-   "items": [],
-   "related_persons": [
-    {
-     "name": "MCN Fund V GP, LLC",
-     "roles": [
-      "Executive Officer"
-     ],
-     "clarification": "General Partner"
-    },
-    {
-     "name": "Michigan Capital Network Ventures, LLC",
-     "roles": [
-      "Executive Officer"
-     ],
-     "clarification": "Management Company"
-    },
-    {
-     "name": "Paul D'Amato",
-     "roles": [
-      "Executive Officer"
-     ],
-     "clarification": "Managing Director of the General Partner"
-    },
-    {
-     "name": "Dale Grogan",
-     "roles": [
-      "Executive Officer"
-     ],
-     "clarification": "Managing Partner of the General Partner"
-    },
-    {
-     "name": "Jody Venderwel",
-     "roles": [
-      "Executive Officer"
-     ],
-     "clarification": "Managing Partner of the General Partner"
-    },
-    {
-     "name": "Meagan Malm",
-     "roles": [
-      "Executive Officer"
-     ],
-     "clarification": "Managing Partner of the General Partner"
-    }
-   ],
-   "details": {
-    "total_offering_amount": null,
-    "offering_indefinite": true,
-    "total_remaining": null,
-    "investor_count": 82.0,
-    "minimum_investment": 0.0,
-    "securities": [
-     "Pooled Fund Interests"
-    ],
-    "exemptions": [
-     "Rule 506(b)",
-     "Investment Company Act 3(c)",
-     "ICA 3(c)(1)"
-    ],
-    "entity_type": "Limited Partnership",
-    "jurisdiction": "Delaware",
-    "year_of_inc": "2024",
-    "revenue_range": null,
-    "fund_type": "Other Investment Fund",
-    "is_pooled_fund": true,
-    "has_non_accredited": false,
-    "sales_commissions": 0.0,
-    "first_sale_yet_to_occur": false,
-    "file_number": "021-554927"
-   },
-   "url": "https://www.sec.gov/Archives/edgar/data/2081840/000208184026000002/0002081840-26-000002-index.htm",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/2081840/000208184026000002/primary_doc.xml",
-   "filings": [
-    {
-     "accession": "0002081840-26-000001",
-     "filed": "2026-03-04",
-     "form": "D/A",
-     "amount_sold": 50260000.0
-    },
-    {
-     "accession": "0002081840-26-000002",
-     "filed": "2026-07-28",
-     "form": "D/A",
-     "amount_sold": 65360000.0
-    }
-   ],
-   "first_filed": "2026-03-04"
   },
   {
    "id": "D-1682362-021-592318",
@@ -35411,107 +35613,6 @@
      "filed": "2025-11-21",
      "form": "D",
      "amount_sold": 3165000.0
-    }
-   ]
-  },
-  {
-   "id": "D-1579495-021-529710",
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "form": "D/A",
-   "accession": "0001579495-25-000003",
-   "company": "Bfkw, LLC",
-   "cik": "1579495",
-   "ticker": null,
-   "city": "Grand Rapids",
-   "state": "MI",
-   "industry": "Other Health Care",
-   "sector": "Health Care & Life Sciences",
-   "filed": "2025-11-21",
-   "event_date": "2024-11-08",
-   "amount": 12000000.0,
-   "amount_sold": 1833300.0,
-   "amount_is_estimate": false,
-   "summary": "Bfkw, LLC, a Grand Rapids-based health care company, filed a $12M equity offering under Rule 506(b); $1.8M sold to 7 investors. (Amended filing.)",
-   "excerpt": null,
-   "counterparty": null,
-   "items": [],
-   "related_persons": [
-    {
-     "name": "FREDERICK J. WALBURN",
-     "roles": [
-      "Executive Officer",
-      "Director"
-     ],
-     "clarification": null
-    },
-    {
-     "name": "PAUL R. KEMMETER",
-     "roles": [
-      "Director"
-     ],
-     "clarification": null
-    },
-    {
-     "name": "JERRY BAKER",
-     "roles": [
-      "Director"
-     ],
-     "clarification": null
-    },
-    {
-     "name": "RANDAL S. BAKER",
-     "roles": [
-      "Director"
-     ],
-     "clarification": null
-    },
-    {
-     "name": "JAMES A. FOOTE",
-     "roles": [
-      "Director"
-     ],
-     "clarification": null
-    },
-    {
-     "name": "PAUL GRACEY",
-     "roles": [
-      "Director"
-     ],
-     "clarification": null
-    }
-   ],
-   "details": {
-    "total_offering_amount": 12000000.0,
-    "offering_indefinite": false,
-    "total_remaining": 10166700.0,
-    "investor_count": 7.0,
-    "minimum_investment": 0.0,
-    "securities": [
-     "Equity"
-    ],
-    "exemptions": [
-     "Rule 506(b)"
-    ],
-    "entity_type": "Limited Liability Company",
-    "jurisdiction": "Michigan",
-    "year_of_inc": null,
-    "revenue_range": "Decline to Disclose",
-    "fund_type": null,
-    "is_pooled_fund": false,
-    "has_non_accredited": false,
-    "sales_commissions": 0.0,
-    "first_sale_yet_to_occur": false,
-    "file_number": "021-529710"
-   },
-   "url": "https://www.sec.gov/Archives/edgar/data/1579495/000157949525000003/0001579495-25-000003-index.htm",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/1579495/000157949525000003/primary_doc.xml",
-   "filings": [
-    {
-     "accession": "0001579495-25-000003",
-     "filed": "2025-11-21",
-     "form": "D/A",
-     "amount_sold": 1833300.0
     }
    ]
   },
