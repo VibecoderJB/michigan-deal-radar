@@ -1,9 +1,75 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-19T19:28:53Z",
+ "generated_at": "2026-11-20T19:05:53Z",
  "state": "MI",
- "count": 524,
+ "count": 526,
  "deals": [
+  {
+   "id": "D-2166185-021-605468",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002166185-26-000001",
+   "company": "GOC Sunset Investors LLC",
+   "cik": "2166185",
+   "ticker": null,
+   "city": "Okemos",
+   "state": "MI",
+   "industry": "Residential",
+   "sector": "Real Estate",
+   "filed": "2026-11-20",
+   "event_date": "2026-10-09",
+   "amount": 800000.0,
+   "amount_sold": 800000.0,
+   "amount_is_estimate": false,
+   "summary": "GOC Sunset Investors LLC, an Okemos-based residential real estate company, filed a $800K equity offering under Rule 506(b); $800K sold to 15 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Conor McInerney",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 800000.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 15.0,
+    "minimum_investment": 0.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Michigan",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-605468"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2166185/000216618526000001/0002166185-26-000001-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2166185/000216618526000001/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002166185-26-000001",
+     "filed": "2026-11-20",
+     "form": "D",
+     "amount_sold": 800000.0
+    }
+   ]
+  },
   {
    "id": "D-2149794-021-605377",
    "type": "Fundraise",
@@ -314,6 +380,60 @@
     }
    ],
    "first_filed": "2025-11-21"
+  },
+  {
+   "id": "13D-0001842002-26-000029",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "form": "SCHEDULE 13D/A",
+   "accession": "0001842002-26-000029",
+   "company": "UWM Holdings Corporation",
+   "cik": "1783398",
+   "ticker": "UWMC",
+   "city": "Pontiac",
+   "state": "MI",
+   "industry": "Banking & Credit",
+   "sector": "Financial Services",
+   "filed": "2026-11-19",
+   "event_date": "2026-11-17",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Mat Ishbia and others reported a 80.2% stake in UWM Holdings Corporation (UWMC) (Schedule 13D/A amendment 17).",
+   "excerpt": "Item 4 of the Schedule 13D is hereby amended by the addition of the following: The information contained above in Item 3 of this Amendment is incorporated herein by reference. On September 1, 2026, SFS Corp. approved by written consent in lieu of a special meeting, in accordance with Section 228 of the Delaware General Corporation Law and Section 8 of the Issuer's Certificate of Incorporation, the issuance of shares…",
+   "counterparty": "Mat Ishbia",
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Mat Ishbia",
+     "roles": [
+      "80.2% of class"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "SFS Holding Corp.",
+     "roles": [
+      "78.5% of class"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "SFS Capital Group, LLC",
+     "roles": [
+      "24.1% of class"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "percent_of_class": 80.2,
+    "security_class": "Class A Common Stock, par value $0.0001 per share",
+    "cusip": "91823B109",
+    "amendment_no": "17"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/1783398/000184200226000029/0001842002-26-000029-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1783398/000184200226000029/primary_doc.xml"
   },
   {
    "id": "D-2164666-021-605009",
