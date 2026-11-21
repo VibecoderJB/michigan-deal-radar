@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-20T19:05:53Z",
+ "generated_at": "2026-11-21T17:57:40Z",
  "state": "MI",
- "count": 526,
+ "count": 527,
  "deals": [
   {
    "id": "D-2166185-021-605468",
@@ -69,6 +69,67 @@
      "amount_sold": 800000.0
     }
    ]
+  },
+  {
+   "id": "13D-0000950142-26-003135",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "form": "SCHEDULE 13D/A",
+   "accession": "0000950142-26-003135",
+   "company": "Rocket Companies, Inc.",
+   "cik": "1805284",
+   "ticker": "RKT",
+   "city": "Detroit",
+   "state": "MI",
+   "industry": "Banking & Credit",
+   "sector": "Financial Services",
+   "filed": "2026-11-20",
+   "event_date": "2025-12-16",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Daniel Gilbert and others reported a 55.44% stake in Rocket Companies, Inc. (RKT) (Schedule 13D/A amendment 2).",
+   "excerpt": "Item 4 of the Schedule 13D is hereby amended by adding the following: Daniel Gilbert contributed (a) 687,047,556 shares of the Issuer's common stock to the Daniel B. Gilbert Trust u/a/d 12/23/96 on June 16, 2026 (which entity previously held 89,859 shares of the Issuer's common stock) and (b) 450,000,000 shares of the Issuer's common stock to The Daniel B. Gilbert 2025 GRAT on December 16, 2025.",
+   "counterparty": "Daniel Gilbert",
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Daniel Gilbert",
+     "roles": [
+      "55.44% of class"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Daniel B. Gilbert Trust u/a/d 12/23/96",
+     "roles": [
+      "24.21% of class"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "The Daniel B. Gilbert 2025 GRAT",
+     "roles": [
+      "15.86% of class"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Jennifer Gilbert",
+     "roles": [
+      "11.07% of class"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "percent_of_class": 55.44,
+    "security_class": "Class A common stock, $0.00001 par value",
+    "cusip": "77311W101",
+    "amendment_no": "2"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/1805284/000095014226003135/0000950142-26-003135-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1805284/000095014226003135/primary_doc.xml"
   },
   {
    "id": "D-2149794-021-605377",
