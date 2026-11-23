@@ -1,9 +1,129 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-22T18:29:46Z",
+ "generated_at": "2026-11-23T22:38:30Z",
  "state": "MI",
- "count": 527,
+ "count": 528,
  "deals": [
+  {
+   "id": "D-2151729-021-599334",
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "form": "D/A",
+   "accession": "0002151729-26-000002",
+   "company": "Boch Investment Fund, LLC",
+   "cik": "2151729",
+   "ticker": null,
+   "city": "Bloomfield Hills",
+   "state": "MI",
+   "industry": "Pooled Investment Fund",
+   "sector": "Private Funds",
+   "filed": "2026-11-23",
+   "event_date": null,
+   "amount": 6000000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Boch Investment Fund, LLC, a Bloomfield Hills-based private equity fund, disclosed a $6M raise; $0 sold. (Amended filing.)",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "DANIEL BACKING",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clarification": "MANAGER OF ITS MANAGER, BOCH DESIGN, LLC"
+    }
+   ],
+   "details": {
+    "total_offering_amount": 6000000.0,
+    "offering_indefinite": false,
+    "total_remaining": 6000000.0,
+    "investor_count": 0.0,
+    "minimum_investment": 0.0,
+    "securities": [
+     "Equity",
+     "Pooled Fund Interests"
+    ],
+    "exemptions": [
+     "Rule 506(c)",
+     "Investment Company Act 3(c)",
+     "3C.5"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": "Private Equity Fund",
+    "is_pooled_fund": true,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": true,
+    "file_number": "021-599334"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2151729/000215172926000002/0002151729-26-000002-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2151729/000215172926000002/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002151729-26-000001",
+     "filed": "2026-09-30",
+     "form": "D",
+     "amount_sold": 0.0
+    },
+    {
+     "accession": "0002151729-26-000002",
+     "filed": "2026-11-23",
+     "form": "D/A",
+     "amount_sold": 0.0
+    }
+   ],
+   "first_filed": "2026-09-30"
+  },
+  {
+   "id": "8K-0001193125-26-472368",
+   "type": "M&A",
+   "subtype": "Definitive Agreement",
+   "form": "8-K",
+   "accession": "0001193125-26-472368",
+   "company": "Alta Equipment Group Inc.",
+   "cik": "1759824",
+   "ticker": "ALTG",
+   "city": "Livonia",
+   "state": "MI",
+   "industry": "Wholesale Trade",
+   "sector": "Consumer & Retail",
+   "filed": "2026-11-23",
+   "event_date": null,
+   "amount": 272500000.0,
+   "amount_sold": null,
+   "amount_is_estimate": true,
+   "summary": "Alta Equipment Group Inc. (ALTG) disclosed a definitive merger/acquisition agreement with DRAGSA 120 LLC; filing cites a figure of ~$272.5M.",
+   "excerpt": "Asset Purchase Agreement On November 23, 2026, JP Enterprises Holdings, LLC, a Utah limited liability company and a wholly owned indirect subsidiary of Alta Equipment Group Inc., a Delaware corporation (\"Alta\" or the \"Company\"), and certain other indirect subsidiaries of Alta (collectively, the \"Buyers\"), Jackson Group Peterbilt, Inc., a Utah corporation (\"JGP\"), the other sellers party thereto (together with JGP…",
+   "counterparty": "DRAGSA 120 LLC",
+   "items": [
+    "1.01",
+    "3.02",
+    "5.02",
+    "7.01",
+    "8.01",
+    "9.01"
+   ],
+   "related_persons": [],
+   "details": {
+    "item_titles": [
+     "Entry into a Material Definitive Agreement",
+     "Unregistered Sales of Equity Securities",
+     "Departure/Election of Directors or Officers",
+     "Regulation FD Disclosure",
+     "Other Events",
+     "Financial Statements and Exhibits"
+    ],
+    "sic": "5084"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526472368/0001193125-26-472368-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526472368/altg-20261120.htm"
+  },
   {
    "id": "D-2166185-021-605468",
    "type": "Fundraise",
@@ -4934,75 +5054,6 @@
      "filed": "2026-09-30",
      "form": "D",
      "amount_sold": 1000000.0
-    }
-   ]
-  },
-  {
-   "id": "D-2151729-021-599334",
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "form": "D",
-   "accession": "0002151729-26-000001",
-   "company": "Boch Investment Fund, LLC",
-   "cik": "2151729",
-   "ticker": null,
-   "city": "Bloomfield Hills",
-   "state": "MI",
-   "industry": "Pooled Investment Fund",
-   "sector": "Private Funds",
-   "filed": "2026-09-30",
-   "event_date": null,
-   "amount": 6000000.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "Boch Investment Fund, LLC, a Bloomfield Hills-based private equity fund, disclosed a $6M raise; $0 sold.",
-   "excerpt": null,
-   "counterparty": null,
-   "items": [],
-   "related_persons": [
-    {
-     "name": "DANIEL BACKING",
-     "roles": [
-      "Executive Officer",
-      "Director"
-     ],
-     "clarification": "MANAGER OF ITS MANAGER, BOCH DESIGN, LLC"
-    }
-   ],
-   "details": {
-    "total_offering_amount": 6000000.0,
-    "offering_indefinite": false,
-    "total_remaining": 6000000.0,
-    "investor_count": 0.0,
-    "minimum_investment": 0.0,
-    "securities": [
-     "Equity",
-     "Pooled Fund Interests"
-    ],
-    "exemptions": [
-     "Rule 506(c)",
-     "Investment Company Act 3(c)",
-     "ICA 3(c)(1)"
-    ],
-    "entity_type": "Limited Liability Company",
-    "jurisdiction": "Delaware",
-    "year_of_inc": "2026",
-    "revenue_range": "Decline to Disclose",
-    "fund_type": "Private Equity Fund",
-    "is_pooled_fund": true,
-    "has_non_accredited": false,
-    "sales_commissions": 0.0,
-    "first_sale_yet_to_occur": true,
-    "file_number": "021-599334"
-   },
-   "url": "https://www.sec.gov/Archives/edgar/data/2151729/000215172926000001/0002151729-26-000001-index.htm",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/2151729/000215172926000001/primary_doc.xml",
-   "filings": [
-    {
-     "accession": "0002151729-26-000001",
-     "filed": "2026-09-30",
-     "form": "D",
-     "amount_sold": 0.0
     }
    ]
   },

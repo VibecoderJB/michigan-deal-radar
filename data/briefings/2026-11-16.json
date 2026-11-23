@@ -1,0 +1,211 @@
+{
+ "week_start": "2026-11-16",
+ "week_end": "2026-11-22",
+ "generated_at": "2026-11-23T22:38:30Z",
+ "headline": "8 Michigan deals, $80.9M raised — led by Michigan Capital Network Venture Fund V, L.P.",
+ "stats": {
+  "deal_count": 8,
+  "by_type": {
+   "Fundraise": 5,
+   "M&A": 0,
+   "Material Agreement": 1,
+   "Stake": 2
+  },
+  "capital_raised": 80895600,
+  "capital_targeted": 93855000,
+  "fund_count": 2
+ },
+ "trailing_4wk": {
+  "deal_count": 9.5,
+  "capital_raised": 53828313.2
+ },
+ "change_vs_trailing": {
+  "deal_count_pct": -15.8,
+  "capital_raised_pct": 50.3
+ },
+ "top_deals": [
+  {
+   "id": "D-2081840-021-554927",
+   "company": "Michigan Capital Network Venture Fund V, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 75000000.0,
+   "amount_sold": 75000000.0,
+   "amount_is_estimate": false,
+   "summary": "Michigan Capital Network Venture Fund V, L.P., a Grand Rapids-based investment fund, disclosed an open-ended (indefinite) raise; $75M sold to 87 investors. (Amended filing.)",
+   "filed": "2026-11-19"
+  },
+  {
+   "id": "D-1579495-021-529710",
+   "company": "Bfkw, LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Grand Rapids",
+   "sector": "Health Care & Life Sciences",
+   "amount": 12000000.0,
+   "amount_sold": 2595675.0,
+   "amount_is_estimate": false,
+   "summary": "Bfkw, LLC, a Grand Rapids-based health care company, filed a $12M equity offering under Rule 506(b); $2.6M sold to 10 investors. (Amended filing.)",
+   "filed": "2026-11-19"
+  },
+  {
+   "id": "D-2164666-021-605009",
+   "company": "Savlamar, Inc.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Hudsonville",
+   "sector": "Manufacturing & Automotive",
+   "amount": 6055000.0,
+   "amount_sold": 2499925.0,
+   "amount_is_estimate": false,
+   "summary": "Savlamar, Inc., a Hudsonville-based manufacturing company, filed a $6.1M equity offering under Rule 506(c); $2.5M sold to 3 investors.",
+   "filed": "2026-11-17"
+  },
+  {
+   "id": "D-2166185-021-605468",
+   "company": "GOC Sunset Investors LLC",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "city": "Okemos",
+   "sector": "Real Estate",
+   "amount": 800000.0,
+   "amount_sold": 800000.0,
+   "amount_is_estimate": false,
+   "summary": "GOC Sunset Investors LLC, an Okemos-based residential real estate company, filed a $800K equity offering under Rule 506(b); $800K sold to 15 investors.",
+   "filed": "2026-11-20"
+  }
+ ],
+ "new_funds": [
+  {
+   "id": "D-2081840-021-554927",
+   "company": "Michigan Capital Network Venture Fund V, L.P.",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Other Investment Fund",
+   "city": "Grand Rapids",
+   "sector": "Private Funds",
+   "amount": 75000000.0,
+   "amount_sold": 75000000.0,
+   "amount_is_estimate": false,
+   "summary": "Michigan Capital Network Venture Fund V, L.P., a Grand Rapids-based investment fund, disclosed an open-ended (indefinite) raise; $75M sold to 87 investors. (Amended filing.)",
+   "filed": "2026-11-19"
+  },
+  {
+   "id": "D-2149794-021-605377",
+   "company": "TRM Equity Fund III LP",
+   "ticker": null,
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "city": "Southfield",
+   "sector": "Private Funds",
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "TRM Equity Fund III LP, a Southfield-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
+   "filed": "2026-11-19"
+  }
+ ],
+ "notable_ma": [
+  {
+   "id": "13D-0000950142-26-003135",
+   "company": "Rocket Companies, Inc.",
+   "ticker": "RKT",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Detroit",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Daniel Gilbert and others reported a 55.44% stake in Rocket Companies, Inc. (RKT) (Schedule 13D/A amendment 2).",
+   "filed": "2026-11-20"
+  },
+  {
+   "id": "13D-0001842002-26-000029",
+   "company": "UWM Holdings Corporation",
+   "ticker": "UWMC",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "city": "Pontiac",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Mat Ishbia and others reported a 80.2% stake in UWM Holdings Corporation (UWMC) (Schedule 13D/A amendment 17).",
+   "filed": "2026-11-19"
+  }
+ ],
+ "material_agreements": [
+  {
+   "id": "8K-0001783398-26-000145",
+   "company": "UWM Holdings Corp",
+   "ticker": "UWMC",
+   "type": "Material Agreement",
+   "subtype": "Equity Financing",
+   "city": "Pontiac",
+   "sector": "Financial Services",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "UWM Holdings Corp (UWMC) entered into a material definitive agreement (equity financing).",
+   "filed": "2026-11-17"
+  }
+ ],
+ "top_sectors": [
+  {
+   "sector": "Financial Services",
+   "count": 3,
+   "amount": 0.0
+  },
+  {
+   "sector": "Private Funds",
+   "count": 2,
+   "amount": 75000000.0
+  },
+  {
+   "sector": "Health Care & Life Sciences",
+   "count": 1,
+   "amount": 2595675.0
+  },
+  {
+   "sector": "Manufacturing & Automotive",
+   "count": 1,
+   "amount": 2499925.0
+  },
+  {
+   "sector": "Real Estate",
+   "count": 1,
+   "amount": 800000.0
+  }
+ ],
+ "talking_points": [
+  {
+   "topic": "Capital formation",
+   "text": "Michigan issuers reported $80.9M sold across 5 Form D filings this week, up 50% vs. the prior 4-week average. The largest was Bfkw, LLC (Grand Rapids, Other Health Care) targeting $12M. Good question to ask: are founders in health care & life sciences favoring equity rounds over venture debt right now?",
+   "deal_ids": [
+    "D-1579495-021-529710"
+   ]
+  },
+  {
+   "topic": "Fund formation",
+   "text": "2 Michigan-based pooled funds filed Form Ds, reporting $75M raised so far — led by Michigan Capital Network Venture Fund V, L.P. (Other Investment Fund). A natural opener: what are LPs asking Michigan sponsors for in today's fundraising market?",
+   "deal_ids": [
+    "D-2081840-021-554927",
+    "D-2149794-021-605377"
+   ]
+  },
+  {
+   "topic": "Ownership moves",
+   "text": "Mat Ishbia and others reported a 80.2% stake in UWM Holdings Corporation (UWMC) (Schedule 13D/A amendment 17). Schedule 13D filers can push for strategic change, so it's worth asking whether shareholders see a sale or restructuring on the table.",
+   "deal_ids": [
+    "13D-0001842002-26-000029"
+   ]
+  }
+ ]
+}

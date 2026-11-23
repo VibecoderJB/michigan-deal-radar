@@ -1,6 +1,13 @@
 {
- "generated_at": "2026-11-22T18:29:46Z",
+ "generated_at": "2026-11-23T22:38:30Z",
  "weeks": [
+  {
+   "week_start": "2026-11-16",
+   "week_end": "2026-11-22",
+   "headline": "8 Michigan deals, $80.9M raised — led by Michigan Capital Network Venture Fund V, L.P.",
+   "deal_count": 8,
+   "capital_raised": 80895600
+  },
   {
    "week_start": "2026-11-09",
    "week_end": "2026-11-15",
