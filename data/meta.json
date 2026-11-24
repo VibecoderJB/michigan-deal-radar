@@ -2,50 +2,48 @@
  "coverage_start": "2025-11-08",
  "pipeline_version": "1.0.0",
  "last_run": {
-  "started_at": "2026-11-23T22:38:28Z",
+  "started_at": "2026-11-24T21:10:49Z",
   "window": [
-   "2026-11-13",
-   "2026-11-23"
+   "2026-11-14",
+   "2026-11-24"
   ],
   "sources": {
    "formd": {
     "status": "ok",
-    "seen": 10,
-    "new": 1,
-    "skipped": 9,
+    "seen": 9,
+    "new": 3,
+    "skipped": 6,
     "errors": 0
    },
    "8k": {
     "status": "ok",
     "seen": 4,
-    "new": 1,
-    "skipped": 3,
+    "new": 0,
+    "skipped": 4,
     "errors": 0
    },
    "13d": {
     "status": "ok",
     "seen": 3,
-    "new": 0,
-    "skipped": 3,
+    "new": 1,
+    "skipped": 2,
     "errors": 0
    }
   },
   "errors": [],
-  "requests": 8,
-  "briefings_written": [
-   "2026-11-16"
-  ],
-  "duration_seconds": 2.5
+  "requests": 10,
+  "briefings_written": [],
+  "duration_seconds": 2.7
  },
- "updated_at": "2026-11-23T22:38:30Z",
- "deal_count": 528,
+ "updated_at": "2026-11-24T21:10:52Z",
+ "deal_count": 531,
  "counts_by_type": {
-  "Fundraise": 329,
+  "Fundraise": 331,
+  "Stake": 44,
   "M&A": 81,
-  "Stake": 43,
   "Material Agreement": 75
  },
- "latest_filing": "2026-11-23",
+ "latest_filing": "2026-11-24",
  "earliest_filing": "2025-11-10",
  "state": "Michigan",
  "source": "SEC EDGAR full-text search + filing archives"

@@ -1,9 +1,339 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-23T22:38:30Z",
+ "generated_at": "2026-11-24T21:10:52Z",
  "state": "MI",
- "count": 528,
+ "count": 531,
  "deals": [
+  {
+   "id": "D-2166126-021-605902",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002166126-26-000001",
+   "company": "Gtf Technologies Holdings, Inc.",
+   "cik": "2166126",
+   "ticker": null,
+   "city": "Ada",
+   "state": "MI",
+   "industry": "Manufacturing",
+   "sector": "Manufacturing & Automotive",
+   "filed": "2026-11-24",
+   "event_date": "2026-11-09",
+   "amount": 8000000.0,
+   "amount_sold": 841275.0,
+   "amount_is_estimate": false,
+   "summary": "Gtf Technologies Holdings, Inc., an Ada-based manufacturing company, filed a $8M equity offering under Rule 506(b); $841.3K sold to 8 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "James M Weaver",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Steve Timyan",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Chris Branhoff",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Stephen Kusmierczak",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Jim Mol",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Gary Schuler",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Harold Voorhees",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 8000000.0,
+    "offering_indefinite": false,
+    "total_remaining": 7158725.0,
+    "investor_count": 8.0,
+    "minimum_investment": 0.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Corporation",
+    "jurisdiction": "Michigan",
+    "year_of_inc": "2023",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-605902"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2166126/000216612626000001/0002166126-26-000001-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2166126/000216612626000001/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002166126-26-000001",
+     "filed": "2026-11-24",
+     "form": "D",
+     "amount_sold": 841275.0
+    }
+   ]
+  },
+  {
+   "id": "D-2165934-021-605889",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002165934-26-000001",
+   "company": "Hillside Channing Alpha Tech Investors LLC",
+   "cik": "2165934",
+   "ticker": null,
+   "city": "Farmington Hills",
+   "state": "MI",
+   "industry": "Commercial",
+   "sector": "Real Estate",
+   "filed": "2026-11-24",
+   "event_date": "2026-08-13",
+   "amount": 5322500.0,
+   "amount_sold": 4955000.0,
+   "amount_is_estimate": false,
+   "summary": "Hillside Channing Alpha Tech Investors LLC, a Farmington Hills-based commercial real estate company, filed a $5.3M equity offering under Rule 506(b); $5M sold to 34 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "David A Kornbluth",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Jaimey N Roth",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 5322500.0,
+    "offering_indefinite": false,
+    "total_remaining": 367500.0,
+    "investor_count": 34.0,
+    "minimum_investment": 10000.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Michigan",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-605889"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2165934/000216593426000001/0002165934-26-000001-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2165934/000216593426000001/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002165934-26-000001",
+     "filed": "2026-11-24",
+     "form": "D",
+     "amount_sold": 4955000.0
+    }
+   ]
+  },
+  {
+   "id": "D-1622872-021-590234",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D/A",
+   "accession": "0001622872-26-000002",
+   "company": "Akadeum Life Sciences, Inc.",
+   "cik": "1622872",
+   "ticker": null,
+   "city": "Ann Arbor",
+   "state": "MI",
+   "industry": "Biotechnology",
+   "sector": "Health Care & Life Sciences",
+   "filed": "2026-11-24",
+   "event_date": "2026-06-25",
+   "amount": 5027230.0,
+   "amount_sold": 3932287.0,
+   "amount_is_estimate": false,
+   "summary": "Akadeum Life Sciences, Inc., an Ann Arbor-based biotechnology company, filed a $5M equity offering under Rule 506(b); $3.9M sold to 18 investors. (Amended filing.)",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Kalyan Handique",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Paul D'Amato",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Jenni Li",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "James Militello",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 5027230.0,
+    "offering_indefinite": false,
+    "total_remaining": 1094943.0,
+    "investor_count": 18.0,
+    "minimum_investment": 0.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Corporation",
+    "jurisdiction": "Delaware",
+    "year_of_inc": null,
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-590234"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/1622872/000162287226000002/0001622872-26-000002-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1622872/000162287226000002/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0001622872-26-000001",
+     "filed": "2026-07-09",
+     "form": "D",
+     "amount_sold": 2130557.0
+    },
+    {
+     "accession": "0001622872-26-000002",
+     "filed": "2026-11-24",
+     "form": "D/A",
+     "amount_sold": 3932287.0
+    }
+   ],
+   "first_filed": "2026-07-09"
+  },
+  {
+   "id": "13D-0001193125-26-475637",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "form": "SCHEDULE 13D/A",
+   "accession": "0001193125-26-475637",
+   "company": "Alta Equipment Group Inc.",
+   "cik": "1759824",
+   "ticker": "ALTG",
+   "city": "Livonia",
+   "state": "MI",
+   "industry": "Wholesale Trade",
+   "sector": "Consumer & Retail",
+   "filed": "2026-11-24",
+   "event_date": "2026-11-23",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Mill Road Capital III, L.P. and others reported a 13.3% stake in Alta Equipment Group Inc. (ALTG) (Schedule 13D/A amendment 11).",
+   "excerpt": "Item 4 of the Schedule 13D shall hereby be amended by inserting the following new paragraphs after the fourteenth paragraph: On November 23, 2026, the Fund entered into a Voting Agreement (the \"Voting Agreement\") with the Issuer and certain other stockholders of the Issuer.",
+   "counterparty": "Mill Road Capital III, L.P.",
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Mill Road Capital III, L.P.",
+     "roles": [
+      "13.3% of class"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Mill Road Capital III GP LLC",
+     "roles": [
+      "13.3% of class"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Thomas E. Lynch",
+     "roles": [
+      "13.3% of class"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "percent_of_class": 13.3,
+    "security_class": "Common stock, $0.0001 par value",
+    "cusip": "02128L106",
+    "amendment_no": "11"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526475637/0001193125-26-475637-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526475637/primary_doc.xml"
+  },
   {
    "id": "D-2151729-021-599334",
    "type": "Fundraise",
@@ -15990,93 +16320,6 @@
      "filed": "2026-07-09",
      "form": "D",
      "amount_sold": 25000000.0
-    }
-   ]
-  },
-  {
-   "id": "D-1622872-021-590234",
-   "type": "Fundraise",
-   "subtype": "Private Placement",
-   "form": "D",
-   "accession": "0001622872-26-000001",
-   "company": "Akadeum Life Sciences, Inc.",
-   "cik": "1622872",
-   "ticker": null,
-   "city": "Ann Arbor",
-   "state": "MI",
-   "industry": "Biotechnology",
-   "sector": "Health Care & Life Sciences",
-   "filed": "2026-07-09",
-   "event_date": "2026-06-25",
-   "amount": 3427230.0,
-   "amount_sold": 2130557.0,
-   "amount_is_estimate": false,
-   "summary": "Akadeum Life Sciences, Inc., an Ann Arbor-based biotechnology company, filed a $3.4M equity offering under Rule 506(b); $2.1M sold to 9 investors.",
-   "excerpt": null,
-   "counterparty": null,
-   "items": [],
-   "related_persons": [
-    {
-     "name": "Kalyan Handique",
-     "roles": [
-      "Executive Officer",
-      "Director"
-     ],
-     "clarification": null
-    },
-    {
-     "name": "Paul D'Amato",
-     "roles": [
-      "Director"
-     ],
-     "clarification": null
-    },
-    {
-     "name": "Jenni Li",
-     "roles": [
-      "Director"
-     ],
-     "clarification": null
-    },
-    {
-     "name": "James Militello",
-     "roles": [
-      "Executive Officer"
-     ],
-     "clarification": null
-    }
-   ],
-   "details": {
-    "total_offering_amount": 3427230.0,
-    "offering_indefinite": false,
-    "total_remaining": 1296673.0,
-    "investor_count": 9.0,
-    "minimum_investment": 0.0,
-    "securities": [
-     "Equity"
-    ],
-    "exemptions": [
-     "Rule 506(b)"
-    ],
-    "entity_type": "Corporation",
-    "jurisdiction": "Delaware",
-    "year_of_inc": null,
-    "revenue_range": "Decline to Disclose",
-    "fund_type": null,
-    "is_pooled_fund": false,
-    "has_non_accredited": false,
-    "sales_commissions": 0.0,
-    "first_sale_yet_to_occur": false,
-    "file_number": "021-590234"
-   },
-   "url": "https://www.sec.gov/Archives/edgar/data/1622872/000162287226000001/0001622872-26-000001-index.htm",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/1622872/000162287226000001/primary_doc.xml",
-   "filings": [
-    {
-     "accession": "0001622872-26-000001",
-     "filed": "2026-07-09",
-     "form": "D",
-     "amount_sold": 2130557.0
     }
    ]
   },
