@@ -1,9 +1,722 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-24T21:10:52Z",
+ "generated_at": "2026-11-25T20:28:14Z",
  "state": "MI",
- "count": 531,
+ "count": 543,
  "deals": [
+  {
+   "id": "D-2166744-021-606010",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002166744-26-000001",
+   "company": "My Storage Holdings II, LLC",
+   "cik": "2166744",
+   "ticker": null,
+   "city": "Lowell",
+   "state": "MI",
+   "industry": "Other Real Estate",
+   "sector": "Real Estate",
+   "filed": "2026-11-25",
+   "event_date": "2026-11-10",
+   "amount": 1751400.0,
+   "amount_sold": 1751400.0,
+   "amount_is_estimate": false,
+   "summary": "My Storage Holdings II, LLC, a Lowell-based real estate company, filed a $1.8M equity offering under Rule 506(b); $1.8M sold to 16 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Gabriel Curtis Dean",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 1751400.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 16.0,
+    "minimum_investment": 25000.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-606010"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2166744/000216674426000001/0002166744-26-000001-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2166744/000216674426000001/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002166744-26-000001",
+     "filed": "2026-11-25",
+     "form": "D",
+     "amount_sold": 1751400.0
+    }
+   ]
+  },
+  {
+   "id": "D-2165789-021-606026",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002080612-26-000061",
+   "company": "RHP Partners III REIT Sub 1, LLC",
+   "cik": "2165789",
+   "ticker": null,
+   "city": "Farmington Hills",
+   "state": "MI",
+   "industry": "REITS and Finance",
+   "sector": "Real Estate",
+   "filed": "2026-11-25",
+   "event_date": null,
+   "amount": 62500.0,
+   "amount_sold": 62500.0,
+   "amount_is_estimate": false,
+   "summary": "RHP Partners III REIT Sub 1, LLC, a Farmington Hills-based real estate finance company, filed a $62.5K equity offering under Rule 506(b); $62.5K sold to 125 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Ross H. Partrich",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "RHP Partners III Splitter, LP --",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 62500.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 125.0,
+    "minimum_investment": 500.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 8500.0,
+    "first_sale_yet_to_occur": true,
+    "file_number": "021-606026"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2165789/000208061226000061/0002080612-26-000061-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2165789/000208061226000061/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002080612-26-000061",
+     "filed": "2026-11-25",
+     "form": "D",
+     "amount_sold": 62500.0
+    }
+   ]
+  },
+  {
+   "id": "D-2165788-021-606036",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002080612-26-000062",
+   "company": "RHP Partners III REIT Sub 2, LLC",
+   "cik": "2165788",
+   "ticker": null,
+   "city": "Farmington Hills",
+   "state": "MI",
+   "industry": "REITS and Finance",
+   "sector": "Real Estate",
+   "filed": "2026-11-25",
+   "event_date": null,
+   "amount": 62500.0,
+   "amount_sold": 62500.0,
+   "amount_is_estimate": false,
+   "summary": "RHP Partners III REIT Sub 2, LLC, a Farmington Hills-based real estate finance company, filed a $62.5K equity offering under Rule 506(b); $62.5K sold to 125 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Ross H. Partrich",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "RHP Partners III Splitter, LP --",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 62500.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 125.0,
+    "minimum_investment": 500.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 8500.0,
+    "first_sale_yet_to_occur": true,
+    "file_number": "021-606036"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2165788/000208061226000062/0002080612-26-000062-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2165788/000208061226000062/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002080612-26-000062",
+     "filed": "2026-11-25",
+     "form": "D",
+     "amount_sold": 62500.0
+    }
+   ]
+  },
+  {
+   "id": "D-2165787-021-606041",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002080612-26-000063",
+   "company": "RHP Partners III REIT Sub 3, LLC",
+   "cik": "2165787",
+   "ticker": null,
+   "city": "Farmington Hills",
+   "state": "MI",
+   "industry": "REITS and Finance",
+   "sector": "Real Estate",
+   "filed": "2026-11-25",
+   "event_date": null,
+   "amount": 62500.0,
+   "amount_sold": 62500.0,
+   "amount_is_estimate": false,
+   "summary": "RHP Partners III REIT Sub 3, LLC, a Farmington Hills-based real estate finance company, filed a $62.5K equity offering under Rule 506(b); $62.5K sold to 125 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Ross H. Partrich",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "RHP Partners III Splitter, LP --",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 62500.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 125.0,
+    "minimum_investment": 500.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 8500.0,
+    "first_sale_yet_to_occur": true,
+    "file_number": "021-606041"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2165787/000208061226000063/0002080612-26-000063-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2165787/000208061226000063/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002080612-26-000063",
+     "filed": "2026-11-25",
+     "form": "D",
+     "amount_sold": 62500.0
+    }
+   ]
+  },
+  {
+   "id": "D-2165786-021-606046",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002080612-26-000064",
+   "company": "RHP Partners III REIT Sub 4, LLC",
+   "cik": "2165786",
+   "ticker": null,
+   "city": "Farmington Hills",
+   "state": "MI",
+   "industry": "REITS and Finance",
+   "sector": "Real Estate",
+   "filed": "2026-11-25",
+   "event_date": null,
+   "amount": 62500.0,
+   "amount_sold": 62500.0,
+   "amount_is_estimate": false,
+   "summary": "RHP Partners III REIT Sub 4, LLC, a Farmington Hills-based real estate finance company, filed a $62.5K equity offering under Rule 506(b); $62.5K sold to 125 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Ross H. Partrich",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "RHP Partners III Splitter, LP --",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 62500.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 125.0,
+    "minimum_investment": 500.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 8500.0,
+    "first_sale_yet_to_occur": true,
+    "file_number": "021-606046"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2165786/000208061226000064/0002080612-26-000064-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2165786/000208061226000064/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002080612-26-000064",
+     "filed": "2026-11-25",
+     "form": "D",
+     "amount_sold": 62500.0
+    }
+   ]
+  },
+  {
+   "id": "D-2165785-021-606078",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002080612-26-000065",
+   "company": "RHP Partners III REIT Sub 5, LLC",
+   "cik": "2165785",
+   "ticker": null,
+   "city": "Farmington Hills",
+   "state": "MI",
+   "industry": "REITS and Finance",
+   "sector": "Real Estate",
+   "filed": "2026-11-25",
+   "event_date": null,
+   "amount": 62500.0,
+   "amount_sold": 62500.0,
+   "amount_is_estimate": false,
+   "summary": "RHP Partners III REIT Sub 5, LLC, a Farmington Hills-based real estate finance company, filed a $62.5K equity offering under Rule 506(b); $62.5K sold to 125 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Ross H. Partrich",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "RHP Partners III Splitter, LP --",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 62500.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 125.0,
+    "minimum_investment": 500.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 8500.0,
+    "first_sale_yet_to_occur": true,
+    "file_number": "021-606078"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2165785/000208061226000065/0002080612-26-000065-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2165785/000208061226000065/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002080612-26-000065",
+     "filed": "2026-11-25",
+     "form": "D",
+     "amount_sold": 62500.0
+    }
+   ]
+  },
+  {
+   "id": "D-2165784-021-606082",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002080612-26-000066",
+   "company": "RHP Partners III REIT Sub 6, LLC",
+   "cik": "2165784",
+   "ticker": null,
+   "city": "Farmington Hills",
+   "state": "MI",
+   "industry": "REITS and Finance",
+   "sector": "Real Estate",
+   "filed": "2026-11-25",
+   "event_date": null,
+   "amount": 62500.0,
+   "amount_sold": 62500.0,
+   "amount_is_estimate": false,
+   "summary": "RHP Partners III REIT Sub 6, LLC, a Farmington Hills-based real estate finance company, filed a $62.5K equity offering under Rule 506(b); $62.5K sold to 125 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Ross H. Partrich",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "RHP Partners III Splitter, LP --",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 62500.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 125.0,
+    "minimum_investment": 500.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 8500.0,
+    "first_sale_yet_to_occur": true,
+    "file_number": "021-606082"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2165784/000208061226000066/0002080612-26-000066-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2165784/000208061226000066/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002080612-26-000066",
+     "filed": "2026-11-25",
+     "form": "D",
+     "amount_sold": 62500.0
+    }
+   ]
+  },
+  {
+   "id": "D-2165783-021-606085",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002080612-26-000067",
+   "company": "RHP Partners III REIT Sub 7, LLC",
+   "cik": "2165783",
+   "ticker": null,
+   "city": "Farmington Hills",
+   "state": "MI",
+   "industry": "REITS and Finance",
+   "sector": "Real Estate",
+   "filed": "2026-11-25",
+   "event_date": null,
+   "amount": 62500.0,
+   "amount_sold": 62500.0,
+   "amount_is_estimate": false,
+   "summary": "RHP Partners III REIT Sub 7, LLC, a Farmington Hills-based real estate finance company, filed a $62.5K equity offering under Rule 506(b); $62.5K sold to 125 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Ross H. Partrich",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "RHP Partners III Splitter, LP --",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 62500.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 125.0,
+    "minimum_investment": 500.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 8500.0,
+    "first_sale_yet_to_occur": true,
+    "file_number": "021-606085"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2165783/000208061226000067/0002080612-26-000067-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2165783/000208061226000067/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002080612-26-000067",
+     "filed": "2026-11-25",
+     "form": "D",
+     "amount_sold": 62500.0
+    }
+   ]
+  },
+  {
+   "id": "D-2165782-021-606089",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002080612-26-000068",
+   "company": "RHP Partners III REIT Sub 8, LLC",
+   "cik": "2165782",
+   "ticker": null,
+   "city": "Farmington Hills",
+   "state": "MI",
+   "industry": "REITS and Finance",
+   "sector": "Real Estate",
+   "filed": "2026-11-25",
+   "event_date": null,
+   "amount": 62500.0,
+   "amount_sold": 62500.0,
+   "amount_is_estimate": false,
+   "summary": "RHP Partners III REIT Sub 8, LLC, a Farmington Hills-based real estate finance company, filed a $62.5K equity offering under Rule 506(b); $62.5K sold to 125 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Ross H. Partrich",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "RHP Partners III Splitter, LP --",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 62500.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 125.0,
+    "minimum_investment": 500.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 8500.0,
+    "first_sale_yet_to_occur": true,
+    "file_number": "021-606089"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2165782/000208061226000068/0002080612-26-000068-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2165782/000208061226000068/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002080612-26-000068",
+     "filed": "2026-11-25",
+     "form": "D",
+     "amount_sold": 62500.0
+    }
+   ]
+  },
+  {
+   "id": "D-2165781-021-606092",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002080612-26-000069",
+   "company": "RHP Partners III REIT Sub 9, LLC",
+   "cik": "2165781",
+   "ticker": null,
+   "city": "Farmington Hills",
+   "state": "MI",
+   "industry": "REITS and Finance",
+   "sector": "Real Estate",
+   "filed": "2026-11-25",
+   "event_date": null,
+   "amount": 62500.0,
+   "amount_sold": 62500.0,
+   "amount_is_estimate": false,
+   "summary": "RHP Partners III REIT Sub 9, LLC, a Farmington Hills-based real estate finance company, filed a $62.5K equity offering under Rule 506(b); $62.5K sold to 125 investors.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Ross H. Partrich",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "RHP Partners III Splitter, LP --",
+     "roles": [
+      "Director"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 62500.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 125.0,
+    "minimum_investment": 500.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Limited Liability Company",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 8500.0,
+    "first_sale_yet_to_occur": true,
+    "file_number": "021-606092"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2165781/000208061226000069/0002080612-26-000069-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2165781/000208061226000069/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002080612-26-000069",
+     "filed": "2026-11-25",
+     "form": "D",
+     "amount_sold": 62500.0
+    }
+   ]
+  },
   {
    "id": "D-2166126-021-605902",
    "type": "Fundraise",
@@ -187,6 +900,167 @@
    ]
   },
   {
+   "id": "D-2149794-021-605377",
+   "type": "Fundraise",
+   "subtype": "Private Equity Fund",
+   "form": "D/A",
+   "accession": "0002149794-26-000002",
+   "company": "TRM Equity Fund III LP",
+   "cik": "2149794",
+   "ticker": null,
+   "city": "Southfield",
+   "state": "MI",
+   "industry": "Pooled Investment Fund",
+   "sector": "Private Funds",
+   "filed": "2026-11-24",
+   "event_date": null,
+   "amount": 0.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "TRM Equity Fund III LP, a Southfield-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold. (Amended filing.)",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "TRM III GP LLC",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": "General Partner of Issuer"
+    },
+    {
+     "name": "Jeffrey Stone",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": "Manager of the GP of Issuer"
+    },
+    {
+     "name": "Robert Sylvester",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": "Manager of the GP of the Issuer"
+    },
+    {
+     "name": "TRM Advisors LP",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": "Manager of the Manager of the GP of Issuer"
+    }
+   ],
+   "details": {
+    "total_offering_amount": null,
+    "offering_indefinite": true,
+    "total_remaining": null,
+    "investor_count": 0.0,
+    "minimum_investment": 0.0,
+    "securities": [
+     "Pooled Fund Interests"
+    ],
+    "exemptions": [
+     "Rule 506(b)",
+     "Investment Company Act 3(c)",
+     "ICA 3(c)(7)"
+    ],
+    "entity_type": "Limited Partnership",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": "Decline to Disclose",
+    "fund_type": "Private Equity Fund",
+    "is_pooled_fund": true,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": true,
+    "file_number": "021-605377"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2149794/000214979426000002/0002149794-26-000002-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2149794/000214979426000002/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002149794-26-000001",
+     "filed": "2026-11-19",
+     "form": "D",
+     "amount_sold": 0.0
+    },
+    {
+     "accession": "0002149794-26-000002",
+     "filed": "2026-11-24",
+     "form": "D/A",
+     "amount_sold": 0.0
+    }
+   ],
+   "first_filed": "2026-11-19"
+  },
+  {
+   "id": "D-1760855-021-605933",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0001493152-26-054039",
+   "company": "Riemann Computing Inc.",
+   "cik": "1760855",
+   "ticker": null,
+   "city": "Troy",
+   "state": "MI",
+   "industry": "Computers",
+   "sector": "Technology",
+   "filed": "2026-11-24",
+   "event_date": null,
+   "amount": 3500000.0,
+   "amount_sold": 0.0,
+   "amount_is_estimate": false,
+   "summary": "Riemann Computing Inc., a Troy-based computers company, filed a $3.5M equity offering under Rule 506(c); $0 sold.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Andrew Magdy Kamal",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clarification": "Founder and CEO; confirm promoter status"
+    }
+   ],
+   "details": {
+    "total_offering_amount": 3500000.0,
+    "offering_indefinite": false,
+    "total_remaining": 3500000.0,
+    "investor_count": 0.0,
+    "minimum_investment": 50000.0,
+    "securities": [
+     "Equity"
+    ],
+    "exemptions": [
+     "Rule 506(c)"
+    ],
+    "entity_type": "Corporation",
+    "jurisdiction": "Michigan",
+    "year_of_inc": null,
+    "revenue_range": "$1 - $1,000,000",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 50000.0,
+    "first_sale_yet_to_occur": true,
+    "file_number": "021-605933"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/1760855/000149315226054039/0001493152-26-054039-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1760855/000149315226054039/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0001493152-26-054039",
+     "filed": "2026-11-24",
+     "form": "D",
+     "amount_sold": 0.0
+    }
+   ]
+  },
+  {
    "id": "D-1622872-021-590234",
    "type": "Fundraise",
    "subtype": "Private Placement",
@@ -279,6 +1153,44 @@
     }
    ],
    "first_filed": "2026-07-09"
+  },
+  {
+   "id": "8K-0001193125-26-475911",
+   "type": "Material Agreement",
+   "subtype": "Credit Facility",
+   "form": "8-K",
+   "accession": "0001193125-26-475911",
+   "company": "DTE Energy Co",
+   "cik": "936340",
+   "ticker": "DTE",
+   "city": "Detroit",
+   "state": "MI",
+   "industry": "Utilities",
+   "sector": "Energy & Utilities",
+   "filed": "2026-11-24",
+   "event_date": null,
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "DTE Energy Co (DTE) entered into a material definitive agreement (credit facility).",
+   "excerpt": "On November 18, 2026, each of DTE Energy Company (\"DTE Energy\"), DTE Electric Company (\"DTE Electric\") and DTE Gas Company (\"DTE Gas\") entered into Amendment No. 1 (each, an \"Amendment\") to its respective Sixth Amended and Restated Five-Year Credit Agreement (each as amended, a \"Facility\"), with a syndicate of lenders and Citibank, N.A., as Administrative Agent.",
+   "counterparty": null,
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "related_persons": [],
+   "details": {
+    "item_titles": [
+     "Entry into a Material Definitive Agreement",
+     "Creation of a Direct Financial Obligation",
+     "Financial Statements and Exhibits"
+    ],
+    "sic": "4911"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/936340/000119312526475911/0001193125-26-475911-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/936340/000119312526475911/d126028d8k.htm"
   },
   {
    "id": "13D-0001193125-26-475637",
@@ -580,93 +1492,6 @@
    },
    "url": "https://www.sec.gov/Archives/edgar/data/1805284/000095014226003135/0000950142-26-003135-index.htm",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/1805284/000095014226003135/primary_doc.xml"
-  },
-  {
-   "id": "D-2149794-021-605377",
-   "type": "Fundraise",
-   "subtype": "Private Equity Fund",
-   "form": "D",
-   "accession": "0002149794-26-000001",
-   "company": "TRM Equity Fund III LP",
-   "cik": "2149794",
-   "ticker": null,
-   "city": "Southfield",
-   "state": "MI",
-   "industry": "Pooled Investment Fund",
-   "sector": "Private Funds",
-   "filed": "2026-11-19",
-   "event_date": null,
-   "amount": 0.0,
-   "amount_sold": 0.0,
-   "amount_is_estimate": false,
-   "summary": "TRM Equity Fund III LP, a Southfield-based private equity fund, disclosed an open-ended (indefinite) raise; $0 sold.",
-   "excerpt": null,
-   "counterparty": null,
-   "items": [],
-   "related_persons": [
-    {
-     "name": "TRM III GP LLC",
-     "roles": [
-      "Executive Officer"
-     ],
-     "clarification": "General Partner of Issuer"
-    },
-    {
-     "name": "Jeffrey Stone",
-     "roles": [
-      "Executive Officer"
-     ],
-     "clarification": "Manager of the GP of Issuer"
-    },
-    {
-     "name": "Robert Sylvester",
-     "roles": [
-      "Executive Officer"
-     ],
-     "clarification": "Manager of the GP of the Issuer"
-    },
-    {
-     "name": "TRM Advisors LP",
-     "roles": [
-      "Executive Officer"
-     ],
-     "clarification": "Manager of the Manager of the GP of Issuer"
-    }
-   ],
-   "details": {
-    "total_offering_amount": null,
-    "offering_indefinite": true,
-    "total_remaining": null,
-    "investor_count": 0.0,
-    "minimum_investment": 0.0,
-    "securities": [
-     "Pooled Fund Interests"
-    ],
-    "exemptions": [
-     "Investment Company Act 3(c)",
-     "ICA 3(c)(7)"
-    ],
-    "entity_type": "Limited Partnership",
-    "jurisdiction": "Delaware",
-    "year_of_inc": "2026",
-    "revenue_range": "Decline to Disclose",
-    "fund_type": "Private Equity Fund",
-    "is_pooled_fund": true,
-    "has_non_accredited": false,
-    "sales_commissions": 0.0,
-    "first_sale_yet_to_occur": true,
-    "file_number": "021-605377"
-   },
-   "url": "https://www.sec.gov/Archives/edgar/data/2149794/000214979426000001/0002149794-26-000001-index.htm",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/2149794/000214979426000001/primary_doc.xml",
-   "filings": [
-    {
-     "accession": "0002149794-26-000001",
-     "filed": "2026-11-19",
-     "form": "D",
-     "amount_sold": 0.0
-    }
-   ]
   },
   {
    "id": "D-2081840-021-554927",
