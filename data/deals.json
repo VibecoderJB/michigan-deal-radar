@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-25T20:28:14Z",
+ "generated_at": "2026-11-26T20:10:17Z",
  "state": "MI",
- "count": 543,
+ "count": 544,
  "deals": [
   {
    "id": "D-2166744-021-606010",
@@ -716,6 +716,46 @@
      "amount_sold": 62500.0
     }
    ]
+  },
+  {
+   "id": "13D-0001213900-26-124271",
+   "type": "Stake",
+   "subtype": "13D Amendment",
+   "form": "SCHEDULE 13D/A",
+   "accession": "0001213900-26-124271",
+   "company": "Alta Equipment Group Inc.",
+   "cik": "1759824",
+   "ticker": "ALTG",
+   "city": "Livonia",
+   "state": "MI",
+   "industry": "Wholesale Trade",
+   "sector": "Consumer & Retail",
+   "filed": "2026-11-25",
+   "event_date": "2026-11-23",
+   "amount": null,
+   "amount_sold": null,
+   "amount_is_estimate": false,
+   "summary": "Ryan Greenawalt reported a 17.1% stake in Alta Equipment Group Inc. (ALTG) (Schedule 13D/A amendment 3).",
+   "excerpt": "Item 4 of the Schedule 13D is amended and supplemented by adding the following paragraphs at the end thereof: On November 23, 2026, the Reporting Person entered into a Voting Agreement (the \"Voting Agreement\") with the Issuer. The Voting Agreement was entered into in connection with a private placement financing (the \"PIPE Financing\") pursuant to a Stock Purchase Agreement, dated November 23, 2026 (the \"Stock…",
+   "counterparty": "Ryan Greenawalt",
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Ryan Greenawalt",
+     "roles": [
+      "17.1% of class"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "percent_of_class": 17.1,
+    "security_class": "Common Stock, $0.0001 par value per share",
+    "cusip": "02128L106",
+    "amendment_no": "3"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/1759824/000121390026124271/0001213900-26-124271-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1759824/000121390026124271/primary_doc.xml"
   },
   {
    "id": "D-2166126-021-605902",

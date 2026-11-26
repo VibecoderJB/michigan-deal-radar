@@ -2,45 +2,45 @@
  "coverage_start": "2025-11-08",
  "pipeline_version": "1.0.0",
  "last_run": {
-  "started_at": "2026-11-25T20:28:09Z",
+  "started_at": "2026-11-26T20:10:13Z",
   "window": [
-   "2026-11-15",
-   "2026-11-25"
+   "2026-11-16",
+   "2026-11-26"
   ],
   "sources": {
    "formd": {
     "status": "ok",
     "seen": 21,
-    "new": 12,
-    "skipped": 9,
+    "new": 0,
+    "skipped": 21,
     "errors": 0
    },
    "8k": {
     "status": "ok",
     "seen": 6,
-    "new": 1,
-    "skipped": 5,
+    "new": 0,
+    "skipped": 6,
     "errors": 0
    },
    "13d": {
     "status": "ok",
-    "seen": 3,
-    "new": 0,
+    "seen": 4,
+    "new": 1,
     "skipped": 3,
     "errors": 0
    }
   },
   "errors": [],
-  "requests": 19,
+  "requests": 8,
   "briefings_written": [],
-  "duration_seconds": 4.6
+  "duration_seconds": 4.3
  },
- "updated_at": "2026-11-25T20:28:14Z",
- "deal_count": 543,
+ "updated_at": "2026-11-26T20:10:17Z",
+ "deal_count": 544,
  "counts_by_type": {
   "Fundraise": 342,
+  "Stake": 45,
   "Material Agreement": 76,
-  "Stake": 44,
   "M&A": 81
  },
  "latest_filing": "2026-11-25",
