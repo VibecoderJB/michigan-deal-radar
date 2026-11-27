@@ -1,9 +1,82 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-26T20:10:17Z",
+ "generated_at": "2026-11-27T19:56:39Z",
  "state": "MI",
- "count": 544,
+ "count": 545,
  "deals": [
+  {
+   "id": "D-2166411-021-606146",
+   "type": "Fundraise",
+   "subtype": "Private Placement",
+   "form": "D",
+   "accession": "0002166411-26-000001",
+   "company": "Avectic Corp",
+   "cik": "2166411",
+   "ticker": null,
+   "city": "Clarkston",
+   "state": "MI",
+   "industry": "Other Health Care",
+   "sector": "Health Care & Life Sciences",
+   "filed": "2026-11-27",
+   "event_date": "2026-11-11",
+   "amount": 50000.0,
+   "amount_sold": 50000.0,
+   "amount_is_estimate": false,
+   "summary": "Avectic Corp, a Clarkston-based health care company, filed a $50K SAFE offering under Rule 506(b); $50K sold to 1 investor.",
+   "excerpt": null,
+   "counterparty": null,
+   "items": [],
+   "related_persons": [
+    {
+     "name": "Ryan Keith Kamykowski",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ],
+     "clarification": null
+    },
+    {
+     "name": "Benjamin Adam Downs",
+     "roles": [
+      "Executive Officer"
+     ],
+     "clarification": null
+    }
+   ],
+   "details": {
+    "total_offering_amount": 50000.0,
+    "offering_indefinite": false,
+    "total_remaining": 0.0,
+    "investor_count": 1.0,
+    "minimum_investment": 0.0,
+    "securities": [
+     "Simple Agreement for Future Equity (SAFE)"
+    ],
+    "exemptions": [
+     "Rule 506(b)"
+    ],
+    "entity_type": "Corporation",
+    "jurisdiction": "Delaware",
+    "year_of_inc": "2026",
+    "revenue_range": "No Revenues",
+    "fund_type": null,
+    "is_pooled_fund": false,
+    "has_non_accredited": false,
+    "sales_commissions": 0.0,
+    "first_sale_yet_to_occur": false,
+    "file_number": "021-606146"
+   },
+   "url": "https://www.sec.gov/Archives/edgar/data/2166411/000216641126000001/0002166411-26-000001-index.htm",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2166411/000216641126000001/primary_doc.xml",
+   "filings": [
+    {
+     "accession": "0002166411-26-000001",
+     "filed": "2026-11-27",
+     "form": "D",
+     "amount_sold": 50000.0
+    }
+   ]
+  },
   {
    "id": "D-2166744-021-606010",
    "type": "Fundraise",
